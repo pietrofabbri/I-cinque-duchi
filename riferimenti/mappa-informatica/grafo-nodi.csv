@@ -1,0 +1,2376 @@
+id,area,titolo,liv_min,liv_max,profondita,prerequisiti_diretti
+A1.1.1,A,"Numeri naturali: successore, operazioni, ordinamento",1,1,0,
+A1.1.2,A,"Interi relativi, valore assoluto",1,1,1,A1.1.1
+A1.1.3,A,"Razionali: frazioni, rappresentazione decimale limitata e periodica",1,1,2,A1.1.2
+A1.1.4,A,"Reali e irrazionali; approssimazione, cifre significative",1,1,3,A1.1.3
+A1.1.5,A,Notazione scientifica e ordini di grandezza,1,1,4,A1.1.4 A1.2.1
+A1.2.1,A,Potenze a esponente intero e loro proprietà,1,1,2,A1.1.2
+A1.2.2,A,Potenze di 2 e di 10 (tabella da 2⁰ a 2²⁰; 2¹⁰ ≈ 10³),1,1,3,A1.2.1
+A1.2.3,A,Radici ed esponenti razionali,1,1,4,A1.2.1 A1.1.4
+A1.2.4,A,Funzione esponenziale; crescita esponenziale,2,2,6,A1.2.3 A3.3.1
+A1.2.5,A,"Logaritmi (in particolare log₂), proprietà, cambiamento di base",2,2,7,A1.2.4
+A1.2.6,A,"Confronto di crescite: costante, logaritmica, lineare, n log n, polinomiale, esponenziale, fattoriale",2,2,8,A1.2.5 A3.3.5
+A1.3.1,A,Divisione euclidea: quoziente e resto,1,1,1,A1.1.1
+A1.3.2,A,"Multipli, divisori, criteri di divisibilità",1,1,2,A1.3.1
+A1.3.3,A,"Numeri primi, crivello di Eratostene, fattorizzazione unica",1,1,3,A1.3.2
+A1.3.4,A,MCD e mcm; algoritmo di Euclide,1,1,4,A1.3.3
+A1.3.5,A,"Identità di Bézout, algoritmo di Euclide esteso",3,3,5,A1.3.4 A1.1.2
+A1.4.1,A,"Congruenze, ""aritmetica dell'orologio""",1,2,2,A1.3.1
+A1.4.2,A,"Operazioni modulo n, inverso moltiplicativo",3,3,6,A1.4.1 A1.3.5
+A1.4.3,A,Esponenziazione modulare veloce (square-and-multiply),3,3,7,A1.4.2 A1.2.1
+A1.4.4,A,Piccolo teorema di Fermat; funzione φ e teorema di Eulero,3,3,7,A1.4.2 A1.3.3
+A1.4.5,A,Teorema cinese del resto,3,3,7,A1.4.2
+A1.5.1,A,"Espressioni letterali; la lettera come incognita, parametro, variabile",1,1,2,A1.1.2
+A1.5.2,A,Equazioni e disequazioni lineari,1,1,3,A1.5.1
+A1.5.3,A,Sistemi lineari,1,2,4,A1.5.2
+A1.5.4,A,Polinomi; equazioni di secondo grado,1,2,4,A1.5.2
+A1.5.5,A,"Sommatorie e produttorie (notazione Σ, Π); somme notevoli aritmetiche e geometriche",2,2,3,A1.5.1 A1.2.1
+A2.1.1,A,Enunciati e valori di verità,1,1,0,
+A2.1.2,A,"Connettivi NOT, AND, OR",1,1,1,A2.1.1
+A2.1.3,A,"XOR, implicazione, bicondizionale; NAND e NOR",1,1,2,A2.1.2
+A2.1.4,A,Tavole di verità; tautologie e contraddizioni,1,1,3,A2.1.3
+A2.1.5,A,Equivalenze logiche; leggi di De Morgan,1,1,4,A2.1.4
+A2.1.6,A,"Forme normali congiuntiva e disgiuntiva (CNF, DNF)",2,2,5,A2.1.5
+A2.1.7,A,"Conseguenza logica; regole di inferenza (modus ponens, modus tollens); deduzione naturale",2,3,4,A2.1.4
+A2.1.8,A,Completezza funzionale (ogni funzione booleana si esprime con i soli NAND),2,2,6,A2.1.6
+A2.2.1,A,"Predicati, dominio, variabili libere e vincolate",2,2,4,A2.1.4 A3.1.1
+A2.2.2,A,Quantificatori ∀ ed ∃; negazione dei quantificatori,2,2,5,A2.2.1
+A2.2.3,A,Formalizzare enunciati del linguaggio naturale,2,2,6,A2.2.2
+A2.2.4,A,Interpretazioni e modelli (semantica di Tarski),3,3,6,A2.2.2 A3.3.1
+A2.2.5,A,"Forma a clausole, unificazione, risoluzione",3,3,7,A2.2.4 A2.1.6
+A2.3.1,A,"Che cos'è una dimostrazione: ipotesi, tesi, controesempio",2,2,5,A2.1.7
+A2.3.2,A,Dimostrazione diretta e per contrapposizione,2,2,6,A2.3.1
+A2.3.3,A,Dimostrazione per assurdo,2,2,6,A2.3.1
+A2.3.4,A,Induzione matematica (semplice e forte),2,2,7,A2.3.2 A1.5.5
+A2.3.5,A,"Induzione strutturale (su liste, alberi, formule)",3,3,8,A2.3.4 A3.5
+A2.3.6,A,Invarianti: dimostrare che una proprietà si conserva a ogni passo,2,3,8,A2.3.4
+A2.4.1,A,Sintassi e semantica di un linguaggio logico,3,3,7,A2.2.4
+A2.4.2,A,Assiomi e regole di inferenza; derivazioni,3,3,8,A2.4.1 A2.1.7
+A2.4.3,A,Correttezza e completezza (teorema di completezza di Gödel),3,3,9,A2.4.2
+A2.4.4,A,Decidibilità della logica proposizionale; semi-decidibilità della logica del primo ordine,3,4,11,A2.4.3 F4.2
+A2.5.1,A,Aritmetica di Peano,4,4,9,A2.4.2 A2.3.4
+A2.5.2,A,Teoremi di incompletezza di Gödel e loro legame con il problema della fermata,4,4,11,A2.5.1 F4.2
+A2.6.1,A,Logiche a più valori (a tre valori: il NULL di SQL),2,3,4,A2.1.4
+A2.6.2,A,Logica fuzzy: gradi di verità,3,3,6,A2.1.4 A3.3.1
+A2.6.3,A,Logica modale: necessità e possibilità,4,4,7,A2.2.4
+A2.6.4,A,"Logiche temporali (LTL, CTL)",4,4,8,A2.6.3
+A2.6.5,A,Logica intuizionista,4,4,9,A2.4.2
+A3.1.1,A,"Insieme e appartenenza; rappresentazioni per elencazione, per proprietà, con diagrammi di Venn",1,1,0,
+A3.1.2,A,"Sottoinsiemi, insieme vuoto, insieme delle parti",1,1,1,A3.1.1
+A3.1.3,A,"Unione, intersezione, differenza, complemento; corrispondenza con i connettivi logici",1,1,2,A3.1.1 A2.1.2
+A3.1.4,A,Prodotto cartesiano; coppie e n-uple,1,2,3,A3.1.3
+A3.1.5,A,"Alfabeti, stringhe, sequenze; multiinsiemi",2,2,4,A3.1.4
+A3.2.1,A,Relazione binaria; rappresentazioni con matrice e con grafo,1,2,4,A3.1.4
+A3.2.2,A,"Proprietà: riflessiva, simmetrica, antisimmetrica, transitiva",2,2,5,A3.2.1
+A3.2.3,A,"Relazioni di equivalenza, classi, partizioni",2,2,6,A3.2.2
+A3.2.4,A,Ordini parziali e totali; diagrammi di Hasse,2,3,6,A3.2.2
+A3.2.5,A,Chiusura transitiva,3,3,6,A3.2.2
+A3.3.1,A,"Funzione come relazione; dominio, codominio, immagine",1,2,5,A3.2.1
+A3.3.2,A,"Funzioni iniettive, suriettive, biiettive; funzione inversa",2,2,6,A3.3.1
+A3.3.3,A,Composizione di funzioni,2,2,6,A3.3.1
+A3.3.4,A,"Funzioni parziali, funzioni di più argomenti, currying",3,3,7,A3.3.3 A3.1.4
+A3.3.5,A,"Funzioni notevoli per l'informatica: parte intera inferiore e superiore, mod, fattoriale",2,2,6,A3.3.1 A1.3.1
+A3.4.1,A,Cardinalità finita; corrispondenza biunivoca,1,1,1,A3.1.1
+A3.4.2,A,Insiemi infiniti numerabili,3,3,7,A3.4.1 A3.3.2
+A3.4.3,A,Diagonalizzazione di Cantor; insiemi non numerabili,3,3,8,A3.4.2 A2.3.3
+A3.5,A,"Definire per casi base e casi induttivi (numeri naturali, liste, alberi, espressioni)",2,3,6,A3.3.1
+A4.1.1,A,Principi della somma e del prodotto; configurazioni possibili con n bit (2ⁿ),1,1,3,A1.2.1 A3.1.2
+A4.1.2,A,"Permutazioni, disposizioni, combinazioni",2,2,7,A4.1.1 A3.3.5
+A4.1.3,A,"Coefficienti binomiali, triangolo di Tartaglia",2,2,8,A4.1.2
+A4.1.4,A,Principio dei cassetti,2,2,4,A4.1.1
+A4.1.5,A,Principio di inclusione-esclusione,3,3,8,A4.1.2 A3.1.3
+A4.1.6,A,Funzioni generatrici,4,4,11,A4.1.3 A6.1.5
+A4.2.1,A,Successioni definite per ricorrenza (Fibonacci),2,2,7,A3.5
+A4.2.2,A,Progressioni aritmetiche e geometriche,2,2,4,A1.5.5
+A4.2.3,A,Soluzione di ricorrenze lineari,3,3,8,A4.2.1 A1.5.4
+A4.2.4,A,"Ricorrenze ""divide et impera"" e teorema master",3,3,8,A4.2.1 A1.2.5
+A4.2.5,A,La successione di Fibonacci e il rapporto aureo,2,3,8,A4.2.1
+A4.3.1,A,"Grafo: nodi, archi; orientato e non orientato; pesato",1,2,5,A3.2.1
+A4.3.2,A,"Grado, cammini, cicli, connessione (i ponti di Königsberg)",2,2,6,A4.3.1
+A4.3.3,A,"Alberi: radice, foglie, altezza; alberi ricoprenti",2,2,7,A4.3.2
+A4.3.4,A,Grafi orientati aciclici (DAG) e ordinamento topologico,2,3,7,A4.3.2 A3.2.4
+A4.3.5,A,Grafi bipartiti e abbinamenti (matching),3,3,7,A4.3.2
+A4.3.6,A,Grafi planari e colorazione,3,3,7,A4.3.2
+A4.3.7,A,Cammini euleriani e hamiltoniani,2,3,7,A4.3.2
+A4.3.8,A,"Grafi casuali, reti small-world e a invarianza di scala",4,4,11,A4.3.2 A7.3.1
+A4.4.1,A,"Operazioni e proprietà: associativa, commutativa, elemento neutro, inverso",2,2,6,A3.3.1
+A4.4.2,A,"Gruppi, gruppi ciclici",3,3,7,A4.4.1 A1.4.2
+A4.4.3,A,Anelli e campi; ℤₚ,3,3,8,A4.4.2
+A4.4.4,A,Polinomi su campi finiti; campi di Galois GF(2ⁿ),4,4,9,A4.4.3 A1.5.4
+A4.4.5,A,Reticoli d'ordine e algebre di Boole come struttura,3,3,7,A3.2.4 A4.4.1
+A4.4.6,A,Curve ellittiche su campi finiti,4,4,9,A4.4.3
+A5.1.1,A,Vettori nel piano e nello spazio; componenti,1,2,4,A1.1.4
+A5.1.2,A,Somma di vettori e prodotto per uno scalare,2,2,5,A5.1.1
+A5.1.3,A,"Prodotto scalare, norma, distanza, similarità del coseno",2,2,10,A5.1.2 A6.1.2
+A5.1.4,A,Prodotto vettoriale,2,2,6,A5.1.2
+A5.1.5,A,Matrici e operazioni elementari; un'immagine come matrice,2,2,6,A5.1.2
+A5.1.6,A,Prodotto matriciale,2,2,11,A5.1.5 A5.1.3
+A5.1.7,A,Determinante e matrice inversa,2,3,12,A5.1.6
+A5.1.8,A,Risoluzione di sistemi lineari: eliminazione di Gauss,2,3,7,A5.1.5 A1.5.3
+A5.2.1,A,"Spazio vettoriale, indipendenza lineare, base, dimensione",3,3,6,A5.1.2
+A5.2.2,A,"Trasformazioni lineari come matrici (rotazione, scala, riflessione)",2,3,12,A5.1.6 A6.1.2
+A5.2.3,A,Coordinate omogenee e trasformazioni affini,3,3,13,A5.2.2
+A5.2.4,A,"Ortogonalità, proiezioni, minimi quadrati",3,3,11,A5.2.1 A5.1.3
+A5.3.1,A,Autovalori e autovettori,3,3,13,A5.2.2 A5.1.7
+A5.3.2,A,Diagonalizzazione; decomposizione ai valori singolari (SVD),3,4,14,A5.3.1 A5.2.4
+A5.3.3,A,Matrici stocastiche e vettore stazionario,3,3,14,A5.3.1 A7.2.2
+A5.4.1,A,"Numeri complessi: forma algebrica, trigonometrica, esponenziale",2,3,10,A1.5.4 A6.1.2
+A5.4.2,A,"Spazi vettoriali complessi, prodotto hermitiano, notazione di Dirac (bra-ket)",4,4,11,A5.4.1 A5.2.1
+A5.4.3,A,Matrici unitarie ed hermitiane,4,4,14,A5.4.2 A5.3.1
+A5.4.4,A,Prodotto tensoriale,4,4,12,A5.4.2
+A6.1.1,A,"Funzioni elementari e loro grafici: lineari, quadratiche, esponenziali, logaritmiche",2,2,8,A3.3.1 A1.2.5
+A6.1.2,A,"Funzioni trigonometriche; oscillazioni: periodo, frequenza, fase",2,2,9,A6.1.1
+A6.1.3,A,Limiti e comportamento asintotico,2,2,9,A6.1.1
+A6.1.4,A,Continuità,2,2,10,A6.1.3
+A6.1.5,A,Successioni e serie numeriche; convergenza,2,3,10,A6.1.3 A4.2.2
+A6.2.1,A,Derivata come tasso di variazione,2,2,11,A6.1.4
+A6.2.2,A,Regole di derivazione; regola della catena,2,2,12,A6.2.1
+A6.2.3,A,Massimi e minimi,2,2,13,A6.2.2
+A6.2.4,A,"Funzioni di più variabili, derivate parziali, gradiente",3,3,13,A6.2.2 A5.1.2
+A6.2.5,A,Discesa del gradiente,3,3,14,A6.2.4 A6.2.3
+A6.2.6,A,Differenziazione automatica sul grafo computazionale,3,4,13,A6.2.2 A4.3.4
+A6.2.7,A,Serie di Taylor e approssimazione polinomiale,3,3,13,A6.2.2 A6.1.5
+A6.3.1,A,Integrale come area e come accumulo,2,2,11,A6.1.4
+A6.3.2,A,Teorema fondamentale del calcolo; tecniche di integrazione,2,3,13,A6.3.1 A6.2.2
+A6.3.3,A,Integrali multipli,3,3,14,A6.3.2 A6.2.4
+A6.4.1,A,Modelli dinamici elementari: crescita e decadimento,2,3,12,A6.2.1 A1.2.4
+A6.4.2,A,Equazioni differenziali ordinarie lineari di 1° e 2° ordine; oscillatori,3,3,14,A6.4.1 A6.3.2
+A6.4.3,A,Sistemi di equazioni differenziali; stabilità degli equilibri,3,3,15,A6.4.2 A5.3.1
+A6.4.4,A,Soluzione numerica (metodi di Eulero e di Runge-Kutta),3,3,13,A6.4.1 A10.1.1
+A6.4.5,A,"Equazioni alle derivate parziali (calore, onde)",4,4,15,A6.4.2 A6.2.4
+A6.4.6,A,Trasformata di Laplace e funzione di trasferimento,3,3,15,A6.4.2 A5.4.1
+A6.5.1,A,Idea di spettro: un segnale come somma di sinusoidi,2,2,10,A6.1.2
+A6.5.2,A,Serie di Fourier,3,3,14,A6.5.1 A6.3.2 A5.4.1
+A6.5.3,A,Trasformata di Fourier continua,3,3,15,A6.5.2
+A6.5.4,A,Trasformata discreta (DFT) e algoritmo FFT,3,3,16,A6.5.3 E8
+A6.5.5,A,Convoluzione e filtri,3,3,16,A6.5.3
+A6.5.6,A,Trasformata coseno discreta (DCT) e wavelet,3,4,17,A6.5.4
+A6.5.7,A,Campionamento e aliasing (fondamento del teorema di Nyquist-Shannon),3,3,16,A6.5.3
+A7.1.1,A,Popolazione e campione; variabili qualitative e quantitative,1,1,0,
+A7.1.2,A,Distribuzioni di frequenza; tabelle e grafici,1,1,1,A7.1.1
+A7.1.3,A,"Media, mediana, moda",1,1,2,A7.1.2
+A7.1.4,A,"Varianza, deviazione standard, quartili",1,2,5,A7.1.3 A1.2.3
+A7.1.5,A,Correlazione e regressione lineare semplice,2,2,6,A7.1.4
+A7.1.6,A,Correlazione e causalità; paradosso di Simpson,2,2,7,A7.1.5
+A7.2.1,A,"Esperimento aleatorio, spazio campionario, eventi",1,2,3,A3.1.3
+A7.2.2,A,"Definizioni di probabilità (classica, frequentista, soggettiva); assiomi",2,2,8,A7.2.1 A4.1.2
+A7.2.3,A,Probabilità condizionata e indipendenza,2,2,9,A7.2.2
+A7.2.4,A,Teorema di Bayes,2,2,10,A7.2.3
+A7.2.5,A,Numeri pseudocasuali e generatori,2,2,9,A7.2.2 A1.4.1
+A7.2.6,A,Il problema di Monty Hall simulato,2,2,10,A7.2.3
+A7.3.1,A,"Variabili discrete: Bernoulli, binomiale, geometrica, Poisson",2,2,10,A7.2.3 A4.1.3
+A7.3.2,A,Valore atteso e varianza,2,2,11,A7.3.1 A7.1.4
+A7.3.3,A,"Variabili continue: uniforme, esponenziale, normale",2,3,12,A7.3.2 A6.3.1
+A7.3.4,A,Legge dei grandi numeri e teorema del limite centrale,3,3,13,A7.3.3
+A7.3.5,A,"Distribuzioni congiunte, covarianza",3,3,15,A7.3.3 A6.3.3
+A7.3.6,A,"Disuguaglianze di concentrazione (Markov, Čebyšëv, Chernoff)",4,4,14,A7.3.4
+A7.4.1,A,Stimatori e intervalli di confidenza,3,3,14,A7.3.4
+A7.4.2,A,Test di ipotesi e p-value,3,3,15,A7.4.1
+A7.4.3,A,Stima di massima verosimiglianza,3,3,15,A7.4.1 A6.2.3
+A7.4.4,A,Inferenza bayesiana,3,4,16,A7.4.3 A7.2.4
+A7.4.5,A,Esperimenti controllati e A/B test,3,3,16,A7.4.2
+A7.4.6,A,Ricampionamento: bootstrap e validazione incrociata,3,3,15,A7.4.1
+A7.5.1,A,Catene di Markov: stati e matrice di transizione,3,3,12,A7.2.3 A5.1.6
+A7.5.2,A,Distribuzione stazionaria,3,3,15,A7.5.1 A5.3.3
+A7.5.3,A,Passeggiate aleatorie,3,3,13,A7.5.1
+A7.5.4,A,Processi di Poisson e teoria delle code (M/M/1),3,3,13,A7.5.1 A7.3.3
+A7.5.5,A,Processi decisionali di Markov (MDP),3,4,13,A7.5.1 A7.3.2
+A7.5.6,A,Modelli di Markov nascosti (HMM),4,4,16,A7.5.1 A7.4.3
+A8.1.1,A,Quantità di informazione di un evento (−log₂ p); il bit come unità di misura,2,2,9,A1.2.5 A7.2.2
+A8.1.2,A,Entropia di una sorgente,2,3,12,A8.1.1 A7.3.2
+A8.1.3,A,Entropia congiunta e condizionata; informazione mutua,3,3,13,A8.1.2 A7.2.3
+A8.1.4,A,Ridondanza del linguaggio naturale (esperimento di Shannon),2,3,13,A8.1.2
+A8.2.1,A,Codici a lunghezza fissa e variabile; codici prefissi,2,2,8,A3.1.5 A4.3.3
+A8.2.2,A,Disuguaglianza di Kraft,3,3,9,A8.2.1
+A8.2.3,A,Primo teorema di Shannon (limite alla compressione),3,3,13,A8.2.2 A8.1.2
+A8.2.4,A,Codifica di Huffman e codifica aritmetica,2,3,13,A8.2.1 A8.1.2
+A8.3.1,A,Modelli di canale (canale binario simmetrico); il rumore,3,3,13,A8.1.2 A7.3.1
+A8.3.2,A,Capacità di canale; secondo teorema di Shannon,3,3,14,A8.3.1 A8.1.3
+A8.3.3,A,Distanza di Hamming; ridondanza per rilevare e correggere errori,2,2,5,A3.1.5 A4.1.1
+A8.4.1,A,Entropia incrociata,3,3,13,A8.1.2
+A8.4.2,A,Divergenza di Kullback-Leibler,3,4,14,A8.4.1
+A8.4.3,A,Principio di minima lunghezza di descrizione (MDL),4,4,14,A8.2.3
+A9.1.1,A,"Modellare un problema di ottimizzazione: variabili decisionali, vincoli, funzione obiettivo",2,2,4,A1.5.2
+A9.1.2,A,Programmazione lineare in due variabili: metodo grafico,2,2,5,A9.1.1 A1.5.3
+A9.1.3,A,Metodo del simplesso; dualità,3,3,8,A9.1.2 A5.1.8
+A9.1.4,A,Programmazione intera; branch and bound,3,3,13,A9.1.3 E8
+A9.1.5,A,"Problemi classici: zaino, commesso viaggiatore, scheduling, flussi su reti",3,3,7,A9.1.1 A4.3.2
+A9.2.1,A,Ottimizzazione non vincolata,3,3,15,A6.2.5
+A9.2.2,A,Funzioni e insiemi convessi,3,3,16,A9.2.1
+A9.2.3,A,"Metodi stocastici (SGD, Adam)",3,4,16,A9.2.1 A7.3.2
+A9.2.4,A,Ottimizzazione vincolata; moltiplicatori di Lagrange,3,3,17,A9.2.2
+A9.3.1,A,"Ricerca locale, hill climbing",2,3,5,A9.1.1
+A9.3.2,A,"Simulated annealing, tabu search",3,3,9,A9.3.1 A7.2.2
+A9.3.3,A,Algoritmi genetici,3,3,10,A9.3.1 A7.2.5
+A9.3.4,A,Ottimizzazione multi-obiettivo; frontiera di Pareto,3,4,7,A9.1.1 A3.2.4
+A9.4.1,A,Decisioni in condizioni di incertezza; utilità attesa,2,3,12,A7.3.2
+A9.4.2,A,Giochi in forma normale; dilemma del prigioniero; equilibrio di Nash,2,3,13,A9.4.1
+A9.4.3,A,Giochi a somma zero e strategia minimax,2,3,14,A9.4.2
+A10.1.1,A,Errore assoluto e relativo,2,2,4,A1.1.4
+A10.1.2,A,"Aritmetica in virgola mobile: epsilon di macchina, cancellazione numerica",2,3,14,A10.1.1 B2.5.5
+A10.1.3,A,Condizionamento di un problema e stabilità di un algoritmo,3,3,15,A10.1.2 A6.2.1
+A10.1.4,A,Incidenti causati da errori numerici (missile Patriot),3,3,15,A10.1.2
+A10.1.5,A,Aritmetica esatta: frazioni e decimali a precisione arbitraria in Python,3,3,15,A10.1.2
+A10.2.1,A,Zeri di funzioni: bisezione e metodo di Newton,2,3,12,A6.1.4 A6.2.1
+A10.2.2,A,Interpolazione polinomiale e spline,3,3,8,A1.5.4 A5.1.8
+A10.2.3,A,"Integrazione numerica (trapezi, Simpson)",3,3,12,A6.3.1 A10.1.1
+A10.2.4,A,Metodo delle secanti e regula falsi,3,3,13,A10.2.1
+A10.2.5,A,Il metodo di Erone per la radice quadrata come caso del metodo di Newton,3,3,13,A6.2.2
+A10.2.6,A,Lunghezze di curve e volumi calcolati numericamente,3,3,13,A10.2.3
+A10.2.7,A,Integrare numericamente dati sperimentali (dalla velocità allo spazio),3,3,13,A10.2.3
+A10.3.1,A,"Fattorizzazione LU; metodi iterativi (Jacobi, Gauss-Seidel)",3,3,16,A5.1.8 A10.1.3
+A10.3.2,A,Matrici sparse,3,4,17,A10.3.1 E6.1
+A10.3.3,A,Calcolo numerico degli autovalori (metodo delle potenze),3,3,17,A5.3.1 A10.3.1
+A11.1,A,Test di primalità probabilistici (Miller-Rabin),3,4,10,A1.4.4 A7.2.3
+A11.2,A,Fattorizzazione di interi e sua difficoltà computazionale,4,4,8,A1.3.3 A1.4.3
+A11.3,A,Logaritmo discreto,4,4,8,A4.4.2 A1.4.3
+A11.4,A,Reticoli (lattice) e problemi difficili su reticolo,4,4,9,A5.2.1 A11.2
+B1.1,B,"Dato, informazione, conoscenza: differenze",1,1,0,
+B1.2,B,Segnale; grandezze analogiche e digitali,1,1,1,B1.1
+B1.3,B,Discretizzazione: campionare nel tempo e quantizzare i valori (idea intuitiva),1,1,3,B1.2 A1.1.3
+B1.4,B,Codifica: associare simboli a configurazioni; un codice come corrispondenza,1,1,1,B1.1 A3.1.1
+B1.5,B,Il bit come unità minima; quante informazioni distinguono n bit,1,1,4,B1.4 A4.1.1
+B1.6,B,Perché il binario: due stati fisici stabili e distinguibili,1,1,5,B1.5
+B1.7,B,"Vantaggi e limiti del digitale: copie identiche, robustezza al rumore, obsolescenza dei supporti",1,1,4,B1.3
+B1.8,B,"Strumenti analogici e digitali a confronto (orologi, termometri, dischi in vinile e streaming)",1,1,2,B1.2
+B1.9,B,Il gioco delle venti domande: dimezzare le possibilità,1,1,5,B1.5
+B1.10,B,"Segnalazioni a due simboli nella storia (fuochi, bandiere, telegrafo)",1,1,2,B1.4
+B2.1.1,B,Sistemi additivi (numeri romani) e posizionali; la base,1,1,3,A1.1.1 A1.2.1
+B2.1.2,B,Numerazione binaria: contare in binario,1,1,4,B2.1.1 A1.2.2
+B2.1.3,B,Conversione binario → decimale (somma di potenze),1,1,5,B2.1.2
+B2.1.4,B,Conversione decimale → binario (divisioni successive),1,1,5,B2.1.2 A1.3.1
+B2.1.5,B,Conversione fra basi qualsiasi,1,1,6,B2.1.3 B2.1.4
+B2.1.6,B,Numeri frazionari in binario (moltiplicazioni successive); frazioni non rappresentabili esattamente,1,2,7,B2.1.5 A1.1.3
+B2.1.7,B,"Sistemi di numerazione di altre culture: babilonese (base 60), maya (base 20)",1,1,4,B2.1.1
+B2.1.8,B,"Tracce di altre basi nella vita quotidiana: ore, minuti, dozzine",1,1,4,B2.1.1
+B2.2.1,B,Basi 8 e 16,1,1,7,B2.1.5
+B2.2.2,B,Conversione rapida binario ↔ esadecimale per gruppi di 4 bit,1,1,8,B2.2.1
+B2.2.3,B,"Usi dell'esadecimale: colori, indirizzi di memoria, indirizzi MAC, dump",1,1,9,B2.2.2
+B2.2.4,B,La codifica Base64: dati binari scritti come testo,1,2,9,B2.2.2
+B2.3.1,B,Addizione binaria e riporto,1,1,5,B2.1.2
+B2.3.2,B,Sottrazione binaria e prestito,1,1,6,B2.3.1
+B2.3.3,B,Moltiplicazione e divisione binaria; lo scorrimento (shift) come ×2 e ÷2,1,2,6,B2.3.1
+B2.3.4,B,Parole di lunghezza fissa; overflow,1,1,6,B2.3.1 B3.1
+B2.3.5,B,"Operazioni bit a bit (AND, OR, XOR, NOT) e maschere",2,2,5,B2.1.2 A2.1.3
+B2.4.1,B,Modulo e segno,1,1,7,B2.3.4
+B2.4.2,B,Complemento a 1,1,2,8,B2.4.1
+B2.4.3,B,Complemento a 2: rappresentazione e intervallo rappresentabile,1,2,9,B2.4.2 A1.4.1
+B2.4.4,B,Sottrazione come somma in complemento a 2; overflow con segno,2,2,10,B2.4.3 B2.3.2
+B2.4.5,B,Rappresentazione in eccesso (con bias),2,2,10,B2.4.3
+B2.4.6,B,"Tipi interi con e senza segno nei linguaggi (int, unsigned, long)",2,2,10,B2.4.3
+B2.4.7,B,"Errori famosi dovuti all'overflow (Ariane 5, problema dell'anno 2038)",2,2,11,B2.4.4
+B2.5.1,B,Virgola fissa,2,2,8,B2.1.6
+B2.5.2,B,"Notazione scientifica in base 2: segno, mantissa, esponente",2,2,11,B2.5.1 A1.1.5 B2.4.5
+B2.5.3,B,Standard IEEE 754 a precisione singola e doppia,2,2,12,B2.5.2
+B2.5.4,B,"Valori speciali: zero con segno, infiniti, NaN, numeri denormalizzati",2,3,13,B2.5.3
+B2.5.5,B,"Errori di rappresentazione (0,1 + 0,2 ≠ 0,3) e arrotondamento",2,2,13,B2.5.3
+B2.5.6,B,"Formati ridotti per l'IA (half, bfloat16, int8)",3,3,13,B2.5.3
+B2.6.1,B,BCD (decimale codificato in binario),2,2,7,B2.1.5
+B2.6.2,B,Codice Gray,2,2,5,B2.1.2
+B2.6.3,B,Interi a precisione arbitraria (bignum),2,3,7,B2.3.4
+B2.6.4,B,Ordine dei byte: big-endian e little-endian,2,2,6,B3.1
+B3.1,B,"Bit, nibble, byte, word",1,1,5,B1.5
+B3.2,B,"Multipli SI (kB, MB, GB) e IEC (KiB, MiB, GiB); l'ambiguità nell'uso comune",1,1,6,B3.1 A1.2.2 A1.1.5
+B3.3,B,"Stimare dimensioni: una pagina di testo, una foto, una canzone, un film",1,1,7,B3.2
+B3.4,B,Velocità di trasmissione: bit/s e byte/s,1,1,7,B3.2
+B3.5,B,La crescita delle capacità di memoria nel tempo: dal kilobyte al petabyte,1,1,7,B3.2
+B4.1,B,"Caratteri, glifi, codici: l'idea di tabella di codifica",1,1,2,B1.4
+B4.2,B,"ASCII a 7 bit; caratteri di controllo; fine riga (LF, CR LF)",1,1,6,B4.1 B2.1.4
+B4.3,B,"ASCII esteso e code page (Latin-1, Windows-1252); il problema delle lettere accentate",1,1,7,B4.2
+B4.4,B,"Unicode: punti di codice, piani, repertorio universale",1,2,8,B4.3 B2.2.1
+B4.5,B,"UTF-8: codifica a lunghezza variabile, compatibilità con ASCII",2,2,9,B4.4 B2.3.5
+B4.6,B,UTF-16 e UTF-32; il BOM,2,2,10,B4.5 B2.6.4
+B4.7,B,Mojibake: errori di decodifica e come diagnosticarli,2,2,10,B4.5
+B4.8,B,"Emoji, sequenze combinate, normalizzazione (NFC, NFD)",2,3,10,B4.5
+B4.9,B,Confronto e ordinamento di stringhe; collazione e maiuscole/minuscole secondo la lingua,2,3,9,B4.4
+B4.10,B,Scritture da destra a sinistra e non latine,3,3,9,B4.4
+B4.11,B,"Codici storici per il testo: Morse, Baudot, EBCDIC",1,1,3,B4.1
+B4.12,B,L'arte ASCII,1,1,7,B4.2
+B5.1.1,B,"Luce, spettro visibile, percezione del colore (i coni)",1,1,0,
+B5.1.2,B,Sintesi additiva (luce) e sottrattiva (pigmenti),1,1,1,B5.1.1
+B5.2.1,B,Modello RGB: canali e intensità da 0 a 255,1,1,6,B5.1.2 B3.1
+B5.2.2,B,Modello CMYK e stampa,1,1,2,B5.1.2
+B5.2.3,B,"Modelli HSV e HSL: tinta, saturazione, luminosità",1,2,7,B5.2.1
+B5.2.4,B,Scala di grigi; conversione da RGB con media pesata,1,1,7,B5.2.1 A7.1.3
+B5.2.5,B,"Canale alfa, trasparenza e composizione",2,2,7,B5.2.1
+B5.3.1,B,"Profondità di colore (1, 8, 24, 32 bit); numero di colori 2ⁿ",1,1,7,B5.2.1 A4.1.1
+B5.3.2,B,Palette e colori indicizzati,1,1,8,B5.3.1
+B5.3.3,B,Notazione esadecimale `#RRGGBB`,1,1,10,B5.2.1 B2.2.3
+B5.4.1,B,"Spazi colore e gamut (sRGB, Display P3)",2,2,7,B5.2.1
+B5.4.2,B,Correzione gamma; percezione non lineare,2,3,8,B5.4.1 A1.2.4
+B5.4.3,B,"Contrasto, accessibilità, daltonismo",2,2,8,B5.2.3
+B5.4.4,B,Gestione del colore e profili ICC,3,3,8,B5.4.1
+B6.1,B,Pixel; l'immagine raster come griglia,1,1,8,B5.3.1
+B6.2,B,"Risoluzione, PPI/DPI, dimensioni fisiche",1,1,9,B6.1
+B6.3,B,Peso di un'immagine non compressa (larghezza × altezza × profondità),1,1,9,B6.1 B3.2
+B6.4,B,"Immagini vettoriali: primitive geometriche, scalabilità",1,1,9,B6.1
+B6.5,B,Raster e vettoriale a confronto; rasterizzazione e vettorializzazione,1,2,10,B6.4
+B6.6,B,"Formati raster (BMP, PNG, GIF, JPEG, WebP) e quando usarli",1,2,10,B6.3 B9.1.1
+B6.7,B,"Formati vettoriali (SVG, PDF, EPS)",2,2,10,B6.4 B11.3
+B6.8,B,Metadati delle immagini (EXIF) e privacy,1,2,11,B6.6 B11.6
+B6.9,B,Ricampionamento e interpolazione (ingrandire e rimpicciolire),2,2,10,B6.2
+B6.10,B,Pixel art e sprite per videogiochi,1,2,11,B6.6
+B7.1,B,"Il suono: onda, frequenza, ampiezza, campo udibile",1,1,0,
+B7.2,B,Campionamento e frequenza di campionamento,1,1,4,B7.1 B1.3
+B7.3,B,"Quantizzazione: profondità in bit, rumore di quantizzazione",1,1,6,B7.2 B3.1
+B7.4,B,Teorema di Nyquist-Shannon e aliasing (intuitivo; formale in A6.5.7),2,2,10,B7.2 A6.1.2
+B7.5,B,Peso di un file audio (frequenza × bit × canali × durata),1,1,7,B7.3 B3.2
+B7.6,B,"Formati: WAV/PCM, FLAC, MP3, AAC, Opus",1,2,8,B7.5 B9.1.1
+B7.7,B,MIDI: rappresentazione simbolica della musica,1,1,2,B1.4
+B7.8,B,Decibel e scale logaritmiche,2,2,8,B7.1 A1.2.5
+B8.1,B,Fotogrammi e frequenza dei fotogrammi,1,1,9,B6.1
+B8.2,B,Peso del video non compresso; bitrate,1,1,10,B8.1 B6.3 B3.4
+B8.3,B,Compressione video: fotogrammi chiave e compensazione del moto,2,3,11,B8.2 B9.2.1
+B8.4,B,"Codec (H.264, H.265, AV1) e container (MP4, MKV, WebM)",2,2,12,B8.3 B7.6
+B8.5,B,Streaming e bitrate adattivo,2,2,13,B8.4
+B8.6,B,Sottotitoli e tracce multiple,2,2,13,B8.4 B4.5
+B9.1.1,B,Perché comprimere; rapporto di compressione,1,1,7,B3.2
+B9.1.2,B,Codifica a corse (RLE),1,1,8,B9.1.1
+B9.1.3,B,Codifica di Huffman: costruzione dell'albero,2,2,14,B9.1.1 A8.2.4
+B9.1.4,B,"Compressione a dizionario: LZ77, LZW, DEFLATE (ZIP, PNG)",2,3,9,B9.1.2
+B9.1.5,B,Limiti: nessun compressore riduce tutti i file,2,3,8,B9.1.1 A4.1.4
+B9.1.6,B,"Formati d'archivio: ZIP, 7z, tar",2,2,10,B9.1.4
+B9.2.1,B,Idea: eliminare ciò che non si percepisce,1,2,8,B9.1.1
+B9.2.2,B,La quantizzazione come fonte di perdita,2,2,9,B9.2.1 B7.3
+B9.2.3,B,"JPEG: sottocampionamento cromatico, DCT, quantizzazione",3,3,18,B9.2.2 A6.5.6
+B9.2.4,B,MP3 e AAC: il modello psicoacustico,3,3,18,B9.2.2 A6.5.6
+B9.2.5,B,Artefatti; compromesso fra qualità e dimensione,1,2,9,B9.2.1
+B9.2.6,B,Compressione con reti neurali,4,4,20,B9.2.3 O5
+B9.2.7,B,Esperimenti di ascolto e di visione con diversi livelli di compressione,2,2,10,B9.2.5
+B10.1.1,B,Errori di trasmissione e di memorizzazione; il rumore,1,1,5,B1.5
+B10.1.2,B,Bit di parità (pari e dispari),1,1,6,B10.1.1 A2.1.3
+B10.1.3,B,Parità bidimensionale,1,2,7,B10.1.2
+B10.1.4,B,Checksum e cifre di controllo,1,2,6,B10.1.1 A1.4.1
+B10.1.5,B,Rilevare o correggere: la ritrasmissione,2,2,7,B10.1.2
+B10.2.1,B,CRC come divisione polinomiale con XOR,2,3,7,B10.1.4 B2.3.5 A1.5.4
+B10.2.2,B,"CRC in Ethernet, ZIP, PNG",2,2,8,B10.2.1
+B10.3.1,B,Distanza minima di un codice,2,2,6,A8.3.3
+B10.3.2,B,"Codice di Hamming (7,4)",2,3,7,B10.3.1 B10.1.2
+B10.3.3,B,"Codici Reed-Solomon (CD, QR code)",4,4,10,B10.3.2 A4.4.4
+B10.3.4,B,"Codici moderni: LDPC, turbo, codici a fontana",4,4,15,B10.3.2 A8.3.2
+B10.3.5,B,Memorie ECC e RAID come applicazioni,2,3,8,B10.3.2
+B11.1,B,Dati tabellari: record e campi,1,1,1,B1.1
+B11.2,B,"CSV: separatori, virgolette, problemi comuni",1,1,7,B11.1 B4.2
+B11.3,B,"Dati gerarchici: XML, tag e attributi; documento ben formato e valido",2,2,8,B11.1 A4.3.3
+B11.4,B,"JSON: oggetti, array, tipi",2,2,2,B11.1
+B11.5,B,"YAML, TOML e file di configurazione",2,2,3,B11.4
+B11.6,B,Metadati,1,1,1,B1.1
+B11.7,B,"Schemi e validazione (XML Schema, JSON Schema)",2,3,9,B11.3 B11.4
+B11.8,B,"Formati binari e serializzazione (Protocol Buffers, MessagePack)",3,3,7,B11.4 B2.6.4
+B11.9,B,Formati aperti e proprietari; interoperabilità,1,2,2,B11.1
+B11.10,B,"Aprire dati pubblici in formato CSV (ISTAT, portali open data)",2,2,8,B11.2
+B12.1,B,Codici a barre (EAN-13) e cifra di controllo,1,1,7,B10.1.4
+B12.2,B,QR code: struttura e livelli di correzione,1,2,8,B12.1 B10.1.2
+B12.3,B,"Codici con controllo: ISBN, IBAN, codice fiscale, carte di pagamento (algoritmo di Luhn)",1,2,7,B10.1.4
+B12.4,B,RFID e NFC,2,2,8,B12.1
+B12.5,B,Identificatori univoci (UUID); l'hash come impronta,2,3,8,B2.2.1
+B13.1,B,Testo semplice e testo formattato,1,1,7,B4.2
+B13.2,B,"Font bitmap e vettoriali (TrueType, OpenType); famiglie e stili",1,2,10,B6.4 B4.4
+B13.3,B,"Rendering del testo: antialiasing, hinting, crenatura",2,3,11,B13.2
+B13.4,B,"Formati di documento: DOCX e ODF (XML compresso), PDF",2,2,10,B13.1 B11.3 B9.1.4
+B13.5,B,Markup leggero: Markdown,1,1,8,B13.1
+B13.6,B,Composizione tipografica con LaTeX,2,3,9,B13.5
+B13.7,B,Accessibilità dei documenti,2,2,11,B13.4
+B13.8,B,Firma digitale dei documenti; PDF/A per l'archiviazione,2,3,13,B13.4 N3.4.1
+B13.9,B,"Revisione e collaborazione sui documenti: commenti, revisioni, versioni",1,1,8,B13.1
+B13.10,B,Wiki e markup per la scrittura collaborativa,2,2,9,B13.5
+B13.11,B,Storia della tipografia: da Gutenberg ai caratteri digitali,1,2,11,B13.2
+B13.12,B,Caratteri e leggibilità: font ad alta leggibilità,2,2,11,B13.2
+C1.1,C,"Grandezze fisiche, unità SI, prefissi (milli, micro, nano)",1,1,5,A1.1.5
+C1.2,C,Carica elettrica; conduttori e isolanti,1,1,0,
+C1.3,C,"Corrente, tensione, resistenza",1,1,6,C1.2 C1.1
+C1.4,C,Legge di Ohm,1,1,7,C1.3 A1.5.2
+C1.5,C,Potenza ed energia elettrica; effetto Joule,1,1,8,C1.4
+C1.6,C,Circuiti in serie e in parallelo,1,1,8,C1.4
+C1.7,C,Leggi di Kirchhoff; partitore di tensione,2,2,9,C1.6 A1.5.3
+C1.8,C,Corrente continua e alternata; la rete elettrica,1,2,7,C1.3
+C1.9,C,"Strumenti di misura: multimetro, oscilloscopio",1,2,8,C1.4
+C1.10,C,Sicurezza elettrica,1,1,7,C1.3
+C2.1,C,Resistori; codice dei colori,1,1,8,C1.4
+C2.2,C,Condensatori: carica e scarica,2,2,8,C1.4
+C2.3,C,Circuito RC e costante di tempo,2,2,9,C2.2 C2.1 A1.2.4
+C2.4,C,Induttori; circuiti RL e RLC; risonanza,3,3,15,C2.3 A6.4.2
+C2.5,C,Breadboard e montaggio di circuiti,1,1,9,C1.6 C2.1
+C3.1,C,"Bande di energia: conduttori, isolanti, semiconduttori",2,2,1,C1.2
+C3.2,C,Silicio; drogaggio di tipo N e P,2,2,2,C3.1
+C3.3,C,Giunzione PN; diodo e raddrizzamento,2,2,8,C3.2 C1.8
+C3.4,C,LED e fotodiodi,2,2,9,C3.3
+C3.5,C,Celle fotovoltaiche,2,2,9,C3.3
+C4.1,C,Il transistor come interruttore comandato (idea intuitiva),1,1,7,C1.3
+C4.2,C,Transistor bipolare (BJT): funzionamento di base,2,2,9,C3.3
+C4.3,C,"MOSFET: canale, gate, tensione di soglia",2,3,8,C3.2 C4.1
+C4.4,C,Il transistor come amplificatore,2,3,10,C4.2
+C4.5,C,"Storia: relè, valvole termoioniche, transistor (1947)",1,1,8,C4.1
+C5.1,C,Porte logiche realizzate con interruttori (anche con relè),1,2,8,C4.1 D1.2
+C5.2,C,L'invertitore CMOS,3,3,9,C4.3 C5.1
+C5.3,C,Porte NAND e NOR in CMOS,3,3,10,C5.2 A2.1.8
+C5.4,C,"Livelli logici, margini di rumore, fan-out",2,3,9,C5.1
+C5.5,C,Ritardo di propagazione e consumo dinamico (∝ C·V²·f),3,3,10,C5.2 C2.2 C1.5
+C5.6,C,"Famiglie logiche (TTL, CMOS)",2,2,10,C5.4
+C6.1,C,Amplificatore operazionale ideale,2,3,10,C1.7
+C6.2,C,"Configurazioni invertente, non invertente, comparatore",2,3,11,C6.1
+C6.3,C,Filtri passa-basso e passa-alto,3,3,11,C2.3 A6.5.1
+C6.4,C,Oscillatori e generatori di clock (quarzo),3,3,16,C2.4
+C7.1,C,ADC: risoluzione e frequenza di conversione,2,2,12,B7.2 B7.3 C6.2
+C7.2,C,"Architetture di ADC (a rampa, ad approssimazioni successive, flash)",3,3,13,C7.1
+C7.3,C,"DAC; la PWM come conversione ""povera""",2,2,13,C7.1
+C8.1,C,"Dal componente discreto al circuito integrato (Kilby, Noyce)",1,2,8,C4.1
+C8.2,C,"Wafer di silicio, camere bianche",2,2,9,C8.1 C3.2
+C8.3,C,"Fotolitografia (anche EUV), drogaggio, strati di metallizzazione",2,3,10,C8.2
+C8.4,C,"Nodi di processo (""nanometri""): significato fisico e commerciale",2,3,11,C8.3
+C8.5,C,"Resa produttiva, difetti, binning",3,3,11,C8.3 A7.2.2
+C8.6,C,"Filiera dei semiconduttori: aziende fabless, fonderie, packaging",2,2,9,C8.1
+C9.1,C,"Enunciato e storia (1965, 1975); legge empirica, non legge fisica",1,2,9,C8.1 A1.2.2
+C9.2,C,Scaling di Dennard e sua fine (~2005); power wall,3,3,11,C9.1 C5.5
+C9.3,C,"Conseguenze: multicore, acceleratori specializzati, ""silicio scuro""",3,3,12,C9.2
+C9.4,C,"Oltre Moore: impilamento 3D, chiplet, nuovi materiali, ""More than Moore""",3,4,13,C9.3 C8.4
+C9.5,C,"Leggi analoghe: Kryder (memorie), Koomey (efficienza energetica), Nielsen (banda)",2,3,10,C9.1
+C9.6,C,"Limiti fisici: scala atomica, effetto tunnel, dissipazione termica",3,3,12,C9.2 C15.2
+C10.1,C,Principio della memorizzazione: stati fisici stabili,1,1,6,B1.6
+C10.2,C,"SRAM (flip-flop) e DRAM (condensatore, refresh)",2,3,9,C10.1 C2.2 C4.1
+C10.3,C,"Memorie non volatili: ROM, EEPROM, flash NAND e NOR; usura",2,3,9,C10.1 C4.3
+C10.4,C,"Dischi magnetici: piatti, testine, tempo di accesso",2,2,7,C10.1
+C10.5,C,"SSD: controller, wear leveling",2,3,10,C10.3
+C10.6,C,"Supporti ottici (CD, DVD, Blu-ray)",1,2,7,C10.1
+C10.7,C,Nastri magnetici e archiviazione a lungo termine,2,2,8,C10.4
+C10.8,C,"Memorie emergenti (MRAM, ReRAM, a cambiamento di fase)",4,4,10,C10.3
+C11.1,C,Dispositivi di input e di output: panoramica,1,1,0,
+C11.2,C,"Tastiera, mouse, encoder",1,2,1,C11.1
+C11.3,C,"Display (LCD, OLED, e-ink); risoluzione e frequenza di aggiornamento",1,2,10,C11.1 B6.2
+C11.4,C,"Stampanti (laser, a getto d'inchiostro, 3D)",1,1,3,C11.1 B5.2.2
+C11.5,C,Comunicazione seriale e parallela; il bus,2,2,8,C11.1 B3.4
+C11.6,C,"USB, HDMI, Thunderbolt: evoluzione e prestazioni",1,2,1,C11.1
+C11.7,C,"Protocolli per microcontrollori: UART, I²C, SPI",2,3,9,C11.5
+C12.1,C,PLD e CPLD,3,3,13,D2.9 D3.8
+C12.2,C,"FPGA: blocchi logici, tabelle di lookup, interconnessioni",3,3,14,C12.1
+C12.3,C,"Linguaggi di descrizione dell'hardware (VHDL, Verilog)",3,3,15,C12.2 G1
+C12.4,C,Simulazione e sintesi di un progetto,3,3,16,C12.3
+C12.5,C,FPGA come acceleratori,4,4,18,C12.2 D12
+C13.1,C,"Consumo di un dispositivo: potenza, energia, capacità delle batterie (mAh, Wh)",1,1,9,C1.5
+C13.2,C,"Dissipazione termica: dissipatori, ventole, raffreddamento a liquido",1,2,10,C13.1
+C13.3,C,Gestione dinamica di tensione e frequenza (DVFS),3,3,11,C5.5
+C13.4,C,Consumi dei data center; indicatore PUE,2,3,10,C13.1
+C13.5,C,Alimentatori e conversione AC/DC,2,2,9,C3.3 C1.8
+C14.1,C,"Onde elettromagnetiche: frequenza, lunghezza d'onda, spettro",1,2,1,B7.1
+C14.2,C,"Cavi in rame (doppino, coassiale); attenuazione e disturbi",2,2,7,C14.1 C1.3
+C14.3,C,"Fibra ottica: riflessione totale, fibre monomodali e multimodali",2,2,2,C14.1
+C14.4,C,"Radio: antenne, propagazione, bande libere e soggette a licenza",2,2,2,C14.1
+C14.5,C,Rapporto segnale/rumore,2,2,9,C14.2 B7.8
+C14.6,C,"Codifica di linea (NRZ, Manchester)",2,3,8,C14.2 B1.6
+C15.1,C,Quantizzazione dell'energia; il fotone,2,3,2,C14.1
+C15.2,C,Dualismo onda-particella; effetto tunnel,3,3,3,C15.1
+C15.3,C,Sovrapposizione e misura (a livello concettuale),3,3,9,C15.2 A7.2.2
+C15.4,C,Lo spin,3,4,10,C15.3
+C15.5,C,Postulati della meccanica quantistica (formalismo),4,4,12,C15.3 A5.4.2
+C16.1,C,"Flusso di progetto di un chip: specifica, RTL, sintesi, piazzamento e instradamento",3,4,17,C12.4 C8.3
+C16.2,C,Simulazione e verifica funzionale,3,4,18,C16.1
+C16.3,C,Verifica formale dell'hardware,4,4,20,C16.2 F9
+C16.4,C,"Collaudo del chip (test, scan chain)",4,4,18,C16.1
+C16.5,C,"Hardware aperto (RISC-V, strumenti EDA open source)",3,4,18,C16.1 D6
+C17.1,C,"Guasti permanenti e transitori; tasso di guasto, MTBF",2,3,12,C1.3 A7.3.2
+C17.2,C,Invecchiamento ed elettromigrazione,4,4,13,C17.1 C8.3
+C17.3,C,Errori indotti da radiazione (soft error),3,3,13,C17.1 C10.2
+C17.4,C,"Ridondanza: TMR, memorie ECC, sostituzione a caldo",3,3,13,C17.1 B10.3.5
+C18.1,C,Memristori e calcolo in memoria,4,4,14,C10.8 C9.4
+C18.2,C,Spintronica,4,4,11,C15.4 C10.8
+C18.3,C,Transistor a nanotubi e materiali bidimensionali (grafene),4,4,13,C4.3 C9.6
+C18.4,C,Elettronica flessibile e stampata,3,4,11,C8.3
+C18.5,C,Fotonica integrata su silicio,4,4,11,C14.3 C8.3
+D1.1,D,Variabili e funzioni booleane; tabella di verità di una funzione,1,1,4,A2.1.4
+D1.2,D,"Operatori e porte logiche AND, OR, NOT, NAND, NOR, XOR e i loro simboli",1,1,5,D1.1 A2.1.3
+D1.3,D,Proprietà e teoremi dell'algebra di Boole; De Morgan,1,2,6,D1.2 A2.1.5
+D1.4,D,Semplificazione algebrica,2,2,7,D1.3
+D1.5,D,Forme canoniche: mintermini e maxtermini,2,2,7,D1.3 A2.1.6
+D1.6,D,Mappe di Karnaugh,2,2,8,D1.5
+D1.7,D,Condizioni di indifferenza (don't care),2,2,9,D1.6
+D1.8,D,Metodo di Quine-McCluskey,3,3,9,D1.6
+D2.1,D,Dal problema alla tabella di verità allo schema del circuito,1,2,6,D1.2
+D2.2,D,"Simulatori di circuiti logici (Logisim, Digital)",1,1,6,D1.2
+D2.3,D,Multiplexer e demultiplexer,2,2,7,D2.1
+D2.4,D,Codificatori e decodificatori; decodificatore per display a 7 segmenti,2,2,8,D2.1 B2.6.1
+D2.5,D,Comparatori,2,2,7,D2.1
+D2.6,D,Semisommatore e sommatore completo,1,2,7,D2.1 B2.3.1
+D2.7,D,Sommatore a propagazione del riporto e con anticipo del riporto,2,3,8,D2.6
+D2.8,D,Sottrattore in complemento a 2,2,2,11,D2.7 B2.4.4
+D2.9,D,"ALU: operazioni aritmetiche e logiche; flag (zero, segno, riporto, overflow)",2,2,12,D2.8 D2.3
+D2.10,D,Moltiplicatori e circuiti di scorrimento,3,3,9,D2.7 B2.3.3
+D2.11,D,Ritardo di propagazione e cammino critico,3,3,11,D2.7 C5.5
+D2.12,D,Dalle porte ai transistor (collegamento con C5),2,3,9,D2.1 C5.1
+D3.1,D,La memoria come retroazione: il latch SR,2,2,7,D2.1
+D3.2,D,"Latch D; flip-flop D, JK, T",2,2,8,D3.1
+D3.3,D,Il segnale di clock; commutazione sul fronte,2,2,9,D3.2
+D3.4,D,Registri e registri a scorrimento,2,2,10,D3.3
+D3.5,D,Contatori sincroni e asincroni,2,2,10,D3.3 B2.1.2
+D3.6,D,Macchine a stati finiti di Moore e di Mealy,2,3,11,D3.4 F1.1
+D3.7,D,"Progettare una macchina a stati (semaforo, distributore)",2,3,12,D3.6 D1.6
+D3.8,D,Banchi di registri; piccole RAM costruite con flip-flop,2,3,11,D3.4 D2.4
+D3.9,D,Metastabilità; sincronizzazione fra domini di clock diversi,4,4,10,D3.3
+D4.1,D,Il programma memorizzato: dati e istruzioni nella stessa memoria,1,1,2,B1.4
+D4.2,D,"L'architettura di von Neumann: CPU, memoria, I/O, bus",1,1,3,D4.1
+D4.3,D,Architettura Harvard e Harvard modificata,2,2,4,D4.2
+D4.4,D,Il collo di bottiglia di von Neumann,2,2,4,D4.2
+D4.5,D,"Macchine didattiche (Little Man Computer, CPU simulate a 8 bit)",1,2,4,D4.2
+D5.1,D,"Registri: contatore di programma, registro istruzione, accumulatore, registri generali",1,2,4,D4.2
+D5.2,D,"Il ciclo di fetch, decodifica ed esecuzione",1,1,5,D5.1
+D5.3,D,Unità di controllo cablata e microprogrammata,3,3,12,D5.2 D3.6
+D5.4,D,Il percorso dei dati (datapath) di una CPU semplice,2,3,13,D5.2 D2.9 D3.8
+D5.5,D,"Clock, frequenza, cicli per istruzione (CPI)",2,2,10,D5.2 D3.3
+D5.6,D,"Costruire una CPU completa partendo dalle porte logiche (approccio ""nand2tetris"")",3,3,14,D5.4 D5.3
+D6.1,D,Istruzione macchina: codice operativo e operandi,2,2,9,D5.2 B2.2.2
+D6.2,D,"Tipi di istruzioni: trasferimento, aritmetiche, logiche, di salto",2,2,10,D6.1
+D6.3,D,"Modi di indirizzamento: immediato, diretto, indiretto, a registro, indicizzato",2,3,11,D6.2
+D6.4,D,Formato e codifica delle istruzioni,3,3,10,D6.1
+D6.5,D,CISC e RISC a confronto,2,3,12,D6.3
+D6.6,D,"Famiglie di processori: x86-64, ARM, RISC-V",2,3,13,D6.5
+D6.7,D,"Chiamate di sottoprogramma: stack, record di attivazione, convenzioni di chiamata",3,3,12,D6.3 E6.3.1
+D6.8,D,Ordine dei byte e allineamento in memoria,2,3,10,D6.1 B2.6.4
+D7.1,D,Dal linguaggio macchina all'assembly: i mnemonici,2,2,11,D6.2
+D7.2,D,"Programmi semplici: somme, confronti, cicli",2,2,12,D7.1 E3.4
+D7.3,D,Accesso alla memoria e agli array,2,3,13,D7.2 D6.3
+D7.4,D,Sottoprogrammi e uso dello stack,3,3,14,D7.3 D6.7
+D7.5,D,"Assemblatore, linker e formato dei file eseguibili",3,3,12,D7.1
+D7.6,D,Leggere l'assembly prodotto da un compilatore,3,3,15,D7.4
+D8.1,D,Indirizzi e celle di memoria; spazio di indirizzamento,1,2,4,D4.2 A1.2.2
+D8.2,D,"La gerarchia: registri, cache, RAM, memoria di massa (costo, capacità, velocità)",1,2,7,D8.1 C10.1
+D8.3,D,Località spaziale e temporale,2,2,8,D8.2
+D8.4,D,"Cache: blocchi; mappatura diretta, completamente associativa, associativa a insiemi",3,3,9,D8.3 B2.3.5
+D8.5,D,Politiche di sostituzione e di scrittura,3,3,10,D8.4
+D8.6,D,"Prestazioni: tasso di successo, tempo medio di accesso",3,3,12,D8.4 A7.3.2
+D8.7,D,"Memoria virtuale lato hardware: traduzione degli indirizzi, TLB",3,3,10,D8.4
+D8.8,D,Coerenza delle cache nei multiprocessori,3,4,14,D8.4 D11.1
+D9.1,D,Controller e porte di I/O,2,2,4,D4.2
+D9.2,D,I/O a controllo di programma (polling),2,2,5,D9.1
+D9.3,D,"Interruzioni: richiesta, gestione, priorità",2,3,6,D9.2
+D9.4,D,Accesso diretto alla memoria (DMA),3,3,7,D9.3
+D9.5,D,"Bus di sistema (dati, indirizzi, controllo); arbitraggio; PCI Express",2,3,9,D9.1 C11.5
+D9.6,D,I/O mappato in memoria,3,3,5,D9.1 D8.1
+D10.1,D,Misurare le prestazioni; legge di Amdahl nella versione di base,2,3,11,D5.5
+D10.2,D,Pipeline: stadi e throughput,3,3,14,D5.4
+D10.3,D,"Conflitti (hazard) strutturali, sui dati, di controllo; forwarding",3,3,15,D10.2
+D10.4,D,Predizione dei salti,3,3,16,D10.3
+D10.5,D,Processori superscalari ed esecuzione fuori ordine,3,4,16,D10.3
+D10.6,D,Esecuzione speculativa,4,4,17,D10.4 D10.5
+D10.7,D,Multithreading hardware (SMT),3,4,17,D10.5
+D11.1,D,Multiprocessori e multicore a memoria condivisa,3,3,13,D8.2 C9.3
+D11.2,D,"Tassonomia di Flynn (SISD, SIMD, MISD, MIMD)",2,3,4,D4.2
+D11.3,D,"Istruzioni vettoriali SIMD (SSE, AVX, NEON)",3,3,11,D11.2 D6.2
+D11.4,D,"GPU: migliaia di core semplici, modello SIMT",3,3,14,D11.2 D11.1
+D11.5,D,Architetture NUMA e interconnessioni,4,4,14,D11.1
+D12.1,D,Processori per segnali digitali (DSP),3,3,17,D6.5 A6.5.5
+D12.2,D,"Acceleratori per l'IA: TPU, NPU, unità tensoriali",3,4,15,D11.4 A5.1.6
+D12.3,D,Architetture sistoliche e dataflow,4,4,16,D12.2
+D12.4,D,"ASIC; confronto fra CPU, GPU, FPGA e ASIC",3,3,16,D12.2 C12.2
+D12.5,D,Architetture per il calcolo in memoria e neuromorfiche,4,4,17,D12.3 C18.1
+D13.1,D,"Microprocessore, microcontrollore, SoC: differenze",2,2,4,D4.2
+D13.2,D,"Periferiche integrate: timer, GPIO, ADC, UART",2,2,13,D13.1 C7.1 C11.7
+D13.3,D,Architetture per dispositivi mobili (core eterogenei),3,3,14,D13.1 D6.6
+D13.4,D,Consumi e modalità di risparmio energetico,2,3,10,D13.1 C13.1
+E1.1,E,"Problema, istanza, soluzione",1,1,0,
+E1.2,E,Scomporre un problema in sottoproblemi,1,1,1,E1.1
+E1.3,E,Riconoscere schemi ricorrenti,1,1,1,E1.1
+E1.4,E,Astrazione: che cosa tenere e che cosa trascurare; il modello,1,1,1,E1.1
+E1.5,E,"Algoritmo: definizione e proprietà (finitezza, non ambiguità, eseguibilità)",1,1,2,E1.2
+E1.6,E,Esecutore e istruzioni elementari; esecutore umano e macchina,1,1,3,E1.5
+E1.7,E,"Attività unplugged (percorsi su griglia, ordinare carte)",1,1,3,E1.5
+E1.8,E,Algoritmi nella vita quotidiana e loro limiti,1,1,3,E1.5
+E1.9,E,"Rompicapi e giochi di logica come problemi computazionali (labirinti, travasi)",1,1,2,E1.2
+E2.1,E,Descrizione in linguaggio naturale; il problema dell'ambiguità,1,1,3,E1.5
+E2.2,E,Diagrammi di flusso: simboli standard,1,1,4,E2.1
+E2.3,E,Pseudocodice,1,1,4,E2.1
+E2.4,E,Programmazione a blocchi come rappresentazione eseguibile,1,1,5,E2.2
+E2.5,E,Simulare l'esecuzione a mano (tabella di traccia),1,1,5,E2.2 E4.1
+E2.6,E,Strumenti per disegnare diagrammi di flusso eseguibili (Flowgorithm),1,1,5,E2.2
+E3.1,E,Sequenza,1,1,4,E1.6
+E3.2,E,Selezione semplice e doppia,1,1,5,E3.1 A2.1.2
+E3.3,E,Selezione multipla; condizioni composte,1,1,6,E3.2 A2.1.4
+E3.4,E,Iterazione con condizione (ciclo con controllo in testa e in coda),1,1,6,E3.2
+E3.5,E,Iterazione a conteggio (ciclo for),1,1,7,E3.4 E4.1
+E3.6,E,Cicli annidati,1,2,8,E3.5
+E3.7,E,Terminazione dei cicli; cicli infiniti,1,2,7,E3.4
+E3.8,E,Teorema di Böhm-Jacopini; programmazione strutturata,2,2,7,E3.4 E2.2
+E3.9,E,"Sottoprogrammi: funzioni, parametri, valore restituito",1,2,5,E3.1 E1.2
+E3.10,E,Diagrammi di Nassi-Shneiderman,2,2,8,E3.8
+E3.11,E,"Programmare un personaggio con sequenze, scelte e ripetizioni (giochi di coding)",1,1,7,E3.4
+E3.12,E,Tabelline e schemi numerici stampati con i cicli,1,1,8,E3.5
+E3.13,E,Cicli infiniti voluti: il ciclo principale di un gioco o di un dispositivo,1,2,8,E3.7
+E3.14,E,"Disegnare figure con i caratteri: triangoli, scacchiere, rombi",1,1,9,E3.6
+E4.1,E,La variabile come contenitore con nome; assegnazione,1,1,4,E1.6
+E4.2,E,"Tipi elementari: intero, reale, booleano, carattere, stringa",1,1,7,E4.1 B2.1.2 B4.2
+E4.3,E,"Espressioni aritmetiche, relazionali e logiche; precedenza degli operatori",1,1,8,E4.2 A2.1.4
+E4.4,E,Input e output,1,1,5,E4.1
+E4.5,E,Costanti; contatori e accumulatori,1,1,7,E4.1 E3.4
+E4.6,E,Scambio di due variabili; misconcezioni sull'assegnazione,1,1,5,E4.1
+E4.7,E,Tipi composti: array e record,1,2,8,E4.2
+E4.8,E,"Nomi delle variabili e convenzioni di scrittura (camelCase, snake_case)",1,1,5,E4.1
+E4.9,E,La congettura di Collatz (3n+1) esplorata con un programma,1,2,7,E3.4
+E4.10,E,Variabili nei fogli di calcolo e nei programmi: somiglianze e differenze,1,1,5,E4.1 L2.2
+E5.1,E,Definizioni ricorsive: caso base e passo ricorsivo,2,2,7,E3.9 A3.5
+E5.2,E,"Ricorsione sui numeri: fattoriale, Fibonacci, potenza",2,2,8,E5.1 A4.2.1
+E5.3,E,La pila delle chiamate e la traccia di esecuzione,2,2,9,E5.2
+E5.4,E,"Ricorsione e iterazione: equivalenza, ricorsione di coda",2,3,10,E5.3 E3.4
+E5.5,E,Ricorsione su strutture: liste e alberi,2,2,11,E5.2 E6.4.1
+E5.6,E,"Classici: torre di Hanoi, permutazioni, flood fill",2,2,9,E5.2
+E5.7,E,Dimostrare la correttezza per induzione,3,3,9,E5.2 A2.3.4
+E5.8,E,Memoizzazione,2,3,11,E5.2 E6.5.1
+E6.1.1,E,"Array: accesso per indice, lunghezza",1,1,9,E4.7
+E6.1.2,E,"Scorrere un array: somma, massimo, conteggio",1,1,10,E6.1.1 E3.5 E4.5
+E6.1.3,E,Array dinamici (le liste di Python); crescita ammortizzata,2,2,10,E6.1.1
+E6.1.4,E,Matrici e array multidimensionali,1,2,11,E6.1.2 E3.6
+E6.1.5,E,Stringhe come sequenze di caratteri,1,1,10,E6.1.1 B4.2
+E6.1.6,E,Dizionari (array associativi): uso,1,2,10,E6.1.1
+E6.1.7,E,Media mobile sui dati di un sensore,2,2,11,E6.1.2
+E6.2.1,E,Nodi e riferimenti; lista semplice,2,2,9,E4.7
+E6.2.2,E,Inserimento e cancellazione; confronto con l'array,2,2,11,E6.2.1 E6.1.3
+E6.2.3,E,Liste doppie e circolari,2,2,12,E6.2.2
+E6.3.1,E,Pila (LIFO): push e pop,2,2,10,E6.1.1
+E6.3.2,E,Coda (FIFO); buffer circolare,2,2,10,E6.1.1 A1.4.1
+E6.3.3,E,Coda a doppio ingresso (deque),2,2,11,E6.3.1 E6.3.2
+E6.3.4,E,"Applicazioni: parentesi bilanciate, notazione polacca inversa, annulla/ripeti",2,2,11,E6.3.1
+E6.3.5,E,Tipo di dato astratto: interfaccia e implementazione,2,2,11,E6.3.1 E6.3.2
+E6.3.6,E,Code con priorità nella vita quotidiana: il triage,2,2,11,E6.3.2
+E6.4.1,E,Alberi: terminologia e rappresentazione,2,2,10,A4.3.3 E6.2.1
+E6.4.2,E,"Alberi binari; visite in preordine, simmetrica, in postordine e per livelli",2,2,11,E6.4.1 E5.1
+E6.4.3,E,"Alberi binari di ricerca: ricerca, inserimento, cancellazione",2,3,13,E6.4.2 E7.1.3
+E6.4.4,E,"Alberi bilanciati: AVL, rosso-neri",3,3,14,E6.4.3 E9.3
+E6.4.5,E,Heap e code con priorità,2,3,12,E6.4.2
+E6.4.6,E,Trie,3,3,11,E6.4.1 E6.1.5
+E6.4.7,E,B-tree e B+tree,3,3,15,E6.4.4
+E6.4.8,E,Alberi di espressioni e alberi sintattici,2,3,12,E6.4.2
+E6.4.9,E,Insiemi disgiunti (union-find),3,3,11,E6.4.1
+E6.5.1,E,Funzione hash: dal valore all'indice,2,2,10,E6.1.1 A1.4.1
+E6.5.2,E,"Collisioni: liste di trabocco, indirizzamento aperto",2,3,11,E6.5.1 A4.1.4
+E6.5.3,E,Fattore di carico e rehashing,3,3,12,E6.5.2
+E6.5.4,E,Insiemi e dizionari implementati con hash,2,2,11,E6.5.1
+E6.6.1,E,Matrice di adiacenza,2,2,12,A4.3.1 E6.1.4
+E6.6.2,E,Liste di adiacenza,2,2,11,A4.3.1 E6.1.6
+E6.6.3,E,Quale rappresentazione per grafi densi e sparsi,3,3,13,E6.6.1 E6.6.2 E9.2
+E6.7.1,E,Filtri di Bloom,3,3,11,E6.5.1 A7.2.3
+E6.7.2,E,Skip list,3,3,12,E6.2.2 A7.2.2
+E6.7.3,E,"Sketch per flussi di dati (Count-Min, HyperLogLog)",4,4,12,E6.7.1
+E6.8,E,Strutture dati persistenti (condivisione strutturale),3,4,12,E6.4.2
+E7.1.1,E,Ricerca lineare,1,1,11,E6.1.2
+E7.1.2,E,Ricerca del massimo e del minimo; ricerca con sentinella,1,1,12,E7.1.1
+E7.1.3,E,Ricerca binaria su un array ordinato,1,2,12,E7.1.1
+E7.1.4,E,Ricerca binaria sulla risposta (bisezione),3,3,13,E7.1.3
+E7.1.5,E,Il secondo massimo e il valore più frequente,1,2,13,E7.1.2
+E7.1.6,E,"Cercare nel mondo reale: indici, rubriche, dizionari cartacei",1,1,12,E7.1.1
+E7.1.7,E,Contare i confronti della ricerca lineare nel caso peggiore,1,2,12,E7.1.1
+E7.1.8,E,Indovina il numero: la strategia migliore,1,2,13,E7.1.3
+E7.2.1,E,Il problema dell'ordinamento; stabilità e ordinamento in loco,1,1,11,E6.1.2
+E7.2.2,E,Ordinamento per selezione (selection sort),1,1,13,E7.2.1 E7.1.2
+E7.2.3,E,Bubble sort,1,1,12,E7.2.1
+E7.2.4,E,Ordinamento per inserimento (insertion sort),1,2,12,E7.2.1
+E7.2.5,E,Merge sort,2,2,12,E7.2.1 E5.2 E8.2
+E7.2.6,E,Quick sort; scelta del pivot,2,3,12,E7.2.1 E5.2 E8.2
+E7.2.7,E,Heap sort,3,3,13,E6.4.5
+E7.2.8,E,"Ordinamenti non basati su confronti: counting, radix, bucket",3,3,12,E7.2.1 E6.1.1
+E7.2.9,E,Limite inferiore Ω(n log n) per l'ordinamento per confronti,3,3,13,E7.2.5 E9.3
+E7.2.10,E,Fusione di sequenze ordinate,2,2,12,E7.2.1
+E7.2.11,E,"Visualizzare gli algoritmi di ordinamento (animazioni, danze)",2,2,13,E7.2.4
+E7.2.12,E,Ordinare dati composti: chiavi di ordinamento e stabilità in pratica,2,2,13,E7.2.4
+E7.3.1,E,Visita in ampiezza (BFS); cammini minimi non pesati,2,2,12,E6.6.2 E6.3.2
+E7.3.2,E,Visita in profondità (DFS); componenti connesse,2,2,12,E6.6.2 E6.3.1 E5.1
+E7.3.3,E,Ordinamento topologico,2,3,13,E7.3.2 A4.3.4
+E7.3.4,E,Algoritmo di Dijkstra,3,3,13,E7.3.1 E6.4.5
+E7.3.5,E,Bellman-Ford e Floyd-Warshall,3,3,14,E7.3.4 E8.5
+E7.3.6,E,Alberi ricoprenti minimi: Kruskal e Prim,3,3,13,E6.4.9 E8.3
+E7.3.7,E,Flusso massimo (Ford-Fulkerson),3,4,13,E7.3.1
+E7.3.8,E,Componenti fortemente connesse,3,3,13,E7.3.2
+E7.3.9,E,Ricerca informata A* ed euristiche ammissibili,3,3,14,E7.3.4
+E7.4.1,E,Ricerca ingenua di una sottostringa,1,2,11,E6.1.5 E3.6
+E7.4.2,E,Knuth-Morris-Pratt e Boyer-Moore,3,3,12,E7.4.1 E9.2
+E7.4.3,E,Rabin-Karp e hash di stringhe,3,3,12,E7.4.1 E6.5.1
+E7.4.4,E,Distanza di edit (Levenshtein),3,3,13,E8.5
+E7.4.5,E,Più lunga sottosequenza comune,3,3,13,E8.5
+E7.4.6,E,Espressioni regolari come strumento pratico di ricerca,2,2,11,E6.1.5
+E7.4.7,E,Array e alberi dei suffissi,4,4,13,E7.2.6 E6.4.6
+E7.5.1,E,"Algoritmi aritmetici: Euclide, potenza veloce, crivello",1,2,7,A1.3.4 E3.4
+E7.5.2,E,Numeri casuali nei programmi; simulazioni semplici,1,2,8,E3.5
+E7.5.3,E,Moltiplicazione di interi grandi (Karatsuba),3,3,10,E8.2 B2.6.3
+E7.5.4,E,Moltiplicazione di matrici; algoritmo di Strassen,3,4,12,A5.1.6 E8.2
+E7.5.5,E,"Geometria elementare: intersezione di segmenti, punto in un poligono",2,3,7,A5.1.4
+E7.5.6,E,"Numeri perfetti, amicabili e congettura di Goldbach",1,2,8,E7.5.1
+E7.5.7,E,Semplificare frazioni con il massimo comune divisore,1,1,8,E7.5.1
+E8.1,E,Forza bruta ed enumerazione,1,2,9,E3.6
+E8.2,E,Divide et impera,2,2,9,E5.2
+E8.3,E,Algoritmi greedy e quando funzionano,2,3,12,E7.2.1
+E8.4,E,"Backtracking (N regine, sudoku)",2,3,10,E5.6
+E8.5,E,"Programmazione dinamica: sottostruttura ottima, tabelle",3,3,12,E5.8 E8.2
+E8.6,E,Branch and bound,3,3,11,E8.4
+E8.7,E,Ridurre un problema a un altro già risolto,3,3,10,E8.1
+E9.1,E,"Correttezza: pre- e post-condizioni, invarianti di ciclo",2,3,9,E3.4 A2.3.6
+E9.2,E,Costo di un algoritmo: contare le operazioni,1,2,9,E3.6
+E9.3,E,"Notazioni asintotiche O, Ω, Θ",2,3,10,E9.2 A1.2.6 A6.1.3
+E9.4,E,"Caso migliore, peggiore e medio",2,3,12,E9.3 A7.3.2
+E9.5,E,Costo degli algoritmi ricorsivi ed equazioni di ricorrenza,3,3,11,E9.3 A4.2.4 E5.2
+E9.6,E,Complessità spaziale,2,3,11,E9.3
+E9.7,E,Analisi ammortizzata,3,3,11,E9.3 E6.1.3
+E9.8,E,Misurare sperimentalmente i tempi,2,2,10,E9.2
+E9.9,E,Problemi trattabili e intrattabili (panoramica intuitiva),2,2,11,E9.3
+E9.10,E,Tempi di esecuzione reali: dai microsecondi ai secoli,2,2,10,E9.2 A1.2.6
+E9.11,E,Il commesso viaggiatore giocato a mano,2,2,9,A1.2.6
+E10.1,E,Algoritmi randomizzati: Las Vegas e Monte Carlo,3,4,13,E9.4 A7.3.2
+E10.2,E,Algoritmi di approssimazione; rapporto di approssimazione,4,4,15,E8.3 F5.4
+E10.3,E,Algoritmi online; analisi competitiva,4,4,11,E9.3
+E10.4,E,Algoritmi per flussi di dati,4,4,13,E6.7.3
+E10.5,E,Algoritmi parametrizzati ed esatti esponenziali,4,4,15,F5.4
+E10.6,E,Algoritmi per memoria esterna e cache-oblivious,4,4,15,E9.3 D8
+E11.1,E,Modelli di calcolo parallelo (PRAM; lavoro e profondità),3,4,11,E9.3
+E11.2,E,Riduzione e scan paralleli,3,4,12,E11.1 A4.4.1
+E11.3,E,Ordinamento parallelo,4,4,13,E11.1 E7.2.5
+E11.4,E,"Algoritmi distribuiti: elezione del leader, diffusione",4,4,13,E7.3.1 E11.1
+E11.5,E,MapReduce come schema algoritmico,3,3,13,E11.2
+E12.1,E,"Primitive: orientamento di tre punti, intersezioni",3,3,8,E7.5.5
+E12.2,E,"Inviluppo convesso (Graham, Jarvis)",3,3,13,E12.1 E7.2.5
+E12.3,E,Tecnica della linea di scansione (sweep line),3,4,15,E12.1 E6.4.4
+E12.4,E,Triangolazione di Delaunay e diagrammi di Voronoi,4,4,14,E12.2
+E12.5,E,"Strutture per ricerche spaziali (k-d tree, quadtree)",3,4,14,E6.4.3 A5.1.3
+F1.1,F,"Automa a stati finiti deterministico (DFA): stati, transizioni, accettazione",2,2,6,A3.1.5 A4.3.1
+F1.2,F,Automi non deterministici (NFA) ed equivalenza con i DFA,3,3,7,F1.1 A3.1.2
+F1.3,F,Espressioni regolari in senso formale,2,3,7,F1.1
+F1.4,F,Teorema di Kleene: equivalenza fra espressioni regolari e automi,3,3,8,F1.2 F1.3
+F1.5,F,Minimizzazione degli automi,3,3,7,F1.1 A3.2.3
+F1.6,F,Pumping lemma e linguaggi non regolari,3,3,7,F1.1 A2.3.3
+F1.7,F,Proprietà di chiusura e problemi decidibili sui linguaggi regolari,3,3,9,F1.4
+F1.8,F,"Applicazioni: analizzatori lessicali, protocolli, interfacce",2,3,8,F1.3
+F1.9,F,Trasduttori (automi con uscita),3,3,7,F1.1
+F2.1,F,"Grammatiche formali: terminali, non terminali, produzioni, derivazioni",2,3,7,A3.1.5 A3.5
+F2.2,F,Notazioni BNF ed EBNF; diagrammi sintattici,2,2,8,F2.1
+F2.3,F,Alberi di derivazione; ambiguità,3,3,8,F2.1 A4.3.3
+F2.4,F,Gerarchia di Chomsky,3,3,9,F2.1 F1.4
+F2.5,F,Grammatiche e linguaggi liberi dal contesto,3,3,9,F2.3
+F2.6,F,Automi a pila ed equivalenza con le grammatiche libere,3,3,11,F2.5 E6.3.1 F1.2
+F2.7,F,Forma normale di Chomsky; algoritmo CYK,3,4,13,F2.5 E8.5
+F2.8,F,Pumping lemma per i linguaggi liberi dal contesto,3,4,10,F2.5 F1.6
+F2.9,F,Linguaggi dipendenti dal contesto; automi lineari limitati,4,4,10,F2.4
+F2.10,F,Grammatiche per generare frasi casuali,3,3,8,F2.1
+F3.1,F,"Macchina di Turing: nastro, testina, stati; esempi",2,3,7,F1.1
+F3.2,F,"Varianti (più nastri, non determinismo) e loro equivalenza",3,3,8,F3.1
+F3.3,F,La macchina di Turing universale,3,3,9,F3.2
+F3.4,F,"Modelli equivalenti: funzioni ricorsive, macchine a registri, lambda calcolo",3,4,9,F3.1 F6.1
+F3.5,F,Tesi di Church-Turing,3,3,10,F3.3
+F3.6,F,Turing-completezza di linguaggi e sistemi (anche giochi e automi cellulari),3,3,11,F3.5
+F4.1,F,Funzioni calcolabili e non calcolabili; argomento di cardinalità,3,3,9,F3.1 A3.4.3
+F4.2,F,Il problema della fermata e la sua indecidibilità,3,3,10,F4.1 F3.3 A2.3.3
+F4.3,F,"Linguaggi decidibili, semidecidibili, non semidecidibili",3,3,11,F4.2
+F4.4,F,Riduzioni fra problemi,3,3,12,F4.3 E8.7
+F4.5,F,Teorema di Rice,4,4,13,F4.4
+F4.6,F,"Altri problemi indecidibili: corrispondenza di Post, piastrellature, decimo problema di Hilbert",4,4,13,F4.4
+F4.7,F,Conseguenze pratiche: i limiti dell'analisi automatica dei programmi,3,3,11,F4.2
+F5.1,F,Classi di complessità temporale; la classe P,3,3,11,E9.3 F3.1
+F5.2,F,La classe NP: certificati e verifica,3,3,12,F5.1
+F5.3,F,Riduzioni polinomiali; NP-completezza; teorema di Cook-Levin,3,3,13,F5.2 F4.4 A2.1.6
+F5.4,F,"Problemi NP-completi classici (SAT, 3-colorazione, commesso viaggiatore, zaino)",3,3,14,F5.3 A9.1.5
+F5.5,F,Il problema P vs NP e le sue conseguenze,2,3,12,E9.9
+F5.6,F,"Classi di spazio (L, PSPACE) ed EXPTIME; teoremi di gerarchia",4,4,14,F5.3
+F5.7,F,"Complessità probabilistica: BPP, RP",4,4,14,F5.2 E10.1
+F5.8,F,Approssimabilità e inapprossimabilità,4,4,15,F5.4
+F5.9,F,"Complessità nel caso medio e complessità ""fine-grained""",4,4,14,F5.3
+F5.10,F,Complessità della comunicazione e dei circuiti,4,4,13,F5.1 D2
+F6.1,F,Sintassi: astrazione e applicazione,3,3,8,A3.3.4
+F6.2,F,Beta-riduzione e forme normali,3,3,9,F6.1
+F6.3,F,Codificare numeri e booleani (numerali di Church),3,3,10,F6.2
+F6.4,F,Ricorsione e combinatore di punto fisso,3,4,11,F6.3 E5.1
+F6.5,F,"Strategie di valutazione: per valore, per nome, pigra",3,3,10,F6.2
+F6.6,F,Lambda calcolo tipato semplice,3,4,10,F6.2
+F7.1,F,Tipi come insiemi di valori e come specifiche,3,3,8,A3.1.1 E4.2
+F7.2,F,Regole di tipizzazione e giudizi,3,4,11,F7.1 F6.6
+F7.3,F,Polimorfismo e inferenza di Hindley-Milner,4,4,12,F7.2
+F7.4,F,Tipi algebrici e ricorsivi,3,4,9,F7.1 A3.5
+F7.5,F,Sottotipi,4,4,12,F7.2
+F7.6,F,Tipi dipendenti,4,4,12,F7.2
+F7.7,F,Corrispondenza di Curry-Howard: proposizioni come tipi,4,4,13,F7.6 A2.6.5
+F7.8,F,Tipi lineari e affini (base teorica dell'ownership),4,4,12,F7.2
+F8.1,F,Sintassi e semantica dei linguaggi di programmazione,3,3,9,F2.3
+F8.2,F,Semantica operazionale (a piccoli e a grandi passi),3,4,10,F8.1 F6.2
+F8.3,F,Semantica denotazionale,4,4,10,F8.1 A3.2.4
+F8.4,F,Semantica assiomatica: logica di Hoare,3,4,10,F8.1 A2.3.6 E9.1
+F8.5,F,Precondizione più debole (Dijkstra),4,4,11,F8.4
+F9.1,F,"Specifica formale (Z, TLA+, Alloy)",3,4,18,A2.2.2 H11
+F9.2,F,"Model checking: sistemi a stati, proprietà temporali, esplosione degli stati",4,4,9,A2.6.4 F1.1
+F9.3,F,"Verifica deduttiva e dimostratori interattivi (Coq/Rocq, Lean, Isabelle)",4,4,14,F8.4 F7.7
+F9.4,F,Solver SAT e SMT nella verifica,4,4,19,F14.3 F9.1
+F9.5,F,Interpretazione astratta e analisi statica,4,4,14,F8.3 F4.5
+F9.6,F,"Casi industriali: aeronautica, ferrovie, cloud",4,4,10,F9.2
+F9.7,F,Verifica formale di programmi concorrenti,4,4,12,F9.2 F13.3
+F10.1,F,Complessità di Kolmogorov di una stringa,4,4,13,F3.3 A8.1.2
+F10.2,F,Incomprimibilità e casualità,4,4,14,F10.1
+F10.3,F,Non calcolabilità della complessità di Kolmogorov,4,4,14,F10.1 F4.2
+F10.4,F,Induzione di Solomonoff e principio MDL,4,4,15,F10.1 A8.4.3
+F11.1,F,Funzioni unidirezionali e generatori pseudocasuali,4,4,13,F5.2 A7.2.5
+F11.2,F,Sicurezza dimostrabile e riduzioni crittografiche,4,4,14,F11.1
+F11.3,F,Prove interattive e prove a conoscenza zero,4,4,15,F11.1 F5.7
+F11.4,F,Equilibri e complessità del loro calcolo,4,4,14,A9.4.2 F5.3
+F11.5,F,Progettazione di meccanismi e aste,4,4,14,A9.4.2
+F11.6,F,Prezzo dell'anarchia; giochi di instradamento,4,4,15,F11.4
+F12.1,F,Apprendimento PAC,4,4,15,A7.3.6 F5.1
+F12.2,F,Dimensione di Vapnik-Chervonenkis,4,4,16,F12.1
+F12.3,F,Apprendimento online e rimpianto,4,4,16,F12.1
+F12.4,F,"Teoremi ""no free lunch""",4,4,16,F12.1
+F13.1,F,"Reti di Petri: posti, transizioni, marcature",3,3,6,A4.3.1
+F13.2,F,"Proprietà: raggiungibilità, vivezza, stallo",3,4,7,F13.1
+F13.3,F,"Algebre di processi: CSP, CCS",4,4,11,F1.1 F8.2
+F13.4,F,π-calcolo,4,4,12,F13.3
+F13.5,F,Bisimulazione ed equivalenze comportamentali,4,4,12,F13.3
+F13.6,F,Modelli di memoria e linearizzabilità,4,4,13,F13.3 I3
+F14.1,F,Il problema SAT; formule in CNF,3,3,6,A2.1.6
+F14.2,F,Algoritmi DPLL e CDCL,3,4,11,F14.1 E8.4
+F14.3,F,"Solver SMT e teorie (aritmetica, array)",4,4,12,F14.2 A2.2.4
+F14.4,F,"Problemi di soddisfacimento di vincoli: variabili, domini, propagazione",3,3,11,F14.1 E8.4
+F14.5,F,Programmazione a vincoli (es. MiniZinc),3,4,12,F14.4
+F14.6,F,Transizione di fase nei problemi casuali,4,4,11,F14.1 A7.3.1
+G1.1,G,Programma e linguaggio di programmazione; sintassi e semantica,1,1,5,E2.3
+G1.2,G,"L'ambiente di sviluppo: editor, interprete o compilatore, esecuzione",1,1,6,G1.1
+G1.3,G,"Errori di sintassi, di esecuzione e logici; leggere i messaggi di errore",1,1,7,G1.2
+G1.4,G,"Variabili, tipi e assegnazione in un linguaggio reale",1,1,8,G1.2 E4.2
+G1.5,G,Operatori ed espressioni; conversioni di tipo,1,1,9,G1.4 E4.3
+G1.6,G,Input e output da console; formattazione,1,1,9,G1.4 E4.4
+G1.7,G,Selezione e iterazione nel linguaggio,1,1,10,G1.5 E3.5
+G1.8,G,"Funzioni: definizione, parametri, valore restituito",1,2,11,G1.7 E3.9
+G1.9,G,Visibilità e durata delle variabili; locali e globali,2,2,12,G1.8
+G1.10,G,"Passaggio dei parametri: per valore, per riferimento, per condivisione",2,2,13,G1.9
+G1.11,G,"Commenti, nomi significativi, stile del codice",1,1,7,G1.2
+G1.12,G,"Debugging: stampe di controllo, punti di interruzione, esecuzione passo passo",1,2,8,G1.3 E2.5
+G1.13,G,Leggere e scrivere file di testo,2,2,11,G1.7 B11.2
+G1.14,G,Gestione delle eccezioni,2,2,12,G1.8 G1.3
+G1.15,G,Moduli e librerie,2,2,12,G1.8
+G1.16,G,Selezione multipla con match/case,2,2,11,G1.7
+G2.1.1,G,"L'ambiente Scratch: sprite, sfondi, script",1,1,6,E2.4
+G2.1.2,G,Eventi e messaggi fra sprite,1,1,7,G2.1.1
+G2.1.3,G,"Variabili, liste e cicli a blocchi",1,1,8,G2.1.1 E3.5 E4.1
+G2.1.4,G,Blocchi personalizzati,1,1,9,G2.1.3 E3.9
+G2.1.5,G,"Progetti: animazioni, storie, giochi",1,1,9,G2.1.2 G2.1.3
+G2.1.6,G,Il passaggio dai blocchi al testo,1,1,10,G2.1.4 G1.1
+G2.2.1,G,"Interprete, script, notebook",1,1,7,G1.2
+G2.2.2,G,"Tipi di base (int, float, bool, str); tipizzazione dinamica",1,1,9,G2.2.1 G1.4
+G2.2.3,G,Strutture di controllo; l'indentazione come sintassi,1,1,11,G2.2.2 G1.7
+G2.2.4,G,"Stringhe: indici, slicing, metodi",1,1,12,G2.2.3 E6.1.5
+G2.2.5,G,Liste e tuple,1,1,12,G2.2.3 E6.1.1
+G2.2.6,G,Dizionari e insiemi,1,2,13,G2.2.5 E6.1.6
+G2.2.7,G,Funzioni; parametri con valore predefinito e per nome,1,2,12,G2.2.3 G1.8
+G2.2.8,G,Comprensioni di lista,2,2,13,G2.2.5 G2.2.7
+G2.2.9,G,File ed eccezioni in Python,2,2,13,G2.2.7 G1.13 G1.14
+G2.2.10,G,"Libreria standard e pacchetti (pip, ambienti virtuali)",2,2,13,G2.2.7 G1.15
+G2.2.11,G,Classi e oggetti in Python,2,2,13,G2.2.7 G3.2.1
+G2.2.12,G,"Grafica e giochi: turtle, pygame",1,2,12,G2.2.3
+G2.2.13,G,"Librerie scientifiche: NumPy, pandas, matplotlib",2,2,14,G2.2.10 E6.1.4
+G2.2.14,G,"Iteratori, generatori, decoratori",3,3,14,G2.2.7 G3.3.3
+G2.2.15,G,Annotazioni di tipo (type hints),2,3,13,G2.2.7 G6.1
+G3.1.1,G,"Stato, istruzioni, effetti collaterali",2,2,11,G1.7
+G3.1.2,G,Programmazione procedurale; scomposizione dall'alto verso il basso,2,2,12,G3.1.1 G1.8
+G3.1.3,G,Programmazione strutturata e istruzione goto,2,2,13,G3.1.2 E3.8
+G3.2.1,G,Classi e oggetti; attributi e metodi,2,2,12,G1.8 E6.3.5
+G3.2.2,G,"Costruttori, stato e identità di un oggetto",2,2,13,G3.2.1
+G3.2.3,G,Incapsulamento e visibilità,2,2,14,G3.2.2
+G3.2.4,G,Ereditarietà,2,2,15,G3.2.3
+G3.2.5,G,Polimorfismo e ridefinizione dei metodi,2,2,16,G3.2.4
+G3.2.6,G,Classi astratte e interfacce,2,3,17,G3.2.5
+G3.2.7,G,Composizione e aggregazione in alternativa all'ereditarietà,2,3,16,G3.2.4
+G3.2.8,G,Membri statici,2,2,14,G3.2.2
+G3.2.9,G,Programmazione basata su prototipi (JavaScript),3,3,17,G3.2.5
+G3.2.10,G,"Metodi speciali in Python (__str__, __eq__)",2,3,14,G3.2.2
+G3.2.11,G,"Proprietà: getter, setter e @property",3,3,15,G3.2.3
+G3.2.12,G,Oggetti immutabili e dataclass,3,3,15,G3.2.3
+G3.2.13,G,Ereditarietà multipla e ordine di risoluzione dei metodi,3,3,16,G3.2.4
+G3.2.14,G,Gerarchie di classi nella libreria standard: le eccezioni,3,3,16,G3.2.4 G1.14
+G3.2.15,G,"Progettare un gioco a oggetti: personaggi, oggetti, stanze",3,3,17,G3.2.5
+G3.3.1,G,Funzioni pure ed effetti collaterali,2,2,12,G1.8 G3.1.1
+G3.3.2,G,Immutabilità,2,2,13,G3.3.1
+G3.3.3,G,Funzioni come valori; funzioni di ordine superiore,2,2,13,G3.3.1 A3.3.3
+G3.3.4,G,Funzioni anonime (lambda) e closure,2,3,14,G3.3.3 G1.9
+G3.3.5,G,"map, filter, reduce",2,2,14,G3.3.3 A4.4.1
+G3.3.6,G,Ricorsione al posto dell'iterazione,2,3,13,G3.3.1 E5.4
+G3.3.7,G,Tipi algebrici e pattern matching,3,3,14,G3.3.6 F7.4
+G3.3.8,G,Valutazione pigra e strutture infinite,3,3,15,G3.3.4 F6.5
+G3.3.9,G,Currying e applicazione parziale,3,3,15,G3.3.4 A3.3.4
+G3.3.10,G,Funtori e monadi (gestire gli effetti),4,4,15,G3.3.7 G6.4
+G3.3.11,G,"Linguaggi funzionali: Haskell, Lisp/Scheme/Racket, OCaml/F#, Erlang/Elixir, Clojure",3,3,15,G3.3.5
+G3.3.12,G,"Stile funzionale nei linguaggi multiparadigma (Python, JavaScript, Rust)",2,3,15,G3.3.5
+G3.4.1,G,"Fatti, regole, interrogazioni",3,3,6,A2.2.2
+G3.4.2,G,Unificazione e backtracking in Prolog,3,3,11,G3.4.1 A2.2.5 E8.4
+G3.4.3,G,Datalog,3,4,7,G3.4.1 A3.2.5
+G3.4.4,G,Programmazione logica con vincoli; answer set programming,4,4,12,G3.4.2 F14.4
+G3.5.1,G,"Descrivere il ""che cosa"" invece del ""come""",2,2,12,G3.1.1
+G3.5.2,G,Linguaggi di markup e di stile come linguaggi dichiarativi,2,2,13,G3.5.1
+G3.5.3,G,Linguaggi di interrogazione (SQL) come linguaggi dichiarativi,2,2,13,G3.5.1
+G3.5.4,G,Infrastruttura come codice; configurazione dichiarativa,3,3,13,G3.5.1 B11.5
+G3.6.1,G,"Eventi, gestori (callback) e ciclo degli eventi",1,2,12,G1.8
+G3.6.2,G,Programmare interfacce grafiche,2,2,13,G3.6.1 G3.2.1
+G3.6.3,G,Programmazione reattiva e flussi di eventi,3,3,15,G3.6.1 G3.3.5
+G3.6.4,G,Architetture guidate dagli eventi,3,3,13,G3.6.1
+G3.7.1,G,Concorrenza e parallelismo: la differenza,2,2,12,G1.8
+G3.7.2,G,Thread e dati condivisi,2,3,13,G3.7.1 I2.4
+G3.7.3,G,"Sincronizzazione nei linguaggi: lock, operazioni atomiche",3,3,14,G3.7.2 I3.3
+G3.7.4,G,async/await e coroutine,2,3,13,G3.7.1 G3.6.1
+G3.7.5,G,Modello ad attori e scambio di messaggi,3,3,13,G3.7.1
+G3.7.6,G,Canali e CSP (goroutine in Go),3,3,13,G3.7.1
+G3.7.7,G,Memoria transazionale,4,4,15,G3.7.3
+G3.8.1,G,Operazioni su interi array; vettorizzazione con NumPy,2,3,15,G2.2.13
+G3.8.2,G,"Linguaggi ad array (APL, J)",3,4,16,G3.8.1
+G3.8.3,G,"Programmazione dataflow e visuale (Node-RED, Max/MSP, LabVIEW)",2,3,13,G3.6.1
+G3.8.4,G,"Grafi computazionali (TensorFlow, JAX)",3,3,16,G3.8.1 A4.3.4
+G4.1,G,Variabili e indirizzi di memoria,2,2,9,D8.1 G1.4
+G4.2,G,Stack e heap; record di attivazione,2,3,10,G4.1 E5.3
+G4.3,G,Riferimenti e puntatori; aritmetica dei puntatori,2,3,10,G4.1
+G4.4,G,Allocazione e deallocazione manuale,3,3,11,G4.2 G4.3
+G4.5,G,"Errori di memoria: perdite, puntatori pendenti, doppia deallocazione, overflow",3,3,12,G4.4
+G4.6,G,"Garbage collection: conteggio dei riferimenti, mark-and-sweep, generazionale",3,3,11,G4.2
+G4.7,G,RAII e puntatori intelligenti (C++),3,3,14,G4.4 G3.2.2
+G4.8,G,"Ownership, borrowing e lifetime (Rust)",3,3,12,G4.4 G4.3
+G4.9,G,"Mutabilità, aliasing e sicurezza della memoria",3,4,13,G4.8
+G5.1.1,G,Struttura di un programma C; compilazione,2,2,11,G1.7
+G5.1.2,G,"Tipi, dimensioni, rappresentazione",2,2,12,G5.1.1 B2.4.6
+G5.1.3,G,Array e stringhe terminate da zero,2,2,13,G5.1.2 E6.1.1
+G5.1.4,G,Puntatori in C,2,3,14,G5.1.3 G4.3
+G5.1.5,G,"struct, typedef, union",2,3,13,G5.1.2
+G5.1.6,G,Memoria dinamica in C,3,3,15,G5.1.4 G4.4
+G5.1.7,G,"Preprocessore, header, compilazione separata, make",3,3,12,G5.1.1
+G5.1.8,G,Libreria standard e chiamate di sistema,3,3,16,G5.1.6 I1
+G5.1.9,G,Comportamento indefinito,3,4,15,G5.1.4
+G5.2.1,G,"Da C a C++: riferimenti, sovraccarico, namespace",2,3,15,G5.1.4
+G5.2.2,G,"Classi, costruttori, distruttori",2,3,16,G5.2.1 G3.2.2
+G5.2.3,G,Template e programmazione generica,3,3,18,G5.2.2 G6.5
+G5.2.4,G,"Libreria standard: contenitori, iteratori, algoritmi",3,3,19,G5.2.3
+G5.2.5,G,Semantica di spostamento e puntatori intelligenti,3,4,17,G5.2.2 G4.7
+G5.3.1,G,Strumenti: cargo e crate,3,3,13,G1.15
+G5.3.2,G,"Ownership, borrowing e lifetime in pratica",3,3,14,G5.3.1 G4.8
+G5.3.3,G,"Enum, pattern matching, Option e Result",3,3,15,G5.3.1 G3.3.7
+G5.3.4,G,Trait e generici,3,3,18,G5.3.3 G6.5
+G5.3.5,G,Concorrenza senza data race,3,4,15,G5.3.2 G3.7.3
+G5.3.6,G,unsafe e interoperabilità con C,4,4,15,G5.3.2 G5.1.4
+G5.3.7,G,"Rust per sistemi, web (WebAssembly) ed embedded",3,4,19,G5.3.4
+G5.4.1,G,"Tipizzazione statica, classi, package",2,2,13,G3.2.1
+G5.4.2,G,JVM e CLR: il bytecode,2,3,14,G5.4.1
+G5.4.3,G,Collezioni e generici,3,3,18,G5.4.1 G6.5
+G5.4.4,G,Eccezioni controllate,2,2,14,G5.4.1 G1.14
+G5.4.5,G,Interfacce grafiche; applicazioni Android,2,3,14,G5.4.1 G3.6.2
+G5.4.6,G,Stream e lambda in Java,3,3,19,G5.4.3 G3.3.5
+G5.5.1,G,"Sintassi, tipi, oggetti e array in JavaScript",2,2,11,G1.7
+G5.5.2,G,Funzioni come valori; closure,2,2,15,G5.5.1 G3.3.4
+G5.5.3,G,Prototipi e classi,3,3,18,G5.5.1 G3.2.9
+G5.5.4,G,"Asincronia: callback, promise, async/await",2,3,16,G5.5.2 G3.7.4
+G5.5.5,G,Node.js e npm,2,3,13,G5.5.1 G1.15
+G5.5.6,G,TypeScript: tipi statici sopra JavaScript,3,3,12,G5.5.1 G6.1
+G5.6.1,G,"Sintassi, tipi, struct e interfacce",3,3,18,G3.2.6
+G5.6.2,G,Goroutine e canali,3,3,19,G5.6.1 G3.7.6
+G5.7.1,G,"Comandi, argomenti, variabili d'ambiente",1,2,2,I7.1
+G5.7.2,G,Pipe e ridirezioni,2,2,3,G5.7.1
+G5.7.3,G,"Script Bash: variabili, condizioni, cicli",2,2,11,G5.7.2 G1.7
+G5.7.4,G,"Strumenti per il testo (grep, sed, awk)",2,3,12,G5.7.2 E7.4.6
+G5.7.5,G,PowerShell: pipeline di oggetti,2,3,13,G5.7.1 G3.2.1
+G5.7.6,G,Automatizzare compiti ripetitivi,2,2,12,G5.7.3
+G5.8.1,G,"R: vettori, data frame, statistica",3,3,11,G1.7 A7.1
+G5.8.2,G,Julia: prestazioni e dispatch multiplo,3,4,12,G1.8
+G5.8.3,G,MATLAB/Octave: calcolo matriciale,3,3,12,G1.7 A5.1.6
+G5.8.4,G,Notebook computazionali (Jupyter),2,2,8,G2.2.1
+G5.9.1,G,Descrivere hardware è diverso da scrivere software,3,3,7,G1.1 D2.1
+G5.9.2,G,Concorrenza intrinseca e segnali,3,3,10,G5.9.1 D3.3
+G5.10.1,G,"Framework quantistici in Python (Qiskit, Cirq, PennyLane)",4,4,18,G2.2.10 T3.4
+G5.10.2,G,"Linguaggi quantistici dedicati (Q#, OpenQASM)",4,4,19,G5.10.1
+G5.11,G,"Kotlin, Swift, PHP, Ruby, Lua, Dart, Zig: caratteristiche e ambiti d'uso",2,3,12,G1.8
+G6.1,G,Tipizzazione statica e dinamica,2,2,9,G1.4 E4.2
+G6.2,G,Tipizzazione forte e debole; conversioni implicite,2,2,10,G6.1
+G6.3,G,Tipizzazione nominale e strutturale; duck typing,3,3,18,G6.1 G3.2.6
+G6.4,G,Inferenza di tipo nei linguaggi,3,3,10,G6.1
+G6.5,G,Generici e polimorfismo parametrico,3,3,17,G6.1 G3.2.5
+G6.6,G,Tipi nullabili e tipi opzione,3,3,15,G6.1 G3.3.7
+G6.7,G,"Sistemi di tipi avanzati nei linguaggi reali (dipendenti, lineari)",4,4,18,G6.5 F7.6 F7.8
+G7.1.1,G,Le fasi di un compilatore: panoramica,2,3,7,G1.2
+G7.1.2,G,Analisi lessicale: token e scanner,3,3,9,G7.1.1 F1.8
+G7.1.3,G,Analisi sintattica discendente ricorsiva,3,3,10,G7.1.2 F2.5 E5.1
+G7.1.4,G,"Analisi sintattica ascendente (LR, LALR); generatori di parser",3,4,12,G7.1.3 F2.6
+G7.1.5,G,Albero sintattico astratto (AST),3,3,13,G7.1.3 E6.4.8
+G7.1.6,G,Esplorare il bytecode di Python (modulo dis),3,3,8,G7.1.1
+G7.1.7,G,Come funziona l'evidenziazione della sintassi negli editor,3,3,10,G7.1.2
+G7.1.8,G,"Suddividere in token un testo in italiano: parole, punteggiatura, apostrofi",3,3,10,G7.1.2
+G7.2.1,G,Tabella dei simboli; controllo dei tipi,3,3,14,G7.1.5 G6.1 E6.5.4
+G7.2.2,G,"Rappresentazioni intermedie (codice a tre indirizzi, SSA)",3,4,15,G7.2.1
+G7.2.3,G,Generazione del codice; allocazione dei registri,3,4,16,G7.2.2 D7.4 A4.3.6
+G7.2.4,G,"Ottimizzazioni: propagazione delle costanti, eliminazione del codice morto, ottimizzazione dei cicli",4,4,16,G7.2.2
+G7.2.5,G,"Infrastrutture di compilazione (LLVM, GCC)",4,4,17,G7.2.4
+G7.3.1,G,Interpreti: il ciclo di valutazione; scrivere un piccolo interprete,3,3,14,G7.1.5
+G7.3.2,G,"Bytecode e macchine virtuali (JVM, CPython, WebAssembly)",3,3,15,G7.3.1 D6.1
+G7.3.3,G,Compilazione just-in-time,4,4,17,G7.3.2 G7.2.4
+G7.3.4,G,Transpiler e compilazione verso il web,3,3,14,G7.1.5
+G7.3.5,G,"Il supporto a runtime: memoria, eccezioni, thread",3,4,16,G7.3.2 G4.6
+G7.3.6,G,Estendere la calcolatrice con variabili e funzioni,3,4,15,G7.3.1
+G7.4.1,G,File oggetto e simboli,3,3,13,D7.5
+G7.4.2,G,Collegamento statico e dinamico; librerie condivise,3,3,14,G7.4.1
+G7.4.3,G,Caricamento in memoria e rilocazione,3,4,15,G7.4.2 I4
+G8.1,G,Riflessione e introspezione,3,3,13,G3.2.1
+G8.2,G,"Macro (C, Lisp, Rust)",3,4,14,G7.1.5
+G8.3,G,Generazione automatica di codice,3,3,14,G8.1
+G8.4,G,"Linguaggi specifici di dominio, esterni e interni",3,3,11,G7.1.3
+G8.5,G,Omoiconicità: il codice come dato,4,4,16,G8.2 G3.3.11
+G9.1,G,"I primi linguaggi: assembly, Fortran, COBOL, Lisp, ALGOL",1,2,6,U1.10
+G9.2,G,"Programmazione strutturata: Pascal, C",2,2,8,G9.1 E3.8
+G9.3,G,"Linguaggi a oggetti: Simula, Smalltalk, C++, Java",2,2,13,G9.2 G3.2.1
+G9.4,G,"Linguaggi di scripting e del web: Perl, Python, JavaScript, PHP",2,2,14,G9.3
+G9.5,G,"Linguaggi recenti (Rust, Go, Swift, Kotlin) e tendenze",2,3,15,G9.4
+G9.6,G,"Linguaggi educativi: Logo, BASIC, Pascal, Scratch",1,2,7,G9.1
+G9.7,G,Linguaggi esoterici e Turing-completezza,3,3,12,F3.6
+G10.1,G,Programmazione probabilistica,4,4,17,A7.4.4 G1.8
+G10.2,G,Piattaforme low-code e no-code,1,2,3,E1.5
+G10.3,G,Le formule dei fogli di calcolo come programmazione funzionale,1,2,4,L2.2
+G10.4,G,Programmare in linguaggio naturale con assistenti IA,2,2,8,G1.3
+G10.5,G,Programmazione visuale per IoT e robotica,1,2,9,G2.1.3
+G10.6,G,Programmazione letterata e notebook,2,3,9,G5.8.4
+H1.1,H,Programma e prodotto software; le qualità attese,2,2,12,G1.8
+H1.2,H,"Le fasi: requisiti, analisi, progettazione, realizzazione, verifica, rilascio, manutenzione",2,2,13,H1.1
+H1.3,H,"La ""crisi del software"" e la nascita dell'ingegneria del software",2,2,14,H1.2
+H1.4,H,Ruoli nel gruppo di sviluppo,2,2,14,H1.2
+H2.1,H,Modello a cascata,2,2,14,H1.2
+H2.2,H,Modelli iterativi e incrementali; prototipazione; modello a spirale,2,2,15,H2.1
+H2.3,H,Il manifesto agile e i suoi principi,2,2,16,H2.2
+H2.4,H,"Scrum: ruoli, sprint, backlog, cerimonie",2,2,17,H2.3
+H2.5,H,Kanban e lean,2,2,17,H2.3
+H2.6,H,"Extreme Programming: programmazione in coppia, integrazione continua",2,3,17,H2.3
+H2.7,H,DevOps: cultura e ciclo continuo,3,3,17,H2.3
+H2.8,H,Scegliere il processo in base al contesto,3,3,18,H2.4 H2.1
+H3.1,H,Perché modellare; UML: panoramica dei diagrammi,2,2,14,H1.2
+H3.2,H,Diagramma dei casi d'uso,2,2,15,H3.1
+H3.3,H,Diagramma delle classi,2,2,16,H3.1 G3.2.4
+H3.4,H,Diagrammi di sequenza e di attività,2,2,15,H3.1
+H3.5,H,Diagrammi di stato,2,3,15,H3.1 F1.1
+H3.6,H,Diagrammi dei componenti e di dislocamento,3,3,17,H3.3
+H3.7,H,I modelli E/R all'interno del progetto software,2,2,8,L3.4
+H3.8,H,Sviluppo guidato dai modelli,4,4,17,H3.3 G8.3
+H3.9,H,"Diagrammi come codice (PlantUML, Mermaid)",3,3,17,H3.3
+H4.1,H,"Modularità, astrazione, occultamento dell'informazione",2,2,13,G1.15 E6.3.5
+H4.2,H,Coesione e accoppiamento,2,2,14,H4.1
+H4.3,H,Principi SOLID,3,3,18,H4.2 G3.2.6
+H4.4,H,"Design pattern creazionali (factory, singleton, builder)",3,3,19,H4.3
+H4.5,H,"Design pattern strutturali (adapter, composite, decorator)",3,3,19,H4.3
+H4.6,H,"Design pattern comportamentali (observer, strategy, command)",3,3,19,H4.3
+H4.7,H,Progettare le API,3,3,15,H4.2
+H4.8,H,Code smell e antipattern,3,3,19,H4.3
+H4.9,H,Architettura a strati e MVC,2,3,15,H4.2
+H5.1,H,"Controllo di versione: storia, versioni, differenze",1,2,2,I5.2
+H5.2,H,"Git: repository, commit, stato, cronologia",2,2,3,H5.1 I7.1
+H5.3,H,Rami e fusioni; conflitti,2,2,4,H5.2
+H5.4,H,"Repository remoti (GitHub, GitLab); push e pull",2,2,4,H5.2
+H5.5,H,"Flussi di lavoro collaborativi: fork, pull request, revisione",2,3,5,H5.3 H5.4
+H5.6,H,Contribuire a un progetto open source,3,3,13,H5.5 U4.4
+H5.7,H,"Buone pratiche: messaggi di commit, .gitignore, tag",2,2,4,H5.2
+H5.8,H,Storia dei sistemi di controllo di versione,2,2,3,H5.1
+H6.1,H,"Verifica e validazione; errore, difetto, malfunzionamento",2,2,14,H1.2
+H6.2,H,"Test di unità e framework di test (pytest, JUnit)",2,2,15,H6.1 G1.8
+H6.3,H,"Progettare i casi di test: classi di equivalenza, valori limite",2,3,16,H6.2
+H6.4,H,Test a scatola bianca e copertura del codice,3,3,17,H6.3 E3.3
+H6.5,H,"Test di integrazione, di sistema, di accettazione",3,3,16,H6.2
+H6.6,H,Sviluppo guidato dai test (TDD),3,3,16,H6.2
+H6.7,H,Test di regressione e automazione dei test,3,3,17,H6.5
+H6.8,H,Debugging sistematico,2,2,9,G1.12
+H6.9,H,Revisione del codice,2,3,6,H5.5
+H6.10,H,Analisi statica e linter,2,3,8,G1.11
+H6.11,H,Refactoring,3,3,20,H4.8 H6.7
+H6.12,H,"Test basati su proprietà, mutation testing, fuzzing",4,4,17,H6.3
+H7.1,H,"Sistemi di build (make, Maven, Gradle, cargo)",3,3,13,G5.1.7
+H7.2,H,Gestione delle dipendenze; versionamento semantico,2,3,13,G1.15
+H7.3,H,Integrazione continua,3,3,18,H5.4 H6.7
+H7.4,H,Consegna e rilascio continui,3,3,19,H7.3
+H7.5,H,Pacchettizzazione in container,3,3,8,I9.4
+H7.6,H,Infrastruttura come codice,3,4,20,G3.5.4 H7.4
+H7.7,H,Catena di fornitura del software; distinta dei componenti (SBOM),3,4,14,H7.2
+H8.1,H,Documentazione per utenti e per sviluppatori,2,2,2,U11.2
+H8.2,H,"Documentazione nel codice: docstring, generatori automatici",2,2,8,G1.11
+H8.3,H,Guide di stile e convenzioni di codifica,2,2,8,G1.11
+H8.4,H,Scegliere una licenza per il proprio software,2,3,13,U4.4
+H8.5,H,Documentare l'architettura e le decisioni di progetto,3,3,16,H8.1 H12.1
+H9.1,H,"Pianificazione: attività, dipendenze, diagrammi di Gantt",2,2,8,A4.3.4
+H9.2,H,Metodo del cammino critico (CPM/PERT),2,3,14,H9.1 E7.3.3
+H9.3,H,"Stima di costi e tempi (punti funzione, story point)",3,3,9,H9.1
+H9.4,H,Gestione del rischio,3,3,9,H9.1
+H9.5,H,"Strumenti di gestione (issue tracker, bacheche)",2,2,9,H9.1
+H9.6,H,Comunicare con committenti e utenti,2,3,1,U11.1
+H10.1,H,Completamento del codice e assistenti conversazionali,2,2,8,G1.3
+H10.2,H,Agenti di programmazione,3,3,18,H10.1 O6.7
+H10.3,H,"Verificare il codice generato: test, revisione, sicurezza",2,3,16,H10.1 H6.2
+H10.4,H,"Effetti su apprendimento, produttività e professione",2,3,9,H10.1
+H11.1,H,Requisiti funzionali e non funzionali,2,2,14,H1.2
+H11.2,H,"Raccolta dei requisiti: interviste, osservazione, workshop",2,2,15,H11.1
+H11.3,H,Storie utente e criteri di accettazione,2,2,15,H11.1
+H11.4,H,Specifica dei requisiti (documento SRS),2,3,16,H11.2
+H11.5,H,Validazione e tracciabilità dei requisiti,3,3,17,H11.4
+H11.6,H,Priorità (metodo MoSCoW) e gestione dei cambiamenti,3,3,17,H11.4
+H12.1,H,Che cos'è l'architettura; gli attributi di qualità,3,3,15,H4.2
+H12.2,H,"Stili architetturali: a strati, client-server, pipe and filter, a eventi",3,3,16,H12.1
+H12.3,H,Monoliti e microservizi,3,3,17,H12.2 J10.5
+H12.4,H,Architetture orientate ai servizi e alle API,3,3,17,H12.2 H4.7
+H12.5,H,Compromessi architetturali e loro valutazione,3,4,17,H12.2
+H12.6,H,Architetture per il cloud e serverless,3,4,18,H12.3
+H13.1,H,"Tipi di manutenzione: correttiva, adattativa, evolutiva, preventiva",2,3,14,H1.2
+H13.2,H,"Gestione della configurazione: elementi, baseline, rilasci",3,3,5,H5.3
+H13.3,H,Software legacy e modernizzazione,3,3,15,H13.1
+H13.4,H,Reverse engineering; comprendere codice esistente,3,3,16,H13.3
+H13.5,H,Debito tecnico,3,3,20,H13.1 H4.8
+H14.1,H,Messa in esercizio di un servizio,3,3,20,H7.4
+H14.2,H,"Osservabilità: log, metriche, tracce",3,3,21,H14.1 I11.4
+H14.3,H,"Allarmi, gestione degli incidenti, analisi post-incidente",3,3,22,H14.2
+H14.4,H,Obiettivi di livello di servizio e margine d'errore,3,4,22,H14.2 I12.5
+H14.5,H,Ingegneria dell'affidabilità (SRE),4,4,23,H14.4
+H15.1,H,Il modello di qualità ISO/IEC 25010,3,3,15,H6.1
+H15.2,H,"Metriche del codice: dimensione, complessità ciclomatica",3,3,16,H15.1 A4.3.2
+H15.3,H,Metriche di processo e di prodotto,3,3,16,H15.1
+H15.4,H,Analisi statistica delle metriche,3,4,17,H15.3 A7.4.2
+H15.5,H,Modelli di maturità e miglioramento dei processi (CMMI),3,4,17,H15.3
+H16.1,H,Costi del ciclo di vita del software,3,3,14,H1.2
+H16.2,H,"Costruire, comprare o riusare",3,3,15,H16.1
+H16.3,H,Valore del software e ritorno dell'investimento,3,3,15,H16.1
+H16.4,H,Economia del debito tecnico,3,4,21,H16.1 H13.5
+H17.1,H,Requisiti di sicurezza e modellazione delle minacce,3,3,15,H11.1 N1
+H17.2,H,Linee guida per lo sviluppo sicuro (OWASP),3,3,17,H17.1 N6
+H17.3,H,"Test di sicurezza nel ciclo continuo (SAST, DAST)",3,4,19,H17.2 H7.3
+H17.4,H,Gestione delle vulnerabilità delle dipendenze,3,3,15,H7.7
+H18.1,H,"Lavorare in gruppo: ruoli, comunicazione, conflitti",2,2,15,H1.4
+H18.2,H,Comunicazione tecnica nel progetto,2,3,1,U11.1
+H18.3,H,Etica e responsabilità professionale,2,3,2,U9.4
+H18.4,H,Standard e certificazioni professionali,3,3,2,U9.3
+H18.5,H,Formazione continua,2,2,16,H18.1
+I1.1,I,"Che cos'è un sistema operativo; gli strati hardware, sistema operativo, applicazioni",1,1,4,D4.2
+I1.2,I,"Funzioni: gestione delle risorse, astrazione, protezione",1,2,5,I1.1
+I1.3,I,Kernel e spazio utente; modalità privilegiata,2,2,7,I1.2 D9.3
+I1.4,I,Chiamate di sistema,2,3,8,I1.3
+I1.5,I,"Architetture del kernel: monolitico, microkernel, ibrido",3,3,8,I1.3
+I1.6,I,Timer e interruzioni come base del multitasking,2,3,8,I1.3 D9.3
+I2.1,I,Programma e processo; stati di un processo,2,2,6,I1.2
+I2.2,I,Descrittore di processo e cambio di contesto,2,3,7,I2.1 D5.1
+I2.3,I,"Creazione e terminazione dei processi (fork, exec, wait)",3,3,9,I2.1 I1.4
+I2.4,I,Thread: thread utente e thread del kernel,2,3,7,I2.1
+I2.5,I,Scheduling: obiettivi e metriche,2,2,7,I2.1
+I2.6,I,"Algoritmi di scheduling: FCFS, SJF, round robin, priorità, code multilivello",2,2,11,I2.5 E6.3.2
+I2.7,I,Scheduling real-time e multiprocessore,3,4,14,I2.6 D11.1
+I2.8,I,"Comunicazione fra processi: pipe, memoria condivisa, messaggi, segnali",3,3,10,I2.3
+I3.1,I,Sezione critica e race condition,2,3,8,I2.4
+I3.2,I,Mutua esclusione: soluzioni software (Peterson) e hardware (test-and-set),3,3,9,I3.1
+I3.3,I,Semafori e mutex,3,3,10,I3.2
+I3.4,I,Monitor e variabili di condizione,3,3,11,I3.3
+I3.5,I,"Problemi classici: produttore-consumatore, lettori-scrittori, filosofi a cena",3,3,11,I3.3
+I3.6,I,"Stallo: condizioni, prevenzione, rilevazione; algoritmo del banchiere",3,3,11,I3.3 A4.3.2
+I3.7,I,Starvation e inversione di priorità,3,3,12,I3.6 I2.6
+I3.8,I,Strutture dati senza lock,4,4,10,I3.2
+I4.1,I,Lo spazio degli indirizzi di un processo,2,3,7,I2.1 D8.1
+I4.2,I,Allocazione contigua e frammentazione,3,3,8,I4.1
+I4.3,I,Paginazione e tabella delle pagine,3,3,11,I4.2 D8.7
+I4.4,I,Segmentazione,3,3,9,I4.2
+I4.5,I,Memoria virtuale; page fault; paginazione su richiesta,3,3,12,I4.3
+I4.6,I,"Algoritmi di sostituzione delle pagine: FIFO, LRU, orologio",3,3,13,I4.5
+I4.7,I,Thrashing e working set,3,3,14,I4.6
+I4.8,I,Protezione della memoria e randomizzazione degli indirizzi (ASLR),3,3,12,I4.3
+I4.9,I,File mappati in memoria; memoria condivisa,3,4,13,I4.5 I5.3
+I5.1,I,"File e cartelle: nomi, estensioni, percorsi assoluti e relativi",1,1,0,
+I5.2,I,Operazioni sui file; metadati e attributi,1,2,1,I5.1
+I5.3,I,"Struttura interna: blocchi, inode, allocazione",3,3,8,I5.2 C10.4
+I5.4,I,"Permessi e controllo degli accessi (rwx di Unix, ACL)",2,2,2,I5.2
+I5.5,I,"File system diffusi: FAT, NTFS, ext4, APFS",2,3,2,I5.2
+I5.6,I,Journaling e consistenza,3,3,9,I5.3
+I5.7,I,RAID e gestione dei volumi,3,3,9,I5.3 B10.3.5
+I5.8,I,File system di rete e distribuiti,3,4,15,I5.3 J10
+I6.1,I,Il sottosistema di I/O; dispositivi a blocchi e a caratteri,3,3,6,I1.2 D9.1
+I6.2,I,Driver di dispositivo,3,3,7,I6.1 D9.3
+I6.3,I,"Buffering, caching, spooling",3,3,7,I6.1
+I6.4,I,Scheduling del disco,3,3,8,I6.1 C10.4
+I6.5,I,Plug and play e gestione dell'energia,3,3,12,I6.2 C13.3
+I7.1,I,"La riga di comando: shell, comandi di base, navigazione fra cartelle",1,1,1,I5.1
+I7.2,I,"Interfacce grafiche: finestre, desktop, metafore",1,1,0,
+I7.3,I,"Uso consapevole del sistema: impostazioni, aggiornamenti, account",1,1,1,I7.2
+I7.4,I,"Gestire i processi da utente (gestione attività, top, kill)",1,2,2,I7.1
+I7.5,I,Gestori di pacchetti e installazione del software,2,2,2,I7.1
+I8.1,I,"Unix e Linux: filosofia, distribuzioni",1,2,2,I7.1
+I8.2,I,Windows,1,1,1,I7.2
+I8.3,I,macOS,1,1,1,I7.2
+I8.4,I,"Sistemi mobili (Android, iOS); permessi delle app",1,2,1,I7.2
+I8.5,I,"Sistemi operativi real-time (FreeRTOS, Zephyr)",3,3,15,I2.7
+I8.6,I,Sistemi embedded e firmware,3,3,6,D13.1 I1.2
+I8.7,I,Sistemi operativi distribuiti e per il cloud,4,4,9,I9.2
+I9.1,I,La virtualizzazione: concetto e vantaggi,2,2,6,I1.2
+I9.2,I,Macchine virtuali e hypervisor di tipo 1 e 2,2,3,8,I9.1 I1.3
+I9.3,I,Container: isolamento con namespace e cgroup,3,3,7,I9.1 I2.1
+I9.4,I,"Docker: immagini, Dockerfile, registri",2,3,7,I9.1 I7.1
+I9.5,I,Orchestrazione di container (Kubernetes),3,4,16,I9.4 J5
+I9.6,I,Emulazione e sandbox,3,3,9,I9.2
+I10.1,I,Il processo di avvio del computer,1,2,5,I1.1
+I10.2,I,Firmware BIOS e UEFI; avvio sicuro,2,3,10,I10.1 C10.3
+I10.3,I,Bootloader e caricamento del kernel,3,3,11,I10.2
+I10.4,I,Processo init e gestione dei servizi (systemd),3,3,12,I10.3 I2.3
+I11.1,I,"Utenti, gruppi, privilegi (sudo, amministratore)",2,2,3,I5.4
+I11.2,I,Installare e aggiornare il sistema,1,2,2,I7.3
+I11.3,I,"Backup: strategia 3-2-1, backup incrementali e differenziali",1,2,2,I5.2
+I11.4,I,Log di sistema e monitoraggio,2,3,2,I7.1
+I11.5,I,"Servizi, demoni, pianificazione di attività (cron)",3,3,13,I10.4 G5.7.3
+I11.6,I,Automazione dell'amministrazione (Ansible),3,3,14,I11.5 G3.5.4
+I11.7,I,Messa in sicurezza di base del sistema,2,3,4,I11.1
+I12.1,I,"Metriche: latenza, throughput, utilizzo",2,2,8,I2.5
+I12.2,I,Benchmarking e profilazione,2,3,11,I12.1 E9.8
+I12.3,I,Colli di bottiglia; legge di Little,3,3,9,I12.1
+I12.4,I,Teoria delle code applicata ai sistemi,3,3,14,I12.3 A7.5.4
+I12.5,I,"Affidabilità e disponibilità; i ""nove""; MTBF e MTTR",2,3,13,I12.1 C17.1
+I12.6,I,"Tolleranza ai guasti: ridondanza, failover, checkpoint",3,3,14,I12.5
+I12.7,I,Pianificazione della capacità,3,3,15,I12.4
+I12.8,I,Misurare la propria connessione e il proprio computer: strumenti di benchmark,2,2,12,I12.2
+J1.1,J,"Sistema di comunicazione: sorgente, trasmettitore, canale, ricevitore",1,1,2,B1.2
+J1.2,J,"Banda, velocità di trasmissione, latenza",1,2,8,J1.1 B3.4
+J1.3,J,Trasmissione analogica e digitale; modulazione,2,2,3,J1.1 C14.1
+J1.4,J,"Multiplazione a divisione di tempo, di frequenza, di codice",2,3,4,J1.3
+J1.5,J,Capacità di un canale; legge di Shannon-Hartley,3,3,15,J1.2 A8.3.2 C14.5
+J1.6,J,"Simplex, half-duplex, full-duplex; trasmissione sincrona e asincrona",1,2,3,J1.1
+J2.1,J,"Che cos'è una rete: nodi, collegamenti, vantaggi",1,1,3,J1.1
+J2.2,J,"Classificazione per estensione: PAN, LAN, MAN, WAN",1,1,4,J2.1
+J2.3,J,"Topologie fisiche e logiche: bus, stella, anello, maglia",1,1,6,J2.1 A4.3.1
+J2.4,J,Commutazione di circuito e di pacchetto,2,2,4,J2.1
+J2.5,J,Architetture client-server e peer-to-peer,1,2,4,J2.1
+J2.6,J,"Dispositivi di rete: scheda di rete, hub, switch, router, access point, modem",1,2,7,J2.3
+J3.1,J,"Perché gli strati: protocollo, servizio, interfaccia",2,2,5,J2.4
+J3.2,J,Il modello ISO/OSI,2,2,6,J3.1
+J3.3,J,La pila TCP/IP e il confronto con OSI,2,2,7,J3.2
+J3.4,J,"Incapsulamento: intestazioni e unità di dati (trama, pacchetto, segmento)",2,2,8,J3.3
+J3.5,J,Analizzare il traffico con Wireshark,2,3,10,J3.4 B2.2.3
+J3.6,J,"Protocolli di comunicazione prima di Internet: telegrafo, telefono, X.25",2,3,8,J3.3
+J4.1,J,"Livello fisico: cablaggio strutturato, connettori, categorie di cavi",2,2,8,C14.2 J3.2
+J4.2,J,Livello di collegamento: trame e indirizzi MAC,2,2,10,J3.4 B2.2.3
+J4.3,J,Controllo degli errori sul collegamento (CRC),2,2,11,J4.2 B10.2.1
+J4.4,J,Accesso al mezzo: CSMA/CD e CSMA/CA,2,3,11,J4.2
+J4.5,J,Ethernet: evoluzione e velocità,2,2,12,J4.4
+J4.6,J,"Lo switch: tabella MAC, apprendimento, domini di collisione e di broadcast",2,2,13,J4.5
+J4.7,J,VLAN,3,3,14,J4.6
+J4.8,J,Spanning Tree Protocol,3,3,14,J4.6 E7.3.6
+J4.9,J,"Wi-Fi (IEEE 802.11): standard, canali, SSID",2,2,12,J4.4 C14.4
+J4.10,J,"Bluetooth, Zigbee e reti personali",2,2,11,J4.2 C14.4
+J4.11,J,Protocollo ARP,2,2,11,J4.2 J5.1
+J5.1,J,"Indirizzi IPv4: struttura, notazione, classi storiche",2,2,9,J3.4 B2.1.4
+J5.2,J,Maschere di sottorete e CIDR; calcolo delle sottoreti,2,2,10,J5.1 B2.3.5
+J5.3,J,Indirizzi privati e pubblici; NAT,2,2,10,J5.1
+J5.4,J,"Instradamento: tabelle di routing, gateway predefinito",2,2,11,J5.2
+J5.5,J,Protocolli di instradamento: distance vector (RIP) e link state (OSPF),3,3,15,J5.4 E7.3.4 E7.3.5
+J5.6,J,ICMP: ping e traceroute,2,2,10,J5.1
+J5.7,J,"IPv6: indirizzamento, autoconfigurazione, transizione",2,3,11,J5.2 B2.2.1
+J5.8,J,Frammentazione e MTU,3,3,10,J5.1
+J5.9,J,Configurare una rete in un simulatore (Packet Tracer),2,2,14,J5.4 J4.6
+J5.10,J,IPv6 in pratica: gli indirizzi della propria rete,2,3,12,J5.7
+J6.1,J,Porte e multiplazione delle applicazioni,2,2,10,J5.1
+J6.2,J,UDP,2,2,11,J6.1
+J6.3,J,"TCP: connessione (three-way handshake), affidabilità, numeri di sequenza",2,3,11,J6.1 B10.1.5
+J6.4,J,Controllo di flusso: la finestra scorrevole,3,3,12,J6.3
+J6.5,J,Controllo della congestione,3,3,13,J6.4
+J6.6,J,QUIC e protocolli di trasporto recenti,3,4,14,J6.5 J6.2
+J6.7,J,I socket come interfaccia verso il trasporto,2,3,11,J6.1
+J7.1,J,"DNS: nomi di dominio, gerarchia, risoluzione",2,2,12,J6.2 A4.3.3
+J7.2,J,DHCP,2,2,12,J5.1 J6.2
+J7.3,J,"HTTP: richieste e risposte, metodi, codici di stato, intestazioni",2,2,12,J6.3
+J7.4,J,HTTPS e TLS: visione d'insieme,2,2,13,J7.3
+J7.5,J,"Posta elettronica: SMTP, IMAP, POP3",2,2,13,J6.3 J7.1
+J7.6,J,"Trasferimento di file (FTP, SFTP) e accesso remoto (SSH)",2,2,12,J6.3
+J7.7,J,"Protocolli per il tempo reale e lo streaming (RTP, WebRTC)",3,3,12,J6.2
+J7.8,J,"Protocolli per l'IoT (MQTT, CoAP)",2,3,12,J6.3
+J7.9,J,Sincronizzazione dell'orologio (NTP),2,3,12,J6.2
+J8.1,J,"Struttura di Internet: provider, punti di interscambio, dorsali",1,2,5,J2.2
+J8.2,J,Sistemi autonomi e BGP,3,3,16,J8.1 J5.5
+J8.3,J,Cavi sottomarini e infrastruttura fisica globale,1,2,6,J8.1
+J8.4,J,"Tecnologie di accesso: DSL, fibra, rete mobile, satellite",1,2,6,J8.1
+J8.5,J,"Misurare la connessione: velocità, latenza, jitter",1,2,9,J1.2
+J9.1,J,Reti cellulari: celle e handover,2,2,5,C14.4 J2.2
+J9.2,J,"Generazioni dal 2G al 5G, verso il 6G",2,2,6,J9.1
+J9.3,J,Reti satellitari (orbite geostazionarie e basse),2,2,6,J9.1
+J9.4,J,"Reti a basso consumo e lungo raggio (LoRaWAN, NB-IoT)",3,3,6,J9.1
+J9.5,J,Localizzazione: GPS e triangolazione,2,2,11,C14.4 A5.1.3
+J10.1,J,Client e server con socket TCP,2,3,12,J6.7 G1.8
+J10.2,J,Socket UDP,3,3,13,J10.1 J6.2
+J10.3,J,"Server concorrenti (thread, eventi)",3,3,14,J10.1 G3.7.4
+J10.4,J,Protocolli applicativi su misura; serializzazione dei messaggi,3,3,13,J10.1 B11.4
+J10.5,J,"Chiamate di procedura remota (RPC, gRPC)",3,3,14,J10.4
+J10.6,J,Applicazioni peer-to-peer,3,3,13,J10.1 J2.5
+J11.1,J,"Firewall: filtro dei pacchetti, stateful, applicativi",2,2,11,J6.1
+J11.2,J,VPN,2,3,14,J11.1 J7.4
+J11.3,J,Segmentazione della rete e DMZ,3,3,15,J11.1 J4.7
+J11.4,J,"Monitoraggio della rete (SNMP, NetFlow)",3,3,12,J6.2
+J11.5,J,Qualità del servizio (QoS),3,3,14,J6.5
+J11.6,J,Proxy e proxy inversi,2,3,13,J7.3
+J12.1,J,Reti definite dal software (SDN),4,4,16,J5.5
+J12.2,J,Reti per la distribuzione di contenuti (CDN),3,3,13,J7.1 J7.3
+J12.3,J,Edge computing e reti 5G programmabili,4,4,17,J9.2 J12.1
+J12.4,J,Reti dei data center,4,4,16,J4.6 J5.5
+J12.5,J,Reti tolleranti al ritardo; reti interplanetarie,4,4,12,J6.3
+J13.1,J,Distribuzione quantistica delle chiavi in rete,4,4,19,T9
+J13.2,J,Ripetitori quantistici e Internet quantistica,4,4,20,J13.1 T2
+J14.1,J,"Enti di standardizzazione: IETF, IEEE, ITU, W3C, ISO",2,2,6,J3.1
+J14.2,J,Le RFC: come nasce un protocollo,2,3,7,J14.1
+J14.3,J,"Governance di Internet: ICANN, gestione di nomi e numeri",2,3,13,J14.1 J7.1
+J14.4,J,Neutralità della rete,2,2,6,J8.1
+K1.1,K,Internet e Web: la differenza,1,1,4,J2.1
+K1.2,K,"Browser, server web, pagine",1,1,5,K1.1
+K1.3,K,"L'URL: schema, dominio, percorso, parametri",1,1,6,K1.2
+K1.4,K,Il ciclo richiesta-risposta visto dal browser; strumenti per sviluppatori,2,2,13,K1.3 J7.3
+K1.5,K,Siti statici e siti dinamici,1,2,6,K1.2
+K1.6,K,"Il motore di rendering del browser: DOM, CSSOM, disegno della pagina",3,3,13,K4.1 K3.1
+K2.1,K,"Il documento HTML: tag, elementi, attributi, struttura",1,1,7,B4.2 K1.2
+K2.2,K,"Testo, titoli, paragrafi, elenchi",1,1,8,K2.1
+K2.3,K,Collegamenti e percorsi relativi,1,1,8,K2.1 I5.1
+K2.4,K,Immagini e contenuti multimediali,1,1,11,K2.1 B6.6
+K2.5,K,Tabelle,1,1,8,K2.1
+K2.6,K,Moduli e controlli di input,1,2,8,K2.1
+K2.7,K,"HTML semantico (header, nav, main, article)",1,2,9,K2.2
+K2.8,K,Validazione del codice HTML,1,2,8,K2.1
+K2.9,K,Metadati della pagina e codifica dei caratteri,1,2,9,K2.1 B4.4
+K3.1,K,"Regole, selettori, proprietà; cascata ed ereditarietà",1,1,8,K2.1
+K3.2,K,Colori e unità di misura,1,1,11,K3.1 B5.3.3
+K3.3,K,Tipografia web e font,1,1,11,K3.1 B13.2
+K3.4,K,Il box model,1,1,9,K3.1
+K3.5,K,Posizionamento e flusso del documento,1,2,10,K3.4
+K3.6,K,Flexbox,2,2,11,K3.5
+K3.7,K,Grid,2,2,11,K3.5
+K3.8,K,"Design responsive: media query, approccio mobile first",2,2,12,K3.6
+K3.9,K,Transizioni e animazioni,2,2,9,K3.1
+K3.10,K,Preprocessori e framework CSS,2,3,13,K3.8
+K3.11,K,Temi chiari e scuri; variabili CSS,2,3,12,K3.2
+K3.12,K,CSS per la stampa,2,2,13,K3.8
+K4.1,K,Inserire script in una pagina; la console,2,2,12,K2.1 G5.5.1
+K4.2,K,Il DOM: selezionare e modificare elementi,2,2,13,K4.1 E6.4.1
+K4.3,K,Gli eventi del browser,2,2,14,K4.2 G3.6.1
+K4.4,K,Validazione dei moduli lato client,2,2,15,K4.3 K2.6
+K4.5,K,Richieste asincrone: fetch e JSON,2,3,17,K4.1 G5.5.4 B11.4
+K4.6,K,"Archiviazione nel browser: cookie, localStorage, IndexedDB",2,3,13,K4.1
+K4.7,K,"API del browser: canvas, geolocalizzazione, audio",2,3,14,K4.2
+K4.8,K,Moduli JavaScript e bundler,3,3,14,K4.1 G5.5.5
+K4.9,K,WebAssembly,3,4,16,K4.1 G7.3.2
+K5.1,K,Perché l'accessibilità; disabilità e tecnologie assistive,1,2,1,U8.3
+K5.2,K,Linee guida WCAG: principi e livelli di conformità,2,2,2,K5.1
+K5.3,K,"Testi alternativi, struttura dei titoli, etichette dei moduli",1,2,10,K5.1 K2.7
+K5.4,K,Contrasto dei colori e navigazione da tastiera,2,2,9,K5.2 B5.4.3
+K5.5,K,ARIA,3,3,14,K5.2 K4.2
+K5.6,K,Verificare l'accessibilità: strumenti automatici e lettori di schermo,2,3,3,K5.2
+K5.7,K,"Obblighi normativi (Legge Stanca, European Accessibility Act)",2,2,3,K5.2
+K6.1,K,Single page application e rendering lato client,3,3,18,K4.5
+K6.2,K,"Componenti, stato, proprietà",3,3,19,K6.1 G3.2.1
+K6.3,K,"Framework diffusi: React, Vue, Svelte, Angular",3,3,20,K6.2
+K6.4,K,Gestione dello stato dell'applicazione,3,3,20,K6.2 G3.6.3
+K6.5,K,Routing lato client,3,3,19,K6.1
+K6.6,K,Rendering lato server e generazione statica,3,4,21,K6.3 K7.1
+K7.1,K,Programmazione lato server: pagine dinamiche,2,3,12,K1.5 G1.8
+K7.2,K,"Framework back-end (Flask, Django, Express, Spring)",3,3,16,K7.1 H4.9
+K7.3,K,"API REST: risorse, metodi, codici di stato",3,3,13,K7.1 J7.3
+K7.4,K,GraphQL e altri stili di API,3,4,14,K7.3
+K7.5,K,Accesso ai dati dal back-end,3,3,14,K7.1 L5.12
+K7.6,K,"Sessioni, cookie, autenticazione",3,3,14,K7.1 K4.6 N5.1
+K7.7,K,Autorizzazione delegata: OAuth 2.0 e OpenID Connect,3,4,15,K7.6 N5
+K7.8,K,WebSocket e comunicazione in tempo reale,3,3,13,K7.1 J6.3
+K7.9,K,Sicurezza delle applicazioni web: panoramica OWASP Top 10,3,3,15,K7.6
+K8.1,K,"Hosting, domini e DNS per un sito",2,2,13,J7.1 K1.2
+K8.2,K,"Pubblicare un sito statico (GitHub Pages, Netlify)",2,2,14,K8.1 H5.4
+K8.3,K,"Generatori di siti statici (Hugo, Jekyll)",2,3,15,K8.2 B13.5
+K8.4,K,Certificati TLS per il proprio sito,2,3,14,K8.1 J7.4
+K8.5,K,Sistemi di gestione dei contenuti (WordPress),1,2,7,K1.5
+K8.6,K,Pubblicare applicazioni dinamiche su server e cloud,3,3,17,K7.2 I9.4
+K9.1,K,"App native, ibride, web app progressive",2,2,7,K1.5 I8.4
+K9.2,K,"Sviluppo Android (Kotlin, Java)",3,3,15,K9.1 G5.4.5
+K9.3,K,Sviluppo iOS (Swift),3,3,13,K9.1 G5.11
+K9.4,K,"Framework multipiattaforma (Flutter, React Native)",3,3,20,K9.1 K6.2
+K9.5,K,Progettare per schermi piccoli e sensori,2,3,13,K9.1 K3.8
+K9.6,K,Pubblicazione negli store e permessi,2,3,8,K9.1
+K10.1,K,"Dati strutturati nelle pagine (schema.org, JSON-LD)",3,3,10,K2.9 B11.4
+K10.2,K,RDF: triple soggetto-predicato-oggetto,3,4,11,A3.2.1 K10.1
+K10.3,K,"Ontologie (RDFS, OWL)",4,4,12,K10.2 O2.3
+K10.4,K,SPARQL e linked open data (Wikidata),3,4,12,K10.2 L5.3
+K10.5,K,Grafi di conoscenza,4,4,13,K10.3
+K11.1,K,Prestazioni web: tempi di caricamento e metriche,3,3,14,K1.4
+K11.2,K,"Ottimizzazione: compressione, cache, immagini, CDN",3,3,15,K11.1 J12.2
+K11.3,K,Ottimizzazione per i motori di ricerca (SEO),2,2,10,K2.7 L11.1
+K11.4,K,Analisi del traffico e A/B test,3,3,17,K11.1 A7.4.5
+K11.5,K,"Cookie, tracciamento, consenso (GDPR, ePrivacy)",2,2,14,K4.6 U4.1
+K11.6,K,Progettazione orientata alla privacy,3,3,15,K11.5
+K12.1,K,Immagini nel web: formati e immagini responsive,1,2,12,K2.4
+K12.2,K,SVG nel web,2,2,11,B6.7 K2.1
+K12.3,K,Canvas 2D,2,3,15,K4.7
+K12.4,K,"WebGL, WebGPU e librerie 3D (three.js)",3,4,18,K12.3 Q2.7
+K12.5,K,"Visualizzazione di dati nel web (D3, Chart.js)",3,3,14,K4.2 K12.2
+K12.6,K,Animare la grafica SVG,2,3,12,K12.2
+K12.7,K,Progettare un'icona vettoriale,2,2,12,K12.2
+L1.1,L,"Dati strutturati, semi-strutturati, non strutturati",1,1,2,B11.1
+L1.2,L,"Ciclo di vita del dato: raccolta, archiviazione, elaborazione, conservazione, cancellazione",1,2,3,L1.1
+L1.3,L,"Qualità dei dati: accuratezza, completezza, coerenza, attualità",2,2,3,L1.1
+L1.4,L,Archivi tradizionali e basi di dati; i problemi di ridondanza e incoerenza,2,2,3,L1.1 I5.2
+L1.5,L,La piramide dati-informazione-conoscenza-saggezza (DIKW),1,2,1,B1.1
+L2.1,L,"Celle, righe, colonne; tipi di dato nelle celle",1,1,2,B11.1
+L2.2,L,Formule; riferimenti relativi e assoluti,1,1,3,L2.1 A1.5.1
+L2.3,L,"Funzioni: somma, media, conteggio, SE, CERCA",1,1,6,L2.2 E3.2
+L2.4,L,Grafici,1,1,3,L2.1 A7.1.2
+L2.5,L,"Ordinare, filtrare, formattazione condizionale",1,1,3,L2.1
+L2.6,L,Tabelle pivot,2,2,4,L2.5
+L2.7,L,"Il foglio di calcolo usato come base di dati, e i suoi limiti",2,2,4,L2.5 L1.4
+L2.8,L,"Macro e automazione (VBA, Apps Script)",2,3,12,L2.3 G1.8
+L3.1,L,"Livelli di astrazione: concettuale, logico, fisico",2,2,4,L1.4
+L3.2,L,Entità e attributi; identificatori,2,2,5,L3.1
+L3.3,L,"Associazioni e cardinalità (1:1, 1:N, N:M)",2,2,6,L3.2 A3.2.1
+L3.4,L,Diagrammi Entità/Relazioni e loro notazioni,2,2,7,L3.3
+L3.5,L,Generalizzazioni e gerarchie,2,3,8,L3.4
+L3.6,L,Dai requisiti al modello concettuale,2,3,8,L3.4
+L3.7,L,Strumenti per disegnare schemi E/R,2,2,6,L3.2
+L3.8,L,Errori tipici negli schemi E/R e come correggerli,3,3,8,L3.4
+L3.9,L,Confrontare schemi alternativi per lo stesso problema,3,3,8,L3.4
+L4.1,L,"La relazione come tabella: attributi, tuple, domini",2,2,5,A3.1.4 L3.1
+L4.2,L,"Chiavi: superchiave, chiave candidata, primaria, esterna",2,2,6,L4.1
+L4.3,L,"Vincoli di integrità: di dominio, di entità, referenziale",2,2,7,L4.2
+L4.4,L,Traduzione dal modello E/R al modello relazionale,2,2,8,L4.3 L3.4
+L4.5,L,"Algebra relazionale: selezione, proiezione, join, unione, differenza",2,3,6,L4.1 A3.1.3
+L4.6,L,Dipendenze funzionali,2,3,7,L4.2
+L4.7,L,"Normalizzazione: 1NF, 2NF, 3NF, BCNF",2,3,8,L4.6 L4.3
+L4.8,L,Denormalizzazione consapevole,3,3,9,L4.7
+L4.9,L,Calcolo relazionale,3,4,7,L4.5 A2.2.2
+L4.10,L,Codd e la nascita del modello relazionale,2,2,6,L4.1
+L4.11,L,Generare lo schema con uno strumento di progettazione,3,3,9,L4.4
+L4.12,L,"Schemi di database reali: negozio online, social network",3,3,9,L4.4
+L4.13,L,"Anomalie di inserimento, modifica, cancellazione in un foglio di calcolo reale",3,3,9,L4.7
+L4.14,L,Calcolatori di algebra relazionale,3,3,7,L4.5
+L4.15,L,Tradurre domande in linguaggio naturale in algebra relazionale,3,3,7,L4.5
+L5.1,L,"DDL: CREATE, ALTER, DROP; tipi di dato",2,2,8,L4.3
+L5.2,L,"DML: INSERT, UPDATE, DELETE",2,2,9,L5.1
+L5.3,L,SELECT con condizioni e ordinamento,2,2,9,L5.1 A2.1.4
+L5.4,L,Join interni ed esterni,2,2,10,L5.3 L4.5
+L5.5,L,"Funzioni di aggregazione, GROUP BY, HAVING",2,2,10,L5.3
+L5.6,L,Interrogazioni annidate,2,3,11,L5.4
+L5.7,L,Valori NULL e logica a tre valori,2,3,10,L5.3 A2.6.1
+L5.8,L,Viste,2,2,11,L5.4
+L5.9,L,Controllo degli accessi: GRANT e REVOKE,2,3,9,L5.1
+L5.10,L,"Funzioni finestra, espressioni di tabella comuni, interrogazioni ricorsive",3,3,12,L5.6 A3.2.5
+L5.11,L,Trigger e procedure memorizzate,3,3,12,L5.2 G1.8
+L5.12,L,"SQL dentro i programmi: connettori, query parametriche, ORM",2,3,13,L5.3 G1.15
+L5.13,L,Ricerca testuale in SQL: LIKE ed espressioni regolari,2,3,10,L5.3
+L5.14,L,"I join rappresentati con i diagrammi di Venn, e i limiti di questa rappresentazione",2,2,11,L5.4
+L5.15,L,Self-join: una tabella collegata a se stessa (alberi genealogici),3,3,11,L5.4
+L5.16,L,Mediana e percentili in SQL,3,3,11,L5.5
+L5.17,L,Riepiloghi in SQL e tabelle pivot a confronto,3,3,11,L5.5 L2.6
+L5.18,L,Salvare i progressi di un gioco in SQLite,3,3,14,L5.12
+L6.1,L,Architettura di un DBMS,2,3,6,L4.1
+L6.2,L,Transazioni e proprietà ACID,3,3,7,L6.1
+L6.3,L,"Controllo di concorrenza: lock a due fasi, livelli di isolamento, MVCC",3,3,11,L6.2 I3.3
+L6.4,L,Ripristino dopo i guasti: log e checkpoint,3,3,8,L6.2
+L6.5,L,"Organizzazione fisica: file, pagine, record",3,3,9,L6.1 I5.3
+L6.6,L,"Indici (B+tree, hash) e loro scelta",3,3,16,L6.5 E6.4.7 E6.5.1
+L6.7,L,Elaborazione e ottimizzazione delle interrogazioni; piani di esecuzione,3,4,17,L6.6 L4.5
+L6.8,L,"DBMS diffusi: SQLite, PostgreSQL, MySQL/MariaDB",2,2,9,L5.1
+L7.1,L,Perché il NoSQL; cenni al teorema CAP,3,3,8,L6.2
+L7.2,L,Basi di dati chiave-valore,3,3,12,L7.1 E6.5.4
+L7.3,L,Basi di dati a documenti (es. MongoDB),3,3,9,L7.1 B11.4
+L7.4,L,Basi di dati a colonne,3,4,9,L7.1
+L7.5,L,Basi di dati a grafo e loro linguaggi di interrogazione (Cypher),3,3,9,L7.1 A4.3.1
+L7.6,L,Basi di dati per serie temporali e vettoriali,3,4,11,L7.1 A5.1.3
+L7.7,L,Consistenza eventuale,3,4,9,L7.1
+L7.8,L,Quando le tabelle non bastano: panoramica dei database NoSQL,3,3,6,L4.1
+L8.1,L,Sistemi operazionali e analitici (OLTP e OLAP),3,3,8,L6.2
+L8.2,L,"Data warehouse: schema a stella, fatti e dimensioni",3,3,9,L8.1 L4.4
+L8.3,L,"Cubi OLAP: roll-up, drill-down, slice and dice",3,3,10,L8.2
+L8.4,L,Processi ETL ed ELT,3,3,10,L8.2
+L8.5,L,"Big data: volume, velocità, varietà, veridicità",2,3,3,L1.1
+L8.6,L,"Elaborazione distribuita: MapReduce, Hadoop, Spark",3,4,14,L8.5 E11.5
+L8.7,L,Data lake e lakehouse,3,4,15,L8.4 L8.6
+L8.8,L,"Elaborazione di flussi di dati (Kafka, Flink)",4,4,15,L8.6
+L9.1,L,Il ciclo di un progetto di analisi dei dati,2,2,4,L1.2
+L9.2,L,"Raccolta: fonti, API, web scraping",2,2,5,L9.1 B11.4
+L9.3,L,"Pulizia e preparazione: valori mancanti, duplicati, formati",2,2,5,L9.1 L1.3
+L9.4,L,Analisi esplorativa,2,2,6,L9.3 A7.1.4
+L9.5,L,Visualizzare i dati per analizzarli,2,2,7,L9.4 A7.1.2
+L9.6,L,"Strumenti: pandas, R, notebook",2,2,15,L9.3 G2.2.13
+L9.7,L,Raccontare con i dati,2,2,8,L9.5 U11.4
+L9.8,L,Riproducibilità dell'analisi,3,3,16,L9.6 H5.1
+L9.9,L,Inferenza e modelli statistici nell'analisi,3,3,16,L9.4 A7.4.2
+L9.10,L,Cruscotti costruiti sui dati di un database,3,3,11,L5.5
+L10.1,L,"Open data: definizione, licenze, portali nazionali",1,2,3,L1.1 U4.5
+L10.2,L,Scala a cinque stelle degli open data,2,2,4,L10.1
+L10.3,L,"Governance dei dati: ruoli, responsabilità, politiche",3,3,4,L1.3
+L10.4,L,Metadati e cataloghi di dati,2,3,4,L10.1 B11.6
+L10.5,L,Principi FAIR,3,3,5,L10.4
+L10.6,L,Protezione dei dati personali nel trattamento dei dati,2,2,2,U4.1
+L11.1,L,Il problema della ricerca in documenti non strutturati,2,2,3,L1.1
+L11.2,L,L'indice invertito,2,3,12,L11.1 E6.5.4
+L11.3,L,Modello booleano e modello vettoriale; TF-IDF,3,3,13,L11.2 A5.1.3 A1.2.5
+L11.4,L,Valutazione: precisione e richiamo,3,3,4,L11.1
+L11.5,L,Crawler e architettura di un motore di ricerca,3,3,13,L11.2 J7.3
+L11.6,L,PageRank e analisi dei collegamenti,3,3,15,L11.5 A5.3.3 A7.5.3
+L11.7,L,Ricerca semantica con embedding,4,4,14,L11.3 L7.6
+L11.8,L,"Usare bene un motore di ricerca: operatori, valutazione dei risultati",1,1,0,
+L12.1,L,Tipi di sistemi di raccomandazione,2,3,3,L1.1
+L12.2,L,Raccomandazione basata sui contenuti,3,3,14,L12.1 L11.3
+L12.3,L,Filtraggio collaborativo,3,3,11,L12.1 A5.1.3
+L12.4,L,Fattorizzazione di matrici,4,4,15,L12.3 A5.3.2
+L12.5,L,"Valutazione, problema dell'avvio a freddo, bolle di filtro",3,3,12,L12.3
+L13.1,L,Biblioteche e archivi digitali,2,2,4,L1.2
+L13.2,L,Metadati descrittivi: Dublin Core,2,3,5,L13.1 B11.6
+L13.3,L,"Identificatori persistenti: DOI, ORCID, handle",2,3,5,L13.1
+L13.4,L,"Conservazione a lungo termine: obsolescenza dei formati, migrazione, emulazione",3,3,5,L13.1 B11.9
+L13.5,L,Archivi del web,2,2,5,L13.1
+L13.6,L,Conservazione digitale a norma dei documenti amministrativi,3,3,14,L13.4 B13.8
+L14.1,L,Replicazione dei dati,3,3,8,L6.2
+L14.2,L,Partizionamento (sharding),3,3,9,L14.1
+L14.3,L,Transazioni distribuite; commit a due fasi,4,4,12,L14.1 L6.3
+L14.4,L,Pipeline di dati e loro orchestrazione,3,3,11,L8.4
+L14.5,L,Archiviazione e interrogazione di dati semi-strutturati e non strutturati,3,3,10,L7.3
+L14.6,L,Basi di dati nel cloud (servizi gestiti),3,3,10,L14.2
+L15.1,L,Controllo degli accessi ai dati: ruoli e privilegi,2,3,10,L5.9
+L15.2,L,Cifratura dei dati a riposo e in transito,3,3,11,L6.1 N3.1
+L15.3,L,SQL injection e difese,2,3,14,L5.12
+L15.4,L,Anonimizzazione e pseudonimizzazione,3,3,3,L10.6
+L15.5,L,Provenienza e tracciabilità dei dati,3,4,5,L10.3
+L15.6,L,Backup e ripristino delle basi di dati,3,3,9,L6.4 I11.3
+M1.1,M,Perché il calcolo parallelo: la frequenza dei processori ha smesso di crescere,2,3,10,C9.1
+M1.2,M,Accelerazione ed efficienza,3,3,11,M1.1
+M1.3,M,Legge di Amdahl,3,3,12,M1.2 D10.1
+M1.4,M,Legge di Gustafson; scalabilità forte e debole,3,3,13,M1.3
+M1.5,M,Parallelismo di dati e di compiti,2,3,11,M1.1
+M1.6,M,"Granularità, bilanciamento del carico, costi di comunicazione",3,3,12,M1.5
+M2.1,M,Thread e memoria condivisa in pratica,3,3,15,G3.7.3 D11.1
+M2.2,M,OpenMP,3,3,16,M2.1
+M2.3,M,Scambio di messaggi con MPI,3,4,13,M1.6 G1.8
+M2.4,M,Programmazione delle GPU: CUDA e OpenCL,3,4,15,D11.4 M1.5
+M2.5,M,"Parallelismo in Python: multiprocessing, NumPy, Numba",3,3,16,G3.8.1 M1.5
+M2.6,M,"Schemi paralleli: map, reduce, pipeline, stencil",3,3,13,M1.5 E11.2
+M2.7,M,Debugging e profilazione di programmi paralleli,3,4,16,M2.1 I12.2
+M3.1,M,"Sistemi distribuiti: definizione, obiettivi, trasparenze",3,3,5,J2.5
+M3.2,M,Modelli di guasto e ipotesi di sincronia,3,4,6,M3.1
+M3.3,M,"Il tempo: orologi fisici, orologi logici di Lamport, orologi vettoriali",3,4,13,M3.1 J7.9
+M3.4,M,Replicazione e modelli di consistenza,3,4,9,M3.1 L14.1
+M3.5,M,Teoremi CAP e PACELC,3,4,10,M3.4
+M3.6,M,Consenso: Paxos e Raft,4,4,14,M3.2 M3.3
+M3.7,M,Tolleranza ai guasti bizantini,4,4,15,M3.6
+M3.8,M,Mutua esclusione ed elezione distribuite,4,4,14,M3.3 E11.4
+M3.9,M,Tabelle hash distribuite e reti sovrapposte,4,4,14,M3.1 E6.5.1 J10.6
+M3.10,M,Code di messaggi e sistemi publish-subscribe,3,3,14,M3.1 G3.6.4
+M4.1,M,"Il cloud: caratteristiche e modelli di servizio (IaaS, PaaS, SaaS)",2,2,7,J2.5 I9.1
+M4.2,M,"Modelli di distribuzione: pubblico, privato, ibrido",2,2,8,M4.1
+M4.3,M,"Servizi di base: calcolo, archiviazione a oggetti, rete",3,3,8,M4.1
+M4.4,M,Scalabilità elastica e bilanciamento del carico,3,3,13,M4.3 M1.6
+M4.5,M,Serverless e funzioni come servizio,3,3,9,M4.3
+M4.6,M,Costi del cloud (FinOps),3,3,9,M4.3
+M4.7,M,Sovranità dei dati; il cloud per la pubblica amministrazione,2,3,9,M4.2 U4.1
+M4.8,M,"Il cloud nella vita scolastica: suite collaborative, archiviazione condivisa",1,1,0,
+M5.1,M,Supercalcolatori: cluster e interconnessioni,3,3,14,M2.3
+M5.2,M,La classifica TOP500; FLOPS e benchmark LINPACK,2,3,11,M1.1
+M5.3,M,Code di lavoro e schedulatori (Slurm),3,4,15,M5.1 I2.6
+M5.4,M,"Il supercalcolo in Italia e in Europa (Leonardo, EuroHPC)",2,2,12,M5.2
+M5.5,M,Calcolo exascale e sfide energetiche,4,4,15,M5.1 C13.4
+M6.1,M,Dal cloud al bordo della rete: edge e fog computing,3,3,8,M4.1
+M6.2,M,Elaborare vicino ai sensori: latenza e privacy,3,3,9,M6.1
+M6.3,M,"IA sui dispositivi (edge AI, TinyML)",3,4,18,M6.2 O5.1.7
+M6.4,M,Il continuo di calcolo dal dispositivo al cloud,4,4,14,M6.2 M4.4
+M7.1,M,Registri distribuiti: idea e casi d'uso,2,2,5,J2.5
+M7.2,M,La catena di blocchi collegati da hash,2,3,12,M7.1 N3.2.1
+M7.3,M,Transazioni firmate e portafogli,3,3,13,M7.2 N3.4.1
+M7.4,M,Meccanismi di consenso: proof of work e proof of stake,3,3,13,M7.2 M3.1
+M7.5,M,Contratti intelligenti,3,4,14,M7.4 G1.8
+M7.6,M,"Limiti: scalabilità, consumo energetico, usi impropri",2,3,13,M7.2
+M8.1,M,Consumo energetico del calcolo: misure e stime,2,3,10,C13.1
+M8.2,M,Algoritmi e software efficienti dal punto di vista energetico,3,3,11,M8.1 E9.3
+M8.3,M,"Data center efficienti: raffreddamento, energie rinnovabili, PUE",3,3,11,C13.4
+M8.4,M,Impronta di carbonio dell'addestramento dei modelli di IA,3,3,18,M8.1 O9.3 O9.5
+M8.5,M,Pianificare il calcolo in base all'energia disponibile,4,4,14,M8.3 M4.4
+N1.1,N,"Sicurezza informatica: riservatezza, integrità, disponibilità",1,1,0,
+N1.2,N,"Autenticità, non ripudio, responsabilità",2,2,1,N1.1
+N1.3,N,"Minacce, vulnerabilità, attacchi, rischio",1,2,1,N1.1
+N1.4,N,Chi attacca e perché,2,2,2,N1.3
+N1.5,N,"Principi di progettazione: privilegio minimo, difesa in profondità, sicurezza predefinita",2,3,2,N1.3
+N1.6,N,Superficie d'attacco e modellazione delle minacce (STRIDE),3,3,3,N1.5
+N2.1,N,"Storia e terminologia: testo in chiaro, testo cifrato, chiave",1,1,0,
+N2.2,N,Cifrari a sostituzione: il cifrario di Cesare,1,1,3,N2.1 A1.4.1
+N2.3,N,Crittoanalisi con l'analisi delle frequenze,1,1,4,N2.2 A7.1.2
+N2.4,N,Il cifrario di Vigenère e come si rompe,1,2,5,N2.3
+N2.5,N,Cifrari a trasposizione,1,1,1,N2.1
+N2.6,N,Principio di Kerckhoffs,2,2,6,N2.4
+N2.7,N,One-time pad e sicurezza perfetta,2,2,6,N2.4 A2.1.3
+N2.8,N,Enigma e le macchine cifranti,1,2,6,N2.4
+N2.9,N,Steganografia: nascondere l'esistenza di un messaggio,1,1,1,N2.1
+N2.10,N,Cifrari del Rinascimento: il disco di Leon Battista Alberti,1,2,6,N2.4
+N3.1.1,N,Cifrari a blocchi e a flusso,2,3,7,N2.7 B2.3.5
+N3.1.2,N,DES e AES,3,3,8,N3.1.1
+N3.1.3,N,"Modalità operative (ECB, CBC, CTR, GCM)",3,3,9,N3.1.2
+N3.1.4,N,Generatori di numeri casuali crittograficamente sicuri,3,3,10,A7.2.5
+N3.2.1,N,Funzioni hash crittografiche e loro proprietà,2,3,11,E6.5.1
+N3.2.2,N,SHA-2 e SHA-3,3,3,12,N3.2.1
+N3.2.3,N,Codici di autenticazione dei messaggi (HMAC),3,3,12,N3.2.1 N3.1.1
+N3.2.4,N,"Memorizzare le password: sale e funzioni lente (bcrypt, Argon2)",2,3,12,N3.2.1
+N3.2.5,N,Paradosso del compleanno e collisioni,3,3,12,N3.2.1 A7.2.2
+N3.3.1,N,L'idea della crittografia a chiave pubblica,2,2,7,N2.6
+N3.3.2,N,Scambio di chiavi Diffie-Hellman,2,3,8,N3.3.1 A1.4.1
+N3.3.3,N,RSA,3,3,8,N3.3.1 A1.4.4 A1.3.5
+N3.3.4,N,Crittografia su curve ellittiche,4,4,10,N3.3.1 A4.4.6
+N3.3.5,N,Cifratura ibrida,3,3,9,N3.3.3 N3.1.2
+N3.4.1,N,Firma digitale,2,3,12,N3.3.1 N3.2.1
+N3.4.2,N,Certificati X.509 e autorità di certificazione,3,3,13,N3.4.1
+N3.4.3,N,"PKI, catene di fiducia, revoca",3,3,14,N3.4.2
+N3.4.4,N,Firma elettronica qualificata e regolamento eIDAS,2,3,13,N3.4.1
+N3.5.1,N,Prove a conoscenza zero,4,4,16,N3.3.1 F11.3
+N3.5.2,N,Crittografia omomorfica,4,4,9,N3.3.1 A4.4.3
+N3.5.3,N,Calcolo multiparte sicuro,4,4,8,N3.3.1
+N3.5.4,N,Condivisione di segreti (schema di Shamir),3,4,9,A1.5.4 A4.4.3
+N4.1,N,"TLS: handshake, negoziazione, certificati",3,3,14,N3.3.5 N3.4.2 J7.4
+N4.2,N,SSH: chiavi e autenticazione,2,3,13,N3.3.1 J7.6
+N4.3,N,"Posta sicura (PGP, S/MIME) e autenticazione del dominio (SPF, DKIM, DMARC)",3,3,14,N3.4.1 J7.5
+N4.4,N,Messaggistica cifrata da estremo a estremo (protocollo Signal),3,4,9,N3.3.2
+N4.5,N,DNSSEC,3,4,13,N3.4.1 J7.1
+N4.6,N,"Sicurezza del Wi-Fi (WPA2, WPA3)",2,3,13,J4.9 N3.1.1
+N5.1,N,"Identificazione, autenticazione, autorizzazione",1,2,1,N1.1
+N5.2,N,Fattori di autenticazione; password robuste e gestori di password,1,1,2,N5.1
+N5.3,N,Autenticazione a più fattori; codici monouso,1,2,3,N5.2
+N5.4,N,Passkey e FIDO2,2,3,8,N5.3 N3.3.1
+N5.5,N,"Identità digitale: SPID, CIE",1,2,4,N5.3
+N5.6,N,"Modelli di controllo degli accessi: DAC, MAC, RBAC, ABAC",3,3,3,N5.1 I5.4
+N5.7,N,Single sign-on e federazione delle identità,3,3,4,N5.6
+N5.8,N,Biometria,2,3,3,N5.2
+N6.1,N,"Vulnerabilità e loro classificazione (CVE, CWE, CVSS)",2,3,2,N1.3
+N6.2,N,Validazione dell'input,2,2,13,N6.1 G1.14
+N6.3,N,"Iniezioni (SQL, comandi)",2,3,14,N6.2 L5.12
+N6.4,N,Cross-site scripting (XSS) e CSRF,3,3,14,N6.2 K4.2
+N6.5,N,Buffer overflow e corruzione della memoria,3,3,15,G4.5 D7.4
+N6.6,N,"Mitigazioni: ASLR, canary, DEP, linguaggi sicuri per la memoria",3,4,16,N6.5 I4.8
+N6.7,N,Gestire in modo sicuro i segreti nel codice,2,3,3,N6.1
+N6.8,N,Divulgazione responsabile e bug bounty,3,3,3,N6.1
+N7.1,N,"Malware: virus, worm, trojan, ransomware (concetti)",1,2,2,N1.3
+N7.2,N,Antivirus e rilevamento,2,2,3,N7.1
+N7.3,N,"Attacchi di rete: intercettazione, spoofing, man-in-the-middle, DoS e DDoS",2,3,9,N1.3 J3.4
+N7.4,N,"Difesa perimetrale: firewall, IDS/IPS",3,3,12,N7.3 J11.1
+N7.5,N,Architettura zero trust,3,4,13,N7.4 N5.6
+N7.6,N,"Sicurezza dei sistemi operativi: aggiornamenti, privilegi, hardening",2,3,4,N7.1 I11.1
+N7.7,N,Penetration testing e competizioni CTF (in ambito etico),3,3,15,N7.3 N6.3
+N7.8,N,Centri operativi di sicurezza (SOC) e SIEM,3,4,13,N7.4 I11.4
+N8.1,N,Attacchi fisici ai dispositivi,3,3,2,N1.3 C11.1
+N8.2,N,"Canali laterali: tempi, consumo, emissioni",3,4,9,N8.1 N3.1.2
+N8.3,N,Spectre e Meltdown,4,4,18,D10.6 D8.4
+N8.4,N,"Moduli di sicurezza hardware: TPM, enclave sicure",3,4,11,N3.3.1 I10.2
+N8.5,N,Sicurezza della filiera dell'hardware,4,4,10,C8.6 N8.1
+N9.1,N,Ingegneria sociale,1,1,1,N1.1
+N9.2,N,Phishing: riconoscerlo e difendersi,1,1,2,N9.1
+N9.3,N,"Igiene digitale: aggiornamenti, backup, password",1,1,2,N9.1
+N9.4,N,Sicurezza dei dispositivi mobili e delle reti pubbliche,1,2,3,N9.3
+N9.5,N,Consapevolezza e formazione nelle organizzazioni,2,3,3,N9.2
+N10.1,N,La minaccia quantistica a RSA e alle curve ellittiche,3,3,13,N3.3.3 T5.3
+N10.2,N,"Famiglie post-quantistiche: reticoli, hash, codici",4,4,14,N10.1 A11.4
+N10.3,N,"Standard NIST (ML-KEM, ML-DSA) e migrazione",4,4,15,N10.2
+N10.4,N,"""Raccogli ora, decifra dopo""",3,3,14,N10.1
+N11.1,N,Tracciamento e profilazione online: come funzionano,2,2,2,U7.2
+N11.2,N,"Anonimato, pseudonimato, reidentificazione",3,3,3,N11.1 L1.1
+N11.3,N,k-anonimato,3,3,4,N11.2
+N11.4,N,Privacy differenziale,4,4,13,N11.2 A7.3.3
+N11.5,N,Reti di anonimato (Tor),3,3,12,N11.2 N3.3.5 J5.4
+N11.6,N,Tecniche per la privacy nell'IA: apprendimento federato,4,4,19,N11.4 O4
+N12.1,N,Principi e catena di custodia,3,3,2,N1.3
+N12.2,N,Acquisizione e analisi di dischi e memorie,3,4,9,N12.1 I5.3
+N12.3,N,Analisi del traffico di rete e dei log,3,4,11,N12.1 J3.5
+N12.4,N,Analisi forense dei dispositivi mobili,4,4,10,N12.2
+N13.1,N,Esempi avversari,4,4,20,O5.2
+N13.2,N,Avvelenamento dei dati e backdoor,4,4,17,O4.3
+N13.3,N,Prompt injection e sicurezza degli agenti,3,3,18,O6.7
+N13.4,N,Estrazione del modello e attacchi alla privacy (membership inference),4,4,17,O4.3 N11.2
+N13.5,N,L'IA per difendere e per attaccare,3,3,13,O4.3.3 N7.4
+N14.1,N,Gestione del rischio informatico,3,3,2,N1.3
+N14.2,N,Politiche di sicurezza e classificazione delle informazioni,3,3,3,N14.1
+N14.3,N,"Standard: ISO/IEC 27001, framework NIST",3,3,4,N14.2
+N14.4,N,"Normativa: NIS2, sicurezza del trattamento nel GDPR, ruolo dell'Agenzia per la cybersicurezza nazionale",3,3,4,N14.2 U4.9
+N14.5,N,Risposta agli incidenti,3,3,3,N14.1
+N14.6,N,Continuità operativa e disaster recovery,3,3,4,N14.5 I11.3
+O1.1,O,Che cos'è l'intelligenza artificiale: definizioni e approcci,1,1,0,
+O1.2,O,Storia dell'IA e principali svolte,1,2,7,O1.1 U1.17
+O1.3,O,Il test di Turing,1,2,1,O1.1
+O1.4,O,IA ristretta e generale; IA debole e forte,2,2,1,O1.1
+O1.5,O,"Agenti intelligenti: percezione, azione, ambiente",2,2,1,O1.1
+O1.6,O,L'IA nella vita quotidiana: riconoscerla e usarla con consapevolezza,1,1,1,O1.1
+O2.1.1,O,Problemi come spazi di stati,2,2,6,O1.5 A4.3.1
+O2.1.2,O,"Ricerca non informata: in ampiezza, in profondità, a costo uniforme",2,3,13,O2.1.1 E7.3.1 E7.3.2
+O2.1.3,O,Ricerca informata: euristiche e A*,3,3,15,O2.1.2 E7.3.9
+O2.1.4,O,Ricerca locale,3,3,7,O2.1.1 A9.3.1
+O2.2.1,O,Giochi a due giocatori e albero di gioco,2,2,8,O2.1.1 A4.3.3
+O2.2.2,O,Algoritmo minimax,2,3,15,O2.2.1 A9.4.3
+O2.2.3,O,Potatura alfa-beta,3,3,16,O2.2.2
+O2.2.4,O,Ricerca ad albero Monte Carlo,3,4,16,O2.2.2 A7.3.4
+O2.3.1,O,"Regole, frame, reti semantiche",2,3,6,A2.2.2
+O2.3.2,O,Inferenza in avanti e all'indietro,3,3,7,O2.3.1 A2.1.7
+O2.3.3,O,Ontologie e grafi di conoscenza,3,4,7,O2.3.1
+O2.3.4,O,Ragionamento di senso comune e suoi limiti,3,3,7,O2.3.1
+O2.4.1,O,Sistemi esperti: base di conoscenza e motore inferenziale,2,3,7,O2.3.1
+O2.4.2,O,"Pianificazione automatica (STRIPS, PDDL)",3,4,16,O2.1.3 O2.3.1
+O2.5,O,Soddisfacimento di vincoli e ragionamento automatico nell'IA,3,3,12,F14.4 O2.1.1
+O3.1,O,Rappresentare l'incertezza con la probabilità,3,3,11,A7.2.4
+O3.2,O,Reti bayesiane,3,4,12,O3.1 A4.3.4
+O3.3,O,Inferenza esatta e approssimata,4,4,13,O3.2
+O3.4,O,"Modelli temporali: HMM, filtro di Kalman, filtri a particelle",4,4,17,O3.2 A7.5.6
+O3.5,O,Logica fuzzy e controllo fuzzy,3,3,7,A2.6.2
+O3.6,O,Teoria delle decisioni per agenti,3,4,13,O3.1 A9.4.1
+O4.1.1,O,"Imparare dai dati: esempi, caratteristiche, etichette",1,2,2,O1.1 B11.1
+O4.1.2,O,Classificazione e regressione,2,2,3,O4.1.1
+O4.1.3,O,k vicini più prossimi,2,2,11,O4.1.2 A5.1.3
+O4.1.4,O,Regressione lineare,2,3,7,O4.1.2 A7.1.5
+O4.1.5,O,Regressione logistica,3,3,14,O4.1.4 A8.4.1
+O4.1.6,O,Alberi di decisione,2,3,13,O4.1.2 A8.1.2
+O4.1.7,O,"Metodi d'insieme: foreste casuali, boosting",3,3,14,O4.1.6
+O4.1.8,O,Macchine a vettori di supporto,3,4,18,O4.1.5 A9.2.4
+O4.1.9,O,Classificatore bayesiano ingenuo,3,3,11,O4.1.2 A7.2.4
+O4.1.10,O,Preparare le caratteristiche: normalizzazione e codifica,2,3,6,O4.1.1 L9.3
+O4.2.1,O,Clustering: k-means,2,3,11,O4.1.1 A5.1.3
+O4.2.2,O,Clustering gerarchico e basato sulla densità,3,3,12,O4.2.1
+O4.2.3,O,Riduzione della dimensionalità: PCA,3,3,15,O4.2.1 A5.3.2
+O4.2.4,O,"Visualizzare dati ad alta dimensione (t-SNE, UMAP)",4,4,16,O4.2.3
+O4.2.5,O,Rilevamento di anomalie,3,3,13,O4.2.1 A7.3.3
+O4.2.6,O,Apprendimento autosupervisionato,4,4,17,O4.2.3 O5.1.5
+O4.3.1,O,"Insiemi di addestramento, di validazione e di test",2,2,4,O4.1.2
+O4.3.2,O,Sovradattamento e sottoadattamento; compromesso fra distorsione e varianza,2,3,5,O4.3.1
+O4.3.3,O,"Metriche: accuratezza, precisione, richiamo, F1, matrice di confusione",2,2,5,O4.3.1
+O4.3.4,O,Validazione incrociata,3,3,16,O4.3.1 A7.4.6
+O4.3.5,O,Regolarizzazione,3,3,8,O4.3.2 O4.1.4
+O4.3.6,O,Bias nei dati ed equità dei modelli,2,3,9,O4.3.3 U3.2
+O4.3.7,O,Strumenti: scikit-learn,2,3,15,O4.3.1 G2.2.13
+O4.4.1,O,"Agente, ambiente, ricompensa",2,3,2,O1.5
+O4.4.2,O,Processi decisionali di Markov e funzioni di valore,3,3,14,O4.4.1 A7.5.5
+O4.4.3,O,Q-learning,3,4,15,O4.4.2
+O4.4.4,O,Esplorazione e sfruttamento; banditi multibraccio,3,3,12,O4.4.1 A7.3.2
+O4.4.5,O,Apprendimento per rinforzo profondo,4,4,17,O4.4.3 O5.1.5
+O4.4.6,O,Apprendimento per rinforzo da feedback umano (RLHF),4,4,18,O4.4.5 O6.1
+O5.1.1,O,Neurone artificiale e percettrone,2,2,11,O4.1.2 A5.1.3
+O5.1.2,O,Funzioni di attivazione,2,3,12,O5.1.1 A6.1.1
+O5.1.3,O,Reti multistrato; approssimazione universale,3,3,13,O5.1.2 A5.1.6
+O5.1.4,O,Funzione di perdita e discesa del gradiente,3,3,15,O5.1.3 A6.2.5 A8.4.1
+O5.1.5,O,Retropropagazione dell'errore,3,3,16,O5.1.4 A6.2.6
+O5.1.6,O,"Ottimizzatori, inizializzazione, normalizzazione, dropout",3,4,17,O5.1.5 A9.2.3
+O5.1.7,O,"Framework: PyTorch, TensorFlow, Keras",3,3,17,O5.1.3 G3.8.4
+O5.1.8,O,Addestramento su GPU,3,4,18,O5.1.7 D11.4
+O5.2.1,O,La convoluzione sulle immagini,3,3,17,O5.1.3 A6.5.5 B6.1
+O5.2.2,O,"Pooling e architetture classiche (LeNet, ResNet)",3,3,18,O5.2.1
+O5.2.3,O,Apprendimento per trasferimento,3,3,19,O5.2.2
+O5.3.1,O,Reti ricorrenti per le sequenze,3,4,17,O5.1.5
+O5.3.2,O,LSTM e GRU,4,4,18,O5.3.1
+O5.4.1,O,Embedding: parole e oggetti come vettori,3,3,14,O5.1.3 A5.1.3
+O5.4.2,O,Il meccanismo di attenzione,3,4,15,O5.4.1 A5.1.6
+O5.4.3,O,L'architettura Transformer,4,4,16,O5.4.2
+O5.4.4,O,"Transformer per immagini, audio e dati multimodali",4,4,18,O5.4.3 O5.2.1
+O5.5,O,Reti neurali su grafi,4,4,17,O5.1.5 A4.3.1
+O5.6,O,Sperimentare con una rete neurale nel browser (TensorFlow Playground),3,3,14,O5.1.3
+O6.1,O,Modello linguistico: prevedere il token successivo,2,3,10,A7.2.3 O4.1.1
+O6.2,O,"Grandi modelli linguistici: pre-addestramento, scala, capacità emergenti",3,4,16,O6.1 O5.4.2
+O6.3,O,"Messa a punto e allineamento (istruzioni, RLHF)",4,4,17,O6.2 O4.4.1
+O6.4,O,"Usare i modelli: prompt, contesto, esempi",1,2,2,O1.6
+O6.5,O,"Allucinazioni, limiti, verifica delle risposte",1,2,3,O6.4 U7.3
+O6.6,O,Generazione aumentata dal recupero (RAG),3,3,17,O6.2 L11.3
+O6.7,O,Agenti e uso di strumenti,3,3,17,O6.2 O1.5
+O6.8,O,"Modelli di diffusione per immagini, audio, video",4,4,18,O5.2.1 A7.3.3
+O6.9,O,Autoencoder variazionali e reti generative avversarie,4,4,17,O5.1.5 A8.4.2
+O6.10,O,Modelli aperti e chiusi; esecuzione in locale,2,3,3,O6.4
+O6.11,O,Valutare i contenuti generati; filigrane e provenienza,3,3,4,O6.5
+O7.1,O,Robustezza e generalizzazione fuori distribuzione,3,4,6,O4.3.2
+O7.2,O,"Spiegabilità: importanza delle caratteristiche, SHAP",3,4,15,O4.1.7
+O7.3,O,Interpretabilità meccanicistica,4,4,17,O7.2 O5.4.3
+O7.4,O,Allineamento ai valori umani,4,4,18,O6.3
+O7.5,O,Valutazione dei rischi dei modelli più avanzati,4,4,19,O7.4 O14.1
+O8.1,O,"Algoritmi genetici: popolazione, selezione, incrocio, mutazione",2,3,6,A9.3.1
+O8.2,O,Programmazione genetica ed evoluzione di strategie,3,4,7,O8.1
+O8.3,O,"Intelligenza di sciame: colonie di formiche, sciami di particelle",3,3,6,A9.3.1
+O8.4,O,Neuroevoluzione,4,4,14,O8.1 O5.1.3
+O9.1,O,Perché servono le GPU per l'IA,3,3,18,D11.4 O5.1.6
+O9.2,O,Acceleratori dedicati,3,4,16,D12.2
+O9.3,O,Costi di addestramento e di inferenza; leggi di scala,3,4,17,O6.2
+O9.4,O,"Compressione dei modelli: quantizzazione, distillazione, potatura",4,4,18,O5.1.6 B2.5.6
+O9.5,O,Energia e impronta ambientale dell'IA,2,3,12,U6.2
+O10.1,O,Rischi e benefici dell'IA per la società,1,2,2,O1.6
+O10.2,O,"Equità, bias e discriminazione algoritmica",2,3,10,O4.3.6
+O10.3,O,Trasparenza e responsabilità dei sistemi di IA,2,3,10,O10.1 U3.3
+O10.4,O,L'AI Act in pratica: classificare un sistema,3,3,12,U4.8
+O10.5,O,"IA, lavoro, creatività, diritto d'autore",2,3,3,O10.1 U4.3
+O11.1,O,"Usare l'IA per studiare: tutor, spiegazioni, esercizi",1,2,3,O6.4
+O11.2,O,Integrità accademica e uso trasparente,1,2,4,O11.1
+O11.3,O,Sistemi di tutoraggio intelligenti e apprendimento adattivo,3,3,4,O11.1 O4.1.2
+O11.4,O,Analisi dei dati di apprendimento (learning analytics),3,3,7,L9.4
+O11.5,O,Politiche scolastiche sull'uso dell'IA,2,3,12,O11.2 O10.1 U4.8
+O12.1,O,Agenti autonomi e loro interazione,3,3,2,O1.5
+O12.2,O,Coordinamento e cooperazione,3,4,3,O12.1
+O12.3,O,Negoziazione e aste fra agenti,4,4,15,O12.1 F11.5
+O12.4,O,Simulazioni ad agenti,3,3,3,O12.1
+O12.5,O,Più modelli linguistici che collaborano,4,4,18,O12.2 O6.7
+O13.1,O,Modelli psicologici delle emozioni (categoriali e dimensionali),2,3,0,
+O13.2,O,"Riconoscere le emozioni da volto, voce, testo",3,4,18,O13.1 O5.2.1
+O13.3,O,Agenti conversazionali empatici,4,4,19,O13.2 O6.2
+O13.4,O,Questioni etiche e giuridiche del riconoscimento delle emozioni,3,3,19,O13.2 U4.8
+O14.1,O,Benchmark e loro limiti,3,3,6,O4.3.3
+O14.2,O,Valutazione umana e preferenze,3,3,7,O14.1
+O14.3,O,Valutare i modelli linguistici; contaminazione dei dati di test,3,4,17,O14.1 O6.2
+O14.4,O,Red teaming,4,4,18,O14.3
+P1.1,P,Che cos'è la linguistica; i livelli di analisi,1,2,0,
+P1.2,P,Fonetica e fonologia,2,2,1,P1.1
+P1.3,P,"Morfologia: morfemi, flessione, derivazione",2,2,1,P1.1
+P1.4,P,Sintassi: costituenti e dipendenze,2,2,1,P1.1
+P1.5,P,Semantica lessicale e composizionale,2,3,2,P1.4
+P1.6,P,Pragmatica e discorso,2,3,3,P1.5
+P1.7,P,"Varietà linguistiche, lingue del mondo, tipologia",2,2,1,P1.1
+P1.8,P,Linguistica computazionale ed elaborazione del linguaggio naturale: definizione e storia,2,2,1,P1.1
+P2.1,P,"L'ambiguità delle lingue naturali: lessicale, sintattica, semantica",2,2,2,P1.4
+P2.2,P,Grammatiche formali applicate alle lingue,3,3,9,F2.3 P1.4
+P2.3,P,Le lingue naturali sono libere dal contesto? Dibattito e prove,4,4,11,P2.2 F2.8
+P2.4,P,Grammatiche a dipendenze e grammatiche categoriali,3,4,10,P2.2
+P3.1,P,Il testo come sequenza di caratteri; problemi di codifica,2,2,10,B4.5
+P3.2,P,"Normalizzazione: maiuscole, punteggiatura, segni diacritici",2,2,11,P3.1
+P3.3,P,Suddivisione in parole e in frasi (tokenizzazione),2,2,12,P3.2
+P3.4,P,Espressioni regolari per elaborare testi,2,2,12,P3.1 E7.4.6
+P3.5,P,Stemming e lemmatizzazione,2,3,13,P3.3 P1.3
+P3.6,P,"Parole vuote e rappresentazione ""sacco di parole""",2,2,13,P3.3
+P3.7,P,Tokenizzazione in sottoparole (BPE),3,3,13,P3.3 B9.1.4
+P3.8,P,"Strumenti: NLTK, spaCy",2,3,14,P3.5 G2.2.10
+P4.1,P,"Il corpus: raccolta, bilanciamento, annotazione",2,2,1,P1.1
+P4.2,P,Frequenze delle parole e concordanze,2,2,13,P4.1 P3.3 A7.1.2
+P4.3,P,Legge di Zipf,2,3,14,P4.2 A1.2.5
+P4.4,P,Collocazioni e misure di associazione,3,3,14,P4.2 A7.2.3
+P4.5,P,Corpora annotati e treebank,3,3,2,P4.1 P1.4
+P4.6,P,Accordo fra annotatori,3,3,9,P4.5 A7.2.2
+P5.1,P,Modelli a n-grammi,2,3,14,P4.2 A7.2.3
+P5.2,P,Stima delle probabilità e smoothing,3,3,15,P5.1
+P5.3,P,La perplessità come misura,3,3,15,P5.1 A8.1.2
+P5.4,P,Generare testo con catene di Markov,2,3,15,P5.1
+P5.5,P,Correttori ortografici e predizione delle parole,3,3,15,P5.1 E7.4.4
+P6.1,P,Etichettatura delle parti del discorso (POS tagging),3,3,15,P4.5 P5.1
+P6.2,P,Riconoscimento delle entità nominate,3,3,16,P6.1
+P6.3,P,Analisi sintattica a costituenti (CYK),3,4,14,P2.2 F2.7
+P6.4,P,Analisi sintattica a dipendenze,3,4,16,P2.4 P6.1
+P6.5,P,Semantica distribuzionale: vettori di parole (word2vec),3,3,15,P4.4 A5.1.3
+P6.6,P,Disambiguazione del senso delle parole,3,4,16,P6.5 P2.1
+P6.7,P,"Risorse lessicali: WordNet, dizionari computazionali",3,3,3,P1.5
+P6.8,P,Analisi del discorso e risoluzione delle coreferenze,4,4,17,P6.2 P1.6
+P7.1,P,Classificare testi con reti neurali,3,3,14,P3.6 O5.1.3
+P7.2,P,Modelli sequenza-a-sequenza,4,4,18,O5.3.1
+P7.3,P,Transformer per il linguaggio: BERT e GPT,4,4,17,O5.4.3 P3.7
+P7.4,P,Grandi modelli linguistici e loro competenze linguistiche,3,4,17,O6.2
+P7.5,P,Modelli multilingue e lingue con poche risorse,4,4,18,P7.4 P1.7
+P7.6,P,"Che cosa ""sanno"" i modelli linguistici: sonde e interpretabilità",4,4,18,P7.4 O7.3
+P8.1,P,"Traduzione automatica: a regole, statistica, neurale",3,3,17,P5.1 O6.2
+P8.2,P,Analisi del sentiment,2,3,14,P3.6 O4.1.2
+P8.3,P,Classificazione di documenti e filtri antispam,2,3,14,P3.6 O4.1.2
+P8.4,P,Estrazione di informazioni,3,3,17,P6.2
+P8.5,P,Riassunto automatico,3,4,18,P7.4
+P8.6,P,Sistemi di domanda-risposta e chatbot,3,3,18,P7.4 O6.6
+P8.7,P,Semplificazione del testo e indici di leggibilità (Gulpease),2,2,14,P4.2
+P8.8,P,Uso critico di traduttori automatici e strumenti di scrittura,1,2,1,P1.1
+P9.1,P,Il segnale vocale: fonemi e spettrogramma,3,3,11,P1.2 A6.5.1 B7.2
+P9.2,P,Riconoscimento automatico del parlato,4,4,19,P9.1 O5.4.4
+P9.3,P,Sintesi vocale,4,4,19,P9.1 O6.8
+P9.4,P,Architettura degli assistenti vocali,3,3,19,P9.1 P8.6
+P9.5,P,Riconoscimento del parlante; voci clonate e rischi,4,4,20,P9.2 P9.3
+P10.1,P,L'informatica umanistica: panoramica,2,2,2,P4.1
+P10.2,P,Codifica dei testi: TEI-XML,3,3,9,B11.3 P10.1
+P10.3,P,Stilometria e attribuzione d'autore,3,3,14,P4.2 O4.1.2
+P10.4,P,Lettura distante e analisi di grandi collezioni,3,3,14,P10.1 P4.2
+P10.5,P,Edizioni digitali; riconoscimento ottico di testi storici,3,3,21,P10.2 Q5.7
+Q1.1,Q,Coordinate dello schermo e pixel,1,1,9,B6.1
+Q1.2,Q,"Disegnare primitive: punti, linee, forme (turtle, Processing)",1,1,10,Q1.1
+Q1.3,Q,"Rasterizzazione di linee e poligoni (Bresenham, riempimento)",3,3,11,Q1.2 E7.5.5
+Q1.4,Q,"Trasformazioni 2D: traslazione, rotazione, scala",2,3,13,Q1.2 A5.2.2
+Q1.5,Q,Curve di Bézier,3,3,11,Q1.2 A1.5.4
+Q1.6,Q,Antialiasing e composizione,3,3,12,Q1.3 B5.2.5
+Q1.7,Q,Grafica della tartaruga e frattali,2,2,11,Q1.2 E5.1
+Q1.8,Q,Poligoni e stelle con la tartaruga: angoli esterni,1,2,11,Q1.2
+Q2.1,Q,"Coordinate 3D, modelli poligonali, mesh",2,3,10,A5.1.1 Q1.1
+Q2.2,Q,Trasformazioni 3D e coordinate omogenee,3,3,14,Q2.1 A5.2.3
+Q2.3,Q,Telecamera e proiezione prospettica,3,3,15,Q2.2
+Q2.4,Q,Rimozione delle superfici nascoste (z-buffer),3,3,16,Q2.3
+Q2.5,Q,Illuminazione e modelli di ombreggiatura (Phong),3,3,16,Q2.3 A5.1.3
+Q2.6,Q,Texture,3,3,17,Q2.5 B6.1
+Q2.7,Q,Pipeline grafica e shader su GPU,3,4,17,Q2.4 D11.4
+Q2.8,Q,Ray tracing e path tracing,4,4,17,Q2.5 A7.3.4 A6.3.3
+Q2.9,Q,"Strumenti: Blender, OpenGL, Vulkan",2,3,11,Q2.1
+Q3.1,Q,Animazione: fotogrammi chiave e interpolazione,1,2,10,B8.1
+Q3.2,Q,Il ciclo di gioco (game loop),2,2,13,G3.6.1
+Q3.3,Q,Collisioni e fisica semplice,2,3,14,Q3.2 E7.5.5
+Q3.4,Q,Simulazione fisica numerica,3,3,15,Q3.3 A6.4.4
+Q3.5,Q,"Motori di gioco (Godot, Unity)",2,3,14,Q3.2 G3.2.1
+Q3.6,Q,"IA nei videogiochi: ricerca di percorsi, macchine a stati",3,3,15,Q3.2 E7.3.9 F1.1
+Q3.7,Q,Progettazione di videogiochi (game design),1,2,0,
+Q3.8,Q,Generazione procedurale di contenuti,3,3,14,Q3.2 E7.5.2
+Q4.1,Q,L'immagine come matrice; l'istogramma,2,2,9,B6.1 A7.1.2
+Q4.2,Q,"Operazioni puntuali: luminosità, contrasto, soglia",2,2,10,Q4.1
+Q4.3,Q,"Filtri e convoluzione: sfocatura, nitidezza",3,3,17,Q4.2 A6.5.5
+Q4.4,Q,Rilevamento dei contorni,3,3,18,Q4.3 A6.2.4
+Q4.5,Q,Morfologia matematica,3,3,11,Q4.2
+Q4.6,Q,Segmentazione,3,3,19,Q4.4
+Q4.7,Q,Elaborazione nel dominio della frequenza,3,4,18,Q4.3 A6.5.4
+Q4.8,Q,"Strumenti: OpenCV, Pillow",2,3,14,Q4.2 G2.2.10
+Q5.1,Q,Dall'immagine alla comprensione: i compiti della visione,2,2,10,Q4.1
+Q5.2,Q,Caratteristiche locali e corrispondenze,3,4,19,Q4.4
+Q5.3,Q,"Geometria della visione: calibrazione, visione stereo",4,4,20,Q2.3 Q5.2
+Q5.4,Q,Classificare immagini con reti convoluzionali,3,3,19,O5.2.2
+Q5.5,Q,Rilevamento e segmentazione di oggetti,3,4,20,Q5.4
+Q5.6,Q,Riconoscimento facciale e questioni etiche,3,3,20,Q5.4 U4.8
+Q5.7,Q,Riconoscimento ottico dei caratteri (OCR),3,3,20,Q5.4
+Q5.8,Q,Video: tracciamento e riconoscimento di azioni,4,4,21,Q5.5 B8.1
+Q6.1,Q,Registrare e modificare l'audio (Audacity),1,1,5,B7.2
+Q6.2,Q,"Sintesi del suono: oscillatori, inviluppi, sintesi sottrattiva",2,2,10,B7.1 A6.1.2
+Q6.3,Q,"Effetti: filtri, riverbero, compressione dinamica",2,3,11,Q6.2 A6.5.1
+Q6.4,Q,Workstation audio digitali e MIDI,1,2,6,B7.7 Q6.1
+Q6.5,Q,"Programmazione musicale (Sonic Pi, SuperCollider, Max/MSP)",2,3,11,Q6.2 G1.7
+Q6.6,Q,"Analisi dell'audio: spettro, altezza, ritmo",3,3,17,A6.5.4 B7.4
+Q6.7,Q,Informatica musicale e musica generata dall'IA,4,4,19,Q6.6 O6.8
+Q6.8,Q,Audio spaziale,3,4,12,Q6.3
+Q7.1,Q,"Realtà virtuale, aumentata, mista: definizioni",1,2,0,
+Q7.2,Q,"Visori, tracciamento, latenza, cinetosi",3,3,16,Q7.1 Q2.3
+Q7.3,Q,Realtà aumentata: ancoraggio e riconoscimento dell'ambiente,3,4,20,Q7.1 Q5.2
+Q7.4,Q,Progettare esperienze immersive,3,3,17,Q7.2 Q8.3
+Q7.5,Q,"Usi didattici, culturali, medici",2,2,1,Q7.1
+Q8.1,Q,L'interazione uomo-macchina: definizione e storia delle interfacce,2,2,1,I7.2
+Q8.2,Q,"Basi di psicologia cognitiva: percezione, attenzione, memoria, modelli mentali",2,2,0,
+Q8.3,Q,Principi di usabilità ed euristiche di Nielsen,2,2,2,Q8.1 Q8.2
+Q8.4,Q,Progettazione centrata sull'utente: personas e scenari,2,3,3,Q8.3
+Q8.5,Q,Prototipazione: dagli schizzi ai prototipi interattivi (Figma),2,2,4,Q8.4
+Q8.6,Q,"Principi di design visivo: gerarchia, allineamento, colore",1,2,7,B5.2.1
+Q8.7,Q,Accessibilità e progettazione inclusiva,2,2,3,Q8.3 U8.3
+Q8.8,Q,Interfacce conversazionali e vocali,3,3,3,Q8.3
+Q8.9,Q,Leggi dell'interazione: Fitts e Hick,3,3,8,Q8.2 A1.2.5
+Q8.10,Q,Design persuasivo e dark pattern,2,2,3,Q8.3
+Q9.1,Q,Scegliere il grafico adatto ai dati,1,2,2,A7.1.2
+Q9.2,Q,"Codifiche visive: posizione, lunghezza, colore, forma",2,2,3,Q9.1 Q8.2
+Q9.3,Q,Grafici ingannevoli e come riconoscerli,1,2,3,Q9.1
+Q9.4,Q,"Visualizzare dati multidimensionali, reti, mappe",3,3,6,Q9.2 A4.3.1
+Q9.5,Q,Dashboard e visualizzazioni interattive,3,3,15,Q9.2 G2.2.13
+Q10.1,Q,Grafica vettoriale e raster nel browser,2,2,16,K12.2 K12.3
+Q10.2,Q,Rendering 3D nel browser,3,4,19,K12.4
+Q10.3,Q,Animazioni e interazioni grafiche nelle pagine,2,3,15,K3.9 K4.3
+Q11.1,Q,Curve e superfici parametriche: spline e NURBS,3,4,12,Q1.5 A10.2.2
+Q11.2,Q,Mesh e superfici di suddivisione,4,4,13,Q11.1 Q2.1
+Q11.3,Q,CAD: modellazione solida e parametrica,2,3,11,Q2.1
+Q11.4,Q,"Stampa 3D: dal modello agli strati (slicing, G-code)",1,2,4,C11.4
+Q11.5,Q,Scansione 3D e nuvole di punti,4,4,21,Q11.2 Q5.3
+Q12.1,Q,Calcolo ubiquo e pervasivo: la visione di Weiser,2,2,2,Q8.1
+Q12.2,Q,Dispositivi indossabili,2,3,9,Q12.1 R1
+Q12.3,Q,Interfacce tangibili,3,3,11,Q12.1 R2
+Q12.4,Q,Ambienti intelligenti e sensibili al contesto,3,3,17,Q12.1 R10
+Q13.1,Q,"Strumenti di collaborazione: documenti condivisi, videoconferenza",1,1,1,M4.8
+Q13.2,Q,Comunità online e piattaforme sociali,2,2,2,Q13.1
+Q13.3,Q,"Crowdsourcing e scienza partecipata (Wikipedia, Zooniverse)",2,2,3,Q13.2
+Q13.4,Q,Tecniche di modifica collaborativa in tempo reale (CRDT),4,4,10,Q13.1 M3.4
+Q13.5,Q,Moderazione dei contenuti,2,3,3,Q13.2 U7.7
+Q14.1,Q,"Creative coding: Processing, p5.js",1,2,11,Q1.2 G1.7
+Q14.2,Q,"Arte generativa: casualità, regole, rumore di Perlin",2,3,12,Q14.1 E7.5.2
+Q14.3,Q,Arte e musica con l'IA,3,3,13,Q14.2 O6.4
+Q14.4,Q,Una macchina può essere creativa?,3,3,14,Q14.3 U2.4
+Q14.5,Q,Installazioni interattive e arte digitale,2,3,12,Q14.1 R2
+Q15.1,Q,Test di usabilità con gli utenti,2,2,3,Q8.3
+Q15.2,Q,Questionari standardizzati (SUS),2,2,4,Q15.1
+Q15.3,Q,Esperimenti controllati,3,3,16,Q15.1 A7.4.2
+Q15.4,Q,"Metodi qualitativi: interviste, osservazione, analisi tematica",3,3,4,Q15.1
+Q15.5,Q,"Analisi dell'uso: registrazioni, tracciamento dello sguardo",3,4,17,Q15.3
+R1.1,R,"Sistemi che percepiscono e agiscono: sensori, controllore, attuatori",1,1,0,
+R1.2,R,Sensori digitali e analogici,1,1,2,R1.1 B1.2
+R1.3,R,"Sensori comuni: luce, temperatura, distanza (ultrasuoni, infrarossi), pulsanti",1,1,3,R1.2
+R1.4,R,"Sensori avanzati: accelerometro, giroscopio, unità inerziali, encoder, telecamera, LIDAR",2,3,4,R1.3
+R1.5,R,Rumore e calibrazione; filtraggio semplice,2,2,4,R1.3 A7.1.3
+R1.6,R,"Attuatori semplici: LED, cicalini, relè",1,1,1,R1.1
+R1.7,R,"Motori in corrente continua, passo-passo, servomotori",1,2,7,R1.6 C1.3
+R1.8,R,Pilotare i motori: ponte H e driver,2,2,8,R1.7 C4.1
+R2.1,R,"Schede per la didattica: micro:bit, Arduino, Raspberry Pi Pico",1,1,1,R1.1
+R2.2,R,Ingressi e uscite digitali (GPIO),1,1,6,R2.1 B1.6
+R2.3,R,Ingressi analogici,1,2,7,R2.2 R1.2
+R2.4,R,Uscite PWM,1,2,7,R2.2
+R2.5,R,Comunicazione seriale con il computer,2,2,9,R2.2 C11.5
+R2.6,R,Bus per sensori: I²C e SPI,2,3,10,R2.5 C11.7
+R2.7,R,Alimentazione e consumi dei progetti,2,2,10,R2.1 C13.1
+R2.8,R,Raspberry Pi come computer embedded con Linux,2,2,3,R2.1 I8.1
+R3.1,R,Il ciclo principale (setup e loop),1,1,7,R2.1 E3.4
+R3.2,R,"Programmare a blocchi (MakeCode) e in testo (C++ per Arduino, MicroPython)",1,2,11,R3.1 G1.7
+R3.3,R,Temporizzazione non bloccante,2,2,8,R3.1
+R3.4,R,Interruzioni,2,3,9,R3.3 D9.3
+R3.5,R,Macchine a stati nei dispositivi,2,3,9,R3.3 F1.1
+R3.6,R,Vincoli di memoria e di tempo reale,3,3,10,R3.4 D13.1
+R3.7,R,Sistemi operativi real-time per microcontrollori,3,4,16,R3.6 I8.5
+R3.8,R,Debugging sull'hardware,2,3,12,R3.2 C1.9
+R4.1,R,Sistemi ad anello aperto e ad anello chiuso,1,2,1,R1.1
+R4.2,R,Controllo on-off con isteresi (termostato),1,2,2,R4.1
+R4.3,R,Modellare un sistema dinamico,3,3,15,R4.1 A6.4.2
+R4.4,R,Funzione di trasferimento e schemi a blocchi,3,3,16,R4.3 A6.4.6
+R4.5,R,"Il controllore PID: azioni proporzionale, integrale, derivativa",2,3,12,R4.2 A6.2.1
+R4.6,R,Taratura del PID,3,3,13,R4.5
+R4.7,R,Stabilità,3,3,17,R4.4 A6.4.3
+R4.8,R,Controllo digitale e campionamento,3,3,13,R4.5 B7.2
+R4.9,R,Controllo nello spazio degli stati e controllo ottimo,4,4,18,R4.7 A5.3.1
+R4.10,R,Controllo fuzzy e basato sull'apprendimento,4,4,13,R4.5 O3.5
+R5.1,R,L'automazione industriale: dalla catena di montaggio a Industria 4.0,1,2,2,R4.1
+R5.2,R,Controllori a logica programmabile (PLC),2,2,6,R5.1 D1.2
+R5.3,R,"Linguaggi IEC 61131-3: ladder, testo strutturato, SFC",2,3,7,R5.2 F1.1
+R5.4,R,Sensori e attuatori industriali; pneumatica,2,2,5,R5.1 R1.4
+R5.5,R,SCADA e interfacce operatore (HMI),3,3,7,R5.2
+R5.6,R,"Reti e protocolli industriali (Modbus, OPC UA)",3,3,8,R5.5 J3.3
+R5.7,R,Sicurezza dei sistemi industriali,3,4,10,R5.6 N7.3
+R6.1.1,R,"Tipi di robot (manipolatori, mobili, umanoidi); gradi di libertà",1,2,1,R1.1
+R6.1.2,R,Robot mobili su ruote: cinematica differenziale,2,3,10,R6.1.1 A6.1.2
+R6.1.3,R,Cinematica diretta dei manipolatori,3,3,14,R6.1.1 A5.2.3
+R6.1.4,R,Cinematica inversa,3,4,15,R6.1.3 A10.2.1
+R6.2.1,R,"Forze, coppie, inerzia",3,3,15,R6.1.3
+R6.2.2,R,Controllo del moto dei giunti,3,4,16,R6.2.1 R4.5
+R6.3.1,R,"Seguire una linea, evitare ostacoli: comportamenti reattivi",1,2,4,R6.1.1 R1.3
+R6.3.2,R,Mappe a griglia e ricerca del percorso,2,3,13,R6.3.1 E7.3.1
+R6.3.3,R,Pianificazione nello spazio delle configurazioni; algoritmi a campionamento (RRT),4,4,16,R6.3.2 R6.1.4
+R6.3.4,R,Generazione di traiettorie,3,4,14,R6.3.2 A10.2.2
+R6.4.1,R,Odometria e deriva,2,3,11,R6.1.2 R1.4
+R6.4.2,R,Localizzazione probabilistica,4,4,18,R6.4.1 O3.4
+R6.4.3,R,Mappatura e SLAM,4,4,19,R6.4.2
+R6.5.1,R,Fusione di sensori,3,4,11,R1.5 A7.2.4
+R6.5.2,R,Visione per i robot,3,4,21,Q5.5 R6.5.1
+R6.5.3,R,Nuvole di punti e percezione 3D,4,4,22,R6.5.2 Q5.3
+R6.6,R,ROS (Robot Operating System),3,3,15,R6.3.2 M3.10
+R7.1,R,"Architetture di controllo: reattive, deliberative, ibride",3,3,5,R6.3.1 O1.5
+R7.2,R,Apprendimento per rinforzo in robotica; dalla simulazione al reale,4,4,18,R7.1 O4.4.5
+R7.3,R,Apprendimento per imitazione,4,4,6,R7.1 O4.1.2
+R7.4,R,Modelli di fondazione per la robotica,4,4,19,R7.2 O6.2
+R8.1,R,Robot collaborativi e sicurezza nell'interazione fisica,3,3,17,R6.2.2
+R8.2,R,Robot sociali e interazione uomo-robot,3,3,6,R7.1 Q8.3
+R8.3,R,Robot umanoidi e locomozione su gambe,4,4,19,R6.2.2 R4.9
+R8.4,R,Robot di servizio e di assistenza,3,3,7,R8.2
+R8.5,R,Etica della robotica,2,3,2,R6.1.1 U3.4
+R9.1,R,Livelli di automazione della guida,2,2,2,R6.1.1
+R9.2,R,"Architettura di un veicolo autonomo: percezione, previsione, pianificazione, controllo",4,4,22,R6.4.3 R6.5.2 R6.3.3
+R9.3,R,Droni: stabilizzazione e controllo del volo,3,4,13,R4.5 R1.4
+R9.4,R,Norme e questioni di responsabilità,2,3,3,R9.1 U3.4
+R10.1,R,L'Internet delle cose: dal sensore al cloud,2,2,4,R2.1 J2.1
+R10.2,R,"Connettività: Wi-Fi, Bluetooth Low Energy, LoRa",2,2,13,R10.1 J4.9
+R10.3,R,Protocolli IoT: MQTT,2,3,14,R10.2 J7.8
+R10.4,R,Piattaforme IoT e dashboard,2,3,15,R10.3 M4.1
+R10.5,R,Sicurezza e privacy dei dispositivi IoT,3,3,5,R10.1 N1.3
+R10.6,R,Domotica e città intelligenti,2,2,5,R10.1
+R10.7,R,Agricoltura di precisione e monitoraggio ambientale,2,3,16,R10.4
+R11.1,R,Sistemi cyber-fisici: definizione,3,3,5,R10.1 R4.1
+R11.2,R,Gemelli digitali,3,4,15,R11.1 S1.4
+R11.3,R,Sistemi critici per la sicurezza: requisiti e certificazione,4,4,10,R11.1 F9.2
+R12.1,R,"Robot didattici programmabili (Bee-Bot, LEGO, mBot)",1,1,4,E1.6
+R12.2,R,"Competizioni di robotica (First LEGO League, RoboCup Junior)",1,2,5,R12.1
+R12.3,R,Progetti di coding fisico in classe,1,1,5,R12.1 R2.1
+R13.1,R,Wiener e la cibernetica: comunicazione e controllo,2,3,2,R4.1
+R13.2,R,La retroazione nei sistemi naturali e sociali,2,3,3,R13.1
+R13.3,R,Omeostasi e autoregolazione,3,3,4,R13.2
+R13.4,R,Cibernetica di secondo ordine e autopoiesi,4,4,5,R13.3
+S1.1,S,Modello e simulazione: perché simulare,1,2,2,E1.4
+S1.2,S,Simulazioni a tempo discreto e a eventi discreti,2,2,7,S1.1 E3.4
+S1.3,S,Metodi Monte Carlo,2,3,9,S1.1 A7.2.2 E7.5.2
+S1.4,S,Simulare sistemi dinamici con equazioni differenziali,3,3,14,S1.1 A6.4.4
+S1.5,S,Modelli ad agenti,2,3,8,S1.2
+S1.6,S,"Validazione dei modelli, incertezza, analisi di sensibilità",3,3,15,S1.3 A7.4.1
+S1.7,S,Software scientifico riproducibile,3,3,4,S1.1 H5.2
+S1.8,S,"Apprendimento automatico per le scienze (modelli surrogati, reti informate dalla fisica)",4,4,17,S1.4 O5.1.5
+S1.9,S,L'ago di Buffon,3,3,10,S1.3
+S1.10,S,Il moto del proiettile con la resistenza dell'aria,3,3,15,S1.4
+S1.11,S,Visualizzare traiettorie e risultati di una simulazione,3,3,15,S1.4
+S1.12,S,"Adattare curve non lineari ai dati (esponenziali, potenze)",3,3,7,A7.1.5
+S1.13,S,Pubblicare i risultati di una simulazione: notebook e dati aperti,3,3,5,S1.7
+S2.1.1,S,"Cellula, DNA, RNA, proteine",1,2,0,
+S2.1.2,S,Il dogma centrale: trascrizione e traduzione,2,2,1,S2.1.1
+S2.1.3,S,"Geni, genoma, mutazioni",2,2,2,S2.1.2
+S2.2.1,S,"Il DNA come stringa sull'alfabeto {A, C, G, T}",1,2,2,S2.1.1 B1.4
+S2.2.2,S,Il codice genetico: codoni e ridondanza,2,2,4,S2.2.1 S2.1.2 A4.1.1
+S2.2.3,S,Il contenuto informativo del genoma,2,3,13,S2.2.1 A8.1.2
+S2.2.4,S,"Operazioni su sequenze: complemento inverso, traduzione, ricerca di motivi",2,2,11,S2.2.2 E6.1.5
+S2.3.1,S,Tecnologie di sequenziamento; le letture,2,3,3,S2.1.3
+S2.3.2,S,"Formati FASTA e FASTQ; banche dati biologiche (GenBank, UniProt)",2,3,4,S2.3.1 B11.1
+S2.3.3,S,Assemblaggio dei genomi con grafi di de Bruijn,4,4,8,S2.3.1 A4.3.7
+S2.4.1,S,Allineamento globale (Needleman-Wunsch),3,3,14,S2.2.4 E7.4.4
+S2.4.2,S,Allineamento locale (Smith-Waterman),3,3,15,S2.4.1
+S2.4.3,S,Matrici di sostituzione e punteggi,3,3,15,S2.4.1 A7.2.3
+S2.4.4,S,Ricerca euristica nelle banche dati: BLAST,3,3,16,S2.4.2 E6.5.4
+S2.4.5,S,Allineamento multiplo,4,4,16,S2.4.2
+S2.4.6,S,Modelli di Markov nascosti per sequenze biologiche,4,4,17,S2.4.3 A7.5.6
+S2.5.1,S,Alberi filogenetici,3,3,15,S2.4.1 A4.3.3
+S2.5.2,S,"Metodi basati sulle distanze (UPGMA, neighbor joining)",3,4,16,S2.5.1 O4.2.2
+S2.5.3,S,Metodi a massima verosimiglianza e bayesiani,4,4,16,S2.5.1 A7.4.3
+S2.6.1,S,Espressione genica e analisi dei dati omici,4,4,7,S2.3.2 L9.4
+S2.6.2,S,Struttura delle proteine e sua predizione (AlphaFold),4,4,17,S2.1.1 O5.4.3
+S2.6.3,S,Genomica personale e medicina di precisione,3,4,3,S2.1.3
+S2.7.1,S,Reti di regolazione genica e reti metaboliche,4,4,8,S2.6.1 A4.3.1
+S2.7.2,S,Modelli dinamici dei sistemi biologici,4,4,16,S2.7.1 A6.4.3
+S2.8.1,S,Privacy dei dati genetici; test genetici venduti al pubblico,2,3,3,S2.1.3 U4.1
+S2.8.2,S,Editing genetico (CRISPR) e questioni etiche,3,3,3,S2.1.3 U3.1
+S3.1,S,Il neurone biologico e il potenziale d'azione,2,3,0,
+S3.2,S,"Modelli di neurone (integrate-and-fire, Hodgkin-Huxley)",4,4,15,S3.1 A6.4.2
+S3.3,S,Reti neurali biologiche e plasticità sinaptica,4,4,16,S3.2
+S3.4,S,La codifica neurale dell'informazione,4,4,17,S3.3 A8.1.3
+S3.5,S,Interfacce cervello-computer,3,4,4,S3.1 O4.1.2
+S3.6,S,Reti neurali artificiali e cervello: analogie e differenze,3,3,12,S3.1 O5.1.1
+S4.1,S,"Rappresentare le molecole (grafi, notazione SMILES)",3,3,6,A4.3.1
+S4.2,S,Dinamica molecolare,4,4,14,S4.1 A6.4.4
+S4.3,S,Chimica quantistica computazionale,4,4,13,S4.1 C15.5
+S4.4,S,Scoperta di farmaci e materiali con l'IA,4,4,18,S4.1 O5.5
+S5.1,S,"Simulare sistemi fisici: moto, gravitazione, problema degli N corpi",2,3,8,S1.2
+S5.2,S,Analisi dei dati sperimentali in fisica,3,3,15,A7.4.1 L9.4
+S5.3,S,Astroinformatica: le grandi campagne di osservazione del cielo,3,4,16,S5.2 L8.5
+S5.4,S,"Il calcolo per la fisica delle particelle (CERN, griglia di calcolo)",4,4,16,S5.2 M5.1
+S5.5,S,Il pendolo: piccole e grandi oscillazioni,3,3,9,S5.1
+S5.6,S,La risonanza: dall'altalena ai ponti,3,3,15,A6.4.2
+S6.1,S,Dati geografici: coordinate e proiezioni cartografiche,2,2,5,A5.1.1
+S6.2,S,Modelli vettoriale e raster nei GIS,2,2,11,S6.1 B6.5
+S6.3,S,Strumenti GIS (QGIS) e mappe web (OpenStreetMap),2,2,12,S6.2
+S6.4,S,Analisi spaziale,3,3,15,S6.3 E12.5
+S6.5,S,Telerilevamento e immagini satellitari,3,3,12,S6.2 Q4.1
+S6.6,S,Modelli climatici,4,4,15,S1.4 M5.1
+S6.7,S,Monitoraggio ambientale con reti di sensori,2,3,5,R10.1
+S7.1,S,Fascicolo sanitario elettronico e standard (HL7 FHIR),2,3,3,B11.4
+S7.2,S,Immagini mediche: formato DICOM ed elaborazione,3,3,10,Q4.1
+S7.3,S,Diagnosi assistita dall'IA,3,4,20,S7.2 O5.2.3
+S7.4,S,Telemedicina e dispositivi indossabili per la salute,2,2,4,S7.1
+S7.5,S,Privacy e sicurezza dei dati sanitari,2,3,4,S7.1 U4.1
+S7.6,S,Epidemiologia computazionale,3,4,16,S14.4
+S8.1,S,Fogli di calcolo per l'economia e la finanza,1,2,7,L2.3
+S8.2,S,Modelli finanziari e simulazione del rischio,3,3,10,S1.3
+S8.3,S,Trading algoritmico,4,4,11,S8.2 O4.1.2
+S8.4,S,Fintech e servizi bancari digitali,2,2,16,V5.3
+S8.5,S,Economia computazionale e simulazione dei mercati,4,4,14,S1.5 A9.4.2
+S9.1,S,Analisi delle reti sociali: centralità e comunità,3,3,13,A4.3.2 E7.3.1
+S9.2,S,Analisi di social media e testi su larga scala,3,3,15,S9.1 P8.2
+S9.3,S,Diffusione delle informazioni e della disinformazione,3,4,14,S9.1 S14.3
+S9.4,S,Esperimenti online e questioni etiche,3,3,17,A7.4.5 U3.8
+S10.1,S,"Patrimonio culturale digitale: digitalizzazione, musei, archivi",1,2,10,B6.2
+S10.2,S,Analisi computazionale di testi letterari e storici,3,3,15,P10.4
+S10.3,S,Ricostruzioni 3D e archeologia digitale,3,3,12,Q11.3
+S10.4,S,"Musica, arte e storia dell'arte computazionali",3,3,20,Q6.6 Q5.4
+S11.1,S,Automi cellulari elementari,2,2,12,E6.1.4 F1.1
+S11.2,S,Il Gioco della vita di Conway,1,2,12,E6.1.4
+S11.3,S,Emergenza e auto-organizzazione,2,3,13,S11.2
+S11.4,S,Evoluzione artificiale e creature virtuali,3,4,14,S11.3 O8.1
+S12.1,S,"Sistemi di algebra computazionale (SymPy, Maxima)",2,3,13,A1.5.4 G1.15
+S12.2,S,"Algoritmi simbolici: semplificazione, derivazione, integrazione",3,4,14,S12.1 E6.4.8
+S12.3,S,Geometria dinamica (GeoGebra),1,1,0,
+S12.4,S,"Librerie numeriche (BLAS, LAPACK, SciPy)",3,3,17,A10.3.1
+S12.5,S,Dimostrazioni matematiche assistite dal calcolatore,4,4,15,F9.3
+S13.1,S,Le scienze cognitive: la mente come elaborazione di informazione,2,3,1,Q8.2
+S13.2,S,"Architetture cognitive (ACT-R, SOAR)",4,4,7,S13.1 O2.3.1
+S13.3,S,"Modelli computazionali di percezione, memoria, apprendimento",4,4,14,S13.1 O5.1.3
+S13.4,S,Psicometria computazionale e test adattivi,3,4,16,A7.4.3
+S13.5,S,Modelli bayesiani della cognizione,4,4,17,S13.1 A7.4.4
+S13.6,S,"Mente e tecnologia: effetti su memoria, attenzione, apprendimento",2,3,2,S13.1
+S14.1,S,Sistemi complessi: emergenza e non linearità,2,3,0,
+S14.2,S,Caos deterministico (mappa logistica),3,3,8,S14.1 A4.2.1
+S14.3,S,"Reti complesse: piccolo mondo, invarianza di scala, dinamiche sulle reti",3,4,7,S14.1 A4.3.2
+S14.4,S,Modelli epidemici (SIR),3,3,15,S14.1 A6.4.1 S1.4
+S14.5,S,Frattali e dimensione frattale,2,3,8,S14.1 A1.2.5
+S15.1,S,Metodo degli elementi finiti,4,4,18,A6.4.5 A10.3.2
+S15.2,S,Fluidodinamica computazionale,4,4,19,S15.1
+S15.3,S,CAD/CAM e macchine a controllo numerico,3,3,12,Q11.3
+S15.4,S,Gemelli digitali industriali,4,4,19,S15.1 R11.2
+S15.5,S,Ottimizzazione del progetto,4,4,19,S15.1 A9.2.2
+S16.1,S,Informatica giuridica e diritto dell'informatica: la distinzione,2,3,2,U4.1
+S16.2,S,"Banche dati giuridiche e norme in formato digitale (Normattiva, Akoma Ntoso)",3,3,9,S16.1 B11.3
+S16.3,S,Processo telematico e firma digitale degli atti,3,3,14,S16.1 N3.4.4
+S16.4,S,Analisi automatica dei testi giuridici,4,4,18,S16.2 P8.4
+S16.5,S,Contratti intelligenti e diritto,4,4,15,M7.5 S16.1
+S16.6,S,Decisioni automatizzate e giustizia predittiva,3,4,11,S16.1 O10.3
+T1.1,T,Perché un computer quantistico: i limiti del calcolo classico e l'idea di Feynman,2,2,10,C9.1
+T1.2,T,Richiamo: numeri e vettori complessi,4,4,12,A5.4.1 A5.4.2
+T1.3,T,Richiamo: probabilità e misura,3,3,10,A7.2.2 C15.3
+T1.4,T,I postulati della meccanica quantistica visti dall'informatica,4,4,13,C15.5 T1.2
+T2.1,T,Dal bit al qubit: la sovrapposizione (visione intuitiva),2,2,11,B1.5 T1.1
+T2.2,T,Il qubit come vettore; notazione di Dirac,4,4,13,T2.1 T1.2
+T2.3,T,La sfera di Bloch,4,4,14,T2.2
+T2.4,T,La misura e la regola di Born,4,4,14,T2.2 T1.3
+T2.5,T,Più qubit e prodotto tensoriale,4,4,14,T2.2 A5.4.4
+T2.6,T,Entanglement e stati di Bell,4,4,15,T2.5
+T2.7,T,Teorema di non clonazione,4,4,15,T2.2 A5.4.3
+T3.1,T,Calcolo reversibile; porte classiche reversibili (Toffoli),3,3,7,D2.1 A3.3.2
+T3.2,T,"Porte a un qubit: X, Z, H, di fase",4,4,15,T2.3 A5.4.3
+T3.3,T,Porte a due qubit: CNOT,4,4,16,T3.2 T2.5
+T3.4,T,Circuiti quantistici e loro simulazione,4,4,17,T3.3
+T3.5,T,Universalità degli insiemi di porte quantistiche,4,4,17,T3.3
+T3.6,T,Teletrasporto quantistico e codifica superdensa,4,4,17,T3.3 T2.6
+T4.1,T,Parallelismo quantistico e interferenza,4,4,18,T3.4
+T4.2,T,Algoritmi di Deutsch e Deutsch-Jozsa,4,4,19,T4.1
+T4.3,T,Algoritmi di Bernstein-Vazirani e di Simon,4,4,20,T4.2
+T4.4,T,Algoritmo di Grover,4,4,19,T4.1
+T4.5,T,Trasformata di Fourier quantistica e stima di fase,4,4,19,T4.1 A6.5.4
+T4.6,T,Algoritmo di Shor,4,4,20,T4.5 A11.2
+T4.7,T,"Algoritmi variazionali (VQE, QAOA)",4,4,19,T4.1 A9.2.1
+T4.8,T,Simulazione di sistemi quantistici,4,4,20,T4.5
+T4.9,T,Apprendimento automatico quantistico,4,4,20,T4.7 O4.1.2
+T5.1,T,La classe BQP,4,4,20,T4.2 F5.2
+T5.2,T,Vantaggio quantistico: esperimenti e controversie,4,4,21,T5.1
+T5.3,T,Che cosa i computer quantistici sanno (e non sanno) fare: miti e realtà,2,3,12,T2.1
+T6.1,T,I requisiti di DiVincenzo,4,4,18,T3.4
+T6.2,T,Qubit superconduttori,4,4,19,T6.1
+T6.3,T,Ioni intrappolati e atomi neutri,4,4,19,T6.1
+T6.4,T,Qubit fotonici,4,4,19,T6.1 C14.3
+T6.5,T,Decoerenza e rumore; l'era NISQ,4,4,15,T2.4
+T6.6,T,Stato dell'arte e piani dei produttori,2,3,13,T5.3
+T7.1,T,Errori quantistici: bit flip e phase flip,4,4,16,T6.5 T3.2
+T7.2,T,Codici a ripetizione quantistici e codice di Shor,4,4,17,T7.1 B10.3.2
+T7.3,T,Codici di superficie e qubit logici,4,4,18,T7.2
+T7.4,T,Calcolo tollerante ai guasti e teorema della soglia,4,4,19,T7.3
+T8.1,T,"Editor visuali e simulatori di circuiti (Quirk, IBM Quantum Composer)",2,3,12,T2.1 D1.2
+T8.2,T,Programmare con Qiskit o Cirq,4,4,18,T3.4 G2.2.10
+T8.3,T,Eseguire su hardware reale nel cloud,4,4,19,T8.2 T6.5
+T9.1,T,Distribuzione quantistica delle chiavi: protocollo BB84,4,4,16,T2.4 T2.7 N3.3.1
+T9.2,T,Protocolli basati sull'entanglement (E91),4,4,17,T9.1 T2.6
+T9.3,T,Reti quantistiche e ripetitori,4,4,18,T9.2 T3.6
+T10.1.1,T,L'esperimento di Adleman (1994),3,3,8,S2.2.1 A4.3.7
+T10.1.2,T,Memorizzare dati nel DNA,3,3,8,S2.2.1 B10.3.2
+T10.2.1,T,Reti neurali a impulsi,4,4,16,S3.2 O5.1.1
+T10.2.2,T,Chip neuromorfici,4,4,18,T10.2.1 D12.5
+T10.3.1,T,Calcolo ottico e fotonico,4,4,12,C18.5
+T10.4.1,T,"Calcolo analogico, storico e moderno",3,3,11,C6.1
+T10.4.2,T,Calcolo reversibile e limite di Landauer,4,4,13,T3.1 A8.1.2
+T10.4.3,T,Calcolo stocastico e probabilistico in hardware,4,4,11,C5.1 A7.3.1
+T10.4.4,T,"Calcolo con materiali e sistemi biologici (reservoir computing, organoidi)",4,4,17,T10.2.1
+U1.1,U,"Contare e calcolare prima delle macchine: dita, tacche, abaco, sistemi di numerazione",1,1,0,
+U1.2,U,"Algoritmi antichi: Euclide, al-Khwārizmī (origine della parola ""algoritmo"")",1,1,1,U1.1
+U1.3,U,"Calcolatrici meccaniche: Schickard, Pascal, Leibniz",1,1,1,U1.1
+U1.4,U,Il telaio Jacquard e le schede perforate,1,1,2,U1.3
+U1.5,U,Babbage (macchina differenziale e analitica) e Ada Lovelace,1,1,3,U1.4
+U1.6,U,Boole e la logica algebrica,1,2,2,U1.1 A2.1.2
+U1.7,U,Hollerith e il censimento statunitense; nascita di IBM,1,1,3,U1.4
+U1.8,U,"Fondamenti teorici degli anni '30: Hilbert, Gödel, Church, Turing",2,2,3,U1.6
+U1.9,U,"La seconda guerra mondiale: Enigma, Bletchley Park, Colossus, Zuse",1,2,4,U1.7
+U1.10,U,"ENIAC, EDVAC e l'architettura di von Neumann",1,2,5,U1.9
+U1.11,U,"Transistor, circuito integrato, microprocessore (Intel 4004, 1971; Federico Faggin)",1,2,9,U1.10 C4.5
+U1.12,U,"Mainframe, minicomputer, time-sharing; Unix",2,2,10,U1.11
+U1.13,U,"Personal computer e interfacce grafiche (Xerox PARC, Apple, IBM PC)",1,1,10,U1.11
+U1.14,U,"Nascita di Internet (ARPANET, TCP/IP) e del Web (Berners-Lee, CERN, 1989–91)",1,1,11,U1.13
+U1.15,U,"Software libero e open source (GNU, Linux)",1,2,11,U1.13
+U1.16,U,"Smartphone, cloud e piattaforme",1,1,12,U1.14
+U1.17,U,"Storia dell'intelligenza artificiale: Dartmouth 1956, ""inverni"", deep learning, IA generativa",1,2,6,U1.10
+U1.18,U,"Storia dell'informatica in Italia: CEP di Pisa, Olivetti Elea e Programma 101",1,1,6,U1.10
+U1.19,U,"Le donne nella storia dell'informatica: Lovelace, Hopper, le programmatrici dell'ENIAC, Hamilton",1,1,4,U1.5
+U2.1,U,Che cos'è l'informazione: prospettive filosofiche,2,2,1,B1.1
+U2.2,U,Che cos'è calcolare; la tesi di Church-Turing come tesi filosofica,3,3,12,F3
+U2.3,U,Il test di Turing e l'argomento della stanza cinese,2,2,8,O1
+U2.4,U,"Mente e macchina: funzionalismo, coscienza artificiale",3,3,9,U2.3
+U2.5,U,"Limiti della conoscenza computabile: incompletezza, indecidibilità e loro portata filosofica",4,4,13,A2.5.2 U2.2
+U2.6,U,Epistemologia della simulazione e dei dati,3,4,16,U2.1 S1.6
+U2.7,U,Filosofia della tecnologia; l'infosfera (Floridi),2,3,2,U2.1
+U2.8,U,Cibernetica e pensiero sistemico,3,3,4,R13.2
+U2.9,U,"Scienze nate con il calcolatore: bioinformatica, climatologia computazionale, scienze sociali computazionali",3,3,17,U2.6
+U3.1,U,Tecnologia e valori: la tecnologia non è neutrale,1,1,0,
+U3.2,U,Bias algoritmico e discriminazione,2,2,8,U3.1 A7.1.6
+U3.3,U,"Trasparenza, spiegabilità, diritto alla spiegazione",2,3,9,U3.2
+U3.4,U,Responsabilità: chi risponde degli errori di un sistema automatico,2,2,1,U3.1
+U3.5,U,"Sorveglianza e ""capitalismo della sorveglianza""",2,2,14,U3.1 U5.1
+U3.6,U,"Principi e linee guida per un'IA etica (UE, UNESCO, OCSE)",2,3,10,U3.3 U3.4
+U3.7,U,Armi autonome e tecnologie a duplice uso,3,3,2,U3.4
+U3.8,U,Etica della ricerca informatica e trattamento di dati sensibili,3,3,2,U3.1 U4.1
+U3.9,U,Hacking etico e divulgazione responsabile delle vulnerabilità,2,3,2,U3.1 N1.3
+U4.1,U,"Protezione dei dati personali: GDPR, principi, basi giuridiche, diritti dell'interessato",1,2,1,U3.1
+U4.2,U,Privacy a scuola e tutela dei minori online,1,1,2,U4.1
+U4.3,U,Diritto d'autore e opere digitali,1,2,0,
+U4.4,U,"Licenze software: proprietarie, copyleft (GPL), permissive (MIT, Apache)",2,2,12,U4.3 U1.15
+U4.5,U,Creative Commons e contenuti aperti,1,1,1,U4.3
+U4.6,U,Brevetti software e segreto industriale,3,3,1,U4.3
+U4.7,U,"Reati informatici (accesso abusivo, frode informatica, danneggiamento)",2,2,2,N1.3
+U4.8,U,Regolamento europeo sull'IA (AI Act): livelli di rischio e obblighi,2,3,11,U3.6
+U4.9,U,"Altre norme UE sul digitale: DSA, DMA, Data Act, NIS2",3,3,2,U4.1
+U4.10,U,"Codice dell'amministrazione digitale; firma digitale, PEC, SPID",2,2,2,U4.1
+U4.11,U,"Contratti digitali, commercio elettronico, tutela del consumatore",2,2,2,U4.1
+U4.12,U,"IA e diritto d'autore: addestramento sui dati, opere generate",3,3,12,U4.3 U4.8
+U5.1,U,"Economia delle piattaforme: effetti di rete, mercati a due versanti",2,2,13,U1.16
+U5.2,U,"Modelli di business digitali: pubblicità, abbonamento, freemium",1,2,13,U1.16
+U5.3,U,Economia dei dati: i dati come risorsa,2,2,14,U5.2
+U5.4,U,"Economia dell'informazione: costo marginale nullo, lock-in, standard",3,3,14,U5.1
+U5.5,U,Automazione e lavoro; competenze richieste,2,2,13,U1.16
+U5.6,U,Geopolitica dei semiconduttori e delle reti,2,3,10,C8.6
+U5.7,U,Criptovalute: aspetti economici,3,3,15,U5.4 M7.2
+U5.8,U,Economia dell'open source,3,3,15,U4.4 U5.4
+U6.1,U,"Impronta ambientale del digitale: produzione, uso, fine vita",1,1,0,
+U6.2,U,"Consumi energetici di data center, reti, IA",2,2,11,U6.1 C13.4
+U6.3,U,Materie prime critiche e condizioni di estrazione,2,2,1,U6.1
+U6.4,U,"Rifiuti elettronici (RAEE), riuso, diritto alla riparazione",1,1,1,U6.1
+U6.5,U,"Obsolescenza programmata, anche indotta dal software",1,2,2,U6.4
+U6.6,U,"Il digitale al servizio della sostenibilità (smart grid, monitoraggio ambientale)",2,2,1,U6.1
+U6.7,U,Sobrietà digitale: pratiche individuali,1,1,1,U6.1
+U7.1,U,Identità digitale e reputazione online,1,1,0,
+U7.2,U,Impronta digitale e tracciamento,1,1,1,U7.1
+U7.3,U,Valutare le fonti; disinformazione e misinformazione,1,1,0,
+U7.4,U,Bolle di filtro e algoritmi di raccomandazione (livello divulgativo),1,2,1,U7.3
+U7.5,U,Deepfake e contenuti generati dall'IA,1,2,1,U7.3
+U7.6,U,"Benessere digitale, uso problematico, design persuasivo",1,1,1,U7.1
+U7.7,U,"Cyberbullismo, comportamento online, netiquette",1,1,1,U7.1
+U7.8,U,Divario digitale (di accesso e di competenze),1,2,0,
+U7.9,U,Partecipazione civica digitale,2,2,1,U7.3
+U7.10,U,Quadro europeo DigComp 2.2,1,2,1,U7.1
+U8.1,U,Il divario di genere nelle STEM e nell'informatica,1,1,5,U1.19
+U8.2,U,Stereotipi e percezione della disciplina,1,1,6,U8.1
+U8.3,U,Accessibilità come diritto; disabilità e tecnologie assistive,1,2,0,
+U8.4,U,Progettazione inclusiva,2,2,1,U8.3
+U8.5,U,Diversità culturale e linguistica nel software,2,2,9,U8.4 B4.4
+U9.1,U,"Mappa delle professioni ICT (sviluppatore, sistemista, data scientist, esperto di sicurezza…)",1,1,0,
+U9.2,U,"Percorsi formativi e certificazioni (ITS, lauree, certificazioni di settore)",1,1,1,U9.1
+U9.3,U,"Quadri europei delle competenze professionali (e-CF, SFIA)",2,3,1,U9.1
+U9.4,U,"Codici deontologici (ACM, IEEE)",2,3,1,U3.1 U9.1
+U9.5,U,Lavoro autonomo e da remoto; contributi open source come curriculum,2,2,1,U9.1
+U10.1,U,Etica consequenzialista,2,2,1,U3.1
+U10.2,U,Etica deontologica,2,2,1,U3.1
+U10.3,U,Etica delle virtù ed etica della cura,2,2,1,U3.1
+U10.4,U,"Analisi di casi: portatori di interesse, valori in conflitto",2,3,2,U10.1 U10.2 U10.3
+U10.5,U,"Valutazioni d'impatto (DPIA, impatto sui diritti fondamentali)",3,3,3,U10.4 U4.1
+U10.6,U,Progettazione sensibile ai valori (value sensitive design),3,3,3,U10.4
+U11.1,U,Scrivere per un pubblico tecnico e non tecnico,1,2,0,
+U11.2,U,"Documentare: README, manuali, commenti",1,2,1,U11.1
+U11.3,U,"Presentare un progetto (slide, demo, pitch)",1,2,1,U11.1
+U11.4,U,"Visualizzare per comunicare (diagrammi, schemi)",1,2,1,U11.1
+U11.5,U,"Scrittura scientifica: articolo, citazioni, revisione tra pari",3,3,1,U11.1
+U11.6,U,Divulgazione dell'informatica,2,2,2,U11.3
+U11.7,U,Inglese tecnico,1,2,0,
+V1.1,V,"Organizzazione, processi, informazione",2,2,3,L1.1
+V1.2,V,Sistema informativo e sistema informatico,2,2,4,V1.1
+V1.3,V,"Livelli decisionali: operativo, tattico, strategico",2,2,5,V1.2
+V1.4,V,Flussi informativi e documentali,2,2,5,V1.2
+V1.5,V,"Ruoli: responsabile dei sistemi informativi, analisti, utenti chiave",2,2,5,V1.2
+V2.1,V,"Processo aziendale: attività, ingressi, uscite",2,2,4,V1.1
+V2.2,V,La notazione BPMN,2,3,16,V2.1 H3.4
+V2.3,V,Analisi e reingegnerizzazione dei processi,3,3,17,V2.2
+V2.4,V,"Automazione dei processi: flussi di lavoro, RPA",3,3,17,V2.2
+V2.5,V,Process mining,4,4,17,V2.2 L9.4
+V3.1,V,ERP: moduli e integrazione,2,3,8,V1.2 L4.3
+V3.2,V,CRM,2,3,9,V3.1
+V3.3,V,Gestione della catena di fornitura e del magazzino,2,3,9,V3.1
+V3.4,V,Contabilità e fatturazione elettronica (Sistema di Interscambio),2,2,9,V1.4 B11.3
+V3.5,V,Scegliere e introdurre un gestionale,3,3,16,V3.1 H16.2
+V4.1,V,Indicatori di prestazione (KPI) e cruscotti,2,2,6,V1.3 L2.4
+V4.2,V,Business intelligence,3,3,11,V4.1 L8.3
+V4.3,V,Sistemi di supporto alle decisioni,3,3,12,V4.2 A9.1.1
+V4.4,V,Analisi predittiva nelle organizzazioni,3,4,12,V4.2 O4.1.2
+V5.1,V,"Modelli di commercio elettronico: B2C, B2B, C2C, marketplace",1,2,14,U5.2
+V5.2,V,Architettura di un negozio online,2,3,15,V5.1 K7.1
+V5.3,V,"Pagamenti digitali: carte, portafogli elettronici, circuiti",2,2,15,V5.1
+V5.4,V,"Sicurezza dei pagamenti (PSD2, autenticazione forte)",3,3,16,V5.3 N5.3
+V5.5,V,Logistica e marketing digitale,2,2,15,V5.1
+V6.1,V,Servizi pubblici digitali; il piano triennale per l'informatica nella PA,2,2,3,U4.10
+V6.2,V,"Identità e domicilio digitale (SPID, CIE, PEC)",1,2,5,N5.5
+V6.3,V,PagoPA e app IO,1,2,6,V6.2
+V6.4,V,"Interoperabilità fra amministrazioni (API, piattaforma PDND)",3,3,14,V6.1 K7.3
+V6.5,V,Il registro elettronico e il digitale nella scuola,1,1,0,
+V6.6,V,Open government e trasparenza,2,2,4,V6.1 L10.1
+V7.1,V,Allineare strategia aziendale e informatica,3,3,6,V1.3
+V7.2,V,Architettura d'impresa (TOGAF),3,4,16,V7.1 H12.1
+V7.3,V,Gestione dei servizi IT (ITIL),3,3,21,V7.1 H14.1
+V7.4,V,Governance IT (COBIT); portafoglio dei progetti,3,4,9,V7.1 H9.1
+V7.5,V,"Esternalizzazione, contratti, livelli di servizio",3,3,22,V7.3
+V8.1,V,La trasformazione digitale: che cosa cambia nelle organizzazioni,2,2,4,V1.1
+V8.2,V,Gestione del cambiamento e formazione degli utenti,3,3,5,V8.1
+V8.3,V,Innovazione e modelli di business digitali,3,3,14,V8.1 U5.2
+V8.4,V,Startup e sviluppo di prodotti digitali (lean startup),2,3,17,V8.1 H2.3
+V8.5,V,Adozione dell'IA nelle organizzazioni,3,3,13,V8.1 O10.4
+W1.1,W,"Definizioni del pensiero computazionale (Wing, 2006) e dibattito",3,3,3,E1.5
+W1.2,W,"Concetti, pratiche e prospettive (modello di Brennan e Resnick)",3,3,4,W1.1
+W1.3,W,Pensiero computazionale e altre discipline,3,3,4,W1.1
+W1.4,W,"Valutare il pensiero computazionale (Bebras, test standardizzati)",3,3,5,W1.2
+W2.1,W,L'approccio CS Unplugged: principi,2,3,4,E1.7
+W2.2,W,"Attività classiche: numeri binari con le carte, rete di ordinamento, pixel",1,2,5,E1.7 B2.1.2
+W2.3,W,"Coding senza computer (CodyRoby, pixel art)",1,1,4,E1.7
+W2.4,W,Efficacia e limiti dell'approccio unplugged,3,3,6,W2.2
+W3.1,W,Costruzionismo: Papert e Logo,3,3,8,G9.6
+W3.2,W,Scratch e la sua comunità: remix e creatività,2,3,10,G2.1.5
+W3.3,W,"Ambienti per principianti (Snap!, App Inventor, Code.org)",2,3,11,W3.2
+W3.4,W,Strategie per il passaggio dai blocchi al testo,3,3,11,G2.1.6
+W4.1,W,Misconcezioni su variabili e assegnazione,3,3,6,E4.6
+W4.2,W,"Misconcezioni su cicli, condizioni, funzioni",3,3,7,E3.9 W4.1
+W4.3,W,Misconcezioni su ricorsione e riferimenti,3,4,14,E5.3 G1.10
+W4.4,W,"La ""macchina nozionale"" e il tracciamento dell'esecuzione",3,3,7,W4.1 E2.5
+W4.5,W,Leggere il codice prima di scriverlo (metodo PRIMM),3,3,8,W4.4
+W4.6,W,Problemi di Parsons e altri esercizi guidati,3,3,9,W4.5
+W5.1,W,Indicazioni nazionali e linee guida italiane per l'informatica,3,3,0,
+W5.2,W,"Proposta CINI e progetto ""Programma il futuro""",3,3,1,W5.1
+W5.3,W,"Quadri internazionali: CSTA K-12, curricolo inglese di Computing",3,3,1,W5.1
+W5.4,W,DigComp e DigCompEdu,2,3,2,U7.10
+W5.5,W,Curricoli universitari (ACM/IEEE CS2023),3,4,2,W5.3
+W5.6,W,Progettare un curricolo verticale con una mappa delle propedeuticità,3,3,8,W5.1 A4.3.4
+W6.1,W,Valutare progetti di programmazione: rubriche,3,3,1,W5.1
+W6.2,W,Correzione automatica e feedback,3,3,16,W6.1 H6.2
+W6.3,W,Valutazione formativa e autovalutazione,3,3,2,W6.1
+W6.4,W,"Plagio, uso dell'IA e integrità nella programmazione",3,3,5,W6.1 O11.2
+W6.5,W,"Tassonomie per l'informatica (Bloom, SOLO)",3,3,2,W6.1
+W7.1,W,Gamification e apprendimento basato sul gioco: la differenza,3,3,1,Q3.7
+W7.2,W,"Elementi di gioco (punti, livelli, badge, classifiche) e motivazione",3,3,2,W7.1
+W7.3,W,Alberi delle abilità costruiti su un grafo di propedeuticità,3,3,8,W7.2 A4.3.4
+W7.4,W,"Piattaforme esistenti (CodeCombat, Code.org, Bebras)",2,3,1,Q3.7
+W7.5,W,Progettare una piattaforma gamificata: architettura e contenuti,3,4,13,W7.3 K7.1
+W7.6,W,"Rischi della gamification: motivazione estrinseca, competizione",3,3,3,W7.2
+W8.1,W,Che cosa cambia nell'insegnamento della programmazione con l'IA generativa,3,3,3,O6.4 W5.1
+W8.2,W,Linee guida d'istituto sull'uso dell'IA nella didattica,3,3,13,W8.1 O11.5

@@ -1,0 +1,10 @@
+# file grandi o derivati, rigenerabili
+sorgenti/civici_cache.json
+sorgenti/OPENDATA_CIVICI_preview*
+sorgenti/videogioco-5-duchi-anno1-prototipo-mappa.html
+sorgenti/art/out/_preview*
+sorgenti/test/*.png
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store

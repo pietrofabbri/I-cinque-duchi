@@ -1,0 +1,633 @@
+{
+ "type": "FeatureCollection",
+ "name": "5duchi_anno1_tappe",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.619803,
+     44.83604
+    ]
+   },
+   "properties": {
+    "livello": "1-1",
+    "ordine": 1,
+    "luogo": "Cattedrale di San Giorgio",
+    "personaggio": "San Maurelio",
+    "indirizzo": "Piazza della Cattedrale",
+    "fonte": "civico PIAZZA DELLA CATTEDRALE 9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.619919,
+     44.835513
+    ]
+   },
+   "properties": {
+    "livello": "1-2",
+    "ordine": 2,
+    "luogo": "Loggia dei Merciai",
+    "personaggio": "Mercanti, artigiani e cittadini",
+    "indirizzo": "Piazza Trento e Trieste, fianco sud della Cattedrale",
+    "fonte": "civico PIAZZA TRENTO E TRIESTE 21"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.61928,
+     44.83536
+    ]
+   },
+   "properties": {
+    "livello": "1-3",
+    "ordine": 3,
+    "luogo": "Piazza Trento e Trieste e Palazzo della Ragione",
+    "personaggio": "Salinguerra Torelli",
+    "indirizzo": "Piazza Trento e Trieste",
+    "fonte": "civico PIAZZA TRENTO E TRIESTE 4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.62042,
+     44.834809
+    ]
+   },
+   "properties": {
+    "livello": "1-4",
+    "ordine": 4,
+    "luogo": "Museo della Cattedrale (ex San Romano)",
+    "personaggio": "Guido Monaco (Guido d'Arezzo) a Pomposa",
+    "indirizzo": "Via San Romano 1",
+    "fonte": "civico VIA SAN ROMANO 7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.615694,
+     44.834336
+    ]
+   },
+   "properties": {
+    "livello": "1-5",
+    "ordine": 5,
+    "luogo": "Vicolo del Chiozzino",
+    "personaggio": "Bartolomeo Chiozzi, il \"Mago Chiozzino\"",
+    "indirizzo": "dal volto in via Ripagrande a via Piangipane",
+    "fonte": "civico VICOLO DEL CHIOZZINO 4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.613407,
+     44.835507
+    ]
+   },
+   "properties": {
+    "livello": "1-6",
+    "ordine": 6,
+    "luogo": "MEIS",
+    "personaggio": "La comunità ebraica ferrarese",
+    "indirizzo": "Via Piangipane 81",
+    "fonte": "civico VIA PIANGIPANE 81"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.619067,
+     44.836043
+    ]
+   },
+   "properties": {
+    "livello": "1-7",
+    "ordine": 7,
+    "luogo": "Palazzo Municipale e Volto del Cavallo",
+    "personaggio": "Obizzo II d'Este",
+    "indirizzo": "Piazza del Municipio 2",
+    "fonte": "civico PIAZZA DEL MUNICIPIO 2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.619641,
+     44.838137
+    ]
+   },
+   "properties": {
+    "livello": "1-8",
+    "ordine": 8,
+    "luogo": "Castello Estense",
+    "personaggio": "Alfonso I d'Este",
+    "indirizzo": "Largo Castello 1",
+    "fonte": "civico LARGO CASTELLO 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.62043,
+     44.837645
+    ]
+   },
+   "properties": {
+    "livello": "1-9",
+    "ordine": 9,
+    "luogo": "Teatro Comunale",
+    "personaggio": "Antonio Foschini",
+    "indirizzo": "Corso Martiri della Libertà 5",
+    "fonte": "civico CORSO MARTIRI DELLA LIBERTA' 5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.621723,
+     44.832931
+    ]
+   },
+   "properties": {
+    "livello": "1-10",
+    "ordine": 10,
+    "luogo": "Palazzo Paradiso (Biblioteca Ariostea)",
+    "personaggio": "Guarino Veronese",
+    "indirizzo": "Via delle Scienze 17",
+    "fonte": "civico VIA DELLE SCIENZE 17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.626207,
+     44.833382
+    ]
+   },
+   "properties": {
+    "livello": "1-11",
+    "ordine": 11,
+    "luogo": "Palazzo Renata di Francia",
+    "personaggio": "Ercole II d'Este",
+    "indirizzo": "Via Savonarola 9",
+    "fonte": "civico VIA GIROLAMO SAVONAROLA 9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.626078,
+     44.833276
+    ]
+   },
+   "properties": {
+    "livello": "1-12",
+    "ordine": 12,
+    "luogo": "Casa Romei",
+    "personaggio": "Giovanni Romei",
+    "indirizzo": "Via Savonarola 30",
+    "fonte": "civico VIA GIROLAMO SAVONAROLA 30"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.625972,
+     44.831886
+    ]
+   },
+   "properties": {
+    "livello": "1-13",
+    "ordine": 13,
+    "luogo": "Monastero del Corpus Domini",
+    "personaggio": "Lucrezia Borgia",
+    "indirizzo": "Via Campofranco 1",
+    "fonte": "civico VIA CAMPOFRANCO 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.623986,
+     44.827233
+    ]
+   },
+   "properties": {
+    "livello": "1-14",
+    "ordine": 14,
+    "luogo": "Monastero di Sant'Antonio in Polesine",
+    "personaggio": "Beata Beatrice II d'Este",
+    "indirizzo": "Vicolo del Gambone 17 (indicazione di Pietro)",
+    "fonte": "civico VIA DEL GAMBONE 15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.628963,
+     44.830497
+    ]
+   },
+   "properties": {
+    "livello": "1-15",
+    "ordine": 15,
+    "luogo": "Palazzo Schifanoia",
+    "personaggio": "Francesco del Cossa",
+    "indirizzo": "Via Scandiana 23",
+    "fonte": "civico VIA SCANDIANA 23"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.628927,
+     44.832026
+    ]
+   },
+   "properties": {
+    "livello": "1-16",
+    "ordine": 16,
+    "luogo": "Palazzo Bonacossi",
+    "personaggio": "Pellegrino Prisciani",
+    "indirizzo": "Via Cisterna del Follo 5",
+    "fonte": "civico VIA CISTERNA DEL FOLLO 5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.629726,
+     44.833222
+    ]
+   },
+   "properties": {
+    "livello": "1-17",
+    "ordine": 17,
+    "luogo": "Palazzina Marfisa d'Este",
+    "personaggio": "Marfisa d'Este",
+    "indirizzo": "Corso Giovecca 170",
+    "fonte": "civico CORSO DELLA GIOVECCA 170"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.631272,
+     44.832833
+    ]
+   },
+   "properties": {
+    "livello": "1-18",
+    "ordine": 18,
+    "luogo": "Antico Ospedale di Sant'Anna (cella del Tasso)",
+    "personaggio": "Alfonso II d'Este",
+    "indirizzo": "Corso Giovecca (civico da verificare)",
+    "fonte": "civico CORSO DELLA GIOVECCA 203"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.62647,
+     44.84125
+    ]
+   },
+   "properties": {
+    "livello": "1-19",
+    "ordine": 19,
+    "luogo": "Piazza Ariostea e colonna",
+    "personaggio": "Napoleone e l'età francese",
+    "indirizzo": "Piazza Ariostea",
+    "fonte": "baricentro dei civici di Piazza Ariostea (centro della piazza, stimato)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.624949,
+     44.842084
+    ]
+   },
+   "properties": {
+    "livello": "1-20",
+    "ordine": 20,
+    "luogo": "Palazzo Massari (Museo Boldini)",
+    "personaggio": "Giovanni Boldini",
+    "indirizzo": "Corso Porta Mare 9",
+    "fonte": "civico CORSO PORTA MARE 9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.621244,
+     44.84206
+    ]
+   },
+   "properties": {
+    "livello": "1-21",
+    "ordine": 21,
+    "luogo": "Palazzo dei Diamanti (Pinacoteca)",
+    "personaggio": "Biagio Rossetti",
+    "indirizzo": "Corso Ercole I d'Este 21",
+    "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 21"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.621374,
+     44.842052
+    ]
+   },
+   "properties": {
+    "livello": "1-22",
+    "ordine": 22,
+    "luogo": "Quadrivio degli Angeli (Palazzo Prosperi-Sacrati)",
+    "personaggio": "Ercole I d'Este",
+    "indirizzo": "incrocio Corso Ercole I d'Este / Corso Porta Mare / Corso Biagio Rossetti",
+    "fonte": "punto medio fra Corso Ercole I d'Este 21 e 32 (centro dell'incrocio, stimato)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.621503,
+     44.842045
+    ]
+   },
+   "properties": {
+    "livello": "1-23",
+    "ordine": 23,
+    "luogo": "Palazzo Turchi di Bagno e Orto Botanico",
+    "personaggio": "Antonio Musa Brasavola",
+    "indirizzo": "Corso Ercole I d'Este 32",
+    "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 32"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.620847,
+     44.84182
+    ]
+   },
+   "properties": {
+    "livello": "1-24",
+    "ordine": 24,
+    "luogo": "Museo del Risorgimento e della Resistenza",
+    "personaggio": "Tancredi Mosti Trotti Estense",
+    "indirizzo": "Corso Ercole I d'Este 19",
+    "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 19"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.616865,
+     44.844362
+    ]
+   },
+   "properties": {
+    "livello": "1-25",
+    "ordine": 25,
+    "luogo": "Casa di Ludovico Ariosto",
+    "personaggio": "Ludovico Ariosto",
+    "indirizzo": "Via Ariosto 67",
+    "fonte": "civico VIA LUDOVICO ARIOSTO 67"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.624953,
+     44.848871
+    ]
+   },
+   "properties": {
+    "livello": "1-26",
+    "ordine": 26,
+    "luogo": "Porta degli Angeli e mura nord",
+    "personaggio": "Giulio Natta",
+    "indirizzo": "fine di Corso Ercole I d'Este",
+    "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 152"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.62999,
+     44.84281
+    ]
+   },
+   "properties": {
+    "livello": "1-28",
+    "ordine": 28,
+    "luogo": "Cimitero ebraico",
+    "personaggio": "Giorgio Bassani",
+    "indirizzo": "Via delle Vigne 20",
+    "fonte": "civico VIA DELLE VIGNE 20"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.625337,
+     44.844161
+    ]
+   },
+   "properties": {
+    "livello": "1-29",
+    "ordine": 29,
+    "luogo": "Certosa: cimitero monumentale",
+    "personaggio": "Michelangelo Antonioni",
+    "indirizzo": "Piazza della Certosa",
+    "fonte": "civico VIA BORSO 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.619803,
+      44.83604
+     ],
+     [
+      11.619919,
+      44.835513
+     ],
+     [
+      11.61928,
+      44.83536
+     ],
+     [
+      11.62042,
+      44.834809
+     ],
+     [
+      11.615694,
+      44.834336
+     ],
+     [
+      11.613407,
+      44.835507
+     ],
+     [
+      11.619067,
+      44.836043
+     ],
+     [
+      11.619641,
+      44.838137
+     ],
+     [
+      11.62043,
+      44.837645
+     ],
+     [
+      11.621723,
+      44.832931
+     ],
+     [
+      11.626207,
+      44.833382
+     ],
+     [
+      11.626078,
+      44.833276
+     ],
+     [
+      11.625972,
+      44.831886
+     ],
+     [
+      11.623986,
+      44.827233
+     ],
+     [
+      11.628963,
+      44.830497
+     ],
+     [
+      11.628927,
+      44.832026
+     ],
+     [
+      11.629726,
+      44.833222
+     ],
+     [
+      11.631272,
+      44.832833
+     ],
+     [
+      11.62647,
+      44.84125
+     ],
+     [
+      11.624949,
+      44.842084
+     ],
+     [
+      11.621244,
+      44.84206
+     ],
+     [
+      11.621374,
+      44.842052
+     ],
+     [
+      11.621503,
+      44.842045
+     ],
+     [
+      11.620847,
+      44.84182
+     ],
+     [
+      11.616865,
+      44.844362
+     ],
+     [
+      11.624953,
+      44.848871
+     ],
+     [
+      11.62999,
+      44.84281
+     ],
+     [
+      11.625337,
+      44.844161
+     ]
+    ]
+   },
+   "properties": {
+    "nome": "percorso anno 1 (bozza, linea d'aria)"
+   }
+  }
+ ]
+}

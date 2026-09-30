@@ -1,0 +1,188 @@
+{
+ "L02": {
+  "lat": 44.83604,
+  "lon": 11.619803,
+  "fonte": "civico PIAZZA DELLA CATTEDRALE 9",
+  "nota": "civico del lato della Cattedrale"
+ },
+ "L34": {
+  "lat": 44.835513,
+  "lon": 11.619919,
+  "fonte": "civico PIAZZA TRENTO E TRIESTE 21",
+  "nota": "civico centrale della Loggia dei Merciai"
+ },
+ "L06": {
+  "lat": 44.83536,
+  "lon": 11.61928,
+  "fonte": "civico PIAZZA TRENTO E TRIESTE 4",
+  "nota": "civico del lato ovest della piazza (Palazzo della Ragione): da verificare"
+ },
+ "L33": {
+  "lat": 44.834809,
+  "lon": 11.62042,
+  "fonte": "civico VIA SAN ROMANO 7",
+  "nota": "nel dataset non esiste il n. 1: usato il civico dispari più a nord, da verificare"
+ },
+ "L18": {
+  "lat": 44.834336,
+  "lon": 11.615694,
+  "fonte": "civico VICOLO DEL CHIOZZINO 4",
+  "nota": null
+ },
+ "L23": {
+  "lat": 44.835507,
+  "lon": 11.613407,
+  "fonte": "civico VIA PIANGIPANE 81",
+  "nota": null
+ },
+ "L05": {
+  "lat": 44.836043,
+  "lon": 11.619067,
+  "fonte": "civico PIAZZA DEL MUNICIPIO 2",
+  "nota": null
+ },
+ "L08": {
+  "lat": 44.838137,
+  "lon": 11.619641,
+  "fonte": "civico LARGO CASTELLO 1",
+  "nota": null
+ },
+ "L19": {
+  "lat": 44.837645,
+  "lon": 11.62043,
+  "fonte": "civico CORSO MARTIRI DELLA LIBERTA' 5",
+  "nota": null
+ },
+ "L09": {
+  "lat": 44.832931,
+  "lon": 11.621723,
+  "fonte": "civico VIA DELLE SCIENZE 17",
+  "nota": null
+ },
+ "L38": {
+  "lat": 44.833382,
+  "lon": 11.626207,
+  "fonte": "civico VIA GIROLAMO SAVONAROLA 9",
+  "nota": null
+ },
+ "L35": {
+  "lat": 44.833276,
+  "lon": 11.626078,
+  "fonte": "civico VIA GIROLAMO SAVONAROLA 30",
+  "nota": null
+ },
+ "L15": {
+  "lat": 44.831886,
+  "lon": 11.625972,
+  "fonte": "civico VIA CAMPOFRANCO 1",
+  "nota": null
+ },
+ "L07": {
+  "lat": 44.827233,
+  "lon": 11.623986,
+  "fonte": "civico VIA DEL GAMBONE 15",
+  "nota": "indirizzo fornito da Pietro"
+ },
+ "L10": {
+  "lat": 44.830497,
+  "lon": 11.628963,
+  "fonte": "civico VIA SCANDIANA 23",
+  "nota": null
+ },
+ "L50": {
+  "lat": 44.832026,
+  "lon": 11.628927,
+  "fonte": "civico VIA CISTERNA DEL FOLLO 5",
+  "nota": null
+ },
+ "L16": {
+  "lat": 44.833222,
+  "lon": 11.629726,
+  "fonte": "civico CORSO DELLA GIOVECCA 170",
+  "nota": null
+ },
+ "L17": {
+  "lat": 44.832833,
+  "lon": 11.631272,
+  "fonte": "civico CORSO DELLA GIOVECCA 203",
+  "nota": "indirizzo fornito da Pietro (ingresso secondario: Rampari di San Rocco 15)"
+ },
+ "L26": {
+  "lat": 44.842084,
+  "lon": 11.624949,
+  "fonte": "civico CORSO PORTA MARE 9",
+  "nota": null
+ },
+ "L12": {
+  "lat": 44.84206,
+  "lon": 11.621244,
+  "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 21",
+  "nota": null
+ },
+ "L37": {
+  "lat": 44.842045,
+  "lon": 11.621503,
+  "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 32",
+  "nota": null
+ },
+ "L20": {
+  "lat": 44.84182,
+  "lon": 11.620847,
+  "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 19",
+  "nota": null
+ },
+ "L14": {
+  "lat": 44.844362,
+  "lon": 11.616865,
+  "fonte": "civico VIA LUDOVICO ARIOSTO 67",
+  "nota": null
+ },
+ "L28": {
+  "lat": 44.840169,
+  "lon": 11.606651,
+  "fonte": "civico CORSO PIAVE 28",
+  "nota": null
+ },
+ "L51": {
+  "lat": 44.848871,
+  "lon": 11.624953,
+  "fonte": "civico CORSO ERCOLE PRIMO D'ESTE 152",
+  "nota": "ultimo civico del corso, presso la Porta degli Angeli"
+ },
+ "L24": {
+  "lat": 44.84281,
+  "lon": 11.62999,
+  "fonte": "civico VIA DELLE VIGNE 20",
+  "nota": null
+ },
+ "L11": {
+  "lat": 44.844161,
+  "lon": 11.625337,
+  "fonte": "civico VIA BORSO 1",
+  "nota": "ingresso della Certosa"
+ },
+ "L13": {
+  "lat": 44.842052,
+  "lon": 11.621374,
+  "fonte": "punto medio fra Corso Ercole I d'Este 21 e 32 (centro dell'incrocio, stimato)",
+  "nota": null
+ },
+ "L41": {
+  "lat": 44.84125,
+  "lon": 11.62647,
+  "fonte": "baricentro dei civici di Piazza Ariostea (centro della piazza, stimato)",
+  "nota": null
+ },
+ "L52": {
+  "lat": null,
+  "lon": null,
+  "fonte": null,
+  "nota": "la chiesa di San Cristoforo non ha un numero civico proprio: punto da posizionare a mano sulla facciata"
+ },
+ "L53": {
+  "lat": null,
+  "lon": null,
+  "fonte": null,
+  "nota": "monumento nel chiostro della Certosa, senza civico: punto da posizionare a mano"
+ }
+}

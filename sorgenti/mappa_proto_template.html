@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I cinque duchi — Anno I, prototipo mappa</title>
+<style>
+:root{--bg:#f6f1e7;--panel:#fffaf0;--ink:#2b2118;--muted:#7a6d5e;--line:#d9ccb6;--dot:#6f6353;--dotfog:#e2d9c8;--route:#8c2d19;--stop:#f4e3c1;--accent:#8c2d19;--ok:#2f6b3a;--lock:#b3a893}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1713;--panel:#241f1a;--ink:#efe6d6;--muted:#a89a86;--line:#3a3129;--dot:#b8ab97;--dotfog:#2e2721;--route:#e07a5f;--stop:#3a2a1c;--accent:#e07a5f;--ok:#7fbf8a;--lock:#5a4f44}}
+:root[data-theme="dark"]{--bg:#1b1713;--panel:#241f1a;--ink:#efe6d6;--muted:#a89a86;--line:#3a3129;--dot:#b8ab97;--dotfog:#2e2721;--route:#e07a5f;--stop:#3a2a1c;--accent:#e07a5f;--ok:#7fbf8a;--lock:#5a4f44}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Georgia,"Iowan Old Style",serif}
+.wrap{display:grid;grid-template-columns:1fr 380px;height:100vh}
+#map{width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+aside{background:var(--panel);border-left:1px solid var(--line);overflow:auto;padding:18px 18px 28px}
+h1{font-size:15px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:normal}
+.card{border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:12px;background:var(--bg)}
+.num{display:inline-block;min-width:26px;height:26px;border-radius:13px;background:var(--accent);color:var(--panel);text-align:center;line-height:26px;font-weight:bold;font-size:13px;margin-right:6px}
+.name{font-size:20px;font-weight:bold;margin:6px 0 2px}
+.meta{color:var(--muted);font-size:13px}
+.topic{margin-top:8px;font-size:14px}
+.tl{position:relative;height:26px;margin:10px 0 2px;border-bottom:2px solid var(--line)}
+.tl span{position:absolute;bottom:-2px;width:2px;height:10px;background:var(--lock)}
+.tl b{position:absolute;bottom:-6px;width:10px;height:10px;border-radius:5px;background:var(--accent);transform:translateX(-4px)}
+.tlab{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+button{font:inherit;font-size:14px;border:1px solid var(--accent);background:var(--accent);color:var(--panel);border-radius:8px;padding:8px 12px;cursor:pointer;margin:6px 6px 0 0}
+button.sec{background:transparent;color:var(--accent)}
+button:disabled{border-color:var(--lock);background:transparent;color:var(--lock);cursor:not-allowed}
+.quote{font-style:italic;border-left:3px solid var(--accent);padding-left:10px;margin:10px 0}
+.opt{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px;font-size:14px}
+.opt .st{font-size:12px;color:var(--muted)}
+.done{color:var(--ok)}
+.note{font-size:12px;color:var(--muted)}
+@media (max-width:820px){.wrap{grid-template-columns:1fr;grid-template-rows:55vh auto;height:auto}#map{height:55vh}aside{border-left:0;border-top:1px solid var(--line)}}
+.ov{position:fixed;inset:0;background:color-mix(in srgb,var(--bg) 92%,transparent);z-index:10;overflow:auto;user-select:none;-webkit-user-select:none}
+.ovin{max-width:760px;margin:24px auto;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px 24px}
+.ovh{display:flex;gap:10px;align-items:center;justify-content:space-between;font-size:13px;color:var(--muted);flex-wrap:wrap}.ovh .x{margin:0}
+.grad{margin-left:auto}
+h2{font-size:20px;margin:12px 0}
+.say{border-left:3px solid var(--accent);padding:6px 12px;margin:8px 0 14px;font-style:italic}
+.tile{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:8px 0;background:var(--bg)}
+.lab{display:inline-block;font-size:11px;letter-spacing:.08em;color:var(--accent);margin-right:8px;font-weight:bold}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{background:transparent;color:var(--ink);border:1px solid var(--line);margin:0}
+.chip.wide{text-align:left;width:100%}
+.chip.sel{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.chip.right{border-color:var(--ok);box-shadow:inset 0 0 0 1px var(--ok)}
+.chip.wrong{border-color:#b3261e;text-decoration:line-through}
+.fb{margin-top:10px}
+.cardx{display:flex;gap:16px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--bg)}
+.wm{position:fixed;right:12px;bottom:8px;font-size:11px;color:var(--muted);opacity:.55;pointer-events:none}
+input{font:inherit;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.zona{background:color-mix(in srgb,var(--bg) 96%,transparent)}
+.zwrap{max-width:740px;margin:14px auto;position:relative;padding:0 8px}
+.ztop{display:flex;justify-content:space-between;align-items:center;font-size:14px;margin-bottom:6px}.ztop button{margin:0}
+#zc{width:100%;height:auto;image-rendering:pixelated;border:3px solid var(--ink);border-radius:8px;background:#e9e1d0;display:block}
+.dlg{position:absolute;left:18px;right:18px;top:calc(100% - 240px);background:#fffaf0;color:#2b2118;border:3px solid #2b2118;border-radius:10px;padding:10px 14px;font-size:17px;box-shadow:0 4px 0 #2b2118}
+.dlg .who{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8c2d19;font-weight:bold}.dopt{text-align:right}.dopt button{margin:6px 0 0 6px}
+.hidden{display:none!important}
+.pad{display:grid;grid-template-columns:repeat(5,52px);gap:6px;justify-content:center;margin-top:10px}.pad button{margin:0;font-size:18px;padding:8px 0}.pad .abtn{background:#8c2d19}
+.box2{position:fixed;inset:0;background:rgba(40,30,20,.35);z-index:12;overflow:auto;padding-top:10px}
+.dots i{display:inline-block;width:14px;height:14px;border-radius:7px;border:2px solid var(--accent);margin:0 3px}.dots i.full{background:var(--accent)}.dots i.cur{background:color-mix(in srgb,var(--accent) 40%,transparent)}
+.stage{text-align:center;margin:10px 0 16px}
+.stone{display:inline-block;font:bold 40px Georgia;letter-spacing:.08em;padding:16px 28px;background:#cfc6b6;color:#3a332a;border-radius:6px;box-shadow:inset 0 -4px 0 #a99f8e;margin:6px}.stone.small{font-size:24px;padding:8px 16px}
+.arrow{font-size:26px;color:var(--accent)}
+.tag{border-radius:10px;padding:10px 14px;margin:8px auto;max-width:560px;text-align:left}
+.c0{background:#fff4d6;color:#2b2118}.c2{background:#dbeafe;color:#1e3a5f}.c3{background:#dcfce7;color:#14532d}
+.trio{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.trio span{padding:10px 16px;border-radius:999px;color:#fff;font-weight:bold}
+.b1{background:#c2410c!important;color:#fff!important}.b2{background:#1d4ed8!important;color:#fff!important}.b3{background:#15803d!important;color:#fff!important}
+.baskets{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:12px}.basket{border-radius:0 0 40px 40px;padding:18px 20px;min-width:120px;border:0}
+.bubble{display:inline-block;background:#fff;color:#2b2118;border:3px solid #2b2118;border-radius:20px;padding:14px 18px;font-size:18px;max-width:520px}
+.row{display:flex;gap:10px;justify-content:center;align-items:flex-start;margin-top:12px}.row.wrap{flex-wrap:wrap}.col{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.vf{min-width:120px;font-size:18px;padding:12px 18px;border:0}.vt{background:#15803d}.vfx{background:#b3261e}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:10px}.card4{background:#fff;color:#2b2118;border:2px solid #d9ccb6;border-radius:12px;padding:16px;min-height:74px;margin:0}
+.pill{background:#fff;color:#2b2118;border:2px solid #d9ccb6;border-radius:999px;margin:0}.pill.wide{border-radius:12px;text-align:left}
+.icon{background:#fff;color:#8c2d19;border:2px solid #d9ccb6;border-radius:16px;padding:8px;margin:0}
+.slots{min-height:48px;border:2px dashed #d9ccb6;border-radius:10px;padding:8px;display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.slot{background:#fde68a;color:#2b2118;border-radius:6px;padding:6px 10px}
+.tile2{background:#fde68a;color:#2b2118;border:0;border-radius:6px;margin:0;height:auto;flex:0 0 auto}
+.ladder{display:flex;flex-direction:column-reverse;gap:6px;min-height:40px}.rung{padding:8px 12px;border-radius:8px;color:#fff;text-align:left}.r1{background:#c2410c}.r2{background:#1d4ed8}.r3{background:#15803d}
+.mini{font-size:13px;padding:5px 10px;margin:0;opacity:.75;border:0}.mini.sel{opacity:1;outline:3px solid #2b2118}
+.right{outline:3px solid #15803d!important;opacity:1!important}.wrong{outline:3px solid #b3261e!important;opacity:.6}
+.fb{margin-top:12px;font-size:16px;padding:10px;border-radius:10px}.fb.yes{background:#dcfce7;color:#14532d}.fb.no{background:#fee2e2;color:#7f1d1d}.fb:empty{display:none}.cnt{font-weight:bold;margin:0 8px}
+.big{font-size:64px}.small{font-size:14px;color:var(--muted)}
+.breath{width:90px;height:90px;border-radius:50%;background:#93c5fd;margin:10px auto;animation:br 4s ease-in-out infinite}@keyframes br{0%,100%{transform:scale(.6)}50%{transform:scale(1.2)}}
+.sepia{color:#8a6a45}
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fld.sel{outline:3px solid #8a6a45}
+.pyr{display:flex;flex-direction:column;align-items:center;gap:4px;margin:10px 0}.lv{color:#fff;padding:8px;border-radius:6px}.lv span{opacity:.85;font-size:13px}
+.lv0{background:#c2410c;width:100%}.lv1{background:#1d4ed8;width:80%}.lv2{background:#15803d;width:60%}.lv3{background:#7c3aed;width:40%}
+h2.q{font-size:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <canvas id="map" aria-label="Mappa del centro di Ferrara con le tappe"></canvas>
+  <aside>
+    <h1>I cinque duchi · Anno I · prototipo della mappa</h1>
+    <div id="panel"></div>
+    <p class="note">Prototipo per provare la meccanica: la soglia è simulata da un pulsante. Edifici e perimetro del centro storico: open data del Comune di Ferrara (CC BY 4.0). La nebbia copre le zone non ancora aperte; il tratteggio dorato segna i confini delle zone aperte. Le tappe 27 e 30 hanno una posizione provvisoria (cerchio tratteggiato). La tappa 1 è giocabile: entri nella piazza come Borso, parli con Maurelio, fai gli esercizi, ricevi la carta e segui le visioni. Ogni zona della mappa appartiene a una sola tappa (celle di Voronoi entro 150 m). Trascina per spostare, rotella o pizzico per ingrandire.</p>
+    <button class="sec" id="reset">Ricomincia</button>
+  </aside>
+</div>
+<script>
+/*TAPPA1*/
+const T1S={};
+const D=/*DATA*/;
+const S=D.stops;
+let st={cur:0,done:[],opt:{}}; // cur = indice della tappa aperta più avanzata
+const cv=document.getElementById('map'),cx=cv.getContext('2d');
+let view={s:1,ox:0,oy:0};
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+function fit(){const r=cv.getBoundingClientRect(),dpr=devicePixelRatio||1;cv.width=r.width*dpr;cv.height=r.height*dpr;
+  const [x0,x1,y0,y1]=D.box;const s=Math.min(r.width/(x1-x0),r.height/(y1-y0))*0.95;view={s:s*dpr,ox:(r.width*dpr-(x1+x0)*s*dpr)/2,oy:(r.height*dpr+(y1+y0)*s*dpr)/2};draw()}
+const X=x=>view.ox+x*view.s, Y=y=>view.oy-y*view.s;
+const R=150; // raggio massimo della zona di una tappa (m)
+function open(i){return i<=st.cur}
+function near(x,y){let b=-1,bd=1e18;for(let i=0;i<S.length;i++){const dx=x-S[i].x,dy=y-S[i].y,d=dx*dx+dy*dy;if(d<bd){bd=d;b=i}}return [b,bd]}
+function vis(x,y){const n=near(x,y);return n[0]<=st.cur&&n[1]<R*R}
+// --- edifici reali (open data del Comune): decodifica delta in mezzi metri ---
+const ED=D.edifici.map(a=>{const p=[];let x=0,y=0;for(let i=0;i<a.length;i+=2){x+=a[i];y+=a[i+1];p.push([x/2,y/2])}
+  let cx0=0,cy0=0;p.forEach(q=>{cx0+=q[0];cy0+=q[1]});cx0/=p.length;cy0/=p.length;const n=near(cx0,cy0);
+  return {p,z:n[1]<R*R?n[0]:-1,h:(Math.sin(cx0*12.9898+cy0*78.233)*43758.5453)%1}});
+// --- celle di Voronoi delle tappe (entro R), per la nebbia ---
+function clipHP(poly,a,b,c){const o=[];for(let i=0;i<poly.length;i++){const p=poly[i],q=poly[(i+1)%poly.length],fp=a*p[0]+b*p[1]-c,fq=a*q[0]+b*q[1]-c;
+  if(fp<=0)o.push(p);if(fp*fq<0){const t=fp/(fp-fq);o.push([p[0]+t*(q[0]-p[0]),p[1]+t*(q[1]-p[1])])}}return o}
+const CELL=S.map((s,i)=>{let c=[];for(let k=0;k<48;k++)c.push([s.x+R*Math.cos(k*Math.PI/24),s.y+R*Math.sin(k*Math.PI/24)]);
+  S.forEach((t,j)=>{if(j===i)return;const a=t.x-s.x,b=t.y-s.y;c=clipHP(c,a,b,(t.x*t.x+t.y*t.y-s.x*s.x-s.y*s.y)/2)});return c});
+// --- nuvole (rumore morbido ripetibile) ---
+const CLOUD=(()=>{const c=document.createElement('canvas');c.width=c.height=256;const g=c.getContext('2d'),id=g.createImageData(256,256);
+  const r=(x,y)=>{const v=Math.sin(x*127.1+y*311.7)*43758.5453;return v-Math.floor(v)};const sm=t=>t*t*(3-2*t);
+  for(let y=0;y<256;y++)for(let x=0;x<256;x++){let a=0,amp=.55;for(const f of [4,8,16,32]){const gx=x*f/256,gy=y*f/256,ix=Math.floor(gx),iy=Math.floor(gy),tx=sm(gx-ix),ty=sm(gy-iy);
+    const w=(xx,yy)=>r(((xx%f)+f)%f,((yy%f)+f)%f+f*7);a+=amp*((w(ix,iy)*(1-tx)+w(ix+1,iy)*tx)*(1-ty)+(w(ix,iy+1)*(1-tx)+w(ix+1,iy+1)*tx)*ty);amp*=.5}
+    const q=(y*256+x)*4;id.data[q]=id.data[q+1]=id.data[q+2]=255;id.data[q+3]=Math.max(0,Math.min(255,(a-.30)*380))}g.putImageData(id,0,0);return c})();
+// --- livello statico (città) messo in cache: si ridisegna solo quando cambia lo zoom o lo stato ---
+let cache=null,cacheKey='',T0=performance.now();
+function buildCache(){const [x0,x1,y0,y1]=D.box;const k=Math.min(view.s,4096/(x1-x0),4096/(y1-y0));const w=Math.ceil((x1-x0)*k),h=Math.ceil((y1-y0)*k);
+  const c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d');const cX=x=>(x-x0)*k,cY=y=>(y1-y)*k;
+  const ring=(pts)=>{pts.forEach((p,i)=>i?g.lineTo(cX(p[0]),cY(p[1])):g.moveTo(cX(p[0]),cY(p[1])));g.closePath()};
+  g.fillStyle='#d9e0c6';g.fillRect(0,0,w,h);                       // campagna e parchi fuori dalle mura
+  g.beginPath();ring(D.mura);g.fillStyle='#efe7d8';g.fill();        // città dentro le mura
+  g.lineJoin='round';g.strokeStyle='#9fb07e';g.lineWidth=Math.max(3,26*k);g.beginPath();ring(D.mura);g.stroke(); // terrapieno alberato
+  g.strokeStyle='#a4583f';g.lineWidth=Math.max(1.5,4*k);g.beginPath();ring(D.mura);g.stroke();                   // cortina in mattoni
+  const PAL=['#c47e5f','#bf7457','#cb8a68','#b96d52','#c98365'],FOG='#d8d0c2';
+  for(const e of ED){const on=e.z>=0&&e.z<=st.cur;g.beginPath();ring(e.p);g.fillStyle=on?PAL[Math.floor(Math.abs(e.h)*5)]:FOG;g.fill();
+    if(on&&k>.9){g.strokeStyle='rgba(90,40,25,.35)';g.lineWidth=1;g.stroke()}}
+  // nebbia: tutto coperto tranne le zone aperte, con bordo morbido
+  const f=document.createElement('canvas');f.width=w;f.height=h;const q=f.getContext('2d');q.fillStyle='rgba(244,240,232,.80)';q.fillRect(0,0,w,h);
+  q.globalCompositeOperation='destination-out';const cr=(pts)=>{q.beginPath();pts.forEach((p,i)=>i?q.lineTo(cX(p[0]),cY(p[1])):q.moveTo(cX(p[0]),cY(p[1])));q.closePath()};
+  for(let i=0;i<=st.cur;i++){cr(CELL[i]);q.fillStyle='#000';q.fill();for(let j=8;j>=1;j--){cr(CELL[i]);q.lineJoin='round';q.lineWidth=j*Math.max(2,5*k);q.strokeStyle='rgba(0,0,0,.13)';q.stroke()}}
+  cache={c,f,k,x0,y1};cacheKey=view.s.toFixed(3)+'|'+st.cur}
+let needCache=true,cacheTimer=0;
+function draw(){
+  const W=cv.width,H=cv.height,dpr=devicePixelRatio||1;
+  if(!cache||needCache){buildCache();needCache=false}
+  cx.fillStyle='#d9e0c6';cx.fillRect(0,0,W,H);
+  // città (in cache, scalata al volo durante lo zoom)
+  const sc=view.s/cache.k;cx.imageSmoothingEnabled=true;
+  cx.drawImage(cache.c,X(cache.x0),Y(cache.y1),cache.c.width*sc,cache.c.height*sc);
+  // nebbia con nuvole che scorrono
+  const t=(performance.now()-T0)/1000;
+  const fw=cache.f.width*sc,fh=cache.f.height*sc;
+  if(!draw.tmp){draw.tmp=document.createElement('canvas')}const tm=draw.tmp;if(tm.width!==W||tm.height!==H){tm.width=W;tm.height=H}
+  const tg=tm.getContext('2d');tg.globalCompositeOperation='source-over';tg.clearRect(0,0,W,H);tg.drawImage(cache.f,X(cache.x0),Y(cache.y1),fw,fh);
+  tg.globalCompositeOperation='source-atop';tg.globalAlpha=.6;const pt=tg.createPattern(CLOUD,'repeat');const cs=Math.max(.6,view.s*1.6);
+  tg.save();tg.translate(X(0)+t*8*dpr,Y(0)+t*3*dpr);tg.scale(cs,cs);tg.fillStyle=pt;tg.fillRect(-(X(0)+t*8*dpr)/cs-256,-(Y(0)+t*3*dpr)/cs-256,W/cs+512,H/cs+512);tg.restore();tg.globalAlpha=1;
+  cx.drawImage(tm,0,0);
+  // confini delle zone aperte (tratteggio dorato)
+  cx.setLineDash([5*dpr,4*dpr]);cx.lineDashOffset=-t*10*dpr;cx.strokeStyle='rgba(196,146,20,.95)';cx.lineWidth=1.6*dpr;
+  for(let i=0;i<=st.cur;i++){cx.beginPath();CELL[i].forEach((p,k)=>k?cx.lineTo(X(p[0]),Y(p[1])):cx.moveTo(X(p[0]),Y(p[1])));cx.closePath();cx.stroke()}
+  cx.setLineDash([]);
+  // nomi delle vie visibili
+  cx.font=`${11*dpr}px Georgia`;cx.fillStyle='#5b4a3a';
+  for(const s of D.streets){const m=s.linea[Math.floor(s.linea.length/2)];if(!vis(m[0],m[1]))continue;
+    cx.save();cx.translate(X(m[0]),Y(m[1]));let a=-s.ang*Math.PI/180;if(a>Math.PI/2)a-=Math.PI;if(a<-Math.PI/2)a+=Math.PI;cx.rotate(a);cx.textAlign='center';cx.fillText(s.nome,0,-4*dpr);cx.restore()}
+  // percorso e tappe
+  cx.strokeStyle='#8c2d19';cx.lineWidth=2.4*dpr;cx.setLineDash([6*dpr,5*dpr]);cx.beginPath();
+  for(let i=0;i<=st.cur;i++){const s=S[i];i?cx.lineTo(X(s.x),Y(s.y)):cx.moveTo(X(s.x),Y(s.y))}cx.stroke();cx.setLineDash([]);
+  // prossima tappa: punto interrogativo che pulsa nella nebbia
+  if(st.done.includes(st.cur)&&st.cur<S.length-1){const s=S[st.cur+1],r=(11+2*Math.sin(t*4))*dpr;cx.beginPath();cx.arc(X(s.x),Y(s.y),r,0,7);cx.fillStyle='rgba(255,250,240,.9)';cx.fill();
+    cx.lineWidth=2*dpr;cx.strokeStyle='#8c2d19';cx.stroke();cx.fillStyle='#8c2d19';cx.font=`bold ${12*dpr}px Georgia`;cx.textAlign='center';cx.textBaseline='middle';cx.fillText('?',X(s.x),Y(s.y)+.5)}
+  for(let i=0;i<=st.cur;i++){const s=S[i],r=(i===st.cur?13:10)*dpr;
+    cx.beginPath();cx.arc(X(s.x),Y(s.y),r+2*dpr,0,7);cx.fillStyle='rgba(43,33,24,.25)';cx.fill();
+    cx.beginPath();cx.arc(X(s.x),Y(s.y),r,0,7);cx.fillStyle='#fff6e2';cx.fill();cx.lineWidth=(i===st.cur?3:1.6)*dpr;cx.strokeStyle='#8c2d19';
+    if(s.provv)cx.setLineDash([3*dpr,3*dpr]);cx.stroke();cx.setLineDash([]);
+    cx.fillStyle='#2b2118';cx.font=`bold ${11*dpr}px Georgia`;cx.textAlign='center';cx.textBaseline='middle';cx.fillText(s.n,X(s.x),Y(s.y)+0.5)}
+  cx.textBaseline='alphabetic';
+}
+// ciclo di animazione: nuvole, inerzia del trascinamento, zoom morbido, volo verso una tappa
+let anim={vx:0,vy:0,zs:null,zx:0,zy:0,fly:null};
+function tick(){const d=devicePixelRatio||1;
+  if(!drag&&(Math.abs(anim.vx)>.05||Math.abs(anim.vy)>.05)){view.ox+=anim.vx;view.oy+=anim.vy;anim.vx*=.92;anim.vy*=.92}
+  if(anim.zs){const f=Math.pow(anim.zs/view.s,.2);if(Math.abs(f-1)<.002){anim.zs=null}else{view.ox=anim.zx-(anim.zx-view.ox)*f;view.oy=anim.zy-(anim.zy-view.oy)*f;view.s*=f;clearTimeout(cacheTimer);cacheTimer=setTimeout(()=>{needCache=true},140)}}
+  if(anim.fly){const F=anim.fly;F.t=Math.min(1,F.t+.025);const e=F.t<.5?2*F.t*F.t:1-Math.pow(-2*F.t+2,2)/2;const s=F.s0+(F.s1-F.s0)*e;
+    const r=cv.getBoundingClientRect();const cxm=F.x0+(F.x1-F.x0)*e,cym=F.y0+(F.y1-F.y0)*e;view.s=s;view.ox=r.width*d*.5-cxm*s;view.oy=r.height*d*.5+cym*s;if(F.t>=1){anim.fly=null;needCache=true}}
+  draw();requestAnimationFrame(tick)}
+function flyTo(x,y,s1){const r=cv.getBoundingClientRect(),d=devicePixelRatio||1;const cxm=(r.width*d*.5-view.ox)/view.s,cym=(view.oy-r.height*d*.5)/view.s;
+  anim.fly={t:0,x0:cxm,y0:cym,x1:x,y1:y,s0:view.s,s1:s1||Math.max(view.s,1.4*d)}}
+function tl(s){const a=600,b=2026;if(!s.a0)return'';const p=v=>((Math.min(Math.max(v,a),b)-a)/(b-a)*100).toFixed(1);
+  let met='';for(let i=0;i<st.cur;i++){if(S[i].a0)met+=`<span style="left:${p(S[i].a0)}%"></span>`}
+  return `<div class="tl">${met}<b style="left:${p(s.a0)}%"></b></div><div class="tlab"><span>600</span><span>1000</span><span>1400</span><span>1800</span><span>2026</span></div>`}
+function esc(t){return (t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function render(){
+  const i=st.cur,s=S[i],done=st.done.includes(i),o=st.opt[i]||0;
+  let h=`<div class="card"><span class="num">${s.n}</span><span class="meta">${esc(s.luogo)} · ${esc(s.indirizzo)}</span>
+  <div class="name">${esc(s.nome)}</div><div class="meta">${esc(s.periodo)} · ${esc(s.epoca_nome)} · attendibilità: ${esc(s.certezza)}</div>
+  ${tl(s)}<div class="topic"><b>Livello 1-${s.n}:</b> ${esc(s.argomento)}</div>
+  <div class="meta" style="margin-top:6px">Aggancio (${esc(s.forza)}): ${esc(s.aggancio)}</div>
+  <div class="meta" style="margin-top:6px">Domanda critica: ${esc(s.domanda)}</div>`;
+  if(!done){h+= i===0?`<button id="bott">Entra nella piazza (giochi come Borso)</button>`:`<button id="soglia">Supera la soglia del livello (simulazione)</button>`}
+  else{h+=`<div class="quote">«${esc(s.rimando)}»</div>`;
+    if(i<S.length-1&&st.cur===i)h+=`<button id="next">Vai alla tappa ${s.n+1}</button>`;
+    if(i===0){h+=`<div class="opt"><b>Le visioni di Borso</b> sono nella piazza: San Giorgio e la lapide.<br><button class="sec" id="bz">Torna nella piazza</button></div>`}else{h+=`<div class="opt"><b>Le visioni di Borso</b> <span class="st">(facoltative, una dopo l'altra, senza spostarsi sulla mappa)</span>`;
+    s.opz.forEach((a,k)=>{const unlocked=k<=o, fatto=k<o;
+      h+=`<div style="margin-top:6px">${fatto?'<span class="done">✓</span> ':''}<b>A${k+1}.</b> ${esc(a.titolo)} <span class="st">${a.nodo}</span>${a.personaggio?`<br><span class="st">Borso immagina: ${esc(a.personaggio)}</span>`:''}
+      ${unlocked&&!fatto?`<br><button class="sec" data-opt="${k}">Apri la visione A${k+1}</button>`:''}${!unlocked?'<br><span class="st">si apre dopo la visione precedente</span>':''}</div>`});
+    h+=`</div>`}}
+  h+=`</div>`;
+  document.getElementById('panel').innerHTML=h;
+  const bt=document.getElementById('bott');if(bt)bt.onclick=()=>openZona1({stato:T1S,onExit:d=>{if(d&&!st.done.includes(0))st.done.push(0);render();draw()}});
+  const bz=document.getElementById('bz');if(bz)bz.onclick=()=>openZona1({stato:T1S,onExit:()=>{render();draw()}});
+  const b=document.getElementById('soglia');if(b)b.onclick=()=>{st.done.push(i);render();draw()};
+  const n=document.getElementById('next');if(n)n.onclick=()=>{st.cur++;needCache=true;render();flyTo(S[st.cur].x,S[st.cur].y)};
+  document.querySelectorAll('[data-opt]').forEach(x=>x.onclick=()=>{st.opt[i]=(+x.dataset.opt)+1;render()});
+}
+document.getElementById('reset').onclick=()=>{st={cur:0,done:[],opt:{}};needCache=true;render();flyTo(S[0].x,S[0].y)};
+// trascinamento con inerzia e zoom morbido (rotella o pizzico)
+let drag=null;const ptrs=new Map();let pinch=null;
+cv.addEventListener('pointerdown',e=>{cv.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});anim.fly=null;
+  if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y)};drag=null}else{drag={x:e.clientX,y:e.clientY,t:performance.now()};anim.vx=anim.vy=0}});
+cv.addEventListener('pointermove',e=>{if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});const d=devicePixelRatio||1;
+  if(pinch&&ptrs.size===2){const [a,b]=[...ptrs.values()];const nd=Math.hypot(a.x-b.x,a.y-b.y),r=cv.getBoundingClientRect(),mx=((a.x+b.x)/2-r.left)*d,my=((a.y+b.y)/2-r.top)*d,f=nd/pinch.d;
+    view.ox=mx-(mx-view.ox)*f;view.oy=my-(my-view.oy)*f;view.s*=f;pinch.d=nd;clearTimeout(cacheTimer);cacheTimer=setTimeout(()=>{needCache=true},140);return}
+  if(!drag)return;const dx=(e.clientX-drag.x)*d,dy=(e.clientY-drag.y)*d;view.ox+=dx;view.oy+=dy;anim.vx=dx*.9;anim.vy=dy*.9;drag.x=e.clientX;drag.y=e.clientY});
+const up=e=>{ptrs.delete(e.pointerId);if(ptrs.size<2)pinch=null;if(ptrs.size===0)drag=null};
+cv.addEventListener('pointerup',up);cv.addEventListener('pointercancel',up);
+cv.addEventListener('wheel',e=>{e.preventDefault();const d=devicePixelRatio||1,r=cv.getBoundingClientRect();anim.zx=(e.clientX-r.left)*d;anim.zy=(e.clientY-r.top)*d;
+  anim.zs=(anim.zs||view.s)*(e.deltaY<0?1.3:1/1.3);anim.zs=Math.max(.05*d,Math.min(8*d,anim.zs))},{passive:false});
+addEventListener('resize',()=>{fit();needCache=true});matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{needCache=true});
+render();fit();needCache=true;requestAnimationFrame(tick);setTimeout(()=>flyTo(S[0].x,S[0].y,Math.max(view.s*3,1.2*(devicePixelRatio||1))),600);
+</script>
+</body>
+</html>

@@ -1,0 +1,3360 @@
+[
+ {
+  "id": "1-1",
+  "anno": 1,
+  "numero": 1,
+  "duca": "Borso",
+  "titolo": "Informazione, dato, messaggio",
+  "tipo": "normale",
+  "nucleo": [
+   "B1.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B11.6",
+   "L1.5"
+  ]
+ },
+ {
+  "id": "1-2",
+  "anno": 1,
+  "numero": 2,
+  "duca": "Borso",
+  "titolo": "Analogico e digitale",
+  "tipo": "normale",
+  "nucleo": [
+   "B1.2",
+   "B1.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.1.1",
+   "A1.1.2",
+   "A1.1.3"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B1.7",
+   "B1.8"
+  ]
+ },
+ {
+  "id": "1-3",
+  "anno": 1,
+  "numero": 3,
+  "duca": "Borso",
+  "titolo": "Il bit",
+  "tipo": "normale",
+  "nucleo": [
+   "B1.4",
+   "B1.5",
+   "B1.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.2.1",
+   "A3.1.1",
+   "A3.1.2",
+   "A4.1.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B1.9",
+   "B1.10"
+  ]
+ },
+ {
+  "id": "1-4",
+  "anno": 1,
+  "numero": 4,
+  "duca": "Borso",
+  "titolo": "Sistemi di numerazione posizionali",
+  "tipo": "normale",
+  "nucleo": [
+   "B2.1.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B2.1.7",
+   "B2.1.8"
+  ]
+ },
+ {
+  "id": "1-5",
+  "anno": 1,
+  "numero": 5,
+  "duca": "Borso",
+  "titolo": "Conversioni binario ↔ decimale",
+  "tipo": "normale",
+  "nucleo": [
+   "B2.1.2",
+   "B2.1.3",
+   "B2.1.4",
+   "B2.1.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.2.2",
+   "A1.3.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B2.6.1",
+   "B2.6.2"
+  ]
+ },
+ {
+  "id": "1-6",
+  "anno": 1,
+  "numero": 6,
+  "duca": "Borso",
+  "titolo": "Ottale ed esadecimale",
+  "tipo": "normale",
+  "nucleo": [
+   "B2.2.1",
+   "B2.2.2",
+   "B2.2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B12.5",
+   "B2.2.4"
+  ]
+ },
+ {
+  "id": "1-7",
+  "anno": 1,
+  "numero": 7,
+  "duca": "Borso",
+  "titolo": "Unità di misura: bit, byte, prefissi SI e IEC",
+  "tipo": "normale",
+  "nucleo": [
+   "B3.1",
+   "B3.2",
+   "B3.3",
+   "B3.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.1.4",
+   "A1.1.5"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B2.6.4",
+   "B3.5"
+  ]
+ },
+ {
+  "id": "1-8",
+  "anno": 1,
+  "numero": 8,
+  "duca": "Borso",
+  "titolo": "Aritmetica binaria e overflow",
+  "tipo": "normale",
+  "nucleo": [
+   "B2.3.1",
+   "B2.3.2",
+   "B2.3.4",
+   "B2.3.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A2.1.1",
+   "A2.1.2",
+   "A2.1.3"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B2.3.3",
+   "B2.6.3"
+  ]
+ },
+ {
+  "id": "1-9",
+  "anno": 1,
+  "numero": 9,
+  "duca": "Borso",
+  "titolo": "Codifica del testo: ASCII",
+  "tipo": "normale",
+  "nucleo": [
+   "B4.1",
+   "B4.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B4.11",
+   "B4.12"
+  ]
+ },
+ {
+  "id": "1-10",
+  "anno": 1,
+  "numero": 10,
+  "duca": "Borso",
+  "titolo": "Prova di corte: codifiche e cifrario di Cesare ★",
+  "tipo": "prova",
+  "nucleo": [
+   "N2.1",
+   "N2.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.4.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "N2.5",
+   "N2.9"
+  ]
+ },
+ {
+  "id": "1-11",
+  "anno": 1,
+  "numero": 11,
+  "duca": "Borso",
+  "titolo": "Unicode e UTF-8",
+  "tipo": "normale",
+  "nucleo": [
+   "B4.3",
+   "B4.4",
+   "B4.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B4.7",
+   "B4.8"
+  ]
+ },
+ {
+  "id": "1-12",
+  "anno": 1,
+  "numero": 12,
+  "duca": "Borso",
+  "titolo": "Colori: RGB e notazione esadecimale",
+  "tipo": "normale",
+  "nucleo": [
+   "B5.1.2",
+   "B5.2.1",
+   "B5.3.1",
+   "B5.3.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "B5.1.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B5.2.2",
+   "B5.3.2"
+  ]
+ },
+ {
+  "id": "1-13",
+  "anno": 1,
+  "numero": 13,
+  "duca": "Borso",
+  "titolo": "Immagini raster: pixel e risoluzione",
+  "tipo": "normale",
+  "nucleo": [
+   "B6.1",
+   "B6.2",
+   "B6.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B6.9",
+   "B8.1"
+  ]
+ },
+ {
+  "id": "1-14",
+  "anno": 1,
+  "numero": 14,
+  "duca": "Borso",
+  "titolo": "Hardware e software",
+  "tipo": "normale",
+  "nucleo": [
+   "C11.1",
+   "D4.1",
+   "C4.1",
+   "C4.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "C1.1",
+   "C1.2",
+   "C1.3"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "C1.10",
+   "C8.1"
+  ]
+ },
+ {
+  "id": "1-15",
+  "anno": 1,
+  "numero": 15,
+  "duca": "Borso",
+  "titolo": "La macchina di von Neumann: CPU, memoria, bus",
+  "tipo": "normale",
+  "nucleo": [
+   "D4.2",
+   "D5.1",
+   "U1.1",
+   "U1.3",
+   "U1.4",
+   "U1.7",
+   "U1.9",
+   "U1.10",
+   "U1.11",
+   "U1.13"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U1.18",
+   "D4.3"
+  ]
+ },
+ {
+  "id": "1-16",
+  "anno": 1,
+  "numero": 16,
+  "duca": "Borso",
+  "titolo": "Il ciclo fetch-decode-execute",
+  "tipo": "normale",
+  "nucleo": [
+   "D5.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "D4.5",
+   "D6.1"
+  ]
+ },
+ {
+  "id": "1-17",
+  "anno": 1,
+  "numero": 17,
+  "duca": "Borso",
+  "titolo": "Memorie: RAM, dischi, SSD, gerarchia di memoria",
+  "tipo": "normale",
+  "nucleo": [
+   "C10.1",
+   "C10.4",
+   "D8.1",
+   "D8.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "C10.6",
+   "C10.7"
+  ]
+ },
+ {
+  "id": "1-18",
+  "anno": 1,
+  "numero": 18,
+  "duca": "Borso",
+  "titolo": "Periferiche e bus",
+  "tipo": "normale",
+  "nucleo": [
+   "C11.2",
+   "C11.3",
+   "C11.5",
+   "C11.6",
+   "D9.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "D9.5",
+   "D9.2"
+  ]
+ },
+ {
+  "id": "1-19",
+  "anno": 1,
+  "numero": 19,
+  "duca": "Borso",
+  "titolo": "Porte logiche e algebra di Boole ★",
+  "tipo": "normale",
+  "nucleo": [
+   "A2.1.4",
+   "D1.1",
+   "D1.2",
+   "D1.3"
+  ],
+  "ripresa": [
+   "A2.1.2",
+   "A2.1.3"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A2.1.5"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "D2.2",
+   "D1.4"
+  ]
+ },
+ {
+  "id": "1-20",
+  "anno": 1,
+  "numero": 20,
+  "duca": "Borso",
+  "titolo": "Prova di corte: assemblare un calcolatore (scelta dei componenti, prestazioni, consumi)",
+  "tipo": "prova",
+  "nucleo": [
+   "C13.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.5.1",
+   "A1.5.2",
+   "C1.4",
+   "C1.5"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "C1.6",
+   "C13.2"
+  ]
+ },
+ {
+  "id": "1-21",
+  "anno": 1,
+  "numero": 21,
+  "duca": "Borso",
+  "titolo": "Il sistema operativo: funzioni e sistemi più comuni",
+  "tipo": "normale",
+  "nucleo": [
+   "I1.1",
+   "I1.2",
+   "I7.2",
+   "I7.3",
+   "I8.1",
+   "I8.2",
+   "I8.3",
+   "I8.4",
+   "U1.12",
+   "U1.15"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "I5.1",
+   "I7.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "I10.1",
+   "I7.5"
+  ]
+ },
+ {
+  "id": "1-22",
+  "anno": 1,
+  "numero": 22,
+  "duca": "Borso",
+  "titolo": "Processi e scheduling",
+  "tipo": "normale",
+  "nucleo": [
+   "I2.1",
+   "I2.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "I2.4",
+   "I2.2"
+  ]
+ },
+ {
+  "id": "1-23",
+  "anno": 1,
+  "numero": 23,
+  "duca": "Borso",
+  "titolo": "Gestione della memoria",
+  "tipo": "normale",
+  "nucleo": [
+   "I4.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "D8.3",
+   "D4.4"
+  ]
+ },
+ {
+  "id": "1-24",
+  "anno": 1,
+  "numero": 24,
+  "duca": "Borso",
+  "titolo": "File system: cartelle, percorsi, permessi, backup",
+  "tipo": "normale",
+  "nucleo": [
+   "I5.2",
+   "I5.4",
+   "I11.3"
+  ],
+  "ripresa": [
+   "I5.1",
+   "I7.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "I11.1",
+   "I5.5"
+  ]
+ },
+ {
+  "id": "1-25",
+  "anno": 1,
+  "numero": 25,
+  "duca": "Borso",
+  "titolo": "Il documento elettronico: struttura e stili",
+  "tipo": "normale",
+  "nucleo": [
+   "B13.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B13.9",
+   "U11.1"
+  ]
+ },
+ {
+  "id": "1-26",
+  "anno": 1,
+  "numero": 26,
+  "duca": "Borso",
+  "titolo": "Foglio elettronico: celle, formule, riferimenti relativi e assoluti",
+  "tipo": "normale",
+  "nucleo": [
+   "L2.1",
+   "L2.2",
+   "L2.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "B11.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B11.9",
+   "G10.3"
+  ]
+ },
+ {
+  "id": "1-27",
+  "anno": 1,
+  "numero": 27,
+  "duca": "Borso",
+  "titolo": "Foglio elettronico: funzioni, grafici, statistica descrittiva; quantità d'informazione di un evento ★",
+  "tipo": "normale",
+  "nucleo": [
+   "L2.3",
+   "L2.4",
+   "A7.1.4",
+   "A8.1.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "E1.1",
+   "E1.2",
+   "E1.5",
+   "E1.6",
+   "E3.1",
+   "E3.2"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.2.3",
+   "A1.2.4",
+   "A1.2.5",
+   "A3.1.3",
+   "A3.1.4",
+   "A3.2.1",
+   "A3.3.1",
+   "A3.3.5",
+   "A4.1.2",
+   "A7.1.1",
+   "A7.1.2",
+   "A7.1.3",
+   "A7.2.1",
+   "A7.2.2"
+  ],
+  "nota_didattica": "la quantità d'informazione si presenta in forma intuitiva: quante domande sì/no servono per individuare un caso, quante volte si dimezzano le possibilità. Logaritmo in base 2 e probabilità si costruiscono a questo livello di intuizione, senza formalismo (decisione di Pietro, 27/09/2026).",
+  "approfondimenti": [
+   "A7.2.5",
+   "B5.2.4"
+  ]
+ },
+ {
+  "id": "1-28",
+  "anno": 1,
+  "numero": 28,
+  "duca": "Borso",
+  "titolo": "Internet: struttura e servizi",
+  "tipo": "normale",
+  "nucleo": [
+   "J2.1",
+   "J2.2",
+   "J8.1",
+   "K1.1",
+   "K1.2",
+   "K1.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "J1.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J8.3",
+   "J8.4"
+  ]
+ },
+ {
+  "id": "1-29",
+  "anno": 1,
+  "numero": 29,
+  "duca": "Borso",
+  "titolo": "Cercare e valutare le fonti; regole e sicurezza in rete; l'IA come fonte ★",
+  "tipo": "normale",
+  "nucleo": [
+   "U7.1",
+   "U7.2",
+   "U7.3",
+   "N9.1",
+   "N9.2",
+   "N9.3",
+   "N5.1",
+   "N5.2",
+   "U4.2",
+   "L11.8",
+   "O1.1",
+   "O1.6",
+   "O6.4",
+   "O6.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "N1.1",
+   "U3.1",
+   "U4.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "N5.3",
+   "O1.3"
+  ]
+ },
+ {
+  "id": "1-30",
+  "anno": 1,
+  "numero": 30,
+  "duca": "Borso",
+  "titolo": "Prova finale dell'anno: inventario (foglio elettronico, codifiche, hardware)",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U6.1",
+   "U9.1"
+  ]
+ },
+ {
+  "id": "2-1",
+  "anno": 2,
+  "numero": 1,
+  "duca": "Ercole I",
+  "titolo": "Pensiero computazionale: scomporre un problema",
+  "tipo": "normale",
+  "nucleo": [
+   "E1.3",
+   "E1.4"
+  ],
+  "ripresa": [
+   "E1.1",
+   "E1.2"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E1.7",
+   "E1.9"
+  ]
+ },
+ {
+  "id": "2-2",
+  "anno": 2,
+  "numero": 2,
+  "duca": "Ercole I",
+  "titolo": "Che cos'è un algoritmo",
+  "tipo": "normale",
+  "nucleo": [
+   "E1.8"
+  ],
+  "ripresa": [
+   "E1.5",
+   "E1.6"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U1.2",
+   "R12.1"
+  ]
+ },
+ {
+  "id": "2-3",
+  "anno": 2,
+  "numero": 3,
+  "duca": "Ercole I",
+  "titolo": "Diagrammi di flusso",
+  "tipo": "normale",
+  "nucleo": [
+   "E2.1",
+   "E2.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E2.4",
+   "E2.6"
+  ]
+ },
+ {
+  "id": "2-4",
+  "anno": 2,
+  "numero": 4,
+  "duca": "Ercole I",
+  "titolo": "Pseudocodice",
+  "tipo": "normale",
+  "nucleo": [
+   "E2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U1.5",
+   "U11.7"
+  ]
+ },
+ {
+  "id": "2-5",
+  "anno": 2,
+  "numero": 5,
+  "duca": "Ercole I",
+  "titolo": "Variabili, tipi, assegnazione",
+  "tipo": "normale",
+  "nucleo": [
+   "E4.1",
+   "E4.2",
+   "E4.4",
+   "E4.6",
+   "E2.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E4.8",
+   "E4.10"
+  ]
+ },
+ {
+  "id": "2-6",
+  "anno": 2,
+  "numero": 6,
+  "duca": "Ercole I",
+  "titolo": "Espressioni e operatori logici",
+  "tipo": "normale",
+  "nucleo": [
+   "E4.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A2.1.6",
+   "A2.2.1"
+  ]
+ },
+ {
+  "id": "2-7",
+  "anno": 2,
+  "numero": 7,
+  "duca": "Ercole I",
+  "titolo": "Sequenza, selezione, iterazione (Böhm-Jacopini)",
+  "tipo": "normale",
+  "nucleo": [
+   "E3.3",
+   "E3.4",
+   "E3.5",
+   "E3.7",
+   "E3.8"
+  ],
+  "ripresa": [
+   "E3.1",
+   "E3.2"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E3.10",
+   "E3.11"
+  ]
+ },
+ {
+  "id": "2-8",
+  "anno": 2,
+  "numero": 8,
+  "duca": "Ercole I",
+  "titolo": "Tipologie di linguaggi: livelli, compilati e interpretati, breve storia",
+  "tipo": "normale",
+  "nucleo": [
+   "G1.1",
+   "G1.2",
+   "G7.1.1",
+   "G9.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G9.6",
+   "G9.2"
+  ]
+ },
+ {
+  "id": "2-9",
+  "anno": 2,
+  "numero": 9,
+  "duca": "Ercole I",
+  "titolo": "Il primo linguaggio (Python): input, output, sintassi",
+  "tipo": "normale",
+  "nucleo": [
+   "G2.2.1",
+   "G2.2.2",
+   "G1.3",
+   "G1.4",
+   "G1.5",
+   "G1.6",
+   "G1.11"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G5.8.4",
+   "G10.2"
+  ]
+ },
+ {
+  "id": "2-10",
+  "anno": 2,
+  "numero": 10,
+  "duca": "Ercole I",
+  "titolo": "Prova di corte: tracing di programmi",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H6.10",
+   "G6.1"
+  ]
+ },
+ {
+  "id": "2-11",
+  "anno": 2,
+  "numero": 11,
+  "duca": "Ercole I",
+  "titolo": "Selezione: if, elif, else",
+  "tipo": "normale",
+  "nucleo": [
+   "G1.7",
+   "G2.2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G5.1.1",
+   "G1.16"
+  ]
+ },
+ {
+  "id": "2-12",
+  "anno": 2,
+  "numero": 12,
+  "duca": "Ercole I",
+  "titolo": "Iterazione: while, contatori, accumulatori",
+  "tipo": "normale",
+  "nucleo": [
+   "E4.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E4.9",
+   "G10.4"
+  ]
+ },
+ {
+  "id": "2-13",
+  "anno": 2,
+  "numero": 13,
+  "duca": "Ercole I",
+  "titolo": "Iterazione: for e range",
+  "tipo": "normale",
+  "nucleo": [],
+  "ripresa": [
+   "E3.5"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E3.12",
+   "E3.13"
+  ]
+ },
+ {
+  "id": "2-14",
+  "anno": 2,
+  "numero": 14,
+  "duca": "Ercole I",
+  "titolo": "Cicli annidati",
+  "tipo": "normale",
+  "nucleo": [
+   "E3.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E8.1",
+   "E3.14"
+  ]
+ },
+ {
+  "id": "2-15",
+  "anno": 2,
+  "numero": 15,
+  "duca": "Ercole I",
+  "titolo": "Algoritmi classici: massimo, minimo, somma, media",
+  "tipo": "normale",
+  "nucleo": [
+   "E6.1.1",
+   "E6.1.2",
+   "E7.1.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "E4.7",
+   "E7.1.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.1.5",
+   "E6.1.7"
+  ]
+ },
+ {
+  "id": "2-16",
+  "anno": 2,
+  "numero": 16,
+  "duca": "Ercole I",
+  "titolo": "Algoritmo di Euclide e numeri primi",
+  "tipo": "normale",
+  "nucleo": [
+   "E7.5.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.3.2",
+   "A1.3.3",
+   "A1.3.4"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.5.6",
+   "E7.5.7"
+  ]
+ },
+ {
+  "id": "2-17",
+  "anno": 2,
+  "numero": 17,
+  "duca": "Ercole I",
+  "titolo": "Funzioni: definizione, parametri, valore di ritorno",
+  "tipo": "normale",
+  "nucleo": [
+   "E3.9",
+   "G1.8",
+   "G2.2.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G5.11",
+   "L2.8"
+  ]
+ },
+ {
+  "id": "2-18",
+  "anno": 2,
+  "numero": 18,
+  "duca": "Ercole I",
+  "titolo": "Visibilità e scomposizione in funzioni",
+  "tipo": "normale",
+  "nucleo": [
+   "G1.9",
+   "G1.10",
+   "G3.1.1",
+   "G3.1.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G3.1.3",
+   "G3.3.1"
+  ]
+ },
+ {
+  "id": "2-19",
+  "anno": 2,
+  "numero": 19,
+  "duca": "Ercole I",
+  "titolo": "Test e debugging",
+  "tipo": "normale",
+  "nucleo": [
+   "G1.12",
+   "H6.1",
+   "H6.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "H1.1",
+   "H1.2"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H1.3",
+   "H6.3"
+  ]
+ },
+ {
+  "id": "2-20",
+  "anno": 2,
+  "numero": 20,
+  "duca": "Ercole I",
+  "titolo": "Prova di corte: problemi con funzioni",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H1.4",
+   "H11.1"
+  ]
+ },
+ {
+  "id": "2-21",
+  "anno": 2,
+  "numero": 21,
+  "duca": "Ercole I",
+  "titolo": "Liste e array",
+  "tipo": "normale",
+  "nucleo": [
+   "G2.2.5",
+   "E6.1.3",
+   "E6.1.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G2.2.6",
+   "G2.2.8"
+  ]
+ },
+ {
+  "id": "2-22",
+  "anno": 2,
+  "numero": 22,
+  "duca": "Ercole I",
+  "titolo": "Ricerca lineare",
+  "tipo": "normale",
+  "nucleo": [],
+  "ripresa": [
+   "E7.1.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.1.6",
+   "E7.1.7"
+  ]
+ },
+ {
+  "id": "2-23",
+  "anno": 2,
+  "numero": 23,
+  "duca": "Ercole I",
+  "titolo": "Stringhe e testo",
+  "tipo": "normale",
+  "nucleo": [
+   "E6.1.5",
+   "G2.2.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B4.9",
+   "P3.1"
+  ]
+ },
+ {
+  "id": "2-24",
+  "anno": 2,
+  "numero": 24,
+  "duca": "Ercole I",
+  "titolo": "Cifrari di Cesare e di Vigenère in codice ★",
+  "tipo": "normale",
+  "nucleo": [
+   "N2.3",
+   "N2.4",
+   "N2.6",
+   "N2.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "N2.8",
+   "N2.10"
+  ]
+ },
+ {
+  "id": "2-25",
+  "anno": 2,
+  "numero": 25,
+  "duca": "Ercole I",
+  "titolo": "Grafica con la tartaruga",
+  "tipo": "normale",
+  "nucleo": [
+   "Q1.1",
+   "Q1.2",
+   "G2.2.12"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "Q14.1",
+   "Q1.8"
+  ]
+ },
+ {
+  "id": "2-26",
+  "anno": 2,
+  "numero": 26,
+  "duca": "Ercole I",
+  "titolo": "Il caso: dadi, frequenze, probabilità simulate ★",
+  "tipo": "normale",
+  "nucleo": [
+   "A7.2.3",
+   "E7.5.2",
+   "S1.1",
+   "A7.1.6"
+  ],
+  "ripresa": [
+   "A7.2.1",
+   "A7.2.2"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A7.1.5"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A7.2.4",
+   "A7.2.6"
+  ]
+ },
+ {
+  "id": "2-27",
+  "anno": 2,
+  "numero": 27,
+  "duca": "Ercole I",
+  "titolo": "Foglio elettronico avanzato: SE, CERCA, tabelle pivot",
+  "tipo": "normale",
+  "nucleo": [
+   "L2.6",
+   "L2.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "L1.1",
+   "L1.4"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L8.5",
+   "V1.1"
+  ]
+ },
+ {
+  "id": "2-28",
+  "anno": 2,
+  "numero": 28,
+  "duca": "Ercole I",
+  "titolo": "Come è fatta Internet: indirizzi, DNS, pacchetti",
+  "tipo": "normale",
+  "nucleo": [
+   "J2.4",
+   "J5.1",
+   "J7.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "J3.1",
+   "J3.2",
+   "J3.3",
+   "J3.4",
+   "J6.1",
+   "J6.2"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A4.3.1",
+   "A4.3.2",
+   "A4.3.3"
+  ],
+  "nota_didattica": "livello volutamente denso: gli strati di rete sono anticipati dal quinto anno per spiegare indirizzi, DNS e pacchetti (decisione di Pietro, 27/09/2026). Nella scala di difficoltà interna conviene separarli in più tappe.",
+  "approfondimenti": [
+   "J7.9",
+   "J14.1"
+  ]
+ },
+ {
+  "id": "2-29",
+  "anno": 2,
+  "numero": 29,
+  "duca": "Ercole I",
+  "titolo": "Collaborare in rete: cloud, posta elettronica, privacy, diritto d'autore",
+  "tipo": "normale",
+  "nucleo": [
+   "M4.8",
+   "Q13.1",
+   "U4.3",
+   "U4.5",
+   "U7.7"
+  ],
+  "ripresa": [
+   "U4.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U4.10",
+   "U7.4"
+  ]
+ },
+ {
+  "id": "2-30",
+  "anno": 2,
+  "numero": 30,
+  "duca": "Ercole I",
+  "titolo": "Prova finale dell'anno: generare una pianta rispettando vincoli",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U7.10",
+   "Q13.2"
+  ]
+ },
+ {
+  "id": "3-1",
+  "anno": 3,
+  "numero": 1,
+  "duca": "Alfonso I",
+  "titolo": "Interi con segno e complemento a 2",
+  "tipo": "normale",
+  "nucleo": [
+   "B2.4.1",
+   "B2.4.2",
+   "B2.4.3",
+   "B2.4.4",
+   "B2.4.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B2.4.6",
+   "B2.4.7"
+  ]
+ },
+ {
+  "id": "3-2",
+  "anno": 3,
+  "numero": 2,
+  "duca": "Alfonso I",
+  "titolo": "Virgola mobile (IEEE 754) ed errori di rappresentazione",
+  "tipo": "normale",
+  "nucleo": [
+   "B2.1.6",
+   "B2.5.1",
+   "B2.5.2",
+   "B2.5.3",
+   "B2.5.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B2.5.4",
+   "B2.5.6"
+  ]
+ },
+ {
+  "id": "3-3",
+  "anno": 3,
+  "numero": 3,
+  "duca": "Alfonso I",
+  "titolo": "Array e matrici",
+  "tipo": "normale",
+  "nucleo": [
+   "E6.1.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "S11.2",
+   "E6.6.1"
+  ]
+ },
+ {
+  "id": "3-4",
+  "anno": 3,
+  "numero": 4,
+  "duca": "Alfonso I",
+  "titolo": "Ordinamento: selection sort e bubble sort",
+  "tipo": "normale",
+  "nucleo": [
+   "E7.2.1",
+   "E7.2.2",
+   "E7.2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.2.8",
+   "E8.3"
+  ]
+ },
+ {
+  "id": "3-5",
+  "anno": 3,
+  "numero": 5,
+  "duca": "Alfonso I",
+  "titolo": "Ordinamento: insertion sort; confronti e scambi",
+  "tipo": "normale",
+  "nucleo": [
+   "E7.2.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.2.11",
+   "E7.2.12"
+  ]
+ },
+ {
+  "id": "3-6",
+  "anno": 3,
+  "numero": 6,
+  "duca": "Alfonso I",
+  "titolo": "Ricerca binaria; logaritmi ★",
+  "tipo": "normale",
+  "nucleo": [
+   "E7.1.3"
+  ],
+  "ripresa": [
+   "A1.2.5"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.1.4",
+   "E7.1.8"
+  ]
+ },
+ {
+  "id": "3-7",
+  "anno": 3,
+  "numero": 7,
+  "duca": "Alfonso I",
+  "titolo": "Contare i passi: complessità intuitiva",
+  "tipo": "normale",
+  "nucleo": [
+   "E9.2",
+   "A1.2.6",
+   "E9.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E9.10",
+   "E9.11"
+  ]
+ },
+ {
+  "id": "3-8",
+  "anno": 3,
+  "numero": 8,
+  "duca": "Alfonso I",
+  "titolo": "Ricorsione",
+  "tipo": "normale",
+  "nucleo": [
+   "E5.1",
+   "E5.2",
+   "E5.3",
+   "E5.6",
+   "E5.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "E6.5.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A3.5",
+   "A4.2.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E5.4",
+   "E8.4"
+  ]
+ },
+ {
+  "id": "3-9",
+  "anno": 3,
+  "numero": 9,
+  "duca": "Alfonso I",
+  "titolo": "Divide et impera: merge sort ★",
+  "tipo": "normale",
+  "nucleo": [
+   "E8.2",
+   "E7.2.5",
+   "E7.2.10",
+   "E8.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.2.6",
+   "E7.4.4"
+  ]
+ },
+ {
+  "id": "3-10",
+  "anno": 3,
+  "numero": 10,
+  "duca": "Alfonso I",
+  "titolo": "Prova di corte: ordinare e contare i passi",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.4.5",
+   "E6.5.4"
+  ]
+ },
+ {
+  "id": "3-11",
+  "anno": 3,
+  "numero": 11,
+  "duca": "Alfonso I",
+  "titolo": "Stringhe avanzate e ricerca di schemi; automi ★",
+  "tipo": "normale",
+  "nucleo": [
+   "E7.4.1",
+   "E7.4.6",
+   "F1.1",
+   "F1.3"
+  ],
+  "ripresa": [
+   "E6.5.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A3.1.5"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.4.3",
+   "E7.4.2"
+  ]
+ },
+ {
+  "id": "3-12",
+  "anno": 3,
+  "numero": 12,
+  "duca": "Alfonso I",
+  "titolo": "File e CSV",
+  "tipo": "normale",
+  "nucleo": [
+   "B11.2",
+   "G1.13",
+   "G1.14",
+   "G2.2.9"
+  ],
+  "ripresa": [
+   "B11.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B11.10",
+   "G5.8.1"
+  ]
+ },
+ {
+  "id": "3-13",
+  "anno": 3,
+  "numero": 13,
+  "duca": "Alfonso I",
+  "titolo": "Metodologie di programmazione: top-down e modularità",
+  "tipo": "normale",
+  "nucleo": [
+   "G1.15",
+   "H4.1",
+   "H4.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "E6.3.1",
+   "E6.3.2",
+   "E6.3.5"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H4.7",
+   "H4.9"
+  ]
+ },
+ {
+  "id": "3-14",
+  "anno": 3,
+  "numero": 14,
+  "duca": "Alfonso I",
+  "titolo": "Documentazione, stile, controllo di versione (Git) ★",
+  "tipo": "normale",
+  "nucleo": [
+   "H5.1",
+   "H5.2",
+   "H5.7",
+   "H8.2",
+   "H8.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H5.3",
+   "H5.8"
+  ]
+ },
+ {
+  "id": "3-15",
+  "anno": 3,
+  "numero": 15,
+  "duca": "Alfonso I",
+  "titolo": "Formati di immagine: bitmap e vettoriale",
+  "tipo": "normale",
+  "nucleo": [
+   "B6.4",
+   "B6.5",
+   "B6.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "B9.1.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B6.10",
+   "S10.1"
+  ]
+ },
+ {
+  "id": "3-16",
+  "anno": 3,
+  "numero": 16,
+  "duca": "Alfonso I",
+  "titolo": "Compressione senza perdita: RLE e Huffman",
+  "tipo": "normale",
+  "nucleo": [
+   "B9.1.2",
+   "B9.1.3",
+   "B9.1.4",
+   "B9.1.5"
+  ],
+  "ripresa": [
+   "B9.1.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A4.1.3",
+   "A4.1.4",
+   "A7.3.1",
+   "A7.3.2",
+   "A8.1.2",
+   "A8.2.1",
+   "A8.2.4"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A8.1.4",
+   "A8.2.2"
+  ]
+ },
+ {
+  "id": "3-17",
+  "anno": 3,
+  "numero": 17,
+  "duca": "Alfonso I",
+  "titolo": "Audio digitale: campionamento e quantizzazione",
+  "tipo": "normale",
+  "nucleo": [
+   "B7.2",
+   "B7.3",
+   "B7.4",
+   "B7.5",
+   "B7.6",
+   "B7.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A6.1.1",
+   "A6.1.2",
+   "B7.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "Q6.1",
+   "Q6.2"
+  ]
+ },
+ {
+  "id": "3-18",
+  "anno": 3,
+  "numero": 18,
+  "duca": "Alfonso I",
+  "titolo": "Compressione con perdita: l'idea di JPEG e MP3",
+  "tipo": "normale",
+  "nucleo": [
+   "B9.2.1",
+   "B9.2.2",
+   "B9.2.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B9.2.7",
+   "A6.5.1"
+  ]
+ },
+ {
+  "id": "3-19",
+  "anno": 3,
+  "numero": 19,
+  "duca": "Alfonso I",
+  "titolo": "Linguaggi di markup: il concetto, Markdown",
+  "tipo": "normale",
+  "nucleo": [
+   "B13.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B13.6",
+   "B13.10"
+  ]
+ },
+ {
+  "id": "3-20",
+  "anno": 3,
+  "numero": 20,
+  "duca": "Alfonso I",
+  "titolo": "Prova di corte: formati, compressione, qualità",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B9.1.6",
+   "Q4.1"
+  ]
+ },
+ {
+  "id": "3-21",
+  "anno": 3,
+  "numero": 21,
+  "duca": "Alfonso I",
+  "titolo": "Font e tipografia digitale",
+  "tipo": "normale",
+  "nucleo": [
+   "B13.2",
+   "B13.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B13.11",
+   "B13.12"
+  ]
+ },
+ {
+  "id": "3-22",
+  "anno": 3,
+  "numero": 22,
+  "duca": "Alfonso I",
+  "titolo": "XML: elementi, attributi, buona formazione",
+  "tipo": "normale",
+  "nucleo": [
+   "B11.3",
+   "B11.4",
+   "B11.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "B11.5",
+   "B13.4"
+  ]
+ },
+ {
+  "id": "3-23",
+  "anno": 3,
+  "numero": 23,
+  "duca": "Alfonso I",
+  "titolo": "HTML: struttura e semantica",
+  "tipo": "normale",
+  "nucleo": [
+   "K2.1",
+   "K2.2",
+   "K2.3",
+   "K2.4",
+   "K2.5",
+   "K2.6",
+   "K2.7",
+   "K2.8",
+   "K2.9"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K10.1",
+   "K12.1"
+  ]
+ },
+ {
+  "id": "3-24",
+  "anno": 3,
+  "numero": 24,
+  "duca": "Alfonso I",
+  "titolo": "SVG: la grafica vettoriale come testo",
+  "tipo": "normale",
+  "nucleo": [
+   "B6.7",
+   "K12.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K12.6",
+   "K12.7"
+  ]
+ },
+ {
+  "id": "3-25",
+  "anno": 3,
+  "numero": 25,
+  "duca": "Alfonso I",
+  "titolo": "CSS: selettori, box model, colori",
+  "tipo": "normale",
+  "nucleo": [
+   "K3.1",
+   "K3.2",
+   "K3.3",
+   "K3.4",
+   "K3.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K3.9",
+   "K3.11"
+  ]
+ },
+ {
+  "id": "3-26",
+  "anno": 3,
+  "numero": 26,
+  "duca": "Alfonso I",
+  "titolo": "Impaginazione e design responsive",
+  "tipo": "normale",
+  "nucleo": [
+   "K3.6",
+   "K3.7",
+   "K3.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K3.10",
+   "K3.12"
+  ]
+ },
+ {
+  "id": "3-27",
+  "anno": 3,
+  "numero": 27,
+  "duca": "Alfonso I",
+  "titolo": "Progettazione web: usabilità e accessibilità",
+  "tipo": "normale",
+  "nucleo": [
+   "Q8.1",
+   "Q8.2",
+   "Q8.3",
+   "K5.1",
+   "K5.2",
+   "K5.3",
+   "K5.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "B5.2.3",
+   "B5.4.3",
+   "U8.3"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K5.6",
+   "Q8.10"
+  ]
+ },
+ {
+  "id": "3-28",
+  "anno": 3,
+  "numero": 28,
+  "duca": "Alfonso I",
+  "titolo": "JavaScript di base: la pagina che reagisce ★",
+  "tipo": "normale",
+  "nucleo": [
+   "K4.1",
+   "K4.2",
+   "K4.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "E6.2.1",
+   "E6.4.1",
+   "G3.6.1",
+   "G5.5.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K4.4",
+   "K4.7"
+  ]
+ },
+ {
+  "id": "3-29",
+  "anno": 3,
+  "numero": 29,
+  "duca": "Alfonso I",
+  "titolo": "Pubblicare un sito; licenze e diritto d'autore",
+  "tipo": "normale",
+  "nucleo": [
+   "K8.1",
+   "K8.2",
+   "U4.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "H5.4"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K8.3",
+   "H8.4"
+  ]
+ },
+ {
+  "id": "3-30",
+  "anno": 3,
+  "numero": 30,
+  "duca": "Alfonso I",
+  "titolo": "Prova finale dell'anno: un sito completo (testi marcati, immagini ottimizzate, stile)",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "K5.7",
+   "Q8.4"
+  ]
+ },
+ {
+  "id": "4-1",
+  "anno": 4,
+  "numero": 1,
+  "duca": "Ercole II",
+  "titolo": "Astrazione: dal problema al modello",
+  "tipo": "normale",
+  "nucleo": [
+   "H3.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H3.4",
+   "H3.5"
+  ]
+ },
+ {
+  "id": "4-2",
+  "anno": 4,
+  "numero": 2,
+  "duca": "Ercole II",
+  "titolo": "Pile e code",
+  "tipo": "normale",
+  "nucleo": [
+   "E6.3.3",
+   "E6.3.4"
+  ],
+  "ripresa": [
+   "E6.3.1",
+   "E6.3.2",
+   "E6.3.5"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "I2.6",
+   "E6.3.6"
+  ]
+ },
+ {
+  "id": "4-3",
+  "anno": 4,
+  "numero": 3,
+  "duca": "Ercole II",
+  "titolo": "Classi e oggetti",
+  "tipo": "normale",
+  "nucleo": [
+   "G3.2.1",
+   "G2.2.11"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G3.6.2",
+   "G5.4.1"
+  ]
+ },
+ {
+  "id": "4-4",
+  "anno": 4,
+  "numero": 4,
+  "duca": "Ercole II",
+  "titolo": "Attributi, metodi, costruttori",
+  "tipo": "normale",
+  "nucleo": [
+   "G3.2.2",
+   "G3.2.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G8.1",
+   "G3.2.10"
+  ]
+ },
+ {
+  "id": "4-5",
+  "anno": 4,
+  "numero": 5,
+  "duca": "Ercole II",
+  "titolo": "Incapsulamento",
+  "tipo": "normale",
+  "nucleo": [
+   "G3.2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G3.2.11",
+   "G3.2.12"
+  ]
+ },
+ {
+  "id": "4-6",
+  "anno": 4,
+  "numero": 6,
+  "duca": "Ercole II",
+  "titolo": "Ereditarietà",
+  "tipo": "normale",
+  "nucleo": [
+   "G3.2.4",
+   "G3.2.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G3.2.13",
+   "G3.2.14"
+  ]
+ },
+ {
+  "id": "4-7",
+  "anno": 4,
+  "numero": 7,
+  "duca": "Ercole II",
+  "titolo": "Polimorfismo e interfacce",
+  "tipo": "normale",
+  "nucleo": [
+   "G3.2.5",
+   "G3.2.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G3.2.9",
+   "G5.6.1"
+  ]
+ },
+ {
+  "id": "4-8",
+  "anno": 4,
+  "numero": 8,
+  "duca": "Ercole II",
+  "titolo": "Diagramma UML delle classi",
+  "tipo": "normale",
+  "nucleo": [
+   "H3.2",
+   "H3.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H3.6",
+   "H3.9"
+  ]
+ },
+ {
+  "id": "4-9",
+  "anno": 4,
+  "numero": 9,
+  "duca": "Ercole II",
+  "titolo": "Liste collegate e riferimenti ★",
+  "tipo": "normale",
+  "nucleo": [
+   "G4.1",
+   "G4.3",
+   "E6.2.2",
+   "E6.2.3"
+  ],
+  "ripresa": [
+   "E6.2.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E6.7.2",
+   "G4.2"
+  ]
+ },
+ {
+  "id": "4-10",
+  "anno": 4,
+  "numero": 10,
+  "duca": "Ercole II",
+  "titolo": "Prova di corte: modellare un sistema a oggetti",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "H4.3",
+   "G3.2.15"
+  ]
+ },
+ {
+  "id": "4-11",
+  "anno": 4,
+  "numero": 11,
+  "duca": "Ercole II",
+  "titolo": "Implementare un linguaggio: compilatore e interprete",
+  "tipo": "normale",
+  "nucleo": [],
+  "ripresa": [
+   "G7.1.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G7.1.6",
+   "U1.14"
+  ]
+ },
+ {
+  "id": "4-12",
+  "anno": 4,
+  "numero": 12,
+  "duca": "Ercole II",
+  "titolo": "Analisi lessicale: i token",
+  "tipo": "normale",
+  "nucleo": [
+   "G7.1.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "F1.8"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G7.1.7",
+   "G7.1.8"
+  ]
+ },
+ {
+  "id": "4-13",
+  "anno": 4,
+  "numero": 13,
+  "duca": "Ercole II",
+  "titolo": "Grammatiche e sintassi (BNF)",
+  "tipo": "normale",
+  "nucleo": [
+   "F2.1",
+   "F2.2",
+   "F2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "F8.1",
+   "F2.10"
+  ]
+ },
+ {
+  "id": "4-14",
+  "anno": 4,
+  "numero": 14,
+  "duca": "Ercole II",
+  "titolo": "Alberi sintattici e valutazione delle espressioni",
+  "tipo": "normale",
+  "nucleo": [
+   "E6.4.2",
+   "E6.4.8",
+   "F2.5",
+   "G7.1.3",
+   "G7.1.5",
+   "E6.4.5"
+  ],
+  "ripresa": [
+   "E6.4.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E6.4.3",
+   "E6.4.6"
+  ]
+ },
+ {
+  "id": "4-15",
+  "anno": 4,
+  "numero": 15,
+  "duca": "Ercole II",
+  "titolo": "Un mini-interprete: la calcolatrice ★",
+  "tipo": "normale",
+  "nucleo": [
+   "G7.3.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "G7.3.4",
+   "G7.3.6"
+  ]
+ },
+ {
+  "id": "4-16",
+  "anno": 4,
+  "numero": 16,
+  "duca": "Ercole II",
+  "titolo": "Dato, informazione, archivio: dagli archivi ai database",
+  "tipo": "normale",
+  "nucleo": [
+   "L1.2",
+   "L1.3"
+  ],
+  "ripresa": [
+   "L1.1",
+   "L1.4"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L13.1",
+   "L9.1"
+  ]
+ },
+ {
+  "id": "4-17",
+  "anno": 4,
+  "numero": 17,
+  "duca": "Ercole II",
+  "titolo": "Modello E/R: entità, attributi, relazioni",
+  "tipo": "normale",
+  "nucleo": [
+   "L3.1",
+   "L3.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L3.7",
+   "L10.3"
+  ]
+ },
+ {
+  "id": "4-18",
+  "anno": 4,
+  "numero": 18,
+  "duca": "Ercole II",
+  "titolo": "Cardinalità e vincoli",
+  "tipo": "normale",
+  "nucleo": [
+   "L3.3",
+   "L3.4",
+   "L3.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L3.5",
+   "H3.7"
+  ]
+ },
+ {
+  "id": "4-19",
+  "anno": 4,
+  "numero": 19,
+  "duca": "Ercole II",
+  "titolo": "Modello relazionale: tabelle e chiavi",
+  "tipo": "normale",
+  "nucleo": [
+   "L4.1",
+   "L4.2",
+   "L4.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L6.1",
+   "L4.10"
+  ]
+ },
+ {
+  "id": "4-20",
+  "anno": 4,
+  "numero": 20,
+  "duca": "Ercole II",
+  "titolo": "Prova di corte: progettare uno schema E/R",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L3.8",
+   "L3.9"
+  ]
+ },
+ {
+  "id": "4-21",
+  "anno": 4,
+  "numero": 21,
+  "duca": "Ercole II",
+  "titolo": "Dallo schema E/R allo schema relazionale",
+  "tipo": "normale",
+  "nucleo": [
+   "L4.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L4.11",
+   "L4.12"
+  ]
+ },
+ {
+  "id": "4-22",
+  "anno": 4,
+  "numero": 22,
+  "duca": "Ercole II",
+  "titolo": "Normalizzazione (fino alla 3FN) ★",
+  "tipo": "normale",
+  "nucleo": [
+   "L4.6",
+   "L4.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L4.8",
+   "L4.13"
+  ]
+ },
+ {
+  "id": "4-23",
+  "anno": 4,
+  "numero": 23,
+  "duca": "Ercole II",
+  "titolo": "Algebra relazionale: selezione, proiezione, join",
+  "tipo": "normale",
+  "nucleo": [
+   "L4.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L4.14",
+   "L4.15"
+  ]
+ },
+ {
+  "id": "4-24",
+  "anno": 4,
+  "numero": 24,
+  "duca": "Ercole II",
+  "titolo": "SQL: creare e modificare (DDL e DML)",
+  "tipo": "normale",
+  "nucleo": [
+   "L5.1",
+   "L5.2",
+   "L6.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L5.9",
+   "L5.11"
+  ]
+ },
+ {
+  "id": "4-25",
+  "anno": 4,
+  "numero": 25,
+  "duca": "Ercole II",
+  "titolo": "SQL: SELECT, WHERE, ORDER BY",
+  "tipo": "normale",
+  "nucleo": [
+   "L5.3",
+   "L5.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A2.6.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L5.13",
+   "A2.6.2"
+  ]
+ },
+ {
+  "id": "4-26",
+  "anno": 4,
+  "numero": 26,
+  "duca": "Ercole II",
+  "titolo": "SQL: JOIN",
+  "tipo": "normale",
+  "nucleo": [
+   "L5.4",
+   "L5.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L5.14",
+   "L5.15"
+  ]
+ },
+ {
+  "id": "4-27",
+  "anno": 4,
+  "numero": 27,
+  "duca": "Ercole II",
+  "titolo": "SQL: aggregazioni e GROUP BY",
+  "tipo": "normale",
+  "nucleo": [
+   "L5.5",
+   "L5.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L5.16",
+   "L5.17"
+  ]
+ },
+ {
+  "id": "4-28",
+  "anno": 4,
+  "numero": 28,
+  "duca": "Ercole II",
+  "titolo": "Database e programmi: SQL da Python ★",
+  "tipo": "normale",
+  "nucleo": [
+   "L5.12"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L15.3",
+   "L5.18"
+  ]
+ },
+ {
+  "id": "4-29",
+  "anno": 4,
+  "numero": 29,
+  "duca": "Ercole II",
+  "titolo": "Privacy, GDPR, open data",
+  "tipo": "normale",
+  "nucleo": [
+   "L10.1",
+   "L10.2",
+   "L10.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L15.4",
+   "U4.9"
+  ]
+ },
+ {
+  "id": "4-30",
+  "anno": 4,
+  "numero": 30,
+  "duca": "Ercole II",
+  "titolo": "Prova finale dell'anno: database più applicazione a oggetti",
+  "tipo": "prova",
+  "nucleo": [],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "L7.8",
+   "L9.10"
+  ]
+ },
+ {
+  "id": "5-1",
+  "anno": 5,
+  "numero": 1,
+  "duca": "Alfonso II",
+  "titolo": "Errori numerici e approssimazione",
+  "tipo": "normale",
+  "nucleo": [
+   "A10.1.1",
+   "A10.1.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A10.1.4",
+   "A10.1.5"
+  ]
+ },
+ {
+  "id": "5-2",
+  "anno": 5,
+  "numero": 2,
+  "duca": "Alfonso II",
+  "titolo": "Zeri di funzione: il metodo di bisezione",
+  "tipo": "normale",
+  "nucleo": [
+   "A10.2.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A6.1.3",
+   "A6.1.4",
+   "A6.2.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A10.1.3",
+   "A10.2.4"
+  ]
+ },
+ {
+  "id": "5-3",
+  "anno": 5,
+  "numero": 3,
+  "duca": "Alfonso II",
+  "titolo": "Il metodo di Newton ★",
+  "tipo": "normale",
+  "nucleo": [
+   "A6.2.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A6.2.3",
+   "A10.2.5"
+  ]
+ },
+ {
+  "id": "5-4",
+  "anno": 5,
+  "numero": 4,
+  "duca": "Alfonso II",
+  "titolo": "Aree sotto una curva: rettangoli e trapezi",
+  "tipo": "normale",
+  "nucleo": [
+   "A10.2.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A6.3.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A10.2.6",
+   "A10.2.7"
+  ]
+ },
+ {
+  "id": "5-5",
+  "anno": 5,
+  "numero": 5,
+  "duca": "Alfonso II",
+  "titolo": "Stimare π con il metodo Monte Carlo",
+  "tipo": "normale",
+  "nucleo": [
+   "S1.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "S8.2",
+   "S1.9"
+  ]
+ },
+ {
+  "id": "5-6",
+  "anno": 5,
+  "numero": 6,
+  "duca": "Alfonso II",
+  "titolo": "Successioni e ricorrenze: approssimare √2",
+  "tipo": "normale",
+  "nucleo": [
+   "A4.2.2",
+   "A6.1.5"
+  ],
+  "ripresa": [
+   "A4.2.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.5.5"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A6.2.7",
+   "A4.2.5"
+  ]
+ },
+ {
+  "id": "5-7",
+  "anno": 5,
+  "numero": 7,
+  "duca": "Alfonso II",
+  "titolo": "Simulazione a tempo discreto: il moto (metodo di Eulero)",
+  "tipo": "normale",
+  "nucleo": [
+   "A6.4.1",
+   "A6.4.4",
+   "S1.2",
+   "S1.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "S1.10",
+   "S1.11"
+  ]
+ },
+ {
+  "id": "5-8",
+  "anno": 5,
+  "numero": 8,
+  "duca": "Alfonso II",
+  "titolo": "Oscillatori e attrito",
+  "tipo": "normale",
+  "nucleo": [
+   "A6.4.2",
+   "S5.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A6.3.2"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "S5.5",
+   "S5.6"
+  ]
+ },
+ {
+  "id": "5-9",
+  "anno": 5,
+  "numero": 9,
+  "duca": "Alfonso II",
+  "titolo": "Modelli di popolazione e di epidemia",
+  "tipo": "normale",
+  "nucleo": [
+   "S14.1",
+   "S14.4",
+   "S1.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "S14.2",
+   "S14.5"
+  ]
+ },
+ {
+  "id": "5-10",
+  "anno": 5,
+  "numero": 10,
+  "duca": "Alfonso II",
+  "titolo": "Prova di corte: simulazione di un fenomeno e confronto con le fonti",
+  "tipo": "prova",
+  "nucleo": [
+   "S1.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A7.3.3",
+   "A7.3.4",
+   "A7.4.1"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "A7.4.2",
+   "A7.4.6"
+  ]
+ },
+ {
+  "id": "5-11",
+  "anno": 5,
+  "numero": 11,
+  "duca": "Alfonso II",
+  "titolo": "Confrontare un modello con i dati: minimi quadrati; apprendimento supervisionato ★",
+  "tipo": "normale",
+  "nucleo": [
+   "O4.1.4"
+  ],
+  "ripresa": [
+   "A7.1.5"
+  ],
+  "prerequisiti_integrati": [
+   "O4.1.1",
+   "O4.1.2"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "O4.1.6",
+   "S1.12"
+  ]
+ },
+ {
+  "id": "5-12",
+  "anno": 5,
+  "numero": 12,
+  "duca": "Alfonso II",
+  "titolo": "Automi a stati finiti",
+  "tipo": "normale",
+  "nucleo": [
+   "F1.2",
+   "F1.9"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "F1.4",
+   "F2.6"
+  ]
+ },
+ {
+  "id": "5-13",
+  "anno": 5,
+  "numero": 13,
+  "duca": "Alfonso II",
+  "titolo": "La macchina di Turing",
+  "tipo": "normale",
+  "nucleo": [
+   "F3.1",
+   "F3.2",
+   "F3.3",
+   "F3.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "F3.6",
+   "F10.1"
+  ]
+ },
+ {
+  "id": "5-14",
+  "anno": 5,
+  "numero": 14,
+  "duca": "Alfonso II",
+  "titolo": "Calcolabilità: il problema della fermata",
+  "tipo": "normale",
+  "nucleo": [
+   "F4.1",
+   "F4.2",
+   "F4.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A2.1.7",
+   "A2.3.1",
+   "A2.3.3",
+   "A3.3.2",
+   "A3.4.1",
+   "A3.4.2",
+   "A3.4.3"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "F4.3",
+   "A2.3.2"
+  ]
+ },
+ {
+  "id": "5-15",
+  "anno": 5,
+  "numero": 15,
+  "duca": "Alfonso II",
+  "titolo": "Complessità: P e NP in modo intuitivo",
+  "tipo": "normale",
+  "nucleo": [
+   "E9.3",
+   "E9.9",
+   "F5.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E9.4",
+   "F5.1"
+  ]
+ },
+ {
+  "id": "5-16",
+  "anno": 5,
+  "numero": 16,
+  "duca": "Alfonso II",
+  "titolo": "Reti: tipi, topologie, commutazione",
+  "tipo": "normale",
+  "nucleo": [
+   "J1.2",
+   "J1.6",
+   "J2.3",
+   "J2.5",
+   "J2.6",
+   "E6.6.2",
+   "E7.3.1"
+  ],
+  "ripresa": [
+   "J1.1"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.3.2",
+   "S9.1"
+  ]
+ },
+ {
+  "id": "5-17",
+  "anno": 5,
+  "numero": 17,
+  "duca": "Alfonso II",
+  "titolo": "Modelli a strati: ISO/OSI e TCP/IP",
+  "tipo": "normale",
+  "nucleo": [
+   "J3.5"
+  ],
+  "ripresa": [
+   "J3.2",
+   "J3.3",
+   "J3.4"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J6.7",
+   "J3.6"
+  ]
+ },
+ {
+  "id": "5-18",
+  "anno": 5,
+  "numero": 18,
+  "duca": "Alfonso II",
+  "titolo": "Livello fisico e di collegamento: Ethernet, Wi-Fi, errori",
+  "tipo": "normale",
+  "nucleo": [
+   "J4.1",
+   "J4.2",
+   "J4.3",
+   "J4.4",
+   "J4.5",
+   "J4.6",
+   "J4.9",
+   "B10.1.1",
+   "B10.1.2",
+   "B10.1.4"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "B10.2.1"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.5.4",
+   "C14.1",
+   "C14.2",
+   "C14.4"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J4.10",
+   "C14.3"
+  ]
+ },
+ {
+  "id": "5-19",
+  "anno": 5,
+  "numero": 19,
+  "duca": "Alfonso II",
+  "titolo": "Indirizzi IP e subnetting",
+  "tipo": "normale",
+  "nucleo": [
+   "J5.2",
+   "J5.3",
+   "J5.6",
+   "J5.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J5.8",
+   "J5.10"
+  ]
+ },
+ {
+  "id": "5-20",
+  "anno": 5,
+  "numero": 20,
+  "duca": "Alfonso II",
+  "titolo": "Prova di corte: progettare la rete di un edificio (componenti, configurazione, prestazioni)",
+  "tipo": "prova",
+  "nucleo": [
+   "J5.4",
+   "J5.9"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J4.7",
+   "J4.11"
+  ]
+ },
+ {
+  "id": "5-21",
+  "anno": 5,
+  "numero": 21,
+  "duca": "Alfonso II",
+  "titolo": "Instradamento e grafi: l'algoritmo di Dijkstra",
+  "tipo": "normale",
+  "nucleo": [
+   "E7.3.4",
+   "J5.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "E7.3.5"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "E7.3.9",
+   "J8.2"
+  ]
+ },
+ {
+  "id": "5-22",
+  "anno": 5,
+  "numero": 22,
+  "duca": "Alfonso II",
+  "titolo": "TCP, UDP e porte",
+  "tipo": "normale",
+  "nucleo": [
+   "J6.3",
+   "J6.4",
+   "J6.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "B10.1.5"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J6.6",
+   "J11.5"
+  ]
+ },
+ {
+  "id": "5-23",
+  "anno": 5,
+  "numero": 23,
+  "duca": "Alfonso II",
+  "titolo": "Servizi di rete: DNS, HTTP, posta elettronica",
+  "tipo": "normale",
+  "nucleo": [
+   "J7.2",
+   "J7.3",
+   "J7.5"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "J11.6",
+   "J12.2"
+  ]
+ },
+ {
+  "id": "5-24",
+  "anno": 5,
+  "numero": 24,
+  "duca": "Alfonso II",
+  "titolo": "Sicurezza in rete: crittografia asimmetrica e HTTPS",
+  "tipo": "normale",
+  "nucleo": [
+   "N3.3.1",
+   "N3.3.2",
+   "N3.3.3",
+   "N3.4.1",
+   "N3.4.2",
+   "J7.4",
+   "N4.1"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "N3.1.1",
+   "N3.1.2",
+   "N3.2.1",
+   "N3.3.5"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A1.3.5",
+   "A1.4.2",
+   "A1.4.4"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "N3.2.3",
+   "N3.2.4"
+  ]
+ },
+ {
+  "id": "5-25",
+  "anno": 5,
+  "numero": 25,
+  "duca": "Alfonso II",
+  "titolo": "Prestazioni: banda, latenza, throughput; mantenere l'efficienza",
+  "tipo": "normale",
+  "nucleo": [
+   "I12.1",
+   "I12.2",
+   "J8.5",
+   "I11.2"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "I12.3",
+   "I12.8"
+  ]
+ },
+ {
+  "id": "5-26",
+  "anno": 5,
+  "numero": 26,
+  "duca": "Alfonso II",
+  "titolo": "Intelligenza artificiale: imparare dai dati ★",
+  "tipo": "normale",
+  "nucleo": [
+   "O4.1.3",
+   "O4.3.1",
+   "O4.3.3",
+   "O4.2.1"
+  ],
+  "ripresa": [
+   "O4.1.1",
+   "O4.1.2"
+  ],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A5.1.1",
+   "A5.1.2",
+   "A5.1.3"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "O4.2.2",
+   "O4.2.5"
+  ]
+ },
+ {
+  "id": "5-27",
+  "anno": 5,
+  "numero": 27,
+  "duca": "Alfonso II",
+  "titolo": "Reti neurali in modo intuitivo ★",
+  "tipo": "normale",
+  "nucleo": [
+   "O5.1.1",
+   "O5.1.2",
+   "O5.1.3"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [
+   "A5.1.5",
+   "A5.1.6"
+  ],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "O5.4.1",
+   "O5.6"
+  ]
+ },
+ {
+  "id": "5-28",
+  "anno": 5,
+  "numero": 28,
+  "duca": "Alfonso II",
+  "titolo": "IA generativa: limiti, etica, AI Act ★",
+  "tipo": "normale",
+  "nucleo": [
+   "O6.1",
+   "O10.1",
+   "O10.3",
+   "U3.2",
+   "U3.6",
+   "U4.8"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [
+   "U3.3",
+   "U3.4"
+  ],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "O10.5",
+   "O4.3.6"
+  ]
+ },
+ {
+  "id": "5-29",
+  "anno": 5,
+  "numero": 29,
+  "duca": "Alfonso II",
+  "titolo": "L'informatica e il metodo scientifico: la nascita di nuove scienze",
+  "tipo": "normale",
+  "nucleo": [
+   "U2.1",
+   "U2.6"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "U2.7",
+   "U2.9"
+  ]
+ },
+ {
+  "id": "5-30",
+  "anno": 5,
+  "numero": 30,
+  "duca": "Alfonso II",
+  "titolo": "Prova finale dell'anno: un progetto di simulazione scientifica completo",
+  "tipo": "prova",
+  "nucleo": [
+   "S1.7"
+  ],
+  "ripresa": [],
+  "prerequisiti_integrati": [],
+  "prerequisiti_altre_discipline_costruiti": [],
+  "nota_didattica": null,
+  "approfondimenti": [
+   "S1.13",
+   "S14.3"
+  ]
+ }
+]

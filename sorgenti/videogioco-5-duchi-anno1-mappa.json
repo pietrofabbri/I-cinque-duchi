@@ -1,0 +1,1156 @@
+{
+ "versione": "0.8",
+ "data": "2026-09-30",
+ "descrizione": "Percorso unico dell'anno 1: 30 tappe contigue dentro le mura di Ferrara, un personaggio per tappa. Coordinate da ricavare dagli indirizzi con il dataset civici del Comune (CC BY 4.0).",
+ "nuovi_personaggi": [
+  {
+   "id": "P94",
+   "nome": "Giovanni Romei",
+   "nota": "Mercante e banchiere legato agli Este, committente di Casa Romei (metà XV secolo). Scheda da completare e date da verificare."
+  }
+ ],
+ "tappe": [
+  {
+   "livello": "1-1",
+   "ordine": 1,
+   "luogo": "L02",
+   "nome_luogo": "Cattedrale di San Giorgio",
+   "indirizzo": "Piazza della Cattedrale",
+   "coordinate": {
+    "lat": 44.835832,
+    "lon": 11.61958
+   },
+   "personaggio": "P01",
+   "nome": "San Maurelio",
+   "aggancio": "Una traccia (un'iscrizione, una reliquia, una leggenda) è un dato; diventa informazione solo quando qualcuno la interpreta",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Le tracce passano di mano in mano. Lungo il fianco della chiesa si commercia da secoli. Vai a destra, verso la Loggia.",
+    "verso": "P90",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B11.6",
+     "titolo": "Metadati"
+    },
+    {
+     "slot": "A2",
+     "nodo": "L1.5",
+     "titolo": "La piramide DIKW"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P02"
+   ],
+   "fonte_coordinate": "10 m davanti al centro della facciata della Cattedrale, calcolato dalla sagoma dell'edificio (open data del Comune, layer Edifici)",
+   "nota_coordinate": "v0.8: spostato dal civico 9 (lato dell'Arcivescovado) al centro della piazza davanti al portale"
+  },
+  {
+   "livello": "1-2",
+   "ordine": 2,
+   "luogo": "L34",
+   "nome_luogo": "Loggia dei Merciai",
+   "indirizzo": "Piazza Trento e Trieste, fianco sud della Cattedrale",
+   "coordinate": {
+    "lat": 44.835513,
+    "lon": 11.619919
+   },
+   "personaggio": "P90",
+   "nome": "Mercanti, artigiani e cittadini",
+   "aggancio": "La bilancia a bracci misura in modo continuo (analogico); le monete si contano (digitale)",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Qui si parla di affari, ma in piazza si decide chi comanda: cerca Salinguerra.",
+    "verso": "P06",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B1.7",
+     "titolo": "Vantaggi e limiti del digitale"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B1.8",
+     "titolo": "Strumenti analogici e digitali a confronto"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P05"
+   ],
+   "fonte_coordinate": "civico PIAZZA TRENTO E TRIESTE 21",
+   "nota_coordinate": "civico centrale della Loggia dei Merciai",
+   "distanza_dalla_tappa_precedente_m": 59
+  },
+  {
+   "livello": "1-3",
+   "ordine": 3,
+   "luogo": "L06",
+   "nome_luogo": "Piazza Trento e Trieste e Palazzo della Ragione",
+   "indirizzo": "Piazza Trento e Trieste",
+   "coordinate": {
+    "lat": 44.83536,
+    "lon": 11.61928
+   },
+   "personaggio": "P06",
+   "nome": "Salinguerra Torelli",
+   "aggancio": "Guelfi o ghibellini: ogni schieramento è una scelta sì/no; n scelte producono 2ⁿ scenari",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Le fazioni passano, i canti restano: nel museo di fronte ci sono i libri del coro.",
+    "verso": "P03",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B1.9",
+     "titolo": "Il gioco delle venti domande"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B1.10",
+     "titolo": "Segnalazioni a due simboli nella storia"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P04"
+   ],
+   "fonte_coordinate": "civico PIAZZA TRENTO E TRIESTE 4",
+   "nota_coordinate": "civico del lato ovest della piazza (Palazzo della Ragione): da verificare",
+   "distanza_dalla_tappa_precedente_m": 53
+  },
+  {
+   "livello": "1-4",
+   "ordine": 4,
+   "luogo": "L33",
+   "nome_luogo": "Museo della Cattedrale (ex San Romano)",
+   "indirizzo": "Via San Romano 1",
+   "coordinate": {
+    "lat": 44.834809,
+    "lon": 11.62042
+   },
+   "personaggio": "P03",
+   "nome": "Guido Monaco (Guido d'Arezzo) a Pomposa",
+   "aggancio": "Sul rigo musicale il valore di una nota dipende dalla sua posizione: è l'idea della notazione posizionale",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Io ho messo ordine nei suoni. Scendi verso via Ripagrande: in un vicolo buio viveva un uomo che metteva ordine nelle acque.",
+    "verso": "P59",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B2.1.7",
+     "titolo": "Numerazioni di altre culture"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B2.1.8",
+     "titolo": "Tracce di altre basi nella vita quotidiana"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [],
+   "fonte_coordinate": "civico VIA SAN ROMANO 7",
+   "nota_coordinate": "nel dataset non esiste il n. 1: usato il civico dispari più a nord, da verificare",
+   "distanza_dalla_tappa_precedente_m": 109
+  },
+  {
+   "livello": "1-5",
+   "ordine": 5,
+   "luogo": "L18",
+   "nome_luogo": "Vicolo del Chiozzino",
+   "indirizzo": "dal volto in via Ripagrande a via Piangipane",
+   "coordinate": {
+    "lat": 44.834336,
+    "lon": 11.615694
+   },
+   "personaggio": "P59",
+   "nome": "Bartolomeo Chiozzi, il \"Mago Chiozzino\"",
+   "aggancio": "La bilancia dell'ingegnere con pesi 1, 2, 4, 8…: ogni quantità è una somma di potenze di 2",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Mi chiamavano mago perché calcolavo. In fondo al vicolo, in via Piangipane, c'è chi custodisce un altro modo di scrivere i numeri.",
+    "verso": "P88",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B2.6.1",
+     "titolo": "BCD"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B2.6.2",
+     "titolo": "Codice Gray"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [],
+   "fonte_coordinate": "civico VICOLO DEL CHIOZZINO 4",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 376
+  },
+  {
+   "livello": "1-6",
+   "ordine": 6,
+   "luogo": "L23",
+   "nome_luogo": "MEIS",
+   "indirizzo": "Via Piangipane 81",
+   "coordinate": {
+    "lat": 44.835507,
+    "lon": 11.613407
+   },
+   "personaggio": "P88",
+   "nome": "La comunità ebraica ferrarese",
+   "aggancio": "Nell'alfabeto ebraico le lettere valgono anche come numeri; l'esadecimale usa lettere (A–F) come cifre",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Torna verso il centro, di fronte alla Cattedrale: al palazzo di corte ti aspetta il primo signore della città.",
+    "verso": "P12",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B12.5",
+     "titolo": "UUID e hash come impronta"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B2.2.4",
+     "titolo": "Base64"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [],
+   "fonte_coordinate": "civico VIA PIANGIPANE 81",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 222
+  },
+  {
+   "livello": "1-7",
+   "ordine": 7,
+   "luogo": "L05",
+   "nome_luogo": "Palazzo Municipale e Volto del Cavallo",
+   "indirizzo": "Piazza del Municipio 2",
+   "coordinate": {
+    "lat": 44.836043,
+    "lon": 11.619067
+   },
+   "personaggio": "P12",
+   "nome": "Obizzo II d'Este",
+   "aggancio": "Il signore fissa pesi e misure della città: stessa parola, valori diversi, come kB e KiB",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Il potere va difeso: dietro questo palazzo c'è la fortezza. Cerca il duca che fonde i cannoni.",
+    "verso": "P36",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B2.6.4",
+     "titolo": "Big-endian e little-endian"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B3.5",
+     "titolo": "La crescita delle memorie nel tempo"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P18",
+    "P20"
+   ],
+   "fonte_coordinate": "civico PIAZZA DEL MUNICIPIO 2",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 450
+  },
+  {
+   "livello": "1-8",
+   "ordine": 8,
+   "luogo": "L08",
+   "nome_luogo": "Castello Estense",
+   "indirizzo": "Largo Castello 1",
+   "coordinate": {
+    "lat": 44.838137,
+    "lon": 11.619641
+   },
+   "personaggio": "P36",
+   "nome": "Alfonso I d'Este",
+   "aggancio": "Un registro, come una fortezza, ha una capienza fissa: che cosa succede quando il numero non ci sta (overflow)",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Io faccio parlare i cannoni. Qui accanto, al teatro, si parla una lingua che tutti devono capire.",
+    "verso": "P62",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B2.3.3",
+     "titolo": "Moltiplicazione, divisione, shift"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B2.6.3",
+     "titolo": "Interi a precisione arbitraria"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P15",
+    "P48"
+   ],
+   "fonte_coordinate": "civico LARGO CASTELLO 1",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 237
+  },
+  {
+   "livello": "1-9",
+   "ordine": 9,
+   "luogo": "L19",
+   "nome_luogo": "Teatro Comunale",
+   "indirizzo": "Corso Martiri della Libertà 5",
+   "coordinate": {
+    "lat": 44.837645,
+    "lon": 11.62043
+   },
+   "personaggio": "P62",
+   "nome": "Antonio Foschini",
+   "aggancio": "Il teatro pubblico nasce in un'epoca di regole uguali per tutti: ASCII è una tabella comune, adottata da tutti",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Una lingua comune serve anche per i segreti. Allo Studio un maestro ha ritrovato in un libro antico il cifrario di Cesare.",
+    "verso": "P19",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B4.11",
+     "titolo": "Codici storici: Morse, Baudot, EBCDIC"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B4.12",
+     "titolo": "L'arte ASCII"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P63"
+   ],
+   "fonte_coordinate": "civico CORSO MARTIRI DELLA LIBERTA' 5",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 83
+  },
+  {
+   "livello": "1-10",
+   "ordine": 10,
+   "luogo": "L09",
+   "nome_luogo": "Palazzo Paradiso (Biblioteca Ariostea)",
+   "indirizzo": "Via delle Scienze 17",
+   "coordinate": {
+    "lat": 44.832931,
+    "lon": 11.621723
+   },
+   "personaggio": "P19",
+   "nome": "Guarino Veronese",
+   "aggancio": "Gli umanisti rileggono Svetonio, che descrive il cifrario usato da Cesare: prova di corte su codifiche e cifrari",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Il mio allievo Leonello è stato signore; oggi a corte si parla francese, latino e italiano. Va' dal duca Ercole II.",
+    "verso": "P49",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "N2.5",
+     "titolo": "Cifrari a trasposizione"
+    },
+    {
+     "slot": "A2",
+     "nodo": "N2.9",
+     "titolo": "Steganografia"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P16",
+    "P42"
+   ],
+   "fonte_coordinate": "civico VIA DELLE SCIENZE 17",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 534
+  },
+  {
+   "livello": "1-11",
+   "ordine": 11,
+   "luogo": "L38",
+   "nome_luogo": "Palazzo Renata di Francia",
+   "indirizzo": "Via Savonarola 9",
+   "coordinate": {
+    "lat": 44.833382,
+    "lon": 11.626207
+   },
+   "personaggio": "P49",
+   "nome": "Ercole II d'Este",
+   "aggancio": "Una corte multilingue (italiano, francese, latino) ha bisogno di un repertorio di simboli per tutte le lingue: Unicode",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Mia moglie Renata ama i libri e le idee nuove. Poco più avanti, in via Savonarola, c'è una casa dipinta con molti colori.",
+    "verso": "P94",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B4.7",
+     "titolo": "Mojibake"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B4.8",
+     "titolo": "Emoji e normalizzazione"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P50"
+   ],
+   "fonte_coordinate": "civico VIA GIROLAMO SAVONAROLA 9",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 357
+  },
+  {
+   "livello": "1-12",
+   "ordine": 12,
+   "luogo": "L35",
+   "nome_luogo": "Casa Romei",
+   "indirizzo": "Via Savonarola 30",
+   "coordinate": {
+    "lat": 44.833276,
+    "lon": 11.626078
+   },
+   "personaggio": "P94",
+   "nome": "Giovanni Romei",
+   "aggancio": "Gli affreschi della Sala delle Sibille: i colori come mescolanza di componenti (RGB)",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Nel monastero qui dietro è sepolta una duchessa di cui tutti credono di conoscere il volto.",
+    "verso": "P35",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B5.2.2",
+     "titolo": "CMYK e stampa"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B5.3.2",
+     "titolo": "Palette e colori indicizzati"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P28"
+   ],
+   "fonte_coordinate": "civico VIA GIROLAMO SAVONAROLA 30",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 16
+  },
+  {
+   "livello": "1-13",
+   "ordine": 13,
+   "luogo": "L15",
+   "nome_luogo": "Monastero del Corpus Domini",
+   "indirizzo": "Via Campofranco 1",
+   "coordinate": {
+    "lat": 44.831886,
+    "lon": 11.625972
+   },
+   "personaggio": "P35",
+   "nome": "Lucrezia Borgia",
+   "aggancio": "Un volto a bassa risoluzione non si riconosce: così il mito ha sostituito la persona",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Scendi verso sud: il monastero più antico della città ha una regola che dura da secoli.",
+    "verso": "P11",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B6.9",
+     "titolo": "Ricampionamento e interpolazione"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B8.1",
+     "titolo": "Fotogrammi e frequenza"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P40"
+   ],
+   "fonte_coordinate": "civico VIA CAMPOFRANCO 1",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 155
+  },
+  {
+   "livello": "1-14",
+   "ordine": 14,
+   "luogo": "L07",
+   "nome_luogo": "Monastero di Sant'Antonio in Polesine",
+   "indirizzo": "Vicolo del Gambone 17 (indicazione di Pietro)",
+   "coordinate": {
+    "lat": 44.827233,
+    "lon": 11.623986
+   },
+   "personaggio": "P11",
+   "nome": "Beata Beatrice II d'Este",
+   "aggancio": "Il monastero è l'hardware; la Regola che lo fa funzionare è il software",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Da qui si vede il palazzo delle feste di Borso: vai a Schifanoia, dove il tempo è dipinto mese per mese.",
+    "verso": "P24",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "C1.10",
+     "titolo": "Sicurezza elettrica"
+    },
+    {
+     "slot": "A2",
+     "nodo": "C8.1",
+     "titolo": "Dal componente al circuito integrato"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P91"
+   ],
+   "fonte_coordinate": "civico VIA DEL GAMBONE 15",
+   "nota_coordinate": "indirizzo fornito da Pietro",
+   "distanza_dalla_tappa_precedente_m": 541
+  },
+  {
+   "livello": "1-15",
+   "ordine": 15,
+   "luogo": "L10",
+   "nome_luogo": "Palazzo Schifanoia",
+   "indirizzo": "Via Scandiana 23",
+   "coordinate": {
+    "lat": 44.830497,
+    "lon": 11.628963
+   },
+   "personaggio": "P24",
+   "nome": "Francesco del Cossa",
+   "aggancio": "Il Salone dei Mesi è un calendario calcolato: contare e calcolare prima delle macchine, fino a von Neumann",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Io ho dipinto; ma chi ha deciso che cosa dipingere? Chiedilo all'archivista qui accanto.",
+    "verso": "P26",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "U1.18",
+     "titolo": "Informatica in Italia: CEP, Olivetti"
+    },
+    {
+     "slot": "A2",
+     "nodo": "D4.3",
+     "titolo": "Architettura Harvard"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P25",
+    "P22"
+   ],
+   "fonte_coordinate": "civico VIA SCANDIANA 23",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 535
+  },
+  {
+   "livello": "1-16",
+   "ordine": 16,
+   "luogo": "L50",
+   "nome_luogo": "Palazzo Bonacossi",
+   "indirizzo": "Via Cisterna del Follo 5",
+   "coordinate": {
+    "lat": 44.832026,
+    "lon": 11.628927
+   },
+   "personaggio": "P26",
+   "nome": "Pellegrino Prisciani",
+   "aggancio": "Il duca ordina, l'archivista interpreta, i pittori eseguono: preleva, decodifica, esegui",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Una storia non dipinta resta solo nella memoria. Risali verso la Giovecca, alla palazzina di Marfisa.",
+    "verso": "P57",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "D4.5",
+     "titolo": "Macchine didattiche (Little Man Computer)"
+    },
+    {
+     "slot": "A2",
+     "nodo": "D6.1",
+     "titolo": "Istruzione macchina"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P27"
+   ],
+   "fonte_coordinate": "civico VIA CISTERNA DEL FOLLO 5",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 170
+  },
+  {
+   "livello": "1-17",
+   "ordine": 17,
+   "luogo": "L16",
+   "nome_luogo": "Palazzina Marfisa d'Este",
+   "indirizzo": "Corso Giovecca 170",
+   "coordinate": {
+    "lat": 44.833222,
+    "lon": 11.629726
+   },
+   "personaggio": "P57",
+   "nome": "Marfisa d'Este",
+   "aggancio": "La città ricorda Marfisa più per la leggenda che per i documenti: memorie diverse, veloci o durevoli",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Lungo la Giovecca c'è l'ospedale dove un duca tenne chiuso un poeta.",
+    "verso": "P51",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "C10.6",
+     "titolo": "Supporti ottici"
+    },
+    {
+     "slot": "A2",
+     "nodo": "C10.7",
+     "titolo": "Nastri e archiviazione a lungo termine"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [],
+   "fonte_coordinate": "civico CORSO DELLA GIOVECCA 170",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 147
+  },
+  {
+   "livello": "1-18",
+   "ordine": 18,
+   "luogo": "L17",
+   "nome_luogo": "Antico Ospedale di Sant'Anna (cella del Tasso)",
+   "indirizzo": "Corso Giovecca (civico da verificare)",
+   "coordinate": {
+    "lat": 44.832833,
+    "lon": 11.631272
+   },
+   "personaggio": "P51",
+   "nome": "Alfonso II d'Este",
+   "aggancio": "Il duca decide che cosa entra e che cosa esce dalla cella di Tasso: dispositivi di ingresso e di uscita",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Io non ho eredi, e la mia città cambierà padrone molte volte. In piazza Ariostea una colonna lo racconta.",
+    "verso": "P63",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "D9.5",
+     "titolo": "Bus di sistema, PCI Express"
+    },
+    {
+     "slot": "A2",
+     "nodo": "D9.2",
+     "titolo": "Polling"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P52"
+   ],
+   "fonte_coordinate": "civico CORSO DELLA GIOVECCA 203",
+   "nota_coordinate": "indirizzo fornito da Pietro (ingresso secondario: Rampari di San Rocco 15)",
+   "distanza_dalla_tappa_precedente_m": 129
+  },
+  {
+   "livello": "1-19",
+   "ordine": 19,
+   "luogo": "L41",
+   "nome_luogo": "Piazza Ariostea e colonna",
+   "indirizzo": "Piazza Ariostea",
+   "coordinate": {
+    "lat": 44.84125,
+    "lon": 11.62647
+   },
+   "personaggio": "P63",
+   "nome": "Napoleone e l'età francese",
+   "aggancio": "Sulla colonna: SE governa il papa ALLORA la sua statua; SE Napoleone ALLORA la sua; poi Ariosto. Condizioni e porte logiche",
+   "forza_aggancio": "di scena",
+   "rimando": {
+    "testo": "Dopo di me arrivano i pittori moderni: a palazzo Massari ne trovi uno che ha conquistato Parigi.",
+    "verso": "P71",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "D2.2",
+     "titolo": "Simulatori di circuiti logici"
+    },
+    {
+     "slot": "A2",
+     "nodo": "D1.4",
+     "titolo": "Semplificazione algebrica"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [],
+   "fonte_coordinate": "baricentro dei civici di Piazza Ariostea (centro della piazza, stimato)",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 1010
+  },
+  {
+   "livello": "1-20",
+   "ordine": 20,
+   "luogo": "L26",
+   "nome_luogo": "Palazzo Massari (Museo Boldini)",
+   "indirizzo": "Corso Porta Mare 9",
+   "coordinate": {
+    "lat": 44.842084,
+    "lon": 11.624949
+   },
+   "personaggio": "P71",
+   "nome": "Giovanni Boldini",
+   "aggancio": "Prova di corte: scegliere i componenti giusti per lo scopo, come un ritrattista sceglie luce, posa e sfondo",
+   "forza_aggancio": "di scena",
+   "rimando": {
+    "testo": "Ferrara mi ha dato l'occhio; ma questa parte della città l'ha disegnata un architetto. Lo trovi al palazzo dei Diamanti.",
+    "verso": "P31",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "C1.6",
+     "titolo": "Circuiti in serie e in parallelo"
+    },
+    {
+     "slot": "A2",
+     "nodo": "C13.2",
+     "titolo": "Dissipazione termica"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P74"
+   ],
+   "fonte_coordinate": "civico CORSO PORTA MARE 9",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 152
+  },
+  {
+   "livello": "1-21",
+   "ordine": 21,
+   "luogo": "L12",
+   "nome_luogo": "Palazzo dei Diamanti (Pinacoteca)",
+   "indirizzo": "Corso Ercole I d'Este 21",
+   "coordinate": {
+    "lat": 44.84206,
+    "lon": 11.621244
+   },
+   "personaggio": "P31",
+   "nome": "Biagio Rossetti",
+   "aggancio": "L'Addizione è un sistema che assegna risorse (strade, lotti, acqua) a chi vive nella città: un sistema operativo",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Il mio committente è all'incrocio qui fuori: è lui che ha voluto la città nuova.",
+    "verso": "P30",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "I10.1",
+     "titolo": "L'avvio del computer"
+    },
+    {
+     "slot": "A2",
+     "nodo": "I7.5",
+     "titolo": "Gestori di pacchetti"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P23"
+   ],
+   "fonte_coordinate": "civico CORSO ERCOLE PRIMO D'ESTE 21",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 292
+  },
+  {
+   "livello": "1-22",
+   "ordine": 22,
+   "luogo": "L13",
+   "nome_luogo": "Quadrivio degli Angeli (Palazzo Prosperi-Sacrati)",
+   "indirizzo": "incrocio Corso Ercole I d'Este / Corso Porta Mare / Corso Biagio Rossetti",
+   "coordinate": {
+    "lat": 44.842052,
+    "lon": 11.621374
+   },
+   "personaggio": "P30",
+   "nome": "Ercole I d'Este",
+   "aggancio": "I cantieri dell'Addizione si aprono uno dopo l'altro: processi, attese, turni",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Nel palazzo di fronte crescono le piante del mio medico.",
+    "verso": "P44",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "I2.4",
+     "titolo": "Thread"
+    },
+    {
+     "slot": "A2",
+     "nodo": "I2.2",
+     "titolo": "Descrittore di processo e cambio di contesto"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P33"
+   ],
+   "fonte_coordinate": "punto medio fra Corso Ercole I d'Este 21 e 32 (centro dell'incrocio, stimato)",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 10
+  },
+  {
+   "livello": "1-23",
+   "ordine": 23,
+   "luogo": "L37",
+   "nome_luogo": "Palazzo Turchi di Bagno e Orto Botanico",
+   "indirizzo": "Corso Ercole I d'Este 32",
+   "coordinate": {
+    "lat": 44.842045,
+    "lon": 11.621503
+   },
+   "personaggio": "P44",
+   "nome": "Antonio Musa Brasavola",
+   "aggancio": "L'orto è una memoria organizzata: ogni pianta ha il suo posto e il suo indirizzo",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Poco più giù lungo il corso c'è il museo di chi ha combattuto per l'Italia.",
+    "verso": "P65",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "D8.3",
+     "titolo": "Località spaziale e temporale"
+    },
+    {
+     "slot": "A2",
+     "nodo": "D4.4",
+     "titolo": "Collo di bottiglia di von Neumann"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P45"
+   ],
+   "fonte_coordinate": "civico CORSO ERCOLE PRIMO D'ESTE 32",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 10
+  },
+  {
+   "livello": "1-24",
+   "ordine": 24,
+   "luogo": "L20",
+   "nome_luogo": "Museo del Risorgimento e della Resistenza",
+   "indirizzo": "Corso Ercole I d'Este 19",
+   "coordinate": {
+    "lat": 44.84182,
+    "lon": 11.620847
+   },
+   "personaggio": "P65",
+   "nome": "Tancredi Mosti Trotti Estense",
+   "aggancio": "Archivi, lasciapassare, copie dei documenti: file, permessi, backup",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "Anche i poeti conservano copie: Ariosto ha riscritto il suo poema tre volte. Vai a casa sua.",
+    "verso": "P37",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "I11.1",
+     "titolo": "Utenti, gruppi, privilegi"
+    },
+    {
+     "slot": "A2",
+     "nodo": "I5.5",
+     "titolo": "File system diffusi"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P66"
+   ],
+   "fonte_coordinate": "civico CORSO ERCOLE PRIMO D'ESTE 19",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 57
+  },
+  {
+   "livello": "1-25",
+   "ordine": 25,
+   "luogo": "L14",
+   "nome_luogo": "Casa di Ludovico Ariosto",
+   "indirizzo": "Via Ariosto 67",
+   "coordinate": {
+    "lat": 44.844362,
+    "lon": 11.616865
+   },
+   "personaggio": "P37",
+   "nome": "Ludovico Ariosto",
+   "aggancio": "Tre edizioni dell'Orlando furioso (1516, 1521, 1532): struttura, stili e revisioni di un documento",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Io ho raccontato cavalieri. In fondo al corso, alla porta degli Angeli, qualcuno racconta la pianura con i numeri.",
+    "verso": "P83",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B13.9",
+     "titolo": "Revisione e collaborazione sui documenti"
+    },
+    {
+     "slot": "A2",
+     "nodo": "U11.1",
+     "titolo": "Scrivere per pubblici diversi"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P29"
+   ],
+   "fonte_coordinate": "civico VIA LUDOVICO ARIOSTO 67",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 422
+  },
+  {
+   "livello": "1-26",
+   "ordine": 26,
+   "luogo": "L51",
+   "nome_luogo": "Porta degli Angeli e mura nord",
+   "indirizzo": "fine di Corso Ercole I d'Este",
+   "coordinate": {
+    "lat": 44.848871,
+    "lon": 11.624953
+   },
+   "personaggio": "P83",
+   "nome": "Giulio Natta",
+   "aggancio": "Tabelle di produzione: righe, colonne, formule che calcolano totali e differenze. Il foglio elettronico",
+   "forza_aggancio": "medio",
+   "rimando": {
+    "testo": "I miei numeri parlano di fabbriche. Ma chi per primo ha misurato quest'acqua e questa terra riposa alla Certosa, qui vicino: Teodoro Bonati.",
+    "verso": "P61",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "B11.9",
+     "titolo": "Formati aperti e proprietari"
+    },
+    {
+     "slot": "A2",
+     "nodo": "G10.3",
+     "titolo": "Le formule come programmazione funzionale"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P86"
+   ],
+   "fonte_coordinate": "civico CORSO ERCOLE PRIMO D'ESTE 152",
+   "nota_coordinate": "ultimo civico del corso, presso la Porta degli Angeli",
+   "distanza_dalla_tappa_precedente_m": 811
+  },
+  {
+   "livello": "1-27",
+   "ordine": 27,
+   "luogo": "L53",
+   "nome_luogo": "Certosa: chiostro, monumento a Teodoro Bonati",
+   "indirizzo": "Certosa (punto interno, senza civico)",
+   "coordinate": null,
+   "personaggio": "P61",
+   "nome": "Teodoro Bonati",
+   "aggancio": "Le serie dei livelli del Po nel tempo: medie, variabilità, grafici. La statistica",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Dietro la Certosa, in via delle Vigne, riposa uno scrittore che ha raccontato gli anni più bui.",
+    "verso": "P79",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "A7.2.5",
+     "titolo": "Numeri pseudocasuali"
+    },
+    {
+     "slot": "A2",
+     "nodo": "B5.2.4",
+     "titolo": "Scala di grigi"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P92"
+   ],
+   "fonte_coordinate": null,
+   "nota_coordinate": "monumento nel chiostro della Certosa, senza civico: punto da posizionare a mano"
+  },
+  {
+   "livello": "1-28",
+   "ordine": 28,
+   "luogo": "L24",
+   "nome_luogo": "Cimitero ebraico",
+   "indirizzo": "Via delle Vigne 20",
+   "coordinate": {
+    "lat": 44.84281,
+    "lon": 11.62999
+   },
+   "personaggio": "P79",
+   "nome": "Giorgio Bassani",
+   "aggancio": "Evento → testimonianza → racconto → film: un messaggio che passa da un canale all'altro (sezione narrativa lenta e non valutata)",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Il mio racconto è diventato un film. Alla Certosa riposa un regista che sapeva che ogni inquadratura è una scelta.",
+    "verso": "P82",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "J8.3",
+     "titolo": "Cavi sottomarini"
+    },
+    {
+     "slot": "A2",
+     "nodo": "J8.4",
+     "titolo": "Tecnologie di accesso"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P88"
+   ],
+   "fonte_coordinate": "civico VIA DELLE VIGNE 20",
+   "nota_coordinate": null,
+   "distanza_dalla_tappa_precedente_m": 782
+  },
+  {
+   "livello": "1-29",
+   "ordine": 29,
+   "luogo": "L11",
+   "nome_luogo": "Certosa: cimitero monumentale",
+   "indirizzo": "Piazza della Certosa",
+   "coordinate": {
+    "lat": 44.844161,
+    "lon": 11.625337
+   },
+   "personaggio": "P82",
+   "nome": "Michelangelo Antonioni",
+   "aggancio": "Valutare le fonti; la missione del Chiozzino (cinque versioni e una risposta di un'IA da verificare)",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "Hai visto molte Ferrara. Nella chiesa qui accanto ti aspetta chi te le ha raccontate fin dall'inizio.",
+    "verso": "P22",
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "N5.3",
+     "titolo": "Autenticazione a più fattori"
+    },
+    {
+     "slot": "A2",
+     "nodo": "O1.3",
+     "titolo": "Il test di Turing"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P81",
+    "P60"
+   ],
+   "fonte_coordinate": "civico VIA BORSO 1",
+   "nota_coordinate": "ingresso della Certosa",
+   "distanza_dalla_tappa_precedente_m": 396
+  },
+  {
+   "livello": "1-30",
+   "ordine": 30,
+   "luogo": "L52",
+   "nome_luogo": "Certosa: chiesa di San Cristoforo",
+   "indirizzo": "Piazza della Certosa",
+   "coordinate": null,
+   "personaggio": "P93",
+   "nome": "La città stessa",
+   "aggancio": "Prova finale: la città, con la voce dei suoi luoghi, chiede a Borso di ordinare le 30 carte nel tempo e di costruirne l'inventario",
+   "forza_aggancio": "forte",
+   "rimando": {
+    "testo": "(fine dell'anno)",
+    "verso": null,
+    "condizione": "soglia del livello raggiunta"
+   },
+   "approfondimenti": [
+    {
+     "slot": "A1",
+     "nodo": "U6.1",
+     "titolo": "Impronta ambientale del digitale"
+    },
+    {
+     "slot": "A2",
+     "nodo": "U9.1",
+     "titolo": "Professioni ICT"
+    }
+   ],
+   "personaggi_facoltativi_nello_stesso_luogo": [
+    "P87"
+   ],
+   "fonte_coordinate": null,
+   "nota_coordinate": "la chiesa di San Cristoforo non ha un numero civico proprio: punto da posizionare a mano sulla facciata"
+  }
+ ],
+ "sistema_di_riferimento": "WGS84 (EPSG:4326), convertito da EPSG:3003 del dataset civici del Comune",
+ "fonte_coordinate": "Comune di Ferrara, dataset Numeri civici (CC BY 4.0), 28/09/2026",
+ "lunghezza_percorso_m_stimata_in_linea_d_aria": 8115,
+ "modifiche": [
+  "v0.4 (28/09/2026): Paolo Mazza facoltativo (decisione di Pietro); lo stadio esce dal percorso; 1-26 Natta alla Porta degli Angeli; 1-27 Teodoro Bonati al monumento nel chiostro della Certosa.",
+  "v0.5 (28/09/2026): facoltativi come visioni di Borso consecutive; corretto rimando 1-6 (via Mazzini è a sud-est della Cattedrale).",
+  "v0.7 (30/09/2026): Borso diventa il personaggio giocante; la tappa 1-30 ha come personaggio La città stessa (P93) e Vasco Brondi come facoltativo; zone di Voronoi; rimando 1-1 allineato alla zona percorribile.",
+  {
+   "versione": "0.8",
+   "data": "2026-09-30",
+   "descrizione": "Tappa 1-1 spostata davanti al portale della Cattedrale; zona percorribile ricavata dalle sagome reali degli edifici (open data del Comune di Ferrara)."
+  }
+ ],
+ "regola_facoltativi": "Visioni di Borso: i facoltativi (A1, A2) non hanno punti propri sulla mappa; si aprono in sequenza (A1 dopo la soglia del personaggio obbligatorio, A2 dopo A1) e non condizionano il percorso.",
+ "protagonista": "Borso d'Este è il personaggio giocante (avatar): si muove nelle zone percorribili e incontra i personaggi. Non è più un personaggio da incontrare.",
+ "zone": "Ogni tappa ha una zona propria: cella di Voronoi della tappa entro 150 m. Le zone non si sovrappongono."
+}

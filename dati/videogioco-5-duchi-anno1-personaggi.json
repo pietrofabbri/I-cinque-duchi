@@ -1,0 +1,3457 @@
+{
+ "versione": "0.1",
+ "data": "2026-09-28",
+ "descrizione": "Database storico-culturale dell'anno 1 del videogioco 'I cinque duchi' (Ferrara). Vedi videogioco-5-duchi-anno1-ferrara.md per convenzioni.",
+ "legenda": {
+  "legame_luogo": {
+   "A": "luogo della vita",
+   "B": "luogo dell'opera",
+   "C": "luogo della memoria",
+   "D": "luogo simbolico",
+   "E": "luogo problematico (legame indiretto, leggendario o costruito dopo)"
+  },
+  "certezza": {
+   "D": "documentato",
+   "I": "interpretato",
+   "M": "memoria",
+   "L": "leggenda",
+   "F": "figura letteraria",
+   "C": "collettivo",
+   "?": "suffisso: attribuzione incerta"
+  },
+  "origine": {
+   "Pietro": "scheda del materiale di Pietro",
+   "aggiunta": "scheda aggiunta da Claude (personaggio citato nella narrazione o necessario al gioco)",
+   "proposta": "proposta di Claude da approvare",
+   "Pietro (ricollocato)": "scheda di Pietro con collocazione rivista"
+  }
+ },
+ "epoche": {
+  "E1": "Ferrara delle origini (fino al X secolo)",
+  "E2": "Ferrara medievale e comunale (X secolo - 1264)",
+  "E3": "Ferrara degli Este: la signoria (1264 - metà del XV secolo)",
+  "E4": "Ferrara rinascimentale e ducale (1450 - 1598)",
+  "E5": "Ferrara dello Studio e delle scienze (1391 - XVI secolo, trasversale)",
+  "E6": "Ferrara pontificia, napoleonica e risorgimentale (1598 - 1860)",
+  "E7": "Ferrara del Novecento (1860 - 1995)",
+  "E8": "Ferrara contemporanea (1995 - oggi)"
+ },
+ "luoghi": [
+  {
+   "id": "L01",
+   "nome": "Il Po e il territorio: Po di Volano, Valli di Comacchio, terre di bonifica",
+   "hub": false,
+   "funzione_hub": "Il territorio come personaggio",
+   "coordinate": null,
+   "personaggi": [
+    "P04",
+    "P60",
+    "P61",
+    "P92"
+   ]
+  },
+  {
+   "id": "L02",
+   "nome": "Cattedrale di San Giorgio",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P01",
+    "P02",
+    "P47",
+    "P55"
+   ]
+  },
+  {
+   "id": "L03",
+   "nome": "Basilica di San Giorgio fuori le mura",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P02"
+   ]
+  },
+  {
+   "id": "L04",
+   "nome": "Abbazia di Pomposa (Codigoro)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P03"
+   ]
+  },
+  {
+   "id": "L05",
+   "nome": "Palazzo Municipale (già Palazzo Ducale) e Piazza della Cattedrale",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P06",
+    "P08",
+    "P09",
+    "P10",
+    "P12",
+    "P14",
+    "P18",
+    "P20",
+    "P22",
+    "P28",
+    "P33",
+    "P58",
+    "P63",
+    "P78",
+    "P93"
+   ]
+  },
+  {
+   "id": "L06",
+   "nome": "Piazza delle Erbe (Trento Trieste) e centro medievale (via delle Volte)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P05",
+    "P06",
+    "P13",
+    "P34",
+    "P77",
+    "P90"
+   ]
+  },
+  {
+   "id": "L07",
+   "nome": "Monastero di Sant'Antonio in Polesine",
+   "hub": true,
+   "funzione_hub": "Mappa della lunga durata",
+   "coordinate": null,
+   "personaggi": [
+    "P10",
+    "P11",
+    "P91"
+   ]
+  },
+  {
+   "id": "L08",
+   "nome": "Castello Estense",
+   "hub": true,
+   "funzione_hub": "Mappa del potere",
+   "coordinate": null,
+   "personaggi": [
+    "P07",
+    "P12",
+    "P15",
+    "P17",
+    "P19",
+    "P21",
+    "P22",
+    "P29",
+    "P32",
+    "P35",
+    "P36",
+    "P48",
+    "P49",
+    "P50",
+    "P51",
+    "P52",
+    "P53",
+    "P54",
+    "P56"
+   ]
+  },
+  {
+   "id": "L09",
+   "nome": "Palazzo Paradiso (Biblioteca Comunale Ariostea)",
+   "hub": true,
+   "funzione_hub": "Mappa delle idee",
+   "coordinate": null,
+   "personaggi": [
+    "P16",
+    "P19",
+    "P37",
+    "P38",
+    "P39",
+    "P40",
+    "P41",
+    "P42",
+    "P43",
+    "P44",
+    "P45",
+    "P46",
+    "P89"
+   ]
+  },
+  {
+   "id": "L10",
+   "nome": "Palazzo Schifanoia (Salone dei Mesi)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P22",
+    "P24",
+    "P25",
+    "P26"
+   ]
+  },
+  {
+   "id": "L11",
+   "nome": "Certosa di Ferrara (chiesa di San Cristoforo e cimitero monumentale)",
+   "hub": true,
+   "funzione_hub": "Mappa della memoria",
+   "coordinate": null,
+   "personaggi": [
+    "P22",
+    "P61",
+    "P62",
+    "P71",
+    "P72",
+    "P75",
+    "P76",
+    "P81",
+    "P82"
+   ]
+  },
+  {
+   "id": "L12",
+   "nome": "Palazzo dei Diamanti e Pinacoteca Nazionale",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P23",
+    "P25",
+    "P27",
+    "P30",
+    "P31",
+    "P47",
+    "P48",
+    "P73"
+   ]
+  },
+  {
+   "id": "L13",
+   "nome": "Addizione Erculea e Quadrivio degli Angeli",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P30",
+    "P31"
+   ]
+  },
+  {
+   "id": "L14",
+   "nome": "Casa di Ludovico Ariosto",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P37"
+   ]
+  },
+  {
+   "id": "L15",
+   "nome": "Monastero del Corpus Domini (sepolture estensi)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P30",
+    "P35",
+    "P36"
+   ]
+  },
+  {
+   "id": "L16",
+   "nome": "Palazzina Marfisa d'Este",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P35",
+    "P57"
+   ]
+  },
+  {
+   "id": "L17",
+   "nome": "Antico Ospedale di Sant'Anna (prigionia di Tasso)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P51",
+    "P52"
+   ]
+  },
+  {
+   "id": "L18",
+   "nome": "Vicolo del Chiozzino",
+   "hub": true,
+   "funzione_hub": "Mappa dell'incertezza",
+   "coordinate": null,
+   "personaggi": [
+    "P59",
+    "P60"
+   ]
+  },
+  {
+   "id": "L19",
+   "nome": "Teatro Comunale",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P62"
+   ]
+  },
+  {
+   "id": "L20",
+   "nome": "Museo del Risorgimento e della Resistenza",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P64",
+    "P65",
+    "P66",
+    "P67",
+    "P68",
+    "P69"
+   ]
+  },
+  {
+   "id": "L21",
+   "nome": "Mura di Ferrara",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P58",
+    "P66"
+   ]
+  },
+  {
+   "id": "L22",
+   "nome": "Ex ghetto (via Mazzini, via Vignatagliata, via Vittoria) e sinagoghe",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P78",
+    "P79",
+    "P88"
+   ]
+  },
+  {
+   "id": "L23",
+   "nome": "MEIS - Museo Nazionale dell'Ebraismo Italiano e della Shoah",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P79",
+    "P88"
+   ]
+  },
+  {
+   "id": "L24",
+   "nome": "Cimitero ebraico di via delle Vigne",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P79",
+    "P88"
+   ]
+  },
+  {
+   "id": "L25",
+   "nome": "Polo chimico di Pontelagoscuro e Centro Ricerche Giulio Natta",
+   "hub": true,
+   "funzione_hub": "Mappa della modernità",
+   "coordinate": null,
+   "personaggi": [
+    "P83",
+    "P87"
+   ]
+  },
+  {
+   "id": "L26",
+   "nome": "Palazzo Massari (Gallerie d'Arte Moderna e Contemporanea)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P71",
+    "P72",
+    "P74"
+   ]
+  },
+  {
+   "id": "L27",
+   "nome": "Casa Museo Remo Brindisi (Lido di Spina)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P85"
+   ]
+  },
+  {
+   "id": "L28",
+   "nome": "Stadio Paolo Mazza",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P86"
+   ]
+  },
+  {
+   "id": "L29",
+   "nome": "Museo Civico di Storia Naturale e largo intitolato a Florestano Vancini",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P81"
+   ]
+  },
+  {
+   "id": "L30",
+   "nome": "Muretto del Castello e corso Martiri della Libertà (eccidio del 15 novembre 1943)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P79",
+    "P81"
+   ]
+  },
+  {
+   "id": "L31",
+   "nome": "Voghenza (antica sede diocesana)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P01"
+   ]
+  },
+  {
+   "id": "L32",
+   "nome": "Comacchio e le Valli (Mandriole, trafila garibaldina del 1849)",
+   "hub": false,
+   "funzione_hub": null,
+   "coordinate": null,
+   "personaggi": [
+    "P70",
+    "P80",
+    "P84"
+   ]
+  }
+ ],
+ "personaggi": [
+  {
+   "id": "P01",
+   "nome": "San Maurelio",
+   "periodo": "VII secolo (tradizione)",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "persona",
+   "categorie": [
+    "religione",
+    "memoria"
+   ],
+   "epoca": "E1",
+   "luogo_principale": "L02",
+   "luoghi_secondari": [
+    "L31"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Vescovo e patrono della tradizione ferrarese: la sua figura intreccia storia, agiografia e culto",
+   "domanda_critica": "Quando una storia fa parte dell'identità di una comunità, possiamo studiarla anche se non tutto è verificabile?",
+   "personaggi_collegati": [
+    "P02",
+    "P92"
+   ],
+   "livello_gioco": "1-1",
+   "note_verifica": "Grado di documentazione della biografia da precisare con fonti diocesane.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Arcidiocesi di Ferrara-Comacchio"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P02",
+   "nome": "San Giorgio",
+   "periodo": "tarda antichità (culto)",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "figura_leggendaria",
+   "categorie": [
+    "religione",
+    "memoria"
+   ],
+   "epoca": "E1",
+   "luogo_principale": "L03",
+   "luoghi_secondari": [
+    "L02"
+   ],
+   "legame_luogo": "D",
+   "certezza": [
+    "M",
+    "L"
+   ],
+   "evento_principale": "Santo patrono della città; il culto dà il nome alla basilica e alla cattedrale",
+   "domanda_critica": "Una figura storicamente difficile da ricostruire può avere comunque un'enorme importanza culturale?",
+   "personaggi_collegati": [
+    "P01"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P03",
+   "nome": "Guido Monaco (Guido d'Arezzo) a Pomposa",
+   "periodo": "XI secolo",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "persona",
+   "categorie": [
+    "musica",
+    "religione"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L04",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Monaco a Pomposa, elabora la notazione su righe che rende trasmissibile la musica",
+   "domanda_critica": "Come sopravvive una conoscenza quando deve essere copiata e trasmessa a mano?",
+   "personaggi_collegati": [
+    "P90"
+   ],
+   "livello_gioco": "1-2",
+   "note_verifica": "Periodo pomposiano e sua datazione da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P04",
+   "nome": "Matilde di Canossa",
+   "periodo": "1046-1115",
+   "anno_inizio": 1046,
+   "anno_fine": 1115,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L01",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Ferrara entra nella sfera dei Canossa; alla morte di Matilde (1115) si consolida il Comune",
+   "domanda_critica": "Quanto può essere potente una persona senza possedere direttamente una città?",
+   "personaggi_collegati": [
+    "P05",
+    "P06"
+   ],
+   "livello_gioco": "1-3",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P05",
+   "nome": "Gli Adelardi (famiglia)",
+   "periodo": "XII secolo",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "gruppo",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L06",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D",
+    "C"
+   ],
+   "evento_principale": "Famiglia guelfa protagonista del Comune",
+   "domanda_critica": "Chi aveva il potere prima degli Este?",
+   "personaggi_collegati": [
+    "P06",
+    "P08"
+   ],
+   "livello_gioco": "1-3",
+   "note_verifica": "Scheda aggiunta: citati nella narrazione.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P06",
+   "nome": "Salinguerra Torelli",
+   "periodo": "XIII secolo",
+   "anno_inizio": null,
+   "anno_fine": 1244,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [
+    "L06"
+   ],
+   "legame_luogo": "D",
+   "certezza": [
+    "D",
+    "I"
+   ],
+   "evento_principale": "Capo della parte ghibellina, rivale degli Este",
+   "domanda_critica": "Come cambia la storia quando ascoltiamo anche la parte che alla fine ha perso?",
+   "personaggi_collegati": [
+    "P05",
+    "P08"
+   ],
+   "livello_gioco": "1-3",
+   "note_verifica": "Distinguere Salinguerra I e Salinguerra II; data di morte da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P07",
+   "nome": "Obizzo I d'Este",
+   "periodo": "XII secolo",
+   "anno_inizio": null,
+   "anno_fine": 1193,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D",
+    "I"
+   ],
+   "evento_principale": "Prima presenza estense nelle vicende ferraresi",
+   "domanda_critica": "Come diventa una famiglia aristocratica una famiglia di governo?",
+   "personaggi_collegati": [
+    "P08"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Il legame diretto con Ferrara va precisato. Il luogo è simbolico: il Castello è del 1385.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P08",
+   "nome": "Azzo VI d'Este",
+   "periodo": "1170-1212",
+   "anno_inizio": 1170,
+   "anno_fine": 1212,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Assume il controllo della città all'inizio del XIII secolo",
+   "domanda_critica": "Quando il potere politico diventa davvero riconosciuto?",
+   "personaggi_collegati": [
+    "P06",
+    "P07"
+   ],
+   "livello_gioco": "1-4",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P09",
+   "nome": "Aldobrandino d'Este",
+   "periodo": "XIII-XIV secolo",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Successioni e conflitti dinastici",
+   "domanda_critica": "Chi decide chi ha diritto a ereditare il potere?",
+   "personaggi_collegati": [
+    "P12"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Non è chiaro quale Aldobrandino si intenda (I, morto nel 1215, o i successivi): numerazione da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P10",
+   "nome": "Azzo VII d'Este (Novello)",
+   "periodo": "1205-1264",
+   "anno_inizio": 1205,
+   "anno_fine": 1264,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [
+    "L07"
+   ],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Consolida il potere estense contro Salinguerra; padre della beata Beatrice II",
+   "domanda_critica": "Quanto conta una vittoria militare per fondare un potere duraturo?",
+   "personaggi_collegati": [
+    "P06",
+    "P11",
+    "P12"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta: citato nella narrazione ma privo di scheda.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P11",
+   "nome": "Beata Beatrice II d'Este",
+   "periodo": "m. 1262",
+   "anno_inizio": null,
+   "anno_fine": 1262,
+   "tipo": "persona",
+   "categorie": [
+    "religione",
+    "memoria"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L07",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Figlia di Azzo VII; la sua vicenda è legata alla comunità benedettina di Sant'Antonio in Polesine, dove si conserva la tomba",
+   "domanda_critica": "La storia di una famiglia potente coincide con la storia di chi esercita formalmente il potere?",
+   "personaggi_collegati": [
+    "P10",
+    "P91",
+    "P35"
+   ],
+   "livello_gioco": "1-5",
+   "note_verifica": "Data di fondazione del monastero (tradizionalmente 1257) da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "MuseoFerrara"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P12",
+   "nome": "Obizzo II d'Este",
+   "periodo": "1247-1293",
+   "anno_inizio": 1247,
+   "anno_fine": 1293,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [
+    "L08"
+   ],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Nel 1264 è riconosciuto signore di Ferrara: nasce la signoria",
+   "domanda_critica": "Che differenza c'è tra governare una città e diventarne signore?",
+   "personaggi_collegati": [
+    "P10",
+    "P09"
+   ],
+   "livello_gioco": "1-6",
+   "note_verifica": "Il Castello (1385) è successivo: il luogo vale come simbolo del potere.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P13",
+   "nome": "Obizzo III d'Este",
+   "periodo": "1294-1352",
+   "anno_inizio": 1294,
+   "anno_fine": 1352,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L06",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Passaggio dal dominio personale alla costruzione di istituzioni",
+   "domanda_critica": "Come si vede il potere nella vita quotidiana?",
+   "personaggi_collegati": [
+    "P12"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P14",
+   "nome": "Azzo VIII d'Este",
+   "periodo": "m. 1308",
+   "anno_inizio": null,
+   "anno_fine": 1308,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Crisi successoria alla sua morte e intervento papale e veneziano",
+   "domanda_critica": "Che cosa succede a un potere quando manca un erede riconosciuto?",
+   "personaggi_collegati": [
+    "P12",
+    "P58"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta: citato nella narrazione. Utile come anticipazione della Devoluzione.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P15",
+   "nome": "Nicolò II d'Este",
+   "periodo": "1338-1388",
+   "anno_inizio": 1338,
+   "anno_fine": 1388,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "architettura"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Dopo la rivolta del 1385 fa costruire il Castello di San Michele, cioè il Castello Estense",
+   "domanda_critica": "Perché una città costruisce una fortezza dentro se stessa?",
+   "personaggi_collegati": [
+    "P16"
+   ],
+   "livello_gioco": "1-7",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Castello Estense"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P16",
+   "nome": "Alberto V d'Este",
+   "periodo": "1347-1393",
+   "anno_inizio": 1347,
+   "anno_fine": 1393,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "istruzione"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Nel 1391 ottiene da papa Bonifacio IX la bolla di fondazione dello Studio",
+   "domanda_critica": "Che cosa succede a una città quando comincia ad attirare persone da fuori per studiare?",
+   "personaggi_collegati": [
+    "P89"
+   ],
+   "livello_gioco": "1-8",
+   "note_verifica": "Palazzo Paradiso diventa sede dello Studio solo più tardi (XVI secolo): il legame con il luogo è di memoria, non di vita.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Università degli Studi di Ferrara"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P17",
+   "nome": "Nicolò III d'Este",
+   "periodo": "1383-1441",
+   "anno_inizio": 1383,
+   "anno_fine": 1441,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Apre la grande stagione estense; la vicenda di Parisina (1425) diventa poi materia letteraria",
+   "domanda_critica": "Come si trasforma un fatto di cronaca di corte in una storia romantica?",
+   "personaggi_collegati": [
+    "P18",
+    "P22",
+    "P19"
+   ],
+   "livello_gioco": "1-9",
+   "note_verifica": "Scheda aggiunta: citato nella narrazione.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P18",
+   "nome": "Leonello d'Este",
+   "periodo": "1407-1450",
+   "anno_inizio": 1407,
+   "anno_fine": 1450,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "cultura"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Usa la cultura come strumento di prestigio politico",
+   "domanda_critica": "Quanto di ciò che attribuiamo a un protagonista è stato preparato da chi è venuto prima?",
+   "personaggi_collegati": [
+    "P19",
+    "P20",
+    "P21",
+    "P22"
+   ],
+   "livello_gioco": "1-10",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P19",
+   "nome": "Guarino Veronese",
+   "periodo": "1374-1460",
+   "anno_inizio": 1374,
+   "anno_fine": 1460,
+   "tipo": "persona",
+   "categorie": [
+    "istruzione",
+    "letteratura"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [
+    "L08"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Maestro umanista alla corte estense e nello Studio; insegna greco e latino",
+   "domanda_critica": "Quanto di una cultura dipende dalle persone che insegnano?",
+   "personaggi_collegati": [
+    "P18",
+    "P17"
+   ],
+   "livello_gioco": "1-9",
+   "note_verifica": "Il Palazzo dei Diamanti indicato nel materiale è posteriore alla morte di Guarino (costruito dal 1493): luogo corretto.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P20",
+   "nome": "Leon Battista Alberti",
+   "periodo": "1404-1472",
+   "anno_inizio": 1404,
+   "anno_fine": 1472,
+   "tipo": "persona",
+   "categorie": [
+    "architettura",
+    "scienza",
+    "crittografia"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Frequenta la corte di Leonello; autore del De cifris (1467), con il primo cifrario polialfabetico a disco",
+   "domanda_critica": "Chi ha il diritto di leggere un messaggio?",
+   "personaggi_collegati": [
+    "P18"
+   ],
+   "livello_gioco": "1-10",
+   "note_verifica": "Scheda aggiunta. Il legame con Ferrara (monumento equestre a Nicolò III, rapporti con Leonello) va precisato.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P21",
+   "nome": "Pisanello",
+   "periodo": "c. 1395-1455",
+   "anno_inizio": 1395,
+   "anno_fine": 1455,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E3",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Ritratti e medaglie di Leonello: il ritratto come strumento politico",
+   "domanda_critica": "Un ritratto mostra una persona o costruisce un'immagine della persona?",
+   "personaggi_collegati": [
+    "P18"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Il ritratto di Leonello non è conservato a Ferrara (Accademia Carrara, Bergamo): il luogo è simbolico.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P22",
+   "nome": "Borso d'Este",
+   "periodo": "1413-1471",
+   "anno_inizio": 1413,
+   "anno_fine": 1471,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "cultura"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L10",
+   "luoghi_secondari": [
+    "L08",
+    "L11",
+    "L05"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Duca di Modena e Reggio dal 1452, duca di Ferrara nel 1471 per concessione di papa Paolo II; fonda la Certosa; committente di Schifanoia e della Bibbia di Borso",
+   "domanda_critica": "Quanto dell'immagine di un sovrano viene costruito dal sovrano stesso?",
+   "personaggi_collegati": [
+    "P18",
+    "P23",
+    "P24",
+    "P25",
+    "P26",
+    "P27"
+   ],
+   "livello_gioco": "1-12",
+   "note_verifica": "Protagonista narrativo e narratore dell'anno 1.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P23",
+   "nome": "Cosmè Tura",
+   "periodo": "c. 1430-1495",
+   "anno_inizio": 1430,
+   "anno_fine": 1495,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L12",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Capostipite dell'Officina ferrarese",
+   "domanda_critica": "Come può un'intera città sviluppare una propria identità artistica?",
+   "personaggi_collegati": [
+    "P24",
+    "P25"
+   ],
+   "livello_gioco": "1-13",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P24",
+   "nome": "Francesco del Cossa",
+   "periodo": "c. 1436-1478",
+   "anno_inizio": 1436,
+   "anno_fine": 1478,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L10",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Affreschi del Salone dei Mesi a Palazzo Schifanoia",
+   "domanda_critica": "Chi decide che cosa deve essere rappresentato?",
+   "personaggi_collegati": [
+    "P22",
+    "P26"
+   ],
+   "livello_gioco": "1-12",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P25",
+   "nome": "Ercole de' Roberti",
+   "periodo": "c. 1451-1496",
+   "anno_inizio": 1451,
+   "anno_fine": 1496,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L10",
+   "luoghi_secondari": [
+    "L12"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Innovazione della scuola ferrarese",
+   "domanda_critica": "Quanto nasce un'innovazione da un singolo artista e quanto dall'ambiente in cui lavora?",
+   "personaggi_collegati": [
+    "P24"
+   ],
+   "livello_gioco": "1-12",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P26",
+   "nome": "Pellegrino Prisciani",
+   "periodo": "c. 1435-1518",
+   "anno_inizio": 1435,
+   "anno_fine": 1518,
+   "tipo": "persona",
+   "categorie": [
+    "scienza",
+    "archivi"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L10",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D",
+    "I"
+   ],
+   "evento_principale": "Astrologo, bibliotecario e archivista estense, a cui si attribuisce il programma iconografico del Salone dei Mesi",
+   "domanda_critica": "Chi è l'autore di un'opera collettiva?",
+   "personaggi_collegati": [
+    "P24",
+    "P22"
+   ],
+   "livello_gioco": "1-12",
+   "note_verifica": "Scheda aggiunta. L'attribuzione del programma di Schifanoia è discussa.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P27",
+   "nome": "Taddeo Crivelli e i miniatori della Bibbia di Borso",
+   "periodo": "1455-1461",
+   "anno_inizio": 1455,
+   "anno_fine": 1461,
+   "tipo": "gruppo",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L12",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Miniano la Bibbia di Borso, oggi alla Biblioteca Estense di Modena",
+   "domanda_critica": "Perché un'opera nata a Ferrara si trova oggi in un'altra città?",
+   "personaggi_collegati": [
+    "P22"
+   ],
+   "livello_gioco": "1-13",
+   "note_verifica": "Scheda aggiunta. La Bibbia è conservata a Modena: aggancio utile con la Devoluzione (1-22).",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P28",
+   "nome": "Tito Vespasiano Strozzi",
+   "periodo": "1424-1505",
+   "anno_inizio": 1424,
+   "anno_fine": 1505,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura",
+    "politica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Poeta umanista e funzionario della corte",
+   "domanda_critica": "Quanto è libero un intellettuale quando dipende da una corte?",
+   "personaggi_collegati": [
+    "P29"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Il luogo \"Palazzo Strozzi\" indicato nel materiale va identificato.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P29",
+   "nome": "Matteo Maria Boiardo",
+   "periodo": "1441-1494",
+   "anno_inizio": 1441,
+   "anno_fine": 1494,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Scrive l'Orlando innamorato",
+   "domanda_critica": "Una storia inventata può diventare parte della cultura reale di una società?",
+   "personaggi_collegati": [
+    "P37"
+   ],
+   "livello_gioco": "1-17",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P30",
+   "nome": "Ercole I d'Este",
+   "periodo": "1431-1505",
+   "anno_inizio": 1431,
+   "anno_fine": 1505,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "urbanistica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L13",
+   "luoghi_secondari": [
+    "L12",
+    "L15"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Promuove l'Addizione Erculea (dal 1492); accoglie esuli sefarditi; mecenate musicale (Josquin)",
+   "domanda_critica": "Quanto può trasformare una città la visione di un singolo governante?",
+   "personaggi_collegati": [
+    "P31",
+    "P33",
+    "P88"
+   ],
+   "livello_gioco": "1-14",
+   "note_verifica": "Protagonista dell'anno 2 secondo la cornice del curricolo.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P31",
+   "nome": "Biagio Rossetti",
+   "periodo": "c. 1447-1516",
+   "anno_inizio": 1447,
+   "anno_fine": 1516,
+   "tipo": "persona",
+   "categorie": [
+    "architettura",
+    "urbanistica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L13",
+   "luoghi_secondari": [
+    "L12"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Progetta l'Addizione Erculea e il Palazzo dei Diamanti",
+   "domanda_critica": "Quando progettiamo una città, per chi la stiamo progettando?",
+   "personaggi_collegati": [
+    "P30"
+   ],
+   "livello_gioco": "1-14",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Ferrara Terra e Acqua"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P32",
+   "nome": "Isabella d'Este",
+   "periodo": "1474-1539",
+   "anno_inizio": 1474,
+   "anno_fine": 1539,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "cultura"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Nata a Ferrara, marchesa di Mantova: potere femminile e reti dinastiche",
+   "domanda_critica": "Potere formale e influenza sono la stessa cosa?",
+   "personaggi_collegati": [
+    "P30",
+    "P36"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "La sua attività si svolge soprattutto a Mantova: il legame con Ferrara è di origine.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P33",
+   "nome": "Josquin des Prez",
+   "periodo": "c. 1450-1521",
+   "anno_inizio": 1450,
+   "anno_fine": 1521,
+   "tipo": "persona",
+   "categorie": [
+    "musica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Maestro di cappella di Ercole I (1503-1504); la Missa Hercules Dux Ferrariae ricava il tema dalle vocali del nome del duca (soggetto cavato)",
+   "domanda_critica": "Un nome può diventare musica? Che cos'è una codifica?",
+   "personaggi_collegati": [
+    "P30"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta: aggancio per la codifica del testo (1-9) e per l'anno 2.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P34",
+   "nome": "Girolamo Savonarola",
+   "periodo": "1452-1498",
+   "anno_inizio": 1452,
+   "anno_fine": 1498,
+   "tipo": "persona",
+   "categorie": [
+    "religione",
+    "politica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L06",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Nato a Ferrara, predicatore a Firenze",
+   "domanda_critica": "Una persona appartiene al luogo in cui nasce o a quelli in cui agisce?",
+   "personaggi_collegati": [],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta. Casa natale in via Savonarola: da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P35",
+   "nome": "Lucrezia Borgia",
+   "periodo": "1480-1519",
+   "anno_inizio": 1480,
+   "anno_fine": 1519,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "cultura",
+    "memoria"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L15",
+   "luoghi_secondari": [
+    "L08",
+    "L16"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Nel 1502 arriva a Ferrara come moglie di Alfonso I; è sepolta nel Corpus Domini. La sua figura è stata trasformata nel tempo da propaganda, letteratura e mito",
+   "domanda_critica": "Come nasce un mito storico? Chi era Lucrezia e chi è diventata nella memoria degli altri?",
+   "personaggi_collegati": [
+    "P36",
+    "P11",
+    "P57"
+   ],
+   "livello_gioco": "1-16",
+   "note_verifica": "La Palazzina Marfisa fu voluta dal figlio Francesco d'Este: il legame è indiretto.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P36",
+   "nome": "Alfonso I d'Este",
+   "periodo": "1476-1534",
+   "anno_inizio": 1476,
+   "anno_fine": 1534,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "tecnica",
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [
+    "L15"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Duca-artigliere e fonditore; committente del Camerino d'alabastro; protegge Ariosto",
+   "domanda_critica": "Quando una tecnologia cambia la guerra, chi ne porta la responsabilità?",
+   "personaggi_collegati": [
+    "P35",
+    "P37",
+    "P48"
+   ],
+   "livello_gioco": "1-18",
+   "note_verifica": "Scheda aggiunta: è uno dei cinque duchi (protagonista dell'anno 3).",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P37",
+   "nome": "Ludovico Ariosto",
+   "periodo": "1474-1533",
+   "anno_inizio": 1474,
+   "anno_fine": 1533,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L14",
+   "luoghi_secondari": [
+    "L09"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Lavora nella corte estense e scrive l'Orlando furioso (1516-1532); la tomba è a Palazzo Paradiso",
+   "domanda_critica": "Possiamo distinguere ciò che un narratore racconta da ciò che il narratore pensa?",
+   "personaggi_collegati": [
+    "P29",
+    "P36"
+   ],
+   "livello_gioco": "1-17",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P38",
+   "nome": "Niccolò Leoniceno",
+   "periodo": "1428-1524",
+   "anno_inizio": 1428,
+   "anno_fine": 1524,
+   "tipo": "persona",
+   "categorie": [
+    "medicina",
+    "filologia"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Medico e filologo: corregge gli errori degli autori antichi (Plinio)",
+   "domanda_critica": "Che cosa dobbiamo fare quando ciò che osserviamo sembra contraddire un'autorità antica?",
+   "personaggi_collegati": [
+    "P39",
+    "P44"
+   ],
+   "livello_gioco": "1-19",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Università degli Studi di Ferrara"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P39",
+   "nome": "Giovanni Manardo",
+   "periodo": "1462-1536",
+   "anno_inizio": 1462,
+   "anno_fine": 1536,
+   "tipo": "persona",
+   "categorie": [
+    "medicina"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Medicina e trasformazione del sapere",
+   "domanda_critica": "Come si passa dalla conoscenza tramandata alla conoscenza verificata?",
+   "personaggi_collegati": [
+    "P38"
+   ],
+   "livello_gioco": "1-19",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P40",
+   "nome": "Ludovico Bonaccioli",
+   "periodo": "c. 1475-1537",
+   "anno_inizio": 1475,
+   "anno_fine": 1537,
+   "tipo": "persona",
+   "categorie": [
+    "medicina"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Medico di corte, studi sul corpo umano",
+   "domanda_critica": "Come cambia una società quando cambia il modo in cui interpreta il corpo?",
+   "personaggi_collegati": [
+    "P35"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P41",
+   "nome": "Celio Calcagnini",
+   "periodo": "1479-1541",
+   "anno_inizio": 1479,
+   "anno_fine": 1541,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura",
+    "scienza"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Umanista e scienziato; scrive sul moto della Terra",
+   "domanda_critica": "Siamo noi a dividere la conoscenza in discipline?",
+   "personaggi_collegati": [
+    "P42"
+   ],
+   "livello_gioco": "1-15",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P42",
+   "nome": "Niccolò Copernico",
+   "periodo": "1473-1543",
+   "anno_inizio": 1473,
+   "anno_fine": 1543,
+   "tipo": "persona",
+   "categorie": [
+    "scienza",
+    "astronomia"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Nel 1503 si laurea in diritto canonico a Ferrara",
+   "domanda_critica": "Quanto siamo disposti a mettere in discussione una visione del mondo che sembra ovvia?",
+   "personaggi_collegati": [
+    "P41"
+   ],
+   "livello_gioco": "1-15",
+   "note_verifica": "La laurea avviene prima che lo Studio abbia sede a Palazzo Paradiso: il legame con il luogo è di memoria.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Università degli Studi di Ferrara"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P43",
+   "nome": "Paracelso",
+   "periodo": "1493-1541",
+   "anno_inizio": 1493,
+   "anno_fine": 1541,
+   "tipo": "persona",
+   "categorie": [
+    "medicina",
+    "chimica"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "I"
+   ],
+   "evento_principale": "Legato agli ambienti medici dello Studio; la sua laurea ferrarese è discussa",
+   "domanda_critica": "Una teoria nuova va accettata perché è rivoluzionaria o valutata per le prove che porta?",
+   "personaggi_collegati": [
+    "P38"
+   ],
+   "livello_gioco": "1-19",
+   "note_verifica": "Il conseguimento del titolo a Ferrara è controverso: ottimo caso per l'etichetta I.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P44",
+   "nome": "Antonio Musa Brasavola",
+   "periodo": "1500-1555",
+   "anno_inizio": 1500,
+   "anno_fine": 1555,
+   "tipo": "persona",
+   "categorie": [
+    "medicina",
+    "botanica"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Medicina, botanica e farmacia",
+   "domanda_critica": "Come si trasforma un sapere quando viene sottoposto a osservazione e pratica?",
+   "personaggi_collegati": [
+    "P38"
+   ],
+   "livello_gioco": "1-19",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P45",
+   "nome": "Gabriele Falloppio",
+   "periodo": "1523-1562",
+   "anno_inizio": 1523,
+   "anno_fine": 1562,
+   "tipo": "persona",
+   "categorie": [
+    "medicina",
+    "anatomia"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Anatomia e osservazione",
+   "domanda_critica": "Che cosa rende più convincente un'osservazione rispetto all'autorità di un testo?",
+   "personaggi_collegati": [
+    "P46"
+   ],
+   "livello_gioco": "1-19",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P46",
+   "nome": "Giovanni Battista Canani",
+   "periodo": "1515-1579",
+   "anno_inizio": 1515,
+   "anno_fine": 1579,
+   "tipo": "persona",
+   "categorie": [
+    "medicina",
+    "anatomia"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Anatomia: tavole anatomiche",
+   "domanda_critica": "Una rappresentazione scientifica è la realtà o un modello della realtà?",
+   "personaggi_collegati": [
+    "P45"
+   ],
+   "livello_gioco": "1-19",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P47",
+   "nome": "Benvenuto Tisi detto il Garofalo",
+   "periodo": "c. 1481-1559",
+   "anno_inizio": 1481,
+   "anno_fine": 1559,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L12",
+   "luoghi_secondari": [
+    "L02"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "La pittura ferrarese nel pieno Rinascimento",
+   "domanda_critica": "Quando uno stile diventa riconoscibile come appartenente a una città?",
+   "personaggi_collegati": [
+    "P48"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Nome proprio: Benvenuto Tisi (nel materiale compare \"Beniamino\").",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P48",
+   "nome": "Dosso Dossi",
+   "periodo": "c. 1486-1542",
+   "anno_inizio": 1486,
+   "anno_fine": 1542,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L12",
+   "luoghi_secondari": [
+    "L08"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Pittore della corte di Alfonso I",
+   "domanda_critica": "Un artista che lavora per una corte è un artista indipendente?",
+   "personaggi_collegati": [
+    "P36"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P49",
+   "nome": "Ercole II d'Este",
+   "periodo": "1508-1559",
+   "anno_inizio": 1508,
+   "anno_fine": 1559,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Duca dal 1534; marito di Renata di Francia",
+   "domanda_critica": "Si può governare uno Stato cattolico con una corte aperta alla Riforma?",
+   "personaggi_collegati": [
+    "P50",
+    "P36",
+    "P51"
+   ],
+   "livello_gioco": "1-20",
+   "note_verifica": "Scheda aggiunta: è uno dei cinque duchi (protagonista dell'anno 4).",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P50",
+   "nome": "Renata di Francia",
+   "periodo": "1510-1575",
+   "anno_inizio": 1510,
+   "anno_fine": 1575,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "religione"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Porta a corte idee della Riforma; ospita Calvino (1536); tensioni con Roma",
+   "domanda_critica": "La cultura è mai completamente separata dalla politica?",
+   "personaggi_collegati": [
+    "P49"
+   ],
+   "livello_gioco": "1-20",
+   "note_verifica": "Scheda aggiunta: citata nella narrazione.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P51",
+   "nome": "Alfonso II d'Este",
+   "periodo": "1533-1597",
+   "anno_inizio": 1533,
+   "anno_fine": 1597,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "musica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [
+    "L17"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Ultimo duca a Ferrara; corte musicale; terremoto del 1570; muore senza erede legittimo riconosciuto",
+   "domanda_critica": "Che cosa succede a una città costruita attorno a una corte quando la corte finisce?",
+   "personaggi_collegati": [
+    "P52",
+    "P53",
+    "P54",
+    "P56",
+    "P58"
+   ],
+   "livello_gioco": "1-21",
+   "note_verifica": "Scheda aggiunta: è uno dei cinque duchi (protagonista dell'anno 5).",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P52",
+   "nome": "Torquato Tasso",
+   "periodo": "1544-1595",
+   "anno_inizio": 1544,
+   "anno_fine": 1595,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L17",
+   "luoghi_secondari": [
+    "L08"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Poeta della corte di Alfonso II, recluso a Sant'Anna dal 1579 al 1586",
+   "domanda_critica": "Che cosa succede quando un artista non coincide con l'immagine che il pubblico costruisce di lui?",
+   "personaggi_collegati": [
+    "P51"
+   ],
+   "livello_gioco": "1-21",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P53",
+   "nome": "Luzzasco Luzzaschi",
+   "periodo": "c. 1545-1607",
+   "anno_inizio": 1545,
+   "anno_fine": 1607,
+   "tipo": "persona",
+   "categorie": [
+    "musica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Musica di corte e concerto delle dame",
+   "domanda_critica": "Quanto della cultura di una città rischiamo di perdere se conserviamo soprattutto edifici e documenti scritti?",
+   "personaggi_collegati": [
+    "P54",
+    "P55"
+   ],
+   "livello_gioco": "1-21",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P54",
+   "nome": "Il concerto delle dame",
+   "periodo": "anni 1580-1597",
+   "anno_inizio": 1580,
+   "anno_fine": 1597,
+   "tipo": "gruppo",
+   "categorie": [
+    "musica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "C"
+   ],
+   "evento_principale": "Ensemble di cantatrici professioniste della corte di Alfonso II",
+   "domanda_critica": "Chi erano le musiciste di cui ricordiamo meno i nomi?",
+   "personaggi_collegati": [
+    "P53",
+    "P51"
+   ],
+   "livello_gioco": "1-21",
+   "note_verifica": "Scheda aggiunta.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P55",
+   "nome": "Girolamo Frescobaldi",
+   "periodo": "1583-1643",
+   "anno_inizio": 1583,
+   "anno_fine": 1643,
+   "tipo": "persona",
+   "categorie": [
+    "musica"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L02",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Nato a Ferrara, costruisce una carriera europea",
+   "domanda_critica": "Una persona appartiene al luogo in cui nasce o ai luoghi nei quali costruisce la propria vita?",
+   "personaggi_collegati": [
+    "P53"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P56",
+   "nome": "Pirro Ligorio",
+   "periodo": "c. 1512-1583",
+   "anno_inizio": 1512,
+   "anno_fine": 1583,
+   "tipo": "persona",
+   "categorie": [
+    "architettura",
+    "scienza"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L08",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Al servizio di Alfonso II, dopo il terremoto del 1570 scrive un trattato sui terremoti con proposte di edilizia antisismica",
+   "domanda_critica": "Si può imparare da una catastrofe a costruire meglio?",
+   "personaggi_collegati": [
+    "P51"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta: aggancio per la simulazione dell'anno 5.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P57",
+   "nome": "Marfisa d'Este",
+   "periodo": "c. 1554-1608",
+   "anno_inizio": 1554,
+   "anno_fine": 1608,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "memoria"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L16",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "L"
+   ],
+   "evento_principale": "Dà il nome alla palazzina; attorno a lei fiorisce una leggenda popolare",
+   "domanda_critica": "Perché certe persone diventano protagoniste di leggende?",
+   "personaggi_collegati": [
+    "P35"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P58",
+   "nome": "Papa Clemente VIII e la Devoluzione",
+   "periodo": "1598",
+   "anno_inizio": 1598,
+   "anno_fine": 1598,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "religione"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [
+    "L21"
+   ],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Rivendica Ferrara come feudo pontificio: nel 1598 gli Este si trasferiscono a Modena",
+   "domanda_critica": "Una città che perde la propria corte scompare o si reinventa?",
+   "personaggi_collegati": [
+    "P51"
+   ],
+   "livello_gioco": "1-22",
+   "note_verifica": "Scheda aggiunta.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Università di Ferrara, studi sulla Devoluzione"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P59",
+   "nome": "Bartolomeo Chiozzi, il \"Mago Chiozzino\"",
+   "periodo": "1671-1741",
+   "anno_inizio": 1671,
+   "anno_fine": 1741,
+   "tipo": "persona",
+   "categorie": [
+    "scienza",
+    "memoria",
+    "leggenda"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L18",
+   "luoghi_secondari": [],
+   "legame_luogo": "E",
+   "certezza": [
+    "D?",
+    "L",
+    "F"
+   ],
+   "evento_principale": "Ingegnere idraulico nato a Mantova, vissuto appartato a Ferrara; la fama di mago nasce dalle sue attività scientifiche; Bacchelli lo trasforma in personaggio del Mulino del Po; il vicolo gli è intitolato nel 1967",
+   "domanda_critica": "Se una leggenda nasce da una persona realmente esistita, dove finisce la storia e dove comincia la leggenda?",
+   "personaggi_collegati": [
+    "P60",
+    "P61"
+   ],
+   "livello_gioco": "1-23",
+   "note_verifica": "Dati biografici da fonte enciclopedica aperta (Wikipedia): verificare su fonti d'archivio. Collegamento con Bonati: entrambi uomini delle acque.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Wikipedia, voci \"Bartolomeo Chiozzi\" e \"Vicolo del Chiozzino\""
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P60",
+   "nome": "Riccardo Bacchelli",
+   "periodo": "1891-1985",
+   "anno_inizio": 1891,
+   "anno_fine": 1985,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L18",
+   "luoghi_secondari": [
+    "L01"
+   ],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Con Il mulino del Po trasforma la storia del territorio ferrarese in romanzo",
+   "domanda_critica": "Che cosa aggiunge un romanziere a una storia vera?",
+   "personaggi_collegati": [
+    "P59"
+   ],
+   "livello_gioco": "1-29",
+   "note_verifica": "Scheda aggiunta: indispensabile per la missione del Chiozzino.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P61",
+   "nome": "Teodoro Bonati",
+   "periodo": "1724-1820",
+   "anno_inizio": 1724,
+   "anno_fine": 1820,
+   "tipo": "persona",
+   "categorie": [
+    "matematica",
+    "ingegneria",
+    "territorio"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L01",
+   "luoghi_secondari": [
+    "L11"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Matematico e ingegnere idraulico: le acque, le bonifiche, il Po",
+   "domanda_critica": "La natura deve essere dominata oppure compresa e governata insieme alle esigenze umane?",
+   "personaggi_collegati": [
+    "P59",
+    "P92",
+    "P83"
+   ],
+   "livello_gioco": "1-24",
+   "note_verifica": "Monumento in Certosa da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P62",
+   "nome": "Antonio Foschini",
+   "periodo": "1741-1813",
+   "anno_inizio": 1741,
+   "anno_fine": 1813,
+   "tipo": "persona",
+   "categorie": [
+    "architettura"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L19",
+   "luoghi_secondari": [
+    "L11"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Progetta con Cosimo Morelli il Teatro Comunale",
+   "domanda_critica": "Dove finisce l'arte e dove comincia la tecnica?",
+   "personaggi_collegati": [
+    "P63"
+   ],
+   "livello_gioco": "1-25",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P63",
+   "nome": "Napoleone e l'età francese",
+   "periodo": "1796-1814",
+   "anno_inizio": 1796,
+   "anno_fine": 1814,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D",
+    "I"
+   ],
+   "evento_principale": "Nel 1796 i francesi entrano a Ferrara: Repubblica Cispadana, Cisalpina, Regno d'Italia; nuove idee e nuove istituzioni, ma anche requisizioni e confische",
+   "domanda_critica": "La stessa trasformazione può essere vista da punti di vista diversi?",
+   "personaggi_collegati": [
+    "P62"
+   ],
+   "livello_gioco": "1-25",
+   "note_verifica": "Scheda aggiunta: la narrazione tratta il periodo senza scheda.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P64",
+   "nome": "Ugo Bassi",
+   "periodo": "1801-1849",
+   "anno_inizio": 1801,
+   "anno_fine": 1849,
+   "tipo": "persona",
+   "categorie": [
+    "religione",
+    "politica"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L20",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Barnabita nato a Cento, cappellano dei volontari, fucilato nel 1849",
+   "domanda_critica": "Quando un ideale politico diventa parte dell'identità personale?",
+   "personaggi_collegati": [
+    "P66"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P65",
+   "nome": "Tancredi Mosti Trotti Estense",
+   "periodo": "1812-1869",
+   "anno_inizio": 1812,
+   "anno_fine": 1869,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "militare"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L20",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Comandante dei Bersaglieri del Po",
+   "domanda_critica": "Come si forma un'identità politica collettiva?",
+   "personaggi_collegati": [
+    "P66"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "Date da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P66",
+   "nome": "I Bersaglieri del Po",
+   "periodo": "1848-1849",
+   "anno_inizio": 1848,
+   "anno_fine": 1849,
+   "tipo": "gruppo",
+   "categorie": [
+    "politica",
+    "militare",
+    "memoria"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L20",
+   "luoghi_secondari": [
+    "L21"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "C",
+    "M"
+   ],
+   "evento_principale": "Corpo volontario ferrarese del 1848",
+   "domanda_critica": "Che cosa significava essere italiani prima che esistesse l'Italia unita? Quando un gruppo diventa simbolo, che cosa rischiamo di dimenticare?",
+   "personaggi_collegati": [
+    "P65",
+    "P64"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P67",
+   "nome": "Domenico Malagutti",
+   "periodo": "m. 1853",
+   "anno_inizio": null,
+   "anno_fine": 1853,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "memoria"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L20",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Uno dei tre martiri fucilati a Ferrara il 16 marzo 1853",
+   "domanda_critica": "Chi decide quali morti diventano simboli pubblici?",
+   "personaggi_collegati": [
+    "P68",
+    "P69"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "Data dell'esecuzione da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P68",
+   "nome": "Giacomo Succi",
+   "periodo": "m. 1853",
+   "anno_inizio": null,
+   "anno_fine": 1853,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "memoria"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L20",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Martire del 1853",
+   "domanda_critica": "La memoria pubblica racconta tutti nello stesso modo?",
+   "personaggi_collegati": [
+    "P67",
+    "P69"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P69",
+   "nome": "Luigi Parmeggiani",
+   "periodo": "m. 1853",
+   "anno_inizio": null,
+   "anno_fine": 1853,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "memoria"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L20",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Martire del 1853",
+   "domanda_critica": "Che rapporto c'è fra un individuo e il mito patriottico costruito su di lui?",
+   "personaggi_collegati": [
+    "P67",
+    "P68"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P70",
+   "nome": "Gioacchino (Nino) Bonnet",
+   "periodo": "XIX secolo",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "persona",
+   "categorie": [
+    "politica",
+    "memoria"
+   ],
+   "epoca": "E6",
+   "luogo_principale": "L32",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Probabilmente il patriota comacchiese che nel 1849 aiutò Garibaldi a sfuggire agli austriaci nelle Valli, dopo la morte di Anita",
+   "domanda_critica": "Quanto conta chi aiuta, rispetto a chi viene ricordato come eroe?",
+   "personaggi_collegati": [
+    "P66"
+   ],
+   "livello_gioco": "1-26",
+   "note_verifica": "IDENTITÀ DA VERIFICARE: il materiale lo indica come \"memoria culturale, Certosa\". A Ferrara esiste via Nino Bonnet; l'identificazione con il Bonnet della trafila garibaldina è un'ipotesi di Claude da controllare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro (ricollocato)",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P71",
+   "nome": "Giovanni Boldini",
+   "periodo": "1842-1931",
+   "anno_inizio": 1842,
+   "anno_fine": 1931,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L11",
+   "luoghi_secondari": [
+    "L26"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Parte da Ferrara per una carriera internazionale; sepolto in Certosa",
+   "domanda_critica": "Quanto della propria identità una persona porta con sé quando lascia la propria città?",
+   "personaggi_collegati": [
+    "P72",
+    "P74"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P72",
+   "nome": "Gaetano Previati",
+   "periodo": "1852-1920",
+   "anno_inizio": 1852,
+   "anno_fine": 1920,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L26",
+   "luoghi_secondari": [
+    "L11"
+   ],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Porta Ferrara nella modernità pittorica",
+   "domanda_critica": "Un'opera deve assomigliare alla realtà per rappresentarla?",
+   "personaggi_collegati": [
+    "P71"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P73",
+   "nome": "Giorgio de Chirico",
+   "periodo": "1888-1978",
+   "anno_inizio": 1888,
+   "anno_fine": 1978,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L12",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "A Ferrara negli anni della prima guerra mondiale: la pittura metafisica",
+   "domanda_critica": "Quando un artista rappresenta una città, rappresenta la città o il proprio modo di percepirla?",
+   "personaggi_collegati": [
+    "P74"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P74",
+   "nome": "Filippo de Pisis",
+   "periodo": "1896-1956",
+   "anno_inizio": 1896,
+   "anno_fine": 1956,
+   "tipo": "persona",
+   "categorie": [
+    "arte",
+    "letteratura",
+    "scienze naturali"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L26",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Attraversa letteratura, pittura, collezionismo, scienze naturali e cultura europea",
+   "domanda_critica": "Una persona deve essere definita da una sola professione? Esiste una rappresentazione neutrale della realtà?",
+   "personaggi_collegati": [
+    "P73",
+    "P82"
+   ],
+   "livello_gioco": null,
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P75",
+   "nome": "Corrado Govoni",
+   "periodo": "1884-1965",
+   "anno_inizio": 1884,
+   "anno_fine": 1965,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L11",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Poeta ferrarese, tra crepuscolari e futuristi",
+   "domanda_critica": "Come si racconta in poesia un paesaggio di pianura?",
+   "personaggi_collegati": [],
+   "livello_gioco": null,
+   "note_verifica": "Scheda aggiunta: citato nella lista della Certosa. Luogo di sepoltura da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "aggiunta",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P76",
+   "nome": "Carlo Savonuzzi",
+   "periodo": "1897-1973",
+   "anno_inizio": 1897,
+   "anno_fine": 1973,
+   "tipo": "persona",
+   "categorie": [
+    "architettura",
+    "ingegneria"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L11",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Architettura e trasformazione urbana nel Novecento",
+   "domanda_critica": "Come cambia una città quando la modernità interviene su una città storica?",
+   "personaggi_collegati": [],
+   "livello_gioco": null,
+   "note_verifica": "Date e sepoltura da verificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P77",
+   "nome": "Alda Costa",
+   "periodo": "1876-1944",
+   "anno_inizio": 1876,
+   "anno_fine": 1944,
+   "tipo": "persona",
+   "categorie": [
+    "istruzione",
+    "politica"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L06",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Maestra, socialista e antifascista",
+   "domanda_critica": "Quanto può cambiare una società attraverso persone che educano ogni giorno senza diventare famose?",
+   "personaggi_collegati": [
+    "P79"
+   ],
+   "livello_gioco": "1-28",
+   "note_verifica": "Luogo specifico (scuola, targa) da identificare.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P78",
+   "nome": "Renzo Ravenna",
+   "periodo": "1893-1961",
+   "anno_inizio": 1893,
+   "anno_fine": 1961,
+   "tipo": "persona",
+   "categorie": [
+    "politica"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [
+    "L22"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "D",
+    "I"
+   ],
+   "evento_principale": "Podestà di Ferrara dal 1926 al 1938, ebreo: costretto a dimettersi dalle leggi razziali",
+   "domanda_critica": "Come può una società passare dalla convivenza alla discriminazione?",
+   "personaggi_collegati": [
+    "P88",
+    "P79"
+   ],
+   "livello_gioco": "1-28",
+   "note_verifica": "PROPOSTA DI CLAUDE, da approvare. È una figura complessa (fascista ed ebreo), da trattare con cura storiografica.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "proposta",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P79",
+   "nome": "Giorgio Bassani",
+   "periodo": "1916-2000",
+   "anno_inizio": 1916,
+   "anno_fine": 2000,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura",
+    "memoria"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L24",
+   "luoghi_secondari": [
+    "L22",
+    "L23",
+    "L30"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Costruisce una Ferrara letteraria della memoria; Una notte del '43; sepolto nel cimitero ebraico di via delle Vigne",
+   "domanda_critica": "La Ferrara che ricordiamo è la stessa Ferrara che è esistita? Una città raccontata da uno scrittore è la stessa che troveremmo negli archivi?",
+   "personaggi_collegati": [
+    "P81",
+    "P88",
+    "P77"
+   ],
+   "livello_gioco": "1-28",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Fondazione Giorgio Bassani"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P80",
+   "nome": "Renata Viganò",
+   "periodo": "1900-1976",
+   "anno_inizio": 1900,
+   "anno_fine": 1976,
+   "tipo": "persona",
+   "categorie": [
+    "letteratura",
+    "memoria"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L32",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Partigiana e scrittrice; L'Agnese va a morire è ambientato nelle Valli di Comacchio",
+   "domanda_critica": "Che cosa cambia quando una persona trasforma la propria esperienza in letteratura?",
+   "personaggi_collegati": [
+    "P79"
+   ],
+   "livello_gioco": "1-28",
+   "note_verifica": "Nata a Bologna: il legame è con il territorio provinciale (Valli), non con la città.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P81",
+   "nome": "Florestano Vancini",
+   "periodo": "1926-2008",
+   "anno_inizio": 1926,
+   "anno_fine": 2008,
+   "tipo": "persona",
+   "categorie": [
+    "cinema",
+    "memoria"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L29",
+   "luoghi_secondari": [
+    "L11",
+    "L30"
+   ],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Con La lunga notte del '43 (1960) porta al cinema il racconto di Bassani",
+   "domanda_critica": "Quando un film racconta un fatto storico, lo documenta o lo interpreta?",
+   "personaggi_collegati": [
+    "P79",
+    "P82"
+   ],
+   "livello_gioco": "1-28",
+   "note_verifica": "Da verificare l'esatta collocazione del largo a lui intitolato.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P82",
+   "nome": "Michelangelo Antonioni",
+   "periodo": "1912-2007",
+   "anno_inizio": 1912,
+   "anno_fine": 2007,
+   "tipo": "persona",
+   "categorie": [
+    "cinema"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L11",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Porta nel cinema una Ferrara fatta di spazi, silenzi e periferie",
+   "domanda_critica": "Quanto della realtà vediamo davvero quando guardiamo un'immagine? Un'inquadratura non è mai tutto il mondo.",
+   "personaggi_collegati": [
+    "P81",
+    "P74"
+   ],
+   "livello_gioco": "1-29",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P83",
+   "nome": "Giulio Natta",
+   "periodo": "1903-1979",
+   "anno_inizio": 1903,
+   "anno_fine": 1979,
+   "tipo": "persona",
+   "categorie": [
+    "scienza",
+    "chimica",
+    "industria"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L25",
+   "luoghi_secondari": [],
+   "legame_luogo": "B",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Contribuisce nel 1938 al primo impianto italiano di gomma sintetica a Ferrara; ricerca sui polimeri e produzione del polipropilene isotattico; Nobel per la chimica 1963",
+   "domanda_critica": "Quando una scoperta scientifica diventa tecnologia e quando industria? La scoperta appartiene solo allo scienziato?",
+   "personaggi_collegati": [
+    "P61",
+    "P22"
+   ],
+   "livello_gioco": "1-27",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Centro Ricerche Giulio Natta"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P84",
+   "nome": "Guido Carli",
+   "periodo": "1914-1993",
+   "anno_inizio": 1914,
+   "anno_fine": 1993,
+   "tipo": "persona",
+   "categorie": [
+    "economia",
+    "istituzioni"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L32",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Governatore della Banca d'Italia e ministro; la famiglia è originaria di Comacchio",
+   "domanda_critica": "Quanto resta legata al territorio d'origine una persona che entra nelle istituzioni nazionali?",
+   "personaggi_collegati": [],
+   "livello_gioco": null,
+   "note_verifica": "Nato a Brescia: il legame è con Comacchio (origine familiare), non con Ferrara città.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "Comune di Ferrara, Cronaca Comune 2022"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "esplorazione"
+  },
+  {
+   "id": "P85",
+   "nome": "Remo Brindisi",
+   "periodo": "1918-1996",
+   "anno_inizio": 1918,
+   "anno_fine": 1996,
+   "tipo": "persona",
+   "categorie": [
+    "arte"
+   ],
+   "epoca": "E8",
+   "luogo_principale": "L27",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Casa Museo al Lido di Spina: arte contemporanea e territorio provinciale",
+   "domanda_critica": "Quando una collezione diventa patrimonio culturale?",
+   "personaggi_collegati": [],
+   "livello_gioco": "1-30",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P86",
+   "nome": "Paolo Mazza",
+   "periodo": "1901-1981",
+   "anno_inizio": 1901,
+   "anno_fine": 1981,
+   "tipo": "persona",
+   "categorie": [
+    "sport",
+    "società"
+   ],
+   "epoca": "E7",
+   "luogo_principale": "L28",
+   "luoghi_secondari": [],
+   "legame_luogo": "C",
+   "certezza": [
+    "D",
+    "M"
+   ],
+   "evento_principale": "Presidente della SPAL; lo stadio porta il suo nome",
+   "domanda_critica": "Quando qualcosa diventa parte dell'identità di una città, deve essere necessariamente un monumento?",
+   "personaggi_collegati": [],
+   "livello_gioco": "1-30",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P87",
+   "nome": "Vasco Brondi",
+   "periodo": "1984-",
+   "anno_inizio": 1984,
+   "anno_fine": null,
+   "tipo": "persona",
+   "categorie": [
+    "musica",
+    "società"
+   ],
+   "epoca": "E8",
+   "luogo_principale": "L25",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "D"
+   ],
+   "evento_principale": "Ferrara contemporanea raccontata attraverso la musica",
+   "domanda_critica": "Chi racconta la propria città racconta la città o la propria esperienza della città?",
+   "personaggi_collegati": [],
+   "livello_gioco": "1-30",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P88",
+   "nome": "La comunità ebraica ferrarese",
+   "periodo": "dal Medioevo a oggi",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "gruppo",
+   "categorie": [
+    "religione",
+    "società",
+    "memoria"
+   ],
+   "epoca": "E4",
+   "luogo_principale": "L23",
+   "luoghi_secondari": [
+    "L22",
+    "L24"
+   ],
+   "legame_luogo": "A",
+   "certezza": [
+    "C"
+   ],
+   "evento_principale": "Famiglie, commerci, professioni, cultura; rapporti con gli Este (accoglienza dei sefarditi); ghetto pontificio (1624); leggi razziali (1938); persecuzione e Shoah; memoria",
+   "domanda_critica": "Come può una comunità appartenere a una città e mantenere una propria identità?",
+   "personaggi_collegati": [
+    "P30",
+    "P79",
+    "P78"
+   ],
+   "livello_gioco": "1-11",
+   "note_verifica": "Da trattare come protagonista e non solo come capitolo della persecuzione. Il ghetto viene istituito nel 1624.",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)",
+    "MEIS"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P89",
+   "nome": "Gli studenti dello Studio",
+   "periodo": "XIV-XVI secolo",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "gruppo",
+   "categorie": [
+    "istruzione"
+   ],
+   "epoca": "E5",
+   "luogo_principale": "L09",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "C"
+   ],
+   "evento_principale": "Persone che arrivano non per conquistare la città ma per imparare",
+   "domanda_critica": "Che cosa succede a una città quando le persone arrivano per imparare?",
+   "personaggi_collegati": [
+    "P16"
+   ],
+   "livello_gioco": "1-8",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P90",
+   "nome": "Mercanti, artigiani e cittadini",
+   "periodo": "tutte le epoche",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "gruppo",
+   "categorie": [
+    "società",
+    "economia"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L06",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "C"
+   ],
+   "evento_principale": "La vita quotidiana della città, oltre i governanti",
+   "domanda_critica": "Come cambia la vita quotidiana quando cambia il potere?",
+   "personaggi_collegati": [],
+   "livello_gioco": "1-4",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P91",
+   "nome": "Le monache di Sant'Antonio in Polesine",
+   "periodo": "XIII secolo - oggi",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "gruppo",
+   "categorie": [
+    "religione"
+   ],
+   "epoca": "E2",
+   "luogo_principale": "L07",
+   "luoghi_secondari": [],
+   "legame_luogo": "A",
+   "certezza": [
+    "C"
+   ],
+   "evento_principale": "Una storia al femminile e di lunga durata",
+   "domanda_critica": "Come può un'istituzione sopravvivere per secoli cambiando insieme alla società?",
+   "personaggi_collegati": [
+    "P11"
+   ],
+   "livello_gioco": "1-5",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P92",
+   "nome": "Il territorio del Po",
+   "periodo": "tutte le epoche",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "luogo_personaggio",
+   "categorie": [
+    "territorio"
+   ],
+   "epoca": "E1",
+   "luogo_principale": "L01",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "C"
+   ],
+   "evento_principale": "Il territorio condiziona agricoltura, trasporti, bonifiche, insediamenti, guerre, commerci, paesaggio",
+   "domanda_critica": "È la società a trasformare il territorio o il territorio a trasformare la società?",
+   "personaggi_collegati": [
+    "P61",
+    "P59"
+   ],
+   "livello_gioco": "1-1",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  },
+  {
+   "id": "P93",
+   "nome": "La città stessa",
+   "periodo": "tutte le epoche",
+   "anno_inizio": null,
+   "anno_fine": null,
+   "tipo": "luogo_personaggio",
+   "categorie": [
+    "memoria"
+   ],
+   "epoca": "E8",
+   "luogo_principale": "L05",
+   "luoghi_secondari": [],
+   "legame_luogo": "D",
+   "certezza": [
+    "C"
+   ],
+   "evento_principale": "Ferrara come personaggio principale: una città fatta di strati di tempo",
+   "domanda_critica": "Come facciamo a sapere che cosa è successo?",
+   "personaggi_collegati": [],
+   "livello_gioco": "1-30",
+   "note_verifica": "",
+   "fonti_orientamento": [
+    "Treccani, Enciclopedia e Dizionario Biografico degli Italiani (voce corrispondente)"
+   ],
+   "origine": "Pietro",
+   "ruolo_nel_gioco": "obbligatorio"
+  }
+ ]
+}
