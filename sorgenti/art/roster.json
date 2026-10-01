@@ -1,0 +1,2712 @@
+[
+ {
+  "codice": "P01",
+  "nome": "San Maurelio",
+  "anno": 1,
+  "categorie": [
+   "religione",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "VII secolo (tradizione)",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P02",
+  "nome": "San Giorgio",
+  "anno": 1,
+  "categorie": [
+   "religione",
+   "memoria"
+  ],
+  "tipo": "figura_leggendaria",
+  "periodo": "tarda antichità (culto)",
+  "legame_luogo": "D",
+  "certezza": [
+   "M",
+   "L"
+  ]
+ },
+ {
+  "codice": "P03",
+  "nome": "Guido Monaco (Guido d'Arezzo) a Pomposa",
+  "anno": 1,
+  "categorie": [
+   "musica",
+   "religione"
+  ],
+  "tipo": "persona",
+  "periodo": "XI secolo",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P04",
+  "nome": "Matilde di Canossa",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1046-1115",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P05",
+  "nome": "Gli Adelardi (famiglia)",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "gruppo",
+  "periodo": "XII secolo",
+  "legame_luogo": "D",
+  "certezza": [
+   "D",
+   "C"
+  ]
+ },
+ {
+  "codice": "P06",
+  "nome": "Salinguerra Torelli",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "XIII secolo",
+  "legame_luogo": "D",
+  "certezza": [
+   "D",
+   "I"
+  ]
+ },
+ {
+  "codice": "P07",
+  "nome": "Obizzo I d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "XII secolo",
+  "legame_luogo": "D",
+  "certezza": [
+   "D",
+   "I"
+  ]
+ },
+ {
+  "codice": "P08",
+  "nome": "Azzo VI d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1170-1212",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P09",
+  "nome": "Aldobrandino d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "XIII-XIV secolo",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P10",
+  "nome": "Azzo VII d'Este (Novello)",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1205-1264",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P11",
+  "nome": "Beata Beatrice II d'Este",
+  "anno": 1,
+  "categorie": [
+   "religione",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "m. 1262",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P12",
+  "nome": "Obizzo II d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1247-1293",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P13",
+  "nome": "Obizzo III d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1294-1352",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P14",
+  "nome": "Azzo VIII d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "m. 1308",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P15",
+  "nome": "Nicolò II d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "architettura"
+  ],
+  "tipo": "persona",
+  "periodo": "1338-1388",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P16",
+  "nome": "Alberto V d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "istruzione"
+  ],
+  "tipo": "persona",
+  "periodo": "1347-1393",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P17",
+  "nome": "Nicolò III d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1383-1441",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P18",
+  "nome": "Leonello d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "cultura"
+  ],
+  "tipo": "persona",
+  "periodo": "1407-1450",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P19",
+  "nome": "Guarino Veronese",
+  "anno": 1,
+  "categorie": [
+   "istruzione",
+   "letteratura"
+  ],
+  "tipo": "persona",
+  "periodo": "1374-1460",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P20",
+  "nome": "Leon Battista Alberti",
+  "anno": 1,
+  "categorie": [
+   "architettura",
+   "scienza",
+   "crittografia"
+  ],
+  "tipo": "persona",
+  "periodo": "1404-1472",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P21",
+  "nome": "Pisanello",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1395-1455",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P22",
+  "nome": "Borso d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "cultura"
+  ],
+  "tipo": "persona",
+  "periodo": "1413-1471",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P23",
+  "nome": "Cosmè Tura",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1430-1495",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P24",
+  "nome": "Francesco del Cossa",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1436-1478",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P25",
+  "nome": "Ercole de' Roberti",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1451-1496",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P26",
+  "nome": "Pellegrino Prisciani",
+  "anno": 1,
+  "categorie": [
+   "scienza",
+   "archivi"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1435-1518",
+  "legame_luogo": "B",
+  "certezza": [
+   "D",
+   "I"
+  ]
+ },
+ {
+  "codice": "P27",
+  "nome": "Taddeo Crivelli e i miniatori della Bibbia di Borso",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "gruppo",
+  "periodo": "1455-1461",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P28",
+  "nome": "Tito Vespasiano Strozzi",
+  "anno": 1,
+  "categorie": [
+   "letteratura",
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1424-1505",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P29",
+  "nome": "Matteo Maria Boiardo",
+  "anno": 1,
+  "categorie": [
+   "letteratura"
+  ],
+  "tipo": "persona",
+  "periodo": "1441-1494",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P30",
+  "nome": "Ercole I d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "urbanistica"
+  ],
+  "tipo": "persona",
+  "periodo": "1431-1505",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P31",
+  "nome": "Biagio Rossetti",
+  "anno": 1,
+  "categorie": [
+   "architettura",
+   "urbanistica"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1447-1516",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P32",
+  "nome": "Isabella d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "cultura"
+  ],
+  "tipo": "persona",
+  "periodo": "1474-1539",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P33",
+  "nome": "Josquin des Prez",
+  "anno": 1,
+  "categorie": [
+   "musica"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1450-1521",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P34",
+  "nome": "Girolamo Savonarola",
+  "anno": 1,
+  "categorie": [
+   "religione",
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1452-1498",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P35",
+  "nome": "Lucrezia Borgia",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "cultura",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "1480-1519",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P36",
+  "nome": "Alfonso I d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "tecnica",
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "1476-1534",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P37",
+  "nome": "Ludovico Ariosto",
+  "anno": 1,
+  "categorie": [
+   "letteratura"
+  ],
+  "tipo": "persona",
+  "periodo": "1474-1533",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P38",
+  "nome": "Niccolò Leoniceno",
+  "anno": 1,
+  "categorie": [
+   "medicina",
+   "filologia"
+  ],
+  "tipo": "persona",
+  "periodo": "1428-1524",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P39",
+  "nome": "Giovanni Manardo",
+  "anno": 1,
+  "categorie": [
+   "medicina"
+  ],
+  "tipo": "persona",
+  "periodo": "1462-1536",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P40",
+  "nome": "Ludovico Bonaccioli",
+  "anno": 1,
+  "categorie": [
+   "medicina"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1475-1537",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P41",
+  "nome": "Celio Calcagnini",
+  "anno": 1,
+  "categorie": [
+   "letteratura",
+   "scienza"
+  ],
+  "tipo": "persona",
+  "periodo": "1479-1541",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P42",
+  "nome": "Niccolò Copernico",
+  "anno": 1,
+  "categorie": [
+   "scienza",
+   "astronomia"
+  ],
+  "tipo": "persona",
+  "periodo": "1473-1543",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P43",
+  "nome": "Paracelso",
+  "anno": 1,
+  "categorie": [
+   "medicina",
+   "chimica"
+  ],
+  "tipo": "persona",
+  "periodo": "1493-1541",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "I"
+  ]
+ },
+ {
+  "codice": "P44",
+  "nome": "Antonio Musa Brasavola",
+  "anno": 1,
+  "categorie": [
+   "medicina",
+   "botanica"
+  ],
+  "tipo": "persona",
+  "periodo": "1500-1555",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P45",
+  "nome": "Gabriele Falloppio",
+  "anno": 1,
+  "categorie": [
+   "medicina",
+   "anatomia"
+  ],
+  "tipo": "persona",
+  "periodo": "1523-1562",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P46",
+  "nome": "Giovanni Battista Canani",
+  "anno": 1,
+  "categorie": [
+   "medicina",
+   "anatomia"
+  ],
+  "tipo": "persona",
+  "periodo": "1515-1579",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P47",
+  "nome": "Benvenuto Tisi detto il Garofalo",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1481-1559",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P48",
+  "nome": "Dosso Dossi",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1486-1542",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P49",
+  "nome": "Ercole II d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1508-1559",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P50",
+  "nome": "Renata di Francia",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "religione"
+  ],
+  "tipo": "persona",
+  "periodo": "1510-1575",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P51",
+  "nome": "Alfonso II d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "musica"
+  ],
+  "tipo": "persona",
+  "periodo": "1533-1597",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P52",
+  "nome": "Torquato Tasso",
+  "anno": 1,
+  "categorie": [
+   "letteratura"
+  ],
+  "tipo": "persona",
+  "periodo": "1544-1595",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P53",
+  "nome": "Luzzasco Luzzaschi",
+  "anno": 1,
+  "categorie": [
+   "musica"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1545-1607",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P54",
+  "nome": "Il concerto delle dame",
+  "anno": 1,
+  "categorie": [
+   "musica"
+  ],
+  "tipo": "gruppo",
+  "periodo": "anni 1580-1597",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "C"
+  ]
+ },
+ {
+  "codice": "P55",
+  "nome": "Girolamo Frescobaldi",
+  "anno": 1,
+  "categorie": [
+   "musica"
+  ],
+  "tipo": "persona",
+  "periodo": "1583-1643",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P56",
+  "nome": "Pirro Ligorio",
+  "anno": 1,
+  "categorie": [
+   "architettura",
+   "scienza"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1512-1583",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P57",
+  "nome": "Marfisa d'Este",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "c. 1554-1608",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "L"
+  ]
+ },
+ {
+  "codice": "P58",
+  "nome": "Papa Clemente VIII e la Devoluzione",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "religione"
+  ],
+  "tipo": "persona",
+  "periodo": "1598",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P59",
+  "nome": "Bartolomeo Chiozzi, il \"Mago Chiozzino\"",
+  "anno": 1,
+  "categorie": [
+   "scienza",
+   "memoria",
+   "leggenda"
+  ],
+  "tipo": "persona",
+  "periodo": "1671-1741",
+  "legame_luogo": "E",
+  "certezza": [
+   "D?",
+   "L",
+   "F"
+  ]
+ },
+ {
+  "codice": "P60",
+  "nome": "Riccardo Bacchelli",
+  "anno": 1,
+  "categorie": [
+   "letteratura"
+  ],
+  "tipo": "persona",
+  "periodo": "1891-1985",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P61",
+  "nome": "Teodoro Bonati",
+  "anno": 1,
+  "categorie": [
+   "matematica",
+   "ingegneria",
+   "territorio"
+  ],
+  "tipo": "persona",
+  "periodo": "1724-1820",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P62",
+  "nome": "Antonio Foschini",
+  "anno": 1,
+  "categorie": [
+   "architettura"
+  ],
+  "tipo": "persona",
+  "periodo": "1741-1813",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P63",
+  "nome": "Napoleone e l'età francese",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1796-1814",
+  "legame_luogo": "D",
+  "certezza": [
+   "D",
+   "I"
+  ]
+ },
+ {
+  "codice": "P64",
+  "nome": "Ugo Bassi",
+  "anno": 1,
+  "categorie": [
+   "religione",
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1801-1849",
+  "legame_luogo": "D",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P65",
+  "nome": "Tancredi Mosti Trotti Estense",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "militare"
+  ],
+  "tipo": "persona",
+  "periodo": "1812-1869",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P66",
+  "nome": "I Bersaglieri del Po",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "militare",
+   "memoria"
+  ],
+  "tipo": "gruppo",
+  "periodo": "1848-1849",
+  "legame_luogo": "C",
+  "certezza": [
+   "C",
+   "M"
+  ]
+ },
+ {
+  "codice": "P67",
+  "nome": "Domenico Malagutti",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "m. 1853",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P68",
+  "nome": "Giacomo Succi",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "m. 1853",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P69",
+  "nome": "Luigi Parmeggiani",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "m. 1853",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P70",
+  "nome": "Gioacchino (Nino) Bonnet",
+  "anno": 1,
+  "categorie": [
+   "politica",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "XIX secolo",
+  "legame_luogo": "D",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P71",
+  "nome": "Giovanni Boldini",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "1842-1931",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P72",
+  "nome": "Gaetano Previati",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "1852-1920",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P73",
+  "nome": "Giorgio de Chirico",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "1888-1978",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P74",
+  "nome": "Filippo de Pisis",
+  "anno": 1,
+  "categorie": [
+   "arte",
+   "letteratura",
+   "scienze naturali"
+  ],
+  "tipo": "persona",
+  "periodo": "1896-1956",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P75",
+  "nome": "Corrado Govoni",
+  "anno": 1,
+  "categorie": [
+   "letteratura"
+  ],
+  "tipo": "persona",
+  "periodo": "1884-1965",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P76",
+  "nome": "Carlo Savonuzzi",
+  "anno": 1,
+  "categorie": [
+   "architettura",
+   "ingegneria"
+  ],
+  "tipo": "persona",
+  "periodo": "1897-1973",
+  "legame_luogo": "C",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P77",
+  "nome": "Alda Costa",
+  "anno": 1,
+  "categorie": [
+   "istruzione",
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1876-1944",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P78",
+  "nome": "Renzo Ravenna",
+  "anno": 1,
+  "categorie": [
+   "politica"
+  ],
+  "tipo": "persona",
+  "periodo": "1893-1961",
+  "legame_luogo": "A",
+  "certezza": [
+   "D",
+   "I"
+  ]
+ },
+ {
+  "codice": "P79",
+  "nome": "Giorgio Bassani",
+  "anno": 1,
+  "categorie": [
+   "letteratura",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "1916-2000",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P80",
+  "nome": "Renata Viganò",
+  "anno": 1,
+  "categorie": [
+   "letteratura",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "1900-1976",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P81",
+  "nome": "Florestano Vancini",
+  "anno": 1,
+  "categorie": [
+   "cinema",
+   "memoria"
+  ],
+  "tipo": "persona",
+  "periodo": "1926-2008",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P82",
+  "nome": "Michelangelo Antonioni",
+  "anno": 1,
+  "categorie": [
+   "cinema"
+  ],
+  "tipo": "persona",
+  "periodo": "1912-2007",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P83",
+  "nome": "Giulio Natta",
+  "anno": 1,
+  "categorie": [
+   "scienza",
+   "chimica",
+   "industria"
+  ],
+  "tipo": "persona",
+  "periodo": "1903-1979",
+  "legame_luogo": "B",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P84",
+  "nome": "Guido Carli",
+  "anno": 1,
+  "categorie": [
+   "economia",
+   "istituzioni"
+  ],
+  "tipo": "persona",
+  "periodo": "1914-1993",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P85",
+  "nome": "Remo Brindisi",
+  "anno": 1,
+  "categorie": [
+   "arte"
+  ],
+  "tipo": "persona",
+  "periodo": "1918-1996",
+  "legame_luogo": "A",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P86",
+  "nome": "Paolo Mazza",
+  "anno": 1,
+  "categorie": [
+   "sport",
+   "società"
+  ],
+  "tipo": "persona",
+  "periodo": "1901-1981",
+  "legame_luogo": "C",
+  "certezza": [
+   "D",
+   "M"
+  ]
+ },
+ {
+  "codice": "P87",
+  "nome": "Vasco Brondi",
+  "anno": 1,
+  "categorie": [
+   "musica",
+   "società"
+  ],
+  "tipo": "persona",
+  "periodo": "1984-",
+  "legame_luogo": "D",
+  "certezza": [
+   "D"
+  ]
+ },
+ {
+  "codice": "P88",
+  "nome": "La comunità ebraica ferrarese",
+  "anno": 1,
+  "categorie": [
+   "religione",
+   "società",
+   "memoria"
+  ],
+  "tipo": "gruppo",
+  "periodo": "dal Medioevo a oggi",
+  "legame_luogo": "A",
+  "certezza": [
+   "C"
+  ]
+ },
+ {
+  "codice": "P89",
+  "nome": "Gli studenti dello Studio",
+  "anno": 1,
+  "categorie": [
+   "istruzione"
+  ],
+  "tipo": "gruppo",
+  "periodo": "XIV-XVI secolo",
+  "legame_luogo": "A",
+  "certezza": [
+   "C"
+  ]
+ },
+ {
+  "codice": "P90",
+  "nome": "Mercanti, artigiani e cittadini",
+  "anno": 1,
+  "categorie": [
+   "società",
+   "economia"
+  ],
+  "tipo": "gruppo",
+  "periodo": "tutte le epoche",
+  "legame_luogo": "A",
+  "certezza": [
+   "C"
+  ]
+ },
+ {
+  "codice": "P91",
+  "nome": "Le monache di Sant'Antonio in Polesine",
+  "anno": 1,
+  "categorie": [
+   "religione"
+  ],
+  "tipo": "gruppo",
+  "periodo": "XIII secolo - oggi",
+  "legame_luogo": "A",
+  "certezza": [
+   "C"
+  ]
+ },
+ {
+  "codice": "P92",
+  "nome": "Il territorio del Po",
+  "anno": 1,
+  "categorie": [
+   "territorio"
+  ],
+  "tipo": "luogo_personaggio",
+  "periodo": "tutte le epoche",
+  "legame_luogo": "D",
+  "certezza": [
+   "C"
+  ]
+ },
+ {
+  "codice": "P93",
+  "nome": "La città stessa",
+  "anno": 1,
+  "categorie": [
+   "memoria"
+  ],
+  "tipo": "luogo_personaggio",
+  "periodo": "tutte le epoche",
+  "legame_luogo": "D",
+  "certezza": [
+   "C"
+  ]
+ },
+ {
+  "codice": "Q01",
+  "nome": "Ötzi",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 3350 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q11",
+  "nome": "Pitagora",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "VI sec",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q05",
+  "nome": "Romolo",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "VIII–VII sec",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q34",
+  "nome": "Cassiodoro",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 480–585",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q19",
+  "nome": "Appio Claudio Cieco",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "V–IV sec",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q12",
+  "nome": "Parmenide",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 515–450 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q17",
+  "nome": "Cincinnato",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "VI–V sec",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q63",
+  "nome": "Leonardo da Vinci",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1452–1519",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q21",
+  "nome": "Cicerone",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "106–43 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q27",
+  "nome": "Cornelia, madre dei Gracchi",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "II sec",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q13",
+  "nome": "Zenone di Elea",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 490–430 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q22",
+  "nome": "Annibale",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "247–183 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q26",
+  "nome": "Catone il Censore",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "234–149 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q47",
+  "nome": "Dante Alighieri",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1265–1321",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q44",
+  "nome": "Federico II di Svevia",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1194–1250",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q14",
+  "nome": "Archita di Taranto",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "430–365 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q28",
+  "nome": "Tiberio Gracco",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "210–154 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q20",
+  "nome": "Giulio Cesare",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "100–44 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q10",
+  "nome": "Lars Porsenna",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "VI sec",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q29",
+  "nome": "Ottaviano Augusto",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "63 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q37",
+  "nome": "Carlo Magno",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "742–814",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q46",
+  "nome": "Marco Polo",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1254–1324",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q91",
+  "nome": "I copisti e gli amanuensi",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "dal VI al XV secolo",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q62",
+  "nome": "Leon Battista Alberti *(aggiunta",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1404–1472",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q64",
+  "nome": "Biagio Rossetti *(aggiunta",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1447–1516",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q41",
+  "nome": "Lucrezia Borgia",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1480–1566",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q35",
+  "nome": "Giustiniano",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "482–565",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q90",
+  "nome": "I corrieri e i messaggeri",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "dal XV secolo in poi",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q45",
+  "nome": "Amerigo Vespucci",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1454–1512",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q92",
+  "nome": "Il consiglio di corte",
+  "anno": 2,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "1492",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q101",
+  "nome": "Eratostene",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 276–194 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q102",
+  "nome": "Copernico",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1473–1543",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q103",
+  "nome": "Augusto",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "63 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q104",
+  "nome": "Solone",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 640–558 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q105",
+  "nome": "Pericle",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "495–429 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q106",
+  "nome": "Platone",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "427–347 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q107",
+  "nome": "Belisario",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 500–565",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q108",
+  "nome": "Federico II",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1194–1250",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q109",
+  "nome": "Alessandro Magno",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "356–323 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q110",
+  "nome": "Alfonso I d'Este",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1476–1534 (duca 1505–1534)",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q111",
+  "nome": "Ludovico Ariosto",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1474–1533",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q112",
+  "nome": "Alcuino",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 735–804",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q113",
+  "nome": "Leonardo da Vinci",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1452–1519",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q114",
+  "nome": "Niccolò Machiavelli",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1469–1527",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q115",
+  "nome": "Dosso Dossi",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1489–1542",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q116",
+  "nome": "Johannes Gutenberg",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1400–1468",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q117",
+  "nome": "Josquin des Prez *(aggiunta",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1452–1521",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q118",
+  "nome": "Miguel de Cervantes",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1547–1616",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q119",
+  "nome": "Erasmo da Rotterdam",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1466–1536",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q120",
+  "nome": "Giovanni Bellini *(aggiunta",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1430–1516",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q121",
+  "nome": "Carlo Magno",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "742–814",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q122",
+  "nome": "Giovanni Boccaccio",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1313–1375",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q123",
+  "nome": "Tommaso d'Aquino",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1225–1274",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q124",
+  "nome": "Albrecht Dürer *(aggiunta",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1471–1528",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q125",
+  "nome": "Aldo Manuzio *(aggiunta",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1449/1452–1515",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q126",
+  "nome": "William Caxton *(aggiunta",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1422–1491",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q127",
+  "nome": "Olympe de Gouges",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1748–1793",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q128",
+  "nome": "Alan Turing *(aggiunta",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1912–1954",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q129",
+  "nome": "I tipografi e i privilegi",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "dal XV al XVI secolo",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q130",
+  "nome": "Isabella d'Este",
+  "anno": 3,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1474–1539",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q201",
+  "nome": "Gilgamesh",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 2700 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q202",
+  "nome": "Ibn Battuta",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1304–1368 circa",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q203",
+  "nome": "Qin Shi Huang",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "259–210 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q204",
+  "nome": "Hatshepsut",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1473–1458 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q205",
+  "nome": "Akbar",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1542–1605",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q206",
+  "nome": "Gengis Khan",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1162–1227",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q207",
+  "nome": "Leibniz *(aggiunta",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1646–1716",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q208",
+  "nome": "Carl Linneo",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1707–1778",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q209",
+  "nome": "Mansa Musa",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1280–1337",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q210",
+  "nome": "Ercole II d'Este",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1508–1559",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q211",
+  "nome": "Al-Khwarizmi",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 780–850",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q212",
+  "nome": "Confucio",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "551–479 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q213",
+  "nome": "Ipazia",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 350–415",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q214",
+  "nome": "Moctezuma II",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1466–1520",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q215",
+  "nome": "Omero",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "VIII secolo a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q216",
+  "nome": "Ibn Khaldun",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1332–1406",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q217",
+  "nome": "B. R. Ambedkar",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1891–1956",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q218",
+  "nome": "Solimano il Magnifico",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1494–1566",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q219",
+  "nome": "Ibn al-Haytham",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 965–1040",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q220",
+  "nome": "I censori",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "dal III secolo a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q221",
+  "nome": "Isabella di Castiglia",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1451–1504",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q222",
+  "nome": "Hammurabi",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1792–1750 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q223",
+  "nome": "Vasco da Gama",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "circa 1469–1524",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q224",
+  "nome": "Zheng He",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1371–1433",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q225",
+  "nome": "Frederick Douglass",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1818–1895",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q226",
+  "nome": "Hernán Cortés",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1485–1547",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q227",
+  "nome": "Florence Nightingale",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1820–1910",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q228",
+  "nome": "George Orwell",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1903–1950",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q229",
+  "nome": "Marie Curie",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1867–1934",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q230",
+  "nome": "Le persone che non hanno firmato",
+  "anno": 4,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "tutta la storia",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q301",
+  "nome": "Enrico Fermi",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1901–1954",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q302",
+  "nome": "Karl Popper",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1902–1994",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q303",
+  "nome": "Isaac Newton",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1643–1727",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q304",
+  "nome": "John von Neumann",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1903–1957",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q305",
+  "nome": "Le mani che hanno approssimato √2",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "circa 1800 a",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q306",
+  "nome": "Vera Rubin",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1928–2016",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q307",
+  "nome": "James Lovelock",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1911–2022",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q308",
+  "nome": "Sergej Korolëv",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1907–1966",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q309",
+  "nome": "John Snow",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1813–1858",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q310",
+  "nome": "Hans Rosling",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1948–2017",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q311",
+  "nome": "Fei-Fei Li",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1976–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q312",
+  "nome": "Jorge Luis Borges",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1899–1986",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q313",
+  "nome": "La macchina",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "dal 1936 a oggi",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q314",
+  "nome": "Alonzo Church",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1903–1964",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q315",
+  "nome": "Yann LeCun",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1960–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q316",
+  "nome": "Radia Perlman",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1951–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q317",
+  "nome": "Vint Cerf",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1943–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q318",
+  "nome": "Gli ingegneri delle reti",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "collettivo",
+  "periodo": "dagli anni Settanta a oggi",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q319",
+  "nome": "Donald Davies",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1924–2000",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q320",
+  "nome": "Alfonso II d'Este",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1533–1597",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q321",
+  "nome": "Edsger Dijkstra",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1930–2002",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q322",
+  "nome": "Satoshi Nakamoto",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "attivo dal 2008; identità ignota",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q323",
+  "nome": "Tim Berners-Lee",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1955–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q324",
+  "nome": "James Ellis",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1910–1995",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q325",
+  "nome": "Claude Shannon",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1916–2001",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ },
+ {
+  "codice": "Q326",
+  "nome": "Joy Buolamwini",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1989–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q327",
+  "nome": "Geoffrey Hinton",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1947–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q328",
+  "nome": "Timnit Gebru",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1983–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q329",
+  "nome": "Demis Hassabis",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1976–",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": true
+ },
+ {
+  "codice": "Q330",
+  "nome": "Daniel Kahneman",
+  "anno": 5,
+  "categorie": [],
+  "tipo": "persona",
+  "periodo": "1934–2024",
+  "legame_luogo": "",
+  "certezza": [],
+  "vivo": false
+ }
+]

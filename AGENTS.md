@@ -75,6 +75,14 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **OpenStreetMap è ODbL e non è ancora autorizzato** (`mappe.md` §10 Q1). Non scaricare dati OSM finché Pietro non ha deciso.
 - Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio.
 
+**Immagini dei personaggi** (trasversale, vedi `ritratti.md`)
+- **Due immagini, non una**: **ritratto autentico** se esiste un'immagine con licenza libera che ritrae davvero la persona; altrimenti **emblema**, che dichiara **perché** la persona non ha un volto qui. Nessuna terza via e nessun volto generato.
+- **Ogni ritratto porta un'etichetta**: `fotografia`, `dipinto`, `xilografia`, `miniatura`, `autoritratto`, `rilievo`, `immagine tradizionale`, `immagine di epoca`. Un autoritratto e una fotografia non si ritagliano come una miniatura, e un visitatore deve poter capire che cosa sta guardando.
+- **La misura è 48×54 px**, come `ritratto_borso.png`. I file in `sorgenti/art/out/` sono già ridotti: non vanno ridimensionati di nuovo, e il motore non deve riportarli a una misura maggiore.
+- **Una ricerca automatica propone, non decide.** Un nome di file non è una prova: la ricerca ha restituito un gatto per Renata Viganò e una ceramica iraniana per i mercanti di Ferrara. Ogni immagine entra nel gioco solo dopo un attestato in `sorgenti/art/attestazione_immagini.json`, che porta etichetta e motivo.
+- **Una richiesta che non arriva non è una risposta negativa.** Vale per ogni ricerca, ogni download e ogni interrogazione: se la risposta non c'è, la scheda resta `da_rivedere` e non diventa un fatto. È la regola che ha salvato quindici schede dopo che un `HTTP 429` era stato letto come «nessun ritratto esiste».
+- Le 53 immagini sotto CC BY o CC BY-SA richiedono di mostrare autore e licenza: i crediti del gioco li leggono da `ritratti_disponibili.json`, campo `dettagli`, e non si scrivono a mano.
+
 **Esercizi e testo**
 - **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
 - **Meccanismi sempre diversi**: tante schermate, colori, forme.

@@ -1,0 +1,237 @@
+{
+ "_nota": "Attestazione a vista delle immagini dei personaggi. Ogni voce dice che cosa e' stato accettato e, soprattutto, che cosa e' stato RESPINTO e perche'. Un file di ricerca puo' sbagliare la persona: e' successo sette volte, e una delle volte ha restituito un gatto per un'illustratrice e una ceramica iraniana per i mercanti di Ferrara. Il nome del file non e' una prova, e la ricerca non e' un giudizio. Questo file e' il giudizio, e va rifatto ogni volta che si aggiungono immagini. Ogni voce accettata porta il nome del file: l'attestazione non rimanda alla ricerca, la registra, cosi' resta valida anche se la ricerca viene rifatta e dà un risultato diverso.",
+ "_formato": {
+  "esito": "accettata | respinta | non_verificata",
+  "etichetta": "fotografia | dipinto | xilografia | miniatura | autoritratto | rilievo | immagine tradizionale | immagine di epoca",
+  "motivo": "perche', in una riga, senza gergo",
+  "immagine": "nome del file su Commons, solo se sostituisce quello trovato male"
+ },
+ "_etichette": {
+  "fotografia": "fotografia scattata dal vivo della persona",
+  "dipinto": "dipinto che ritrae la persona",
+  "xilografia": "xilografia o incisione, non una fotografia",
+  "miniatura": "miniatura di manoscritto",
+  "autoritratto": "autoritratto: la persona ha dipinto se stessa",
+  "rilievo": "ritratto su medaglione o rilievo",
+  "immagine tradizionale": "immagine convenzionale, non fatta dal vivo: non e' un ritratto nel senso moderno",
+  "immagine di epoca": "fatto dal vivo in epoca, ma non la persona: e' un documento del fatto, non un ritratto"
+ },
+ "P03": {
+  "esito": "accettata",
+  "etichetta": "miniatura",
+  "motivo": "illuminazione con un monaco tonsurato al pulpito: e' l'immagine tradizionale di Guido d'Arezzo, non un ritratto. Dichiarata come tale perche' nessuno li creca vedendo un documento.",
+  "immagine": "Guido_van_Arezzo.jpg"
+ },
+ "P27": {
+  "esito": "respinta",
+  "motivo": "e' una scena della Bibbia di Borso, senza volto del miniatore: e' un'opera, non un ritratto."
+ },
+ "P47": {
+  "esito": "accettata",
+  "etichetta": "rilievo",
+  "motivo": "medaglione con ritratto a profilo, indicato come il Garofalo sul Palazzo San Crispino.",
+  "immagine": "Ferrara_-_Ritratto_di_Benvenuto_Tisi_da_Garofalo_-_Palazzo_San_Crispino.jpg"
+ },
+ "P58": {
+  "esito": "accettata",
+  "etichetta": "dipinto",
+  "motivo": "ritratto di papa Clemente VIII di Giuseppe Cesari: un papa che scrive, non un trono.",
+  "immagine": "Papa_Clemente_VIII_Aldobrandini_–_Giuseppe_Cesari_(cropped).jpg"
+ },
+ "P63": {
+  "esito": "respinta",
+  "motivo": "David, Napoleone che scavalca il San Bernardo: e' una scena di guerra, non un ritratto. Resta immagine buona per il livello, non per la scheda."
+ },
+ "P66": {
+  "esito": "respinta",
+  "motivo": "soldati di oggi che sfilano in strada, uniformi attuali, foto del 2007. Per i Bersaglieri del 1848 e' un'affermazione falsa."
+ },
+ "P88": {
+  "esito": "respinta",
+  "motivo": "fotografia d'oggetti di culto ebraici su un tavolo: non e' la comunita' ebraica di Ferrara, e non e' nemmeno antica."
+ },
+ "P90": {
+  "esito": "respinta",
+  "motivo": "ceramica persiana: il file si chiama 'Iranian handicraft' ed e' quello che ritrae. Per i mercanti di Ferrara e' falso."
+ },
+ "Q62": {
+  "esito": "accettata",
+  "etichetta": "dipinto",
+  "motivo": "ritratto di profilo con l'iscrizione 'Leon Batt. Alberti' leggibile: l'iscrizione e' la prova che lo rende un documento.",
+  "immagine": "Leone_Batista_Alberti.jpg"
+ },
+ "Q108": {
+  "esito": "accettata",
+  "etichetta": "dipinto",
+  "motivo": "miniatura Duecento con Federico II in trono: immagine d'epoca, non fatta dal vivo, e va detto.",
+  "immagine": "Frederick_II_and_eagle.jpg"
+ },
+ "Q117": {
+  "esito": "accettata",
+  "etichetta": "xilografia",
+  "motivo": "xilografia del Louvre, il ritratto tradizionale di Josquin: molto nota, ma non e' stata fatta dal vivo.",
+  "immagine": "Josquin_woodcut.jpg"
+ },
+ "Q120": {
+  "esito": "accettata",
+  "etichetta": "autoritratto",
+  "motivo": "Bellini che si ritrae nella Presentazione al Tempio: l'unico autoritratto con firma che abbia.",
+  "immagine": "Giovanni_bellini,_presentazione_al_tempio,_autoritratto.jpg"
+ },
+ "Q125": {
+  "esito": "accettata",
+  "etichetta": "dipinto",
+  "motivo": "ritratto dipinto di Aldo Pio Manuzio.",
+  "immagine": "Aldo_Pio_Manuzio.jpg"
+ },
+ "Q126": {
+  "esito": "respinta",
+  "motivo": "xilografia di una stamperia: e' l'opera di Caxton, non la sua faccia. Preziosissima come immagine di livello."
+ },
+ "Q128": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "motivo": "fotografia Elliott & Fry del 1946: la piu' nota e la meglio documentata.",
+  "immagine": "Alan_turing_header.jpg"
+ },
+ "Q309": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "motivo": "dagherrotipia di John Snow: anteriore di quarant'anni alla scoperta del colera.",
+  "immagine": "John_Snow.jpg"
+ },
+ "P46": {
+  "esito": "accettata",
+  "etichetta": "xilografia",
+  "immagine": "Giovanni Bastista Canani. 19th century Wellcome L0018728.jpg",
+  "motivo": "incisione ottocentesca del medico ferrarese: non fatta dal vivo, ma l'unica che esiste con licenza libera."
+ },
+ "P60": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "immagine": "Riccardo Bacchelli 1969 (cropped).jpg",
+  "motivo": "foto del 1969. Sulla pagina di Wikipedia c'era una foto del 1990 senza licenza libera: rifiutata, e questa la sostituisce."
+ },
+ "P70": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "immagine": "Ninobonnet.jpg",
+  "motivo": "foto di Gioacchino Bonnet."
+ },
+ "P76": {
+  "esito": "accettata",
+  "etichetta": "dipinto",
+  "immagine": "Dusio-Savonuzzi.jpg",
+  "motivo": "ritratto di Carlo Savonuzzi, autore ignoto."
+ },
+ "P77": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "immagine": "Alda Costa.jpg",
+  "motivo": "foto di Alda Costa."
+ },
+ "P83": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "immagine": "Giulio Natta Nobel.jpg",
+  "motivo": "foto di Giulio Natta al tempo del premio Nobel. Sulla pagina di Wikipedia c'era una foto senza licenza libera: rifiutata."
+ },
+ "Q308": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "immagine": "Korolyov (1934).jpg",
+  "motivo": "Korolev nel 1934, undici anni prima del primo satellite."
+ },
+ "Q27": {
+  "esito": "accettata",
+  "etichetta": "dipinto",
+  "immagine": "Ca' Rezzonico - Cornelia madre dei Gracchi (Inv.039) - Alessandro Varotari.jpg",
+  "motivo": "Cornelia non e' mai stata ritratta dal vivo: e' una donna dell'antica Roma, e ogni immagine sua e' un dipinto di secoli dopo. Il ritratto scelto e' il Varotari di Ca' Rezzonico, in pubblico dominio, e la scheda deve dire che e' un dipinto, non una fotografia di una donna viva."
+ },
+ "Q314": {
+  "esito": "respinta",
+  "motivo": "nessun ritratto di Alonzo Church con licenza libera: i file che si trovano cercando il nome sono altri Alonzo, e la foto di en.wikipedia e' ospitata in quel deposito e non e' libera. Emblema, dichiarandolo."
+ },
+ "P80": {
+  "esito": "respinta",
+  "motivo": "la ricerca aveva restituito 'Renata Viganò gatto': il nome della persona e il nome del gatto si somigliano in italiano. Renata Viganò non ha un ritratto libero."
+ },
+ "P01": {
+  "esito": "respinta",
+  "motivo": "san Maurelio e' una figura della tradizione, senza ritratto: il progetto lo dice gia' a proposito di Maurelio. Emblema."
+ },
+ "P07": {
+  "esito": "respinta",
+  "motivo": "su Commons i ritratti d'Este sono numerati in modo diverso dall'articolo di it.wikipedia: non si puo' attribuire con onesta. Emblema, e nota aperta."
+ },
+ "P09": {
+  "esito": "respinta",
+  "motivo": "stessa numerazione discordante degli Estensi. Emblema, e nota aperta."
+ },
+ "P10": {
+  "esito": "respinta",
+  "motivo": "stessa numerazione discordante: 'Azzo VII (Novello)' non coincide con nessun 'Obizzo II d'Este.jpg' che si puo' verificare. Emblema."
+ },
+ "P15": {
+  "esito": "respinta",
+  "motivo": "stessa numerazione discordante. Emblema."
+ },
+ "P31": {
+  "esito": "respinta",
+  "motivo": "Biagio Rossetti non ha ritratto: su Commons ci sono case e strade intitolate a lui, non la sua faccia. Emblema."
+ },
+ "Q64": {
+  "esito": "respinta",
+  "motivo": "stessa persona di P31, quindi stesso emblema. Le due schede non devono avere due immagini diverse per un solo uomo."
+ },
+ "P40": {
+  "esito": "respinta",
+  "motivo": "nessun ritratto libero: i file trovati sono la tomba di una parente e l'anticamera del castello. Emblema."
+ },
+ "P59": {
+  "esito": "respinta",
+  "motivo": "nessun ritratto libero: i file trovati sono una via ferrarese e due guide turistiche. Emblema."
+ },
+ "P67": {
+  "esito": "respinta",
+  "motivo": "nessun ritratto libero: i file trovati sono giornali del 1904 e un libro. Emblema."
+ },
+ "P68": {
+  "esito": "respinta",
+  "motivo": "nessun ritratto libero: i file trovati sono trattati di idroterapia. Emblema."
+ },
+ "Q319": {
+  "esito": "respinta",
+  "motivo": "Donald Davies non ha un ritratto libero verificabile: nessun file su Commons lo ritrae. Emblema."
+ },
+ "Q324": {
+  "esito": "respinta",
+  "motivo": "James Ellis non ha ritratto libero: l'uomo che ha inventato lo stream cipher e non lo ha mai detto resta senza faccia. Emblema."
+ },
+ "P89": {
+  "esito": "respinta",
+  "motivo": "la foto trovata e' il convento di Santa Lucia, non lo Studio: sono due cose diverse, e la somiglianza dei nomi e' quello che ha fatto sbagliare la ricerca."
+ },
+ "P91": {
+  "esito": "respinta",
+  "motivo": "nessun file su Commons ritrae il convento. Emblema."
+ },
+ "P92": {
+  "esito": "respinta",
+  "motivo": "nessun file su Commons ritrae il Po in questa sezione. Emblema."
+ },
+ "P93": {
+  "esito": "accettata",
+  "etichetta": "fotografia",
+  "motivo": "foto della piazza della cattedrale: per la scheda 'la citta' stessa' un'immagine di Ferrara e' esattamente cio' che serve.",
+  "immagine": "3840px-Piazza_della_Cattedrale._Ferrara,_Italy.jpg"
+ },
+ "P05": {
+  "esito": "respinta",
+  "motivo": "famiglia: non ha un volto unico. Emblema, come tutti i collettivi."
+ },
+ "P54": {
+  "esito": "respinta",
+  "motivo": "collettivo. Emblema."
+ }
+}
