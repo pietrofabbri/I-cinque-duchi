@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno I sulla mappa di Ferrara: il percorso unico
-versione: 0.8
-data: 2026-09-30
+versione: 0.9
+data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 dati: videogioco-5-duchi-anno1-mappa.json (30 tappe, v0.8); videogioco-5-duchi-anno1-personaggi.json (schede)
-documenti collegati: videogioco-5-duchi-gioco.md (interazione, strumenti, carte, memoria), videogioco-5-duchi-meccaniche.md (v0.3), videogioco-5-duchi-anno1-ferrara.md (v0.2), videogioco-5-duchi-schema-livelli.md (v1.1)
+documenti collegati: videogioco-5-duchi-gioco.md (interazione, strumenti, carte, memoria), videogioco-5-duchi-meccaniche.md (v0.3), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-schema-livelli.md (v1.1)
 ---
 
 # Anno I sulla mappa di Ferrara: il percorso unico
@@ -246,6 +246,8 @@ Come è fatta:
 - Wikimedia Commons, pianta di Andrea Bolzoni (1747): <https://commons.wikimedia.org/wiki/Category:Map_of_Ferrara_by_Andrea_Bolzoni>
 
 ## 7. Registro modifiche
+
+- **v0.9 (02/10/2026)**: controllo di coerenza: il rimando a `anno1-ferrara.md` era fermo alla v0.2, e quel documento è alla v0.3. Nessun'altra modifica al testo.
 
 - **v0.8 (30/09/2026)**: mappa della città con gli edifici reali e il perimetro ufficiale del centro storico; nebbia più leggibile; navigazione fluida; punto della tappa 1-1 davanti al portale; zona 1 con geometria reale in vista 3/4.
 

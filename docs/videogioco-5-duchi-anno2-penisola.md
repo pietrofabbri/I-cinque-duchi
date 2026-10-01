@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno II, la penisola attraverso le persone: strati, percorso, personaggi
-versione: 0.1
+versione: 0.2
 data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO II — LA PENISOLA ATTRAVERSO LE PERSONE / Ercole I entra nella storia d'Italia" e "ANNO II — LA PENISOLA: DALLA PREISTORIA ALL'ITALIA CONTEMPORANEA / Una terra, molti mondi"), 01/10/2026
 dati: videogioco-5-duchi-anno2-penisola.json e videogioco-5-duchi-anno2-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 2-1…2-30), videogioco-5-duchi-curricolo.md (v0.1, cornice narrativa e modello di livello), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.4), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 2-1…2-30), videogioco-5-duchi-curricolo.md (v0.1, cornice narrativa e modello di livello), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno II — La penisola attraverso le persone
 
@@ -657,6 +657,8 @@ Il secondo anno introduce temi che l'Anno I non aveva, e che richiedono regole e
 ---
 
 ## 15. Registro modifiche
+
+- **v0.2 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4). È il primo documento che impara che una tabella di versioni si aggiorna anche quando gli altri documenti cambiano, e non solo quando cambia il proprio testo.
 
 - **v0.1 (01/10/2026)**: prima stesione. Formalizza il materiale storico-pedagogico del secondo anno di Pietro in un documento di progetto coerente con `anno1-ferrara.md` e `anno1-mappa.md`:
   - principio zero (l'Italia non esiste ancora) e sei principi dell'anno;

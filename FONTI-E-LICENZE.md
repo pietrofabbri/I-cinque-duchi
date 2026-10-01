@@ -43,18 +43,19 @@ Fonti: **Wikimedia Commons**, file scaricati l'01/10/2026 con `sorgenti/art/ritr
 | Licenza | Ritratti | Obbligo |
 |---|---|---|
 | Pubblico dominio | 116 | nessuno |
-| CC BY-SA 3.0 | 17 | **attribuzione e licenza** |
+| CC BY-SA 3.0 (di cui una in francese) | 17 | **attribuzione e licenza** |
 | CC BY-SA 4.0 | 15 | **attribuzione e licenza** |
-| CC BY-SA 2.0 / 2.5 | 5 | **attribuzione e licenza** |
-| CC BY-SA 1.0 / 3.0 | 1 | **attribuzione e licenza** |
+| CC BY-SA 2.0 / 2.0 (ted.) / 1.0 | 6 | **attribuzione e licenza** |
+| CC BY 4.0 / 3.0 (it.) / 3.0 / 2.5 / 2.0 | 8 | **attribuzione** |
 | CC0 | 4 | nessuno (dichiarazione di provenienza consigliata) |
-| CC BY 2.0 / 2.5 / 3.0 / 4.0 | 11 | **attribuzione** |
+| Attribution | 2 | **attribuzione** |
+| No restrictions | 1 | nessuno |
 
-Tutte e 169 sono licenze libere: **non c'è nessuna immagine senza licenza libera nel gioco**. Le 53 sotto CC BY o CC BY-SA richiedono di mostrare autore e licenza: la finestra dei crediti del gioco deve leggerle da `ritratti_disponibili.json`, campo `dettagli`, senza scriverle a mano.
+Tutte e 169 sono licenze libere: **non c'è nessuna immagine senza licenza libera nel gioco**. Le **48** sotto CC BY o CC BY-SA richiedono di mostrare autore e licenza: la finestra dei crediti del gioco deve leggerle da `ritratti_disponibili.json`, campo `dettagli`, senza scriverle a mano. Il conto è per famiglia di licenza e viene dai dati: le stringhe del campo `licenza` portano anche la variante linguistica (`CC BY-SA 2.0 de`, `CC BY 3.0 it`, `CC BY-SA 3.0 fr`), e contarle per gruppo senza disaggregarle dava numeri che non tornavano.
 
 Le riduzioni a 48×54 sono **opere derivate**: per CC BY-SA la condizione di ri-distribuzione con la stessa licenza riguarda il file, non l'opera derivata, ma per prudenza le riduzioni viaggiano con la stessa licenza della fonte, dichiarata in `dettagli.licenza`. Nessun ritratto è stato alterato nel contenuto: solo ritagliato e ridotto.
 
-Sono state **respinte** sette immagini perché non ritraevano la persona (tra cui un gatto per Renata Viganò, una ceramica iraniana per i mercanti di Ferrara e una parata di soldati di oggi per i Bersaglieri del 1848). Non sono nel gioco, e il motivo è registrato.
+Sono state **respinte** otto immagini perché non ritraevano la persona (tra cui un gatto per Renata Viganò, una ceramica iraniana per i mercanti di Ferrara e una parata di soldati di oggi per i Bersaglieri del 1848). Non sono nel gioco, e il motivo è registrato. Le giudicazioni sono **45** in tutto — 19 accettate e 26 respinte — e tutte e 45 portano il motivo.
 
 ## Testi letterari citati
 
@@ -62,7 +63,7 @@ Sono state **respinte** sette immagini perché non ritraevano la persona (tra cu
   - **Licenza: pubblico dominio.** Non ha nessun obbligo di attribuzione; il gioco la dichiara egualmente perché un ragazzo che cerca la citazione deve poterla ritrovare.
   - I **versi sono copiati dal testo a ogni esecuzione**, non a mano: `sorgenti/furioso/costruisci_citazioni.py` li prende dall'indice delle ottave e `verifica_citazioni.py` li riverifica.
   - L'edizione del 1928 **modernizza la grafia** (sciolto, né, v'è) e conserva la *rima extranea* (sette versi invece di otto). Le **parafrasi, i temi, i moti e le emozioni sono di questo progetto**, non del testo: non sono una traduzione e non possono essere citate come versi dell'Ariosto.
-  - **Non è la princeps del 1516.** Il riscontro con l'edizione di Project Gutenberg (che contiene i soli canti 1-16) ha trovato tre differenze sulle 22 citazioni confrontabili: un verso in più nel canto 5 ottava 23, l'apostrofo eliso in 1,9 e una variante di accordo in 5,18. Nessuna cambia l'insegnamento della tappa.
+  - **Non è la princeps del 1516.** Il riscontro con l'edizione di Project Gutenberg (che contiene i soli canti 1-16) ha trovato tre differenze sulle 23 citazioni confrontabili: un verso in più nel canto 5 ottava 23, l'apostrofo eliso in 1,9 e una variante di accordo in 5,18. Nessuna cambia l'insegnamento della tappa.
 
 ## Testi normativi citati
 

@@ -64,7 +64,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **La prova da superare**: la frase «questa persona è legata a questo luogo» deve essere vera **senza metafore**. Se devo ricorrere a «gli ricorda», «evoca», «è il simbolo», il legame non passa.
 - **Il criterio è l'eliminazione, non l'inclusione**: se un altro luogo funzionerebbe uguale, non è un luogo. «Meglio 60 associazioni solidissime che 150 ottenute per analogia».
 - **Un solo pin per tappa**, in tutti e cinque gli anni. Le associazioni multiple finiscono in `altri_luoghi`.
-- **I luoghi fantastici non hanno coordinate** (Luna, castello di Atlante, isola di Alcina, regno di Logistilla, valle del Senno): vanno disegnati a mano sulla carta del gioco, con un segno dedicato, e **il gioco dichiara che non sono reali**. È l'unica eccezione alla regola dei pin.
+- **I luoghi fantastici non hanno coordinate** (Paradiso terrestre, Luna, castello di Atlante, isola di Alcina, regno di Logistilla, valle del Senno): vanno disegnati a mano sulla carta del gioco, con un segno dedicato, e **il gioco dichiara che non sono reali**. È l'unica eccezione alla regola dei pin.
 - Un toponimo inesistente non entra nel catalogo finché non esiste come luogo reale.
 
 **Mappe e dati geografici** (trasversale, vedi `mappe.md`)
@@ -76,7 +76,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio.
 
 **Luoghi e sagome** (trasversale, vedi `luoghi-edifici.md`)
-- **Ogni luogo ha un `tipo`** fra sette, e il tipo decide come si disegna: `citta`, `citta_antica`, `edificio`, `area`, `percorso`, `situazione`, `porta`. **`situazione` e `porta` non hanno coordinate e non si disegnano**: nel quinto anno la casella «Luogo (pin)» contiene una situazione (tappe 5-1, 5-9, 5-20…), e le porte `PT-*` sono uscite dal nodo, non strade.
+- **Ogni luogo ha un `tipo`** fra sette, e il tipo decide come si disegna: `citta`, `citta_antica`, `edificio`, `area`, `percorso`, `situazione`, `porta`. **`situazione` e `porta` non hanno coordinate e non si disegnano**: nel quinto anno la casella «Luogo (pin)» contiene una situazione (tappe 5-18, 5-22, 5-24…), e le porte `PT-*` sono uscite dal nodo, non strade.
 - **Ogni scheda dichiara lo stato della coordinata** (`verificata`, `non_e_un_luogo`, `da_geocodificare_wfs`, `da_geocodificare_a_mano`) e **l'articolo a cui il nome ha risolto**. Nessuna coordinata manca in silenzio: un vuoto non dichiarato è una bugia.
 - **Il dettaglio di un luogo ha sei campi**: `impianto`, `materiali`, `edifici`, `cronologia`, `terreno`, `vuoto`. Il campo `cronologia` non è decorativo: una tappa nel 1450 non può usare la piazza di oggi. Il campo `vuoto` dice **che cosa non si sa**, e va riempito come gli altri.
 - **Un campo vuoto non si stima.** Le dimensioni in metri di una piazza, se la fonte non le dà, restano vuote. Il default tipologico lo sceglie il motore e lo dichiara.
@@ -87,10 +87,11 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 **L'*Orlando furioso* nel quinto anno** (vedi `furioso.md`)
 - **Il testo è l'edizione 1928** della Biblioteca BEIC, trascritta su Wikisource, **in pubblico dominio**, e si scarica con `python3 sorgenti/furioso/scarica_wikisource.py`. Non usare Project Gutenberg (solo 16 canti), né Liber Liber (non estraibile), né Internet Archive (OCR rovinato). Le tre scelte e i loro motivi sono nel documento, §1.1.
 - **Il testo vive nella zona `Pagina:`**, non nelle pagine dei canti: `prop=extracts` su `Orlando furioso (1928)/Canto N` restituisce **zero caratteri** senza alcun errore. Si scarica `Pagina:<volume>/<n>` con `prop=revisions&rvslots=main`, in lotti da cinquanta.
-- **Una citazione del *Furioso* non si scrive a memoria.** I versi si prendono dall'indice e si scrivono in `dati/furioso/citazioni.json` con `costruisci_citazioni.py`; si verificano con `verifica_citazioni.py`. Il verso si individua con un **frammento distintivo**, mai con un numero di riga: la *rima extranea* (metà delle ottave ne ha sette versi, non otto) sposta tutti i numeri, e i numeri di riga sbagliavano 53 versi su 78.
+- **Una citazione del *Furioso* non si scrive a memoria.** I versi si prendono dall'indice e si scrivono in `dati/furioso/citazioni.json` con `costruisci_citazioni.py`; si verificano con `verifica_citazioni.py`. Il verso si individua con un **frammento distintivo**, mai con un numero di riga: la *rima extranea* (metà delle ottave ne ha sette versi, non otto) sposta tutti i numeri, e i numeri di riga sbagliavano 53 versi.
 - **Un buco dichiarato non si rimappa in silenzio.** Le 44 ottave assenti e i 44 numeri ripetuti dal trascrittore restano buchi: chi tiene l'indice tiene anche l'elenco dei numeri di cui non è sicuro. Un numero spostato di uno in un canto intero non si vede.
 - **Il pin e la stanza sono due cose diverse** (regola dei due strati, `furioso.md` §2.2): il **pin** resta il luogo reale e verificato del personaggio e va sulla mappa; la **stanza** è quella del filone e può non esistere — e allora il legame è `I` e non ha coordinate. Una stanza di tipo `I` **con** coordinate è un errore.
 - **Una tappa, una ottava**: nessuna citazione può riprendere l'ottava di un'altra tappa, e nessuna può cadere su un'ottava con un difetto di trascrizione. Lo controlla lo script, non l'occhio.
+- **Il legame `I` si sceglie sul luogo, non sul tono.** `I` significa «questo luogo non esiste»: se il luogo esiste, il legame è `A` o `S`, per quanto fantastica sia la citazione. I cinque luoghi ammessi come inesistenti sono dichiarati in `citazioni.json` (`luoghi_inesistenti`), e `verifica_citazioni.py` vieta qualsiasi altro `I`.
 - **L'Africa del *Furioso*** è il tema più serio del quinto anno e va trattato con la regola di `luoghi.md` §6.1: il poema chiama «il Moro» il nemico, e il gioco non deve insegnare nient'altro su quella riga.
 
 **Immagini dei personaggi** (trasversale, vedi `ritratti.md`)
@@ -160,7 +161,8 @@ Italiano semplice: frasi brevi, niente gergo non spiegato, niente tono infantile
 2. Modifica il documento in `docs/`, poi i dati in `dati/` se servono, poi il codice in `sorgenti/`.
 3. Rigenera il prototipo con `python3 build_mappa_html.py` da `sorgenti/`. Se hai Playwright, esegui i test in `sorgenti/test/`.
 4. Aggiorna versione e registro modifiche dei documenti toccati e, se serve, la tabella del `README.md`.
-5. Nel messaggio di commit, spiega **che cosa** è cambiato e **perché**.
+5. **Prima di dichiarare finito, passa `python3 sorgenti/verifica_coerenza.py`**: confronta le versioni fra intestazioni, tabella del README e rimandi incrociati, controlla che i file citati esistano (i file dichiarati «da produrre» sono un caso diverso e li riconosce), e riconcilia le cifre dichiarate con i dati. Se il checkout è parziale, aggiungi `--elenco` con l'elenco dei file del ramo remoto.
+6. Nel messaggio di commit, spiega **che cosa** è cambiato e **perché**.
 
 ## 7. Da sapere
 

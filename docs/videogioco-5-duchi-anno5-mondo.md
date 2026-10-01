@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno V, il mondo contemporaneo: il cantiere dell'Addizione Erculea e la carta della stima
-versione: 0.1
-data: 2026-10-01
+versione: 0.3
+data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO V — IL MONDO CONTEMPORANEO, primo percorso" e "ANNO V — IL MONDO CONTEMPORANEO, secondo percorso"), 01/10/2026
 dati: videogioco-5-duchi-anno5-mondo.json e videogioco-5-duchi-anno5-personaggi.json e videogioco-5-duchi-anno5-stime.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 5-1…5-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.5 elenco dei livelli dell'anno 5), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, che questo documento applica ai propri pin), videogioco-5-duchi-anno4-mondo.md (v0.2, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno3-europa.md (v0.2), videogioco-5-duchi-anno2-penisola.md (v0.1), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.4), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 5-1…5-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.5 elenco dei livelli dell'anno 5), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, che questo documento applica ai propri pin), videogioco-5-duchi-anno4-mondo.md (v0.4, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno3-europa.md (v0.3), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno V — Il mondo contemporaneo
 
@@ -52,7 +52,7 @@ Come nell'anno precedente, il materiale arriva in **due documenti separati**:
 
 **(c) Sei strati vuoti in fondo, ed è la cosa più importante del documento.** Dei sedici strati, **sei non hanno tappe** (§3.2): sono quelli dal 2026 in poi. Il gioco li mostra **vuoti sulla colonna**, e alla tappa 5-30 apre la settima porta, `PT-FUT`, che è una stanza vuota. La lezione del materiale diventa una cosa che si vede: *l'ultimo sesto del gioco è uno spazio bianco, e nessuno lo riempirà per noi*.
 
-**(d) Le persone viventi entrano, ma solo come emblema.** Decisione di Pietro (01/10/2026): **sì, le persone viventi possono essere personaggi obbligatori**, purché senza ritratto e con una scheda dichiarata «in formazione». Nel quinto anno sono sei (5-11 Fei-Fei Li, 5-15 Yann LeCun, 5-26 Joy Buolamwini, 5-27 Geoffrey Hinton, 5-28 Timnit Gebru, 5-29 Demis Hassabis) e vengono marcate con il campo **`stato: in formazione`** e con la regola che nessuna di loro può essere data per corretta (§5, §11). Le altre ventiquattro sono defunte, e molte sono defunte da poco.
+**(d) Le persone viventi entrano, ma solo come emblema.** Decisione di Pietro (01/10/2026): **sì, le persone viventi possono essere personaggi obbligatori**, purché senza ritratto e con una scheda dichiarata «in formazione». Nel quinto anno sono **nove** (5-11 Fei-Fei Li, 5-15 Yann LeCun, 5-16 Radia Perlman, 5-17 Vint Cerf, 5-23 Tim Berners-Lee, 5-26 Joy Buolamwini, 5-27 Geoffrey Hinton, 5-28 Timnit Gebru, 5-29 Demis Hassabis) e vengono marcate con il campo **`stato: in formazione`** e con la regola che nessuna di loro può essere data per corretta (§5, §11). Le altre ventuno sono defunte, e molte sono defunte da poco.
 
 ---
 
@@ -563,14 +563,14 @@ Codici `Q` proposti: la serie continua da quella dell'Anno IV (Q201…Q230) con 
 | Q313 | La macchina | 5-13 | **collettivo** `C` |
 | Q314 | Alonzo Church | 5-14 | **aggiunta** |
 | Q315 | Yann LeCun | 5-15 | vivente, `in formazione` |
-| Q316 | Radia Perlman | 5-16 | |
-| Q317 | Vint Cerf | 5-17 | |
+| Q316 | Radia Perlman | 5-16 | vivente, `in formazione` |
+| Q317 | Vint Cerf | 5-17 | vivente, `in formazione` |
 | Q318 | Gli ingegneri delle reti | 5-18 | **collettivo** `C` |
 | Q319 | Donald Davies | 5-19 | **aggiunta** |
 | Q320 | Alfonso II d'Este | 5-20 | |
 | Q321 | Edsger Dijkstra | 5-21 | **aggiunta** |
 | Q322 | Satoshi Nakamoto | 5-22 | |
-| Q323 | Tim Berners-Lee | 5-23 | **ritorno dall'Atlante dell'Anno IV**, dove era in `atl` |
+| Q323 | Tim Berners-Lee | 5-23 | **ritorno dall'Atlante dell'Anno IV**, dove era in `atl`; vivente, `in formazione` |
 | Q324 | James Ellis | 5-24 | **aggiunta** |
 | Q325 | Claude Shannon | 5-25 | |
 | Q326 | Joy Buolamwini | 5-26 | vivente, `in formazione` |
@@ -824,6 +824,10 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
 ---
 
 ## 15. Registro modifiche
+
+- **v0.3 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4). Nota per chi legge `furioso.md`: questo documento **non** contiene ancora la stanza del filone — il *pin* reale e la *stanza* sono due cose, e qui si tiene solo il *pin* (vedi `furioso.md` §6.2 e `luoghi.md` §5.1): la colonna del filone è la prossima cosa da aggiungere qui, e sta nella lista delle cose da fare.
+
+- **v0.2 (01/10/2026)**: corregge il numero di persone viventi: era **sei**, è **nove**. Le tre schede marcate `in formazione` (Fei-Fei Li, LeCun, Buolamwini, Hinton, Gebru, Hassabis) erano giuste, ma nell'anno ci sono anche Radia Perlman (5-16), Vint Cerf (5-17) e Tim Berners-Lee (5-23), che sono viventi e avevano la scheda senza dichiararlo nell'elenco del §0.3 e nella tabella dei temi sensibili. Le tre voci ricevono la dicitura «vivente, `in formazione`» nel catalogo del §6.5. La conseguenza non è cosmetica: **un personaggio senza `Stato` è indistinto da uno defunto**, ed è la regola che vieta il ritratto inventato. Il difetto è emerso costruendo l'elenco dei 213 personaggi per le immagini.
 
 - **v0.1 (01/10/2026)**: prima stesione. Formalizza il materiale storico-pedagogico del quinto anno di Pietro («Il mondo contemporaneo», primo e secondo percorso) in un documento coerente con gli anni precedenti:
   - i due percorsi distinti per funzione (le persone / i temi), con la constatazione che nell'Anno V sono **due metà dello stesso viaggio** e che i trenta livelli possono essere letti quasi in ordine cronologico;

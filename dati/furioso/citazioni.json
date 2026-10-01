@@ -1,6 +1,6 @@
 {
  "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno",
- "versione": 1,
+ "versione": 2,
  "data": "2026-10-02",
  "fonte": {
   "opera": "Ludovico Ariosto, Orlando furioso",
@@ -22,18 +22,22 @@
   "tema": "la frase che il livello deve far capire, e che va sulla targa",
   "citazione": "il verso si individua con un frammento distintivo, non con un numero di riga: nella stesura di Ottobre i numeri di riga sbagliavano 53 versi su 78"
  },
+ "luoghi_inesistenti": {
+  "la Luna": "esiste e non esiste: nel gioco è il luogo perduto, ed è dichiarato come tale",
+  "l'aria sopra la foresta": "non è un luogo ma una condizione: la si attraversa, non la si raggiunge",
+  "l'isola di Alcina": "l'isola dell'incantesimo, nel canto VI",
+  "il castello d'Atlante": "i due castelli che imprigionano nell'illusione, nel canto IV",
+  "il regno di Logistilla": "il regno di Logistilla, nel canto VI"
+ },
  "filoni": {
   "F1": {
    "titolo": "La guerra e il patto",
-   "canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canti": "canti 1, 4, 12-16, 18, 22, 33",
    "assegnato": true,
    "tappe": [
     "5-7",
-    "5-9",
-    "5-16",
     "5-20",
     "5-22",
-    "5-25",
     "5-29"
    ]
   },
@@ -59,19 +63,22 @@
   },
   "F4": {
    "titolo": "Atlante e il castello incantato",
-   "canti": "canti 4, 6, 22-23",
+   "canti": "canti 4, 6, 22-23, 30",
    "assegnato": true,
    "tappe": [
     "5-15",
-    "5-17"
+    "5-17",
+    "5-19"
    ]
   },
   "F5": {
-   "titolo": "Ginevra e Ariodante",
-   "canti": "canti 4-5",
+   "titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
+   "canti": "canti 4-5, 7, 23",
    "assegnato": true,
    "tappe": [
     "5-6",
+    "5-9",
+    "5-16",
     "5-24",
     "5-26"
    ]
@@ -108,8 +115,7 @@
    "tappe": [
     "5-3",
     "5-4",
-    "5-8",
-    "5-19"
+    "5-8"
    ]
   },
   "F10": {
@@ -128,11 +134,12 @@
   },
   "F12": {
    "titolo": "La parola data a un altro",
-   "canti": "canti 24, 30, 46",
+   "canti": "canti 24, 30, 32, 46",
    "assegnato": true,
    "tappe": [
     "5-14",
     "5-18",
+    "5-25",
     "5-28"
    ]
   }
@@ -273,8 +280,8 @@
   {
    "tappa": "5-6",
    "filone": "F5",
-   "filone_titolo": "Ginevra e Ariodante",
-   "filone_canti": "canti 4-5",
+   "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
+   "filone_canti": "canti 4-5, 7, 23",
    "canto": 5,
    "ottava": 23,
    "riferimento": "canto 5, ottava 23",
@@ -300,7 +307,7 @@
    "tappa": "5-7",
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
    "canto": 14,
    "ottava": 133,
    "riferimento": "canto 14, ottava 133",
@@ -350,9 +357,9 @@
   },
   {
    "tappa": "5-9",
-   "filone": "F1",
-   "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "filone": "F5",
+   "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
+   "filone_canti": "canti 4-5, 7, 23",
    "canto": 23,
    "ottava": 40,
    "riferimento": "canto 23, ottava 40",
@@ -478,7 +485,7 @@
    "tappa": "5-14",
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
-   "filone_canti": "canti 24, 30, 46",
+   "filone_canti": "canti 24, 30, 32, 46",
    "canto": 32,
    "ottava": 102,
    "riferimento": "canto 32, ottava 102",
@@ -502,7 +509,7 @@
    "tappa": "5-15",
    "filone": "F4",
    "filone_titolo": "Atlante e il castello incantato",
-   "filone_canti": "canti 4, 6, 22-23",
+   "filone_canti": "canti 4, 6, 22-23, 30",
    "canto": 4,
    "ottava": 30,
    "riferimento": "canto 4, ottava 30",
@@ -524,9 +531,9 @@
   },
   {
    "tappa": "5-16",
-   "filone": "F1",
-   "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "filone": "F5",
+   "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
+   "filone_canti": "canti 4-5, 7, 23",
    "canto": 7,
    "ottava": 2,
    "riferimento": "canto 7, ottava 2",
@@ -550,7 +557,7 @@
    "tappa": "5-17",
    "filone": "F4",
    "filone_titolo": "Atlante e il castello incantato",
-   "filone_canti": "canti 4, 6, 22-23",
+   "filone_canti": "canti 4, 6, 22-23, 30",
    "canto": 4,
    "ottava": 18,
    "riferimento": "canto 4, ottava 18",
@@ -573,14 +580,14 @@
    "emozione": "divertimento",
    "tema": "chi scrive lo standard sceglie la parola, e la parola finisce nel manuale di tutti",
    "luogo": "i monti Rifei",
-   "legame": "I",
+   "legame": "S",
    "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
   },
   {
    "tappa": "5-18",
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
-   "filone_canti": "canti 24, 30, 46",
+   "filone_canti": "canti 24, 30, 32, 46",
    "canto": 24,
    "ottava": 44,
    "riferimento": "canto 24, ottava 44",
@@ -602,26 +609,26 @@
   },
   {
    "tappa": "5-19",
-   "filone": "F9",
-   "filone_titolo": "Astolfo e il viaggio straordinario",
-   "filone_canti": "canti 22-23, 34-35",
-   "canto": 23,
-   "ottava": 17,
-   "riferimento": "canto 23, ottava 17",
+   "filone": "F4",
+   "filone_titolo": "Atlante e il castello incantato",
+   "filone_canti": "canti 4, 6, 22-23, 30",
+   "canto": 30,
+   "ottava": 93,
+   "riferimento": "canto 30, ottava 93",
    "numeri_versi": [
-    3,
-    4,
-    5
+    1,
+    5,
+    6
    ],
    "versi": [
-    "che non sa come a Montalban conduca",
-    "l’armatura e il destrier del suo parente;",
-    "però che ’l cuor le cuoce e le manuca"
+    "Venne Rinaldo a Montalbano, e quivi",
+    "dopo gran fame irondine ch’arrivi",
+    "col cibo in bocca ai pargoletti augelli."
    ],
-   "parafrasi": "Bradamante ha l'armatura del cugino e il suo cavallo, e un solo problema: come si arriva a Montalbano. Un indirizzo IP non certifica niente, dice solo «qui». Se sbagli la persona, il messaggio arriva lo stesso — e arriva a un altro.",
-   "moto": "ansia",
-   "emozione": "affanno",
-   "tema": "un indirizzo non serve a essere giusto: serve ad arrivare da qualcuno",
+   "parafrasi": "Rinaldo arriva a Montalbano e ci trova la famiglia intera. È l'unico modo di sapere che l'indirizzo era giusto: arrivare. Un indirizzo IP non certifica niente e non garantisce niente; se sbagli la persona, il messaggio arriva lo stesso — e arriva a un altro.",
+   "moto": "sollievo",
+   "emozione": "arrivo",
+   "tema": "un indirizzo non certifica niente: dice solo «qui», e si verifica arrivando",
    "luogo": "Montalbano",
    "legame": "S",
    "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
@@ -630,7 +637,7 @@
    "tappa": "5-20",
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
    "canto": 16,
    "ottava": 37,
    "riferimento": "canto 16, ottava 37",
@@ -678,7 +685,7 @@
    "tappa": "5-22",
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
    "canto": 1,
    "ottava": 9,
    "riferimento": "canto 1, ottava 9",
@@ -727,8 +734,8 @@
   {
    "tappa": "5-24",
    "filone": "F5",
-   "filone_titolo": "Ginevra e Ariodante",
-   "filone_canti": "canti 4-5",
+   "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
+   "filone_canti": "canti 4-5, 7, 23",
    "canto": 5,
    "ottava": 18,
    "riferimento": "canto 5, ottava 18",
@@ -750,9 +757,9 @@
   },
   {
    "tappa": "5-25",
-   "filone": "F1",
-   "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "filone": "F12",
+   "filone_titolo": "La parola data a un altro",
+   "filone_canti": "canti 24, 30, 32, 46",
    "canto": 30,
    "ottava": 80,
    "riferimento": "canto 30, ottava 80",
@@ -775,8 +782,8 @@
   {
    "tappa": "5-26",
    "filone": "F5",
-   "filone_titolo": "Ginevra e Ariodante",
-   "filone_canti": "canti 4-5",
+   "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
+   "filone_canti": "canti 4-5, 7, 23",
    "canto": 5,
    "ottava": 36,
    "riferimento": "canto 5, ottava 36",
@@ -824,7 +831,7 @@
    "tappa": "5-28",
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
-   "filone_canti": "canti 24, 30, 46",
+   "filone_canti": "canti 24, 30, 32, 46",
    "canto": 30,
    "ottava": 2,
    "riferimento": "canto 30, ottava 2",
@@ -848,21 +855,29 @@
    "tappa": "5-29",
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
-   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
-   "canto": 1,
-   "ottava": 7,
-   "riferimento": "canto 1, ottava 7",
+   "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
+   "canto": 12,
+   "ottava": 12,
+   "riferimento": "canto 12, ottava 12",
    "numeri_versi": [
-    2
+    1,
+    2,
+    3,
+    7,
+    8
    ],
    "versi": [
-    "ecco il giudicio uman come spesso erra!"
+    "Tutti cercando il van, tutti gli dánno",
+    "colpa di furto alcun che lor fatt’abbia:",
+    "del destrier che gli ha tolto, altri è in affanno;",
+    "e vi son molti, a questo inganno presi,",
+    "stati le settimane intiere e i mesi."
    ],
-   "parafrasi": "«Ecco il giudicio uman come spesso erra.» Se la macchina propone e noi non capiamo il ragionamento, la domanda non è se ha ragione: è di chi è la scoperta. Se la risposta è «di chi ha scritto il metodo», allora il metodo va scritto bene.",
-   "moto": "umiltà",
-   "emozione": "conoscenza dei limiti",
-   "tema": "il giudizio umano sbaglia spesso: e la scoperta resta di chi l'ha fatta",
-   "luogo": "il giudizio di Carlo Magno",
+   "parafrasi": "«Tutti cercando il van, tutti gli dánno colpa di furto alcun che lor fatt'abbia.» Mesi a dare la colpa del metodo a qualcuno, e nessuno a chiedersi come funzioni. Se la macchina propone e noi non capiamo il ragionamento, la domanda non è se ha ragione: è di chi è la scoperta.",
+   "moto": "sospetto",
+   "emozione": "irritazione",
+   "tema": "il merito di una scoperta va a chi l'ha fatta, non a chi l'ha detta per primo",
+   "luogo": "la corte di Scozia",
    "legame": "A",
    "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
   },

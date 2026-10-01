@@ -1,6 +1,6 @@
 ---
 titolo: I luoghi e le sagome — che cosa serve per disegnarli davvero
-versione: 0.1
+versione: 0.2
 data: 2026-10-02
 autore: Buffy (per pietrofabbri)
 documenti collegati:
@@ -156,8 +156,8 @@ record compilato dice di più sul metodo di dieci record completati a mano.
 
 Il rilievo si prende dai **Terrarium** di AWS Open Data, derivati da SRTM:
 una richiesta HTTP per tassello, **senza registrazione**, e i numeri sono buoni.
-`dati/mappe/rilievo_penisola.json` e `rilievo_europa.json` sono già producibili
-con `sorgenti/gis/rilievo.py`, che per ogni città dà quota, pendenza (m/km),
+`dati/mappe/rilievo_penisola.json` e `rilievo_europa.json` sono **da produrre**, e lo produce
+`sorgenti/gis/rilievo.py`, che per ogni città dà quota, pendenza (m/km),
 esposizione e rilievo locale.
 
 **Verificato su 14 punti ad altitudine nota**, errore medio assoluto **12,6 m**.
@@ -233,14 +233,30 @@ qualcosa.
 
 ## 7. Il registro delle modifiche
 
+### v0.2 — 02/10/2026
+
+Controllo di coerenza su tutto il progetto. Tre correzioni, tutte sulla stessa
+riga: le **coordinate**. I dati hanno **54 luoghi con coordinate**, dei quali **53
+verificati** e uno dichiarato `da_verificare` (Karakorum, il caso dei 8 128 m
+descritto sotto): il documento li chiamava tutti e 54 «verificate», che è vero
+solo se si ammette che una verifica può fallire. Ora il numero è giusto e il
+caso dichiarato è detto. Le **41 coordinate mancanti** erano giuste: sono i 24
+luoghi che non sono un luogo, i 10 da geocodificare a mano e i 7 da interrogare
+al WFS. Terza correzione: `rilievo_penisola.json` e `rilievo_europa.json` sono
+dichiarati **da produrre** e non dati per esistenti: lo script c'è, l'esecuzione
+no, e un documento che promette un file inesistente è un documento che un giorno
+farà perdere mezz'ora a qualcuno.
+
 ### v0.1 — 02/10/2026
 
 Prima stesura. Creati `sorgenti/luoghi/estrai_luoghi.py`, `coordinate.py`,
 `classifica.py`, `sorgenti/gis/rilievo.py`; `dati/luoghi_estratti.json`,
 `luoghi_geo.jsonl`, `luoghi_gioco.json`, `dettagli_ferrara.json`.
 
-Contenuto: i 95 luoghi del gioco con tappe e anni, 54 coordinate verificate con la
-fonte e l'articolo risolto, la classificazione in sette tipi, la decisione su
+Contenuto: i 95 luoghi del gioco con tappe e anni, 54 coordinate con la fonte e
+l'articolo risolto — **53 verificate e una dichiarata `da_verificare`**, Karakorum,
+che il controllo ha preso con la quota e non con il titolo (v. sotto) —, la
+classificazione in sette tipi, la decisione su
 ODbL, lo schema del dettaglio con il campo `cronologia`, e il primo record
 compilato per intero (Ferrara, sette luoghi, tre vuoti dichiarati).
 
@@ -258,7 +274,8 @@ noti e non a occhio:
    fra gli anni (`Luogo (pin)` e `Pin`) e le colonne extra non erano dichiarate:
    ora la tabella è nel codice, con il perché della correzione accanto.
 
-Aggiunto dopo: il **rilievo dei 54 luoghi** con coordinate verificate, e la sua
+Aggiunto dopo: il **rilievo dei 54 luoghi** con coordinate (53 verificate e Karakorum,
+dichiarata), e la sua
 verifica ha trovato un settimo difetto. **Karakorum è a 8 128 m**: il nome ha
 risolto sull'articolo «Karakorum» e il titolo combacia, ma quello non è la
 capitale mongola di Gengis Khan, è un altro luogo omonimo. È l'unico caso in cui

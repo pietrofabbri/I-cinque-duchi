@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno III, i personaggi d'Europa: la corte di Ferrara e la carta a strati
-versione: 0.2
+versione: 0.3
 data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO III — I PERSONAGGI D'EUROPA" e "ANNO III — L'EUROPA ATTRAVERSO I SECOLI"), 01/10/2026
 dati: videogioco-5-duchi-anno3-europa.json e videogioco-5-duchi-anno3-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 3-1…3-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.3 elenco dei livelli dell'anno 3), videogioco-5-duchi-anno2-penisola.md (v0.1, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.4), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 3-1…3-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.3 elenco dei livelli dell'anno 3), videogioco-5-duchi-anno2-penisola.md (v0.1, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno III — I personaggi d'Europa
 
@@ -771,6 +771,8 @@ Il terzo anno introduce i temi più pesanti dell'intero progetto, e le regole de
 ---
 
 ## 15. Registro modifiche
+
+- **v0.3 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4).
 
 - **v0.2 (01/10/2026)**: correzione di un errore di calcolo. In §9 la frase di Alfonso alla tappa 3-28 diceva che era «morto da due anni»: Alfonso I muore nel 1534 e la risorsa arriva dal 1936, dunque da oltre quattro secoli. Corretto, e uniformato con lo stesso meccanismo usato nel documento dell'Anno IV («è morto da oltre tre secoli» per Ercole II, 1559).
 - **v0.1 (01/10/2026)**: prima stesione. Formalizza il materiale storico-pedagogico del terzo anno di Pietro in un documento coerente con `anno1-ferrara.md`, `anno1-mappa.md` e `anno2-penisola.md`:

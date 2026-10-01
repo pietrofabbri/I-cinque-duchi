@@ -37,18 +37,36 @@ OUT = os.path.join(RADICE, "dati", "furioso", "citazioni.json")
 
 # I dodici filoni della vicenda. Il codice è nel gioco e nel JSON: F1…F12.
 FILONI = {
-    "F1": ("La guerra e il patto", "canti 1, 4-5, 14-16, 18, 22, 33"),
+    "F1": ("La guerra e il patto", "canti 1, 4, 12-16, 18, 22, 33"),
     "F2": ("Angelica e la fuga", "canti 1-2, 5, 9-12, 21, 23"),
     "F3": ("Orlando e il ritorno di sé", "canti 1, 12-13, 23-24"),
-    "F4": ("Atlante e il castello incantato", "canti 4, 6, 22-23"),
-    "F5": ("Ginevra e Ariodante", "canti 4-5"),
+    "F4": ("Atlante e il castello incantato", "canti 4, 6, 22-23, 30"),
+    "F5": ("La corte di Scozia: Ginevra, Ariodante, Pinabello", "canti 4-5, 7, 23"),
     "F6": ("Alcina e l'isola", "canti 6, 8, 21"),
     "F7": ("Logistilla e l'anello", "canti 6, 22, 25-26"),
     "F8": ("Bradamante e Merlino", "canti 7-8, 21-22"),
     "F9": ("Astolfo e il viaggio straordinario", "canti 22-23, 34-35"),
     "F10": ("Malagigi e l'incantesimo", "canti 11, 25-26"),
     "F11": ("Ruggiero e la conversione", "canti 13-16, 22-26, 41"),
-    "F12": ("La parola data a un altro", "canti 24, 30, 46"),
+    "F12": ("La parola data a un altro", "canti 24, 30, 32, 46"),
+}
+
+# I luoghi che NON esistono, e che quindi sono gli unici a cui si puó assegnare
+# il legame `I` secondo `videogioco-5-duchi-luoghi.md` §1.2. Elenco dichiarato,
+# perché un elenco non scritto non si controlla: `verifica_citazioni.py` vieta
+# a un `I` qualsiasi luogo che non sia in questo elenco.
+#
+# DIFETTO CORRETTO IN QUESTA VERSIONE: la tappa 5-17 aveva il legame `I` su
+# «i monti Rifei», che sono una catena vera. Il tono della citazione è
+# fantastico (l'ippogrifo non esiste) e il legame era stato scelto sul tono
+# invece che sul luogo: è la regola dei luoghi violata nel modo più invisibile,
+# perché nella scheda sembrava tutto coerente.
+INESISTENTI = {
+    "la Luna": "esiste e non esiste: nel gioco è il luogo perduto, ed è dichiarato come tale",
+    "l'aria sopra la foresta": "non è un luogo ma una condizione: la si attraversa, non la si raggiunge",
+    "l'isola di Alcina": "l'isola dell'incantesimo, nel canto VI",
+    "il castello d'Atlante": "i due castelli che imprigionano nell'illusione, nel canto IV",
+    "il regno di Logistilla": "il regno di Logistilla, nel canto VI",
 }
 
 # tappa, filone, canto, ottava, blocchi [(frammento, quanti versi)], luogo, tipo,
@@ -110,7 +128,7 @@ T = [
   "ogni secondo di ritardo è un errore che non si cancella",
   "Astolfo non parte di scatto: va «lento lento». Un'orbita è la stessa frase detta in chiave. "
   "Il tempo che passa non è tempo perso: è tempo che si aggiunge all'errore, e l'errore si somma."),
- ("5-9", "F1", 23, 40, [("orme che di fresco", 3)],
+ ("5-9", "F5", 23, 40, [("orme che di fresco", 3)],
   "la strada di Pontiero", "A",
   "inchiesta", "determinazione",
   "il dato non è il numero aggregato: è la sua distribuzione",
@@ -159,7 +177,7 @@ T = [
   "Ruggiero non obbedisce a nessun programma: è «disio d'onore e suo fiero destino». "
   "Un motore che gira e che nessuno sa spiegare non è rotto e non è magico: è un problema aperto. "
   "«Non sappiamo ancora» è una frase da mettere sulla targa del livello."),
- ("5-16", "F1", 7, 2, [("ponte e la riviera", 2)],
+ ("5-16", "F5", 7, 2, [("ponte e la riviera", 2)],
   "il ponte d'Erifilla sulla riviera", "A",
   "attenzione", "preoccupazione",
   "due reti collegate da un solo cavo: i messaggi girano in tondo",
@@ -167,7 +185,11 @@ T = [
   "Se due reti si toccano con un cavo solo, il primo messaggio ci torna indietro e il secondo lo segue. "
   "Il ponte che funziona è quello che ha due strade."),
  ("5-17", "F4", 4, 18, [("non è finto il destrier", 2), ("chiamasi ippogrifo", 3)],
-  "i monti Rifei", "I",
+  # I monti Rifei ESISTONO: il legame è `S` — il luogo spiega il nome, che è
+  # esattamente il tema della tappa — e non `I`. L'errore era nato perché la
+  # citazione è fantastica (l'ippogrifo non esiste) e illegame era stato
+  # scelto sul tono della citazione invece che sul luogo.
+  "i monti Rifei", "S",
   "curiosità", "divertimento",
   "chi scrive lo standard sceglie la parola, e la parola finisce nel manuale di tutti",
   "«Non è finto il destrier, ma naturale, ch'una giumenta generò d'un grifo». "
@@ -180,13 +202,14 @@ T = [
   "«Non si legge in Turpin che n'avvenisse; ma vidi già un autor che più ne scrisse.» "
   "Stessa storia, due fonti, e la fonte decide. Nel 1983 sei ingegneri di sei paesi scrivono "
   "una pagina di regole, e quella pagina diventa il modo giusto di comunicare per vent'anni."),
- ("5-19", "F9", 23, 17, [("non sa come a montalban conduca", 3)],
+ ("5-19", "F4", 30, 93, [("venne rinaldo a montalbano", 1), ("dopo gran fame", 2)],
   "Montalbano", "S",
-  "ansia", "affanno",
-  "un indirizzo non serve a essere giusto: serve ad arrivare da qualcuno",
-  "Bradamante ha l'armatura del cugino e il suo cavallo, e un solo problema: come si arriva a Montalbano. "
-  "Un indirizzo IP non certifica niente, dice solo «qui». "
-  "Se sbagli la persona, il messaggio arriva lo stesso — e arriva a un altro."),
+  "sollievo", "arrivo",
+  "un indirizzo non certifica niente: dice solo «qui», e si verifica arrivando",
+  "Rinaldo arriva a Montalbano e ci trova la famiglia intera. "
+  "È l'unico modo di sapere che l'indirizzo era giusto: arrivare. "
+  "Un indirizzo IP non certifica niente e non garantisce niente; "
+  "se sbagli la persona, il messaggio arriva lo stesso — e arriva a un altro."),
  ("5-20", "F1", 16, 37, [("di zibeltaro", 2)],
   "Zibeltaro e l'Erculeo segno, cioè Adria e Ferrara", "A",
   "preoccupazione", "concretezza",
@@ -223,7 +246,7 @@ T = [
   "Ginevra non ha bisogno che Arïodante glielo dimostri: «per suo amore Arïodante ardea per tutto il core». "
   "Lo sa, e basta. Nel gioco è la chiave: se la possiedi tutti, non protegge niente. "
   "La privacy è il numero di chi possiede la chiave."),
- ("5-25", "F1", 30, 80, [("lesse la carta quattro volte", 2)],
+ ("5-25", "F12", 30, 80, [("lesse la carta quattro volte", 2)],
   "la strada del messaggero", "S",
   "impazienza", "ansia",
   "più banda non serve se il canale è lento: la capacità non è la velocità",
@@ -251,13 +274,14 @@ T = [
   "«Si ravvede e pente e n'ha dispetto: ma quel c'ha detto, non può far non detto.» "
   "Il pentimento arriva dopo, e non cancella niente. È la regola dell'AI generativa "
   "e la regola del regolamento: l'uscita è irreversibile, e chi preme il tasto lo sa."),
- ("5-29", "F1", 1, 7, [("giudicio uman come spesso erra", 1)],
-  "il giudizio di Carlo Magno", "A",
-  "umiltà", "conoscenza dei limiti",
-  "il giudizio umano sbaglia spesso: e la scoperta resta di chi l'ha fatta",
-  "«Ecco il giudicio uman come spesso erra.» Se la macchina propone e noi non capiamo "
-  "il ragionamento, la domanda non è se ha ragione: è di chi è la scoperta. "
-  "Se la risposta è «di chi ha scritto il metodo», allora il metodo va scritto bene."),
+ ("5-29", "F1", 12, 12, [("tutti cercando il van", 3), ("e vi son molti a questo inganno presi", 2)],
+  "la corte di Scozia", "A",
+  "sospetto", "irritazione",
+  "il merito di una scoperta va a chi l'ha fatta, non a chi l'ha detta per primo",
+  "«Tutti cercando il van, tutti gli dánno colpa di furto alcun che lor fatt'abbia.» "
+  "Mesi a dare la colpa del metodo a qualcuno, e nessuno a chiedersi come funzioni. "
+  "Se la macchina propone e noi non capiamo il ragionamento, la domanda non è se ha ragione: "
+  "è di chi è la scoperta."),
  ("5-30", "F3", 1, 1, [("le donne i cavallier", 2), ("di vendicar la morte di troiano", 2)],
   "la prima pagina", "S",
   "impegno", "serietà",
@@ -341,7 +365,7 @@ def costruisci():
     usati = {r["filone"] for r in righe}
     return {
         "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno",
-        "versione": 1,
+        "versione": 2,
         "data": "2026-10-02",
         "fonte": {
             "opera": "Ludovico Ariosto, Orlando furioso",
@@ -366,6 +390,7 @@ def costruisci():
             "citazione": "il verso si individua con un frammento distintivo, non con un numero di riga: "
                          "nella stesura di Ottobre i numeri di riga sbagliavano 53 versi su 78",
         },
+        "luoghi_inesistenti": INESISTENTI,
         "filoni": {
             codice: {"titolo": t, "canti": c,
                      "assegnato": codice in usati,

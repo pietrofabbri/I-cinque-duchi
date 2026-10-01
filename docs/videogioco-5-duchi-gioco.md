@@ -1,9 +1,9 @@
 ---
 titolo: Videogioco "I cinque duchi" — Come si gioca: interazione, strumenti veri, carte dei personaggi, memoria, contesto
-versione: 0.4
-data: 2026-09-30
+versione: 0.5
+data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
-documenti collegati: videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-tappa-1-01.md (v0.2), videogioco-5-duchi-anno1-mappa.md (v0.7), videogioco-5-duchi-meccaniche.md (v0.3), videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno1-ferrara.md (v0.2)
+documenti collegati: videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-tappa-1-01.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-meccaniche.md (v0.3), videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno1-ferrara.md (v0.3)
 ---
 
 # Come si gioca
@@ -251,6 +251,8 @@ Si gioca **sempre**, anche a casa. **In classe** si gioca occasionalmente, con g
 - Strumenti: Pyodide (pyodide.org), v86 (github.com/copy/v86), sql.js, SheetJS: tutti software libero.
 
 ## 9. Registro modifiche
+
+- **v0.5 (02/10/2026)**: controllo di coerenza: tre rimandi di versione erano fermi a prima della loro ultima revisione (`tappa-1-01.md` v0.2, `anno1-mappa.md` v0.7, `anno1-ferrara.md` v0.2). Il testo non cambia.
 
 - **v0.4 (30/09/2026)**: grafica della zona in 3/4 con geometria reale; ritratti 48×54; rinvio a `motore-e-grafica.md`.
 

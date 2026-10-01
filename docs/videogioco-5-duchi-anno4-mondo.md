@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno IV, il mondo oltre l'Europa: l'archivio di Ferrara e il pianeta a strati
-versione: 0.3
+versione: 0.4
 data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO IV — IL MONDO OLTRE L'EUROPA" e "ANNO IV — LE CIVILTÀ DEL MONDO"), 01/10/2026
 dati: videogioco-5-duchi-anno4-mondo.json e videogioco-5-duchi-anno4-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 4-1…4-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.4 elenco dei livelli dell'anno 4), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, applicata ai pin di questo documento), videogioco-5-duchi-anno3-europa.md (v0.2, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno2-penisola.md (v0.1), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.4), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 4-1…4-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.4 elenco dei livelli dell'anno 4), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, applicata ai pin di questo documento), videogioco-5-duchi-anno3-europa.md (v0.2, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno IV — Il mondo oltre l'Europa
 
@@ -762,6 +762,8 @@ Il quarto anno è l'anno più difficile del progetto: porta **schiavitù, conqui
 ---
 
 ## 15. Registro modifiche
+
+- **v0.4 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4).
 
 - **v0.3 (01/10/2026)**: applicazione della **regola dei luoghi** (`luoghi.md` §3.3, 3). Il pin della tappa 4-9 passa da **Timbuctù** a **Il Cairo**, dichiarato di tipo `A`: il fatto documentato del 1324 è la delegazione ricevuta al Cairo, dove l'oro fu distribuito, e la capitale del Mali era Niani. Timbuctù non è attestata come tappa del viaggio e resta come **luogo simbolico `S`**. Cambia la riga della tabella delle tappe, il pin e il tipo di legame nella scheda Q209 e la nota accanto alla nona domanda. Nessun aggancio cambia forza (4-9 resta **forte**) e i conteggi del documento non cambiano. Era la verifica **V13** di `luoghi.md`.
 

@@ -8,14 +8,15 @@ correggere, non un errore da discutere.
 
 È il controllo che rende lecitizia la tabella del documento: senza di esso le
 citazioni sarebbero «quelle che ricordo», e in questo progetto una citazione
-ricordata a memoria è una citazione falsa.
-
-E controlla anche le tre cose che nessuno controllerebbe:
+ricordata a memoria è una citazione falsa.E controlla anche le cose che nessuno controllerebbe:
 * che nessuna tappa citi due volte la stessa ottava;
 * che nessuna citazione cada su un'ottava che ha già un difetto di
-  trascrizione dichiarato (sei o sedici versi invece di sette od otto);
+trascrizione dichiarato (sei o sedici versi invece di sette od otto);
 * che nessuna citazione cada su un'ottava il cui numero compare due volte
-  nella trascrizione, perché lì il testo è ambiguo per costruzione.
+nella trascrizione, perché lì il testo è ambiguo per costruzione;
+* che ogni citazione cada in un canto che il suo filone dichiara;
+* che due tappe confinanti non citino ottave dello stesso canto a meno di tre;
+* che il legame `I` vada solo a un luogo dichiarato inesistente.
 
 Uso:  python3 verifica_citazioni.py          -> tutto bene, o l'elenco dei problemi
       python3 verifica_citazioni.py --gutenberg -> riscontro sull'altra edizione
@@ -48,6 +49,92 @@ def ottave_ambigue():
             chiave = (r["canto"], int(numero))
             conteggio[chiave] = conteggio.get(chiave, 0) + 1
     return {k for k, v in conteggio.items() if v > 1}
+
+
+def distanza(a, b):
+    """|a-b| fra ottave dello stesso canto, 999 fra canti diversi."""
+    return abs(a[1] - b[1]) if a[0] == b[0] else 999
+
+
+def verifica_filoni(documento):
+    """Ogni citazione deve cadere nei canti che il suo filone dichiara.
+
+    DIFETTO TROVATO DA QUESTO CONTROLLO, e la ragione per cui il controllo
+    esiste: tre citazioni erano state assegnate a un filone i cui canti non
+    la contenevano. Il canto 7 era finito dentro «la guerra e il patto» (che
+    e' la battaglia di Parigi) quando racconta il ponte d'Erifilla, e il canto 23
+    dentro lo stesso filone quando e' gia' la palinodia di Orlando. Il nome
+    del filone e' la prima cosa che il giocatore legge, e un nome che non
+    descrive il racconto e' una bugia che si vede subito.
+    """
+    problemi = []
+    canti_dichiarati = {}
+    for codice, f in documento.get("filoni", {}).items():
+        canti = set()
+        for pezzo in re.findall(r"\d+", f.get("canti", "")):
+            canti.add(int(pezzo))
+        for pezzo in re.findall(r"(\d+)\s*-\s*(\d+)", f.get("canti", "")):
+            for n in range(int(pezzo[0]), int(pezzo[1]) + 1):
+                canti.add(n)
+        canti_dichiarati[codice] = canti
+    for r in documento["citazioni"]:
+        canti = canti_dichiarati.get(r["filone"])
+        if canti and r["canto"] not in canti:
+            problemi.append("%s: il filone %s dichiara i canti %s e non contiene il canto %d, "
+                            "che è quello citato" % (r["tappa"], r["filone"],
+                                                     r["filone_canti"], r["canto"]))
+    return problemi
+
+
+def verifica_vicinanze(documento):
+    """Due tappe confinanti non citano ottave dello stesso canto a meno di tre.
+
+    Un giocatore che va dalla tappa 5-8 alla 5-9 e ritrova lo stesso canto a
+    tre ottave di distanza ha l'impressione che il gioco si sia ripetuto, e ha
+    ragione. Il testo non e' corto: sono quarantasei canti.
+    """
+    problemi = []
+    ordinate = sorted(documento["citazioni"], key=lambda r: int(r["tappa"].split("-")[1]))
+    for a, b in zip(ordinate, ordinate[1:]):
+        chiave_a = (a["canto"], a["ottava"])
+        chiave_b = (b["canto"], b["ottava"])
+        if distanza(chiave_a, chiave_b) < 3:
+            problemi.append("%s e %s citano lo stesso canto a meno di tre ottave di distanza "
+                            "(%d,%d e %d,%d): il giocatore le vede di fila e crede che sia un caso"
+                            % (a["tappa"], b["tappa"], chiave_a[0], chiave_a[1],
+                               chiave_b[0], chiave_b[1]))
+    return problemi
+
+
+def verifica_legami(documento):
+    """Il legame `I` solo per un luogo che non esiste, e l'elenco dichiarato.
+
+    DIFETTO TROVATO DA QUESTO CONTROLLO: la tappa 5-17 aveva il legame `I` su
+    «i monti Rifei», che sono una catena vera. Il testo citato è fantastico
+    (l'ippogrifo non esiste) e il legame era stato scelto sul tono della
+    citazione invece che sul luogo: la regola di `luoghi.md` §1.2 — dove `I`
+    significa * questo luogo non esiste * — era violata nel modo più invisibile,
+    perché nella scheda sembrava tutto coerente.
+
+    Perché un elenco e non un controllo automatico: «esiste o non esiste» è una
+    domanda di geografia e di testo, non di programma. Si puó pero' vietare che
+    un `I` arrivi a un luogo che nessuno ha dichiarato inesistente, e cosi il
+    prossimo errore di questo tipo si vede subito.
+    """
+    problemi = []
+    dichiarati = set(documento.get("luoghi_inesistenti", {}))
+    usati = set()
+    for r in documento["citazioni"]:
+        if r["legame"] == "I":
+            usati.add(r["luogo"])
+            if r["luogo"] not in dichiarati:
+                problemi.append("%s: legame `I` su «%s», che non è fra i luoghi "
+                                "dichiarati inesistenti: `I` vale solo per un luogo "
+                                "che non esiste" % (r["tappa"], r["luogo"]))
+    for luogo in sorted(dichiarati - usati):
+        problemi.append("il luogo «%s» è dichiarato inesistente ma nessuna "
+                        "citazione lo usa con il legame `I`" % luogo)
+    return problemi
 
 
 def verifica():
@@ -100,6 +187,9 @@ def verifica():
     mancanti = [t for t in attese if t not in [r["tappa"] for r in documento["citazioni"]]]
     if mancanti:
         problemi.append("tappe senza citazione: %s" % ", ".join(mancanti))
+    problemi += verifica_filoni(documento)
+    problemi += verifica_vicinanze(documento)
+    problemi += verifica_legami(documento)
     return documento, controllate, problemi
 
 

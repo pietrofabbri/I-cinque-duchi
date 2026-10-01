@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — La regola dei luoghi: i tipi di legame fra personaggio e luogo, catalogo per anno e mappa del quinto anno
-versione: 0.1
-data: 2026-10-01
+versione: 0.2
+data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: le liste di associazioni personaggio–luogo per gli anni 2, 3 e 4 e la revisione delle associazioni con i luoghi dell'Orlando furioso per il quinto anno, proposte da Pietro (01/10/2026), con i criteri di tre e quattro tipi di legame e l'elenco delle associazioni da eliminare
 dati: videogioco-5-duchi-luoghi.json (da generare, v0.1: un record per associazione, con anno, personaggio, luogo, tipo di legame, pin o porta, nota, attendibilità)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.1, in costruzione), videogioco-5-duchi-anno4-mondo.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.2), videogioco-5-duchi-anno2-penisola.md (v0.1), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.3), videogioco-5-duchi-anno4-mondo.md (v0.4), videogioco-5-duchi-anno3-europa.md (v0.3), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
 ---
 # La regola dei luoghi
 
@@ -267,6 +267,8 @@ Questi sono i luoghi che **non esistono**, e sono gli unici ai quali si può app
 
 *(nota tecnica)* **I luoghi fantastici non hanno coordinate.** Non vanno in `sorgenti/gis/` e non si possono selezionare con il mouse: il gioco li disegna a mano sulla carta, con un segno proprio, e **dichiara al giocatore che non sono reali**. È l'unica eccezione alla regola dei pin e va scritta in `AGENTS.md`.
 
+*(aggiunta, 02/10/2026)* **Questa tabella non è ancora l'elenco definitivo.** `videogioco-5-duchi-furioso.md` v0.3, costruendo le stanze dei filoni, ha introdotto un quinto nome con legame `I` che qui non c'è: **«l'aria sopra la foresta»**, che è la stanza della tappa 5-8. Non è un luogo ma una condizione — l'aria che si attraversa — e va deciso se entra in questo elenco o se resta fuori perché non è un luogo. Il nome è dichiarato in `citazioni.json` (`luoghi_inesistenti`) intanto che la decisione non è presa, e `verifica_citazioni.py` vieta che se ne aggiunga un sesto senza dichiararlo.
+
 ### 4.4 Il catalogo dei luoghi del quinto anno
 
 *(da Pietro, verificato dove il fatto era incerto)*
@@ -329,7 +331,7 @@ Orlando (ha perso il senno), Astolfo (va a cercarlo), Kahneman e Tversky (errori
 
 ### 5.1 Lo schema
 
-`dati/videogioco-5-duchi-luoghi.json`: un record per associazione.
+`dati/videogioco-5-duchi-luoghi.json` (**da generare**): un record per associazione.
 
 | Campo | Che cosa contiene |
 |---|---|
@@ -421,7 +423,7 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 
 ## 8. Questioni aperte
 
-1. **La mappa del quinto anno è il *Furioso*, o il *Furioso* è l'atlante e il finale?** (§4.5). La mia proposta è la seconda: con la prima, venticinque dei trenta personaggi dell'anno perdono il loro luogo verificato. È la decisione più importante di questo documento.
+1. **La mappa del quinto anno è il *Furioso*, o il *Furioso* è l'atlante e il finale?** (§4.5). La mia proposta è la seconda: con la prima, venticinque dei trenta personaggi dell'anno perdono il loro luogo verificato. **Proposta risolta in `videogioco-5-duchi-furioso.md` v0.3 §2.2, e non ancora ratificata**: la regola dei due strati tiene il *pin* reale e verificato e dà alla *stanza* il luogo del filone. Finché Pietro non ratifica, questa resta la domanda aperta più importante del documento.
 2. **Il tipo `C` (luogo di crescita) entra nella scala ufficiale?** Se no, Sophia Loren va a Roma e si perde una delle lezioni più difficili del gioco.
 3. **Il tetto di 60-70 pin per anno** (§5.2) è un numero che Pietro vuole fissare, o resta una proposta? Cambia il modo in cui si costruisce ogni mappa.
 4. **I buchi geografici** (Brasile, Indonesia, Corea, Nuova Zelanda, Canada, Artide, Ungheria, Romania, Scandinavia, Balcani, Puglia): si colmano con nomi nuovi, o si dichiarano come scelta e il gioco li mostra come spazi vuoti? La seconda è più onesta e anche più interessante.
@@ -444,6 +446,12 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 ---
 
 ## 10. Registro modifiche
+
+- **v0.2 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: cambiano i rimandi e due dichiarazioni.
+  - **due rimandi di versione erano fermi**: `anno5-mondo.md` era indicato alla v0.1 (è alla v0.2) e `anno4-mondo.md` alla v0.2 (è alla v0.3);
+  - **la Q1 ha una proposta**: `videogioco-5-duchi-furioso.md` v0.3 §2.2 scioglie la domanda con la **regola dei due strati** — il pin resta reale e verificato, la stanza è quella del filone — e la Q1 §8 passa a «proposta risolta, da ratificare». Non è chiusa: è una decisione di Pietro;
+  - **l'elenco dei luoghi fantastici è dichiarato non definitivo**: le stanze dei filoni ne introducono uno in più, «l'aria sopra la foresta», che è una condizione e non un luogo, e la decisione su se sia un luogo o no è dichiarata aperta in §4.3;
+  - **`videogioco-5-duchi-luoghi.json`** è marcato **da generare** dove viene descritto, non solo dove lo si promette: un file promesso in un punto e dimenticato in un altro è un file che non arriva.
 
 - **v0.1 (01/10/2026)**: prima stesione. Documento trasversale, valido per i cinque anni:
   - i **quattro tipi di legame** fra persona e luogo (`B` biografico, `A` dell'azione, `S` simbolico, `I` interpretativo) con la prova da superare per ciascuno, e la regola che separa `S` da `I` (`I` vale solo per i luoghi che non esistono);

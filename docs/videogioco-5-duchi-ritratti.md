@@ -1,7 +1,7 @@
 ---
 titolo: I ritratti dei personaggi — dove vengono e perché sono dichiarati
-versione: 0.1
-data: 2026-10-01
+versione: 0.2
+data: 2026-10-02
 autore: Buffy (per pietrofabbri)
 documenti collegati:
   - docs/videogioco-5-duchi-mappe.md
@@ -49,13 +49,16 @@ libero esiste» insegna più di un ritratto generato.
 | di cui collettivi (famiglie, gruppi, città, «le mani che hanno approssimato √2») | 9 |
 | di cui persone viventi, che per regola hanno solo l'emblema | 9 |
 | di cui senza ritratto libero esistente, verificato | 26 |
-| ritratti guardati uno per uno e attestati | 19 |
+| ritratti guardati uno per uno e attestati | 19 accettati su 45 giudicati (gli altri 26 sono respinti) |
 | ritratti ancora da guardare a vista | 150 |
 | misura | 48×54 px, come il ritratto di Borso |
 | peso complessivo dei 169 file | 213 kB (media 1 258 byte) |
 
-Le 19 licenze, tutte libere: 116 pubblico dominio, 16 CC BY-SA 3.0, 15 CC BY-SA
-4.0, 4 CC0, 4 CC BY-SA 2.0, e 14 fra CC BY e CC BY-SA di versioni diverse.
+Le licenze sono **tutte libere**, e il conto esce dai dati senza arrotondare:
+116 pubblico dominio, 17 CC BY-SA 3.0 (di cui una in francese), 15 CC BY-SA 4.0,
+6 CC BY-SA 1.0/2.0 (di cui una in tedesco), 8 CC BY 2.0/2.5/3.0/4.0 (di cui due in
+italiano), 4 CC0, 2 «Attribution», 1 «No restrictions» — 169 in tutto. Le 48 che
+portano un obbligo (CC BY e CC BY-SA) sono quelle che vanno creditate a schermo.
 
 ## 3. La ricerca, e il suo difetto più importante
 
@@ -99,10 +102,10 @@ prefisso `File:`), e una volta perché il ciclo di scaricamento non ascoltava il
 fallito», che sembrava un file corrotto. Tutte e tre le volte la causa era la
 stessa: **una risposta che non arriva è stata letta come una risposta negativa**.
 
-## 4. L'attestazione: sette immagini respinte
+## 4. L'attestazione: otto immagini respinte
 
-Un file di ricerca può sbagliare la persona, e l'ha fatto sette volte. Il nome
-del file non è una prova. Le sette, viste una per una:
+Un file di ricerca può sbagliare la persona, e l'ha fatto otto volte. Il nome
+del file non è una prova. Le otto, viste una per una:
 
 | Scheda | Cosa aveva trovato la ricerca | Perché è stata respinta |
 |---|---|---|
@@ -143,8 +146,10 @@ come una fotografia.
    `larghezza`, e va mostrata in fase di prova.
 3. **Il taglio del viso è automatico** e non c'è riconoscimento facciale: la
    regola è una finestra con le proporzioni del riquadro, centrata sul contenuto
-   e non sull'immagine. Va guardata. I fogli di controllo sono
-   `sorgenti/art/provino_ritratti_1..3.png`.
+   e non sull'immagine. Va guardata. I fogli di controllo sono `sorgenti/art/provino_ritratti_1..3.png`,
+   **da produrre**: il taglio è automatico e nessuno
+   lo ha ancora guardato, ed è una delle tre cose che questo documento non può
+   sapere da solo.
 
 ## 6. Quello che resta da fare
 
@@ -157,6 +162,27 @@ come una fotografia.
 | rivedere la P80 | Renata Viganò potrebbe avere un ritratto sotto un'altra forma: la ricerca su Commons non ne ha trovato |
 
 ## 7. Il registro delle modifiche
+
+### v0.2 — 02/10/2026
+
+Controllo di coerenza: le cifre del documento contro `ritratti_disponibili.json`
+e `attestazione_immagini.json`, una per una. 213 schede, 169 ritratti, 44 emblemi
+(9 collettivi, 9 viventi, 26 senza ritratto libero), 116 in pubblico dominio: tutto
+giusto. Tre cose non erano giuste:
+
+1. **erano «sette» le immagini respinte, e sono otto**: la tabella del §4 ne
+   elencava otto (l'ottava è `Q126`, la xilografia di Caxton) e il titolo, il
+   `README` e `FONTI-E-LICENZE.md` ne dicevano sette. Ora il numero è uno solo e
+   corrisponde alla tabella;
+2. **il conto delle licenze era arrotondato a gruppi che non esistono** nel file:
+   «CC BY-SA 2.0 / 2.5: 5» non corrispondeva a nulla, perché le licenze portano
+   anche una variante linguistica (`CC BY-SA 2.0 de`, `CC BY 3.0 it`, `CC BY-SA
+   3.0 fr`). Ora il conto è per famiglia di licenza e viene dai dati; e le
+   immagini che portano un obbligo di credito sono **48**, non 53, perché CC0 e
+   «No restrictions» non ne portano;
+3. **i tre fogli di controllo non esistono**: il documento li dava per prodotti e
+   il registro li annunciava fra le cose fatte. Sono dichiarati **da produrre**,
+   che è la verità.
 
 ### v0.1 — 01/10/2026
 
