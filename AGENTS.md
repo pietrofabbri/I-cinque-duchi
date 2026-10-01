@@ -67,6 +67,14 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I luoghi fantastici non hanno coordinate** (Luna, castello di Atlante, isola di Alcina, regno di Logistilla, valle del Senno): vanno disegnati a mano sulla carta del gioco, con un segno dedicato, e **il gioco dichiara che non sono reali**. È l'unica eccezione alla regola dei pin.
 - Un toponimo inesistente non entra nel catalogo finché non esiste come luogo reale.
 
+**Mappe e dati geografici** (trasversale, vedi `mappe.md`)
+- **Il fondo geografico degli anni 2, 3 e 4 è in `dati/mappe/`**: 19 file tolti da Natural Earth (pubblico dominio) in tre scale — 110m mondo, 50m Europa, 10m penisola.
+- **I file di `dati/mappe/` NON sono JSON valido.** Sono in un formato a delta con quantizzazione, e si leggono **solo** con `sorgenti/gis/mappe_lettore.py`, che restituisce coordinate in gradi decimali. Non usare `json.load` su questi file.
+- **Prima di assegnare un pin a una tappa degli anni 2, 3 e 4, verificalo** con `sorgenti/gis/punto_in_poligono.py`: il pin deve cadere nel Paese e nell'unità amministrativa che il documento dichiara. Sono 90 coordinate scritte a mano e la verifica non è ancora stata fatta.
+- **Le altezze degli edifici non sono un dato disponibile**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Ogni edificio che ne usa una deve dichiarare la fonte (`lidar`, `osm`, `stimata`), come fanno i campi `attendibilita` e `manca` del registro dell'anno 4.
+- **OpenStreetMap è ODbL e non è ancora autorizzato** (`mappe.md` §10 Q1). Non scaricare dati OSM finché Pietro non ha deciso.
+- Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio.
+
 **Esercizi e testo**
 - **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
 - **Meccanismi sempre diversi**: tante schermate, colori, forme.
