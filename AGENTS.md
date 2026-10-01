@@ -9,7 +9,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 ## 2. Fonte di verità e ordine di lettura
 
 1. `docs/` è la **fonte di verità**. `dati/` contiene gli stessi contenuti in forma leggibile dai programmi. `prototipo/` si genera da `sorgenti/`.
-2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori.
+2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2 e 3, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati.
 3. Se due documenti si contraddicono, vale quello con la data più recente. Conviene segnalare la contraddizione a Pietro.
 
 ## 3. Decisioni di Pietro da rispettare (non cambiarle senza chiedere)
@@ -24,6 +24,19 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I facoltativi sono "visioni di Borso"**: consecutive, senza nuovi punti sulla mappa, in tono seppia.
 - **Borso d'Este è il personaggio giocante.** Gli altri personaggi parlano **solo di sé e della propria epoca**, mai di Borso.
 - **Zone percorribili** in vista dall'alto 3/4, stile GBA, con la geometria reale della città. Le zone non si sovrappongono: sono celle di Voronoi entro 150 m.
+
+**Anno 2** (decisioni del 01/10/2026, vedi `anno2-penisola.md` §0.1)
+- **Ercole I è il personaggio giocante**, come Borso nell'anno 1.
+- **Carta d'Italia a strati**: la pianta della penisola in orizzontale, una colonna di 12 strati in verticale. Ogni tappa è un **pin** letto a una certa profondità. I personaggi che agiscono fuori dalla penisola entrano da una **porta** (la notizia che arriva a Ferrara).
+- **30 personaggi obbligatori**, uno per livello; gli altri sono facoltativi o di atlante.
+- **Nessun vincolo di monotonia degli strati**: il percorso scende e risale, perché l'ordine dei livelli è degli argomenti, non degli anni.
+
+**Anno 3** (decisioni del 01/10/2026, vedi `anno3-europa.md` §0.1)
+- **Dal terzo anno il duca non è il personaggio giocante ma la guida.** Chi gioca attraversa; il duca commenta e non viaggia mai. La regola «il duca è il personaggio giocante» vale per gli anni 1 e 2, non per il 3.
+- **La corte di Ferrara è l'unico luogo percorribile.** Ogni tappa è una **risorsa che arriva** sulla tavola (ambasciatore, volume, opera, orefice, musica, carta geografica, mestiere). Le risorse di fuori entrano da una **porta**.
+- **Carta d'Europa a strati**, con 15 strati. Alfonso **non sa** ciò che arriva dalle epoche che non ha vissuto, e il gioco lo dichiara.
+- **Le 30 tappe coprono tutta l'Europa, da Atene a Torino.** Da cui una conseguenza da tenere presente: il Novecento **non ha tappe obbligatorie** (vedi `anno3-europa.md` §13 Q1).
+- **Il decreto di espulsione degli ebrei del 1510** entra nel gioco con la fonte, confrontando tre voci (vedi `anno3-europa.md` §5, «3.10 bis»). **Non usarlo finché la verifica V1 non è fatta.**
 
 **Esercizi e testo**
 - **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
@@ -47,7 +60,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 **Codici**
 - **Livelli**: `anno-numero`, per esempio `1-1`.
-- **Personaggi**: `P01…P94`.
+- **Personaggi**: `P01…P94` (anno 1). Gli anni 2 e 3 usano la serie `Q`, che continua da `Q01` (anno 2) a `Q101` (anno 3). **Codici definitivi fino a nuova indicazione.**
 - **Luoghi**: `L01…L32`.
 - **Nodi della mappa dell'informatica**: `B1.1`, `E7.3`… (vedi `riferimenti/mappa-informatica/`).
 - **Attendibilità delle fonti**: D (documentato), I (interpretato), M (memoria), L (leggenda), F (figura letteraria), C (collettivo).
