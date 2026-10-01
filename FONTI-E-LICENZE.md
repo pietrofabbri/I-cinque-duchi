@@ -11,6 +11,11 @@
   - servizio WFS `https://sit.comune.fe.it/geoserverckan/Ferrara/wfs`, con i livelli `Edifici_preview`, `Fabbricati_USAGE_preview` (altezze da LIDAR), `Potenziale_solare_edifici_preview`, `Aree_pedonali_esistenti_preview` e `Perimetro_centro_storico_di_Ferrara_preview`.
 - Attribuzione da mostrare nel gioco: «Dati: Comune di Ferrara, open data, CC BY 4.0».
 
+### Fondo geografico degli anni 2, 3 e 4
+
+- **Natural Earth**, scale 110m, 50m e 10m: **pubblico dominio**, nessuna attribuzione richiesta e nessun vincolo. È la fonte dei 19 file in `dati/mappe/` (mondo, Europa e penisola: paesi, terre emerse, coste, unità amministrative, città, fiumi, laghi, regioni fisiche). Scaricati ed estratti il 01/10/2026 con `sorgenti/gis/scarica_ne.py` e `sorgenti/gis/mappe_formato.py`. Formato e scelte della fonte in `docs/videogioco-5-duchi-mappe.md`.
+- **OpenStreetMap** — **non ancora usato nei dati del gioco**. È la fonte prevista per le sagome degli edifici fuori Ferrara, ed è **ODbL**: obbliga ad attribuire «© OpenStreetMap contributors» e a distribuire con la stessa licenza i database derivati. **La decisione di accettare o no questa licenza spetta a Pietro e non è ancora presa** (`mappe.md` §10 Q1). Le interrogazioni del 01/10/2026 via Overpass API sono state fatte solo per misurare quanto i dati siano disponibili, e nulla è stato scaricato nel repository.
+
 ## Immagini usate come riferimento o come base
 
 Wikimedia Commons, file consultati il 30/09/2026.
