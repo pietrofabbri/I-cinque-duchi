@@ -70,11 +70,17 @@ riferimenti/mappa-informatica/   mappa delle propedeuticità dell'informatica (2
 | 10 | `videogioco-5-duchi-motore-e-grafica.md` | Motore, fonti GIS, sistema di coordinate, rendering 3/4, nebbia, grafica dei personaggi | 0.1 |
 | 11 | `videogioco-5-duchi-anno2-penisola.md` | Anno 2: la penisola attraverso le persone. Carta a strati, 30 tappe, 30 schede, il secondo protagonistto | 0.1 |
 | 12 | `videogioco-5-duchi-anno3-europa.md` | Anno 3: i personaggi d'Europa. La corte di Ferrara, 30 tappe, il decreto del 1510, il vuoto del Novecento | 0.2 |
-| 13 | `videogioco-5-duchi-anno4-mondo.md` | Anno 4: il mondo oltre l'Europa. L'archivio di Ferrara, il pianeta a 16 strati, il registro che il giocatore costruisce, le persone senza nome | 0.1 |
+| 13 | `videogioco-5-duchi-anno4-mondo.md` | Anno 4: il mondo oltre l'Europa. L'archivio di Ferrara, il pianeta a 16 strati, il registro che il giocatore costruisce, le persone senza nome | 0.3 |
+| 14 | `videogioco-5-duchi-luoghi.md` | **Trasversale**: i tipi di legame fra una persona e un luogo, il criterio di eliminazione, il catalogo verificato degli anni 2-4, la geografia dell'*Orlando furioso* per il quinto anno | 0.1 |
+| 15 | `videogioco-5-duchi-anno5-mondo.md` | Anno 5: il mondo contemporaneo. Il cantiere dell'Addizione Erculea, il tempo come mappa, 30 tappe, 30 schede | 0.1 |
 
 I nomi dei file conservano il prefisso storico `videogioco-5-duchi-`, perché i documenti si citano a vicenda con questi nomi. Il titolo del gioco è **«I cinque duchi»**.
 
 **Ordine di lettura degli anni 2, 3 e 4.** I documenti dal secondo anno in poi sono nati dopo gli altri e contengono una sezione iniziale con le decisioni prese e le questioni aperte. **Prima di costruire le tappe di quegli anni, vanno letti `anno2-penisola.md` §13, `anno3-europa.md` §13 e `anno4-mondo.md` §13**: contengono le decisioni che il lettore non può dare per scontate — in particolare il catalogo dei personaggi fuori percorso, il Novecento (anno 3) e il buco dell'Asia meridionale antica e il presente (anno 4).
+
+**Nota sui luoghi (documento trasversale).** `videogioco-5-duchi-luoghi.md` vale per tutti e cinque gli anni e va letto **prima di assegnare un luogo a una tappa**. La sua regola è che ogni associazione fra una persona e un luogo dichiara un **tipo di legame** — `B` biografico, `A` dell'azione, `S` simbolico, `I` interpretativo (solo per i luoghi che non esistono), `C` di crescita — e deve superare un test: la frase «questa persona è legata a questo luogo» deve essere vera **senza metafore**, perché «se il luogo è sostituibile, non è un luogo». Nel quinto anno i luoghi fantastici (Luna, castello di Atlante, isola di Alcina, regno di Logistilla, valle del Senno) sono gli unici che ammettono il tipo `I`, e sono gli unici **senza coordinate**: vanno disegnati a mano e il gioco dichiara che non sono reali.
+
+**Nota sul quinto anno.** L'anno 5 non si sposta sulla mappa: **si sposta nel tempo**. La mappa è il cantiere dell'Addizione Erculea ad Alfonso II, e le tappe sono i 30 metodi numerici dello schema; i sei strati superiori (`S90`–`S95`) sono **volutamente vuoti** e si aprono solo alla tappa 5-30. È l'unico anno in cui una tappa è un'operazione e non un luogo.
 
 **Nota sul quarto anno.** L'anno 4 è l'anno in cui i livelli sono l'astrazione, i modelli, gli archivi, le tabelle, le query e la protezione dei dati. Per questo il documento di progetto è costruito sulla metafora dell'archivio: il giocatore non viaggia, **cataloga trenta documenti** e alla fine stampa il registro, in cui una riga resta vuota (`anno4-mondo.md` §7).
 
@@ -111,20 +117,22 @@ I test automatici (`sorgenti/test/*.js`) usano Playwright e giocano la tappa 1 d
 - anno 2: carta a strati, 30 tappe e 30 schede (documento di progetto);
 - anno 3: la corte come centro, 30 tappe e 30 schede (documento di progetto);
 - anno 4: l'archivio come centro, 30 tappe e 30 schede, il registro che il giocatore costruisce (documento di progetto);
+- la regola dei luoghi, valida per tutti e cinque gli anni: cinque tipi di legame, il criterio di eliminazione, il catalogo verificato degli anni 2-4;
 - tappa 1 giocabile.
 
 **Da fare, in ordine**
-1. **Decidere il vuoto del Novecento** (anno 3, §13 Q1): è la decisione che condiziona gli anni 3–5.
-2. **Decidere il buco dell'Asia meridionale antica e il presente** (anno 4, §13 Q1 e Q2): un anno che si intitola «il mondo oltre l'Europa» non può lasciare fuori l'India antica.
-3. **Verificare il decreto di espulsione degli ebrei del 1510** (anno 3, §12 V1) prima di qualunque uso didattico.
-4. Verifiche storiche degli anni 2, 3 e 4 (anno 2 §12, anno 3 §12, anno 4 §12): per l'anno 4 la verifica V1 su Ercole II è quella che pesa di più.
-5. Migliorare la parte didattica della tappa 1.
-6. Tappe 1-2 … 1-30.
-7. Coordinate delle tappe 27 e 30.
-8. Generare i dati degli anni 2, 3 e 4 in `dati/`, iniziando dal registro dell'anno 4.
-9. Materiali dell'anno 5, in arrivo da Pietro.
-10. Ricerca dei ritratti.
-11. Strumento del docente.
-12. Modalità accessibile.
+1. **Decidere la mappa del quinto anno** (`luoghi.md` §8 Q1): se la mappa è l'*Orlando furioso*, o se il *Furioso* è l'atlante e il finale e la mappa resta quella dei luoghi reali. È la decisione che condiziona l'anno 5.
+2. **Decidere il vuoto del Novecento** (anno 3, §13 Q1): è la decisione che condiziona gli anni 3–4.
+3. **Decidere il buco dell'Asia meridionale antica e il presente** (anno 4, §13 Q1 e Q2): un anno che si intitola «il mondo oltre l'Europa» non può lasciare fuori l'India antica.
+4. **Verificare il decreto di espulsione degli ebrei del 1510** (anno 3, §12 V1) prima di qualunque uso didattico.
+5. Verifiche storiche degli anni 2, 3, 4 e 5 e le **quattordici verifiche sui luoghi** (`luoghi.md` §7): le due che, se sbagliate, fanno scrivere al gioco una frase falsa sono **V9** (la parentela di Agramante) e **V10** (il dipinto di Caravaggio alla Brera).
+6. **Applicare le correzioni geografiche** di `luoghi.md` §3 agli elenchi degli anni 2, 3 e 4: in particolare il **pin di Mansa Musa** in `anno4-mondo.md` (Cairo, non Timbuctù) e **Marconi** (Pontecchio, non Bologna).
+7. Migliorare la parte didattica della tappa 1.
+8. Tappe 1-2 … 1-30.
+9. Coordinate delle tappe 27 e 30.
+10. Generare i dati degli anni 2, 3 e 4 in `dati/`, iniziando dal registro dell'anno 4, e poi `videogioco-5-duchi-luoghi.json`.
+11. Ricerca dei ritratti.
+12. Strumento del docente.
+13. Modalità accessibile.
 
-**Decisioni in sospeso:** vedi le sezioni «Questioni aperte» di ciascun documento. In particolare: la tappa 1-30 affidata a «La città» (P93), gli agganci trasversali da confermare, il formato del file di consegna, e — dal 01/10/2026 — il catalogo dei personaggi fuori percorso (anno 2 §13 Q6), il Novecento (anno 3 §13 Q1) e l'Asia meridionale antica (anno 4 §13 Q1).
+**Decisioni in sospeso:** vedi le sezioni «Questioni aperte» di ciascun documento. In particolare: la tappa 1-30 affidata a «La città» (P93), gli agganci trasversali da confermare, il formato del file di consegna, e — dal 01/10/2026 — il catalogo dei personaggi fuori percorso (anno 2 §13 Q6), il Novecento (anno 3 §13 Q1), l'Asia meridionale antica (anno 4 §13 Q1), la mappa del quinto anno e l'ingresso del tipo di legame `C` (`luoghi.md` §8 Q1 e Q2).
