@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno IV, il mondo oltre l'Europa: l'archivio di Ferrara e il pianeta a strati
-versione: 0.1
+versione: 0.3
 data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO IV — IL MONDO OLTRE L'EUROPA" e "ANNO IV — LE CIVILTÀ DEL MONDO"), 01/10/2026
 dati: videogioco-5-duchi-anno4-mondo.json e videogioco-5-duchi-anno4-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 4-1…4-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.4 elenco dei livelli dell'anno 4), videogioco-5-duchi-anno3-europa.md (v0.1, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno2-penisola.md (v0.1), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.4), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 4-1…4-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.4 elenco dei livelli dell'anno 4), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, applicata ai pin di questo documento), videogioco-5-duchi-anno3-europa.md (v0.2, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno2-penisola.md (v0.1), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.8), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.4), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno IV — Il mondo oltre l'Europa
 
@@ -198,9 +198,9 @@ La domanda a schermo intero, che è la conclusione del quarto anno, è quella de
 | **4-4** | Attributi, metodi, costruttori | `S62` | Tebe | **Hatshepsut** (Q204) | `PT-REG` | Il giorno in cui prendi il nome e la corona un oggetto cambia: che cosa succede ai suoi attributi? | forte | §54 L'arte come memoria | Nefertari (facoltativa); i sacerdoti di Amun |
 | **4-5** | Incapsulamento | `S73` | Agra | **Akbar** (Q205) | `PT-CRR` | Un impero con mille lingue e mille divinità: fuori c'è una porta sola. Chi decide che cosa si vede? | medio | §6 Quando la religione diventa identità politica | Abul Fazl (facoltativa); le città nuove |
 | **4-6** | Ereditarietà | `S68` | Karakorum | **Gengis Khan** (Q206) | `PT-ORR` | Un impero che si eredita a voce, non su carta: che cosa passa, e che cosa si rompe? | forte | §44 Gli imperi | I quattro khanati (collettivo); i cronachi cinesi |
-| **4-7** | Polimorfismo e interfacce | `S73` | Londra | **Isaac Newton** (Q207) | `PT-CRR` | Una sola formula per la caduta di una mela e per un pianeta: stessa interfaccia, comportamenti diversi? | medio | §22 La conoscenza | Hooke (facoltativa); Leibniz |
+| **4-7** | Polimorfismo e interfacce | `S73` | Hannover | **Leibniz** (Q207, *aggiunta*) | `PT-CRR` | Due persone che non si sono mai incontrate costruiscono la stessa cosa: com'è possibile? | medio | §22 La conoscenza | Newton (ritorno, v. §6.4); Hooke (facoltativa) |
 | **4-8** | Diagramma UML delle classi | `S73` | Uppsala | **Carl Linneo** (Q208) | `PT-CRR` | Il mondo diventa un disegno di caselle e linee. È una descrizione, o è un verdetto? | forte | §20 Il razzismo moderno | I lini (collettivo); le critiche alla classificazione (facoltativa) |
-| **4-9** | Liste collegate e riferimenti | `S69` | Timbuctù e la strada del sale | **Mansa Musa** (Q209) | `PT-MAR` | Una catena di pozzi, e ogni pozzo indica il successivo: che cosa succede se ne salta uno? | forte | §9 Il commercio | I mercanti di Songhai; Ibn Battuta (ritorno, facoltativa) |
+| **4-9** | Liste collegate e riferimenti | `S69` | Il Cairo `A`, con Timbuctù `S` | **Mansa Musa** (Q209) | `PT-MAR` | Una catena di pozzi, e ogni pozzo indica il successivo: che cosa succede se ne salta uno? | forte | §9 Il commercio | I mercanti di Songhai; Ibn Battuta (ritorno, facoltativa) |
 | **4-10** | Prova di corte: modellare un sistema a oggetti | `S72` | Ferrara, corte | **Ercole II d'Este** (Q210) | `PT-CRR` | Di settantacinque anni di duchi, quasi niente è rimasto. Che cosa manca, e chi l'ha perso? | forte | §71 Ercole II guarda il mondo | I magazzinieri; Lucrezia Borgia (ritorno) |
 | **4-11** | Implementare un linguaggio | `S67` | Baghdad | **Al-Khwarizmi** (Q211) | `PT-SCR` | Una procedura scritta perché la esegua qualcun altro: il primo programma è una regola in arabo. | forte | §50 Le lingue | Robert of Chester (facoltativa); il libro dell'algebra |
 | **4-12** | Analisi lessicale: i token | `S63` | Qufu | **Confucio** (Q212) | `PT-SCR` | Un testo di cinquemila anni senza un punto e senza una virgola: come trovi le parole? | forte | §1 Vivere insieme | Il dizionario di Mengxi (facoltativa); i calligrafi |
@@ -223,7 +223,7 @@ La domanda a schermo intero, che è la conclusione del quarto anno, è quella de
 | **4-29** | Privacy, GDPR, open data | `S74` | Parigi e Varsavia | **Marie Curie** (Q229) | `PT-LAB` | I suoi quaderni sono ancora radioattivi: di chi sono i dati di una persona, e chi decide? | forte | §4 Donne e potere | Il libro di Irène; l'Accademia (facoltativa) |
 | **4-30** | Prova finale: database e applicazione a oggetti | `S75` | Ferrara, archivio | **Le persone che non hanno firmato** (Q230, collettivo `C`) | `PT-VOC` | Trenta documenti, trenta righe. Chi non ha potuto scrivere la sua? | forte | §69 La storia dei vincitori | Le voci senza nome (facoltativa); Ercole II |
 
-**Verifica degli agganci.** Dei 30 agganci: **24 forti, 6 medi, 0 di scena**. I **sei medi** sono 4-5 (Akbar/incapsulamento), 4-7 (Newton/polimorfismo), 4-13 (Ipazia/BNF), 4-14 (Moctezuma/alberi), 4-16 (Ibn Khaldun/ciclo di vita), 4-19 (Ibn al-Haytham/chiavi). I tre **da rivedere con Pietro** perché l'aggancio è forse troppo ovvio: 4-8, 4-9, 4-24.
+**Verifica degli agganci.** Dei 30 agganci: **24 forti, 6 medi, 0 di scena**. I **sei medi** sono 4-5 (Akbar/incapsulamento), 4-7 (Leibniz/polimorfismo), 4-13 (Ipazia/BNF), 4-14 (Moctezuma/alberi), 4-16 (Ibn Khaldun/ciclo di vita), 4-19 (Ibn al-Haytham/chiavi). I tre **da rivedere con Pietro** perché l'aggancio è forse troppo ovvio: 4-8, 4-9, 4-24.
 
 *(proposta)* Questo bilancio è migliore di quello degli anni precedenti (13 forti nell'Anno II, 21 nell'Anno III) e la ragione è verificabile: i livelli dell'anno 4 sono **la rappresentazione del dato e i suoi strumenti**, e il materiale di Pietro è, senza volerlo, la storia di **come l'umanità si è registrata e di chi non è riuscito a registrarsi**. Il percorso è stato costruito da qui, non per forzatura. Vedi §13, Q4.
 
@@ -237,9 +237,9 @@ Le domande della tabella sono il cuore didattico dell'anno. In forma estesa, con
 4. **Hatshepsut** — *Che cosa succede agli attributi di una persona quando qualcun altro li cambia?* (fonte: le statue cancellate; ricostruzione: le raffigurazioni maschili; memoria: la maledizione di Hatshepsut, che è una leggerie ottocentesca)
 5. **Akbar** — *Fuori c'è una porta sola: chi decide che cosa si vede?* (fonte: l'*A'in-i Akbari* di Abul Fazl; ricostruzione: l'amministrazione; memoria: il sovrano tollerante, che è una semplificazione)
 6. **Gengis Khan** — *Che cosa passa, e che cosa si rompe, in un impero che si eredita a voce?* (fonte: la *Secret History*, di molto posteriore; ricostruzione: la divisione del 1229; memoria: il conquistatore, che non nomina mai i popoli che si ribellano)
-7. **Newton** — *Stessa interfaccia, comportamenti diversi: è così che funziona la natura?* (fonte: i *Principia*; ricostruzione: l'osservazione e la matematica; memoria: il genio solo, che è l'errore più diffuso)
+7. **Leibniz** — *Due persone che non si sono mai incontrate costruiscono la stessa cosa: com'è possibile?* (fonte: i *Cartegi* del 1676 e i *Principia*; ricostruzione: il calcolo; memoria: la disputa di priorità, che è durata più di un secolo)
 8. **Linneo** — *Il mondo diventa un disegno di caselle: descrizione o verdetto?* (fonte: il *Systema Naturae*; ricostruzione: l'osservazione sul campo; memoria: il naturalista innocente, che non è esistito)
-9. **Mansa Musa** — *Ogni pozzo indica il successivo: che cosa succede se ne salta uno?* (fonte: le relazioni dei mercanti; ricostruzione: il viaggio del 1324; memoria: l'uomo che porta più oro di tutti)
+9. **Mansa Musa** — *Ogni pozzo indica il successivo: che cosa succede se ne salta uno?* (pin: Il Cairo, non Timbuctù — v. §3.3, 3 e `luoghi.md`) (fonte: le relazioni dei mercanti; ricostruzione: il viaggio del 1324; memoria: l'uomo che porta più oro di tutti)
 10. **Ercole II d'Este** — *Di settantacinque anni di duchi, quasi niente è rimasto: che cosa manca?* (fonte: l'archivio; ricostruzione: l'incendio e le perdite; memoria: il duca che amava la musica, che è tutto ciò che si dice di lui)
 11. **Al-Khwarizmi** — *Una procedura scritta perché la esegua qualcun altro.* (fonte: il trattato di algebra; ricostruzione: i manuali di aritmetica; memoria: l'uomo il cui nome è diventato una parola)
 12. **Confucio** — *Come trovi le parole in un testo che non ha né punti né virgole?* (fonte: gli *Analects*, compilati dopo; ricostruzione: il lessico cinese; memoria: il vecchio saggio, che non scrisse nulla)
@@ -312,12 +312,12 @@ Formato di ogni scheda, come in `anno1-ferrara.md` §10, `anno2-penisola.md` §5
 - **Aggancio 4-6:** l'**ereditarietà** non è qui un programma ma una promessa orale (*yassa*, attribuzione incerta: V7). Il livello permette un esperimento chiaro: un oggetto passa a un figlio, l'oggetto è lo stesso tipo, ma con campi diversi; e quando l'eredità è orale, **i campi non sono obbligatori**, quindi gli interpreti divergono. È il caso in cui l'ereditarietà **rompe** la promessa di trasmettere tutti gli attributi. **Forte.**
 - **Motto:** «Il regno è come il cavallo: se lo spezzi, non lo hai più.» **Emblema:** quattro cavalli che tirano una sola carrozza.
 
-### Q207 · Isaac Newton
-- **Periodo:** 1643–1727. **Luogo:** Londra, Cambridge, Woolsthorpe. **Pin:** Londra. **Strato:** `S73`. **Attendibilità:** `D`.
-- **Domanda:** una sola formula per la caduta di una mela e per un pianeta: stessa interfaccia, comportamenti diversi?
-- **Fonte:** i *Principia* (1687); **ricostruzione:** la misura; **memoria:** il genio solo, che è l'errore più diffuso.
-- **Aggancio 4-7:** il **polimorfismo** è l'idea che lo stesso nome di una legge valga ovunque, con parametri diversi. Newton non ha inventato l'idea, ma le ha dato la forma che ancora usiamo, e il livello può mostrare che il metodo funziona solo se la forma del problema è davvero la stessa. **Medio:** è un'analogia potente e un po' stiracchiata — le leggi naturali non sono «implementazioni diverse» — e va raccontata come il momento in cui il pensiero diventa modulare, non come una verità sul mondo.
-- **Motto:** «La stessa formula, scritta una volta sola per il mondo intero.» **Emblema:** una mela e un'orbita sulla stessa pagina.
+### Q207 · Leibniz *(aggiunta — sostituisce Isaac Newton, spostato all'anno 5)*
+- **Periodo:** 1646–1716. **Luogo:** Hannover, Londra, Parigi. **Pin:** Hannover. **Strato:** `S73`. **Attendibilità:** `D`.
+- **Domanda:** due persone che non si sono mai incontrate costruiscono la stessa cosa: com'è possibile?
+- **Fonte:** i *Cartegi* del 1676 e i *Principia*; **ricostruzione:** il calcolo; **memoria:** la disputa di priorità, che è durata più di un secolo e che nessuno dei due voleva.
+- **Aggancio 4-7:** il **polimorfismo** e l'**interfaccia**: Leibniz voleva un linguaggio universale (*characteristica universalis*) in cui ogni idea fosse un simbolo calcolabile, e scoprì il calcolo indipendentemente da Newton. Due implementazioni diverse della stessa operazione, che convergevano perché descrivevano la stessa cosa. **Medio**, e il livello può mostrarlo in modo immediato: la stessa funzione scritta in due formalismi diversi dà lo stesso risultato.
+- **Motto:** «Calcoliamo la stessa curva per strade diverse: il risultato è uguale.» **Emblema:** due fogli con lo stesso grafico e due grafemi diversi.
 
 ### Q208 · Carl Linneo
 - **Periodo:** 1707–1778. **Luogo:** Uppsala, Stoccolma. **Pin:** Uppsala. **Strato:** `S73`. **Attendibilità:** `D+L` (le classificazioni sono documentatissime; il loro uso razzista è documentato, ma la sua responsabilità personale è molto discussa: V9).
@@ -327,7 +327,7 @@ Formato di ogni scheda, come in `anno1-ferrara.md` §10, `anno2-penisola.md` §5
 - **Motto:** «Ho ordinato il mondo in dodici regni. Nessuno mi aveva chiesto se volevo.» **Emblema:** una foglia con la sua nomenclatura binaria.
 
 ### Q209 · Mansa Musa
-- **Periodo:** circa 1280–1337. **Luogo:** Niani, Timbuctù, Il Cairo, Mecca. **Pin:** Timbuctù. **Strato:** `S69`. **Attendibilità:** `D+I` (il viaggio del 1324 è attestato; le cifre sull'oro sono molto gonfiate nelle fonti successive).
+- **Periodo:** circa 1280–1337. **Luogo:** Niani, Timbuctù, Il Cairo, Mecca. **Pin:** Il Cairo. **Legame:** `A` (il fatto documentato del 1324 è la delegazione ricevuta al Cairo, dove l'oro fu distribuito; la capitale del Mali era Niani; Timbuctù è `S`, la grande città del Sahara, non attestata come tappa). V. `luoghi.md` §3.3, 3. **Strato:** `S69`. **Attendibilità:** `D+I` (il viaggio del 1324 è attestato; le cifre sull'oro sono molto gonfiate nelle fonti successive).
 - **Domanda:** una catena di pozzi, e ogni pozzo indica il successivo: che cosa succede se ne salta uno?
 - **Fonte:** le relazioni dei mercanti e del sultano del Marocco; **ricostruzione:** le rotte del sale e dell'oro; **memoria:** l'uomo che porta più oro di tutti.
 - **Aggancio 4-9:** la **strada del sale** è una catena di punti in cui ogni punto vale solo se il successivo c'è, e vale in entrambe le direzioni: una **lista collegata**, con riferimenti che puntano oltre sé stessi. Il livello può far perdere un pozzo e vedere che cosa succede alla rotta. **Forte.**
@@ -763,6 +763,9 @@ Il quarto anno è l'anno più difficile del progetto: porta **schiavitù, conqui
 
 ## 15. Registro modifiche
 
+- **v0.3 (01/10/2026)**: applicazione della **regola dei luoghi** (`luoghi.md` §3.3, 3). Il pin della tappa 4-9 passa da **Timbuctù** a **Il Cairo**, dichiarato di tipo `A`: il fatto documentato del 1324 è la delegazione ricevuta al Cairo, dove l'oro fu distribuito, e la capitale del Mali era Niani. Timbuctù non è attestata come tappa del viaggio e resta come **luogo simbolico `S`**. Cambia la riga della tabella delle tappe, il pin e il tipo di legame nella scheda Q209 e la nota accanto alla nona domanda. Nessun aggancio cambia forza (4-9 resta **forte**) e i conteggi del documento non cambiano. Era la verifica **V13** di `luoghi.md`.
+
+- **v0.2 (01/10/2026)**: la scheda **4-7 passa da Isaac Newton a Leibniz**, che entra come *aggiunta*. Motivo: il livello 5-3 dello schema dei livelli si chiama «il metodo di Newton», e l'anno 4 non può tenere lo stesso personaggio come obbligatorio in due anni (regola §6.4). Newton non scompare: diventa il **rimando** di 4-7 ed è il personaggio obbligatorio della tappa 5-3 dell'anno 5. Cambia di conseguenza la domanda della tappa («due persone che non si sono mai incontrate costruiscono la stessa cosa»), mentre l'aggancio resta di forza **medio** e i conteggi del documento non cambiano (24 forti, 6 medi). Decisione di Pietro del 01/10/2026.
 - **v0.1 (01/10/2026)**: prima stesione. Formalizza il materiale storico-pedagogico del quarto anno di Pietro in un documento coerente con `anno1-ferrara.md`, `anno1-mappa.md`, `anno2-penisola.md` e `anno3-europa.md`:
   - i due percorsi del materiale distinti per funzione (le persone / le domande) e uniti nei 30 agganci;
   - principio zero esteso (il mondo non esiste ancora) e sei principi dell'anno;
