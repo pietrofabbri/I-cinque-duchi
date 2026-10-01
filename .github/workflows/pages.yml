@@ -1,0 +1,45 @@
+# Pubblica il prototipo su GitHub Pages a ogni push sul ramo main.
+# 1) rigenera prototipo/index.html dai sorgenti (Python, nessuna dipendenza esterna)
+# 2) pubblica la cartella prototipo/ su https://<utente>.github.io/i-cinque-duchi/
+# Prerequisito (una volta sola): Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Pubblica il prototipo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rigenera il prototipo
+        working-directory: sorgenti
+        run: python3 build_mappa_html.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: prototipo
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -22,7 +22,14 @@ Videogioco didattico per imparare l'**informatica** al liceo scientifico, opzion
 
 ## Come provare il prototipo
 
-Apri `prototipo/index.html` in un browser (Chrome, Firefox o Safari recenti). Non serve internet.
+**Online:** <https://pietrofabbri.github.io/i-cinque-duchi/>. Lo pubblica GitHub Pages, che si aggiorna da solo a ogni push sul ramo `main`.
+
+**Come funziona la pubblicazione.**
+- Il workflow `.github/workflows/pages.yml` rigenera `prototipo/index.html` da `sorgenti/` e lo pubblica.
+- Va attivato una volta sola: Settings → Pages → Source: «GitHub Actions».
+- GitHub Pages funziona con i repository pubblici, oppure privati con un piano a pagamento (Pro). Il sito pubblicato è comunque visibile a chiunque abbia l'indirizzo.
+
+**In locale:** apri `prototipo/index.html` in un browser (Chrome, Firefox o Safari recenti). Non serve internet.
 
 1. Si apre la mappa della città: le zone non ancora raggiunte sono coperte dalla nebbia.
 2. Premi **«Entra nella piazza»**: sei Borso in piazza della Cattedrale.
@@ -36,6 +43,7 @@ Apri `prototipo/index.html` in un browser (Chrome, Firefox o Safari recenti). No
 
 ```
 README.md                  questo file
+.github/workflows/         pubblicazione automatica su GitHub Pages
 AGENTS.md                  istruzioni per chi lavora al progetto con un'IA (leggere per primo)
 CLAUDE.md                  rimando ad AGENTS.md
 FONTI-E-LICENZE.md         dati, immagini, attribuzioni e licenze
