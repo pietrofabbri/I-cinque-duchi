@@ -1,0 +1,2288 @@
+{
+ "luoghi": [
+  {
+   "luogo": "Agra",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-5"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 27.18,
+   "lon": 78.02,
+   "articolo": "Agra",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": [],
+   "terreno": {
+    "quota": 182.0,
+    "pend": 26.3,
+    "espo": 243.4,
+    "rel": 114.0,
+    "scarto": 21.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Alcalá de Henares",
+   "tipo": "citta",
+   "tappe": [
+    "3-18"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 40.48181,
+   "lon": -3.3643,
+   "articolo": "Alcalá de Henares",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 593.0,
+    "pend": 17.5,
+    "espo": 217.0,
+    "rel": 212.8,
+    "scarto": 5.9,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Alessandria",
+   "tipo": "citta",
+   "tappe": [
+    "3-1",
+    "4-13"
+   ],
+   "anni": [
+    3,
+    4
+   ],
+   "pin": 2,
+   "lat": 44.91667,
+   "lon": 8.61667,
+   "articolo": "Alessandria",
+   "fonte_coord": "wikipedia:en",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 96.8,
+    "pend": 9.1,
+    "espo": 40.7,
+    "rel": 166.1,
+    "scarto": 3.4,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Annapolis e Baltimora",
+   "tipo": "percorso",
+   "tappe": [
+    "4-25"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Aquisgrana",
+   "tipo": "citta",
+   "tappe": [
+    "3-12",
+    "3-21"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 2,
+   "lat": 50.77621,
+   "lon": 6.08379,
+   "articolo": "Aquisgrana",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 177.0,
+    "pend": 18.7,
+    "espo": 42.1,
+    "rel": 219.7,
+    "scarto": 3.6,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Atene",
+   "tipo": "citta",
+   "tappe": [
+    "3-4",
+    "3-5",
+    "3-6"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 3,
+   "lat": 37.96667,
+   "lon": 23.71667,
+   "articolo": "Atene",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 77.7,
+    "pend": 124.0,
+    "espo": 274.8,
+    "rel": 265.9,
+    "scarto": 29.5,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Babilonia",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-22",
+    "5-6"
+   ],
+   "anni": [
+    4,
+    5
+   ],
+   "pin": 2,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": []
+  },
+  {
+   "luogo": "Baghdad",
+   "tipo": "citta",
+   "tappe": [
+    "4-11"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 33.03333,
+   "lon": 44.43333,
+   "articolo": "Baghdad",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 33.0,
+    "pend": 11.3,
+    "espo": 33.7,
+    "rel": 21.0,
+    "scarto": 5.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Bajkonur",
+   "tipo": "citta",
+   "tappe": [
+    "5-8"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 45.61667,
+   "lon": 63.31667,
+   "articolo": "Bajkonur",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 93.0,
+    "pend": 27.2,
+    "espo": 254.1,
+    "rel": 41.0,
+    "scarto": 8.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Basilea",
+   "tipo": "citta",
+   "tappe": [
+    "3-19"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 47.56667,
+   "lon": 7.6,
+   "articolo": "Basilea",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 258.0,
+    "pend": 23.4,
+    "espo": 9.4,
+    "rel": 132.9,
+    "scarto": 6.4,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Bethesda",
+   "tipo": "citta_antica",
+   "tappe": [
+    "5-4"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": []
+  },
+  {
+   "luogo": "Bolzano, Museo archeologico altoatesino",
+   "tipo": "edificio",
+   "tappe": [
+    "2-1"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Bombay e Delhi",
+   "tipo": "percorso",
+   "tappe": [
+    "4-17"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Boston, 2018",
+   "tipo": "situazione",
+   "tappe": [
+    "5-26"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Buenos Aires",
+   "tipo": "citta",
+   "tappe": [
+    "5-12"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": -34.60833,
+   "lon": -58.37194,
+   "articolo": "Buenos Aires",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 38.0,
+    "pend": 54.4,
+    "espo": 83.3,
+    "rel": 81.0,
+    "scarto": 21.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Cambridge",
+   "tipo": "citta",
+   "tappe": [
+    "5-13"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 52.20806,
+   "lon": 0.1225,
+   "articolo": "Cambridge",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 8.1,
+    "pend": 5.3,
+    "espo": 42.1,
+    "rel": 62.2,
+    "scarto": 1.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Castel del Monte",
+   "tipo": "citta",
+   "tappe": [
+    "3-8"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 41.08475,
+   "lon": 16.27094,
+   "articolo": "Castel del Monte",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 530.8,
+    "pend": 74.0,
+    "espo": 309.2,
+    "rel": 214.6,
+    "scarto": 19.4,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Certaldo",
+   "tipo": "citta",
+   "tappe": [
+    "3-22"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 43.54778,
+   "lon": 11.04111,
+   "articolo": "Certaldo",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 75.5,
+    "pend": 68.9,
+    "espo": 250.5,
+    "rel": 156.7,
+    "scarto": 14.2,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Chicago",
+   "tipo": "citta",
+   "tappe": [
+    "5-1"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 41.88194,
+   "lon": -87.62778,
+   "articolo": "Chicago",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 181.6,
+    "pend": 3.4,
+    "espo": 350.1,
+    "rel": 29.9,
+    "scarto": 1.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Chio e la Ionia",
+   "tipo": "percorso",
+   "tappe": [
+    "4-15"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Chiusi",
+   "tipo": "citta",
+   "tappe": [
+    "2-19"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": 43.01667,
+   "lon": 11.95,
+   "articolo": "Chiusi",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 367.2,
+    "pend": 170.0,
+    "espo": 70.5,
+    "rel": 179.1,
+    "scarto": 43.9,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Costantinopoli",
+   "tipo": "citta",
+   "tappe": [
+    "4-18"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 41.01224,
+   "lon": 28.97602,
+   "articolo": "Costantinopoli",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 30.3,
+    "pend": 86.3,
+    "espo": 61.6,
+    "rel": 104.8,
+    "scarto": 20.5,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Crotone",
+   "tipo": "citta",
+   "tappe": [
+    "2-2"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": 39.08333,
+   "lon": 17.11667,
+   "articolo": "Crotone",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 6.3,
+    "pend": 6.8,
+    "espo": 47.0,
+    "rel": 161.5,
+    "scarto": 2.3,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Elea (Velia)",
+   "tipo": "citta_antica",
+   "tappe": [
+    "2-11",
+    "2-6"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 2,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara",
+   "tipo": "citta",
+   "tappe": [
+    "5-20"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 44.83917,
+   "lon": 11.6175,
+   "articolo": "Ferrara",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 11.3,
+    "pend": 13.0,
+    "espo": 346.7,
+    "rel": 20.1,
+    "scarto": 4.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Ferrara e il regno",
+   "tipo": "percorso",
+   "tappe": [
+    "4-20"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara, Camerino",
+   "tipo": "citta",
+   "tappe": [
+    "3-20"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 43.14028,
+   "lon": 13.06889,
+   "articolo": "Camerino",
+   "fonte_coord": "wikipedia:en",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 568.1,
+    "pend": 184.5,
+    "espo": 315.9,
+    "rel": 474.3,
+    "scarto": 42.8,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Ferrara, Camerino d'alabastro",
+   "tipo": "citta",
+   "tappe": [
+    "3-15"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 44.83695,
+   "lon": 11.61912,
+   "articolo": "Camerini d'alabastro",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 14.0,
+    "pend": 11.2,
+    "espo": 344.4,
+    "rel": 20.1,
+    "scarto": 6.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Ferrara, archivio",
+   "tipo": "edificio",
+   "tappe": [
+    "4-30"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara, cappella",
+   "tipo": "edificio",
+   "tappe": [
+    "3-17"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara, corte",
+   "tipo": "edificio",
+   "tappe": [
+    "2-26",
+    "2-28",
+    "2-30",
+    "3-11",
+    "4-10"
+   ],
+   "anni": [
+    2,
+    3,
+    4
+   ],
+   "pin": 5,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara, fonderia",
+   "tipo": "edificio",
+   "tappe": [
+    "3-10"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara, sala di progetto",
+   "tipo": "edificio",
+   "tappe": [
+    "5-30"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Ferrara, zona dell'Addizione Erculea",
+   "tipo": "area",
+   "tappe": [
+    "2-25"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_wfs",
+   "perche": "una zona urbana con un nome proprio: si disegna come un'area, non come un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Firenze",
+   "tipo": "citta",
+   "tappe": [
+    "2-14",
+    "2-24",
+    "3-14"
+   ],
+   "anni": [
+    2,
+    3
+   ],
+   "pin": 3,
+   "lat": 43.77139,
+   "lon": 11.25417,
+   "articolo": "Firenze",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 64.6,
+    "pend": 10.5,
+    "espo": 326.7,
+    "rel": 593.6,
+    "scarto": 3.3,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Frombork",
+   "tipo": "citta",
+   "tappe": [
+    "3-2"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 54.35833,
+   "lon": 19.68333,
+   "articolo": "Frombork",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 5.7,
+    "pend": 65.3,
+    "espo": 348.0,
+    "rel": 106.5,
+    "scarto": 11.2,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Ginevra",
+   "tipo": "citta",
+   "tappe": [
+    "5-23"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 46.2,
+   "lon": 6.15,
+   "articolo": "Ginevra",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 402.2,
+    "pend": 38.7,
+    "espo": 65.0,
+    "rel": 114.1,
+    "scarto": 10.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Hannover",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-7"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 52.37444,
+   "lon": 9.73861,
+   "articolo": "Hannover",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": [],
+   "terreno": {
+    "quota": 64.2,
+    "pend": 16.5,
+    "espo": 108.4,
+    "rel": 41.2,
+    "scarto": 3.4,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Il Cairo",
+   "tipo": "situazione",
+   "tappe": [
+    "4-19"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 30.05806,
+   "lon": 31.22889,
+   "articolo": "Il Cairo",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": [],
+   "terreno": {
+    "quota": 22.0,
+    "pend": 23.5,
+    "espo": 262.6,
+    "rel": 488.1,
+    "scarto": 17.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Il Cairo `A`, con Timbuctù `S`",
+   "tipo": "situazione",
+   "tappe": [
+    "4-9"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Il Cairo e le carovane",
+   "tipo": "situazione",
+   "tappe": [
+    "4-2"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Karakorum",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-6"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 35.88306,
+   "lon": 76.50889,
+   "articolo": "Karakorum",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "da_verificare",
+   "perche": "il nome ha risolto sull'articolo «Karakorum», ma a 8 128 m: quello non e' la capitale mongola di Gengis Khan, e' un altro luogo con lo stesso nome. Il titolo combacia e ilposto no: e' l'unico caso in cui il controllo l'ha preso la quota, non il titolo. Va risolto a mano.",
+   "dettagli": [],
+   "terreno": {
+    "quota": 8128.0,
+    "pend": 955.9,
+    "espo": 304.8,
+    "rel": 3710.0,
+    "scarto": 306.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Lisbona e Calicut",
+   "tipo": "percorso",
+   "tappe": [
+    "4-23"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Londra",
+   "tipo": "citta",
+   "tappe": [
+    "5-19",
+    "5-3",
+    "5-7"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 3,
+   "lat": 51.50722,
+   "lon": -0.1275,
+   "articolo": "Londra",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 7.3,
+    "pend": 29.0,
+    "espo": 156.5,
+    "rel": 46.1,
+    "scarto": 5.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Londra, 2020",
+   "tipo": "situazione",
+   "tappe": [
+    "5-29"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Londra, Broad Street",
+   "tipo": "edificio",
+   "tappe": [
+    "5-9"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Los Alamos",
+   "tipo": "citta",
+   "tappe": [
+    "5-5"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 35.89111,
+   "lon": -106.29778,
+   "articolo": "Los Alamos",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 2238.3,
+    "pend": 65.0,
+    "espo": 160.3,
+    "rel": 834.6,
+    "scarto": 14.5,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Los Angeles",
+   "tipo": "citta",
+   "tappe": [
+    "5-17"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 34.05223,
+   "lon": -118.24368,
+   "articolo": "Los Angeles",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 88.3,
+    "pend": 24.3,
+    "espo": 156.7,
+    "rel": 194.9,
+    "scarto": 6.4,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Magonza",
+   "tipo": "citta",
+   "tappe": [
+    "3-16"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 49.99944,
+   "lon": 8.27361,
+   "articolo": "Magonza",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 95.7,
+    "pend": 5.5,
+    "espo": 129.7,
+    "rel": 119.8,
+    "scarto": 3.6,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Manchester",
+   "tipo": "citta",
+   "tappe": [
+    "3-28"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 53.48333,
+   "lon": -2.25,
+   "articolo": "Manchester",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 26.4,
+    "pend": 29.3,
+    "espo": 326.8,
+    "rel": 41.8,
+    "scarto": 11.5,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Mantova",
+   "tipo": "citta",
+   "tappe": [
+    "3-30"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 45.15639,
+   "lon": 10.79111,
+   "articolo": "Mantova",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 28.2,
+    "pend": 10.9,
+    "espo": 166.4,
+    "rel": 29.1,
+    "scarto": 5.5,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Milano",
+   "tipo": "citta",
+   "tappe": [
+    "2-8",
+    "3-13"
+   ],
+   "anni": [
+    2,
+    3
+   ],
+   "pin": 2,
+   "lat": 45.46694,
+   "lon": 9.19,
+   "articolo": "Milano",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 134.2,
+    "pend": 23.0,
+    "espo": 356.0,
+    "rel": 43.2,
+    "scarto": 5.3,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Motihari e Londra",
+   "tipo": "percorso",
+   "tappe": [
+    "4-28"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Murray Hill, 1948",
+   "tipo": "situazione",
+   "tappe": [
+    "5-25"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Nanchang e il mare",
+   "tipo": "percorso",
+   "tappe": [
+    "4-24"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "New York",
+   "tipo": "citta",
+   "tappe": [
+    "5-15"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 40.71667,
+   "lon": -74,
+   "articolo": "New York",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 4.8,
+    "pend": 15.8,
+    "espo": 274.9,
+    "rel": 899.6,
+    "scarto": 3.2,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Norimberga",
+   "tipo": "citta",
+   "tappe": [
+    "3-24"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 49.45389,
+   "lon": 11.0775,
+   "articolo": "Norimberga",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 301.5,
+    "pend": 47.1,
+    "espo": 186.6,
+    "rel": 97.2,
+    "scarto": 9.6,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Palermo",
+   "tipo": "citta",
+   "tappe": [
+    "2-15"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": 38.11566,
+   "lon": 13.36126,
+   "articolo": "Palermo",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 29.0,
+    "pend": 7.7,
+    "espo": 8.3,
+    "rel": 822.7,
+    "scarto": 6.2,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Parigi",
+   "tipo": "citta",
+   "tappe": [
+    "3-23",
+    "3-27"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 2,
+   "lat": 48.85667,
+   "lon": 2.35194,
+   "articolo": "Parigi",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 42.1,
+    "pend": 62.3,
+    "espo": 203.9,
+    "rel": 79.1,
+    "scarto": 13.5,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Parigi e Varsavia",
+   "tipo": "percorso",
+   "tappe": [
+    "4-29"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Pella",
+   "tipo": "citta",
+   "tappe": [
+    "3-9"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 40.75467,
+   "lon": 22.52105,
+   "articolo": "Pella",
+   "fonte_coord": "wikipedia:en",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 20.5,
+    "pend": 36.2,
+    "espo": 206.5,
+    "rel": 141.9,
+    "scarto": 8.6,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Porta `PT-AQU` (Ferrara)",
+   "tipo": "porta",
+   "tappe": [
+    "2-21"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "porta di gioco, non e' un luogo: e' un'uscita dal nodo",
+   "dettagli": []
+  },
+  {
+   "luogo": "Porta `PT-CAR` (Ferrara)",
+   "tipo": "porta",
+   "tappe": [
+    "2-12"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "porta di gioco, non e' un luogo: e' un'uscita dal nodo",
+   "dettagli": []
+  },
+  {
+   "luogo": "Porta `PT-COL` (Ferrara)",
+   "tipo": "porta",
+   "tappe": [
+    "2-29"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "porta di gioco, non e' un luogo: e' un'uscita dal nodo",
+   "dettagli": []
+  },
+  {
+   "luogo": "Porta `PT-CON` (Ferrara)",
+   "tipo": "porta",
+   "tappe": [
+    "2-27"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "porta di gioco, non e' un luogo: e' un'uscita dal nodo",
+   "dettagli": []
+  },
+  {
+   "luogo": "Princeton",
+   "tipo": "citta",
+   "tappe": [
+    "5-11",
+    "5-14"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 2,
+   "lat": 40.35222,
+   "lon": -74.65694,
+   "articolo": "Princeton",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 53.8,
+    "pend": 9.8,
+    "espo": 74.9,
+    "rel": 105.4,
+    "scarto": 5.6,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Qufu",
+   "tipo": "citta",
+   "tappe": [
+    "4-12"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 35.6,
+   "lon": 116.98333,
+   "articolo": "Qufu",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 66.0,
+    "pend": 13.3,
+    "espo": 14.0,
+    "rel": 46.0,
+    "scarto": 5.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Ravenna",
+   "tipo": "citta",
+   "tappe": [
+    "3-7"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 44.41611,
+   "lon": 12.20167,
+   "articolo": "Ravenna",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 7.8,
+    "pend": 14.3,
+    "espo": 98.9,
+    "rel": 17.9,
+    "scarto": 4.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Roma",
+   "tipo": "citta",
+   "tappe": [
+    "2-13",
+    "2-17",
+    "2-18",
+    "2-20",
+    "2-5",
+    "3-3"
+   ],
+   "anni": [
+    2,
+    3
+   ],
+   "pin": 6,
+   "lat": 41.89306,
+   "lon": 12.48278,
+   "articolo": "Roma",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 44.1,
+    "pend": 45.1,
+    "espo": 181.5,
+    "rel": 69.1,
+    "scarto": 15.8,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Roma, Curia",
+   "tipo": "edificio",
+   "tappe": [
+    "2-23",
+    "2-9",
+    "3-29"
+   ],
+   "anni": [
+    2,
+    3
+   ],
+   "pin": 3,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Roma, Tuscolo",
+   "tipo": "citta",
+   "tappe": [
+    "2-7"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": 41.79833,
+   "lon": 12.71083,
+   "articolo": "Tuscolo",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 628.3,
+    "pend": 119.5,
+    "espo": 285.7,
+    "rel": 655.1,
+    "scarto": 29.3,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Roma, area del Campidoglio",
+   "tipo": "area",
+   "tappe": [
+    "2-3"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "una zona urbana con un nome proprio: si disegna come un'area, non come un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Roma, villa dei Gracchi",
+   "tipo": "edificio",
+   "tappe": [
+    "2-10"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Rotterdam",
+   "tipo": "citta",
+   "tappe": [
+    "5-21"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 51.95,
+   "lon": 4.4166,
+   "articolo": "Rotterdam",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 0.0,
+    "pend": 4.3,
+    "espo": 316.4,
+    "rel": 18.5,
+    "scarto": 1.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Scutari e Costantinopoli",
+   "tipo": "percorso",
+   "tappe": [
+    "4-27"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Seattle",
+   "tipo": "citta",
+   "tappe": [
+    "5-16"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 47.605,
+   "lon": -122.33,
+   "articolo": "Seattle",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 51.6,
+    "pend": 132.6,
+    "espo": 231.4,
+    "rel": 1880.2,
+    "scarto": 30.7,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Seattle, 2020",
+   "tipo": "situazione",
+   "tappe": [
+    "5-28"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Spagna e Tenochtitlán",
+   "tipo": "percorso",
+   "tappe": [
+    "4-26"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Squillace, monastero di Vivarium",
+   "tipo": "edificio",
+   "tappe": [
+    "2-4"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "un edificio dentro la citta': ha una sagoma e una cronologia sue",
+   "dettagli": []
+  },
+  {
+   "luogo": "Stoccolma",
+   "tipo": "citta",
+   "tappe": [
+    "5-10"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 59.35,
+   "lon": 18.06667,
+   "articolo": "Stoccolma",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 40.9,
+    "pend": 16.1,
+    "espo": 318.1,
+    "rel": 71.8,
+    "scarto": 4.4,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Taranto",
+   "tipo": "citta",
+   "tappe": [
+    "2-16"
+   ],
+   "anni": [
+    2
+   ],
+   "pin": 1,
+   "lat": 40.47111,
+   "lon": 17.24306,
+   "articolo": "Taranto",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 27.1,
+    "pend": 24.0,
+    "espo": 242.0,
+    "rel": 40.2,
+    "scarto": 3.3,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Tebe",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-4"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": []
+  },
+  {
+   "luogo": "Tenochtitlán",
+   "tipo": "citta",
+   "tappe": [
+    "4-14"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 19.435,
+   "lon": -99.13139,
+   "articolo": "Tenochtitlán",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 2244.0,
+    "pend": 16.2,
+    "espo": 121.0,
+    "rel": 97.0,
+    "scarto": 16.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Toledo",
+   "tipo": "citta",
+   "tappe": [
+    "4-21"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 39.86666,
+   "lon": -4.03333,
+   "articolo": "Toledo",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 452.0,
+    "pend": 36.1,
+    "espo": 228.2,
+    "rel": 186.9,
+    "scarto": 9.2,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Toronto, 2012",
+   "tipo": "situazione",
+   "tappe": [
+    "5-27"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Tunisi e Il Cairo",
+   "tipo": "percorso",
+   "tappe": [
+    "4-16"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
+   "dettagli": []
+  },
+  {
+   "luogo": "Uppsala",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-8"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 59.85,
+   "lon": 17.63333,
+   "articolo": "Uppsala",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": [],
+   "terreno": {
+    "quota": 30.3,
+    "pend": 31.7,
+    "espo": 219.9,
+    "rel": 45.2,
+    "scarto": 5.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Uruk",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-1"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 31.3259,
+   "lon": 45.6374,
+   "articolo": "Uruk",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": [],
+   "terreno": {
+    "quota": 24.0,
+    "pend": 12.3,
+    "espo": 270.0,
+    "rel": 33.0,
+    "scarto": 5.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Venezia",
+   "tipo": "citta",
+   "tappe": [
+    "2-22",
+    "3-25"
+   ],
+   "anni": [
+    2,
+    3
+   ],
+   "pin": 2,
+   "lat": 45.43972,
+   "lon": 12.33194,
+   "articolo": "Venezia",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 7.6,
+    "pend": 17.6,
+    "espo": 33.0,
+    "rel": 16.4,
+    "scarto": 9.1,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Vienna",
+   "tipo": "citta",
+   "tappe": [
+    "5-2"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": 48.20833,
+   "lon": 16.3725,
+   "articolo": "Vienna",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 171.9,
+    "pend": 4.6,
+    "espo": 34.9,
+    "rel": 91.6,
+    "scarto": 1.3,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Westminster",
+   "tipo": "citta",
+   "tappe": [
+    "3-26"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 51.4995,
+   "lon": -0.1333,
+   "articolo": "Westminster",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 4.0,
+    "pend": 1.7,
+    "espo": 113.3,
+    "rel": 46.1,
+    "scarto": 1.2,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "Xianyang",
+   "tipo": "citta",
+   "tappe": [
+    "4-3"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 34.32972,
+   "lon": 108.70917,
+   "articolo": "Xianyang",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "dettagli": [],
+   "terreno": {
+    "quota": 384.0,
+    "pend": 35.8,
+    "espo": 135.0,
+    "rel": 140.0,
+    "scarto": 12.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
+   "luogo": "un documento del 2008",
+   "tipo": "situazione",
+   "tappe": [
+    "5-22"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "un ufficio riservato, 1970",
+   "tipo": "situazione",
+   "tappe": [
+    "5-24"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  },
+  {
+   "luogo": "una sala di riunione, 1983",
+   "tipo": "situazione",
+   "tappe": [
+    "5-18"
+   ],
+   "anni": [
+    5
+   ],
+   "pin": 1,
+   "lat": null,
+   "lon": null,
+   "articolo": null,
+   "fonte_coord": null,
+   "coord_stato": "non_e_un_luogo",
+   "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
+   "dettagli": []
+  }
+ ]
+}

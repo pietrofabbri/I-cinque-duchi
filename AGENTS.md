@@ -75,6 +75,15 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **OpenStreetMap è ODbL e non è ancora autorizzato** (`mappe.md` §10 Q1). Non scaricare dati OSM finché Pietro non ha deciso.
 - Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio.
 
+**Luoghi e sagome** (trasversale, vedi `luoghi-edifici.md`)
+- **Ogni luogo ha un `tipo`** fra sette, e il tipo decide come si disegna: `citta`, `citta_antica`, `edificio`, `area`, `percorso`, `situazione`, `porta`. **`situazione` e `porta` non hanno coordinate e non si disegnano**: nel quinto anno la casella «Luogo (pin)» contiene una situazione (tappe 5-1, 5-9, 5-20…), e le porte `PT-*` sono uscite dal nodo, non strade.
+- **Ogni scheda dichiara lo stato della coordinata** (`verificata`, `non_e_un_luogo`, `da_geocodificare_wfs`, `da_geocodificare_a_mano`) e **l'articolo a cui il nome ha risolto**. Nessuna coordinata manca in silenzio: un vuoto non dichiarato è una bugia.
+- **Il dettaglio di un luogo ha sei campi**: `impianto`, `materiali`, `edifici`, `cronologia`, `terreno`, `vuoto`. Il campo `cronologia` non è decorativo: una tappa nel 1450 non può usare la piazza di oggi. Il campo `vuoto` dice **che cosa non si sa**, e va riempito come gli altri.
+- **Un campo vuoto non si stima.** Le dimensioni in metri di una piazza, se la fonte non le dà, restano vuote. Il default tipologico lo sceglie il motore e lo dichiara.
+- Il file dei luoghi si **rigenera** con `python3 sorgenti/luoghi/estrai_luoghi.py` e poi `classifica.py`: non si scrive a mano, perché un inventario scritto a parte diverge dai documenti, e un inventario che diverge è falso. **La tabella delle colonne va riletta** quando un documento cambia: nel 4º anno la colonna si chiama `Pin` e non `Luogo (pin)`, e la prima versione leggeva la colonna sbagliata trovandosi trenta nomi di persone al posto di trenta luoghi.
+- **Il rilievo si misura, non si stima**: `sorgenti/gis/rilievo.py`, verificato su 14 punti ad altitudine nota con errore medio di 12,6 m. Non usare `lon mod 16` per il pixel dentro un tassello: è l'indice di un tassello, non di un pixel (256 pixel, non 16).
+- **OpenStreetMap è autorizzato dal 02/10/2026** e i dati derivati viaggiano con ODbL e l'attribuzione «© OpenStreetMap contributors». Il codice del gioco non è obbligato a licenza libera.
+
 **Immagini dei personaggi** (trasversale, vedi `ritratti.md`)
 - **Due immagini, non una**: **ritratto autentico** se esiste un'immagine con licenza libera che ritrae davvero la persona; altrimenti **emblema**, che dichiara **perché** la persona non ha un volto qui. Nessuna terza via e nessun volto generato.
 - **Ogni ritratto porta un'etichetta**: `fotografia`, `dipinto`, `xilografia`, `miniatura`, `autoritratto`, `rilievo`, `immagine tradizionale`, `immagine di epoca`. Un autoritratto e una fotografia non si ritagliano come una miniatura, e un visitatore deve poter capire che cosa sta guardando.

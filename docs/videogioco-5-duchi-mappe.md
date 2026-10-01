@@ -1,7 +1,7 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.1
-data: 2026-10-01
+versione: 0.2
+data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
 dati: dati/mappe/*.json (19 file, prodotti il 01/10/2026 da Natural Earth con `sorgenti/gis/mappe_formato.py`)
@@ -267,7 +267,7 @@ for proprieta, anelli in geometrie:
 
 ## 10. Questioni aperte
 
-1. **ODbL entra nel progeto?** È la decisione che sblocca i sagomi degli edifici fuori Ferrara, e quindi le trenta zone percorribili. Senza, gli edifici vengono dal WFS comunale, che esiste solo dove esiste (§5).
+1. ~~**ODbL entra nel progetto?**~~ **Risolto il 02/10/2026: sì, entra.** L'obiezione che lo rende una scelta pesante — «ti obbliga a mettere tutto sotto licenza libera» — non è corretta: l'obbligo di condivisione scatta solo per un **database derivato**, e un gioco che disegna geometrie su schermo distribuisce un'opera, non un database. Il codice, i documenti e la grafica restano del progetto; i file di dati derivati da OSM viaggiano con ODbL e la dichiarazione «© OpenStreetMap contributors». Sblocca i sagomi degli edifici fuori Ferrara e quindi le trenta zone percorribili. Ragionamento e vincoli in `luoghi-edifici.md` §1.
 2. **Il vincolo di 20 000 abitanti per mostrare una città** (§4.2) è giusto? È una proposta, non una decisione, e cambia molto la quantità di nomi sulla mappa.
 3. **Le trenta zone percorribili** si fanno tutte, o solo dove il luogo è davvero lo spazio del gioco (§5.2)? La seconda ipotesi fa risparmiare mesi e il progetto funziona già così nell'anno 1.
 4. **Il file `europa_50_regioni_amministrative` è grosso** (450 kB, 1 687 geometrie). Va tenuto intero, o ridotto alle unità di primo livello, visto che molte tappe dell'anno 3 sono in capitali di Stato e non serve il dettaglio dei distretti?
@@ -277,7 +277,7 @@ for proprieta, anelli in geometrie:
 
 ## 11. Cosa c'è da fare
 
-1. **Decidere ODbL** (§10 Q1): blocca tutto il §5
+1. ~~**Decidere ODbL**~~ **fatto il 02/10/2026**: entra, e i sagomi si prendono da OSM dichiarandone la provenienza edificio per edificio (`luoghi-edifici.md` §1)
 2. **Verificare i 90 pin** degli anni 2, 3 e 4 contro i file archiviati: è il controllo che manca e che vale più di qualunque altro
 3. **Convertire l'altitudine** (`geography_regions_elevation_points`): serve al quinto anno, dove la colonna degli strati è il tempo e la montagna è un dato
 4. **Costruire `dati/mappe/anno1_pin.json`**: i pin dell'anno 1 verificati con lo stesso metodo, così il metodo è provato su dati già noti
@@ -296,3 +296,7 @@ for proprieta, anelli in geometrie:
   - la risposta alla domanda sulle «chicche»: le sagome si prendono da OpenStreetMap, **le altezze non esistono come dato** (24% a Milano, 3% a Roma), e la regola dei tre livelli con la dichiarazione della provenienza di ogni altezza;
   - la proposta del **vincolo dei 20 000 abitanti** per decidere che cosa si può attraversare senza fermarsi;
   - **cinque questioni aperte**, la prima delle quali è la licenza ODbL, che è una decisione di Pietro e non può essere presa da una fonte.
+
+- **v0.2 (02/10/2026)**: la Q1 è risolta e il §5 è sbloccato.
+  - **ODbL entra nel progetto.** La ragione per cui sembrava una scelta pesante — l'obbligo di mettere tutto sotto licenza libera — non si applica: scatta solo per un **database derivato**, e un gioco che disegna geometrie su schermo distribuisce un'opera. Codice, documenti e grafica restano del progetto; i file di dati derivati viaggiano con ODbL e l'attribuzione «© OpenStreetMap contributors». Vedi `luoghi-edifici.md` §1.
+  - Aggiunto il rimando a `videogioco-5-duchi-luoghi-edifici.md`, che tiene lo **schema del dettaglio per luogo** (impianto, materiali, edifici, cronologia, terreno, vuoto), i **95 luoghi** del gioco classificati in sette tipi, e il **rilievo del terreno** come risposta alle altezze mancanti.

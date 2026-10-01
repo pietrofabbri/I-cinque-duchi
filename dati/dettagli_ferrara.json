@@ -1,0 +1,103 @@
+{
+ "_nota": "Dettagli dei luoghi di Ferrara: il riferimento per compilare gli altri. Ogni voce porta anno, fatto e fonte, e niente entra senza una fonte. I campi vuoti non sono un dimenticanza: sono posti dove il motore deve sapere che non si sa, e decidere da se', esattamente come i campi `attendibilita` e `manca` del registro dell'anno 4. I fatti sono presi dall'articolo di Wikipedia in italiano il 02/10/2026, salvo dove diverso.",
+ "_formato": {
+  "campi": {
+   "impianto": "come e' fatto lo spazio: forma, lati, viali, portici, fossato",
+   "materiali": "mattoni, pietra, marmo, legno, terra, e il loro colore",
+   "edifici": "ogni edificio con la data di costruzione e la data dei rifacimenti",
+   "cronologia": "che cosa c'era in un dato anno, perche' una tappa del 1400 non e' la stessa piazza di oggi",
+   "vuoto": "quello che manca e che nessuna fonte ha"
+  },
+  "regola": "una voce dice che cosa si vede e quando, non che cosa sembra. Se la fonte non dice la dimensione, il campo dimensione resta vuoto: non si stima e non si deduce."
+ },
+
+ "Ferrara, zona dell'Addizione Erculea": {
+  "tipo": "area",
+  "impianto": {
+   "forma": "a scacchiera, due assi viari che tagliano la citta' a nord",
+   "assi": "cardo e decumano, ripresi dal modello romano",
+   "anno": 1492,
+   "fonte": "it.wikipedia/Ferrara: «Il disegno si ispirava al modello romano del cardo e del decumano e prevedeva un asse viario che partiva dal» Castello Estense."
+  },
+  "cronologia": [
+   {"anno": 1492, "fatto": "Ercole I d'Este commissiona a Biagio Rossetti l'Addizione Erculea", "fonte": "it.wikipedia/Ferrara"},
+   {"anno": 1598, "fatto": "devoluzione di Ferrara: la citta' passa sotto governo pontificio e l'Addizione viene interrotta", "fonte": "it.wikipedia/Castello Estense"}
+  ],
+  "vuoto": "non e' documentato se l'asse fu interrotto o deviato: la piazza del 1598 non e' la stessa del 1492, e di quanto manchi non lo so"
+ },
+
+ "Ferrara, corte": {
+  "tipo": "edificio",
+  "cronologia": [
+   {"anno": 1245, "fatto": "il Palazzo Municipale viene iniziato lungo via Cortevecchia; e' la prima dimora degli Estensi", "fonte": "it.wikipedia/Palazzo Municipale (Ferrara)"},
+   {"anno": 1451, "fatto": "2 giugno: la statua equestre di Niccolo' III d'Este viene issata davanti al portale detto Volto del Cavallo, su un sostegno ispirato agli archi trionfali romani", "fonte": "it.wikipedia/Palazzo Municipale (Ferrara)"},
+   {"anno": 1472, "fatto": "iniziano i lavori che danno al palazzo le dimensioni definitive", "fonte": "it.wikipedia/Palazzo Municipale (Ferrara)"},
+   {"anno": 1481, "fatto": "il palazzo assume le dimensioni definitive", "fonte": "it.wikipedia/Palazzo Municipale (Ferrara) e it.wikipedia/Ferrara"},
+   {"anno": 1503, "fatto": "per volere di Ercole I d'Este viene aggiunto un loggiato con colonne di marmo, che un incendio distrugge", "fonte": "it.wikipedia/Ferrara, voce Corso Martiri della Liberta'"},
+   {"anno": 1927, "fatto": "la facciata verso la cattedrale viene interamente ricostruita in stile neogotico e rifatta la torre della Vittoria", "fonte": "it.wikipedia/Ferrara, voce Palazzo Municipale"}
+  ],
+  "materiali": {
+   "muratura": "mattoni",
+   "elementi": "statue in bronzo di Niccolo' III e di Borso d'Este ai lati del Volto del Cavallo; loggiato con colonne di marmo (1503, poi bruciato)"
+  },
+  "vuoto": "le dimensioni in metri del palazzo non sono nelle fonti usate: restano da rilevare dal WFS del Comune"
+ },
+
+ "Ferrara, zona del Duomo": {
+  "tipo": "area",
+  "nome_ufficiale": "Piazza della Cattedrale, detta anche piazza del Duomo",
+  "impianto": {
+   "forma": "ampio spazio a quadrilatero",
+   "lati": "a est la mole del duomo, a ovest il Palazzo Municipale, a lato il Palazzo Arcivescovile; a ovest tocca corso Martiri della Liberta'",
+   "rapporto": "si puo' intendere come allargamento della adiacente piazza Trento e Trieste",
+   "anno_nascita": "XII secolo, contemporanea alla costruzione del duomo",
+   "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara)"
+  },
+  "materiali": {
+   "nota": "il pavimento ferrarese in mattoni si chiama volto ed e' la caratteristica della citta'; questa voce non e' stata riempita perche' la fonte usata non porta il termine con la definizione: va presa dal capitolo sulle piazze di Ferrara e dichiarata con la sua fonte"
+  },
+  "edifici": [
+   {"lato": "est", "edificio": "Cattedrale di San Giorgio Martire",
+    "anno_inizio": 1135,
+    "come": "edificata sul sito di una delle prime linee difensive delle antiche mura medievali; dedicata a san Giorgio, come si legge nell'iscrizione in volgare nell'atrio, al posto della precedente basilica di San Giorgio fuori le mura",
+    "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara) e it.wikipedia/Ferrara"},
+   {"lato": "ovest", "edificio": "Palazzo Municipale",
+    "dal_anno": 1245, "al_anno": 1481,
+    "nota": "fu residenza ducale degli Este fino alla seconda meta' del XV secolo, quando la corte si trasferi' al vicino Castello Estense",
+    "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara)"}
+  ],
+  "cronologia": [
+   {"anno": 1132, "fatto": "Guglielmo I Adelardi ottiene dall'antipapa Anacleto II la concessione per edificare la cattedrale", "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara)"},
+   {"anno": 1135, "fatto": "comincia la cattedrale di san Giorgio; l'iscrizione sull'arco del protiro porta la data", "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara) e it.wikipedia/Ferrara"},
+   {"anno": 1660, "fatto": "dopo la devoluzione, il magistrato pontificio fa erigere nella piazza la statua in bronzo di papa Alessandro VII, fonduta a Venezia da Lorenzo Caprioli; poi spostata in piazza Nuova", "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara)"},
+   {"anno": 1889, "fatto": "per iniziativa del partito Liberale viene collocato nella piazza il monumento a Vittorio Emanuele II: piedestallo con statua in bronzo", "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara)"},
+   {"anno": 1920, "fatto": "parte della piazza, col sagrato della cattedrale, viene abbassata per dare maggior visibilita' alla facciata: la piazza di oggi e' piu' bassa di allora", "fonte": "it.wikipedia/Piazza della Cattedrale (Ferrara)"}
+  ],
+  "vuoto": [
+   "le dimensioni della piazza in metri non sono nelle fonti usate",
+   "la pavimentazione nel 1135 e nel 1450 non e' documentata: il volto e' una tradizione cittadina, ma quando fu rifatta questa piazza non lo so",
+   "quando fu costruita la volta coperta che collega la cattedrale al Palazzo Arcivescovile"
+  ],
+  "avvertenza": "una tappa del terzo anno che si svolge qui non puo' usare la piazza di oggi: nel 1450 la statua di Alessandro VII non c'era, il monumento a Vittorio Emanuele II non c'era, e il sagrato non era stato abbassato. Il motore deve prendere la cronologia, non la fotografia."
+ },
+
+ "Ferrara, fonderia": {
+  "tipo": "edificio",
+  "vuoto": "nessuna fonte usata ne documenta l'esistenza o la posizione: la scheda resta vuota e va cercata nell'archivio del Comune e nelle piante storiche"
+ },
+
+ "Ferrara, archivio": {
+  "tipo": "edificio",
+  "vuoto": "l'archivio e' il luogo percorribile del quarto anno, ma la sua collocazione dentro la citta' storica non e' stata verificata: non se ne scrive una posizione finche' non si sa"
+ },
+
+ "Ferrara, cappella": {
+  "tipo": "edificio",
+  "vuoto": "idem: quale cappella, dentro quale edificio, non e' stato detto. Le cappelle documentate sono quella ducale del Castello Estense, nata come cappella privata di Renata di Francia e rifatta da Alessandro Balbi sotto Alfonso II, e quella di san Giuliano. Senza sapere quale, non si sceglie"
+ },
+
+ "Ferrara, sala di progetto": {
+  "tipo": "situazione",
+  "nota": "compare solo alla tappa 5-30, l'ultima: e' il luogo dove il progetto dell'Addizione viene discusso, non uno spazio reale. Non ha coordinate e non va disegnata come un edificio"
+ }
+}

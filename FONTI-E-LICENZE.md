@@ -14,7 +14,11 @@
 ### Fondo geografico degli anni 2, 3 e 4
 
 - **Natural Earth**, scale 110m, 50m e 10m: **pubblico dominio**, nessuna attribuzione richiesta e nessun vincolo. È la fonte dei 19 file in `dati/mappe/` (mondo, Europa e penisola: paesi, terre emerse, coste, unità amministrative, città, fiumi, laghi, regioni fisiche). Scaricati ed estratti il 01/10/2026 con `sorgenti/gis/scarica_ne.py` e `sorgenti/gis/mappe_formato.py`. Formato e scelte della fonte in `docs/videogioco-5-duchi-mappe.md`.
-- **OpenStreetMap** — **non ancora usato nei dati del gioco**. È la fonte prevista per le sagome degli edifici fuori Ferrara, ed è **ODbL**: obbliga ad attribuire «© OpenStreetMap contributors» e a distribuire con la stessa licenza i database derivati. **La decisione di accettare o no questa licenza spetta a Pietro e non è ancora presa** (`mappe.md` §10 Q1). Le interrogazioni del 01/10/2026 via Overpass API sono state fatte solo per misurare quanto i dati siano disponibili, e nulla è stato scaricato nel repository.
+- **OpenStreetMap** — **ODbL, e la decisione è presa il 02/10/2026: entra nel progetto** (`mappe.md` §10 Q1, risolta). Va detto perché sembrava una scelta molto piu' pesante di quanto sia: l'obbligo di condividere con la stessa licenza scatta solo quando si distribuisce un **database derivato** da OSM, e un gioco che disegna geometrie su schermo distribuisce un'opera, non un database. Quindi **il codice, i documenti e la grafica originale restano del progetto**. I file che invece sono database derivati — le geometrie in `dati/mappe/` — viaggiano con ODbL e con la dichiarazione «© OpenStreetMap contributors» nei crediti del gioco. Non ancora scaricato: le interrogazioni del 01/10/2026 via Overpass API servivano solo a misurare quanto i dati siano disponibili, e quella misura ha detto che le sagome ci sono e le altezze no (`mappe.md` §5).
+
+### Rilievo del terreno
+
+- **Terrarium tiles**, derivati da SRTM, da AWS Open Data: **nessuna registrazione**, una richiesta HTTP per tassello. Usati solo per la quota, la pendenza, l'esposizione e il rilievo locale di ogni città: `sorgenti/gis/rilievo.py`, che verifica i numeri su 14 punti ad altitudine nota e riporta un errore medio assoluto di 12,6 m. Formato e uso in `docs/videogioco-5-duchi-luoghi-edifici.md` §4.
 
 ## Immagini usate come riferimento o come base
 

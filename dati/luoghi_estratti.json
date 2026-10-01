@@ -1,0 +1,1321 @@
+{
+ "tappe": [
+  {
+   "tappa": "2-1",
+   "luogo": "Bolzano, Museo archeologico altoatesino",
+   "voce": "Ötzi",
+   "anno": 2
+  },
+  {
+   "tappa": "2-2",
+   "luogo": "Crotone",
+   "voce": "Pitagora",
+   "anno": 2
+  },
+  {
+   "tappa": "2-3",
+   "luogo": "Roma, area del Campidoglio",
+   "voce": "Romolo",
+   "anno": 2
+  },
+  {
+   "tappa": "2-4",
+   "luogo": "Squillace, monastero di Vivarium",
+   "voce": "Cassiodoro",
+   "anno": 2
+  },
+  {
+   "tappa": "2-5",
+   "luogo": "Roma",
+   "voce": "Appio Claudio Cieco",
+   "anno": 2
+  },
+  {
+   "tappa": "2-6",
+   "luogo": "Elea (Velia)",
+   "voce": "Parmenide",
+   "anno": 2
+  },
+  {
+   "tappa": "2-7",
+   "luogo": "Roma, Tuscolo",
+   "voce": "Cincinnato",
+   "anno": 2
+  },
+  {
+   "tappa": "2-8",
+   "luogo": "Milano",
+   "voce": "Leonardo da Vinci",
+   "anno": 2
+  },
+  {
+   "tappa": "2-9",
+   "luogo": "Roma, Curia",
+   "voce": "Cicerone",
+   "anno": 2
+  },
+  {
+   "tappa": "2-10",
+   "luogo": "Roma, villa dei Gracchi",
+   "voce": "Cornelia, madre dei Gracchi",
+   "anno": 2
+  },
+  {
+   "tappa": "2-11",
+   "luogo": "Elea (Velia)",
+   "voce": "Zenone di Elea",
+   "anno": 2
+  },
+  {
+   "tappa": "2-12",
+   "luogo": "Porta `PT-CAR` (Ferrara)",
+   "voce": "Annibale",
+   "anno": 2
+  },
+  {
+   "tappa": "2-13",
+   "luogo": "Roma",
+   "voce": "Catone il Censore",
+   "anno": 2
+  },
+  {
+   "tappa": "2-14",
+   "luogo": "Firenze",
+   "voce": "Dante Alighieri",
+   "anno": 2
+  },
+  {
+   "tappa": "2-15",
+   "luogo": "Palermo",
+   "voce": "Federico II di Svevia",
+   "anno": 2
+  },
+  {
+   "tappa": "2-16",
+   "luogo": "Taranto",
+   "voce": "Archita di Taranto",
+   "anno": 2
+  },
+  {
+   "tappa": "2-17",
+   "luogo": "Roma",
+   "voce": "Tiberio Gracco",
+   "anno": 2
+  },
+  {
+   "tappa": "2-18",
+   "luogo": "Roma",
+   "voce": "Giulio Cesare",
+   "anno": 2
+  },
+  {
+   "tappa": "2-19",
+   "luogo": "Chiusi",
+   "voce": "Lars Porsenna",
+   "anno": 2
+  },
+  {
+   "tappa": "2-20",
+   "luogo": "Roma",
+   "voce": "Augusto",
+   "anno": 2
+  },
+  {
+   "tappa": "2-21",
+   "luogo": "Porta `PT-AQU` (Ferrara)",
+   "voce": "Carlo Magno",
+   "anno": 2
+  },
+  {
+   "tappa": "2-22",
+   "luogo": "Venezia",
+   "voce": "Marco Polo",
+   "anno": 2
+  },
+  {
+   "tappa": "2-23",
+   "luogo": "Roma, Curia",
+   "voce": "I copisti e gli amanuensi",
+   "anno": 2
+  },
+  {
+   "tappa": "2-24",
+   "luogo": "Firenze",
+   "voce": "Leon Battista Alberti",
+   "anno": 2
+  },
+  {
+   "tappa": "2-25",
+   "luogo": "Ferrara, zona dell'Addizione Erculea",
+   "voce": "Biagio Rossetti",
+   "anno": 2
+  },
+  {
+   "tappa": "2-26",
+   "luogo": "Ferrara, corte",
+   "voce": "Lucrezia Borgia",
+   "anno": 2
+  },
+  {
+   "tappa": "2-27",
+   "luogo": "Porta `PT-CON` (Ferrara)",
+   "voce": "Giustiniano",
+   "anno": 2
+  },
+  {
+   "tappa": "2-28",
+   "luogo": "Ferrara, corte",
+   "voce": "I corrieri e i messaggeri",
+   "anno": 2
+  },
+  {
+   "tappa": "2-29",
+   "luogo": "Porta `PT-COL` (Ferrara)",
+   "voce": "Amerigo Vespucci",
+   "anno": 2
+  },
+  {
+   "tappa": "2-30",
+   "luogo": "Ferrara, corte",
+   "voce": "Il consiglio di corte: i progettisti, i muratori, i proprietari, i contadini",
+   "anno": 2
+  },
+  {
+   "tappa": "3-1",
+   "luogo": "Alessandria",
+   "voce": "Eratostene",
+   "anno": 3
+  },
+  {
+   "tappa": "3-2",
+   "luogo": "Frombork",
+   "voce": "Copernico",
+   "anno": 3
+  },
+  {
+   "tappa": "3-3",
+   "luogo": "Roma",
+   "voce": "Augusto",
+   "anno": 3
+  },
+  {
+   "tappa": "3-4",
+   "luogo": "Atene",
+   "voce": "Solone",
+   "anno": 3
+  },
+  {
+   "tappa": "3-5",
+   "luogo": "Atene",
+   "voce": "Pericle",
+   "anno": 3
+  },
+  {
+   "tappa": "3-6",
+   "luogo": "Atene",
+   "voce": "Platone",
+   "anno": 3
+  },
+  {
+   "tappa": "3-7",
+   "luogo": "Ravenna",
+   "voce": "Belisario",
+   "anno": 3
+  },
+  {
+   "tappa": "3-8",
+   "luogo": "Castel del Monte",
+   "voce": "Federico II",
+   "anno": 3
+  },
+  {
+   "tappa": "3-9",
+   "luogo": "Pella",
+   "voce": "Alessandro Magno",
+   "anno": 3
+  },
+  {
+   "tappa": "3-10",
+   "luogo": "Ferrara, fonderia",
+   "voce": "Alfonso I d'Este",
+   "anno": 3
+  },
+  {
+   "tappa": "3-11",
+   "luogo": "Ferrara, corte",
+   "voce": "Ludovico Ariosto",
+   "anno": 3
+  },
+  {
+   "tappa": "3-12",
+   "luogo": "Aquisgrana",
+   "voce": "Alcuino",
+   "anno": 3
+  },
+  {
+   "tappa": "3-13",
+   "luogo": "Milano",
+   "voce": "Leonardo da Vinci",
+   "anno": 3
+  },
+  {
+   "tappa": "3-14",
+   "luogo": "Firenze",
+   "voce": "Niccolò Machiavelli",
+   "anno": 3
+  },
+  {
+   "tappa": "3-15",
+   "luogo": "Ferrara, Camerino d'alabastro",
+   "voce": "Dosso Dossi",
+   "anno": 3
+  },
+  {
+   "tappa": "3-16",
+   "luogo": "Magonza",
+   "voce": "Johannes Gutenberg",
+   "anno": 3
+  },
+  {
+   "tappa": "3-17",
+   "luogo": "Ferrara, cappella",
+   "voce": "Josquin",
+   "anno": 3
+  },
+  {
+   "tappa": "3-18",
+   "luogo": "Alcalá de Henares",
+   "voce": "Miguel de Cervantes",
+   "anno": 3
+  },
+  {
+   "tappa": "3-19",
+   "luogo": "Basilea",
+   "voce": "Erasmo da Rotterdam",
+   "anno": 3
+  },
+  {
+   "tappa": "3-20",
+   "luogo": "Ferrara, Camerino",
+   "voce": "Giovanni Bellini",
+   "anno": 3
+  },
+  {
+   "tappa": "3-21",
+   "luogo": "Aquisgrana",
+   "voce": "Carlo Magno",
+   "anno": 3
+  },
+  {
+   "tappa": "3-22",
+   "luogo": "Certaldo",
+   "voce": "Giovanni Boccaccio",
+   "anno": 3
+  },
+  {
+   "tappa": "3-23",
+   "luogo": "Parigi",
+   "voce": "Tommaso d'Aquino",
+   "anno": 3
+  },
+  {
+   "tappa": "3-24",
+   "luogo": "Norimberga",
+   "voce": "Albrecht Dürer",
+   "anno": 3
+  },
+  {
+   "tappa": "3-25",
+   "luogo": "Venezia",
+   "voce": "Aldo Manuzio",
+   "anno": 3
+  },
+  {
+   "tappa": "3-26",
+   "luogo": "Westminster",
+   "voce": "William Caxton",
+   "anno": 3
+  },
+  {
+   "tappa": "3-27",
+   "luogo": "Parigi",
+   "voce": "Olympe de Gouges",
+   "anno": 3
+  },
+  {
+   "tappa": "3-28",
+   "luogo": "Manchester",
+   "voce": "Alan Turing",
+   "anno": 3
+  },
+  {
+   "tappa": "3-29",
+   "luogo": "Roma, Curia",
+   "voce": "I tipografi e i privilegi",
+   "anno": 3
+  },
+  {
+   "tappa": "3-30",
+   "luogo": "Mantova",
+   "voce": "Isabella d'Este",
+   "anno": 3
+  },
+  {
+   "tappa": "4-1",
+   "luogo": "Uruk",
+   "voce": "Gilgamesh",
+   "anno": 4
+  },
+  {
+   "tappa": "4-2",
+   "luogo": "Il Cairo e le carovane",
+   "voce": "Ibn Battuta",
+   "anno": 4
+  },
+  {
+   "tappa": "4-3",
+   "luogo": "Xianyang",
+   "voce": "Qin Shi Huang",
+   "anno": 4
+  },
+  {
+   "tappa": "4-4",
+   "luogo": "Tebe",
+   "voce": "Hatshepsut",
+   "anno": 4
+  },
+  {
+   "tappa": "4-5",
+   "luogo": "Agra",
+   "voce": "Akbar",
+   "anno": 4
+  },
+  {
+   "tappa": "4-6",
+   "luogo": "Karakorum",
+   "voce": "Gengis Khan",
+   "anno": 4
+  },
+  {
+   "tappa": "4-7",
+   "luogo": "Hannover",
+   "voce": "Leibniz",
+   "anno": 4
+  },
+  {
+   "tappa": "4-8",
+   "luogo": "Uppsala",
+   "voce": "Carl Linneo",
+   "anno": 4
+  },
+  {
+   "tappa": "4-9",
+   "luogo": "Il Cairo `A`, con Timbuctù `S`",
+   "voce": "Mansa Musa",
+   "anno": 4
+  },
+  {
+   "tappa": "4-10",
+   "luogo": "Ferrara, corte",
+   "voce": "Ercole II d'Este",
+   "anno": 4
+  },
+  {
+   "tappa": "4-11",
+   "luogo": "Baghdad",
+   "voce": "Al-Khwarizmi",
+   "anno": 4
+  },
+  {
+   "tappa": "4-12",
+   "luogo": "Qufu",
+   "voce": "Confucio",
+   "anno": 4
+  },
+  {
+   "tappa": "4-13",
+   "luogo": "Alessandria",
+   "voce": "Ipazia",
+   "anno": 4
+  },
+  {
+   "tappa": "4-14",
+   "luogo": "Tenochtitlán",
+   "voce": "Moctezuma II",
+   "anno": 4
+  },
+  {
+   "tappa": "4-15",
+   "luogo": "Chio e la Ionia",
+   "voce": "Omero",
+   "anno": 4
+  },
+  {
+   "tappa": "4-16",
+   "luogo": "Tunisi e Il Cairo",
+   "voce": "Ibn Khaldun",
+   "anno": 4
+  },
+  {
+   "tappa": "4-17",
+   "luogo": "Bombay e Delhi",
+   "voce": "B. R. Ambedkar",
+   "anno": 4
+  },
+  {
+   "tappa": "4-18",
+   "luogo": "Costantinopoli",
+   "voce": "Solimano il Magnifico",
+   "anno": 4
+  },
+  {
+   "tappa": "4-19",
+   "luogo": "Il Cairo",
+   "voce": "Ibn al-Haytham",
+   "anno": 4
+  },
+  {
+   "tappa": "4-20",
+   "luogo": "Ferrara e il regno",
+   "voce": "I censori",
+   "anno": 4
+  },
+  {
+   "tappa": "4-21",
+   "luogo": "Toledo",
+   "voce": "Isabella di Castiglia",
+   "anno": 4
+  },
+  {
+   "tappa": "4-22",
+   "luogo": "Babilonia",
+   "voce": "Hammurabi",
+   "anno": 4
+  },
+  {
+   "tappa": "4-23",
+   "luogo": "Lisbona e Calicut",
+   "voce": "Vasco da Gama",
+   "anno": 4
+  },
+  {
+   "tappa": "4-24",
+   "luogo": "Nanchang e il mare",
+   "voce": "Zheng He",
+   "anno": 4
+  },
+  {
+   "tappa": "4-25",
+   "luogo": "Annapolis e Baltimora",
+   "voce": "Frederick Douglass",
+   "anno": 4
+  },
+  {
+   "tappa": "4-26",
+   "luogo": "Spagna e Tenochtitlán",
+   "voce": "Hernán Cortés",
+   "anno": 4
+  },
+  {
+   "tappa": "4-27",
+   "luogo": "Scutari e Costantinopoli",
+   "voce": "Florence Nightingale",
+   "anno": 4
+  },
+  {
+   "tappa": "4-28",
+   "luogo": "Motihari e Londra",
+   "voce": "George Orwell",
+   "anno": 4
+  },
+  {
+   "tappa": "4-29",
+   "luogo": "Parigi e Varsavia",
+   "voce": "Marie Curie",
+   "anno": 4
+  },
+  {
+   "tappa": "4-30",
+   "luogo": "Ferrara, archivio",
+   "voce": "Le persone che non hanno firmato",
+   "anno": 4
+  },
+  {
+   "tappa": "5-1",
+   "luogo": "Chicago",
+   "voce": "Enrico Fermi",
+   "anno": 5
+  },
+  {
+   "tappa": "5-2",
+   "luogo": "Vienna",
+   "voce": "Karl Popper",
+   "anno": 5
+  },
+  {
+   "tappa": "5-3",
+   "luogo": "Londra",
+   "voce": "Isaac Newton",
+   "anno": 5
+  },
+  {
+   "tappa": "5-4",
+   "luogo": "Bethesda",
+   "voce": "Vera Rubin",
+   "anno": 5
+  },
+  {
+   "tappa": "5-5",
+   "luogo": "Los Alamos",
+   "voce": "John von Neumann",
+   "anno": 5
+  },
+  {
+   "tappa": "5-6",
+   "luogo": "Babilonia",
+   "voce": "Le mani che hanno approssimato √2",
+   "anno": 5
+  },
+  {
+   "tappa": "5-7",
+   "luogo": "Londra",
+   "voce": "James Lovelock",
+   "anno": 5
+  },
+  {
+   "tappa": "5-8",
+   "luogo": "Bajkonur",
+   "voce": "Sergej Korolëv",
+   "anno": 5
+  },
+  {
+   "tappa": "5-9",
+   "luogo": "Londra, Broad Street",
+   "voce": "John Snow",
+   "anno": 5
+  },
+  {
+   "tappa": "5-10",
+   "luogo": "Stoccolma",
+   "voce": "Hans Rosling",
+   "anno": 5
+  },
+  {
+   "tappa": "5-11",
+   "luogo": "Princeton",
+   "voce": "Fei-Fei Li",
+   "anno": 5
+  },
+  {
+   "tappa": "5-12",
+   "luogo": "Buenos Aires",
+   "voce": "Jorge Luis Borges",
+   "anno": 5
+  },
+  {
+   "tappa": "5-13",
+   "luogo": "Cambridge",
+   "voce": "La macchina",
+   "anno": 5
+  },
+  {
+   "tappa": "5-14",
+   "luogo": "Princeton",
+   "voce": "Alonzo Church",
+   "anno": 5
+  },
+  {
+   "tappa": "5-15",
+   "luogo": "New York",
+   "voce": "Yann LeCun",
+   "anno": 5
+  },
+  {
+   "tappa": "5-16",
+   "luogo": "Seattle",
+   "voce": "Radia Perlman",
+   "anno": 5
+  },
+  {
+   "tappa": "5-17",
+   "luogo": "Los Angeles",
+   "voce": "Vint Cerf",
+   "anno": 5
+  },
+  {
+   "tappa": "5-18",
+   "luogo": "una sala di riunione, 1983",
+   "voce": "Gli ingegneri delle reti",
+   "anno": 5
+  },
+  {
+   "tappa": "5-19",
+   "luogo": "Londra",
+   "voce": "Donald Davies",
+   "anno": 5
+  },
+  {
+   "tappa": "5-20",
+   "luogo": "Ferrara",
+   "voce": "Alfonso II d'Este",
+   "anno": 5
+  },
+  {
+   "tappa": "5-21",
+   "luogo": "Rotterdam",
+   "voce": "Edsger Dijkstra",
+   "anno": 5
+  },
+  {
+   "tappa": "5-22",
+   "luogo": "un documento del 2008",
+   "voce": "Satoshi Nakamoto",
+   "anno": 5
+  },
+  {
+   "tappa": "5-23",
+   "luogo": "Ginevra",
+   "voce": "Tim Berners-Lee",
+   "anno": 5
+  },
+  {
+   "tappa": "5-24",
+   "luogo": "un ufficio riservato, 1970",
+   "voce": "James Ellis",
+   "anno": 5
+  },
+  {
+   "tappa": "5-25",
+   "luogo": "Murray Hill, 1948",
+   "voce": "Claude Shannon",
+   "anno": 5
+  },
+  {
+   "tappa": "5-26",
+   "luogo": "Boston, 2018",
+   "voce": "Joy Buolamwini",
+   "anno": 5
+  },
+  {
+   "tappa": "5-27",
+   "luogo": "Toronto, 2012",
+   "voce": "Geoffrey Hinton",
+   "anno": 5
+  },
+  {
+   "tappa": "5-28",
+   "luogo": "Seattle, 2020",
+   "voce": "Timnit Gebru",
+   "anno": 5
+  },
+  {
+   "tappa": "5-29",
+   "luogo": "Londra, 2020",
+   "voce": "Demis Hassabis",
+   "anno": 5
+  },
+  {
+   "tappa": "5-30",
+   "luogo": "Ferrara, sala di progetto",
+   "voce": "Daniel Kahneman",
+   "anno": 5
+  }
+ ],
+ "luoghi": [
+  {
+   "luogo": "Agra",
+   "tappe": [
+    "4-5"
+   ]
+  },
+  {
+   "luogo": "Alcalá de Henares",
+   "tappe": [
+    "3-18"
+   ]
+  },
+  {
+   "luogo": "Alessandria",
+   "tappe": [
+    "3-1",
+    "4-13"
+   ]
+  },
+  {
+   "luogo": "Annapolis e Baltimora",
+   "tappe": [
+    "4-25"
+   ]
+  },
+  {
+   "luogo": "Aquisgrana",
+   "tappe": [
+    "3-12",
+    "3-21"
+   ]
+  },
+  {
+   "luogo": "Atene",
+   "tappe": [
+    "3-4",
+    "3-5",
+    "3-6"
+   ]
+  },
+  {
+   "luogo": "Babilonia",
+   "tappe": [
+    "4-22",
+    "5-6"
+   ]
+  },
+  {
+   "luogo": "Baghdad",
+   "tappe": [
+    "4-11"
+   ]
+  },
+  {
+   "luogo": "Bajkonur",
+   "tappe": [
+    "5-8"
+   ]
+  },
+  {
+   "luogo": "Basilea",
+   "tappe": [
+    "3-19"
+   ]
+  },
+  {
+   "luogo": "Bethesda",
+   "tappe": [
+    "5-4"
+   ]
+  },
+  {
+   "luogo": "Bolzano, Museo archeologico altoatesino",
+   "tappe": [
+    "2-1"
+   ]
+  },
+  {
+   "luogo": "Bombay e Delhi",
+   "tappe": [
+    "4-17"
+   ]
+  },
+  {
+   "luogo": "Boston, 2018",
+   "tappe": [
+    "5-26"
+   ]
+  },
+  {
+   "luogo": "Buenos Aires",
+   "tappe": [
+    "5-12"
+   ]
+  },
+  {
+   "luogo": "Cambridge",
+   "tappe": [
+    "5-13"
+   ]
+  },
+  {
+   "luogo": "Castel del Monte",
+   "tappe": [
+    "3-8"
+   ]
+  },
+  {
+   "luogo": "Certaldo",
+   "tappe": [
+    "3-22"
+   ]
+  },
+  {
+   "luogo": "Chicago",
+   "tappe": [
+    "5-1"
+   ]
+  },
+  {
+   "luogo": "Chio e la Ionia",
+   "tappe": [
+    "4-15"
+   ]
+  },
+  {
+   "luogo": "Chiusi",
+   "tappe": [
+    "2-19"
+   ]
+  },
+  {
+   "luogo": "Costantinopoli",
+   "tappe": [
+    "4-18"
+   ]
+  },
+  {
+   "luogo": "Crotone",
+   "tappe": [
+    "2-2"
+   ]
+  },
+  {
+   "luogo": "Elea (Velia)",
+   "tappe": [
+    "2-6",
+    "2-11"
+   ]
+  },
+  {
+   "luogo": "Ferrara",
+   "tappe": [
+    "5-20"
+   ]
+  },
+  {
+   "luogo": "Ferrara e il regno",
+   "tappe": [
+    "4-20"
+   ]
+  },
+  {
+   "luogo": "Ferrara, Camerino",
+   "tappe": [
+    "3-20"
+   ]
+  },
+  {
+   "luogo": "Ferrara, Camerino d'alabastro",
+   "tappe": [
+    "3-15"
+   ]
+  },
+  {
+   "luogo": "Ferrara, archivio",
+   "tappe": [
+    "4-30"
+   ]
+  },
+  {
+   "luogo": "Ferrara, cappella",
+   "tappe": [
+    "3-17"
+   ]
+  },
+  {
+   "luogo": "Ferrara, corte",
+   "tappe": [
+    "2-26",
+    "2-28",
+    "2-30",
+    "3-11",
+    "4-10"
+   ]
+  },
+  {
+   "luogo": "Ferrara, fonderia",
+   "tappe": [
+    "3-10"
+   ]
+  },
+  {
+   "luogo": "Ferrara, sala di progetto",
+   "tappe": [
+    "5-30"
+   ]
+  },
+  {
+   "luogo": "Ferrara, zona dell'Addizione Erculea",
+   "tappe": [
+    "2-25"
+   ]
+  },
+  {
+   "luogo": "Firenze",
+   "tappe": [
+    "2-14",
+    "2-24",
+    "3-14"
+   ]
+  },
+  {
+   "luogo": "Frombork",
+   "tappe": [
+    "3-2"
+   ]
+  },
+  {
+   "luogo": "Ginevra",
+   "tappe": [
+    "5-23"
+   ]
+  },
+  {
+   "luogo": "Hannover",
+   "tappe": [
+    "4-7"
+   ]
+  },
+  {
+   "luogo": "Il Cairo",
+   "tappe": [
+    "4-19"
+   ]
+  },
+  {
+   "luogo": "Il Cairo `A`, con Timbuctù `S`",
+   "tappe": [
+    "4-9"
+   ]
+  },
+  {
+   "luogo": "Il Cairo e le carovane",
+   "tappe": [
+    "4-2"
+   ]
+  },
+  {
+   "luogo": "Karakorum",
+   "tappe": [
+    "4-6"
+   ]
+  },
+  {
+   "luogo": "Lisbona e Calicut",
+   "tappe": [
+    "4-23"
+   ]
+  },
+  {
+   "luogo": "Londra",
+   "tappe": [
+    "5-3",
+    "5-7",
+    "5-19"
+   ]
+  },
+  {
+   "luogo": "Londra, 2020",
+   "tappe": [
+    "5-29"
+   ]
+  },
+  {
+   "luogo": "Londra, Broad Street",
+   "tappe": [
+    "5-9"
+   ]
+  },
+  {
+   "luogo": "Los Alamos",
+   "tappe": [
+    "5-5"
+   ]
+  },
+  {
+   "luogo": "Los Angeles",
+   "tappe": [
+    "5-17"
+   ]
+  },
+  {
+   "luogo": "Magonza",
+   "tappe": [
+    "3-16"
+   ]
+  },
+  {
+   "luogo": "Manchester",
+   "tappe": [
+    "3-28"
+   ]
+  },
+  {
+   "luogo": "Mantova",
+   "tappe": [
+    "3-30"
+   ]
+  },
+  {
+   "luogo": "Milano",
+   "tappe": [
+    "2-8",
+    "3-13"
+   ]
+  },
+  {
+   "luogo": "Motihari e Londra",
+   "tappe": [
+    "4-28"
+   ]
+  },
+  {
+   "luogo": "Murray Hill, 1948",
+   "tappe": [
+    "5-25"
+   ]
+  },
+  {
+   "luogo": "Nanchang e il mare",
+   "tappe": [
+    "4-24"
+   ]
+  },
+  {
+   "luogo": "New York",
+   "tappe": [
+    "5-15"
+   ]
+  },
+  {
+   "luogo": "Norimberga",
+   "tappe": [
+    "3-24"
+   ]
+  },
+  {
+   "luogo": "Palermo",
+   "tappe": [
+    "2-15"
+   ]
+  },
+  {
+   "luogo": "Parigi",
+   "tappe": [
+    "3-23",
+    "3-27"
+   ]
+  },
+  {
+   "luogo": "Parigi e Varsavia",
+   "tappe": [
+    "4-29"
+   ]
+  },
+  {
+   "luogo": "Pella",
+   "tappe": [
+    "3-9"
+   ]
+  },
+  {
+   "luogo": "Porta `PT-AQU` (Ferrara)",
+   "tappe": [
+    "2-21"
+   ]
+  },
+  {
+   "luogo": "Porta `PT-CAR` (Ferrara)",
+   "tappe": [
+    "2-12"
+   ]
+  },
+  {
+   "luogo": "Porta `PT-COL` (Ferrara)",
+   "tappe": [
+    "2-29"
+   ]
+  },
+  {
+   "luogo": "Porta `PT-CON` (Ferrara)",
+   "tappe": [
+    "2-27"
+   ]
+  },
+  {
+   "luogo": "Princeton",
+   "tappe": [
+    "5-11",
+    "5-14"
+   ]
+  },
+  {
+   "luogo": "Qufu",
+   "tappe": [
+    "4-12"
+   ]
+  },
+  {
+   "luogo": "Ravenna",
+   "tappe": [
+    "3-7"
+   ]
+  },
+  {
+   "luogo": "Roma",
+   "tappe": [
+    "2-5",
+    "2-13",
+    "2-17",
+    "2-18",
+    "2-20",
+    "3-3"
+   ]
+  },
+  {
+   "luogo": "Roma, Curia",
+   "tappe": [
+    "2-9",
+    "2-23",
+    "3-29"
+   ]
+  },
+  {
+   "luogo": "Roma, Tuscolo",
+   "tappe": [
+    "2-7"
+   ]
+  },
+  {
+   "luogo": "Roma, area del Campidoglio",
+   "tappe": [
+    "2-3"
+   ]
+  },
+  {
+   "luogo": "Roma, villa dei Gracchi",
+   "tappe": [
+    "2-10"
+   ]
+  },
+  {
+   "luogo": "Rotterdam",
+   "tappe": [
+    "5-21"
+   ]
+  },
+  {
+   "luogo": "Scutari e Costantinopoli",
+   "tappe": [
+    "4-27"
+   ]
+  },
+  {
+   "luogo": "Seattle",
+   "tappe": [
+    "5-16"
+   ]
+  },
+  {
+   "luogo": "Seattle, 2020",
+   "tappe": [
+    "5-28"
+   ]
+  },
+  {
+   "luogo": "Spagna e Tenochtitlán",
+   "tappe": [
+    "4-26"
+   ]
+  },
+  {
+   "luogo": "Squillace, monastero di Vivarium",
+   "tappe": [
+    "2-4"
+   ]
+  },
+  {
+   "luogo": "Stoccolma",
+   "tappe": [
+    "5-10"
+   ]
+  },
+  {
+   "luogo": "Taranto",
+   "tappe": [
+    "2-16"
+   ]
+  },
+  {
+   "luogo": "Tebe",
+   "tappe": [
+    "4-4"
+   ]
+  },
+  {
+   "luogo": "Tenochtitlán",
+   "tappe": [
+    "4-14"
+   ]
+  },
+  {
+   "luogo": "Toledo",
+   "tappe": [
+    "4-21"
+   ]
+  },
+  {
+   "luogo": "Toronto, 2012",
+   "tappe": [
+    "5-27"
+   ]
+  },
+  {
+   "luogo": "Tunisi e Il Cairo",
+   "tappe": [
+    "4-16"
+   ]
+  },
+  {
+   "luogo": "Uppsala",
+   "tappe": [
+    "4-8"
+   ]
+  },
+  {
+   "luogo": "Uruk",
+   "tappe": [
+    "4-1"
+   ]
+  },
+  {
+   "luogo": "Venezia",
+   "tappe": [
+    "2-22",
+    "3-25"
+   ]
+  },
+  {
+   "luogo": "Vienna",
+   "tappe": [
+    "5-2"
+   ]
+  },
+  {
+   "luogo": "Westminster",
+   "tappe": [
+    "3-26"
+   ]
+  },
+  {
+   "luogo": "Xianyang",
+   "tappe": [
+    "4-3"
+   ]
+  },
+  {
+   "luogo": "un documento del 2008",
+   "tappe": [
+    "5-22"
+   ]
+  },
+  {
+   "luogo": "un ufficio riservato, 1970",
+   "tappe": [
+    "5-24"
+   ]
+  },
+  {
+   "luogo": "una sala di riunione, 1983",
+   "tappe": [
+    "5-18"
+   ]
+  }
+ ]
+}
