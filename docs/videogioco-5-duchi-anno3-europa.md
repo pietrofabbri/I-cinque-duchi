@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno III, i personaggi d'Europa: la corte di Ferrara e la carta a strati
-versione: 0.1
+versione: 0.2
 data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO III — I PERSONAGGI D'EUROPA" e "ANNO III — L'EUROPA ATTRAVERSO I SECOLI"), 01/10/2026
@@ -639,7 +639,7 @@ Alla fine del terzo anno il giocatore ha visto arrivare sulla tavola di Alfonso 
 **La differenza temporale** (materiale di Pietro, §36) è la regola portante dell'anno, ed è scritta nel motore, non nella prefazione:
 
 - il **giocatore** sa che arriveranno Lutero, la Riforma, la rivoluzione industriale, le guerre mondiali, il Muro, l'Unione Europea;
-- **Alfonso non sa quasi niente** di tutto questo, e lo dice: alla tappa 3-28, quando una risorsa arriva da Manchester e dice «1936», Alfonso non ha niente da dire, e il gioco scrive: «Alfonso I è morto da due anni. Questa risorsa non è per lui.»;
+- **Alfonso non sa quasi niente** di tutto questo, e lo dice: alla tappa 3-28, quando una risorsa arriva da Manchester e dice «1936», Alfonso non ha niente da dire, e il gioco scrive: «Alfonso I è morto da oltre quattro secoli. Questa risorsa non è per lui.»;
 - i **personaggi delle risorse** non sanno niente gli uni degli altri, e questo vale anche quando sono vissuti nello stesso secolo: Tucidide non sa di Solone, Solone non sa di Pericle.
 
 Ne segue la regola operativa che chiude l'anno, e che è la stessa dell'Anno II resa meccanica:
@@ -772,6 +772,7 @@ Il terzo anno introduce i temi più pesanti dell'intero progetto, e le regole de
 
 ## 15. Registro modifiche
 
+- **v0.2 (01/10/2026)**: correzione di un errore di calcolo. In §9 la frase di Alfonso alla tappa 3-28 diceva che era «morto da due anni»: Alfonso I muore nel 1534 e la risorsa arriva dal 1936, dunque da oltre quattro secoli. Corretto, e uniformato con lo stesso meccanismo usato nel documento dell'Anno IV («è morto da oltre tre secoli» per Ercole II, 1559).
 - **v0.1 (01/10/2026)**: prima stesione. Formalizza il materiale storico-pedagogico del terzo anno di Pietro in un documento coerente con `anno1-ferrara.md`, `anno1-mappa.md` e `anno2-penisola.md`:
   - principio zero esteso (neanche l'Europa esiste ancora) e sei principi dell'anno;
   - la corte di Ferrara come unico luogo percorribile, con i sette modi di arrivo delle risorse e le cinque porte;
