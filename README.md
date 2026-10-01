@@ -69,11 +69,14 @@ riferimenti/mappa-informatica/   mappa delle propedeuticità dell'informatica (2
 | 9 | `videogioco-5-duchi-tappa-1-01.md` | Tappa 1-1 (San Maurelio, Cattedrale): la prima tappa completa, modello per le altre | 0.3 |
 | 10 | `videogioco-5-duchi-motore-e-grafica.md` | Motore, fonti GIS, sistema di coordinate, rendering 3/4, nebbia, grafica dei personaggi | 0.1 |
 | 11 | `videogioco-5-duchi-anno2-penisola.md` | Anno 2: la penisola attraverso le persone. Carta a strati, 30 tappe, 30 schede, il secondo protagonistto | 0.1 |
-| 12 | `videogioco-5-duchi-anno3-europa.md` | Anno 3: i personaggi d'Europa. La corte di Ferrara, 30 tappe, il decreto del 1510, il vuoto del Novecento | 0.1 |
+| 12 | `videogioco-5-duchi-anno3-europa.md` | Anno 3: i personaggi d'Europa. La corte di Ferrara, 30 tappe, il decreto del 1510, il vuoto del Novecento | 0.2 |
+| 13 | `videogioco-5-duchi-anno4-mondo.md` | Anno 4: il mondo oltre l'Europa. L'archivio di Ferrara, il pianeta a 16 strati, il registro che il giocatore costruisce, le persone senza nome | 0.1 |
 
 I nomi dei file conservano il prefisso storico `videogioco-5-duchi-`, perché i documenti si citano a vicenda con questi nomi. Il titolo del gioco è **«I cinque duchi»**.
 
-**Ordine di lettura degli anni 2 e 3.** I due documenti dell'anno 2 e dell'anno 3 sono nati dopo gli altri e contengono una sezione iniziale con le decisioni prese e le questioni aperte. **Prima di costruire le tappe di quegli anni, vanno letti `anno2-penisola.md` §13 e `anno3-europa.md` §13**: contengono le decisioni che il lettore non può dare per scontate, in particolare sul catalogo dei personaggi fuori percorso e sul Novecento.
+**Ordine di lettura degli anni 2, 3 e 4.** I documenti dal secondo anno in poi sono nati dopo gli altri e contengono una sezione iniziale con le decisioni prese e le questioni aperte. **Prima di costruire le tappe di quegli anni, vanno letti `anno2-penisola.md` §13, `anno3-europa.md` §13 e `anno4-mondo.md` §13**: contengono le decisioni che il lettore non può dare per scontate — in particolare il catalogo dei personaggi fuori percorso, il Novecento (anno 3) e il buco dell'Asia meridionale antica e il presente (anno 4).
+
+**Nota sul quarto anno.** L'anno 4 è l'anno in cui i livelli sono l'astrazione, i modelli, gli archivi, le tabelle, le query e la protezione dei dati. Per questo il documento di progetto è costruito sulla metafora dell'archivio: il giocatore non viaggia, **cataloga trenta documenti** e alla fine stampa il registro, in cui una riga resta vuota (`anno4-mondo.md` §7).
 
 ### Dati (`dati/`)
 
@@ -86,7 +89,7 @@ I nomi dei file conservano il prefisso storico `videogioco-5-duchi-`, perché i 
 | `videogioco-5-duchi-anno1-mura-stima.geojson` | Perimetro delle mura stimato a mano (superato: ora si usa il perimetro ufficiale, vedi `sorgenti/gis/citta_centro.json`) |
 | `videogioco-5-duchi-anno1-zona1.json` | Zona percorribile della tappa 1: edifici con altezze, falde, aree pedonali |
 
-I dati degli anni 2 e 3 (`videogioco-5-duchi-anno2-*.json`, `videogioco-5-duchi-anno3-*.json`) **non esistono ancora**: sono da generare dagli omonimi documenti in `docs/`, che ne indicano lo schema.
+I dati degli anni 2, 3 e 4 (`videogioco-5-duchi-anno2-*.json`, `videogioco-5-duchi-anno3-*.json`, `videogioco-5-duchi-anno4-*.json`) **non esistono ancora**: sono da generare dagli omonimi documenti in `docs/`, che ne indicano lo schema. Per l'anno 4 il primo file da progettare è `videogioco-5-duchi-anno4-registro.json`, cioè i campi del registro: tutto il resto dell'anno dipende da quello (`anno4-mondo.md` §7.2).
 
 ## Rigenerare il prototipo
 
@@ -107,19 +110,21 @@ I test automatici (`sorgenti/test/*.js`) usano Playwright e giocano la tappa 1 d
 - anno 1: narrazione, personaggi, percorso delle 30 tappe con coordinate;
 - anno 2: carta a strati, 30 tappe e 30 schede (documento di progetto);
 - anno 3: la corte come centro, 30 tappe e 30 schede (documento di progetto);
+- anno 4: l'archivio come centro, 30 tappe e 30 schede, il registro che il giocatore costruisce (documento di progetto);
 - tappa 1 giocabile.
 
 **Da fare, in ordine**
 1. **Decidere il vuoto del Novecento** (anno 3, §13 Q1): è la decisione che condiziona gli anni 3–5.
-2. **Verificare il decreto di espulsione degli ebrei del 1510** (anno 3, §12 V1) prima di qualunque uso didattico.
-3. Verifiche storiche degli anni 2 e 3 (anno 2 §12, anno 3 §12).
-4. Migliorare la parte didattica della tappa 1.
-5. Tappe 1-2 … 1-30.
-6. Coordinate delle tappe 27 e 30.
-7. Generare i dati degli anni 2 e 3 in `dati/`.
-8. Materiali degli anni 4–5, in arrivo da Pietro.
-9. Ricerca dei ritratti.
-10. Strumento del docente.
-11. Modalità accessibile.
+2. **Decidere il buco dell'Asia meridionale antica e il presente** (anno 4, §13 Q1 e Q2): un anno che si intitola «il mondo oltre l'Europa» non può lasciare fuori l'India antica.
+3. **Verificare il decreto di espulsione degli ebrei del 1510** (anno 3, §12 V1) prima di qualunque uso didattico.
+4. Verifiche storiche degli anni 2, 3 e 4 (anno 2 §12, anno 3 §12, anno 4 §12): per l'anno 4 la verifica V1 su Ercole II è quella che pesa di più.
+5. Migliorare la parte didattica della tappa 1.
+6. Tappe 1-2 … 1-30.
+7. Coordinate delle tappe 27 e 30.
+8. Generare i dati degli anni 2, 3 e 4 in `dati/`, iniziando dal registro dell'anno 4.
+9. Materiali dell'anno 5, in arrivo da Pietro.
+10. Ricerca dei ritratti.
+11. Strumento del docente.
+12. Modalità accessibile.
 
-**Decisioni in sospeso:** vedi le sezioni «Questioni aperte» di ciascun documento. In particolare: la tappa 1-30 affidata a «La città» (P93), gli agganci trasversali da confermare, il formato del file di consegna, e — dal 01/10/2026 — il catalogo dei personaggi fuori percorso (anno 2 §13 Q6) e il Novecento (anno 3 §13 Q1).
+**Decisioni in sospeso:** vedi le sezioni «Questioni aperte» di ciascun documento. In particolare: la tappa 1-30 affidata a «La città» (P93), gli agganci trasversali da confermare, il formato del file di consegna, e — dal 01/10/2026 — il catalogo dei personaggi fuori percorso (anno 2 §13 Q6), il Novecento (anno 3 §13 Q1) e l'Asia meridionale antica (anno 4 §13 Q1).
