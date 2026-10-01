@@ -73,10 +73,13 @@ riferimenti/mappa-informatica/   mappa delle propedeuticità dell'informatica (2
 | 13 | `videogioco-5-duchi-anno4-mondo.md` | Anno 4: il mondo oltre l'Europa. L'archivio di Ferrara, il pianeta a 16 strati, il registro che il giocatore costruisce, le persone senza nome | 0.3 |
 | 14 | `videogioco-5-duchi-luoghi.md` | **Trasversale**: i tipi di legame fra una persona e un luogo, il criterio di eliminazione, il catalogo verificato degli anni 2-4, la geografia dell'*Orlando furioso* per il quinto anno | 0.1 |
 | 15 | `videogioco-5-duchi-anno5-mondo.md` | Anno 5: il mondo contemporaneo. Il cantiere dell'Addizione Erculea, il tempo come mappa, 30 tappe, 30 schede | 0.1 |
+| 16 | `videogioco-5-duchi-mappe.md` | **Trasversale**: il fondo geografico degli anni 2, 3 e 4, i 19 file di mappe in `dati/mappe/`, e dove si prendono — e dove non si prendono — i dettagli delle tappe | 0.1 |
 
 I nomi dei file conservano il prefisso storico `videogioco-5-duchi-`, perché i documenti si citano a vicenda con questi nomi. Il titolo del gioco è **«I cinque duchi»**.
 
 **Ordine di lettura degli anni 2, 3 e 4.** I documenti dal secondo anno in poi sono nati dopo gli altri e contengono una sezione iniziale con le decisioni prese e le questioni aperte. **Prima di costruire le tappe di quegli anni, vanno letti `anno2-penisola.md` §13, `anno3-europa.md` §13 e `anno4-mondo.md` §13**: contengono le decisioni che il lettore non può dare per scontate — in particolare il catalogo dei personaggi fuori percorso, il Novecento (anno 3) e il buco dell'Asia meridionale antica e il presente (anno 4).
+
+**Nota sulle mappe (documento trasversale).** `videogioco-5-duchi-mappe.md` raccoglie il fondo geografico degli anni dal secondo in poi: **19 file** in `dati/mappe/`, tolti da Natural Earth (pubblico dominio) in tre scale — 110m per il mondo, 50m per l'Europa, 10m per la penisola, metà metro di risoluzione sulla costa italiana. Non sono GeoJSON: sono in un **formato a delta** con quantizzazione, e si leggono con `sorgenti/gis/mappe_lettore.py`. Sono passati per **57 controlli automatici**, che hanno trovato cinque difetti reali (fra cui la Sardegna ridotta a un segno, che a occhio non si vedeva). Il documento dice anche la cosa scomoda: le **sagome** degli edifici si prendono da OpenStreetMap, le **altezze non esistono come dato** (misurate nel 24% dei casi a Milano e nel 3% a Roma), e la regola proposta è dichiarare per ogni edificio da dove viene la sua altezza.
 
 **Nota sui luoghi (documento trasversale).** `videogioco-5-duchi-luoghi.md` vale per tutti e cinque gli anni e va letto **prima di assegnare un luogo a una tappa**. La sua regola è che ogni associazione fra una persona e un luogo dichiara un **tipo di legame** — `B` biografico, `A` dell'azione, `S` simbolico, `I` interpretativo (solo per i luoghi che non esistono), `C` di crescita — e deve superare un test: la frase «questa persona è legata a questo luogo» deve essere vera **senza metafore**, perché «se il luogo è sostituibile, non è un luogo». Nel quinto anno i luoghi fantastici (Luna, castello di Atlante, isola di Alcina, regno di Logistilla, valle del Senno) sono gli unici che ammettono il tipo `I`, e sono gli unici **senza coordinate**: vanno disegnati a mano e il gioco dichiara che non sono reali.
 
@@ -94,6 +97,11 @@ I nomi dei file conservano il prefisso storico `videogioco-5-duchi-`, perché i 
 | `videogioco-5-duchi-anno1-tappe.geojson` | Tappe e percorso in GeoJSON |
 | `videogioco-5-duchi-anno1-mura-stima.geojson` | Perimetro delle mura stimato a mano (superato: ora si usa il perimetro ufficiale, vedi `sorgenti/gis/citta_centro.json`) |
 | `videogioco-5-duchi-anno1-zona1.json` | Zona percorribile della tappa 1: edifici con altezze, falde, aree pedonali |
+| `mappe/mondo_110_*.json` | Fondo del mondo per gli anni 4 e 5: paesi, terre emerse, regioni fisiche, fiumi, laghi (scala 110m) |
+| `mappe/europa_50_*.json` | Fondo dell'Europa per l'anno 3: paesi, terre emerse, regioni fisiche, unità amministrative, 186 città (scala 50m) |
+| `mappe/penisola_10_*.json` | Fondo della penisola per l'anno 2: coste, Paesi confinanti, 622 unità d'Italia, 212 città, fiumi, laghi, regioni fisiche (scala 10m) |
+
+**I file in `dati/mappe/`** sono in un formato a delta e **non** sono JSON valido: si leggono con `sorgenti/gis/mappe_lettore.py`, che restituisce coordinate in gradi decimali. La fonte è Natural Earth, **pubblico dominio**: nessuna attribuzione richiesta. Il formato e la scelta della fonte sono descritti in `videogioco-5-duchi-mappe.md`.
 
 I dati degli anni 2, 3 e 4 (`videogioco-5-duchi-anno2-*.json`, `videogioco-5-duchi-anno3-*.json`, `videogioco-5-duchi-anno4-*.json`) **non esistono ancora**: sono da generare dagli omonimi documenti in `docs/`, che ne indicano lo schema. Per l'anno 4 il primo file da progettare è `videogioco-5-duchi-anno4-registro.json`, cioè i campi del registro: tutto il resto dell'anno dipende da quello (`anno4-mondo.md` §7.2).
 
@@ -121,18 +129,20 @@ I test automatici (`sorgenti/test/*.js`) usano Playwright e giocano la tappa 1 d
 - tappa 1 giocabile.
 
 **Da fare, in ordine**
-1. **Decidere la mappa del quinto anno** (`luoghi.md` §8 Q1): se la mappa è l'*Orlando furioso*, o se il *Furioso* è l'atlante e il finale e la mappa resta quella dei luoghi reali. È la decisione che condiziona l'anno 5.
-2. **Decidere il vuoto del Novecento** (anno 3, §13 Q1): è la decisione che condiziona gli anni 3–4.
-3. **Decidere il buco dell'Asia meridionale antica e il presente** (anno 4, §13 Q1 e Q2): un anno che si intitola «il mondo oltre l'Europa» non può lasciare fuori l'India antica.
-4. **Verificare il decreto di espulsione degli ebrei del 1510** (anno 3, §12 V1) prima di qualunque uso didattico.
-5. Verifiche storiche degli anni 2, 3, 4 e 5 e le **quattordici verifiche sui luoghi** (`luoghi.md` §7): le due che, se sbagliate, fanno scrivere al gioco una frase falsa sono **V9** (la parentela di Agramante) e **V10** (il dipinto di Caravaggio alla Brera).
-6. **Applicare le correzioni geografiche** di `luoghi.md` §3 agli elenchi degli anni 2, 3 e 4: in particolare il **pin di Mansa Musa** in `anno4-mondo.md` (Cairo, non Timbuctù) e **Marconi** (Pontecchio, non Bologna).
-7. Migliorare la parte didattica della tappa 1.
-8. Tappe 1-2 … 1-30.
-9. Coordinate delle tappe 27 e 30.
-10. Generare i dati degli anni 2, 3 e 4 in `dati/`, iniziando dal registro dell'anno 4, e poi `videogioco-5-duchi-luoghi.json`.
-11. Ricerca dei ritratti.
-12. Strumento del docente.
-13. Modalità accessibile.
+1. **Decidere la licenza ODbL** (`mappe.md` §10 Q1): è la decisione che sblocca le sagome degli edifici fuori Ferrara, e quindi le trenta zone percorribili. Senza, gli edifici vengono dal WFS comunale, che esiste solo per Ferrara
+2. **Verificare i 90 pin** degli anni 2, 3 e 4 contro i file di `dati/mappe/`: sono coordinate scritte a mano e questa è la prima volta che si può controllarle
+3. **Decidere la mappa del quinto anno** (`luoghi.md` §8 Q1): se la mappa è l'*Orlando furioso*, o se il *Furioso* è l'atlante e il finale e la mappa resta quella dei luoghi reali. È la decisione che condiziona l'anno 5.
+3. **Decidere il vuoto del Novecento** (anno 3, §13 Q1): è la decisione che condiziona gli anni 3–4.
+4. **Decidere il buco dell'Asia meridionale antica e il presente** (anno 4, §13 Q1 e Q2): un anno che si intitola «il mondo oltre l'Europa» non può lasciare fuori l'India antica.
+5. **Verificare il decreto di espulsione degli ebrei del 1510** (anno 3, §12 V1) prima di qualunque uso didattico.
+6. Verifiche storiche degli anni 2, 3, 4 e 5, le **quattordici verifiche sui luoghi** (`luoghi.md` §7): le due che, se sbagliate, fanno scrivere al gioco una frase falsa sono **V9** (la parentela di Agramante) e **V10** (il dipinto di Caravaggio alla Brera).
+7. **Applicare le correzioni geografiche** di `luoghi.md` §3 agli elenchi degli anni 2, 3 e 4: in particolare il **pin di Mansa Musa** in `anno4-mondo.md` (Cairo, non Timbuctù) e **Marconi** (Pontecchio, non Bologna).
+8. Migliorare la parte didattica della tappa 1.
+9. Tappe 1-2 … 1-30.
+10. Coordinate delle tappe 27 e 30.
+11. Generare i dati degli anni 2, 3 e 4 in `dati/`, iniziando dal registro dell'anno 4, e poi `videogioco-5-duchi-luoghi.json`.
+12. Ricerca dei ritratti.
+13. Strumento del docente.
+14. Modalità accessibile.
 
-**Decisioni in sospeso:** vedi le sezioni «Questioni aperte» di ciascun documento. In particolare: la tappa 1-30 affidata a «La città» (P93), gli agganci trasversali da confermare, il formato del file di consegna, e — dal 01/10/2026 — il catalogo dei personaggi fuori percorso (anno 2 §13 Q6), il Novecento (anno 3 §13 Q1), l'Asia meridionale antica (anno 4 §13 Q1), la mappa del quinto anno e l'ingresso del tipo di legame `C` (`luoghi.md` §8 Q1 e Q2).
+**Decisioni in sospeso:** vedi le sezioni «Questioni aperte» di ciascun documento. In particolare: la tappa 1-30 affidata a «La città» (P93), gli agganci trasversali da confermare, il formato del file di consegna, e — dal 01/10/2026 — il catalogo dei personaggi fuori percorso (anno 2 §13 Q6), il Novecento (anno 3 §13 Q1), l'Asia meridionale antica (anno 4 §13 Q1), la mappa del quinto anno e l'ingresso del tipo di legame `C` (`luoghi.md` §8 Q1 e Q2), e la licenza dei dati di OpenStreetMap (`mappe.md` §10 Q1).
