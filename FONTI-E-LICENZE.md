@@ -56,6 +56,14 @@ Le riduzioni a 48×54 sono **opere derivate**: per CC BY-SA la condizione di ri-
 
 Sono state **respinte** sette immagini perché non ritraevano la persona (tra cui un gatto per Renata Viganò, una ceramica iraniana per i mercanti di Ferrara e una parata di soldati di oggi per i Bersaglieri del 1848). Non sono nel gioco, e il motivo è registrato.
 
+## Testi letterari citati
+
+- **Ludovico Ariosto, *Orlando furioso*** — le **30 citazioni** del quinto anno (`videogioco-5-duchi-furioso.md`). Fonte: **edizione 1928**, Biblioteca BEIC, tre volumi, trascrizione di **Wikisource in italiano** (`Orlando furioso (1928)/Canto N` e le pagine `Pagina:<volume>/<n>` del digitalizzato).
+  - **Licenza: pubblico dominio.** Non ha nessun obbligo di attribuzione; il gioco la dichiara egualmente perché un ragazzo che cerca la citazione deve poterla ritrovare.
+  - I **versi sono copiati dal testo a ogni esecuzione**, non a mano: `sorgenti/furioso/costruisci_citazioni.py` li prende dall'indice delle ottave e `verifica_citazioni.py` li riverifica.
+  - L'edizione del 1928 **modernizza la grafia** (sciolto, né, v'è) e conserva la *rima extranea* (sette versi invece di otto). Le **parafrasi, i temi, i moti e le emozioni sono di questo progetto**, non del testo: non sono una traduzione e non possono essere citate come versi dell'Ariosto.
+  - **Non è la princeps del 1516.** Il riscontro con l'edizione di Project Gutenberg (che contiene i soli canti 1-16) ha trovato tre differenze sulle 22 citazioni confrontabili: un verso in più nel canto 5 ottava 23, l'apostrofo eliso in 1,9 e una variante di accordo in 5,18. Nessuna cambia l'insegnamento della tappa.
+
 ## Testi normativi citati
 
 - Indicazioni nazionali per i licei, DPR 89/2010.

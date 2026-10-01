@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I cinque duchi — la stanza del filone (provino del 5º anno)</title>
+<style>
+  :root {
+    --inchiostro: #1b1a17;  -- carta: #f3ede1;   -- carta2: #eae1d0;
+    --estero: #7a2e1e;      -- verde: #3f5d3a;   --ottone: #9a7b2f;
+    --filo: #cfc3aa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--carta); color: var(--inchiostro);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 17px; line-height: 1.55;
+  }
+  .fuori { max-width: 780px; margin: 0 auto; padding: 28px 20px 80px; }
+  h1 { font-size: 1.5rem; margin: 0 0 .2em; letter-spacing: .01em; }
+  h2 { font-size: 1.12rem; margin: 2em 0 .4em; }
+  .sotto { color: #6b6154; font-size: .92rem; margin: 0 0 1.6em; }
+  .avviso {
+    border-left: 3px solid var(--estero); background: #f7ece6; padding: 10px 14px;
+    font-size: .92rem; margin: 0 0 2em;
+  }
+  .scheda {
+    background: #fffdf7; border: 1px solid var(--filo); border-radius: 3px;
+    padding: 18px 20px; margin: 0 0 26px;
+  }
+  .riga { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline;
+           font-size: .84rem; color: #6b6154; margin: 0 0 10px; }
+  .tasta { border: 1px solid var(--filo); border-radius: 999px; padding: 1px 9px;
+           background: var(--carta2); color: #4a4438; }
+  .tasta.filone { border-color: var(--verde); color: var(--verde); }
+  .citazione {
+    font-size: 1.16rem; margin: 0 0 .1em; padding-left: 14px;
+    border-left: 2px solid var(--ottone);
+  }
+  .rif { font-size: .82rem; color: #6b6154; margin: 0 0 18px 16px; }
+  .prompt { font-size: .95rem; margin: 0 0 8px; }
+  .scelte { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+  button {
+    font: inherit; font-size: .92rem; cursor: pointer; background: #fff;
+    border: 1px solid var(--filo); border-radius: 3px; padding: 6px 12px; color: var(--inchiostro);
+  }
+  button:hover { border-color: var(--estero); }
+  button[aria-pressed="true"] { background: var(--estero); border-color: var(--estero); color: #fff; }
+  .risposta { font-size: .95rem; min-height: 1.6em; }
+  .risposta.ok { color: var(--verde); }
+  .risposta.no { color: var(--estero); }
+  .parafrasi {
+    display: none; background: #f2f6f0; border: 1px solid #cddcc7; border-radius: 3px;
+    padding: 14px 16px; margin: 14px 0 0;
+  }
+  .parafrasi.aperta { display: block; }
+  .parafrasi p { margin: 0 0 .6em; }
+  .parafrasi p:last-child { margin: 0; }
+  .targa {
+    display: inline-block; background: var(--verde); color: #fff; border-radius: 2px;
+    padding: 2px 9px; font-size: .86rem; margin: 0 0 10px;
+  }
+  footer { margin-top: 3em; font-size: .84rem; color: #6b6154;
+            border-top: 1px solid var(--filo); padding-top: 12px; }
+</style>
+</head>
+<body>
+<div class="fuori">
+  <h1>La stanza del filone</h1>
+  <p class="sotto">Quinto anno, quattro tappe su trenta. È un provino: serve a vedere come si comporta
+     una tappa quando dentro c'è una citazione del <i>Furioso</i>, e non a giocare.</p>
+
+  <p class="avviso"><b>La regola della stanza.</b> Il <b>pin</b> — dove il gioco si ferma — resta il luogo
+     reale del personaggio, verificato. La <b>stanza</b> invece è quella del filone: può essere un luogo
+     che non esiste, e in quel caso si dichiara con il tipo <code>I</code>. Le citazioni sono state tutte
+     verificate riestraendole dal testo (canto e ottava); nessuna è a memoria.</p>
+
+  <h2>Le tappe</h2>
+  <div id="tappe"></div>
+
+  <footer>
+    Testo: Ludovico Ariosto, <i>Orlando furioso</i>, edizione 1928 (Biblioteca BEIC), trascrizione di
+    Wikisource, in pubblico dominio. Parafrasi e temi sono di questo progetto.
+    Generato da <code>sorgenti/furioso/provino_html.py</code>: non modificarlo a mano.
+  </footer>
+</div>
+<script id="dati" type="application/json">
+{
+ "tappe": [
+  {
+   "tappa": "5-1",
+   "filone": "F2",
+   "filone_titolo": "Angelica e la fuga",
+   "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
+   "canto": 1,
+   "ottava": 32,
+   "riferimento": "canto 1, ottava 32",
+   "numeri_versi": [
+    3,
+    4,
+    5
+   ],
+   "versi": [
+    "— Ferma, Baiardo mio, deh, ferma il piede!",
+    "che l’esser senza te troppo mi nuoce. —",
+    "Per questo il destrier sordo a lui non riede,"
+   ],
+   "parafrasi": "Una stima sbagliata non è un'idea: è un'altra idea, e il gioco non ti lascia accorgertene. Rinaldo grida al suo cavallo «ferma il piede!». Il cavallo è sordo e corre. Non ha nessuno a cui chiedere scusa: ha la distanza, e la distanza cresce.",
+   "moto": "sdegno",
+   "emozione": "frustrazione",
+   "tema": "la misura che hai è quella che hai, e nessuna riga di programma ti avvisa",
+   "luogo": "la strada della fuga di Rinaldo",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-11",
+   "filone": "F6",
+   "filone_titolo": "Alcina e l'isola",
+   "filone_canti": "canti 6, 8, 21",
+   "canto": 6,
+   "ottava": 35,
+   "riferimento": "canto 6, ottava 35",
+   "numeri_versi": [
+    3,
+    4
+   ],
+   "versi": [
+    "sopra la bella spiaggia, ove un castello",
+    "siede sul mar, de la possente Alcina."
+   ],
+   "parafrasi": "Sull'isola di Alcina sono tutti belli, e sono belli **perché** sull'isola di Alcina non è mai capitato nessun altro. Non è un difetto dell'osservazione: è il campione. Un'immagine non è un dato finché qualcuno non l'ha chiamata «gatto» — e a chiamarla è stato qualcuno.",
+   "moto": "inganno",
+   "emozione": "seduzione",
+   "tema": "un dataset con una classe sola produce un modello con una risposta sola",
+   "luogo": "l'isola di Alcina",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-20",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 16,
+   "ottava": 37,
+   "riferimento": "canto 16, ottava 37",
+   "numeri_versi": [
+    6,
+    7
+   ],
+   "versi": [
+    "di Zibeltaro e de l’Erculeo segno,",
+    "riportâr prede da l’isole vostre,"
+   ],
+   "parafrasi": "I Mori sono usciti «di Zibeltaro e de l'Erculeo segno» e hanno portato via cose. Zibeltaro ed Ercole sono Adria e Ferrara: la città del duca è dentro il libro che gioca. Alfonso II chiede una rete per un quartiere nuovo, e un acquedotto disegnato bene non basta se poi il quartiere resta senza acqua.",
+   "moto": "preoccupazione",
+   "emozione": "concretezza",
+   "tema": "una rete di un edificio si progetta con l'acqua che c'è, non con quella che si vorrebbe",
+   "luogo": "Zibeltaro e l'Erculeo segno, cioè Adria e Ferrara",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-30",
+   "filone": "F3",
+   "filone_titolo": "Orlando e il ritorno di sé",
+   "filone_canti": "canti 1, 12-13, 23-24",
+   "canto": 1,
+   "ottava": 1,
+   "riferimento": "canto 1, ottava 1",
+   "numeri_versi": [
+    1,
+    2,
+    7,
+    8
+   ],
+   "versi": [
+    "Le donne, i cavallier, l’arme, gli amori,",
+    "le cortesie, l’audaci imprese io canto,",
+    "di vendicar la morte di Troiano",
+    "sopra re Carlo imperator romano."
+   ],
+   "parafrasi": "«Le donne, i cavallier, l'arme, gli amori.» Chi comincia un'opera così non promette: elenca. Il quinto anno finisce con sei fasce bianche e una domanda. L'elenco che Ariosto fa all'inizio è la stessa cosa: qui c'è scritto che cosa non troverai, e non è una scusa, è un impegno.",
+   "moto": "impegno",
+   "emozione": "serietà",
+   "tema": "un programma è l'elenco di ciò che farà: tutto, e nient'altro",
+   "luogo": "la prima pagina",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  }
+ ]
+}
+</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("dati").textContent);
+  var DIZ = {
+    "5-1":  { stanza: "Il bosco, la strada della fuga. Fuori, la disperazione; e tu hai una stima sbagliata.",
+              moti:  ["sdegno"] },
+    "5-11": { stanza: "La spiaggia dell'isola. Fuori, il mare; e tu hai un campione storto.",
+              moti:  ["inganno"] },
+    "5-20": { stanza: "Ferrara, l'oficina del duca. Fuori, il cantiere; e tu devi portare l'acqua dove serve.",
+              moti:  ["preoccupazione"] },
+    "5-30": { stanza: "La sala di progetto, le sei fasce bianche sulla colonna.",
+              moti:  ["impegno"] }
+  };
+
+  function testoVersi(r) {
+    return r.versi.map(function (v) { return "<div class='citazione'>" + v + "</div>"; }).join("");
+  }
+
+  function parafrasi(r) {
+    var p = DIZ[r.tappa] || {};
+    return "<div class='parafrasi' id='pa-" + r.tappa + "'>" +
+      "<p>" + (p.stanza || "") + "</p>" +
+      "<p>" + r.parafrasi + "</p>" +
+      "<span class='targa'>" + r.tema + "</span>" +
+      "</div>";
+  }
+
+  function scelte(r) {
+    var out = "<div class='prompt'>Che cosa prova, in quei versi, chi li sta vivendo?</div><div class='scelte'>";
+    out += "<button data-t='" + r.tappa + "' data-v='" + r.moto + "'>" + r.moto + "</button>";
+    (DIZ[r.tappa].distractor || []).forEach(function (d) {
+      out += "<button data-t='" + r.tappa + "' data-v='" + d[0] + "'>" + d[0] + "</button>";
+    });
+    return out + "</div><div class='risposta' id='ri-" + r.tappa + "'></div>";
+  }
+
+  function rispondi(t, v, giusto, perchè) {
+    var r = document.getElementById("ri-" + t);
+    r.className = "risposta " + (v === giusto ? "ok" : "no");
+    r.innerHTML = (v === giusto
+      ? "Esatto. " + perchè.giusto
+      : "Non quello. " + perchè.no);
+    Array.prototype.slice.call(document.querySelectorAll("button[data-t='" + t + "']")).forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.v === giusto));
+    });
+    document.getElementById("pa-" + t).classList.add("aperta");
+  }
+
+  var PERCHE = {
+    "5-1":  { giusto: "Rinaldo grida e il cavallo non si ferma: è la stima sbagliata che non ti avvisa.",
+              no:    "Il cavallo non è sordo per cattiveria: è che non è lì dove tu lo stai cercando." },
+    "5-11": { giusto: "Sull'isola sono tutti belli perché non c'è mai stato nessun altro: è il campione, non la vista.",
+              no:    "L'inganno non è dell'isola: è di chi ha scelto le persone da mostrare." },
+    "5-20": { giusto: "Il duca non è entusiasta: è preoccupato, perché un quartiere senza acqua è un quartiere senza persone.",
+              no:    "Il progetto non è un problema di entusiasmo: è un problema di tubi, e i tubi si contano." },
+    "5-30": { giusto: "Ariosto non promette niente: elenca. Alla fine del gioco farai lo stesso.",
+              no:    "Qui non è ancora finito niente: è una lista, e le liste si onorano." }
+  };
+
+  var DIZ_DIST = {"5-1": [["orgoglio", "non è orgoglio: è qualcuno che grida a chi non può ascoltarlo"], ["paura", "non c'è paura: c'è un uomo che si arrabbia con un animale"]], "5-11": [["terrore", "non è terrore: l'isola è bella, e il pericolo non si vede"], ["noia", "nessuno si annoia davanti a un campione storto: è un problema"]], "5-20": [["entusiasmo", "non è entusiasmo: il duca sa che l'acqua non basta mai"], ["indifferenza", "una città senza acqua non è indifferenza, è una faccenda"]], "5-30": [["soddisfazione", "a metà dell'opera non si è soddisfatti: si è in carico"], ["nostalgia", "qui la domanda è in avanti, non indietro"]]};
+
+  var scelta = {};
+  function disegna() {
+    var host = document.getElementById("tappe");
+    host.innerHTML = D.tappe.map(function (r) {
+      DIZ[r.tappa].distractor = DIZ_DIST[r.tappa];
+      return "<section class='scheda'>" +
+        "<div class='riga'>" +
+          "<span class='tasta'>" + r.tappa + "</span>" +
+          "<span class='tasta filone'>" + r.filone + " — " + r.filone_titolo + "</span>" +
+          "<span class='tasta'>" + r.riferimento + "</span>" +
+          "<span class='tasta'>legame " + r.legame + "</span>" +
+          "<span>" + r.luogo + "</span>" +
+        "</div>" + testoVersi(r) +
+        "<p class='rif'>moto: " + r.moto + " · emozione: " + r.emozione + "</p>" +
+        scelte(r) + parafrasi(r) + "</section>";
+    }).join("");
+    Array.prototype.slice.call(host.querySelectorAll("button")).forEach(function (b) {
+      b.addEventListener("click", function () {
+        var r = D.tappe.find(function (x) { return x.tappa === b.dataset.t; });
+        scelta[b.dataset.t] = b.dataset.v;
+        rispondi(b.dataset.t, b.dataset.v, r.moto, PERCHE[b.dataset.t]);
+      });
+    });
+  }
+  disegna();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,898 @@
+{
+ "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno",
+ "versione": 1,
+ "data": "2026-10-02",
+ "fonte": {
+  "opera": "Ludovico Ariosto, Orlando furioso",
+  "edizione": "1928, Biblioteca BEIC (tre volumi), trascrizione di Wikisource (it)",
+  "licenza": "pubblico dominio",
+  "come_si_ottiene": "sorgenti/furioso/scarica_wikisource.py -> dati/furioso/pagine_wikisource.jsonl",
+  "come_si_legge": "python3 sorgenti/furioso/estrai_ottave.py --cerca parola",
+  "come_si_verifica": "python3 sorgenti/furioso/verifica_citazioni.py",
+  "avvertenza_1": "il testo del 1928 modernizza la grafia (sciolto, né, v'è) e conserva la rima extranea: alcune ottave hanno sette versi, non otto",
+  "avvertenza_2": "l'edizione del 1928 non è la princeps del 1516: dove i due testi divergono, la scuola deve scegliere un'edizione e tenere quella. La scelta è di Pietro"
+ },
+ "regole": {
+  "una_ottava_per_tappa": "sì: nessuna tappa riprende la stessa ottava di un'altra",
+  "filone": "F1…F12, il racconto a cui la tappa appartiene",
+  "legame": "B/A/S/I/C della regola dei luoghi; I solo per i luoghi che non esistono",
+  "parafrasi": "due o tre frasi, in italiano di bocca: è ciò che il livello legge al ragazzo",
+  "moto": "che cosa prova il personaggio del Furioso in quel momento",
+  "emozione": "la sfumatura che il gioco deve far sentire",
+  "tema": "la frase che il livello deve far capire, e che va sulla targa",
+  "citazione": "il verso si individua con un frammento distintivo, non con un numero di riga: nella stesura di Ottobre i numeri di riga sbagliavano 53 versi su 78"
+ },
+ "filoni": {
+  "F1": {
+   "titolo": "La guerra e il patto",
+   "canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "assegnato": true,
+   "tappe": [
+    "5-7",
+    "5-9",
+    "5-16",
+    "5-20",
+    "5-22",
+    "5-25",
+    "5-29"
+   ]
+  },
+  "F2": {
+   "titolo": "Angelica e la fuga",
+   "canti": "canti 1-2, 5, 9-12, 21, 23",
+   "assegnato": true,
+   "tappe": [
+    "5-1",
+    "5-5",
+    "5-21"
+   ]
+  },
+  "F3": {
+   "titolo": "Orlando e il ritorno di sé",
+   "canti": "canti 1, 12-13, 23-24",
+   "assegnato": true,
+   "tappe": [
+    "5-2",
+    "5-13",
+    "5-30"
+   ]
+  },
+  "F4": {
+   "titolo": "Atlante e il castello incantato",
+   "canti": "canti 4, 6, 22-23",
+   "assegnato": true,
+   "tappe": [
+    "5-15",
+    "5-17"
+   ]
+  },
+  "F5": {
+   "titolo": "Ginevra e Ariodante",
+   "canti": "canti 4-5",
+   "assegnato": true,
+   "tappe": [
+    "5-6",
+    "5-24",
+    "5-26"
+   ]
+  },
+  "F6": {
+   "titolo": "Alcina e l'isola",
+   "canti": "canti 6, 8, 21",
+   "assegnato": true,
+   "tappe": [
+    "5-10",
+    "5-11"
+   ]
+  },
+  "F7": {
+   "titolo": "Logistilla e l'anello",
+   "canti": "canti 6, 22, 25-26",
+   "assegnato": true,
+   "tappe": [
+    "5-23"
+   ]
+  },
+  "F8": {
+   "titolo": "Bradamante e Merlino",
+   "canti": "canti 7-8, 21-22",
+   "assegnato": true,
+   "tappe": [
+    "5-27"
+   ]
+  },
+  "F9": {
+   "titolo": "Astolfo e il viaggio straordinario",
+   "canti": "canti 22-23, 34-35",
+   "assegnato": true,
+   "tappe": [
+    "5-3",
+    "5-4",
+    "5-8",
+    "5-19"
+   ]
+  },
+  "F10": {
+   "titolo": "Malagigi e l'incantesimo",
+   "canti": "canti 11, 25-26",
+   "assegnato": true,
+   "tappe": [
+    "5-12"
+   ]
+  },
+  "F11": {
+   "titolo": "Ruggiero e la conversione",
+   "canti": "canti 13-16, 22-26, 41",
+   "assegnato": false,
+   "tappe": []
+  },
+  "F12": {
+   "titolo": "La parola data a un altro",
+   "canti": "canti 24, 30, 46",
+   "assegnato": true,
+   "tappe": [
+    "5-14",
+    "5-18",
+    "5-28"
+   ]
+  }
+ },
+ "citazioni": [
+  {
+   "tappa": "5-1",
+   "filone": "F2",
+   "filone_titolo": "Angelica e la fuga",
+   "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
+   "canto": 1,
+   "ottava": 32,
+   "riferimento": "canto 1, ottava 32",
+   "numeri_versi": [
+    3,
+    4,
+    5
+   ],
+   "versi": [
+    "— Ferma, Baiardo mio, deh, ferma il piede!",
+    "che l’esser senza te troppo mi nuoce. —",
+    "Per questo il destrier sordo a lui non riede,"
+   ],
+   "parafrasi": "Una stima sbagliata non è un'idea: è un'altra idea, e il gioco non ti lascia accorgertene. Rinaldo grida al suo cavallo «ferma il piede!». Il cavallo è sordo e corre. Non ha nessuno a cui chiedere scusa: ha la distanza, e la distanza cresce.",
+   "moto": "sdegno",
+   "emozione": "frustrazione",
+   "tema": "la misura che hai è quella che hai, e nessuna riga di programma ti avvisa",
+   "luogo": "la strada della fuga di Rinaldo",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-2",
+   "filone": "F3",
+   "filone_titolo": "Orlando e il ritorno di sé",
+   "filone_canti": "canti 1, 12-13, 23-24",
+   "canto": 23,
+   "ottava": 124,
+   "riferimento": "canto 23, ottava 124",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "Quel letto, quella casa, quel pastore",
+    "immantinente in tant’odio gli casca,",
+    "che senza aspettar luna, o che l’albore"
+   ],
+   "parafrasi": "A Orlando, di colpo, ogni cosa che amava diventa odio: il letto, la casa, il pastore. La bisezione cerca esattamente quell'istante — non quello in cui l'idea è vera, quello in cui cessa di esser vera. Non lo scegli tu: te lo dice il numero.",
+   "moto": "ribrezzo",
+   "emozione": "sconcerto",
+   "tema": "il punto in cui un'idea smette di reggere non lo scegli: te lo accorgi",
+   "luogo": "il bosco dove Orlando perde il senno",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-3",
+   "filone": "F9",
+   "filone_titolo": "Astolfo e il viaggio straordinario",
+   "filone_canti": "canti 22-23, 34-35",
+   "canto": 22,
+   "ottava": 30,
+   "riferimento": "canto 22, ottava 30",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "Stava mirando se vedea venire",
+    "pel bosco o cacciatore o alcun villano,",
+    "da cui far si potesse indi seguire"
+   ],
+   "parafrasi": "Astolfo guarda il bosco dalla mattina alla sera aspettando qualcuno che gli porti Rabicano. Sbagli il punto di partenza e il metodo di Newton ti porta lontano, ordinatamente, senza sbagliare mai un passo. È la cosa che il livello 5-3 chiede di vedere con gli occhi.",
+   "moto": "insofferenza",
+   "emozione": "impazienza",
+   "tema": "partire da una stima sbagliata porta altrove, e non è un problema di precisione",
+   "luogo": "il bosco di Pontiero",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-4",
+   "filone": "F9",
+   "filone_titolo": "Astolfo e il viaggio straordinario",
+   "filone_canti": "canti 22-23, 34-35",
+   "canto": 34,
+   "ottava": 49,
+   "riferimento": "canto 34, ottava 49",
+   "numeri_versi": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "versi": [
+    "Zafir, rubini, oro, topazi e perle,",
+    "e diamanti e crisoliti e iacinti",
+    "potriano i fiori assimigliar, che per le",
+    "liete piaggie v’avea l’aura dipinti:"
+   ],
+   "parafrasi": "Il paesaggio sulla Luna non si guarda, si conta: zaffiri, rubini, oro, topazi, perle, diamanti. È un inventario, eppure è la cosa più bella del canto. L'area sotto una curva è la stessa cosa: non la disegni, la sommi, pezzo per pezzo.",
+   "moto": "stupore",
+   "emozione": "meraviglia",
+   "tema": "un'integrale è una somma di pezzi: più vera del disegno della curva",
+   "luogo": "la Luna",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-5",
+   "filone": "F2",
+   "filone_titolo": "Angelica e la fuga",
+   "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
+   "canto": 1,
+   "ottava": 77,
+   "riferimento": "canto 1, ottava 77",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "Poi rivolgendo a caso gli occhi, mira",
+    "venir sonando d’arme un gran pedone.",
+    "Tutta s’avvampa di dispetto e d’ira;"
+   ],
+   "parafrasi": "Rinaldo non sta cercando niente: sta guardando, e gli capita addosso un uomo armato. È il tiro di Monte Carlo — frecce lanciate a caso in un quadrato — solo che lì nessuno ha bisogno di credere in un dio che abbia misurato la corda.",
+   "moto": "curiosità",
+   "emozione": "sorpresa",
+   "tema": "un tiro casuale non è un tiro sbagliato: è un tiro senza garanzia",
+   "luogo": "la foresta dove passa Ferraú",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-6",
+   "filone": "F5",
+   "filone_titolo": "Ginevra e Ariodante",
+   "filone_canti": "canti 4-5",
+   "canto": 5,
+   "ottava": 23,
+   "riferimento": "canto 5, ottava 23",
+   "numeri_versi": [
+    2,
+    3,
+    4
+   ],
+   "versi": [
+    "che come suol tornar da la radice",
+    "arbor che tronchi e quattro volte e sei;",
+    "cosí la pertinacia mia infelice,"
+   ],
+   "parafrasi": "«Come suol tornar da la radice arbor che tronchi e quattro volte e sei.» L'albero che tagli torna dalla radice: è l'iterazione di Babilonia per √2, fatta con le mani e senza sapere di star facendo matematica. Il gioco chiede la stessa cosa: parti da 1, moltiplica per 1,4, arrotonda, ripeti.",
+   "moto": "pazienza",
+   "emozione": "ostinazione",
+   "tema": "un numero irrazionale si costruisce tagliando e ricominciando",
+   "luogo": "la corte di Scozia",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-7",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 14,
+   "ottava": 133,
+   "riferimento": "canto 14, ottava 133",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "Tornò la fiamma sparsa, tutta in una,",
+    "che tra una ripa e l’altra ha ’l tutto pieno;",
+    "e tanto ascende in alto, ch’alla luna"
+   ],
+   "parafrasi": "La fiamma riaccende la fiamma, e in un attimo il fossato è pieno. Ogni simulazione del clima fa esattamente questo: calcola lo stato, poi il passo dopo. Se il passo è piccolo non è detto che sia giusto — ed è per questo che il modello va calibrato.",
+   "moto": "terrore",
+   "emozione": "allarme",
+   "tema": "una simulazione a tempo discreto è un incendio che avanza a passi",
+   "luogo": "il fossato di Sarza, sotto Parigi",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-8",
+   "filone": "F9",
+   "filone_titolo": "Astolfo e il viaggio straordinario",
+   "filone_canti": "canti 22-23, 34-35",
+   "canto": 23,
+   "ottava": 16,
+   "riferimento": "canto 23, ottava 16",
+   "numeri_versi": [
+    3,
+    4,
+    5
+   ],
+   "versi": [
+    "indi lo caccia sí, che Bradamante",
+    "ogni vista ne perde in un momento.",
+    "Cosí si parte col pilota inante"
+   ],
+   "parafrasi": "Astolfo non parte di scatto: va «lento lento». Un'orbita è la stessa frase detta in chiave. Il tempo che passa non è tempo perso: è tempo che si aggiunge all'errore, e l'errore si somma.",
+   "moto": "risolutezza",
+   "emozione": "concentrazione",
+   "tema": "ogni secondo di ritardo è un errore che non si cancella",
+   "luogo": "l'aria sopra la foresta",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-9",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 23,
+   "ottava": 40,
+   "riferimento": "canto 23, ottava 40",
+   "numeri_versi": [
+    6,
+    7,
+    8
+   ],
+   "versi": [
+    "per l’orme che di fresco eran scolpite",
+    "a porsi in avventura, se potea",
+    "saper chi l’omicidio fatto avea."
+   ],
+   "parafrasi": "Un cavaliere segue le orme fresche per sapere chi ha ucciso. Non gli interessa «quante persone sono morte»: gli interessa **dove**, una alla volta. È il punto in cui Snow chiude la pompa di Broad Street, e il punto in cui una mappa cambia la decisione.",
+   "moto": "inchiesta",
+   "emozione": "determinazione",
+   "tema": "il dato non è il numero aggregato: è la sua distribuzione",
+   "luogo": "la strada di Pontiero",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-10",
+   "filone": "F6",
+   "filone_titolo": "Alcina e l'isola",
+   "filone_canti": "canti 6, 8, 21",
+   "canto": 8,
+   "ottava": 1,
+   "riferimento": "canto 8, ottava 1",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "Oh quante sono incantatrici, oh quanti",
+    "incantator tra noi, che non si sanno!",
+    "che con lor arti uomini e donne amanti"
+   ],
+   "parafrasi": "«Oh quante sono incantatrici, oh quanti incantator tra noi, che non si sanno.» Gli stessi fatti, due letture opposte, e in mezzo nessuno che si accorga di aver raccontato una cosa sola. Atlante, in questo, non è un mago: è un grafico.",
+   "moto": "sorpresa",
+   "emozione": "stupimento",
+   "tema": "gli stessi dati, due storie opposte: dipende da dove guardi",
+   "luogo": "il paese degli incantatori",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-11",
+   "filone": "F6",
+   "filone_titolo": "Alcina e l'isola",
+   "filone_canti": "canti 6, 8, 21",
+   "canto": 6,
+   "ottava": 35,
+   "riferimento": "canto 6, ottava 35",
+   "numeri_versi": [
+    3,
+    4
+   ],
+   "versi": [
+    "sopra la bella spiaggia, ove un castello",
+    "siede sul mar, de la possente Alcina."
+   ],
+   "parafrasi": "Sull'isola di Alcina sono tutti belli, e sono belli **perché** sull'isola di Alcina non è mai capitato nessun altro. Non è un difetto dell'osservazione: è il campione. Un'immagine non è un dato finché qualcuno non l'ha chiamata «gatto» — e a chiamarla è stato qualcuno.",
+   "moto": "inganno",
+   "emozione": "seduzione",
+   "tema": "un dataset con una classe sola produce un modello con una risposta sola",
+   "luogo": "l'isola di Alcina",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-12",
+   "filone": "F10",
+   "filone_titolo": "Malagigi e l'incantesimo",
+   "filone_canti": "canti 11, 25-26",
+   "canto": 11,
+   "ottava": 4,
+   "riferimento": "canto 11, ottava 4",
+   "numeri_versi": [
+    5,
+    6
+   ],
+   "versi": [
+    "Con questo fe’ gl’incanti uscire in ciancia",
+    "di Malagigi al petron di Merlino;"
+   ],
+   "parafrasi": "Un anello, e i campi si svuotano. Nessuno guarda dentro l'anello: c'è dentro un regolamento. Quello che il livello chiede — nastro, testina, stato, regola — è la stessa lista, e la stessa meraviglia: una cosa piccola che sa fare una cosa enorme.",
+   "moto": "meraviglia",
+   "emozione": "ammirazione",
+   "tema": "quattro pezzi e un insieme finito di regole: e produce un testo infinito",
+   "luogo": "il petron di Merlino",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-13",
+   "filone": "F3",
+   "filone_titolo": "Orlando e il ritorno di sé",
+   "filone_canti": "canti 1, 12-13, 23-24",
+   "canto": 1,
+   "ottava": 2,
+   "riferimento": "canto 1, ottava 2",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "Dirò d’Orlando in un medesmo tratto",
+    "cosa non detta in prosa mai né in rima:",
+    "che per amor venne in furore e matto,"
+   ],
+   "parafrasi": "Ariosto avvisa il lettore: «cosa non detta in prosa mai né in rima». È la stessa avvertenza che Turing mette all'inizio: quello che la macchina non sa dire non è che lo tacerà, è che non lo dirà mai. Il linguaggio è anche un limite.",
+   "moto": "intenzione",
+   "emozione": "annuncio",
+   "tema": "una macchina è bravissima a dire certe cose e cieca su tutte le altre",
+   "luogo": "la pagina",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-14",
+   "filone": "F12",
+   "filone_titolo": "La parola data a un altro",
+   "filone_canti": "canti 24, 30, 46",
+   "canto": 32,
+   "ottava": 102,
+   "riferimento": "canto 32, ottava 102",
+   "numeri_versi": [
+    7,
+    8
+   ],
+   "versi": [
+    "E quel che non si sa non si de’ dire,",
+    "e tanto men, quando altri n’ha a patire."
+   ],
+   "parafrasi": "«E quel che non si sa non si de' dire, e tanto men, quando altri n'ha a patire.» Non è un cinismo: è la forma più onesta che si possa dare a un programma che non termina. Nel gioco la scheda di questa tappa non ha una soluzione, e il pulsante lo dice.",
+   "moto": "frontezza",
+   "emozione": "rifiuto",
+   "tema": "ci sono domande ben poste che non hanno risposta: e va detto che è un limite",
+   "luogo": "il campo",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-15",
+   "filone": "F4",
+   "filone_titolo": "Atlante e il castello incantato",
+   "filone_canti": "canti 4, 6, 22-23",
+   "canto": 4,
+   "ottava": 30,
+   "riferimento": "canto 4, ottava 30",
+   "numeri_versi": [
+    5,
+    6
+   ],
+   "versi": [
+    "Disio d’onore e suo fiero destino",
+    "l’han tratto in Francia dietro al re Agramante;"
+   ],
+   "parafrasi": "Ruggiero non obbedisce a nessun programma: è «disio d'onore e suo fiero destino». Un motore che gira e che nessuno sa spiegare non è rotto e non è magico: è un problema aperto. «Non sappiamo ancora» è una frase da mettere sulla targa del livello.",
+   "moto": "slancio",
+   "emozione": "urgenza",
+   "tema": "funziona e non sappiamo perché: la frase va sulla targa, non nel cassetto",
+   "luogo": "il castello d'Atlante",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-16",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 7,
+   "ottava": 2,
+   "riferimento": "canto 7, ottava 2",
+   "numeri_versi": [
+    7,
+    8
+   ],
+   "versi": [
+    "Io vi lasciai che ’l ponte e la riviera",
+    "vider, che ’n guardia avea Erifilla altiera."
+   ],
+   "parafrasi": "Un ponte sopra un fiume: due sponde che non si parlano e un modo solo di attraversare. Se due reti si toccano con un cavo solo, il primo messaggio ci torna indietro e il secondo lo segue. Il ponte che funziona è quello che ha due strade.",
+   "moto": "attenzione",
+   "emozione": "preoccupazione",
+   "tema": "due reti collegate da un solo cavo: i messaggi girano in tondo",
+   "luogo": "il ponte d'Erifilla sulla riviera",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-17",
+   "filone": "F4",
+   "filone_titolo": "Atlante e il castello incantato",
+   "filone_canti": "canti 4, 6, 22-23",
+   "canto": 4,
+   "ottava": 18,
+   "riferimento": "canto 4, ottava 18",
+   "numeri_versi": [
+    1,
+    2,
+    6,
+    7,
+    8
+   ],
+   "versi": [
+    "Non è finto il destrier, ma naturale,",
+    "ch’una giumenta generò d’un grifo:",
+    "era la madre, e chiamasi ippogrifo;",
+    "che nei monti Rifei vengon, ma rari,",
+    "molto di lá dagli aghiacciati mari."
+   ],
+   "parafrasi": "«Non è finto il destrier, ma naturale, ch'una giumenta generò d'un grifo». Il nome lo mette chi ha scritto il nome, e poi quel nome gira di bocca in bocca e finisce nel manuale. Il byte è nato così: da un nome, non da una misura.",
+   "moto": "curiosità",
+   "emozione": "divertimento",
+   "tema": "chi scrive lo standard sceglie la parola, e la parola finisce nel manuale di tutti",
+   "luogo": "i monti Rifei",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-18",
+   "filone": "F12",
+   "filone_titolo": "La parola data a un altro",
+   "filone_canti": "canti 24, 30, 46",
+   "canto": 24,
+   "ottava": 44,
+   "riferimento": "canto 24, ottava 44",
+   "numeri_versi": [
+    7,
+    8
+   ],
+   "versi": [
+    "Non si legge in Turpin che n’avvenisse;",
+    "ma vidi giá un autor che piú ne scrisse."
+   ],
+   "parafrasi": "«Non si legge in Turpin che n'avvenisse; ma vidi già un autor che più ne scrisse.» Stessa storia, due fonti, e la fonte decide. Nel 1983 sei ingegneri di sei paesi scrivono una pagina di regole, e quella pagina diventa il modo giusto di comunicare per vent'anni.",
+   "moto": "scoperta",
+   "emozione": "soddisfazione",
+   "tema": "chi decide che cosa è corretto è la fonte, non il giudizio",
+   "luogo": "il libro di Turpino",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-19",
+   "filone": "F9",
+   "filone_titolo": "Astolfo e il viaggio straordinario",
+   "filone_canti": "canti 22-23, 34-35",
+   "canto": 23,
+   "ottava": 17,
+   "riferimento": "canto 23, ottava 17",
+   "numeri_versi": [
+    3,
+    4,
+    5
+   ],
+   "versi": [
+    "che non sa come a Montalban conduca",
+    "l’armatura e il destrier del suo parente;",
+    "però che ’l cuor le cuoce e le manuca"
+   ],
+   "parafrasi": "Bradamante ha l'armatura del cugino e il suo cavallo, e un solo problema: come si arriva a Montalbano. Un indirizzo IP non certifica niente, dice solo «qui». Se sbagli la persona, il messaggio arriva lo stesso — e arriva a un altro.",
+   "moto": "ansia",
+   "emozione": "affanno",
+   "tema": "un indirizzo non serve a essere giusto: serve ad arrivare da qualcuno",
+   "luogo": "Montalbano",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-20",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 16,
+   "ottava": 37,
+   "riferimento": "canto 16, ottava 37",
+   "numeri_versi": [
+    6,
+    7
+   ],
+   "versi": [
+    "di Zibeltaro e de l’Erculeo segno,",
+    "riportâr prede da l’isole vostre,"
+   ],
+   "parafrasi": "I Mori sono usciti «di Zibeltaro e de l'Erculeo segno» e hanno portato via cose. Zibeltaro ed Ercole sono Adria e Ferrara: la città del duca è dentro il libro che gioca. Alfonso II chiede una rete per un quartiere nuovo, e un acquedotto disegnato bene non basta se poi il quartiere resta senza acqua.",
+   "moto": "preoccupazione",
+   "emozione": "concretezza",
+   "tema": "una rete di un edificio si progetta con l'acqua che c'è, non con quella che si vorrebbe",
+   "luogo": "Zibeltaro e l'Erculeo segno, cioè Adria e Ferrara",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-21",
+   "filone": "F2",
+   "filone_titolo": "Angelica e la fuga",
+   "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
+   "canto": 1,
+   "ottava": 64,
+   "riferimento": "canto 1, ottava 64",
+   "numeri_versi": [
+    5,
+    6
+   ],
+   "versi": [
+    "ma dove per la selva è il camin dritto,",
+    "correndo a tutta briglia si disserra;"
+   ],
+   "parafrasi": "«Ma dove per la selva è il camin dritto»: due sentieri, e uno solo è giusto. Dijkstra non cerca il sentiero più bello, cerca il più corto, e mette il costo sul tavolo. Quando due strade costano uguale lo dice, invece di scegliere di nascosto.",
+   "moto": "decisione",
+   "emozione": "risolutezza",
+   "tema": "il cammino più corto non è il più bello, e quando due costano uguale la scelta è tua",
+   "luogo": "la selva",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-22",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 1,
+   "ottava": 9,
+   "riferimento": "canto 1, ottava 9",
+   "numeri_versi": [
+    1,
+    2,
+    3
+   ],
+   "versi": [
+    "in premio promettendola a quel d’essi",
+    "ch’in quel conflitto, in quella gran giornata,",
+    "degli infideli piú copia uccidessi,"
+   ],
+   "parafrasi": "Carlo Magno promette la donna «a quel d'essi ch'in quel conflitto... degli infideli più copia uccidessi». Nessuno garantisce il patto, e non serve: ci sono le spade a verificarlo. È così che funziona una rete senza autorità: la promessa è pubblica e i fatti la controllano.",
+   "moto": "sfida",
+   "emozione": "slancio",
+   "tema": "l'ordine senza autorità funziona se il patto è chiaro e i fatti lo verificano",
+   "luogo": "il campo davanti a Parigi",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-23",
+   "filone": "F7",
+   "filone_titolo": "Logistilla e l'anello",
+   "filone_canti": "canti 6, 22, 25-26",
+   "canto": 6,
+   "ottava": 45,
+   "riferimento": "canto 6, ottava 45",
+   "numeri_versi": [
+    1,
+    2
+   ],
+   "versi": [
+    "né ci terrebbe ormai spanna di terra",
+    "colei, che Logistilla è nominata,"
+   ],
+   "parafrasi": "«Né ci terrebbe ormai spanna di terra colei, che Logistilla è nominata»: e con quel nome regna su tre porti. Il nome non è di nessuno ed è di tutti — per questo un indirizzo DNS può essere il nome di una cosa che appartiene a mezzo mondo. Se avesse un proprietario, l'avrebbe uno solo.",
+   "moto": "autorità",
+   "emozione": "ammirazione",
+   "tema": "un nome che non appartiene a nessuno è il motivo per cui funziona",
+   "luogo": "il regno di Logistilla",
+   "legame": "I",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-24",
+   "filone": "F5",
+   "filone_titolo": "Ginevra e Ariodante",
+   "filone_canti": "canti 4-5",
+   "canto": 5,
+   "ottava": 18,
+   "riferimento": "canto 5, ottava 18",
+   "numeri_versi": [
+    7,
+    8
+   ],
+   "versi": [
+    "quante ella conoscea che per suo amore",
+    "Arïodante ardea per tutto il core."
+   ],
+   "parafrasi": "Ginevra non ha bisogno che Arïodante glielo dimostri: «per suo amore Arïodante ardea per tutto il core». Lo sa, e basta. Nel gioco è la chiave: se la possiedi tutti, non protegge niente. La privacy è il numero di chi possiede la chiave.",
+   "moto": "fiducia",
+   "emozione": "trepida",
+   "tema": "un segreto che tutti hanno non è un segreto: è una telefonata",
+   "luogo": "la corte di Scozia",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-25",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 30,
+   "ottava": 80,
+   "riferimento": "canto 30, ottava 80",
+   "numeri_versi": [
+    1,
+    2
+   ],
+   "versi": [
+    "Lesse la carta quattro volte e sei,",
+    "e volse ch’altretante l’imbasciata"
+   ],
+   "parafrasi": "Una lettera letta quattro volte e sei arriva sei volte, e chi aspetta non smette di piangere. Aggiungere banda a una strada stretta non serve a nulla: Shannon lo scrisse prima che il primo computer arrivasse al mare, e per quello gli ho chiesto scusa.",
+   "moto": "impazienza",
+   "emozione": "ansia",
+   "tema": "più banda non serve se il canale è lento: la capacità non è la velocità",
+   "luogo": "la strada del messaggero",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-26",
+   "filone": "F5",
+   "filone_titolo": "Ginevra e Ariodante",
+   "filone_canti": "canti 4-5",
+   "canto": 5,
+   "ottava": 36,
+   "riferimento": "canto 5, ottava 36",
+   "numeri_versi": [
+    5,
+    6
+   ],
+   "versi": [
+    "cominciò: — Sei da me molto discosto,",
+    "e vo’ che di tua bocca anco tu ’l dica;"
+   ],
+   "parafrasi": "«Sei da me molto discosto, e vo' che di tua bocca anco tu 'l dica.» Ti si chiede di dirlo con la tua bocca, non con quella d'altri. Un dataset è fatto di nomi detti da persone: prima di imparare qualcosa, bisogna sapere chi l'ha chiamato.",
+   "moto": "esigenza",
+   "emozione": "severità",
+   "tema": "le etichette sono una scelta di qualcuno: prima di imparare, sapere chi ha chiamato le cose",
+   "luogo": "il duello di Ginevra",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-27",
+   "filone": "F8",
+   "filone_titolo": "Bradamante e Merlino",
+   "filone_canti": "canti 7-8, 21-22",
+   "canto": 7,
+   "ottava": 38,
+   "riferimento": "canto 7, ottava 38",
+   "numeri_versi": [
+    3,
+    4
+   ],
+   "versi": [
+    "dove la vocal tomba di Merlino",
+    "era nascosa in loco alpestro e fiero."
+   ],
+   "parafrasi": "Bradamante va da Merlino per una previsione, e sa che lì dentro c'è scritto. Nessuno le ha spiegato come si faccia una previsione: le ha detto solo di andare. È quello che fanno le reti neurali, ed è la cosa di cui bisogna avere più paura e meno certezze.",
+   "moto": "attesa",
+   "emozione": "fiducia",
+   "tema": "collegare unità a caso e aspettare che da sole venga fuori qualcosa di giusto",
+   "luogo": "la tomba di Merlino, nelle selve di Pontiero",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-28",
+   "filone": "F12",
+   "filone_titolo": "La parola data a un altro",
+   "filone_canti": "canti 24, 30, 46",
+   "canto": 30,
+   "ottava": 2,
+   "riferimento": "canto 30, ottava 2",
+   "numeri_versi": [
+    7,
+    8
+   ],
+   "versi": [
+    "e si ravvede e pente e n’ha dispetto:",
+    "ma quel c’ha detto, non può far non detto."
+   ],
+   "parafrasi": "«Si ravvede e pente e n'ha dispetto: ma quel c'ha detto, non può far non detto.» Il pentimento arriva dopo, e non cancella niente. È la regola dell'AI generativa e la regola del regolamento: l'uscita è irreversibile, e chi preme il tasto lo sa.",
+   "moto": "pentimento",
+   "emozione": "irreversibilità",
+   "tema": "ciò che è stato detto resta, e la responsabilità è di chi lo ha detto",
+   "luogo": "il luogo del pentimento",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-29",
+   "filone": "F1",
+   "filone_titolo": "La guerra e il patto",
+   "filone_canti": "canti 1, 4-5, 14-16, 18, 22, 33",
+   "canto": 1,
+   "ottava": 7,
+   "riferimento": "canto 1, ottava 7",
+   "numeri_versi": [
+    2
+   ],
+   "versi": [
+    "ecco il giudicio uman come spesso erra!"
+   ],
+   "parafrasi": "«Ecco il giudicio uman come spesso erra.» Se la macchina propone e noi non capiamo il ragionamento, la domanda non è se ha ragione: è di chi è la scoperta. Se la risposta è «di chi ha scritto il metodo», allora il metodo va scritto bene.",
+   "moto": "umiltà",
+   "emozione": "conoscenza dei limiti",
+   "tema": "il giudizio umano sbaglia spesso: e la scoperta resta di chi l'ha fatta",
+   "luogo": "il giudizio di Carlo Magno",
+   "legame": "A",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  },
+  {
+   "tappa": "5-30",
+   "filone": "F3",
+   "filone_titolo": "Orlando e il ritorno di sé",
+   "filone_canti": "canti 1, 12-13, 23-24",
+   "canto": 1,
+   "ottava": 1,
+   "riferimento": "canto 1, ottava 1",
+   "numeri_versi": [
+    1,
+    2,
+    7,
+    8
+   ],
+   "versi": [
+    "Le donne, i cavallier, l’arme, gli amori,",
+    "le cortesie, l’audaci imprese io canto,",
+    "di vendicar la morte di Troiano",
+    "sopra re Carlo imperator romano."
+   ],
+   "parafrasi": "«Le donne, i cavallier, l'arme, gli amori.» Chi comincia un'opera così non promette: elenca. Il quinto anno finisce con sei fasce bianche e una domanda. L'elenco che Ariosto fa all'inizio è la stessa cosa: qui c'è scritto che cosa non troverai, e non è una scusa, è un impegno.",
+   "moto": "impegno",
+   "emozione": "serietà",
+   "tema": "un programma è l'elenco di ciò che farà: tutto, e nient'altro",
+   "luogo": "la prima pagina",
+   "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  }
+ ]
+}
