@@ -9,7 +9,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 ## 2. Fonte di verità e ordine di lettura
 
 1. `docs/` è la **fonte di verità**. `dati/` contiene gli stessi contenuti in forma leggibile dai programmi. `prototipo/` si genera da `sorgenti/`.
-2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2 e 3, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati.
+2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2, 3 e 4, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati.
 3. Se due documenti si contraddicono, vale quello con la data più recente. Conviene segnalare la contraddizione a Pietro.
 
 ## 3. Decisioni di Pietro da rispettare (non cambiarle senza chiedere)
@@ -38,6 +38,15 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Le 30 tappe coprono tutta l'Europa, da Atene a Torino.** Da cui una conseguenza da tenere presente: il Novecento **non ha tappe obbligatorie** (vedi `anno3-europa.md` §13 Q1).
 - **Il decreto di espulsione degli ebrei del 1510** entra nel gioco con la fonte, confrontando tre voci (vedi `anno3-europa.md` §5, «3.10 bis»). **Non usarlo finché la verifica V1 non è fatta.**
 
+**Anno 4** (vedi `anno4-mondo.md` §0.2–§3.5)
+- **L'archivio della corte è l'unico luogo percorribile**, come la corte nell'anno 3. Ogni tappa è **un documento che entra** e che il giocatore **cataloga**: tavoletta, papiro, iscrizione, registro, lettera, diagramma. L'unità di gioco non è la risorsa, è il documento.
+- **Il giocatore costruisce un registro**: ogni tappa deposita una riga con i campi `id`, `titolo`, `autore`, `data`, `luogo`, `strato`, `porta`, `tradotto_da`, `manca`, `attendibilita`. I campi `tradotto_da` e `manca` sono l'innovazione dell'anno. Alla tappa 4-30 il registro si stampa e **una riga resta vuota**.
+- **Il pianeta a strati** con 16 strati `S60`–`S75`, in **scala logaritmica dichiarata**; due strati sono vuoti per costruzione (`S60`, prima delle città: non ci sono documenti; `S66`, India antica: scelta da rivedere).
+- **Le sette porte** dell'archivio (`PT-SCR`, `PT-ORR`, `PT-CRR`, `PT-MAR`, `PT-REG`, `PT-LAB`, `PT-VOC`) dicono **come** è arrivato ogni documento. `PT-VOC` non si apre mai prima della fine.
+- **Ercole II non viaggia e non sa**: commenta il documento, e la sua domanda è «a chi serve?». Non spiega mai la tappa.
+- **La regola dei ritorni è più stretta**: il materiale dell'anno 4 contiene molti nomi già obbligatori negli anni 1–3 (Omero, Cesare, Marco Polo, Colombo, Leonardo, Gutenberg, Maometto, Carlo Magno…): nessuno di questi può essere obbligatorio nell'anno 4 (`anno4-mondo.md` §6.4).
+- **Due questioni aperte bloccanti**: il buco dell'Asia meridionale antica (§13 Q1) e il peso del presente (§13 Q2).
+
 **Esercizi e testo**
 - **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
 - **Meccanismi sempre diversi**: tante schermate, colori, forme.
@@ -60,7 +69,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 **Codici**
 - **Livelli**: `anno-numero`, per esempio `1-1`.
-- **Personaggi**: `P01…P94` (anno 1). Gli anni 2 e 3 usano la serie `Q`, che continua da `Q01` (anno 2) a `Q101` (anno 3). **Codici definitivi fino a nuova indicazione.**
+- **Personaggi**: `P01…P94` (anno 1). Gli anni 2, 3 e 4 usano la serie `Q`, che continua senza riaprire la numerazione: `Q01…Q92` (anno 2), `Q101…Q130` (anno 3), `Q201…Q230` (anno 4). **Codici definitivi fino a nuova indicazione.**
 - **Luoghi**: `L01…L32`.
 - **Nodi della mappa dell'informatica**: `B1.1`, `E7.3`… (vedi `riferimenti/mappa-informatica/`).
 - **Attendibilità delle fonti**: D (documentato), I (interpretato), M (memoria), L (leggenda), F (figura letteraria), C (collettivo).
