@@ -118,6 +118,13 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I 900 titoli sono in `sorgenti/lingue/`**, sei file di 150 righe, e ogni riga dichiara la sua provenienza: `titolo` (di Pietro) oppure `tema` (proposto). `titoli_livelli.txt` è un output, non un sorgente. Prima di usare un titolo, `python3 sorgenti/lingue/verifica_titoli.py` deve dare **0 problemi**.
 - **Non scrivere una lingua dei segni a tavolino**, e non raccogliere proverbi ferraresi senza la regola del consenso: entrambe le cose sono questioni aperte (`lingue.md` §7 Q3 e Q4).
 
+**Questioni aperte** (trasversale, vedi `audit.md`)
+- **Tutte le questioni aperte stanno in `docs/videogioco-5-duchi-audit.md`.** Prima di aprire una discussione, guarda l'audit: è possibile che la domanda sia già chiusa in un altro documento, o che sia una delle cinque bloccanti e non si possa rispondere.
+- **Cinque bloccanti, e quattro sono la stessa**: `lingue.md` Q1 (livelli linguistici o informatici), Q2 (le trenta voci confermate), Q4 (la LIS), `lingue-immagini.md` Q1 (chi guarda le immagini), e `mappe.md` §10.5 (i novanta pin, che è un **lavoro** e non una domanda).
+- **L'ordine è B1 → B2 → B4**: finché non si decide se le tappe sono 30 o 150 non ha senso scegliere le immagini, e finché non sono confermate le voci non ha senso scegliere le immagini.
+- **Una domanda nuova va aggiunta all'audit**, non lasciata in un documento. Se è chiusa, si sposta nel registro del documento suo e non si cancella.
+- **`conta_questioni.py` confronta il proprio conto con i numeri dell'audit**: se i due non concordano, è l'audit che ha torto. Non correggere il numero a mano senza far girare lo script.
+
 **Immagini degli oggetti linguistici** (trasversale, vedi `lingue-immagini.md`, decisioni del 02/10/2026)
 - **Quattro categorie, non una**: `foto`, `dipinto`, `stampa`, `nessuna`. Un oggetto che non ha immagine libera va **dichiarato** (`nessuna`), non disegnato. Nel gioco **non entra un'immagine generata** per nessun oggetto, come per i volti.
 - **Le trenta voci ferraresi non hanno immagine** e non ne possono avere: sono campi di rilevazione. Non è una ricerca saltata, è una categoria dichiarata nei dati.
