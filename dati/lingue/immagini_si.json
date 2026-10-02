@@ -1,0 +1,2740 @@
+{
+ "versione": 1,
+ "data": "2026-10-02",
+ "nota": "Proposte, non scelte, e non ancora guardate a vista: le scelte le fa una persona e si registrano in sorgenti/lingue/attestazione_oggetti.json con etichetta e motivo, come per i ritratti.",
+ "lingue": [
+  "SI"
+ ],
+ "risultati": [
+  {
+   "lingua": "SI",
+   "numero": 1,
+   "voce": "l'intaglio della pietra dura",
+   "termini": [
+    "i",
+    "h",
+    "n",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:EB1911 Gem- Plate II.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Anonymous  Unknown author",
+     "data": "1911-01-01",
+     "larghezza": 837,
+     "altezza": 841,
+     "url": "https://commons.wikimedia.org/wiki/File:EB1911_Gem-_Plate_II.jpg"
+    },
+    {
+     "file": "File:EB1911 Gem - Fig. 10.—Actaeon.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Anonymous  Unknown author",
+     "data": "1911-01-01",
+     "larghezza": 199,
+     "altezza": 177,
+     "url": "https://commons.wikimedia.org/wiki/File:EB1911_Gem_-_Fig._10.%E2%80%94Actaeon.jpg"
+    },
+    {
+     "file": "File:EB1911 Gem - Fig. 14—Muse.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Anonymous  Unknown author",
+     "data": "1911-01-01",
+     "larghezza": 184,
+     "altezza": 260,
+     "url": "https://commons.wikimedia.org/wiki/File:EB1911_Gem_-_Fig._14%E2%80%94Muse.jpg"
+    },
+    {
+     "file": "File:EB1911 Gem - Fig. 8.—Greek Sard.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Anonymous  Unknown author",
+     "data": "1911-01-01",
+     "larghezza": 130,
+     "altezza": 239,
+     "url": "https://commons.wikimedia.org/wiki/File:EB1911_Gem_-_Fig._8.%E2%80%94Greek_Sard.jpg"
+    },
+    {
+     "file": "File:EB1911 Gem - Plate I.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Anonymous  Unknown author",
+     "data": "1911-01-01",
+     "larghezza": 798,
+     "altezza": 893,
+     "url": "https://commons.wikimedia.org/wiki/File:EB1911_Gem_-_Plate_I.jpg"
+    },
+    {
+     "file": "File:Intaglio Caracalla Cdm Paris Chab2101.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Marie-Lan Nguyen",
+     "data": "2008",
+     "larghezza": 1225,
+     "altezza": 1633,
+     "url": "https://commons.wikimedia.org/wiki/File:Intaglio_Caracalla_Cdm_Paris_Chab2101.jpg"
+    },
+    {
+     "file": "File:Roman - Intaglio of Satyr Dancing - Walters 42108 - Impression.jpg",
+     "termino": "intaglio pietra dura",
+     "licenza": "Public domain",
+     "autore": "Anonymous  (  Category:Roman Empire  ) Unknown author",
+     "data": "2 nd  century  BC  date QS:P571,-150-00-00T00:00:00Z/7  (Hel",
+     "larghezza": 1551,
+     "altezza": 1800,
+     "url": "https://commons.wikimedia.org/wiki/File:Roman_-_Intaglio_of_Satyr_Dancing_-_Walters_42108_-_Impression.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 2,
+   "voce": "la ceramica",
+   "termini": [
+    "c",
+    "I",
+    "e",
+    "t"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Baskonia logo.png",
+     "termino": "ceramica",
+     "licenza": "Public domain",
+     "autore": "bengoa ,  bengoa wikipedia euskaraz",
+     "data": "",
+     "larghezza": 355,
+     "altezza": 142,
+     "url": "https://commons.wikimedia.org/wiki/File:Baskonia_logo.png"
+    },
+    {
+     "file": "File:Ceramica pisi caterpillar (side view) - Keila.jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ivar Leidus",
+     "data": "8 August 2021, 11:28",
+     "larghezza": 3750,
+     "altezza": 6000,
+     "url": "https://commons.wikimedia.org/wiki/File:Ceramica_pisi_caterpillar_(side_view)_-_Keila.jpg"
+    },
+    {
+     "file": "File:Ceramica pisi caterpillar (top view) - Keila.jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ivar Leidus",
+     "data": "8 August 2021, 11:28",
+     "larghezza": 4000,
+     "altezza": 6000,
+     "url": "https://commons.wikimedia.org/wiki/File:Ceramica_pisi_caterpillar_(top_view)_-_Keila.jpg"
+    },
+    {
+     "file": "File:Fenerbahçe Men's Basketball vs Saski Baskonia EuroLeague 20180105 (18).jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sakhalinio",
+     "data": "2018-01-05 22:34:03",
+     "larghezza": 4896,
+     "altezza": 3672,
+     "url": "https://commons.wikimedia.org/wiki/File:Fenerbah%C3%A7e_Men%27s_Basketball_vs_Saski_Baskonia_EuroLeague_20180105_(18).jpg"
+    },
+    {
+     "file": "File:Pedro Martínez Saski Baskonia 20180105.jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sakhalinio",
+     "data": "2018-01-05 21:09:56",
+     "larghezza": 4896,
+     "altezza": 3672,
+     "url": "https://commons.wikimedia.org/wiki/File:Pedro_Mart%C3%ADnez_Saski_Baskonia_20180105.jpg"
+    },
+    {
+     "file": "File:Saski Baskonia Euroleague 20260123 (1).jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY 4.0",
+     "autore": "Zafer",
+     "data": "23 January 2026, 20:24",
+     "larghezza": 7728,
+     "altezza": 5152,
+     "url": "https://commons.wikimedia.org/wiki/File:Saski_Baskonia_Euroleague_20260123_(1).jpg"
+    },
+    {
+     "file": "File:Saski Baskonia Euroleague 20260123 (3).jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY 4.0",
+     "autore": "Zafer",
+     "data": "23 January 2026, 21:34",
+     "larghezza": 7728,
+     "altezza": 5152,
+     "url": "https://commons.wikimedia.org/wiki/File:Saski_Baskonia_Euroleague_20260123_(3).jpg"
+    },
+    {
+     "file": "File:Timothé Luwawu-Cabarrot 9 Saski Baskonia Euroleague 20260123 (6).jpg",
+     "termino": "ceramica",
+     "licenza": "CC BY 4.0",
+     "autore": "Zafer",
+     "data": "23 January 2026, 21:44",
+     "larghezza": 5152,
+     "altezza": 7728,
+     "url": "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9_Luwawu-Cabarrot_9_Saski_Baskonia_Euroleague_20260123_(6).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 3,
+   "voce": "la maiolica",
+   "termini": [
+    "m",
+    "m",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Caffagiolo Dish with maiolica painter VA 1717-1855.jpg",
+     "termino": "maiolica",
+     "licenza": "Public domain",
+     "autore": "Probably Maestro Jacopo",
+     "data": "1510 date QS:P571,+1510-00-00T00:00:00Z/9",
+     "larghezza": 2527,
+     "altezza": 2531,
+     "url": "https://commons.wikimedia.org/wiki/File:Caffagiolo_Dish_with_maiolica_painter_VA_1717-1855.jpg"
+    },
+    {
+     "file": "File:Cleopatra Maiolica Panel 2012-07 1342731861.JPG",
+     "termino": "maiolica",
+     "licenza": "CC BY 4.0",
+     "autore": "Artyom Svetlov",
+     "data": "Taken on 19 July 2012, 21:04:21 (according to   Exif   data)",
+     "larghezza": 4288,
+     "altezza": 2848,
+     "url": "https://commons.wikimedia.org/wiki/File:Cleopatra_Maiolica_Panel_2012-07_1342731861.JPG"
+    },
+    {
+     "file": "File:It Rains Manna (Piove la Manna) plate 16th century earthenware majolica (Polk Museum of Art).jpg",
+     "termino": "maiolica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kiran891",
+     "data": "2023-04-07 12:31:56",
+     "larghezza": 4618,
+     "altezza": 3464,
+     "url": "https://commons.wikimedia.org/wiki/File:It_Rains_Manna_(Piove_la_Manna)_plate_16th_century_earthenware_majolica_(Polk_Museum_of_Art).jpg"
+    },
+    {
+     "file": "File:Maiolica Dish - Doge Agostino Barbarigo supervises assistance to the King of Naples.jpg",
+     "termino": "maiolica",
+     "licenza": "CC BY 4.0",
+     "autore": "Brigade Piron",
+     "data": "2026-02-07 16:37:36",
+     "larghezza": 4108,
+     "altezza": 4608,
+     "url": "https://commons.wikimedia.org/wiki/File:Maiolica_Dish_-_Doge_Agostino_Barbarigo_supervises_assistance_to_the_King_of_Naples.jpg"
+    },
+    {
+     "file": "File:Maiolica Napoletana - Palazzo San Liguoro Calvizzano.png",
+     "termino": "maiolica",
+     "licenza": "Public domain",
+     "autore": "Domenico Rosiello",
+     "data": "X Secolo d.C.",
+     "larghezza": 2211,
+     "altezza": 1794,
+     "url": "https://commons.wikimedia.org/wiki/File:Maiolica_Napoletana_-_Palazzo_San_Liguoro_Calvizzano.png"
+    },
+    {
+     "file": "File:Maiolica at Peleș Castle, The triumph of Galatea.jpg",
+     "termino": "maiolica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yair-haklai",
+     "data": "2024-10-18 13:32:38",
+     "larghezza": 945,
+     "altezza": 1115,
+     "url": "https://commons.wikimedia.org/wiki/File:Maiolica_at_Pele%C8%99_Castle,_The_triumph_of_Galatea.jpg"
+    },
+    {
+     "file": "File:Maiolica plate - 1a.jpg",
+     "termino": "maiolica",
+     "licenza": "Public domain",
+     "autore": "James Grantham Turner",
+     "data": "2024-03-13 18:42:15",
+     "larghezza": 2944,
+     "altezza": 2931,
+     "url": "https://commons.wikimedia.org/wiki/File:Maiolica_plate_-_1a.jpg"
+    },
+    {
+     "file": "File:Majolika Aesculap.JPG",
+     "termino": "maiolica",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Alfred Löhr",
+     "data": "2013-06-24",
+     "larghezza": 1500,
+     "altezza": 1497,
+     "url": "https://commons.wikimedia.org/wiki/File:Majolika_Aesculap.JPG"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 4,
+   "voce": "la smaltatura",
+   "termini": [
+    "s",
+    "e",
+    "m",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Iñaki Barrenetxea (Ripolin Bondex), pelotoitik tiraka.jpg",
+     "termino": "smaltatura",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Asier Barre",
+     "data": "2022-04-16",
+     "larghezza": 560,
+     "altezza": 750,
+     "url": "https://commons.wikimedia.org/wiki/File:I%C3%B1aki_Barrenetxea_(Ripolin_Bondex),_pelotoitik_tiraka.jpg"
+    },
+    {
+     "file": "File:Kandinsky - Various Actions, 1941 - 2.jpg",
+     "termino": "smaltatura",
+     "licenza": "Public domain",
+     "autore": "Wassily Kandinsky",
+     "data": "2023-12-15 15:13:55",
+     "larghezza": 3569,
+     "altezza": 2665,
+     "url": "https://commons.wikimedia.org/wiki/File:Kandinsky_-_Various_Actions,_1941_-_2.jpg"
+    },
+    {
+     "file": "File:Linee smaltatura monocottura Morandi anni 60.jpg",
+     "termino": "smaltatura",
+     "licenza": "Public domain",
+     "autore": "Eugenio Morandi",
+     "data": "1965-10-11",
+     "larghezza": 1410,
+     "altezza": 1254,
+     "url": "https://commons.wikimedia.org/wiki/File:Linee_smaltatura_monocottura_Morandi_anni_60.jpg"
+    },
+    {
+     "file": "File:Linne smaltatura Morandi anni 60.jpg",
+     "termino": "smaltatura",
+     "licenza": "Public domain",
+     "autore": "Eugenio Morandi",
+     "data": "1965-12-11",
+     "larghezza": 1408,
+     "altezza": 1212,
+     "url": "https://commons.wikimedia.org/wiki/File:Linne_smaltatura_Morandi_anni_60.jpg"
+    },
+    {
+     "file": "File:Ordre de L Union Parfait crop.jpg",
+     "termino": "smaltatura",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Robert Prummel  at  Dutch Wikipedia",
+     "data": "2007-04-11",
+     "larghezza": 284,
+     "altezza": 293,
+     "url": "https://commons.wikimedia.org/wiki/File:Ordre_de_L_Union_Parfait_crop.jpg"
+    },
+    {
+     "file": "File:Ripolin Poster by Vavasseur.png",
+     "termino": "smaltatura",
+     "licenza": "Public domain",
+     "autore": "Eugène Vavasseur",
+     "data": "circa 1898 date QS:P,+1898-00-00T00:00:00Z/9,P1480,Q5727902",
+     "larghezza": 668,
+     "altezza": 476,
+     "url": "https://commons.wikimedia.org/wiki/File:Ripolin_Poster_by_Vavasseur.png"
+    },
+    {
+     "file": "File:Ripolin kartonnen staal kaart.JPG",
+     "termino": "smaltatura",
+     "licenza": "CC0",
+     "autore": "Alf van Beem",
+     "data": "2014-11-02 09:41:45",
+     "larghezza": 1827,
+     "altezza": 3088,
+     "url": "https://commons.wikimedia.org/wiki/File:Ripolin_kartonnen_staal_kaart.JPG"
+    },
+    {
+     "file": "File:Ripolin movie add 1898.jpg",
+     "termino": "smaltatura",
+     "licenza": "Public domain",
+     "autore": "Spiessens",
+     "data": "1898-10",
+     "larghezza": 1968,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Ripolin_movie_add_1898.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 5,
+   "voce": "il vetro",
+   "termini": [
+    "v",
+    "M",
+    "e",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Alto Vetro 01.jpg",
+     "termino": "vetro",
+     "licenza": "CC0",
+     "autore": "Andreas Wolf 01",
+     "data": "2026-06-23 16:37:18",
+     "larghezza": 1200,
+     "altezza": 1600,
+     "url": "https://commons.wikimedia.org/wiki/File:Alto_Vetro_01.jpg"
+    },
+    {
+     "file": "File:Casa del Gruppo dei Vasi di Vetro, plan.jpg",
+     "termino": "vetro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Chapter : Gli Scavi di Pompei dal 1873 al 1878, plate II, in Ruggiero, Michele, Pompei e la regione sotterrata dal Vesuv",
+     "data": "1879",
+     "larghezza": 450,
+     "altezza": 864,
+     "url": "https://commons.wikimedia.org/wiki/File:Casa_del_Gruppo_dei_Vasi_di_Vetro,_plan.jpg"
+    },
+    {
+     "file": "File:Glass Beach Fort Bragg 2.jpg",
+     "termino": "vetro",
+     "licenza": "CC BY 2.0",
+     "autore": "Jef Poskanzer",
+     "data": "Taken on 7 September 2006, 15:44:09",
+     "larghezza": 2304,
+     "altezza": 1728,
+     "url": "https://commons.wikimedia.org/wiki/File:Glass_Beach_Fort_Bragg_2.jpg"
+    },
+    {
+     "file": "File:Le Stanze del Vetro Venezia.jpg",
+     "termino": "vetro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "SilviaCas87",
+     "data": "2012-08-20 09:38:02",
+     "larghezza": 4724,
+     "altezza": 3150,
+     "url": "https://commons.wikimedia.org/wiki/File:Le_Stanze_del_Vetro_Venezia.jpg"
+    },
+    {
+     "file": "File:Life Saint-Austremoine Issoire bottom n2.jpg",
+     "termino": "vetro",
+     "licenza": "Public domain",
+     "autore": "François Taureilles (French, died first quarter of the 20th century)",
+     "data": "1897 date QS:P571,+1897-00-00T00:00:00Z/9",
+     "larghezza": 1935,
+     "altezza": 1900,
+     "url": "https://commons.wikimedia.org/wiki/File:Life_Saint-Austremoine_Issoire_bottom_n2.jpg"
+    },
+    {
+     "file": "File:Rugiada su vetro illuminata dal sole.jpg",
+     "termino": "vetro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Anna.Massini",
+     "data": "2023-10-05 07:58:49",
+     "larghezza": 3288,
+     "altezza": 2587,
+     "url": "https://commons.wikimedia.org/wiki/File:Rugiada_su_vetro_illuminata_dal_sole.jpg"
+    },
+    {
+     "file": "File:Sunlight on the curved honeycomb glass façade of the hotel Andaz mixed with interior lighting at sunset in Singapore.jpg",
+     "termino": "vetro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2018-06-12 18:04:18",
+     "larghezza": 3024,
+     "altezza": 2419,
+     "url": "https://commons.wikimedia.org/wiki/File:Sunlight_on_the_curved_honeycomb_glass_fa%C3%A7ade_of_the_hotel_Andaz_mixed_with_interior_lighting_at_sunset_in_Singapore.jpg"
+    },
+    {
+     "file": "File:Uniformity.jpg",
+     "termino": "vetro",
+     "licenza": "CC BY 2.5",
+     "autore": "Atoma",
+     "data": "2007-02-23",
+     "larghezza": 3008,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Uniformity.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 6,
+   "voce": "il ricamo",
+   "termini": [
+    "r",
+    "e",
+    "i",
+    "m"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Blue mural embroidery, Udaipur, Rajasthan, India.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yann  (  talk  )",
+     "data": "2012",
+     "larghezza": 3000,
+     "altezza": 4214,
+     "url": "https://commons.wikimedia.org/wiki/File:Blue_mural_embroidery,_Udaipur,_Rajasthan,_India.jpg"
+    },
+    {
+     "file": "File:Embroidery - Ricamo Intaglio * Centro Tavolo *.png",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "DinaBenedettoFerrandina",
+     "data": "2019-01-20",
+     "larghezza": 1080,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Embroidery_-_Ricamo_Intaglio_*_Centro_Tavolo_*.png"
+    },
+    {
+     "file": "File:Embroidery on a saree 01.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-12-18 12:55:59",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Embroidery_on_a_saree_01.jpg"
+    },
+    {
+     "file": "File:Embroidery on a saree 04.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-12-18 12:56:33",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Embroidery_on_a_saree_04.jpg"
+    },
+    {
+     "file": "File:Embroidery on a shawl from Punjab 05.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "Taken on 7 March 2021, 11:13:07",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Embroidery_on_a_shawl_from_Punjab_05.jpg"
+    },
+    {
+     "file": "File:Embroidery on a wollen shawl from Kashmir 02.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2021-03-07 10:51:38",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Embroidery_on_a_wollen_shawl_from_Kashmir_02.jpg"
+    },
+    {
+     "file": "File:Madonna del Ricamo - Vitale da Bologna.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Vitale da Bologna",
+     "data": "between 1330 and 1340 date QS:P571,+1350-00-00T00:00:00Z/7,P",
+     "larghezza": 309,
+     "altezza": 459,
+     "url": "https://commons.wikimedia.org/wiki/File:Madonna_del_Ricamo_-_Vitale_da_Bologna.jpg"
+    },
+    {
+     "file": "File:Pink dress with embroidery, detail, Crafts Museum, New Delhi.jpg",
+     "termino": "ricamo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yann  (  talk  )",
+     "data": "2012",
+     "larghezza": 4000,
+     "altezza": 2660,
+     "url": "https://commons.wikimedia.org/wiki/File:Pink_dress_with_embroidery,_detail,_Crafts_Museum,_New_Delhi.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 7,
+   "voce": "il merletto",
+   "termini": [
+    "m",
+    "l",
+    "e",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:1911 Britannica - Lace 3.jpg",
+     "termino": "merletto",
+     "licenza": "Public domain",
+     "autore": "Encyclopædia Britannica, 1911",
+     "data": "2012-02-14",
+     "larghezza": 1037,
+     "altezza": 1070,
+     "url": "https://commons.wikimedia.org/wiki/File:1911_Britannica_-_Lace_3.jpg"
+    },
+    {
+     "file": "File:Cotton Lace on cardboard cards-1.jpg",
+     "termino": "merletto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Tangerineduel",
+     "data": "2018-05-10 15:16:24",
+     "larghezza": 3648,
+     "altezza": 1597,
+     "url": "https://commons.wikimedia.org/wiki/File:Cotton_Lace_on_cardboard_cards-1.jpg"
+    },
+    {
+     "file": "File:Cotton Lace on cardboard cards-2.jpg",
+     "termino": "merletto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Tangerineduel",
+     "data": "2018-05-10 15:16:31",
+     "larghezza": 1280,
+     "altezza": 747,
+     "url": "https://commons.wikimedia.org/wiki/File:Cotton_Lace_on_cardboard_cards-2.jpg"
+    },
+    {
+     "file": "File:Lace bodysuits among other items for newborn photography - 20241116.jpg",
+     "termino": "merletto",
+     "licenza": "CC0",
+     "autore": "Tobias ToMar Maier",
+     "data": "2024-11-16 11:56:01",
+     "larghezza": 8891,
+     "altezza": 5927,
+     "url": "https://commons.wikimedia.org/wiki/File:Lace_bodysuits_among_other_items_for_newborn_photography_-_20241116.jpg"
+    },
+    {
+     "file": "File:Museo del Merletto (Rapallo).jpg",
+     "termino": "merletto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Al*from*Lig",
+     "data": "15 June 2023 (according to   Exif   data)",
+     "larghezza": 4096,
+     "altezza": 1834,
+     "url": "https://commons.wikimedia.org/wiki/File:Museo_del_Merletto_(Rapallo).jpg"
+    },
+    {
+     "file": "File:Proctor Teneriffe lace making square.jpg",
+     "termino": "merletto",
+     "licenza": "Public domain",
+     "autore": "The Proctor Teneriffe Lace Wheel Co.",
+     "data": "1903-01-01",
+     "larghezza": 422,
+     "altezza": 688,
+     "url": "https://commons.wikimedia.org/wiki/File:Proctor_Teneriffe_lace_making_square.jpg"
+    },
+    {
+     "file": "File:Proctor Teneriffe lace making wheel.jpg",
+     "termino": "merletto",
+     "licenza": "Public domain",
+     "autore": "The Proctor Teneriffe Lace Wheel Co.",
+     "data": "1903-01-01",
+     "larghezza": 354,
+     "altezza": 665,
+     "url": "https://commons.wikimedia.org/wiki/File:Proctor_Teneriffe_lace_making_wheel.jpg"
+    },
+    {
+     "file": "File:Unidentified woman c1850 daguerreotype by Southworth & Hawes.jpg",
+     "termino": "merletto",
+     "licenza": "Public domain",
+     "autore": "Southworth &amp; Hawes  en",
+     "data": "circa 1850 date QS:P,+1850-00-00T00:00:00Z/9,P1480,Q5727902",
+     "larghezza": 2924,
+     "altezza": 3691,
+     "url": "https://commons.wikimedia.org/wiki/File:Unidentified_woman_c1850_daguerreotype_by_Southworth_%26_Hawes.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 8,
+   "voce": "la tessitura a telaio",
+   "termini": [
+    "t",
+    "w",
+    "e",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Attività sperimentale di tessitura su telaio verticale a pesi, Parco della Terramara di Montale.jpg",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Staff Museo Civico",
+     "data": "2004",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Attivit%C3%A0_sperimentale_di_tessitura_su_telaio_verticale_a_pesi,_Parco_della_Terramara_di_Montale.jpg"
+    },
+    {
+     "file": "File:CRETAN LOOM- HEADLLES.jpg",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "SEN Heritage Looms - Sophia Tsourinaki",
+     "data": "18 th  century date QS:P,+1750-00-00T00:00:00Z/7",
+     "larghezza": 721,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:CRETAN_LOOM-_HEADLLES.jpg"
+    },
+    {
+     "file": "File:Loom 11.png",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Isaac Gyamfi Asumeng",
+     "data": "2023-04-01",
+     "larghezza": 3751,
+     "altezza": 2500,
+     "url": "https://commons.wikimedia.org/wiki/File:Loom_11.png"
+    },
+    {
+     "file": "File:Loom 2.png",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Isaac Gyamfi Assumeng",
+     "data": "2023-03-27",
+     "larghezza": 3750,
+     "altezza": 2500,
+     "url": "https://commons.wikimedia.org/wiki/File:Loom_2.png"
+    },
+    {
+     "file": "File:Loom 9.png",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Isaac Gyamfi Assumeng",
+     "data": "2023-03-28",
+     "larghezza": 3750,
+     "altezza": 2500,
+     "url": "https://commons.wikimedia.org/wiki/File:Loom_9.png"
+    },
+    {
+     "file": "File:Museo italiano dell'immaginario folklorico - Sala della tessitura - Telaio.jpg",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Archivio Museo Italiano dell'Immaginario Folklorico",
+     "data": "2019-06-22 16:07:30",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Museo_italiano_dell%27immaginario_folklorico_-_Sala_della_tessitura_-_Telaio.jpg"
+    },
+    {
+     "file": "File:P1150118-118- Tessitura a mano a telaio.jpg",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sergio bellavista",
+     "data": "2016-07-24 21:44:55",
+     "larghezza": 4606,
+     "altezza": 3606,
+     "url": "https://commons.wikimedia.org/wiki/File:P1150118-118-_Tessitura_a_mano_a_telaio.jpg"
+    },
+    {
+     "file": "File:Telaio tessitura Museo Civico TEMPO Canicattini Bagni Sicilia.jpg",
+     "termino": "tessitura a telaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Paolino.uccello",
+     "data": "2021-01-15",
+     "larghezza": 817,
+     "altezza": 1074,
+     "url": "https://commons.wikimedia.org/wiki/File:Telaio_tessitura_Museo_Civico_TEMPO_Canicattini_Bagni_Sicilia.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 9,
+   "voce": "l'intreccio",
+   "termini": [
+    "i",
+    "b",
+    "n",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:**Plot and Story 02 Eng..png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "まとりょーしか",
+     "data": "2014-07-18 16:24:02",
+     "larghezza": 1754,
+     "altezza": 1275,
+     "url": "https://commons.wikimedia.org/wiki/File:**Plot_and_Story_02_Eng..png"
+    },
+    {
+     "file": "File:Plot and Story.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "まとりょーしか",
+     "data": "2014-07-17 13:56:33",
+     "larghezza": 1169,
+     "altezza": 850,
+     "url": "https://commons.wikimedia.org/wiki/File:Plot_and_Story.png"
+    },
+    {
+     "file": "File:Plot and Story lzh.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Davidzdh",
+     "data": "2016-11-12",
+     "larghezza": 1166,
+     "altezza": 688,
+     "url": "https://commons.wikimedia.org/wiki/File:Plot_and_Story_lzh.png"
+    },
+    {
+     "file": "File:Plot v. story canto.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "まとりょーしか",
+     "data": "2023-09-05",
+     "larghezza": 800,
+     "altezza": 582,
+     "url": "https://commons.wikimedia.org/wiki/File:Plot_v._story_canto.png"
+    },
+    {
+     "file": "File:Plot v. story en.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "まとりょーしか",
+     "data": "2014-07-18 06:09:43",
+     "larghezza": 1169,
+     "altezza": 850,
+     "url": "https://commons.wikimedia.org/wiki/File:Plot_v._story_en.png"
+    },
+    {
+     "file": "File:Selden Whitcomb's Silas Mariner Plot structure.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "KimYunmi",
+     "data": "2022-02-05",
+     "larghezza": 1846,
+     "altezza": 1240,
+     "url": "https://commons.wikimedia.org/wiki/File:Selden_Whitcomb%27s_Silas_Mariner_Plot_structure.png"
+    },
+    {
+     "file": "File:Story v. plot.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "まとりょーしか",
+     "data": "18 July 2014, 06:09:43",
+     "larghezza": 1065,
+     "altezza": 797,
+     "url": "https://commons.wikimedia.org/wiki/File:Story_v._plot.png"
+    },
+    {
+     "file": "File:Схема сюжету та фабули.png",
+     "termino": "intreccio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Віщун",
+     "data": "2020-05-08",
+     "larghezza": 1920,
+     "altezza": 990,
+     "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_%D1%81%D1%8E%D0%B6%D0%B5%D1%82%D1%83_%D1%82%D0%B0_%D1%84%D0%B0%D0%B1%D1%83%D0%BB%D0%B8.png"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 10,
+   "voce": "la canna",
+   "termini": [
+    "c",
+    "r",
+    "a",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Canna, Calabria, Italy, at night.jpg",
+     "termino": "canna",
+     "licenza": "Public domain",
+     "autore": "Simonenomis  at  Italian Wikipedia",
+     "data": "30 June 2007 (original upload date)",
+     "larghezza": 2385,
+     "altezza": 1489,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna,_Calabria,_Italy,_at_night.jpg"
+    },
+    {
+     "file": "File:Canna, Calabria, Italy, at night (cropped).jpg",
+     "termino": "canna",
+     "licenza": "Public domain",
+     "autore": "Simonenomis  at  Italian Wikipedia",
+     "data": "30 June 2007 (original upload date)",
+     "larghezza": 2080,
+     "altezza": 297,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna,_Calabria,_Italy,_at_night_(cropped).jpg"
+    },
+    {
+     "file": "File:Canna (Canaigh) 18.jpg",
+     "termino": "canna",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "PaulT (Gunther Tschuch)",
+     "data": "2019-06-10 13:17:13",
+     "larghezza": 3968,
+     "altezza": 2976,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna_(Canaigh)_18.jpg"
+    },
+    {
+     "file": "File:Canna in 2020 interview.jpg",
+     "termino": "canna",
+     "licenza": "CC BY 3.0",
+     "autore": "E레기",
+     "data": "2020-04-22",
+     "larghezza": 624,
+     "altezza": 698,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna_in_2020_interview.jpg"
+    },
+    {
+     "file": "File:Canna indica 3.jpg",
+     "termino": "canna",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Nativeplants garden",
+     "data": "6 November 2023 (according to   Exif   data)",
+     "larghezza": 3060,
+     "altezza": 4080,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna_indica_3.jpg"
+    },
+    {
+     "file": "File:Canna indica Blanco1.4.jpg",
+     "termino": "canna",
+     "licenza": "Public domain",
+     "autore": "Francisco Manuel Blanco (O.S.A.)",
+     "data": "1880-1883?",
+     "larghezza": 1417,
+     "altezza": 2075,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna_indica_Blanco1.4.jpg"
+    },
+    {
+     "file": "File:Canna lily plant.jpg",
+     "termino": "canna",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "CeruleanPanda",
+     "data": "2022-10-12 14:57:12",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Canna_lily_plant.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 11,
+   "voce": "l'ebanisteria",
+   "termini": [
+    "e",
+    "c",
+    "b",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Atelierhaus am Heidberg 01.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Derbrauni",
+     "data": "2021-08-29 13:10:27",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Atelierhaus_am_Heidberg_01.jpg"
+    },
+    {
+     "file": "File:Cal figols.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Pitxiquin",
+     "data": "18 February 2022 (according to   Exif   data)",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Cal_figols.jpg"
+    },
+    {
+     "file": "File:Detalle del bajo relieve del púlpito de la iglesia de Nuestra Señora del Prado.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Maki mapple 02",
+     "data": "2026-06-24",
+     "larghezza": 9000,
+     "altezza": 12000,
+     "url": "https://commons.wikimedia.org/wiki/File:Detalle_del_bajo_relieve_del_p%C3%BAlpito_de_la_iglesia_de_Nuestra_Se%C3%B1ora_del_Prado.jpg"
+    },
+    {
+     "file": "File:Luikse Commode, KBS-FRB 01.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Unknown author Unknown author",
+     "data": "18 th  century date QS:P,+1750-00-00T00:00:00Z/7",
+     "larghezza": 1407,
+     "altezza": 1500,
+     "url": "https://commons.wikimedia.org/wiki/File:Luikse_Commode,_KBS-FRB_01.jpg"
+    },
+    {
+     "file": "File:Mueble de madera preciosa en el Museo Regional de Cholula.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Luisalvaz",
+     "data": "5 January 2020 (according to   Exif   data)",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Mueble_de_madera_preciosa_en_el_Museo_Regional_de_Cholula.jpg"
+    },
+    {
+     "file": "File:Puerta decorada por un artesano de ebanistería.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Juan Emilio Prades Bel",
+     "data": "2023-02-27 02:15:25",
+     "larghezza": 3072,
+     "altezza": 2304,
+     "url": "https://commons.wikimedia.org/wiki/File:Puerta_decorada_por_un_artesano_de_ebanister%C3%ADa.jpg"
+    },
+    {
+     "file": "File:Лихачев Николай Петрович в своем кабинете, историк (СПб.) 1911-1917гг 1024.jpg",
+     "termino": "ebanisteria",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "between 1911 and 1917 date QS:P,+1911-00-00T00:00:00Z/8,P131",
+     "larghezza": 601,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B8%D1%85%D0%B0%D1%87%D0%B5%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%B2_%D1%81%D0%B2%D0%BE%D0%B5%D0%BC_%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B5,_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA_(%D0%A1%D0%9F%D0%B1.)_1911-1917%D0%B3%D0%B3_1024.jpg"
+    },
+    {
+     "file": "File:Мастерская инженерный дизайн CAD.jpg",
+     "termino": "ebanisteria",
+     "licenza": "CC0",
+     "autore": "Fayeel",
+     "data": "2021-04-07 14:19:47",
+     "larghezza": 5589,
+     "altezza": 2862,
+     "url": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD_CAD.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 12,
+   "voce": "l'intaglio del legno",
+   "termini": [
+    "i",
+    "w",
+    "n",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Canoe wood carving in Rarotonga.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY 2.0",
+     "autore": "dustinpsmith",
+     "data": "2008-11-25",
+     "larghezza": 681,
+     "altezza": 1024,
+     "url": "https://commons.wikimedia.org/wiki/File:Canoe_wood_carving_in_Rarotonga.jpg"
+    },
+    {
+     "file": "File:Dülmen, Kirchspiel, St.-Jakobus-Kirche, Chor und Altar -- 2022 -- 4184-8.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dietmar Rabich",
+     "data": "Taken on 26 August 2022, 15:28",
+     "larghezza": 6720,
+     "altezza": 4480,
+     "url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_St.-Jakobus-Kirche,_Chor_und_Altar_--_2022_--_4184-8.jpg"
+    },
+    {
+     "file": "File:Heiligengrabe, Kloster Stift zum Heiligengrabe, Heiliggrabkapelle -- 2017 -- 0015-21.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dietmar Rabich",
+     "data": "Taken on 6 May 2017, 12:33",
+     "larghezza": 3613,
+     "altezza": 5420,
+     "url": "https://commons.wikimedia.org/wiki/File:Heiligengrabe,_Kloster_Stift_zum_Heiligengrabe,_Heiliggrabkapelle_--_2017_--_0015-21.jpg"
+    },
+    {
+     "file": "File:Heiligengrabe, Kloster Stift zum Heiligengrabe, Stiftskirche -- 2017 -- 9969.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dietmar Rabich",
+     "data": "Taken on 5 May 2017, 16:56",
+     "larghezza": 4825,
+     "altezza": 3417,
+     "url": "https://commons.wikimedia.org/wiki/File:Heiligengrabe,_Kloster_Stift_zum_Heiligengrabe,_Stiftskirche_--_2017_--_9969.jpg"
+    },
+    {
+     "file": "File:Shwedagon Pagoda Wood Carving.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY 4.0",
+     "autore": "Philip Nalangan",
+     "data": "2012-09-04",
+     "larghezza": 2592,
+     "altezza": 3872,
+     "url": "https://commons.wikimedia.org/wiki/File:Shwedagon_Pagoda_Wood_Carving.jpg"
+    },
+    {
+     "file": "File:Wood carving at a confessional 04.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "Taken on 1 December 2023, 12:48:05",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Wood_carving_at_a_confessional_04.jpg"
+    },
+    {
+     "file": "File:Wood carving at a confessional 09.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "Taken on 1 December 2023, 12:49:17",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Wood_carving_at_a_confessional_09.jpg"
+    },
+    {
+     "file": "File:Wood carving in Bali.jpg",
+     "termino": "intaglio legno",
+     "licenza": "CC BY 2.0",
+     "autore": "Sean Hamlin",
+     "data": "2011-11-08 15:35:22",
+     "larghezza": 4288,
+     "altezza": 2848,
+     "url": "https://commons.wikimedia.org/wiki/File:Wood_carving_in_Bali.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 13,
+   "voce": "il tornio",
+   "termini": [
+    "t",
+    "w",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Centrala Torneå med golfbanan.jpg",
+     "termino": "tornio",
+     "licenza": "CC BY 2.5",
+     "autore": "OpenStreetMap contributors",
+     "data": "2026-05-28",
+     "larghezza": 633,
+     "altezza": 977,
+     "url": "https://commons.wikimedia.org/wiki/File:Centrala_Torne%C3%A5_med_golfbanan.jpg"
+    },
+    {
+     "file": "File:Gång- cykelbro mellan Haparanda-Tornio 20260716.jpg",
+     "termino": "tornio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dalruwa",
+     "data": "2026-07-16 13:21:59",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:G%C3%A5ng-_cykelbro_mellan_Haparanda-Tornio_20260716.jpg"
+    },
+    {
+     "file": "File:Lohelankatu street in Tornio 20250517 002.jpg",
+     "termino": "tornio",
+     "licenza": "CC BY 4.0",
+     "autore": "Mikko J. Putkonen (Methem)",
+     "data": "2025-05-17 15:22:51",
+     "larghezza": 4080,
+     "altezza": 3060,
+     "url": "https://commons.wikimedia.org/wiki/File:Lohelankatu_street_in_Tornio_20250517_002.jpg"
+    },
+    {
+     "file": "File:Maria Fedorovna's train over the river of Tornio.jpg",
+     "termino": "tornio",
+     "licenza": "Public domain",
+     "autore": "Mia Green, död 1949",
+     "data": "Taken on 15 March 1917",
+     "larghezza": 1600,
+     "altezza": 1139,
+     "url": "https://commons.wikimedia.org/wiki/File:Maria_Fedorovna%27s_train_over_the_river_of_Tornio.jpg"
+    },
+    {
+     "file": "File:Sittbänk Victoriatorget Haparanda-Tornio 20260716.jpg",
+     "termino": "tornio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dalruwa",
+     "data": "2026-07-16 13:50:40",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Sittb%C3%A4nk_Victoriatorget_Haparanda-Tornio_20260716.jpg"
+    },
+    {
+     "file": "File:Torneå - Lennart Forstén - Finland framställdt i teckningar - 113.jpg",
+     "termino": "tornio",
+     "licenza": "Public domain",
+     "autore": "Lennart Forsten",
+     "data": "between 1845 and 1852 date QS:P571,+1850-00-00T00:00:00Z/7,P",
+     "larghezza": 2700,
+     "altezza": 2025,
+     "url": "https://commons.wikimedia.org/wiki/File:Torne%C3%A5_-_Lennart_Forst%C3%A9n_-_Finland_framst%C3%A4lldt_i_teckningar_-_113.jpg"
+    },
+    {
+     "file": "File:Tornio Särkänsalmi 1.JPG",
+     "termino": "tornio",
+     "licenza": "Public domain",
+     "autore": "MKFI",
+     "data": "2012-07-10",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Tornio_S%C3%A4rk%C3%A4nsalmi_1.JPG"
+    },
+    {
+     "file": "File:View from Suensaari water tower Tornio 20150806 02.JPG",
+     "termino": "tornio",
+     "licenza": "CC0",
+     "autore": "Estormiz",
+     "data": "Taken on 6 August 2015",
+     "larghezza": 4500,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:View_from_Suensaari_water_tower_Tornio_20150806_02.JPG"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 14,
+   "voce": "il cuoio",
+   "termini": [
+    "c",
+    "l",
+    "u",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:A Leather Worker (চর্ম শিল্পী).jpg",
+     "termino": "cuoio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sumasa",
+     "data": "Taken on 21 January 2025, 10:55",
+     "larghezza": 2448,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:A_Leather_Worker_(%E0%A6%9A%E0%A6%B0%E0%A7%8D%E0%A6%AE_%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A7%80).jpg"
+    },
+    {
+     "file": "File:A bunch of magenta leather.jpg",
+     "termino": "cuoio",
+     "licenza": "CC0",
+     "autore": "m0851",
+     "data": "2016-01-05",
+     "larghezza": 7360,
+     "altezza": 4912,
+     "url": "https://commons.wikimedia.org/wiki/File:A_bunch_of_magenta_leather.jpg"
+    },
+    {
+     "file": "File:Aarong leather wallet.jpg",
+     "termino": "cuoio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Nafis Fuad Ayon",
+     "data": "3 March 2024 (according to   Exif   data)",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Aarong_leather_wallet.jpg"
+    },
+    {
+     "file": "File:Cebu Leather and rattan crafts.jpg",
+     "termino": "cuoio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "QueenCityCebu",
+     "data": "2025-01-09",
+     "larghezza": 958,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Cebu_Leather_and_rattan_crafts.jpg"
+    },
+    {
+     "file": "File:EB1911 - Leather - Fig. 1. Hair, epidermis, etc.jpg",
+     "termino": "cuoio",
+     "licenza": "Public domain",
+     "autore": "Anonymous  Unknown author",
+     "data": "1911-01-01",
+     "larghezza": 358,
+     "altezza": 421,
+     "url": "https://commons.wikimedia.org/wiki/File:EB1911_-_Leather_-_Fig._1._Hair,_epidermis,_etc.jpg"
+    },
+    {
+     "file": "File:Ethiopian leather products.jpg",
+     "termino": "cuoio",
+     "licenza": "CC0",
+     "autore": "Sindugab",
+     "data": "2025-01-04 19:32:59",
+     "larghezza": 5057,
+     "altezza": 3371,
+     "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_leather_products.jpg"
+    },
+    {
+     "file": "File:Leather items.jpg",
+     "termino": "cuoio",
+     "licenza": "CC BY 2.0",
+     "autore": "Ivan Radic",
+     "data": "2019-03-10 15:20:29",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Leather_items.jpg"
+    },
+    {
+     "file": "File:Leathertools.jpg",
+     "termino": "cuoio",
+     "licenza": "Public domain",
+     "autore": "Scott Bauer",
+     "data": "",
+     "larghezza": 1807,
+     "altezza": 2700,
+     "url": "https://commons.wikimedia.org/wiki/File:Leathertools.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 15,
+   "voce": "la correggia",
+   "termini": [
+    "c",
+    "l",
+    "o",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Antonio Allegri da Correggio.jpg",
+     "termino": "correggia",
+     "licenza": "Public domain",
+     "autore": "",
+     "data": "",
+     "larghezza": 415,
+     "altezza": 545,
+     "url": "https://commons.wikimedia.org/wiki/File:Antonio_Allegri_da_Correggio.jpg"
+    },
+    {
+     "file": "File:Chrysopilus laetus 1.jpg",
+     "termino": "correggia",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Pristurus",
+     "data": "2018-07-16",
+     "larghezza": 1636,
+     "altezza": 2078,
+     "url": "https://commons.wikimedia.org/wiki/File:Chrysopilus_laetus_1.jpg"
+    },
+    {
+     "file": "File:Crombrugghia laetus (52177698051).jpg",
+     "termino": "correggia",
+     "licenza": "CC BY 2.0",
+     "autore": "Ben Sale  from Stevenage, UK",
+     "data": "2022-06-24 14:54",
+     "larghezza": 2000,
+     "altezza": 1802,
+     "url": "https://commons.wikimedia.org/wiki/File:Crombrugghia_laetus_(52177698051).jpg"
+    },
+    {
+     "file": "File:Enrico Correggia 2018.png",
+     "termino": "correggia",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Carflynn",
+     "data": "2018-05-05",
+     "larghezza": 1920,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Enrico_Correggia_2018.png"
+    },
+    {
+     "file": "File:Penstemon laetus kz02.jpg",
+     "termino": "correggia",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Krzysztof Ziarnek, Kenraiz",
+     "data": "2016-09-18 00:25:04",
+     "larghezza": 2480,
+     "altezza": 1860,
+     "url": "https://commons.wikimedia.org/wiki/File:Penstemon_laetus_kz02.jpg"
+    },
+    {
+     "file": "File:Rigidoporus laetus.jpg",
+     "termino": "correggia",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "JJ Harrison  ( https://www.jjharrison.com.au/ )",
+     "data": "2009-04-04",
+     "larghezza": 1215,
+     "altezza": 1656,
+     "url": "https://commons.wikimedia.org/wiki/File:Rigidoporus_laetus.jpg"
+    },
+    {
+     "file": "File:Trigonopterus laetus (Lea).tif",
+     "termino": "correggia",
+     "licenza": "CC BY 3.0",
+     "autore": "Alexander Riedel",
+     "data": "2016-01-21",
+     "larghezza": 1875,
+     "altezza": 2514,
+     "url": "https://commons.wikimedia.org/wiki/File:Trigonopterus_laetus_(Lea).tif"
+    },
+    {
+     "file": "File:Viscount Alligator blau.jpg",
+     "termino": "correggia",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Hirsch Armbänder GmbH",
+     "data": "",
+     "larghezza": 1986,
+     "altezza": 2953,
+     "url": "https://commons.wikimedia.org/wiki/File:Viscount_Alligator_blau.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 16,
+   "voce": "la calzolaio",
+   "termini": [
+    "c",
+    "s",
+    "a",
+    "h"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Calzolaio a San Fruttuoso di Monza.jpg",
+     "termino": "calzolaio",
+     "licenza": "Public domain",
+     "autore": "Anonymous",
+     "data": "before 1970 date QS:P571,+1970-00-00T00:00:00Z/7,P1326,+1970",
+     "larghezza": 843,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Calzolaio_a_San_Fruttuoso_di_Monza.jpg"
+    },
+    {
+     "file": "File:Capri - 7224.jpg",
+     "termino": "calzolaio",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Jorge Royan",
+     "data": "2008-09",
+     "larghezza": 4368,
+     "altezza": 2912,
+     "url": "https://commons.wikimedia.org/wiki/File:Capri_-_7224.jpg"
+    },
+    {
+     "file": "File:Cobbler repairing shoes in old workshop (Bazaar in Bitola, Macedonia, 2025).jpg",
+     "termino": "calzolaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Petar Milošević",
+     "data": "2025-02-27 11:31:49",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Cobbler_repairing_shoes_in_old_workshop_(Bazaar_in_Bitola,_Macedonia,_2025).jpg"
+    },
+    {
+     "file": "File:Heimatmuseum Schuhmacherei IMG 3757.JPG",
+     "termino": "calzolaio",
+     "licenza": "CC0",
+     "autore": "Nassauer27",
+     "data": "2012-10-21",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Heimatmuseum_Schuhmacherei_IMG_3757.JPG"
+    },
+    {
+     "file": "File:Loja de Sapateiro Aquarela Jac by Jean-Baptiste Debret 1820-1830.jpg",
+     "termino": "calzolaio",
+     "licenza": "Public domain",
+     "autore": "Jean-Baptiste Debret",
+     "data": "before 1830 date QS:P571,+1830-00-00T00:00:00Z/7,P1326,+1830",
+     "larghezza": 4520,
+     "altezza": 2960,
+     "url": "https://commons.wikimedia.org/wiki/File:Loja_de_Sapateiro_Aquarela_Jac_by_Jean-Baptiste_Debret_1820-1830.jpg"
+    },
+    {
+     "file": "File:Monumento al Calzolaio d'Italia con pioggia - Vigevano.jpg",
+     "termino": "calzolaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Capricornis crispus",
+     "data": "2020-06-11 09:01:49",
+     "larghezza": 2899,
+     "altezza": 3866,
+     "url": "https://commons.wikimedia.org/wiki/File:Monumento_al_Calzolaio_d%27Italia_con_pioggia_-_Vigevano.jpg"
+    },
+    {
+     "file": "File:Piazza Calzolaio d'Italia - Vigevano.jpg",
+     "termino": "calzolaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Capricornis crispus",
+     "data": "2020-05-25 14:04:07",
+     "larghezza": 3534,
+     "altezza": 2650,
+     "url": "https://commons.wikimedia.org/wiki/File:Piazza_Calzolaio_d%27Italia_-_Vigevano.jpg"
+    },
+    {
+     "file": "File:Valerio Calzolaio.jpg",
+     "termino": "calzolaio",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Unknown author Unknown author",
+     "data": "anni 1990",
+     "larghezza": 250,
+     "altezza": 346,
+     "url": "https://commons.wikimedia.org/wiki/File:Valerio_Calzolaio.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 17,
+   "voce": "il restauro",
+   "termini": [
+    "r",
+    "r",
+    "e",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:0 Castel Lizzana - Restauro 01.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Lungoleno",
+     "data": "2018-10-21 10:24:13",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:0_Castel_Lizzana_-_Restauro_01.jpg"
+    },
+    {
+     "file": "File:0 Castel Lizzana - Restauro 02.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Lungoleno",
+     "data": "2018-10-21 10:25:46",
+     "larghezza": 4039,
+     "altezza": 5385,
+     "url": "https://commons.wikimedia.org/wiki/File:0_Castel_Lizzana_-_Restauro_02.jpg"
+    },
+    {
+     "file": "File:0 Castel Lizzana - Restauro 03.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Lungoleno",
+     "data": "2018-10-21 10:28:32",
+     "larghezza": 3888,
+     "altezza": 5184,
+     "url": "https://commons.wikimedia.org/wiki/File:0_Castel_Lizzana_-_Restauro_03.jpg"
+    },
+    {
+     "file": "File:0 Castel Lizzana - Restauro 04.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Lungoleno",
+     "data": "2018-10-21 10:34:28",
+     "larghezza": 3717,
+     "altezza": 4957,
+     "url": "https://commons.wikimedia.org/wiki/File:0_Castel_Lizzana_-_Restauro_04.jpg"
+    },
+    {
+     "file": "File:0 Castel Lizzana - Restauro 05.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Lungoleno",
+     "data": "2018-10-21 10:27:55",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:0_Castel_Lizzana_-_Restauro_05.jpg"
+    },
+    {
+     "file": "File:0 Castel Lizzana - Restauro 06.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Lungoleno",
+     "data": "2018-10-21 10:25:31",
+     "larghezza": 3888,
+     "altezza": 5184,
+     "url": "https://commons.wikimedia.org/wiki/File:0_Castel_Lizzana_-_Restauro_06.jpg"
+    },
+    {
+     "file": "File:1934-06-13-preventivo-restauro-palazzo-via-Marsala-31-b.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Albertomos",
+     "data": "1934-06-13",
+     "larghezza": 1240,
+     "altezza": 1753,
+     "url": "https://commons.wikimedia.org/wiki/File:1934-06-13-preventivo-restauro-palazzo-via-Marsala-31-b.jpg"
+    },
+    {
+     "file": "File:Restauro vasi farmacia.jpg",
+     "termino": "restauro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Terra Sancta Museum",
+     "data": "2017-07-04 10:31:08",
+     "larghezza": 5760,
+     "altezza": 3840,
+     "url": "https://commons.wikimedia.org/wiki/File:Restauro_vasi_farmacia.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 18,
+   "voce": "l'incisione",
+   "termini": [
+    "i",
+    "e",
+    "n",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Bagni di Lucca, Zato, oratorio, architrave con incisione 1753.jpg",
+     "termino": "incisione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naioli",
+     "data": "2022-07-14 09:56:22",
+     "larghezza": 4529,
+     "altezza": 3400,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagni_di_Lucca,_Zato,_oratorio,_architrave_con_incisione_1753.jpg"
+    },
+    {
+     "file": "File:Cantagallo, Capanna dei Felli, incisione 1681.jpg",
+     "termino": "incisione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naioli",
+     "data": "2021-05-21 11:57:05",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Cantagallo,_Capanna_dei_Felli,_incisione_1681.jpg"
+    },
+    {
+     "file": "File:Cantagallo, sentiero dei tabernacoli, tabernacolo della Collina, incisione 1899.jpg",
+     "termino": "incisione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naioli",
+     "data": "2021-10-10 17:09:34",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Cantagallo,_sentiero_dei_tabernacoli,_tabernacolo_della_Collina,_incisione_1899.jpg"
+    },
+    {
+     "file": "File:Cantagallo, sentiero dei tabernacoli, tabernacolo della Madonna d'Osea, incisione 1719.jpg",
+     "termino": "incisione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naioli",
+     "data": "2021-10-10 16:27:09",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Cantagallo,_sentiero_dei_tabernacoli,_tabernacolo_della_Madonna_d%27Osea,_incisione_1719.jpg"
+    },
+    {
+     "file": "File:Cantagallo, sentiero dei tabernacoli, tabernacolo di Campo Perini, incisione 1897.jpg",
+     "termino": "incisione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naioli",
+     "data": "2021-10-10 16:36:22",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Cantagallo,_sentiero_dei_tabernacoli,_tabernacolo_di_Campo_Perini,_incisione_1897.jpg"
+    },
+    {
+     "file": "File:Herstellung-eines-Kupferstichs.png",
+     "termino": "incisione",
+     "licenza": "Public domain",
+     "autore": "see \"source\"",
+     "data": "circa 1760 date QS:P,+1760-00-00T00:00:00Z/9,P1480,Q5727902",
+     "larghezza": 600,
+     "altezza": 940,
+     "url": "https://commons.wikimedia.org/wiki/File:Herstellung-eines-Kupferstichs.png"
+    },
+    {
+     "file": "File:La Spezia, Biassa, San Martino, incisione 1861.jpg",
+     "termino": "incisione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naioli",
+     "data": "2021-09-25 08:26:12",
+     "larghezza": 4504,
+     "altezza": 3378,
+     "url": "https://commons.wikimedia.org/wiki/File:La_Spezia,_Biassa,_San_Martino,_incisione_1861.jpg"
+    },
+    {
+     "file": "File:Wooden house (window shutters), Riga.jpg",
+     "termino": "incisione",
+     "licenza": "Public domain",
+     "autore": "Photograph:   Radomianin",
+     "data": "Taken on 18 July 2024, 20:48:55",
+     "larghezza": 4078,
+     "altezza": 3599,
+     "url": "https://commons.wikimedia.org/wiki/File:Wooden_house_(window_shutters),_Riga.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 19,
+   "voce": "la liuteria",
+   "termini": [
+    "l",
+    "v",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:A luthier at work on a violin 02.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-09-30 10:51:30",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:A_luthier_at_work_on_a_violin_02.jpg"
+    },
+    {
+     "file": "File:A luthier at work on a violin 03.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-09-30 10:51:34",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:A_luthier_at_work_on_a_violin_03.jpg"
+    },
+    {
+     "file": "File:A luthier at work on a violin 06.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-09-30 10:52:29",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:A_luthier_at_work_on_a_violin_06.jpg"
+    },
+    {
+     "file": "File:A luthier at work on a violin 07.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-09-30 10:52:49",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:A_luthier_at_work_on_a_violin_07.jpg"
+    },
+    {
+     "file": "File:A luthier at work on a violin 09.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2023-09-30 10:54:11",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:A_luthier_at_work_on_a_violin_09.jpg"
+    },
+    {
+     "file": "File:Victor Pedemonte - Luthier 1.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Donsegudosombra",
+     "data": "1982",
+     "larghezza": 2944,
+     "altezza": 4416,
+     "url": "https://commons.wikimedia.org/wiki/File:Victor_Pedemonte_-_Luthier_1.jpg"
+    },
+    {
+     "file": "File:Victor Pedemonte - Luthier 2.jpg",
+     "termino": "liuteria",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Donsegudosombra",
+     "data": "1982",
+     "larghezza": 2944,
+     "altezza": 4416,
+     "url": "https://commons.wikimedia.org/wiki/File:Victor_Pedemonte_-_Luthier_2.jpg"
+    },
+    {
+     "file": "File:Workshop luthier.jpg",
+     "termino": "liuteria",
+     "licenza": "Public domain",
+     "autore": "Hildegard Dodel",
+     "data": "2007-07",
+     "larghezza": 640,
+     "altezza": 480,
+     "url": "https://commons.wikimedia.org/wiki/File:Workshop_luthier.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 20,
+   "voce": "il clarinetto",
+   "termini": [
+    "c",
+    "c",
+    "l",
+    "l"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Bb-clarinetto.JPG",
+     "termino": "clarinetto",
+     "licenza": "Public domain",
+     "autore": "Man77",
+     "data": "12 May 2005 (according to   Exif   data)",
+     "larghezza": 71,
+     "altezza": 227,
+     "url": "https://commons.wikimedia.org/wiki/File:Bb-clarinetto.JPG"
+    },
+    {
+     "file": "File:Clarinetto (bb).JPG",
+     "termino": "clarinetto",
+     "licenza": "Public domain",
+     "autore": "Man77",
+     "data": "12 May 2005 (according to   Exif   data)",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Clarinetto_(bb).JPG"
+    },
+    {
+     "file": "File:GH5S.Klarinette.ISO06400.jpg",
+     "termino": "clarinetto",
+     "licenza": "CC0",
+     "autore": "Bautsch",
+     "data": "2018-01-19 20:47:33",
+     "larghezza": 2760,
+     "altezza": 3680,
+     "url": "https://commons.wikimedia.org/wiki/File:GH5S.Klarinette.ISO06400.jpg"
+    },
+    {
+     "file": "File:Klarinetten von Herbert Wurlitzer 2.jpg",
+     "termino": "clarinetto",
+     "licenza": "CC BY 4.0",
+     "autore": "Firma Herbert Wurlitzer Manufaktur für Holzblasinstrumente GmbH, D-91413 Neustadt an der Aisch,  bearbeitet von / edited",
+     "data": "2019-08-11 12:30:06",
+     "larghezza": 1028,
+     "altezza": 1520,
+     "url": "https://commons.wikimedia.org/wiki/File:Klarinetten_von_Herbert_Wurlitzer_2.jpg"
+    },
+    {
+     "file": "File:Leitner+Kraus 320 30.jpg",
+     "termino": "clarinetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Leitner &amp; Kraus GmbH, Neustadt/Aisch",
+     "data": "2019-11-10",
+     "larghezza": 2268,
+     "altezza": 2835,
+     "url": "https://commons.wikimedia.org/wiki/File:Leitner%2BKraus_320_30.jpg"
+    },
+    {
+     "file": "File:Parts of clarinet 3.jpg",
+     "termino": "clarinetto",
+     "licenza": "CC0",
+     "autore": "Gisbert König",
+     "data": "2021-06-07",
+     "larghezza": 4275,
+     "altezza": 5000,
+     "url": "https://commons.wikimedia.org/wiki/File:Parts_of_clarinet_3.jpg"
+    },
+    {
+     "file": "File:Patricola Artista Clarinetto Sib.jpg",
+     "termino": "clarinetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Fratelli Patricola",
+     "data": "2020-02-21",
+     "larghezza": 1770,
+     "altezza": 757,
+     "url": "https://commons.wikimedia.org/wiki/File:Patricola_Artista_Clarinetto_Sib.jpg"
+    },
+    {
+     "file": "File:Yamaha Clarinet YCL-457II-22.tiff",
+     "termino": "clarinetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yamaha Corporation",
+     "data": "25 January 2017 (upload date)",
+     "larghezza": 1000,
+     "altezza": 7050,
+     "url": "https://commons.wikimedia.org/wiki/File:Yamaha_Clarinet_YCL-457II-22.tiff"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 21,
+   "voce": "gli occhiali",
+   "termini": [
+    "o",
+    "e",
+    "c",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Ali Kilic Pasha.jpg",
+     "termino": "occhiali",
+     "licenza": "Public domain",
+     "autore": "Johannes Lewenklau",
+     "data": "1586",
+     "larghezza": 502,
+     "altezza": 690,
+     "url": "https://commons.wikimedia.org/wiki/File:Ali_Kilic_Pasha.jpg"
+    },
+    {
+     "file": "File:Kılıç Ali Paşa Camii & Tophane Çeşmesi 1888-1910 yılları.jpg",
+     "termino": "occhiali",
+     "licenza": "Public domain",
+     "autore": "Sebah &amp; Joaillier, photographer,   Date Created/Published: [between 1888 and 1910]",
+     "data": "between 1888 and 1910 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+     "larghezza": 640,
+     "altezza": 508,
+     "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camii_%26_Tophane_%C3%87e%C5%9Fmesi_1888-1910_y%C4%B1llar%C4%B1.jpg"
+    },
+    {
+     "file": "File:Kılıç Ali Paşa Camii (10072023).jpg",
+     "termino": "occhiali",
+     "licenza": "CC BY 2.0",
+     "autore": "Kadı Kadı",
+     "data": "2023-07-10 13:11:37",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camii_(10072023).jpg"
+    },
+    {
+     "file": "File:Kılıç Ali Paşa Camisi'nden bir görüntü.JPG",
+     "termino": "occhiali",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Safaktunc",
+     "data": "2014-10-19 23:13:22",
+     "larghezza": 2976,
+     "altezza": 2232,
+     "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camisi%27nden_bir_g%C3%B6r%C3%BCnt%C3%BC.JPG"
+    },
+    {
+     "file": "File:Kılıç Ali Paşa büstü.JPG",
+     "termino": "occhiali",
+     "licenza": "CC0",
+     "autore": "Cobija",
+     "data": "2014-04-09 10:11:07",
+     "larghezza": 1668,
+     "altezza": 3216,
+     "url": "https://commons.wikimedia.org/wiki/File:K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_b%C3%BCst%C3%BC.JPG"
+    },
+    {
+     "file": "File:Lala Mustafa Paşa ve Kılıç Ali Paşa.JPG",
+     "termino": "occhiali",
+     "licenza": "Public domain",
+     "autore": "Nusretname",
+     "data": "1570ler",
+     "larghezza": 90,
+     "altezza": 74,
+     "url": "https://commons.wikimedia.org/wiki/File:Lala_Mustafa_Pa%C5%9Fa_ve_K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa.JPG"
+    },
+    {
+     "file": "File:Tophane Çeşmesi, arkada Kılıç Ali Paşa Camii - Nisan 2013.JPG",
+     "termino": "occhiali",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "VikiPicture",
+     "data": "2013-04-04 15:02:59",
+     "larghezza": 3072,
+     "altezza": 2304,
+     "url": "https://commons.wikimedia.org/wiki/File:Tophane_%C3%87e%C5%9Fmesi,_arkada_K%C4%B1l%C4%B1%C3%A7_Ali_Pa%C5%9Fa_Camii_-_Nisan_2013.JPG"
+    },
+    {
+     "file": "File:Uluc.jpg",
+     "termino": "occhiali",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "2017-07-26",
+     "larghezza": 302,
+     "altezza": 416,
+     "url": "https://commons.wikimedia.org/wiki/File:Uluc.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 22,
+   "voce": "la pasta",
+   "termini": [
+    "p",
+    "f",
+    "a",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:(Pasta) by David Adam Kess (pic.2).jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "David Adam Kess",
+     "data": "2016-07-12 12:43:25",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:(Pasta)_by_David_Adam_Kess_(pic.2).jpg"
+    },
+    {
+     "file": "File:A plate of red sauce pasta.jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Rocky Masum  \n \n \n\n  \n      \n \n   This work   was made by   Masum-al-Hasan Rocky   and released under the license(s) sta",
+     "data": "2017-03-14 02:20:46",
+     "larghezza": 2840,
+     "altezza": 1893,
+     "url": "https://commons.wikimedia.org/wiki/File:A_plate_of_red_sauce_pasta.jpg"
+    },
+    {
+     "file": "File:Pasta, Acervo do Museu Paulista da USP (1).jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "José Rosael/Hélio Nobre/Museu Paulista da USP",
+     "data": "",
+     "larghezza": 3008,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Pasta,_Acervo_do_Museu_Paulista_da_USP_(1).jpg"
+    },
+    {
+     "file": "File:Pasta 6.jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Gannu03",
+     "data": "25 September 2024 (according to   Exif   data)",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Pasta_6.jpg"
+    },
+    {
+     "file": "File:Pasta 7.jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Gannu03",
+     "data": "25 September 2024 (according to   Exif   data)",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Pasta_7.jpg"
+    },
+    {
+     "file": "File:Pasta e ceci con maltagliati di pasta all’uovo.jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Rollopack",
+     "data": "2013-01-04 14:43:30",
+     "larghezza": 2448,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:Pasta_e_ceci_con_maltagliati_di_pasta_all%E2%80%99uovo.jpg"
+    },
+    {
+     "file": "File:Pasta in colours of italia.jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Realpublicdomain2004",
+     "data": "30 October 2023 (according to   Exif   data)",
+     "larghezza": 4624,
+     "altezza": 3468,
+     "url": "https://commons.wikimedia.org/wiki/File:Pasta_in_colours_of_italia.jpg"
+    },
+    {
+     "file": "File:Pasta with Milk.jpg",
+     "termino": "pasta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Gaurav Dhwaj Khadka",
+     "data": "2022-07-18 14:05:51",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Pasta_with_Milk.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 23,
+   "voce": "il ricamo a punto",
+   "termini": [
+    "r",
+    "n",
+    "i",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Biella-ricamo a punto croce2.JPG",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "user:Twice25",
+     "data": "2006-05",
+     "larghezza": 650,
+     "altezza": 646,
+     "url": "https://commons.wikimedia.org/wiki/File:Biella-ricamo_a_punto_croce2.JPG"
+    },
+    {
+     "file": "File:Broderie Suisse (Ricamo a punto suisse).jpg",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "DinaBenedettoFerrandina",
+     "data": "2019-10-18",
+     "larghezza": 1080,
+     "altezza": 1012,
+     "url": "https://commons.wikimedia.org/wiki/File:Broderie_Suisse_(Ricamo_a_punto_suisse).jpg"
+    },
+    {
+     "file": "File:Cross-stich-in-progress.jpg",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "DomenikaBo",
+     "data": "2021-03-08",
+     "larghezza": 5312,
+     "altezza": 2988,
+     "url": "https://commons.wikimedia.org/wiki/File:Cross-stich-in-progress.jpg"
+    },
+    {
+     "file": "File:Cross stitch patterns.jpg",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "AntonellaVella",
+     "data": "2025-05-03 15:10:16",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Cross_stitch_patterns.jpg"
+    },
+    {
+     "file": "File:Modern cross stitch by Caterpillar Cross Stitch.jpg",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sally Wilson 19",
+     "data": "2018-06-20 10:47:31",
+     "larghezza": 2048,
+     "altezza": 2048,
+     "url": "https://commons.wikimedia.org/wiki/File:Modern_cross_stitch_by_Caterpillar_Cross_Stitch.jpg"
+    },
+    {
+     "file": "File:Point de croix FR 2013.jpg",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "JLPC",
+     "data": "2013-03-01 16:38:45",
+     "larghezza": 2404,
+     "altezza": 3427,
+     "url": "https://commons.wikimedia.org/wiki/File:Point_de_croix_FR_2013.jpg"
+    },
+    {
+     "file": "File:Sampler by Elizabeth Laidman 1760 detail.jpg",
+     "termino": "ricamo a punto",
+     "licenza": "Public domain",
+     "autore": "Cropped by  User:PKM",
+     "data": "2006",
+     "larghezza": 353,
+     "altezza": 268,
+     "url": "https://commons.wikimedia.org/wiki/File:Sampler_by_Elizabeth_Laidman_1760_detail.jpg"
+    },
+    {
+     "file": "File:WMC symbol as cross stitch, v4.jpg",
+     "termino": "ricamo a punto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Garth Weals",
+     "data": "2021-03-26 16:22:39",
+     "larghezza": 4963,
+     "altezza": 3763,
+     "url": "https://commons.wikimedia.org/wiki/File:WMC_symbol_as_cross_stitch,_v4.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 24,
+   "voce": "la lavorazione del legno d'albero",
+   "termini": [
+    "l",
+    "w",
+    "e",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Paolo Monti - Serie fotografica - BEIC 6346720.jpg",
+     "termino": "legno d'albero",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Paolo Monti",
+     "data": "",
+     "larghezza": 974,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Serie_fotografica_-_BEIC_6346720.jpg"
+    },
+    {
+     "file": "File:Paolo Monti - Servizio fotografico (Milano, 1956) - BEIC 6361956.jpg",
+     "termino": "legno d'albero",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Paolo Monti",
+     "data": "1956 date QS:P571,+1956-00-00T00:00:00Z/9",
+     "larghezza": 1280,
+     "altezza": 1079,
+     "url": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_(Milano,_1956)_-_BEIC_6361956.jpg"
+    },
+    {
+     "file": "File:Socca (panchetto per battere il formaggio) - Musei del cibo - Parmigiano - 036.tif",
+     "termino": "legno d'albero",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Food museums of the province of Parma",
+     "data": "1940",
+     "larghezza": 2172,
+     "altezza": 3200,
+     "url": "https://commons.wikimedia.org/wiki/File:Socca_(panchetto_per_battere_il_formaggio)_-_Musei_del_cibo_-_Parmigiano_-_036.tif"
+    },
+    {
+     "file": "File:Trogolo (älbi) - Musei del cibo - salame - 005.tif",
+     "termino": "legno d'albero",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Food museums of the province of Parma",
+     "data": "circa circa 1920 date QS:P571,+1920-00-00T00:00:00Z/9,P1480,",
+     "larghezza": 1753,
+     "altezza": 984,
+     "url": "https://commons.wikimedia.org/wiki/File:Trogolo_(%C3%A4lbi)_-_Musei_del_cibo_-_salame_-_005.tif"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 25,
+   "voce": "la vernice",
+   "termini": [
+    "v",
+    "l",
+    "e",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Agustín Vernice in the K-1 1000 m at the 2020 Summer Olympics.jpg",
+     "termino": "vernice",
+     "licenza": "CC BY 4.0",
+     "autore": "Secretaría de Deportes",
+     "data": "2021-08-02 14:33:45",
+     "larghezza": 3031,
+     "altezza": 2022,
+     "url": "https://commons.wikimedia.org/wiki/File:Agust%C3%ADn_Vernice_in_the_K-1_1000_m_at_the_2020_Summer_Olympics.jpg"
+    },
+    {
+     "file": "File:Despedida delegación argentina Odesur 2022 05 (Agustín Vernice).jpg",
+     "termino": "vernice",
+     "licenza": "CC BY 2.5 ar",
+     "autore": "Casa Rosada",
+     "data": "2022-09-29 13:43:54",
+     "larghezza": 606,
+     "altezza": 1190,
+     "url": "https://commons.wikimedia.org/wiki/File:Despedida_delegaci%C3%B3n_argentina_Odesur_2022_05_(Agust%C3%ADn_Vernice).jpg"
+    },
+    {
+     "file": "File:Vernice Anderson and Laurence M. Gould, McMurdo Dry Valleys 1977.jpg",
+     "termino": "vernice",
+     "licenza": "Public domain",
+     "autore": "United States Navy",
+     "data": "1977-01",
+     "larghezza": 800,
+     "altezza": 552,
+     "url": "https://commons.wikimedia.org/wiki/File:Vernice_Anderson_and_Laurence_M._Gould,_McMurdo_Dry_Valleys_1977.jpg"
+    },
+    {
+     "file": "File:Vernice Anderson in Saigon, 1950.jpg",
+     "termino": "vernice",
+     "licenza": "Public domain",
+     "autore": "U.S. Dept. of State",
+     "data": "1950-01-28",
+     "larghezza": 575,
+     "altezza": 375,
+     "url": "https://commons.wikimedia.org/wiki/File:Vernice_Anderson_in_Saigon,_1950.jpg"
+    },
+    {
+     "file": "File:Vernice Anderson in Saigon, 1950 (cropped).jpg",
+     "termino": "vernice",
+     "licenza": "Public domain",
+     "autore": "U.S. Dept. of State",
+     "data": "1950-01-28",
+     "larghezza": 225,
+     "altezza": 300,
+     "url": "https://commons.wikimedia.org/wiki/File:Vernice_Anderson_in_Saigon,_1950_(cropped).jpg"
+    },
+    {
+     "file": "File:Vernice Anderson with explorer Laurence M. Gould in Antarctica. 1977.jpg",
+     "termino": "vernice",
+     "licenza": "Public domain",
+     "autore": "Credit: Harry S. Truman Library &amp; Museum",
+     "data": "circa January 1977 date QS:P,+1977-01-00T00:00:00Z/10,P1480,",
+     "larghezza": 533,
+     "altezza": 399,
+     "url": "https://commons.wikimedia.org/wiki/File:Vernice_Anderson_with_explorer_Laurence_M._Gould_in_Antarctica._1977.jpg"
+    },
+    {
+     "file": "File:Vernice Armourcrop.jpg",
+     "termino": "vernice",
+     "licenza": "Public domain",
+     "autore": "Petty Officer 1st Class Chad McNeeley, USN; U.S. Department of Defense photo",
+     "data": "2006-01-27",
+     "larghezza": 378,
+     "altezza": 424,
+     "url": "https://commons.wikimedia.org/wiki/File:Vernice_Armourcrop.jpg"
+    },
+    {
+     "file": "File:Vernice asse srfc 2425.png",
+     "termino": "vernice",
+     "licenza": "CC0",
+     "autore": "Paté kroute",
+     "data": "2025-02-08",
+     "larghezza": 694,
+     "altezza": 901,
+     "url": "https://commons.wikimedia.org/wiki/File:Vernice_asse_srfc_2425.png"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 26,
+   "voce": "la doratura",
+   "termini": [
+    "d",
+    "g",
+    "o",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:2017 07 29 Doratura stylata.jpg",
+     "termino": "doratura",
+     "licenza": "CC BY 4.0",
+     "autore": "Slimguy",
+     "data": "2017-07-29",
+     "larghezza": 715,
+     "altezza": 435,
+     "url": "https://commons.wikimedia.org/wiki/File:2017_07_29_Doratura_stylata.jpg"
+    },
+    {
+     "file": "File:Doratura.impudica.-.lindsey.jpg",
+     "termino": "doratura",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "James K. Lindsey",
+     "data": "2008-09-08",
+     "larghezza": 640,
+     "altezza": 427,
+     "url": "https://commons.wikimedia.org/wiki/File:Doratura.impudica.-.lindsey.jpg"
+    },
+    {
+     "file": "File:Doratura stylata - Guelph, Ontario 2017-06-22.jpg",
+     "termino": "doratura",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ryan Hodnett",
+     "data": "2017-06-22 17:04:12",
+     "larghezza": 1222,
+     "altezza": 687,
+     "url": "https://commons.wikimedia.org/wiki/File:Doratura_stylata_-_Guelph,_Ontario_2017-06-22.jpg"
+    },
+    {
+     "file": "File:Doratura stylata - Guelph, Ontario 2017-06-22 (01).jpg",
+     "termino": "doratura",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ryan Hodnett",
+     "data": "2017-06-22 17:04:10",
+     "larghezza": 1546,
+     "altezza": 870,
+     "url": "https://commons.wikimedia.org/wiki/File:Doratura_stylata_-_Guelph,_Ontario_2017-06-22_(01).jpg"
+    },
+    {
+     "file": "File:Doratura stylata 01.JPG",
+     "termino": "doratura",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "AfroBrazilian",
+     "data": "2017-09-16",
+     "larghezza": 1024,
+     "altezza": 768,
+     "url": "https://commons.wikimedia.org/wiki/File:Doratura_stylata_01.JPG"
+    },
+    {
+     "file": "File:Doratura stylata 02.JPG",
+     "termino": "doratura",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "AfroBrazilian",
+     "data": "",
+     "larghezza": 1024,
+     "altezza": 768,
+     "url": "https://commons.wikimedia.org/wiki/File:Doratura_stylata_02.JPG"
+    },
+    {
+     "file": "File:Goldleaf.jpg",
+     "termino": "doratura",
+     "licenza": "Public domain",
+     "autore": "Juangonzalez64  at  English Wikipedia",
+     "data": "15 December 2006 (original upload date)",
+     "larghezza": 699,
+     "altezza": 591,
+     "url": "https://commons.wikimedia.org/wiki/File:Goldleaf.jpg"
+    },
+    {
+     "file": "File:St.Georgen Ordenskirche Orgel 3240051efs-PSD.jpg",
+     "termino": "doratura",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ermell",
+     "data": "2019-03-24 15:54:48",
+     "larghezza": 10368,
+     "altezza": 7776,
+     "url": "https://commons.wikimedia.org/wiki/File:St.Georgen_Ordenskirche_Orgel_3240051efs-PSD.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 27,
+   "voce": "la filigrana",
+   "termini": [
+    "f",
+    "f",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:6 de juliol de 2019 Jornades sobre la desobediència civil (48241037501).jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Òmnium Cultural",
+     "data": "2019-07-05 11:47",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:6_de_juliol_de_2019_Jornades_sobre_la_desobedi%C3%A8ncia_civil_(48241037501).jpg"
+    },
+    {
+     "file": "File:6 de juliol de 2019 Jornades sobre la desobediència civil (48241037501) (cropped).jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Òmnium Cultural",
+     "data": "2019-07-05 11:47",
+     "larghezza": 4273,
+     "altezza": 3241,
+     "url": "https://commons.wikimedia.org/wiki/File:6_de_juliol_de_2019_Jornades_sobre_la_desobedi%C3%A8ncia_civil_(48241037501)_(cropped).jpg"
+    },
+    {
+     "file": "File:6 de juliol de 2019 Jornades sobre la desobediència civil (Pastora Filigrana) (cropped 2023).jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Òmnium Cultural",
+     "data": "2019-07-05 11:47",
+     "larghezza": 3545,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:6_de_juliol_de_2019_Jornades_sobre_la_desobedi%C3%A8ncia_civil_(Pastora_Filigrana)_(cropped_2023).jpg"
+    },
+    {
+     "file": "File:Anello con filigrana, VII-IX sec.JPG",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "sailko",
+     "data": "2011-11-03 16:22:09",
+     "larghezza": 826,
+     "altezza": 660,
+     "url": "https://commons.wikimedia.org/wiki/File:Anello_con_filigrana,_VII-IX_sec.JPG"
+    },
+    {
+     "file": "File:Filigrana lavorazione.jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Simone Piombo",
+     "data": "2021-11-14",
+     "larghezza": 1440,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Filigrana_lavorazione.jpg"
+    },
+    {
+     "file": "File:Museo della carta e della filigrana-2.jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Raganella59",
+     "data": "2016-10-05 17:08:27",
+     "larghezza": 4724,
+     "altezza": 3543,
+     "url": "https://commons.wikimedia.org/wiki/File:Museo_della_carta_e_della_filigrana-2.jpg"
+    },
+    {
+     "file": "File:Museo della filigrana 2.jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY 3.0",
+     "autore": "Chiara_saffioti",
+     "data": "10 August 2018 (according to   Exif   data)",
+     "larghezza": 1024,
+     "altezza": 769,
+     "url": "https://commons.wikimedia.org/wiki/File:Museo_della_filigrana_2.jpg"
+    },
+    {
+     "file": "File:Portuguese filigree intricate work.jpg",
+     "termino": "filigrana",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ss.analuisa",
+     "data": "2016-03-28",
+     "larghezza": 960,
+     "altezza": 639,
+     "url": "https://commons.wikimedia.org/wiki/File:Portuguese_filigree_intricate_work.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 28,
+   "voce": "i lavori d'agro",
+   "termini": [
+    "l",
+    "a",
+    "a",
+    "g"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Champerlan Winery.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elgaard",
+     "data": "24 June 2023 (according to   Exif   data)",
+     "larghezza": 1920,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Champerlan_Winery.jpg"
+    },
+    {
+     "file": "File:Denis Meyer Winery reception.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC0",
+     "autore": "Elgaard",
+     "data": "2024-10-31 17:26:22",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Denis_Meyer_Winery_reception.jpg"
+    },
+    {
+     "file": "File:Krems winery.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC BY 4.0",
+     "autore": "Irinazavgorodnia",
+     "data": "2025-01-06",
+     "larghezza": 960,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Krems_winery.jpg"
+    },
+    {
+     "file": "File:Les Avinturiers winery rv site.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elgaard",
+     "data": "10 June 2023 (according to   Exif   data)",
+     "larghezza": 1920,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Les_Avinturiers_winery_rv_site.jpg"
+    },
+    {
+     "file": "File:Papantonis winery 01.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elgaard",
+     "data": "2021-09-27 12:00:26",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Papantonis_winery_01.jpg"
+    },
+    {
+     "file": "File:Tashkent Winery Enterprise of the Heirs of N. I. Ivanov.jpg",
+     "termino": "agricultural craft",
+     "licenza": "Public domain",
+     "autore": "Unspecified",
+     "data": "before 1913 date QS:P,+1913-00-00T00:00:00Z/7,P1326,+1913-00",
+     "larghezza": 1074,
+     "altezza": 682,
+     "url": "https://commons.wikimedia.org/wiki/File:Tashkent_Winery_Enterprise_of_the_Heirs_of_N._I._Ivanov.jpg"
+    },
+    {
+     "file": "File:Winery, Sirromet Winery, Mount Cotton, 2014.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC BY 4.0",
+     "autore": "Kerry Raymond",
+     "data": "2014-06-27 11:05:41",
+     "larghezza": 1920,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Winery,_Sirromet_Winery,_Mount_Cotton,_2014.jpg"
+    },
+    {
+     "file": "File:Winery Outside Augusta, Missouri.jpg",
+     "termino": "agricultural craft",
+     "licenza": "CC BY 4.0",
+     "autore": "RuralResurrection",
+     "data": "2025-09-02 16:29:46",
+     "larghezza": 4032,
+     "altezza": 2268,
+     "url": "https://commons.wikimedia.org/wiki/File:Winery_Outside_Augusta,_Missouri.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 29,
+   "voce": "il gesto e l'oggetto",
+   "termini": [
+    "g",
+    "h",
+    "e",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Alketa Bercaj Delishaj.jpg",
+     "termino": "gesto e oggetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kety82",
+     "data": "2016-03-28",
+     "larghezza": 398,
+     "altezza": 600,
+     "url": "https://commons.wikimedia.org/wiki/File:Alketa_Bercaj_Delishaj.jpg"
+    },
+    {
+     "file": "File:Ambito piemontese - Vittorio Amedeo II di Savoia - Accademia Carrara.png",
+     "termino": "gesto e oggetto",
+     "licenza": "Public domain",
+     "autore": "Unidentified painter",
+     "data": "(?) 1690",
+     "larghezza": 477,
+     "altezza": 621,
+     "url": "https://commons.wikimedia.org/wiki/File:Ambito_piemontese_-_Vittorio_Amedeo_II_di_Savoia_-_Accademia_Carrara.png"
+    }
+   ]
+  },
+  {
+   "lingua": "SI",
+   "numero": 30,
+   "voce": "la trasmissione della tecnica",
+   "termini": [
+    "t",
+    "a",
+    "r",
+    "p"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Aisin, Paris Motor Show 2018, Paris (1Y7A1812).jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Matti Blume",
+     "data": "2018-10-02",
+     "larghezza": 5760,
+     "altezza": 3840,
+     "url": "https://commons.wikimedia.org/wiki/File:Aisin,_Paris_Motor_Show_2018,_Paris_(1Y7A1812).jpg"
+    },
+    {
+     "file": "File:Aisin, Paris Motor Show 2018, Paris (1Y7A1814).jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Matti Blume",
+     "data": "2018-10-02",
+     "larghezza": 5277,
+     "altezza": 3518,
+     "url": "https://commons.wikimedia.org/wiki/File:Aisin,_Paris_Motor_Show_2018,_Paris_(1Y7A1814).jpg"
+    },
+    {
+     "file": "File:Belgian Army, BAS 24, Brussels (P1170140-RR).jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Matti Blume",
+     "data": "2024-01-17 14:57:45",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Belgian_Army,_BAS_24,_Brussels_(P1170140-RR).jpg"
+    },
+    {
+     "file": "File:Ligne de feeders de l'émetteur RMC de Roumoules.jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Hugo LARA",
+     "data": "2023-12-28 16:11:46",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Ligne_de_feeders_de_l%27%C3%A9metteur_RMC_de_Roumoules.jpg"
+    },
+    {
+     "file": "File:Tasto di trasmissione Telegrafo morse PioPion - Milano, 1906 - 1915 - Museo Michelangelo, Caserta.jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "MuMiCaserta",
+     "data": "2015-04-08 09:02:20",
+     "larghezza": 1200,
+     "altezza": 777,
+     "url": "https://commons.wikimedia.org/wiki/File:Tasto_di_trasmissione_Telegrafo_morse_PioPion_-_Milano,_1906_-_1915_-_Museo_Michelangelo,_Caserta.jpg"
+    },
+    {
+     "file": "File:Trasmissione per carro - Museo scienza tecnologia Milano 00078.jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Canestrini Giorgio (progettista), Siriati Alessandro (costruttore)",
+     "data": "between 1952 and 1953 date QS:P571,+1952-00-00T00:00:00Z/8,P",
+     "larghezza": 930,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Trasmissione_per_carro_-_Museo_scienza_tecnologia_Milano_00078.jpg"
+    },
+    {
+     "file": "File:Trasmissione per carro - Museo scienza tecnologia Milano 00078 01.jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Canestrini Giorgio (progettista), Siriati Alessandro (costruttore)",
+     "data": "between 1952 and 1953 date QS:P571,+1952-00-00T00:00:00Z/8,P",
+     "larghezza": 1280,
+     "altezza": 854,
+     "url": "https://commons.wikimedia.org/wiki/File:Trasmissione_per_carro_-_Museo_scienza_tecnologia_Milano_00078_01.jpg"
+    },
+    {
+     "file": "File:Trasmissione per carro - Museo scienza tecnologia Milano 00078 02.jpg",
+     "termino": "trasmissione tecnica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Canestrini Giorgio (progettista), Siriati Alessandro (costruttore)",
+     "data": "between 1952 and 1953 date QS:P571,+1952-00-00T00:00:00Z/8,P",
+     "larghezza": 1280,
+     "altezza": 852,
+     "url": "https://commons.wikimedia.org/wiki/File:Trasmissione_per_carro_-_Museo_scienza_tecnologia_Milano_00078_02.jpg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "versione": 1,
+  "data": "2026-10-02",
+  "stato": "vuoto: nessuna immagine è stata ancora scelta né guardata a vista",
+  "nota": "Una riga per ogni immagine che entra nel gioco. La compilazione è un lavoro di guardare, non di leggere: il file di proposte è dati/lingue/immagini_oggetti.json, e scegliere vuol dire guardare le immagini e scrivere qui perché quella è quella. Un'immagine senza motivo di giudizio non entra. Le regole sono in docs/videogioco-5-duchi-lingue-immagini.md §3 e §5.",
+  "campi": {
+    "lingua": "IT, FE, LA, EN, SI, EL",
+    "numero": "da 1 a 30, il numero della voce in dati/lingue/associazioni.json",
+    "file": "il nome del file su Commons, con il prefisso File:",
+    "categoria": "foto, dipinto, stampa, nessuna",
+    "etichetta": "fotografia, immagine_d_archivio, dipinto, incisione, miniatura, rilievo, partitura, frammento_antico, immagine_tratteggiata",
+    "autore": "come dichiara la pagina del file; stringa vuota se non c'è",
+    "licenza": "come dichiara la pagina del file",
+    "data": "quando c'è; stringa vuota se non c'è, e la vuota non è un difetto",
+    "museo": "e numero d'inventario, quando ci sono",
+    "url": "l'indirizzo della pagina del file su Commons",
+    "misura": "96×72 px, la misura della scheda oggetto",
+    "ritaglio": "true se l'immagine è stata ritagliata per entrare nella scheda, false se entra già",
+    "motivo": "perché questa immagine e non un'altra, in una riga. Se la scelta è negativa, il motivo è per cui non c'è immagine e la categoria è nessuna",
+    "guardata_a_vista": "true: l'immagine è stata guardata da una persona. false non entra nel gioco"
+  },
+  "scelte": []
+}

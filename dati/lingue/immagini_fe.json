@@ -1,0 +1,280 @@
+{
+ "versione": 1,
+ "data": "2026-10-02",
+ "nota": "Proposte, non scelte, e non ancora guardate a vista: le scelte le fa una persona e si registrano in sorgenti/lingue/attestazione_oggetti.json con etichetta e motivo, come per i ritratti.",
+ "lingue": [
+  "FE"
+ ],
+ "risultati": [
+  {
+   "lingua": "FE",
+   "numero": 1,
+   "voce": "i proverbi dell'agricoltura",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 2,
+   "voce": "i proverbi dei mestieri",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 3,
+   "voce": "i proverbi sul cibo",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 4,
+   "voce": "i proverbi sulla famiglia",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 5,
+   "voce": "i proverbi sulla fortuna",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 6,
+   "voce": "i proverbi sulla pigrizia",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 7,
+   "voce": "i proverbi sul denaro",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 8,
+   "voce": "i proverbi sulla fiducia",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 9,
+   "voce": "i proverbi sul tempo",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 10,
+   "voce": "i proverbi sull'andare e venire",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 11,
+   "voce": "i proverbi dei mesi",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 12,
+   "voce": "i proverbi delle stagioni",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 13,
+   "voce": "i modi di dire del corpo",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 14,
+   "voce": "i modi di dire del volto",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 15,
+   "voce": "i modi di dire della casa",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 16,
+   "voce": "i modi di dire della strada",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 17,
+   "voce": "i modi di dire del lavoro",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 18,
+   "voce": "i modi di dire dell'amore",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 19,
+   "voce": "i modi di dire del tacere",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 20,
+   "voce": "i modi di dire dell'urlare",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 21,
+   "voce": "le esclamazioni",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 22,
+   "voce": "i saluti rituali",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 23,
+   "voce": "i soprannomi dei quartieri",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 24,
+   "voce": "i nomi delle porte e delle piazze",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 25,
+   "voce": "la parlata dei mercati",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 26,
+   "voce": "la parlata delle feste",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 27,
+   "voce": "la parlata dei bambini",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 28,
+   "voce": "la parlata degli anziani",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 29,
+   "voce": "i proverbi dei viaggiatori",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  },
+  {
+   "lingua": "FE",
+   "numero": 30,
+   "voce": "i proverbi di confine",
+   "termini": [],
+   "categoria": "nessuna",
+   "motivo": "campo di rilevazione, non oggetto: non esiste immagine che rappresenti un campo di raccolta",
+   "candidati": []
+  }
+ ]
+}

@@ -1,0 +1,2860 @@
+{
+ "versione": 1,
+ "data": "2026-10-02",
+ "nota": "Proposte, non scelte, e non ancora guardate a vista: le scelte le fa una persona e si registrano in sorgenti/lingue/attestazione_oggetti.json con etichetta e motivo, come per i ritratti.",
+ "lingue": [
+  "IT"
+ ],
+ "risultati": [
+  {
+   "lingua": "IT",
+   "numero": 1,
+   "voce": "pizza",
+   "termini": [
+    "p",
+    "p",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Eq it-na pizza-margherita sep2005 sml.jpg",
+     "termino": "pizza",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Valerio Capello  at  English Wikipedia",
+     "data": "2005-09-06",
+     "larghezza": 1024,
+     "altezza": 768,
+     "url": "https://commons.wikimedia.org/wiki/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+    },
+    {
+     "file": "File:Pizza 15.jpg",
+     "termino": "pizza",
+     "licenza": "CC0",
+     "autore": "Kurt Kaiser",
+     "data": "2018-07-29",
+     "larghezza": 4048,
+     "altezza": 3036,
+     "url": "https://commons.wikimedia.org/wiki/File:Pizza_15.jpg"
+    },
+    {
+     "file": "File:Pizza 2023.jpg",
+     "termino": "pizza",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yakshitha",
+     "data": "2023-01-28 19:51",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Pizza_2023.jpg"
+    },
+    {
+     "file": "File:Pizza basil.jpg",
+     "termino": "pizza",
+     "licenza": "CC BY 2.0",
+     "autore": "jeffreyw",
+     "data": "2018-06-22 18:19:09",
+     "larghezza": 4032,
+     "altezza": 1960,
+     "url": "https://commons.wikimedia.org/wiki/File:Pizza_basil.jpg"
+    },
+    {
+     "file": "File:Pizza pan and pizza.jpg",
+     "termino": "pizza",
+     "licenza": "CC0",
+     "autore": "Rajalakshmi duraikathiresan",
+     "data": "2024-07-11",
+     "larghezza": 960,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Pizza_pan_and_pizza.jpg"
+    },
+    {
+     "file": "File:Pizza with juice.jpg",
+     "termino": "pizza",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sona Shrestha",
+     "data": "2020-01-23",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Pizza_with_juice.jpg"
+    },
+    {
+     "file": "File:Tomato onion pizza.jpg",
+     "termino": "pizza",
+     "licenza": "CC0",
+     "autore": "Swathi sri srinivasa raghavan",
+     "data": "2024-10-08",
+     "larghezza": 1600,
+     "altezza": 720,
+     "url": "https://commons.wikimedia.org/wiki/File:Tomato_onion_pizza.jpg"
+    },
+    {
+     "file": "File:Vegetarian Pizza.jpg",
+     "termino": "pizza",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Petar Milošević",
+     "data": "2021-05-28 15:27:37",
+     "larghezza": 4216,
+     "altezza": 3344,
+     "url": "https://commons.wikimedia.org/wiki/File:Vegetarian_Pizza.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 2,
+   "voce": "ragù",
+   "termini": [
+    "r",
+    "r",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Arancini ragù stuffing Stroud Gloucestershire stodgy and dry 01.jpg",
+     "termino": "ragù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Acabashi",
+     "data": "2022-12-21 12:11:09",
+     "larghezza": 6614,
+     "altezza": 4961,
+     "url": "https://commons.wikimedia.org/wiki/File:Arancini_rag%C3%B9_stuffing_Stroud_Gloucestershire_stodgy_and_dry_01.jpg"
+    },
+    {
+     "file": "File:Arancini ragù stuffing Stroud Gloucestershire stodgy and dry 02.jpg",
+     "termino": "ragù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Acabashi",
+     "data": "2022-12-21 12:11:09",
+     "larghezza": 6614,
+     "altezza": 4961,
+     "url": "https://commons.wikimedia.org/wiki/File:Arancini_rag%C3%B9_stuffing_Stroud_Gloucestershire_stodgy_and_dry_02.jpg"
+    },
+    {
+     "file": "File:Arancini ragù stuffing Stroud Gloucestershire stodgy and dry 03.jpg",
+     "termino": "ragù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Acabashi",
+     "data": "2022-12-21 12:11:09",
+     "larghezza": 6614,
+     "altezza": 4961,
+     "url": "https://commons.wikimedia.org/wiki/File:Arancini_rag%C3%B9_stuffing_Stroud_Gloucestershire_stodgy_and_dry_03.jpg"
+    },
+    {
+     "file": "File:Haeckel Lichenes.jpg",
+     "termino": "ragù",
+     "licenza": "Public domain",
+     "autore": "Ernst Haeckel",
+     "data": "1904",
+     "larghezza": 2364,
+     "altezza": 3294,
+     "url": "https://commons.wikimedia.org/wiki/File:Haeckel_Lichenes.jpg"
+    },
+    {
+     "file": "File:Pappardelle al ragù e piselli.jpg",
+     "termino": "ragù",
+     "licenza": "CC BY 2.0",
+     "autore": "Jason Lam",
+     "data": "2009-05-26 19:21:43",
+     "larghezza": 640,
+     "altezza": 480,
+     "url": "https://commons.wikimedia.org/wiki/File:Pappardelle_al_rag%C3%B9_e_piselli.jpg"
+    },
+    {
+     "file": "File:Sausage Ragù - January 2024 - Sarah Stierch.jpg",
+     "termino": "ragù",
+     "licenza": "CC BY 4.0",
+     "autore": "Missvain",
+     "data": "Taken on 21 January 2024",
+     "larghezza": 4754,
+     "altezza": 4279,
+     "url": "https://commons.wikimedia.org/wiki/File:Sausage_Rag%C3%B9_-_January_2024_-_Sarah_Stierch.jpg"
+    },
+    {
+     "file": "File:Tagliatelle al ragù (image modified).jpg",
+     "termino": "ragù",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Ivan Vighetto",
+     "data": "2006-04-23",
+     "larghezza": 1569,
+     "altezza": 1233,
+     "url": "https://commons.wikimedia.org/wiki/File:Tagliatelle_al_rag%C3%B9_(image_modified).jpg"
+    },
+    {
+     "file": "File:Tordelli al ragù.JPG",
+     "termino": "ragù",
+     "licenza": "Public domain",
+     "autore": "my self",
+     "data": "2006-12-29",
+     "larghezza": 960,
+     "altezza": 720,
+     "url": "https://commons.wikimedia.org/wiki/File:Tordelli_al_rag%C3%B9.JPG"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 3,
+   "voce": "cacio e pepe",
+   "termini": [
+    "c",
+    "c",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Cacio e pepe.jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Popo le Chien",
+     "data": "3 October 2016 (according to   Exif   data)",
+     "larghezza": 3794,
+     "altezza": 2136,
+     "url": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe.jpg"
+    },
+    {
+     "file": "File:Cacio e pepe 2022.jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ersugo",
+     "data": "2022",
+     "larghezza": 750,
+     "altezza": 749,
+     "url": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_2022.jpg"
+    },
+    {
+     "file": "File:Cacio e pepe 2024.jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "it:Markx89",
+     "data": "3 febbraio 2024",
+     "larghezza": 2048,
+     "altezza": 1542,
+     "url": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_2024.jpg"
+    },
+    {
+     "file": "File:Cacio e pepe at trattoria in Rome.jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Schellack",
+     "data": "2018-05-30 20:23:57",
+     "larghezza": 2854,
+     "altezza": 3813,
+     "url": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_at_trattoria_in_Rome.jpg"
+    },
+    {
+     "file": "File:Risotto cacio e pepe (9390325233).jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY 2.0",
+     "autore": "Luca Nebuloni  from Milan, Italy",
+     "data": "2013-07-29 12:25",
+     "larghezza": 2048,
+     "altezza": 1365,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_cacio_e_pepe_(9390325233).jpg"
+    },
+    {
+     "file": "File:Spaghetti, cacio e pepe & bitter leaf salad - Tutto 2024-04-04.jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2024-04-04 14:15:02",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Spaghetti,_cacio_e_pepe_%26_bitter_leaf_salad_-_Tutto_2024-04-04.jpg"
+    },
+    {
+     "file": "File:Spaghetti cacio e pepe (creamy as it should be).jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Der Zahir",
+     "data": "2022-07-12 13:59:13",
+     "larghezza": 3008,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Spaghetti_cacio_e_pepe_(creamy_as_it_should_be).jpg"
+    },
+    {
+     "file": "File:Spaghetto cacio e pepe Roma 2018.jpg",
+     "termino": "cacio e pepe",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Blackcat",
+     "data": "2018-10-27 14:24:35",
+     "larghezza": 4128,
+     "altezza": 2322,
+     "url": "https://commons.wikimedia.org/wiki/File:Spaghetto_cacio_e_pepe_Roma_2018.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 4,
+   "voce": "tiramisù",
+   "termini": [
+    "t",
+    "t",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Classic Italian Tiramisu-3 (29989504485).jpg",
+     "termino": "tiramisù",
+     "licenza": "CC BY 2.0",
+     "autore": "Sharon Chen  from Austin, United States",
+     "data": "2016-09-16 09:09",
+     "larghezza": 1000,
+     "altezza": 647,
+     "url": "https://commons.wikimedia.org/wiki/File:Classic_Italian_Tiramisu-3_(29989504485).jpg"
+    },
+    {
+     "file": "File:Dessert Tiramisu.jpg",
+     "termino": "tiramisù",
+     "licenza": "CC BY 2.0",
+     "autore": "Javier Lastras",
+     "data": "2008-09-27 23:53:11",
+     "larghezza": 1024,
+     "altezza": 768,
+     "url": "https://commons.wikimedia.org/wiki/File:Dessert_Tiramisu.jpg"
+    },
+    {
+     "file": "File:Dolce Tiramisù monoporzione.jpg",
+     "termino": "tiramisù",
+     "licenza": "CC BY 4.0",
+     "autore": "Anna.Massini",
+     "data": "2025-08-13 20:10:21",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Dolce_Tiramis%C3%B9_monoporzione.jpg"
+    },
+    {
+     "file": "File:Katowice Silesia Business Park 2021.jpg",
+     "termino": "tiramisù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Adrian Tync",
+     "data": "2021-05-26 05:26:09",
+     "larghezza": 3716,
+     "altezza": 2477,
+     "url": "https://commons.wikimedia.org/wiki/File:Katowice_Silesia_Business_Park_2021.jpg"
+    },
+    {
+     "file": "File:Tiramisu at Italian restaurant in Japan.jpg",
+     "termino": "tiramisù",
+     "licenza": "CC0",
+     "autore": "Syced",
+     "data": "4 September 2024 (according to   Exif   data)",
+     "larghezza": 4080,
+     "altezza": 3072,
+     "url": "https://commons.wikimedia.org/wiki/File:Tiramisu_at_Italian_restaurant_in_Japan.jpg"
+    },
+    {
+     "file": "File:Tiramisu dessert.jpg",
+     "termino": "tiramisù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Navneet Sharma",
+     "data": "2020-11-05 15:52:14",
+     "larghezza": 6048,
+     "altezza": 4024,
+     "url": "https://commons.wikimedia.org/wiki/File:Tiramisu_dessert.jpg"
+    },
+    {
+     "file": "File:Tiramisù Starbucks.jpg",
+     "termino": "tiramisù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Saggittarius A",
+     "data": "2023-02-26 18:09:06",
+     "larghezza": 3456,
+     "altezza": 3404,
+     "url": "https://commons.wikimedia.org/wiki/File:Tiramis%C3%B9_Starbucks.jpg"
+    },
+    {
+     "file": "File:Vettura tiramisu.JPG",
+     "termino": "tiramisù",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "MMN.2005",
+     "data": "2 April 2017 (upload date)",
+     "larghezza": 378,
+     "altezza": 346,
+     "url": "https://commons.wikimedia.org/wiki/File:Vettura_tiramisu.JPG"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 5,
+   "voce": "polenta",
+   "termini": [
+    "p",
+    "p",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Cotechino-Servito-Polenta-Lenticchie.jpg",
+     "termino": "polenta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "J.P.Lon",
+     "data": "06/05/2007",
+     "larghezza": 1435,
+     "altezza": 1027,
+     "url": "https://commons.wikimedia.org/wiki/File:Cotechino-Servito-Polenta-Lenticchie.jpg"
+    },
+    {
+     "file": "File:Plato de polenta argentina con salsa de carne picada a cuchillo y vegetales.jpg",
+     "termino": "polenta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Horacio Cambeiro",
+     "data": "Taken on 14 April 2026, 12:19",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Plato_de_polenta_argentina_con_salsa_de_carne_picada_a_cuchillo_y_vegetales.jpg"
+    },
+    {
+     "file": "File:Polenta & feta ready for grilling later -food -veggie -vegetarian -homemade.jpg",
+     "termino": "polenta",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Ellie",
+     "data": "2014-10-09",
+     "larghezza": 640,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Polenta_%26_feta_ready_for_grilling_later_-food_-veggie_-vegetarian_-homemade.jpg"
+    },
+    {
+     "file": "File:Polenta argentina casera con salsa de carne picada.jpg",
+     "termino": "polenta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Horacio Cambeiro",
+     "data": "Taken on 4 August 2026, 12:03",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Polenta_argentina_casera_con_salsa_de_carne_picada.jpg"
+    },
+    {
+     "file": "File:Polenta argentina con salsa de carne.jpg",
+     "termino": "polenta",
+     "licenza": "CC BY 3.0",
+     "autore": "Horacio Cambeiro",
+     "data": "19 November 2025 (according to   Exif   data)",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Polenta_argentina_con_salsa_de_carne.jpg"
+    },
+    {
+     "file": "File:Polenta argentina con salsa de carne (plato).jpg",
+     "termino": "polenta",
+     "licenza": "CC BY 3.0",
+     "autore": "Horacio Cambeiro",
+     "data": "19 November 2025 (according to   Exif   data)",
+     "larghezza": 16320,
+     "altezza": 12240,
+     "url": "https://commons.wikimedia.org/wiki/File:Polenta_argentina_con_salsa_de_carne_(plato).jpg"
+    },
+    {
+     "file": "File:Polenta argentina con salsa de carne (plato gourmet).jpg",
+     "termino": "polenta",
+     "licenza": "CC BY 3.0",
+     "autore": "Horacio Cambeiro",
+     "data": "19 November 2025 (according to   Exif   data)",
+     "larghezza": 16320,
+     "altezza": 12240,
+     "url": "https://commons.wikimedia.org/wiki/File:Polenta_argentina_con_salsa_de_carne_(plato_gourmet).jpg"
+    },
+    {
+     "file": "File:Polenta argentina con tradicional salsa de carne.jpg",
+     "termino": "polenta",
+     "licenza": "CC BY 3.0",
+     "autore": "Horacio Cambeiro",
+     "data": "30 December 2025 (according to   Exif   data)",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Polenta_argentina_con_tradicional_salsa_de_carne.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 6,
+   "voce": "carbonara",
+   "termini": [
+    "c",
+    "c",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Carbonara, Ostia Antica.jpg",
+     "termino": "carbonara",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "philip.mallis",
+     "data": "2017-08-25 14:16:52",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Carbonara,_Ostia_Antica.jpg"
+    },
+    {
+     "file": "File:Carbonara con asparagi.jpg",
+     "termino": "carbonara",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Albarubescens",
+     "data": "2024-03-19 20:26:40",
+     "larghezza": 3157,
+     "altezza": 4250,
+     "url": "https://commons.wikimedia.org/wiki/File:Carbonara_con_asparagi.jpg"
+    },
+    {
+     "file": "File:Carbonara di fettuccine con asparagi.jpg",
+     "termino": "carbonara",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Albarubescens",
+     "data": "2024-03-19 20:39:39",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Carbonara_di_fettuccine_con_asparagi.jpg"
+    },
+    {
+     "file": "File:Espaguetis carbonara.jpg",
+     "termino": "carbonara",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Javier Somoza",
+     "data": "2016-03-25",
+     "larghezza": 2048,
+     "altezza": 1365,
+     "url": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg"
+    },
+    {
+     "file": "File:Rigatoni Alla Carbonara - Pinocchio 2023-07-04.jpg",
+     "termino": "carbonara",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2023-07-04 18:26:36",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Rigatoni_Alla_Carbonara_-_Pinocchio_2023-07-04.jpg"
+    },
+    {
+     "file": "File:Spaghetti Carbonara von Unico Tauberbischofsheim 2.jpg",
+     "termino": "carbonara",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Triplec85",
+     "data": "24 April 2023 (according to   Exif   data)",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Spaghetti_Carbonara_von_Unico_Tauberbischofsheim_2.jpg"
+    },
+    {
+     "file": "File:Spaghetti Carbonara von Unico Tauberbischofsheim 3.jpg",
+     "termino": "carbonara",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Triplec85",
+     "data": "24 April 2023 (according to   Exif   data)",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Spaghetti_Carbonara_von_Unico_Tauberbischofsheim_3.jpg"
+    },
+    {
+     "file": "File:Spaghetti Carbonara with Japanese Raw Egg.jpg",
+     "termino": "carbonara",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2022-07-15 13:31:10",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Spaghetti_Carbonara_with_Japanese_Raw_Egg.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 7,
+   "voce": "saltimbocca",
+   "termini": [
+    "s",
+    "s",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Saltimbocca-2.jpg",
+     "termino": "saltimbocca",
+     "licenza": "Public domain",
+     "autore": "Joachim Pietzowski",
+     "data": "2007-03-06",
+     "larghezza": 800,
+     "altezza": 600,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca-2.jpg"
+    },
+    {
+     "file": "File:Saltimbocca 01.jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Arnaud 25",
+     "data": "2021-10-10 13:36:38",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_01.jpg"
+    },
+    {
+     "file": "File:Saltimbocca alla Romana.jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY 2.0",
+     "autore": "Alec Vuijlsteke",
+     "data": "2009-06-12 18:22",
+     "larghezza": 2740,
+     "altezza": 2432,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_alla_Romana.jpg"
+    },
+    {
+     "file": "File:Saltimbocca alla Romana2.jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Gangnam City Limits",
+     "data": "2012-12-01",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_alla_Romana2.jpg"
+    },
+    {
+     "file": "File:Saltimbocca cooked (1).jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY 3.0",
+     "autore": "Fanny Schertzer",
+     "data": "2011-02-15 21:45:59",
+     "larghezza": 4308,
+     "altezza": 2872,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_cooked_(1).jpg"
+    },
+    {
+     "file": "File:Saltimbocca cooked (2).jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY 3.0",
+     "autore": "Fanny Schertzer",
+     "data": "2011-02-15 21:46:15",
+     "larghezza": 3860,
+     "altezza": 2573,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_cooked_(2).jpg"
+    },
+    {
+     "file": "File:Saltimbocca cooked (3).jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY 3.0",
+     "autore": "Fanny Schertzer",
+     "data": "2011-02-15 21:46:50",
+     "larghezza": 5083,
+     "altezza": 3389,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_cooked_(3).jpg"
+    },
+    {
+     "file": "File:Saltimbocca raw (1).jpg",
+     "termino": "saltimbocca",
+     "licenza": "CC BY 3.0",
+     "autore": "Fanny Schertzer",
+     "data": "2011-02-15 21:34:41",
+     "larghezza": 4256,
+     "altezza": 2838,
+     "url": "https://commons.wikimedia.org/wiki/File:Saltimbocca_raw_(1).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 8,
+   "voce": "mortadella",
+   "termini": [
+    "m",
+    "m",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:20230125 mortadella Katowice Panewniki.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Abraham",
+     "data": "2023-01-25 14:33:15",
+     "larghezza": 4000,
+     "altezza": 2992,
+     "url": "https://commons.wikimedia.org/wiki/File:20230125_mortadella_Katowice_Panewniki.jpg"
+    },
+    {
+     "file": "File:Bologna amazing hams sausages mortadella.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ian Alexander",
+     "data": "2019-12-20",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Bologna_amazing_hams_sausages_mortadella.jpg"
+    },
+    {
+     "file": "File:Mortadella.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY 2.0",
+     "autore": "ehud",
+     "data": "2005-11-01",
+     "larghezza": 2304,
+     "altezza": 1728,
+     "url": "https://commons.wikimedia.org/wiki/File:Mortadella.jpg"
+    },
+    {
+     "file": "File:Mortadella 2016 (cropped).jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "JJ Georges",
+     "data": "2016-11-11 17:53:41",
+     "larghezza": 1920,
+     "altezza": 1541,
+     "url": "https://commons.wikimedia.org/wiki/File:Mortadella_2016_(cropped).jpg"
+    },
+    {
+     "file": "File:Mortadella IMGP0978.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Nikodem Nijaki",
+     "data": "2011-03-05",
+     "larghezza": 3396,
+     "altezza": 2991,
+     "url": "https://commons.wikimedia.org/wiki/File:Mortadella_IMGP0978.jpg"
+    },
+    {
+     "file": "File:Mortadella affettata.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ramagliolo9  at  Italian Wikipedia",
+     "data": "2019-12-12",
+     "larghezza": 3475,
+     "altezza": 3576,
+     "url": "https://commons.wikimedia.org/wiki/File:Mortadella_affettata.jpg"
+    },
+    {
+     "file": "File:Mortadella ravioli 1.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY 2.0",
+     "autore": "chomjong",
+     "data": "2016-06-26",
+     "larghezza": 2448,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Mortadella_ravioli_1.jpg"
+    },
+    {
+     "file": "File:Mortadella ravioli 2.jpg",
+     "termino": "mortadella",
+     "licenza": "CC BY 2.0",
+     "autore": "chomjong",
+     "data": "2016-06-26",
+     "larghezza": 2448,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Mortadella_ravioli_2.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 9,
+   "voce": "aceto balsamico",
+   "termini": [
+    "a",
+    "a",
+    "c",
+    "c"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Aceto-balsamico-oro.png",
+     "termino": "aceto balsamico",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wikibronco",
+     "data": "2014-11-30",
+     "larghezza": 217,
+     "altezza": 600,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto-balsamico-oro.png"
+    },
+    {
+     "file": "File:Aceto-balsamico-tradizionale-extravecchio.png",
+     "termino": "aceto balsamico",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wikibronco",
+     "data": "2016-04-17",
+     "larghezza": 586,
+     "altezza": 635,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto-balsamico-tradizionale-extravecchio.png"
+    },
+    {
+     "file": "File:Aceto Balsamico Di Modena Casa Rinaldi.jpg",
+     "termino": "aceto balsamico",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Jasonbook99",
+     "data": "2012-01-14",
+     "larghezza": 1920,
+     "altezza": 2560,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto_Balsamico_Di_Modena_Casa_Rinaldi.jpg"
+    },
+    {
+     "file": "File:Aceto Balsamico di Modena, Essig aus der Region Emilia Romagna, Italien.jpg",
+     "termino": "aceto balsamico",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Naturpuur",
+     "data": "2023-09-14 15:40:12",
+     "larghezza": 4737,
+     "altezza": 3135,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto_Balsamico_di_Modena,_Essig_aus_der_Region_Emilia_Romagna,_Italien.jpg"
+    },
+    {
+     "file": "File:Aceto Balsamico di Modena.jpg",
+     "termino": "aceto balsamico",
+     "licenza": "CC0",
+     "autore": "Marte Comunicazione",
+     "data": "2018",
+     "larghezza": 1133,
+     "altezza": 755,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto_Balsamico_di_Modena.jpg"
+    },
+    {
+     "file": "File:Aceto balsamico (qualità di legno).jpg",
+     "termino": "aceto balsamico",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Claudio Cicali",
+     "data": "2006-10-28 15:05:15",
+     "larghezza": 2272,
+     "altezza": 1389,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto_balsamico_(qualit%C3%A0_di_legno).jpg"
+    },
+    {
+     "file": "File:Aceto balsamico tradizionale - Riempimento, rincalzo e prelievo.jpg",
+     "termino": "aceto balsamico",
+     "licenza": "Public domain",
+     "autore": ".\n \nThe original uploader was  Marcordb  at  Italian Wikipedia .",
+     "data": "22 July 2013 (original upload date)",
+     "larghezza": 1109,
+     "altezza": 352,
+     "url": "https://commons.wikimedia.org/wiki/File:Aceto_balsamico_tradizionale_-_Riempimento,_rincalzo_e_prelievo.jpg"
+    },
+    {
+     "file": "File:Balsamico-1.jpg",
+     "termino": "aceto balsamico",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "No machine-readable author provided.  Rainer Zenz  assumed (based on copyright claims).",
+     "data": "23 August 2006 (according to   Exif   data)",
+     "larghezza": 1896,
+     "altezza": 2766,
+     "url": "https://commons.wikimedia.org/wiki/File:Balsamico-1.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 10,
+   "voce": "prosciutto",
+   "termini": [
+    "p",
+    "p",
+    "r",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Kajmak and Pršut from Montenegro 01.jpg",
+     "termino": "prosciutto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Milica Buha",
+     "data": "2019-09-16 10:48:08",
+     "larghezza": 4160,
+     "altezza": 3120,
+     "url": "https://commons.wikimedia.org/wiki/File:Kajmak_and_Pr%C5%A1ut_from_Montenegro_01.jpg"
+    },
+    {
+     "file": "File:Kajmak and Pršut from Montenegro 02.jpg",
+     "termino": "prosciutto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Milica Buha",
+     "data": "2019-09-16 10:48:23",
+     "larghezza": 4160,
+     "altezza": 3120,
+     "url": "https://commons.wikimedia.org/wiki/File:Kajmak_and_Pr%C5%A1ut_from_Montenegro_02.jpg"
+    },
+    {
+     "file": "File:Kajmak and Pršut from Montenegro 03.jpg",
+     "termino": "prosciutto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Milica Buha",
+     "data": "2019-09-16 10:48:40",
+     "larghezza": 4160,
+     "altezza": 3120,
+     "url": "https://commons.wikimedia.org/wiki/File:Kajmak_and_Pr%C5%A1ut_from_Montenegro_03.jpg"
+    },
+    {
+     "file": "File:Parma Ham Prosciutto 01.jpg",
+     "termino": "prosciutto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Indrajit Das",
+     "data": "2021-08-19 20:30:54",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Parma_Ham_Prosciutto_01.jpg"
+    },
+    {
+     "file": "File:Parma Ham Prosciutto 02.jpg",
+     "termino": "prosciutto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Indrajit Das",
+     "data": "2021-08-19 20:31:08",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Parma_Ham_Prosciutto_02.jpg"
+    },
+    {
+     "file": "File:ProsciuttoSeaSalt.JPG",
+     "termino": "prosciutto",
+     "licenza": "Public domain",
+     "autore": "Deathworm  at  English Wikipedia",
+     "data": "1 May 2007 (original upload date)",
+     "larghezza": 960,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:ProsciuttoSeaSalt.JPG"
+    },
+    {
+     "file": "File:Prosciutto di Parma, Tagliere, Italia.jpg",
+     "termino": "prosciutto",
+     "licenza": "CC BY 4.0",
+     "autore": "Luca Dea",
+     "data": "2022-09-08",
+     "larghezza": 1800,
+     "altezza": 1440,
+     "url": "https://commons.wikimedia.org/wiki/File:Prosciutto_di_Parma,_Tagliere,_Italia.jpg"
+    },
+    {
+     "file": "File:Štorje, pršut 1969.jpg",
+     "termino": "prosciutto",
+     "licenza": "Public domain",
+     "autore": "Srečo Kolar",
+     "data": "1969",
+     "larghezza": 1190,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:%C5%A0torje,_pr%C5%A1ut_1969.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 11,
+   "voce": "focaccia",
+   "termini": [
+    "f",
+    "f",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Focaccia 1.jpg",
+     "termino": "focaccia",
+     "licenza": "CC BY 2.0",
+     "autore": "Jennifer",
+     "data": "2005-01-03 07:53",
+     "larghezza": 401,
+     "altezza": 300,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_1.jpg"
+    },
+    {
+     "file": "File:Focaccia Bread.jpg",
+     "termino": "focaccia",
+     "licenza": "CC0",
+     "autore": "Kurtkaiser",
+     "data": "29 January 2022 (according to   Exif   data)",
+     "larghezza": 4080,
+     "altezza": 3072,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_Bread.jpg"
+    },
+    {
+     "file": "File:Focaccia Bread 2.jpg",
+     "termino": "focaccia",
+     "licenza": "CC0",
+     "autore": "Kurtkaiser",
+     "data": "29 January 2022 (according to   Exif   data)",
+     "larghezza": 4080,
+     "altezza": 3072,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_Bread_2.jpg"
+    },
+    {
+     "file": "File:Focaccia Crust.jpg",
+     "termino": "focaccia",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Fred Benenson",
+     "data": "2020-09-06 17:49:53",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_Crust.jpg"
+    },
+    {
+     "file": "File:Focaccia de Morango com Nutella - Spoleto.jpg",
+     "termino": "focaccia",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Warley Felipe C.S.",
+     "data": "2019-07-14 16:36:57",
+     "larghezza": 2192,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_de_Morango_com_Nutella_-_Spoleto.jpg"
+    },
+    {
+     "file": "File:Focaccia sucrée à Focaccia (Part-Dieu) à Lyon.jpg",
+     "termino": "focaccia",
+     "licenza": "CC0",
+     "autore": "Benoît Prieur",
+     "data": "2019-01-03 13:02:12",
+     "larghezza": 3852,
+     "altezza": 2696,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_sucr%C3%A9e_%C3%A0_Focaccia_(Part-Dieu)_%C3%A0_Lyon.jpg"
+    },
+    {
+     "file": "File:Focaccia with Crumb.jpg",
+     "termino": "focaccia",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Fred Benenson",
+     "data": "2020-09-06 17:59:46",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Focaccia_with_Crumb.jpg"
+    },
+    {
+     "file": "File:House Focaccia - History Pizzeria 2023-10-23.jpg",
+     "termino": "focaccia",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2023-10-23 18:33:22",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:House_Focaccia_-_History_Pizzeria_2023-10-23.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 12,
+   "voce": "sabaion",
+   "termini": [
+    "s",
+    "s",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Asianot.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ivan Ruggiero   \n  I'd appreciate if you could mail me  (ivanrugg+credit@gmail.com)  if you want to use this picture out",
+     "data": "13 May 2024 (according to   Exif   data)",
+     "larghezza": 2524,
+     "altezza": 2526,
+     "url": "https://commons.wikimedia.org/wiki/File:Asianot.jpg"
+    },
+    {
+     "file": "File:Lime sabayon with vanilla ice cream, roasted mango and Baba Grand Marnier.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY 2.0",
+     "autore": "Ralph Daily",
+     "data": "2009-12-23 13:40:18",
+     "larghezza": 4288,
+     "altezza": 2848,
+     "url": "https://commons.wikimedia.org/wiki/File:Lime_sabayon_with_vanilla_ice_cream,_roasted_mango_and_Baba_Grand_Marnier.jpg"
+    },
+    {
+     "file": "File:Marsala sabayon with cookie and local stone fruit.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "stu_spivack",
+     "data": "2007-07-24 18:25:59",
+     "larghezza": 2560,
+     "altezza": 1920,
+     "url": "https://commons.wikimedia.org/wiki/File:Marsala_sabayon_with_cookie_and_local_stone_fruit.jpg"
+    },
+    {
+     "file": "File:Sabayon with mixed berries served, March 2011.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY 2.0",
+     "autore": "Hungry Dudes",
+     "data": "2011-03-14 06:23:30",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Sabayon_with_mixed_berries_served,_March_2011.jpg"
+    },
+    {
+     "file": "File:Zabaglione.JPG",
+     "termino": "sabaione",
+     "licenza": "Public domain",
+     "autore": "Wouter Hagens",
+     "data": "2007-03-04",
+     "larghezza": 1770,
+     "altezza": 1092,
+     "url": "https://commons.wikimedia.org/wiki/File:Zabaglione.JPG"
+    },
+    {
+     "file": "File:Zabaglione 2021.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Michael Wittwer",
+     "data": "2021-12-12 13:15:00",
+     "larghezza": 4099,
+     "altezza": 2732,
+     "url": "https://commons.wikimedia.org/wiki/File:Zabaglione_2021.jpg"
+    },
+    {
+     "file": "File:Zabaglione mit Gebäck.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Thesurvived99",
+     "data": "2012-04-28",
+     "larghezza": 2542,
+     "altezza": 3558,
+     "url": "https://commons.wikimedia.org/wiki/File:Zabaglione_mit_Geb%C3%A4ck.jpg"
+    },
+    {
+     "file": "File:Zabaione with blackberries.jpg",
+     "termino": "sabaione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sinikka Halme",
+     "data": "2018-09-05 21:01:57",
+     "larghezza": 4012,
+     "altezza": 2804,
+     "url": "https://commons.wikimedia.org/wiki/File:Zabaione_with_blackberries.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 13,
+   "voce": "zuppa di lenticchie",
+   "termini": [
+    "z",
+    "z",
+    "u",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:20221217 lentil soup Katowice Panewniki.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Abraham",
+     "data": "2022-12-17 15:29:36",
+     "larghezza": 1584,
+     "altezza": 2816,
+     "url": "https://commons.wikimedia.org/wiki/File:20221217_lentil_soup_Katowice_Panewniki.jpg"
+    },
+    {
+     "file": "File:Bowl of lentil soup with green and red lentils.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Whoisjohngalt",
+     "data": "2021-09-09 12:19:55",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Bowl_of_lentil_soup_with_green_and_red_lentils.jpg"
+    },
+    {
+     "file": "File:Homemade Lentil Soup - Lavash 2025-02-10.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2025-02-10 19:39:35",
+     "larghezza": 4080,
+     "altezza": 3072,
+     "url": "https://commons.wikimedia.org/wiki/File:Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg"
+    },
+    {
+     "file": "File:Kapellenstraße München — mercimek çorbası — afiyet olsun 20201210 215041.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "no bias — קיין אומוויסנדיקע פּרעפֿערענצן — keyn umvisndike",
+     "data": "Taken on 10 December 2020 21:50:41",
+     "larghezza": 4032,
+     "altezza": 2268,
+     "url": "https://commons.wikimedia.org/wiki/File:Kapellenstra%C3%9Fe_M%C3%BCnchen_%E2%80%94_mercimek_%C3%A7orbas%C4%B1_%E2%80%94_afiyet_olsun_20201210_215041.jpg"
+    },
+    {
+     "file": "File:Lentil Soup - Schnitzel & Co. 2026-05-16.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2026-05-16 19:25:34",
+     "larghezza": 8160,
+     "altezza": 6144,
+     "url": "https://commons.wikimedia.org/wiki/File:Lentil_Soup_-_Schnitzel_%26_Co._2026-05-16.jpg"
+    },
+    {
+     "file": "File:Lentil soup done.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dmitry Bagrov",
+     "data": "2019-03-01 16:30:52",
+     "larghezza": 3328,
+     "altezza": 1872,
+     "url": "https://commons.wikimedia.org/wiki/File:Lentil_soup_done.jpg"
+    },
+    {
+     "file": "File:Lentil soup from Sicily.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Emna Mizouni",
+     "data": "2016-01-02 22:00:13",
+     "larghezza": 1836,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:Lentil_soup_from_Sicily.jpg"
+    },
+    {
+     "file": "File:Mercimek çorbasi.jpg",
+     "termino": "zuppa di lenticchie",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "E4024",
+     "data": "2017-09-22 13:00:23",
+     "larghezza": 2560,
+     "altezza": 1920,
+     "url": "https://commons.wikimedia.org/wiki/File:Mercimek_%C3%A7orbasi.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 14,
+   "voce": "piadina",
+   "termini": [
+    "p",
+    "p",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Cassone.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Łukasz Pojezierski",
+     "data": "2022-09-04",
+     "larghezza": 1536,
+     "altezza": 988,
+     "url": "https://commons.wikimedia.org/wiki/File:Cassone.jpg"
+    },
+    {
+     "file": "File:Piadina.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Kobako",
+     "data": "2006-01",
+     "larghezza": 2088,
+     "altezza": 2052,
+     "url": "https://commons.wikimedia.org/wiki/File:Piadina.jpg"
+    },
+    {
+     "file": "File:Piadina Sandwich Breakfast with Salad and Tomatoes.jpg",
+     "termino": "piadina",
+     "licenza": "CC0",
+     "autore": "Cristian Ungureanu",
+     "data": "2019-08-30 10:53:54",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Piadina_Sandwich_Breakfast_with_Salad_and_Tomatoes.jpg"
+    },
+    {
+     "file": "File:Piadina romagnola.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Xaura",
+     "data": "2007-12-23",
+     "larghezza": 1280,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Piadina_romagnola.jpg"
+    },
+    {
+     "file": "File:Piadina romagnola 2.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Lasagnolo9",
+     "data": "2020-06-12",
+     "larghezza": 1142,
+     "altezza": 1600,
+     "url": "https://commons.wikimedia.org/wiki/File:Piadina_romagnola_2.jpg"
+    },
+    {
+     "file": "File:Piadina romagnola 3.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Lasagnolo9",
+     "data": "2021-09-30",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Piadina_romagnola_3.jpg"
+    },
+    {
+     "file": "File:ナポリサラミのピアディーナ（サイゼリヤ下総中山店）20211018-P1250515.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY 4.0",
+     "autore": "くろふね",
+     "data": "18 October 2021, 18:45:18",
+     "larghezza": 1600,
+     "altezza": 1201,
+     "url": "https://commons.wikimedia.org/wiki/File:%E3%83%8A%E3%83%9D%E3%83%AA%E3%82%B5%E3%83%A9%E3%83%9F%E3%81%AE%E3%83%94%E3%82%A2%E3%83%87%E3%82%A3%E3%83%BC%E3%83%8A%EF%BC%88%E3%82%B5%E3%82%A4%E3%82%BC%E3%83%AA%E3%83%A4%E4%B8%8B%E7%B7%8F%E4%B8%AD%E5%B1%B1%E5%BA%97%EF%BC%8920211018-P1250515.jpg"
+    },
+    {
+     "file": "File:プロシュート・コットのピアディーナ（サイゼリヤ下総中山店）20211018-P1250512.jpg",
+     "termino": "piadina",
+     "licenza": "CC BY 4.0",
+     "autore": "くろふね",
+     "data": "18 October 2021, 18:45:04",
+     "larghezza": 1600,
+     "altezza": 1201,
+     "url": "https://commons.wikimedia.org/wiki/File:%E3%83%97%E3%83%AD%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B3%E3%83%83%E3%83%88%E3%81%AE%E3%83%94%E3%82%A2%E3%83%87%E3%82%A3%E3%83%BC%E3%83%8A%EF%BC%88%E3%82%B5%E3%82%A4%E3%82%BC%E3%83%AA%E3%83%A4%E4%B8%8B%E7%B7%8F%E4%B8%AD%E5%B1%B1%E5%BA%97%EF%BC%8920211018-P1250512.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 15,
+   "voce": "risotto",
+   "termini": [
+    "r",
+    "r",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Risotto, Mazatlán, 3 de mayo de 2023 05.jpg",
+     "termino": "risotto",
+     "licenza": "CC0",
+     "autore": "El Nuevo Doge",
+     "data": "2023-05-03 10:32:42",
+     "larghezza": 4128,
+     "altezza": 2322,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto,_Mazatl%C3%A1n,_3_de_mayo_de_2023_05.jpg"
+    },
+    {
+     "file": "File:Risotto - lemon onion ham.jpg",
+     "termino": "risotto",
+     "licenza": "CC BY 2.0",
+     "autore": "Infrogmation of New Orleans",
+     "data": "2019-12-27 19:04:22",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_-_lemon_onion_ham.jpg"
+    },
+    {
+     "file": "File:Risotto Weihnachten 2020 13.jpg",
+     "termino": "risotto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Burkhard Mücke",
+     "data": "2020-12-27 18:10:06",
+     "larghezza": 5100,
+     "altezza": 3825,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_Weihnachten_2020_13.jpg"
+    },
+    {
+     "file": "File:Risotto carottes et thym.jpg",
+     "termino": "risotto",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Guillaume Capron",
+     "data": "2011-04-22",
+     "larghezza": 612,
+     "altezza": 612,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_carottes_et_thym.jpg"
+    },
+    {
+     "file": "File:Risotto cooking for New Year Eve.jpg",
+     "termino": "risotto",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Infrogmation of New Orleans",
+     "data": "2024-12-31 16:56:42",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_cooking_for_New_Year_Eve.jpg"
+    },
+    {
+     "file": "File:Risotto de gambas, restaurant Danieli (Vienne, Autriche).jpg",
+     "termino": "risotto",
+     "licenza": "CC0",
+     "autore": "Benoît Prieur",
+     "data": "2019-08-10 12:10:43",
+     "larghezza": 3779,
+     "altezza": 2789,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_de_gambas,_restaurant_Danieli_(Vienne,_Autriche).jpg"
+    },
+    {
+     "file": "File:Risotto de verduras acompañado con salsa de tomate y queso rallado.jpg",
+     "termino": "risotto",
+     "licenza": "CC BY 4.0",
+     "autore": "Juan Emilio Prades Bel",
+     "data": "1980-01-01 00:00:11",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_de_verduras_acompa%C3%B1ado_con_salsa_de_tomate_y_queso_rallado.jpg"
+    },
+    {
+     "file": "File:Risotto with truffles in Saudi Arabia.jpg",
+     "termino": "risotto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marifer Veloz",
+     "data": "15 May 2021 (according to   Exif   data)",
+     "larghezza": 2736,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Risotto_with_truffles_in_Saudi_Arabia.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 16,
+   "voce": "gnocco",
+   "termini": [
+    "g",
+    "g",
+    "n",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Gnocchi Red Sauce.jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Amy Aletheia Cahill",
+     "data": "2023-06-20",
+     "larghezza": 4096,
+     "altezza": 3072,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocchi_Red_Sauce.jpg"
+    },
+    {
+     "file": "File:Gnocchi di ricotta burro e salvia.jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY 2.0",
+     "autore": "Paoletta S.",
+     "data": "2008-06-19 07:10:31",
+     "larghezza": 600,
+     "altezza": 904,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocchi_di_ricotta_burro_e_salvia.jpg"
+    },
+    {
+     "file": "File:Gnocco Fritto.jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "DinaBenedettoFerrandina",
+     "data": "2023-02-24",
+     "larghezza": 1080,
+     "altezza": 1116,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocco_Fritto.jpg"
+    },
+    {
+     "file": "File:Gnocco fritto, salame, and lambrusco.jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY 2.0",
+     "autore": "Gail  from Calgary, Canada",
+     "data": "2009-07-21 20:37",
+     "larghezza": 600,
+     "altezza": 400,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocco_fritto,_salame,_and_lambrusco.jpg"
+    },
+    {
+     "file": "File:Gnocco fritto.jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "paPisc  from Bologna",
+     "data": "2008-10-26 13:51",
+     "larghezza": 590,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocco_fritto.jpg"
+    },
+    {
+     "file": "File:Gnocco fritto World record (41 m).jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Massimiliano Masserelli  from San Giovanni in Persiceto (BO), Italy",
+     "data": "2006-10-01 18:26",
+     "larghezza": 1280,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocco_fritto_World_record_(41_m).jpg"
+    },
+    {
+     "file": "File:Gnocco fritto of Modena.JPG",
+     "termino": "gnocco",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Nerodiseppia",
+     "data": "2010-10-31",
+     "larghezza": 4272,
+     "altezza": 2848,
+     "url": "https://commons.wikimedia.org/wiki/File:Gnocco_fritto_of_Modena.JPG"
+    },
+    {
+     "file": "File:Slices of pancetta to eat with gnocco fritto (dough fried in lard).jpg",
+     "termino": "gnocco",
+     "licenza": "CC BY 2.0",
+     "autore": "kwistent",
+     "data": "2013-02-17",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Slices_of_pancetta_to_eat_with_gnocco_fritto_(dough_fried_in_lard).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 17,
+   "voce": "tagliatelle",
+   "termini": [
+    "t",
+    "t",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Dry tagliatelle pasta.jpg",
+     "termino": "tagliatelle",
+     "licenza": "Public domain",
+     "autore": "Mathias Braux",
+     "data": "2006-01",
+     "larghezza": 700,
+     "altezza": 700,
+     "url": "https://commons.wikimedia.org/wiki/File:Dry_tagliatelle_pasta.jpg"
+    },
+    {
+     "file": "File:Making of Tagliatelle,Toskanischer Markt RT 01.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Vux",
+     "data": "2025-03-27 15:01:51",
+     "larghezza": 3888,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Making_of_Tagliatelle,Toskanischer_Markt_RT_01.jpg"
+    },
+    {
+     "file": "File:Making of Tagliatelle,Toskanischer Markt RT 02.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Vux",
+     "data": "2025-03-27 15:01:56",
+     "larghezza": 3888,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Making_of_Tagliatelle,Toskanischer_Markt_RT_02.jpg"
+    },
+    {
+     "file": "File:Making of Tagliatelle,Toskanischer Markt RT 03.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Vux",
+     "data": "2025-03-27 15:02:14",
+     "larghezza": 3888,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Making_of_Tagliatelle,Toskanischer_Markt_RT_03.jpg"
+    },
+    {
+     "file": "File:Making of Tagliatelle,Toskanischer Markt RT 04.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Vux",
+     "data": "2025-03-27 15:02:17",
+     "larghezza": 3888,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Making_of_Tagliatelle,Toskanischer_Markt_RT_04.jpg"
+    },
+    {
+     "file": "File:Tagliatelle Al Salmone - Pinocchio 2024-06-18.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2024-06-18 20:25:34",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Tagliatelle_Al_Salmone_-_Pinocchio_2024-06-18.jpg"
+    },
+    {
+     "file": "File:Tagliatelle Funghi e Prosciutto - Donatello 2023-09-12.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2023-09-12 19:41:12",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Tagliatelle_Funghi_e_Prosciutto_-_Donatello_2023-09-12.jpg"
+    },
+    {
+     "file": "File:Tagliatelle con farina di castagne.jpg",
+     "termino": "tagliatelle",
+     "licenza": "CC BY 2.0",
+     "autore": "fugzu",
+     "data": "2015-08-23",
+     "larghezza": 1024,
+     "altezza": 768,
+     "url": "https://commons.wikimedia.org/wiki/File:Tagliatelle_con_farina_di_castagne.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 18,
+   "voce": "bagna cauda",
+   "termini": [
+    "b",
+    "b",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Bagna-càuda-1.jpg",
+     "termino": "bagna cauda",
+     "licenza": "CC0",
+     "autore": "Evelyn-rose",
+     "data": "2019-08-10 13:18:54",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagna-c%C3%A0uda-1.jpg"
+    },
+    {
+     "file": "File:Bagna Cauda a la Champaquí 019.jpg",
+     "termino": "bagna cauda",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Fernando Lopez Anido",
+     "data": "2011-05-22",
+     "larghezza": 2896,
+     "altezza": 1944,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagna_Cauda_a_la_Champaqu%C3%AD_019.jpg"
+    },
+    {
+     "file": "File:Bagna cauda1.jpg",
+     "termino": "bagna cauda",
+     "licenza": "Public domain",
+     "autore": "Madaki  at  Italian Wikipedia",
+     "data": "22 August 2006 (original upload date)",
+     "larghezza": 2832,
+     "altezza": 2128,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagna_cauda1.jpg"
+    },
+    {
+     "file": "File:Bagna càuda (2016-01-30).jpg",
+     "termino": "bagna cauda",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Lombroso",
+     "data": "2016-01-30 18:05:43",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagna_c%C3%A0uda_(2016-01-30).jpg"
+    },
+    {
+     "file": "File:Bagna càuda at JR Hotel Yakushima.jpg",
+     "termino": "bagna cauda",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Grendelkhan",
+     "data": "23 April 2018 (according to   Exif   data)",
+     "larghezza": 4048,
+     "altezza": 3036,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagna_c%C3%A0uda_at_JR_Hotel_Yakushima.jpg"
+    },
+    {
+     "file": "File:Bagna càuda dip.jpg",
+     "termino": "bagna cauda",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Masaaki Komori  from Tokyo, JAPAN",
+     "data": "2009-01-08 21:58",
+     "larghezza": 1424,
+     "altezza": 2144,
+     "url": "https://commons.wikimedia.org/wiki/File:Bagna_c%C3%A0uda_dip.jpg"
+    },
+    {
+     "file": "File:Fiesta Nacional de la Bagna Cauda.jpg",
+     "termino": "bagna cauda",
+     "licenza": "Public domain",
+     "autore": "Juan Guirado",
+     "data": "Unknown date",
+     "larghezza": 383,
+     "altezza": 199,
+     "url": "https://commons.wikimedia.org/wiki/File:Fiesta_Nacional_de_la_Bagna_Cauda.jpg"
+    },
+    {
+     "file": "File:Scala Osteria - February 2023 - Sarah Stierch 04.jpg",
+     "termino": "bagna cauda",
+     "licenza": "CC BY 4.0",
+     "autore": "Missvain",
+     "data": "Taken on 17 February 2023",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Scala_Osteria_-_February_2023_-_Sarah_Stierch_04.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 19,
+   "voce": "panna cotta",
+   "termini": [
+    "p",
+    "p",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:ELDERFLOWER PANNA COTTA - The Meeting Place 2025-06-28.jpg",
+     "termino": "panna cotta",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2025-06-28 16:29:44",
+     "larghezza": 8160,
+     "altezza": 6144,
+     "url": "https://commons.wikimedia.org/wiki/File:ELDERFLOWER_PANNA_COTTA_-_The_Meeting_Place_2025-06-28.jpg"
+    },
+    {
+     "file": "File:Panna Cotta (353420626).jpg",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Sebastian Mary  from Singapore (:",
+     "data": "2007-01-11 10:39",
+     "larghezza": 2448,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_Cotta_(353420626).jpg"
+    },
+    {
+     "file": "File:Panna Cotta with caramel sauce.jpg",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Toben",
+     "data": "2016-04-16 21:02:22",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_Cotta_with_caramel_sauce.jpg"
+    },
+    {
+     "file": "File:Panna Cotta with cream and garnish.jpg",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "hiro",
+     "data": "2010-02-20 19:01:27",
+     "larghezza": 1600,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_Cotta_with_cream_and_garnish.jpg"
+    },
+    {
+     "file": "File:Panna cotta 2 (fcm).JPG",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Photograph:   Frank C. Müller , Baden-Baden",
+     "data": "Taken on 5 July 2013",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_cotta_2_(fcm).JPG"
+    },
+    {
+     "file": "File:Panna cotta Disentis.jpeg",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Adrian Michael",
+     "data": "2021-05-06",
+     "larghezza": 2978,
+     "altezza": 1857,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_cotta_Disentis.jpeg"
+    },
+    {
+     "file": "File:Panna cotta and Bread Puddings Israel.jpg",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Laliv g",
+     "data": "2026-09-30 19:56:14",
+     "larghezza": 3000,
+     "altezza": 3520,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_cotta_and_Bread_Puddings_Israel.jpg"
+    },
+    {
+     "file": "File:Panna cotta au chocolat.jpg",
+     "termino": "panna cotta",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marianne Casamance",
+     "data": "2016-03-03 13:23:23",
+     "larghezza": 3456,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Panna_cotta_au_chocolat.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 20,
+   "voce": "bistecca",
+   "termini": [
+    "b",
+    "b",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:2018-02-19 212112 T-Bone Steak in Sydney anagoria.jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY 3.0",
+     "autore": "Anagoria",
+     "data": "2018-02-19",
+     "larghezza": 3500,
+     "altezza": 3504,
+     "url": "https://commons.wikimedia.org/wiki/File:2018-02-19_212112_T-Bone_Steak_in_Sydney_anagoria.jpg"
+    },
+    {
+     "file": "File:Bistecca alla fiorentina-01.jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "mike packard",
+     "data": "2012-05-16",
+     "larghezza": 875,
+     "altezza": 678,
+     "url": "https://commons.wikimedia.org/wiki/File:Bistecca_alla_fiorentina-01.jpg"
+    },
+    {
+     "file": "File:Bistecca alla fiorentina.jpg",
+     "termino": "bistecca",
+     "licenza": "Public domain",
+     "autore": "Microsoikos  at  Italian Wikipedia",
+     "data": "25 May 2007 (original upload date)",
+     "larghezza": 1280,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Bistecca_alla_fiorentina.jpg"
+    },
+    {
+     "file": "File:T-Bone Steak (9417094937).jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY 2.0",
+     "autore": "CCFoodTravel.com",
+     "data": "2013-07-26 20:27",
+     "larghezza": 800,
+     "altezza": 535,
+     "url": "https://commons.wikimedia.org/wiki/File:T-Bone_Steak_(9417094937).jpg"
+    },
+    {
+     "file": "File:T-Bone Steak (9417095101).jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY 2.0",
+     "autore": "CCFoodTravel.com",
+     "data": "2013-07-26 20:23",
+     "larghezza": 800,
+     "altezza": 534,
+     "url": "https://commons.wikimedia.org/wiki/File:T-Bone_Steak_(9417095101).jpg"
+    },
+    {
+     "file": "File:T-Bone Steak (9419875512).jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY 2.0",
+     "autore": "CCFoodTravel.com",
+     "data": "2013-07-26 21:18",
+     "larghezza": 639,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:T-Bone_Steak_(9419875512).jpg"
+    },
+    {
+     "file": "File:T-Bone Steak with Corn & Fries.jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ceeseven",
+     "data": "2019-12-14 18:36:25",
+     "larghezza": 3552,
+     "altezza": 4736,
+     "url": "https://commons.wikimedia.org/wiki/File:T-Bone_Steak_with_Corn_%26_Fries.jpg"
+    },
+    {
+     "file": "File:Three-course meal including Bistecca alla fiorentina (Bistec a la fiorentina).jpg",
+     "termino": "bistecca",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Tomascastelazo",
+     "data": "2020-05-22 23:52:28",
+     "larghezza": 7647,
+     "altezza": 5792,
+     "url": "https://commons.wikimedia.org/wiki/File:Three-course_meal_including_Bistecca_alla_fiorentina_(Bistec_a_la_fiorentina).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 21,
+   "voce": "olive",
+   "termini": [
+    "o",
+    "o",
+    "l",
+    "l"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Air Olive 1.JPG",
+     "termino": "olive",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Ввласенко",
+     "data": "2014-09-11 08:17:49",
+     "larghezza": 2500,
+     "altezza": 1747,
+     "url": "https://commons.wikimedia.org/wiki/File:Air_Olive_1.JPG"
+    },
+    {
+     "file": "File:Lun Olive-Gardens (2).jpg",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Palauenc05",
+     "data": "2021-05-20",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Lun_Olive-Gardens_(2).jpg"
+    },
+    {
+     "file": "File:Lun olive tree 1600 years.jpg",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Palauenc05",
+     "data": "2022-03-08",
+     "larghezza": 4439,
+     "altezza": 3855,
+     "url": "https://commons.wikimedia.org/wiki/File:Lun_olive_tree_1600_years.jpg"
+    },
+    {
+     "file": "File:Lun olive tree 1600 years trunc.jpg",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Palauenc05",
+     "data": "2022-03-08",
+     "larghezza": 5385,
+     "altezza": 3716,
+     "url": "https://commons.wikimedia.org/wiki/File:Lun_olive_tree_1600_years_trunc.jpg"
+    },
+    {
+     "file": "File:Olea europaea, Murviel-lès-Béziers.jpg",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Christian Ferrer",
+     "data": "21 September 2014, 16:27:28",
+     "larghezza": 7360,
+     "altezza": 4600,
+     "url": "https://commons.wikimedia.org/wiki/File:Olea_europaea,_Murviel-l%C3%A8s-B%C3%A9ziers.jpg"
+    },
+    {
+     "file": "File:Olea europaea Preveli 01.JPG",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Uoaei1",
+     "data": "2015-08-26 17:12:32",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Olea_europaea_Preveli_01.JPG"
+    },
+    {
+     "file": "File:Olea europaea Thronos 01.JPG",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Uoaei1",
+     "data": "2015-08-29 13:23:08",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Olea_europaea_Thronos_01.JPG"
+    },
+    {
+     "file": "File:Olive tree in a herb garden in Polis, Cyprus.jpg",
+     "termino": "olive",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Michal Klajban",
+     "data": "2019-02-08 08:58:24",
+     "larghezza": 3848,
+     "altezza": 3356,
+     "url": "https://commons.wikimedia.org/wiki/File:Olive_tree_in_a_herb_garden_in_Polis,_Cyprus.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 22,
+   "voce": "pesto",
+   "termini": [
+    "p",
+    "p",
+    "e",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:BasilPesto.JPG",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Ɱ",
+     "data": "2014-04-19 18:48:41",
+     "larghezza": 2760,
+     "altezza": 2175,
+     "url": "https://commons.wikimedia.org/wiki/File:BasilPesto.JPG"
+    },
+    {
+     "file": "File:Ingredienti per il pesto Genovese (Ingridients for Pesto Genovese).jpg",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Petar Milošević",
+     "data": "2024-03-13 14:53:49",
+     "larghezza": 5182,
+     "altezza": 3886,
+     "url": "https://commons.wikimedia.org/wiki/File:Ingredienti_per_il_pesto_Genovese_(Ingridients_for_Pesto_Genovese).jpg"
+    },
+    {
+     "file": "File:Ingredienti per il pesto Genovese e Pesto Genovese (Ingridients for Pesto Genovese and Pesto genovese).jpg",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Petar Milošević",
+     "data": "2024-03-13 15:20:43",
+     "larghezza": 5180,
+     "altezza": 3628,
+     "url": "https://commons.wikimedia.org/wiki/File:Ingredienti_per_il_pesto_Genovese_e_Pesto_Genovese_(Ingridients_for_Pesto_Genovese_and_Pesto_genovese).jpg"
+    },
+    {
+     "file": "File:PESTO, IL PROFUMO DELL'ESTATE.jpg",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wana1958",
+     "data": "Taken on 1 June 2014, 19:31:55",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:PESTO,_IL_PROFUMO_DELL%27ESTATE.jpg"
+    },
+    {
+     "file": "File:Pesto (penguin) (cropped).png",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "User:HoseIsFaucet",
+     "data": "Taken on 27 September 2024",
+     "larghezza": 2093,
+     "altezza": 2854,
+     "url": "https://commons.wikimedia.org/wiki/File:Pesto_(penguin)_(cropped).png"
+    },
+    {
+     "file": "File:Pesto (penguin) uncropped.jpg",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "User:HoseIsFaucet",
+     "data": "2024-09-27",
+     "larghezza": 3472,
+     "altezza": 4624,
+     "url": "https://commons.wikimedia.org/wiki/File:Pesto_(penguin)_uncropped.jpg"
+    },
+    {
+     "file": "File:Pesto apron.jpg",
+     "termino": "pesto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "AlfonsoLucifredi",
+     "data": "2024-03-23 13:51:38",
+     "larghezza": 6240,
+     "altezza": 4160,
+     "url": "https://commons.wikimedia.org/wiki/File:Pesto_apron.jpg"
+    },
+    {
+     "file": "File:Saclà pesto.jpg",
+     "termino": "pesto",
+     "licenza": "CC0",
+     "autore": "Mx. Granger",
+     "data": "2022-01-03 13:46:05",
+     "larghezza": 3621,
+     "altezza": 2357,
+     "url": "https://commons.wikimedia.org/wiki/File:Sacl%C3%A0_pesto.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 23,
+   "voce": "pandoro",
+   "termini": [
+    "p",
+    "p",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Brevetto invenzione Pandoro Melegatti.jpg",
+     "termino": "pandoro",
+     "licenza": "Public domain",
+     "autore": "Ministero di Agricoltura, Industria e Commercio del Regno d'Italia",
+     "data": "1894",
+     "larghezza": 1948,
+     "altezza": 2780,
+     "url": "https://commons.wikimedia.org/wiki/File:Brevetto_invenzione_Pandoro_Melegatti.jpg"
+    },
+    {
+     "file": "File:Commercial pandoro.jpg",
+     "termino": "pandoro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Affitisciuto",
+     "data": "2020-12-24",
+     "larghezza": 1375,
+     "altezza": 1600,
+     "url": "https://commons.wikimedia.org/wiki/File:Commercial_pandoro.jpg"
+    },
+    {
+     "file": "File:Pandoro-Homemade-Sugared.jpg",
+     "termino": "pandoro",
+     "licenza": "Public domain",
+     "autore": "No machine-readable author provided.  J.P.Lon~commonswiki  assumed (based on copyright claims).",
+     "data": "20 January 2007 (original upload date)",
+     "larghezza": 354,
+     "altezza": 360,
+     "url": "https://commons.wikimedia.org/wiki/File:Pandoro-Homemade-Sugared.jpg"
+    },
+    {
+     "file": "File:Pandoro 3.jpg",
+     "termino": "pandoro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ramagliolo9  at  Italian Wikipedia",
+     "data": "2019-11-16",
+     "larghezza": 3296,
+     "altezza": 3514,
+     "url": "https://commons.wikimedia.org/wiki/File:Pandoro_3.jpg"
+    },
+    {
+     "file": "File:Pandoro cut 01.jpg",
+     "termino": "pandoro",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Kuebi  = Armin Kübelbeck",
+     "data": "2008-01-19",
+     "larghezza": 1600,
+     "altezza": 1600,
+     "url": "https://commons.wikimedia.org/wiki/File:Pandoro_cut_01.jpg"
+    },
+    {
+     "file": "File:Pandoro di Verona.jpg",
+     "termino": "pandoro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Garonzi Stefania",
+     "data": "2018-12-28 13:56:57",
+     "larghezza": 1840,
+     "altezza": 2508,
+     "url": "https://commons.wikimedia.org/wiki/File:Pandoro_di_Verona.jpg"
+    },
+    {
+     "file": "File:Pandoro side 01.jpg",
+     "termino": "pandoro",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Kuebi  = Armin Kübelbeck",
+     "data": "2008-01-19",
+     "larghezza": 1600,
+     "altezza": 1600,
+     "url": "https://commons.wikimedia.org/wiki/File:Pandoro_side_01.jpg"
+    },
+    {
+     "file": "File:Pandoro with slice.jpg",
+     "termino": "pandoro",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wittylama",
+     "data": "2022-12-31 13:53:26",
+     "larghezza": 3288,
+     "altezza": 2767,
+     "url": "https://commons.wikimedia.org/wiki/File:Pandoro_with_slice.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 24,
+   "voce": "grana",
+   "termini": [
+    "g",
+    "G",
+    "r",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Gmkg Grana Flur 11 Kleinosida N.jpg",
+     "termino": "grana",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dirk Bindmann",
+     "data": "2025-01-19 15:16:02",
+     "larghezza": 5976,
+     "altezza": 3984,
+     "url": "https://commons.wikimedia.org/wiki/File:Gmkg_Grana_Flur_11_Kleinosida_N.jpg"
+    },
+    {
+     "file": "File:Grana (Kretzschau), Gasse.jpg",
+     "termino": "grana",
+     "licenza": "CC BY 3.0",
+     "autore": "Dguendel",
+     "data": "2005-10",
+     "larghezza": 2551,
+     "altezza": 1701,
+     "url": "https://commons.wikimedia.org/wiki/File:Grana_(Kretzschau),_Gasse.jpg"
+    },
+    {
+     "file": "File:Grana (Kretzschau), Park.jpg",
+     "termino": "grana",
+     "licenza": "CC BY 3.0",
+     "autore": "Dguendel",
+     "data": "2005-10",
+     "larghezza": 2338,
+     "altezza": 1559,
+     "url": "https://commons.wikimedia.org/wiki/File:Grana_(Kretzschau),_Park.jpg"
+    },
+    {
+     "file": "File:Grana Logo.jpg",
+     "termino": "grana",
+     "licenza": "Public domain",
+     "autore": "Yoonji Roh",
+     "data": "2014-10-01",
+     "larghezza": 1000,
+     "altezza": 1000,
+     "url": "https://commons.wikimedia.org/wiki/File:Grana_Logo.jpg"
+    },
+    {
+     "file": "File:Grana Padano.jpg",
+     "termino": "grana",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Eptalon",
+     "data": "",
+     "larghezza": 3000,
+     "altezza": 2010,
+     "url": "https://commons.wikimedia.org/wiki/File:Grana_Padano.jpg"
+    },
+    {
+     "file": "File:Grana Padano DOP.jpg",
+     "termino": "grana",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Claudia Castaldi",
+     "data": "2018-10-23 16:09:59",
+     "larghezza": 1181,
+     "altezza": 787,
+     "url": "https://commons.wikimedia.org/wiki/File:Grana_Padano_DOP.jpg"
+    },
+    {
+     "file": "File:Grana Padano DOP Riserva.jpg",
+     "termino": "grana",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Claudia Castaldi",
+     "data": "2018-10-23 13:05:10",
+     "larghezza": 1181,
+     "altezza": 787,
+     "url": "https://commons.wikimedia.org/wiki/File:Grana_Padano_DOP_Riserva.jpg"
+    },
+    {
+     "file": "File:Tritia grana 01.jpg",
+     "termino": "grana",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "H. Zell",
+     "data": "2014-11-30",
+     "larghezza": 5500,
+     "altezza": 4394,
+     "url": "https://commons.wikimedia.org/wiki/File:Tritia_grana_01.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 25,
+   "voce": "confetto",
+   "termini": [
+    "c",
+    "c",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:After the wedding (19970307286).jpg",
+     "termino": "confetto",
+     "licenza": "CC BY 2.0",
+     "autore": "Jeremy Segrott  from Cardiff, Wales, UK",
+     "data": "2015-07-23 16:33",
+     "larghezza": 3888,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:After_the_wedding_(19970307286).jpg"
+    },
+    {
+     "file": "File:Coloured 'coriandoli' in the ground.jpg",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Albarubescens",
+     "data": "2021-02-24 12:03:35",
+     "larghezza": 4608,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Coloured_%27coriandoli%27_in_the_ground.jpg"
+    },
+    {
+     "file": "File:Offizielle Eröffnung Straßenparade - ColognePride 2011 (7771).jpg",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Raimond Spekking",
+     "data": "2011-07-03",
+     "larghezza": 2300,
+     "altezza": 2292,
+     "url": "https://commons.wikimedia.org/wiki/File:Offizielle_Er%C3%B6ffnung_Stra%C3%9Fenparade_-_ColognePride_2011_(7771).jpg"
+    },
+    {
+     "file": "File:Passiflora 'Fata Confetto'.jpg",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "HenkvD",
+     "data": "2019-07-11 16:20:05",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Passiflora_%27Fata_Confetto%27.jpg"
+    },
+    {
+     "file": "File:Passiflora 'Fata Confetto' 2015 019.JPG",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Uleli",
+     "data": "2015-08-06",
+     "larghezza": 3888,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Passiflora_%27Fata_Confetto%27_2015_019.JPG"
+    },
+    {
+     "file": "File:Real Valladolid-Valencia CF, 2019-05-18 (98).jpg",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "www.realvalladolid.es",
+     "data": "2019-05-18 18:21:24",
+     "larghezza": 940,
+     "altezza": 735,
+     "url": "https://commons.wikimedia.org/wiki/File:Real_Valladolid-Valencia_CF,_2019-05-18_(98).jpg"
+    },
+    {
+     "file": "File:Rotekreuzstrasse Hannover-Roderbruch, Plastik-Konfetti.jpg",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Bernd Schwabe in Hannover",
+     "data": "17 September 2024 (according to   Exif   data)",
+     "larghezza": 4000,
+     "altezza": 2252,
+     "url": "https://commons.wikimedia.org/wiki/File:Rotekreuzstrasse_Hannover-Roderbruch,_Plastik-Konfetti.jpg"
+    },
+    {
+     "file": "File:ZC15 Jovink 4.JPG",
+     "termino": "confetto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ciell",
+     "data": "2015-07-26 18:26:38",
+     "larghezza": 2816,
+     "altezza": 2112,
+     "url": "https://commons.wikimedia.org/wiki/File:ZC15_Jovink_4.JPG"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 26,
+   "voce": "amaretti",
+   "termini": [
+    "a",
+    "a",
+    "m",
+    "m"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Amaretti alle mandorle di Sassello.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Skimel",
+     "data": "2014-11-24 15:00:50",
+     "larghezza": 480,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Amaretti_alle_mandorle_di_Sassello.jpg"
+    },
+    {
+     "file": "File:Amaretti colorati.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marica Massaro",
+     "data": "2025-07-08 12:00:40",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Amaretti_colorati.jpg"
+    },
+    {
+     "file": "File:Amaretti from Market Hall.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "_e.t",
+     "data": "2008-01-06 20:18:53",
+     "larghezza": 1600,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:Amaretti_from_Market_Hall.jpg"
+    },
+    {
+     "file": "File:Amaretti gobeirne.JPG",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Photograph by  Greg O'Beirne",
+     "data": "2009-01-24 15:07",
+     "larghezza": 1685,
+     "altezza": 1264,
+     "url": "https://commons.wikimedia.org/wiki/File:Amaretti_gobeirne.JPG"
+    },
+    {
+     "file": "File:Amaretti marsicani.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marica Massaro",
+     "data": "2025-07-04 08:52:28",
+     "larghezza": 3884,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Amaretti_marsicani.jpg"
+    },
+    {
+     "file": "File:Amaretti à Primevère 2019.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ltrlg",
+     "data": "2019-02-22 15:42:14",
+     "larghezza": 6000,
+     "altezza": 2560,
+     "url": "https://commons.wikimedia.org/wiki/File:Amaretti_%C3%A0_Primev%C3%A8re_2019.jpg"
+    },
+    {
+     "file": "File:Gray espresso cup with amaretto.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Friedrich Haag",
+     "data": "Taken on 15 March 2024, 17:42:02",
+     "larghezza": 4417,
+     "altezza": 4160,
+     "url": "https://commons.wikimedia.org/wiki/File:Gray_espresso_cup_with_amaretto.jpg"
+    },
+    {
+     "file": "File:Gray espresso cup with amaretto 1.jpg",
+     "termino": "amaretti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Friedrich Haag",
+     "data": "Taken on 15 March 2024, 17:42:02",
+     "larghezza": 4417,
+     "altezza": 4163,
+     "url": "https://commons.wikimedia.org/wiki/File:Gray_espresso_cup_with_amaretto_1.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 27,
+   "voce": "limoncello",
+   "termini": [
+    "l",
+    "l",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Homemade limoncello.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Alessio Damato",
+     "data": "2007-07",
+     "larghezza": 819,
+     "altezza": 2335,
+     "url": "https://commons.wikimedia.org/wiki/File:Homemade_limoncello.jpg"
+    },
+    {
+     "file": "File:Homemade limoncello original.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Alejo2083",
+     "data": "2007-07",
+     "larghezza": 1944,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Homemade_limoncello_original.jpg"
+    },
+    {
+     "file": "File:Limoncello Bottles.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Jgromine1",
+     "data": "2012-05-18",
+     "larghezza": 700,
+     "altezza": 523,
+     "url": "https://commons.wikimedia.org/wiki/File:Limoncello_Bottles.jpg"
+    },
+    {
+     "file": "File:Limoncello Spritz mit Prosecco.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Burkhard Mücke",
+     "data": "2022-05-09 18:07:51",
+     "larghezza": 5100,
+     "altezza": 2863,
+     "url": "https://commons.wikimedia.org/wiki/File:Limoncello_Spritz_mit_Prosecco.jpg"
+    },
+    {
+     "file": "File:Limoncello fron Sorrento 01.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Daniel Ventura",
+     "data": "2004-05-22 05:36:12",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Limoncello_fron_Sorrento_01.jpg"
+    },
+    {
+     "file": "File:Limoncello fron Sorrento 02.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Daniel Ventura",
+     "data": "2004-05-22 05:36:12",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Limoncello_fron_Sorrento_02.jpg"
+    },
+    {
+     "file": "File:Molinari - Limoncello Di Capri Fruit Liqueurs 01.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Indrajit Das",
+     "data": "2024-04-06 14:21:02",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Molinari_-_Limoncello_Di_Capri_Fruit_Liqueurs_01.jpg"
+    },
+    {
+     "file": "File:Molinari - Limoncello Di Capri Fruit Liqueurs 02.jpg",
+     "termino": "limoncello",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Indrajit Das",
+     "data": "2024-04-06 14:21:13",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Molinari_-_Limoncello_Di_Capri_Fruit_Liqueurs_02.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 28,
+   "voce": "lambrusco",
+   "termini": [
+    "l",
+    "L",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Glass of lambrusco (19545132502).jpg",
+     "termino": "lambrusco",
+     "licenza": "CC BY 2.0",
+     "autore": "CCFoodTravel.com",
+     "data": "2015-06-26 03:16",
+     "larghezza": 797,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Glass_of_lambrusco_(19545132502).jpg"
+    },
+    {
+     "file": "File:Harvesting Lambrusco grapes. -blogville -inLombardia (15335527266).jpg",
+     "termino": "lambrusco",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "snoopsmaus  from Dortmund, Germany",
+     "data": "2014-09-26 12:23",
+     "larghezza": 640,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Harvesting_Lambrusco_grapes._-blogville_-inLombardia_(15335527266).jpg"
+    },
+    {
+     "file": "File:Lambrusco (7997576946).jpg",
+     "termino": "lambrusco",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Giorgio Minguzzi  from Italy",
+     "data": "2012-09-17 23:44",
+     "larghezza": 612,
+     "altezza": 612,
+     "url": "https://commons.wikimedia.org/wiki/File:Lambrusco_(7997576946).jpg"
+    },
+    {
+     "file": "File:Lambrusco (8104905591).jpg",
+     "termino": "lambrusco",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Caspar Diederik  from Amsterdam, The Netherlands",
+     "data": "2012-10-14 11:16",
+     "larghezza": 3861,
+     "altezza": 2574,
+     "url": "https://commons.wikimedia.org/wiki/File:Lambrusco_(8104905591).jpg"
+    },
+    {
+     "file": "File:Lambrusco 2.JPG",
+     "termino": "lambrusco",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Marianne Casamance",
+     "data": "2014-05-17 19:20:45",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Lambrusco_2.JPG"
+    },
+    {
+     "file": "File:Lambrusco Maestri.jpg",
+     "termino": "lambrusco",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Justlettersandnumbers",
+     "data": "2016-09-17 13:36:37",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Lambrusco_Maestri.jpg"
+    },
+    {
+     "file": "File:Lambrusco di Modena - Villa Bonaga.JPG",
+     "termino": "lambrusco",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marianne Casamance",
+     "data": "2014-10-15 17:38:07",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Lambrusco_di_Modena_-_Villa_Bonaga.JPG"
+    },
+    {
+     "file": "File:Vino Lambrusco di Sorbara.jpg",
+     "termino": "lambrusco",
+     "licenza": "CC BY 2.0",
+     "autore": "Emanuele Lattarulo",
+     "data": "2023-04-10",
+     "larghezza": 1080,
+     "altezza": 1350,
+     "url": "https://commons.wikimedia.org/wiki/File:Vino_Lambrusco_di_Sorbara.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 29,
+   "voce": "budino",
+   "termini": [
+    "b",
+    "b",
+    "u",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:2026 Xosé Manuel Budiño no TradFest 2026. A Quintana. Santiago de Compostela. Galiza.jpg",
+     "termino": "budino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Luis Miguel Bugallo Sánchez",
+     "data": "2026-07-26 23:16:55",
+     "larghezza": 3685,
+     "altezza": 2457,
+     "url": "https://commons.wikimedia.org/wiki/File:2026_Xos%C3%A9_Manuel_Budi%C3%B1o_no_TradFest_2026._A_Quintana._Santiago_de_Compostela._Galiza.jpg"
+    },
+    {
+     "file": "File:Budino di riso.jpg",
+     "termino": "budino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Anonimo camminatore",
+     "data": "2026-07-10 05:19:32",
+     "larghezza": 2998,
+     "altezza": 2366,
+     "url": "https://commons.wikimedia.org/wiki/File:Budino_di_riso.jpg"
+    },
+    {
+     "file": "File:Budino di riso2.jpg",
+     "termino": "budino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Anonimo camminatore",
+     "data": "2026-07-17 12:52:15",
+     "larghezza": 2395,
+     "altezza": 1594,
+     "url": "https://commons.wikimedia.org/wiki/File:Budino_di_riso2.jpg"
+    },
+    {
+     "file": "File:Cruceiro e igrexa de Budiño, O Pino.JPG",
+     "termino": "budino",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Xosé Antonio",
+     "data": "2014-10-30",
+     "larghezza": 2112,
+     "altezza": 2816,
+     "url": "https://commons.wikimedia.org/wiki/File:Cruceiro_e_igrexa_de_Budi%C3%B1o,_O_Pino.JPG"
+    },
+    {
+     "file": "File:Dolceriso del Moro.jpg",
+     "termino": "budino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Beaest",
+     "data": "2019-04-29",
+     "larghezza": 768,
+     "altezza": 760,
+     "url": "https://commons.wikimedia.org/wiki/File:Dolceriso_del_Moro.jpg"
+    },
+    {
+     "file": "File:Griesmeelpudding met rode bessen saus.jpg",
+     "termino": "budino",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Takeaway",
+     "data": "2012-08-14",
+     "larghezza": 1871,
+     "altezza": 1920,
+     "url": "https://commons.wikimedia.org/wiki/File:Griesmeelpudding_met_rode_bessen_saus.jpg"
+    },
+    {
+     "file": "File:Wit and Wisdom - November 2025 - Sarah Stierch 09.jpg",
+     "termino": "budino",
+     "licenza": "CC0",
+     "autore": "Missvain",
+     "data": "Taken on 27 November 2025",
+     "larghezza": 2811,
+     "altezza": 2108,
+     "url": "https://commons.wikimedia.org/wiki/File:Wit_and_Wisdom_-_November_2025_-_Sarah_Stierch_09.jpg"
+    },
+    {
+     "file": "File:Wit and Wisdom - November 2025 - Sarah Stierch 10.jpg",
+     "termino": "budino",
+     "licenza": "CC0",
+     "autore": "Missvain",
+     "data": "Taken on 27 November 2025",
+     "larghezza": 3450,
+     "altezza": 2654,
+     "url": "https://commons.wikimedia.org/wiki/File:Wit_and_Wisdom_-_November_2025_-_Sarah_Stierch_10.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "IT",
+   "numero": 30,
+   "voce": "pane",
+   "termini": [
+    "p",
+    "p",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Armijn Pane, Lukisan Revolusi Rakjat Indonesia (1949).jpg",
+     "termino": "pane",
+     "licenza": "Public domain",
+     "autore": "Ministry of Information of the Republic of Indonesia",
+     "data": "circa 1920s–1940s",
+     "larghezza": 468,
+     "altezza": 592,
+     "url": "https://commons.wikimedia.org/wiki/File:Armijn_Pane,_Lukisan_Revolusi_Rakjat_Indonesia_(1949).jpg"
+    },
+    {
+     "file": "File:Armijn Pane, Pekan Buku Indonesia 1954, p212.jpg",
+     "termino": "pane",
+     "licenza": "Public domain",
+     "autore": "Uncredited, possibly employee(s) of Gunung Agung",
+     "data": "circa 1954 date QS:P,+1954-00-00T00:00:00Z/9,P1480,Q5727902",
+     "larghezza": 296,
+     "altezza": 440,
+     "url": "https://commons.wikimedia.org/wiki/File:Armijn_Pane,_Pekan_Buku_Indonesia_1954,_p212.jpg"
+    },
+    {
+     "file": "File:Armijn Pane, around 1953.jpg",
+     "termino": "pane",
+     "licenza": "Public domain",
+     "autore": "Uncredited",
+     "data": "circa  1953",
+     "larghezza": 2500,
+     "altezza": 3090,
+     "url": "https://commons.wikimedia.org/wiki/File:Armijn_Pane,_around_1953.jpg"
+    },
+    {
+     "file": "File:Armijn Pane Pertjatoeran Doenia June 1941 p15.jpg",
+     "termino": "pane",
+     "licenza": "Public domain",
+     "autore": "Uncredited",
+     "data": "1941",
+     "larghezza": 786,
+     "altezza": 958,
+     "url": "https://commons.wikimedia.org/wiki/File:Armijn_Pane_Pertjatoeran_Doenia_June_1941_p15.jpg"
+    },
+    {
+     "file": "File:Artigiano in Fiera 2024 - Pane di Altamura.jpg",
+     "termino": "pane",
+     "licenza": "CC BY 4.0",
+     "autore": "Saggittarius A",
+     "data": "2024-11-30 22:23:01",
+     "larghezza": 2736,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Artigiano_in_Fiera_2024_-_Pane_di_Altamura.jpg"
+    },
+    {
+     "file": "File:Home made sour dough bread.jpg",
+     "termino": "pane",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Tomascastelazo",
+     "data": "2020-05-22 17:24:27",
+     "larghezza": 8688,
+     "altezza": 5607,
+     "url": "https://commons.wikimedia.org/wiki/File:Home_made_sour_dough_bread.jpg"
+    },
+    {
+     "file": "File:Pane di Altamura - Artigiano in Fiera 2024.jpg",
+     "termino": "pane",
+     "licenza": "CC BY 4.0",
+     "autore": "Saggittarius A",
+     "data": "2024-11-30 22:26:24",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Pane_di_Altamura_-_Artigiano_in_Fiera_2024.jpg"
+    },
+    {
+     "file": "File:Sanusi Pane, Lukisan Revolusi Rakjat Indonesia (1949).jpg",
+     "termino": "pane",
+     "licenza": "Public domain",
+     "autore": "Ministry of Information of the Republic of Indonesia",
+     "data": "circa 1920s–1940s",
+     "larghezza": 456,
+     "altezza": 588,
+     "url": "https://commons.wikimedia.org/wiki/File:Sanusi_Pane,_Lukisan_Revolusi_Rakjat_Indonesia_(1949).jpg"
+    }
+   ]
+  }
+ ]
+}

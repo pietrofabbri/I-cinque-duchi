@@ -1,0 +1,2810 @@
+{
+ "versione": 1,
+ "data": "2026-10-02",
+ "nota": "Proposte, non scelte, e non ancora guardate a vista: le scelte le fa una persona e si registrano in sorgenti/lingue/attestazione_oggetti.json con etichetta e motivo, come per i ritratti.",
+ "lingue": [
+  "EN"
+ ],
+ "risultati": [
+  {
+   "lingua": "EN",
+   "numero": 1,
+   "voce": "il folk",
+   "termini": [
+    "f",
+    "E",
+    "o",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Bartok recording folk music.jpg",
+     "termino": "folk music",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "1908",
+     "larghezza": 1659,
+     "altezza": 1267,
+     "url": "https://commons.wikimedia.org/wiki/File:Bartok_recording_folk_music.jpg"
+    },
+    {
+     "file": "File:Folk Musician At GBPSSI playing Kabir Bhajans.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Michael T Balonek",
+     "data": "2018-09-08",
+     "larghezza": 2048,
+     "altezza": 1361,
+     "url": "https://commons.wikimedia.org/wiki/File:Folk_Musician_At_GBPSSI_playing_Kabir_Bhajans.jpg"
+    },
+    {
+     "file": "File:Folk music in Gozo.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "AntonellaVella",
+     "data": "2025-03-03 01:40:07",
+     "larghezza": 5596,
+     "altezza": 3730,
+     "url": "https://commons.wikimedia.org/wiki/File:Folk_music_in_Gozo.jpg"
+    },
+    {
+     "file": "File:Folk music on the street.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Aisheyko",
+     "data": "2019-10-14 16:45:03",
+     "larghezza": 3877,
+     "altezza": 2585,
+     "url": "https://commons.wikimedia.org/wiki/File:Folk_music_on_the_street.jpg"
+    },
+    {
+     "file": "File:Jharkhand folk music artist.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Aditya.tiga",
+     "data": "2021-10-12 14:30:05",
+     "larghezza": 3372,
+     "altezza": 3341,
+     "url": "https://commons.wikimedia.org/wiki/File:Jharkhand_folk_music_artist.jpg"
+    },
+    {
+     "file": "File:Man playing Brazilian folk music of Recife.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wilfredor",
+     "data": "2020-01-03 09:54:28",
+     "larghezza": 5663,
+     "altezza": 4158,
+     "url": "https://commons.wikimedia.org/wiki/File:Man_playing_Brazilian_folk_music_of_Recife.jpg"
+    },
+    {
+     "file": "File:Man playing Brazilian folk music on Marco Zero.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wilfredor",
+     "data": "2020-01-03 09:55:50",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Man_playing_Brazilian_folk_music_on_Marco_Zero.jpg"
+    },
+    {
+     "file": "File:Rajasthan Folk Music.jpg",
+     "termino": "folk music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ihsanwayfarer",
+     "data": "2016-10-12 18:04:46",
+     "larghezza": 4272,
+     "altezza": 2848,
+     "url": "https://commons.wikimedia.org/wiki/File:Rajasthan_Folk_Music.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 2,
+   "voce": "il delta blues",
+   "termini": [
+    "d",
+    "D",
+    "e",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Big Jack Johnson - Chicago Blues Festival 2009.jpg",
+     "termino": "delta blues",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Nubiatech",
+     "data": "2009-06-14",
+     "larghezza": 744,
+     "altezza": 795,
+     "url": "https://commons.wikimedia.org/wiki/File:Big_Jack_Johnson_-_Chicago_Blues_Festival_2009.jpg"
+    },
+    {
+     "file": "File:Delta Blues 20051225P1.jpg",
+     "termino": "delta blues",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Bedside Moon",
+     "data": "2005-12-25",
+     "larghezza": 2293,
+     "altezza": 1881,
+     "url": "https://commons.wikimedia.org/wiki/File:Delta_Blues_20051225P1.jpg"
+    },
+    {
+     "file": "File:Delta Blues Bar ^ Grill Courtland CA. - panoramio.jpg",
+     "termino": "delta blues",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Noah_Loverbear",
+     "data": "Taken on 14 June 2014",
+     "larghezza": 2592,
+     "altezza": 1936,
+     "url": "https://commons.wikimedia.org/wiki/File:Delta_Blues_Bar_%5E_Grill_Courtland_CA._-_panoramio.jpg"
+    },
+    {
+     "file": "File:Delta Blues Museum.jpg",
+     "termino": "delta blues",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Joe Mazzola",
+     "data": "2009-07-23 13:19",
+     "larghezza": 4752,
+     "altezza": 3168,
+     "url": "https://commons.wikimedia.org/wiki/File:Delta_Blues_Museum.jpg"
+    },
+    {
+     "file": "File:Delta Blues Museum 2.jpg",
+     "termino": "delta blues",
+     "licenza": "Public domain",
+     "autore": "VitaleBaby  at  English Wikipedia",
+     "data": "2017-06-13",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:Delta_Blues_Museum_2.jpg"
+    },
+    {
+     "file": "File:Delta Blues at Northern Horse Park.jpg",
+     "termino": "delta blues",
+     "licenza": "CC BY 2.0",
+     "autore": "MIKI Yoshihito",
+     "data": "17 October 2015, 13:26:21",
+     "larghezza": 4968,
+     "altezza": 3312,
+     "url": "https://commons.wikimedia.org/wiki/File:Delta_Blues_at_Northern_Horse_Park.jpg"
+    },
+    {
+     "file": "File:LoveInVainBlues.jpg",
+     "termino": "delta blues",
+     "licenza": "Public domain",
+     "autore": "uploaded by  de:Benutzer:Denis Barthel",
+     "data": "2006",
+     "larghezza": 180,
+     "altezza": 180,
+     "url": "https://commons.wikimedia.org/wiki/File:LoveInVainBlues.jpg"
+    },
+    {
+     "file": "File:Sam Chatmon of the Delta Blues.jpg",
+     "termino": "delta blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Saintcroix1",
+     "data": "2015-07-29 21:19:38",
+     "larghezza": 1296,
+     "altezza": 2116,
+     "url": "https://commons.wikimedia.org/wiki/File:Sam_Chatmon_of_the_Delta_Blues.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 3,
+   "voce": "il blues",
+   "termini": [
+    "b",
+    "b",
+    "l",
+    "l"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Beale St. Memphis t-shirt.jpg",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Netmouse",
+     "data": "2023-01-31",
+     "larghezza": 720,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Beale_St._Memphis_t-shirt.jpg"
+    },
+    {
+     "file": "File:Blues alive kolaz.jpg",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Huttershofen",
+     "data": "2022-04-05 13:57:25",
+     "larghezza": 1800,
+     "altezza": 1677,
+     "url": "https://commons.wikimedia.org/wiki/File:Blues_alive_kolaz.jpg"
+    },
+    {
+     "file": "File:Blues de Real de Catorce.jpg",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Igdfpro",
+     "data": "2005-05",
+     "larghezza": 1214,
+     "altezza": 816,
+     "url": "https://commons.wikimedia.org/wiki/File:Blues_de_Real_de_Catorce.jpg"
+    },
+    {
+     "file": "File:Blues vs Crusaders 2008 01.jpg",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ciell",
+     "data": "2008-03-22 18:00:59",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Blues_vs_Crusaders_2008_01.jpg"
+    },
+    {
+     "file": "File:Blues vs Crusaders 2008 02.jpg",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ciell",
+     "data": "2008-03-22 18:40:05",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Blues_vs_Crusaders_2008_02.jpg"
+    },
+    {
+     "file": "File:Blues vs Crusaders 2008 03.jpg",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ciell",
+     "data": "2008-03-22 17:14:45",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Blues_vs_Crusaders_2008_03.jpg"
+    },
+    {
+     "file": "File:StateLibQld 1 135567 New South Wales Rugby League team, first to come north, 1910.jpg",
+     "termino": "blues",
+     "licenza": "Public domain",
+     "autore": "Contributor(s): Melba Studios",
+     "data": "1910",
+     "larghezza": 1000,
+     "altezza": 770,
+     "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_135567_New_South_Wales_Rugby_League_team,_first_to_come_north,_1910.jpg"
+    },
+    {
+     "file": "File:Twelve-Bar Blues Progression-rev.png",
+     "termino": "blues",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yehuda Lichtenstein Music",
+     "data": "2021-05-26",
+     "larghezza": 810,
+     "altezza": 310,
+     "url": "https://commons.wikimedia.org/wiki/File:Twelve-Bar_Blues_Progression-rev.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 4,
+   "voce": "il jazz",
+   "termini": [
+    "j",
+    "j",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Jambalaya 1971 Jazz 1.jpg",
+     "termino": "jazz",
+     "licenza": "Public domain",
+     "autore": "Matt Anderson",
+     "data": "1971",
+     "larghezza": 2676,
+     "altezza": 3588,
+     "url": "https://commons.wikimedia.org/wiki/File:Jambalaya_1971_Jazz_1.jpg"
+    },
+    {
+     "file": "File:Jazz 2017.jpg",
+     "termino": "jazz",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Mike Kalasnik",
+     "data": "2017-04-01 18:12:11",
+     "larghezza": 2496,
+     "altezza": 1664,
+     "url": "https://commons.wikimedia.org/wiki/File:Jazz_2017.jpg"
+    },
+    {
+     "file": "File:Jazz in 2019.jpg",
+     "termino": "jazz",
+     "licenza": "CC BY 2.0",
+     "autore": "Brandon Oliver",
+     "data": "2019-07-19 20:12:50",
+     "larghezza": 2838,
+     "altezza": 3973,
+     "url": "https://commons.wikimedia.org/wiki/File:Jazz_in_2019.jpg"
+    },
+    {
+     "file": "File:Louis Armstrong restored.jpg",
+     "termino": "jazz",
+     "licenza": "Public domain",
+     "autore": "World-Telegram staff photographer",
+     "data": "1953",
+     "larghezza": 3738,
+     "altezza": 2912,
+     "url": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_restored.jpg"
+    },
+    {
+     "file": "File:Skinny Hightower American jazz pianist and poet 01.jpg",
+     "termino": "jazz",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Jazztown4094",
+     "data": "2022-10-23 15:03:20",
+     "larghezza": 3840,
+     "altezza": 5760,
+     "url": "https://commons.wikimedia.org/wiki/File:Skinny_Hightower_American_jazz_pianist_and_poet_01.jpg"
+    },
+    {
+     "file": "File:Two jazz apples.jpg",
+     "termino": "jazz",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Corn cheese",
+     "data": "2022-07-07 19:44:40",
+     "larghezza": 4160,
+     "altezza": 3120,
+     "url": "https://commons.wikimedia.org/wiki/File:Two_jazz_apples.jpg"
+    },
+    {
+     "file": "File:What Is A Jazz Band 1917 1.png",
+     "termino": "jazz",
+     "licenza": "Public domain",
+     "autore": "Unnamed staffer of the Ragtime Review; including conversation with trombonist Eddie B. Edwards",
+     "data": "1917-06",
+     "larghezza": 1210,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:What_Is_A_Jazz_Band_1917_1.png"
+    },
+    {
+     "file": "File:What Is A Jazz Band 1917 2.png",
+     "termino": "jazz",
+     "licenza": "Public domain",
+     "autore": "Unnamed staffer of the Ragtime Review; including conversation with trombonist Eddie B. Edwards",
+     "data": "1917-06",
+     "larghezza": 1242,
+     "altezza": 1457,
+     "url": "https://commons.wikimedia.org/wiki/File:What_Is_A_Jazz_Band_1917_2.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 5,
+   "voce": "il bebop",
+   "termini": [
+    "b",
+    "b",
+    "e",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:\"Bebop-rebop\" early bop phrase.png",
+     "termino": "bebop",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Hyacinth  at  English Wikipedia",
+     "data": "10 August 2009 (original upload date)",
+     "larghezza": 1103,
+     "altezza": 225,
+     "url": "https://commons.wikimedia.org/wiki/File:%22Bebop-rebop%22_early_bop_phrase.png"
+    },
+    {
+     "file": "File:Bop Codou.jpg",
+     "termino": "bebop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "DeuxPlusQuatre",
+     "data": "2018-08-28 10:58:02",
+     "larghezza": 3149,
+     "altezza": 3170,
+     "url": "https://commons.wikimedia.org/wiki/File:Bop_Codou.jpg"
+    },
+    {
+     "file": "File:Bop V of II cliche arpeggio.png",
+     "termino": "bebop",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "User:Hyacinth",
+     "data": "12 December 2010 (original upload date)",
+     "larghezza": 1061,
+     "altezza": 293,
+     "url": "https://commons.wikimedia.org/wiki/File:Bop_V_of_II_cliche_arpeggio.png"
+    },
+    {
+     "file": "File:Bop it.jpg",
+     "termino": "bebop",
+     "licenza": "CC BY 4.0",
+     "autore": "Nv8200p  at  English Wikipedia",
+     "data": "25 June 2005 (original upload date)",
+     "larghezza": 450,
+     "altezza": 290,
+     "url": "https://commons.wikimedia.org/wiki/File:Bop_it.jpg"
+    },
+    {
+     "file": "File:Dizzy Gillespie holding memoir \"To Be or Not to Bop\".jpg",
+     "termino": "bebop",
+     "licenza": "Public domain",
+     "autore": "Gotfryd, Bernard, photographer",
+     "data": "1980-01-01",
+     "larghezza": 3228,
+     "altezza": 4002,
+     "url": "https://commons.wikimedia.org/wiki/File:Dizzy_Gillespie_holding_memoir_%22To_Be_or_Not_to_Bop%22.jpg"
+    },
+    {
+     "file": "File:Howard McGhee, Brick Fleagle and Miles Davis, ca September 1947 (Gottlieb).jpg",
+     "termino": "bebop",
+     "licenza": "Public domain",
+     "autore": "William P. Gottlieb",
+     "data": "circa September 1947 date QS:P,+1947-09-00T00:00:00Z/10,P148",
+     "larghezza": 4895,
+     "altezza": 5130,
+     "url": "https://commons.wikimedia.org/wiki/File:Howard_McGhee,_Brick_Fleagle_and_Miles_Davis,_ca_September_1947_(Gottlieb).jpg"
+    },
+    {
+     "file": "File:Rosa Be-Bop 1zz.jpg",
+     "termino": "bebop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Photo by David J. Stang",
+     "data": "2007-06-06",
+     "larghezza": 3504,
+     "altezza": 2336,
+     "url": "https://commons.wikimedia.org/wiki/File:Rosa_Be-Bop_1zz.jpg"
+    },
+    {
+     "file": "File:Rosa Be-Bop 2zz.jpg",
+     "termino": "bebop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Photo by David J. Stang",
+     "data": "2007-06-06",
+     "larghezza": 3504,
+     "altezza": 2336,
+     "url": "https://commons.wikimedia.org/wiki/File:Rosa_Be-Bop_2zz.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 6,
+   "voce": "il rock and roll",
+   "termini": [
+    "r",
+    "r",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Beijing dancers-20110104-RM-114449.jpg",
+     "termino": "rock and roll",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ermell",
+     "data": "2011-01-04 11:44:49",
+     "larghezza": 1906,
+     "altezza": 2945,
+     "url": "https://commons.wikimedia.org/wiki/File:Beijing_dancers-20110104-RM-114449.jpg"
+    },
+    {
+     "file": "File:Beijing dancers-20110104-RM-135251.jpg",
+     "termino": "rock and roll",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ermell",
+     "data": "2011-01-04 13:52:51",
+     "larghezza": 3563,
+     "altezza": 2934,
+     "url": "https://commons.wikimedia.org/wiki/File:Beijing_dancers-20110104-RM-135251.jpg"
+    },
+    {
+     "file": "File:KCLV & KTOM Radio Station Studio exhibit - Norman & Vi Petty Rock & Roll Museum, Clovis, NM (31661097544) (2017-01-17 by Greg Gjerdingen).jpg",
+     "termino": "rock and roll",
+     "licenza": "CC BY 2.0",
+     "autore": "Greg Gjerdingen  from Willmar, USA",
+     "data": "2017-01-17 15:33",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:KCLV_%26_KTOM_Radio_Station_Studio_exhibit_-_Norman_%26_Vi_Petty_Rock_%26_Roll_Museum,_Clovis,_NM_(31661097544)_(2017-01-17_by_Greg_Gjerdingen).jpg"
+    },
+    {
+     "file": "File:Rock-and-roll-hall-of-fame-sunset.jpg",
+     "termino": "rock and roll",
+     "licenza": "Public domain",
+     "autore": "Derek Jensen ( Tysto )",
+     "data": "2006-04-19",
+     "larghezza": 2500,
+     "altezza": 1629,
+     "url": "https://commons.wikimedia.org/wiki/File:Rock-and-roll-hall-of-fame-sunset.jpg"
+    },
+    {
+     "file": "File:Rock and Roll Bassline.png",
+     "termino": "rock and roll",
+     "licenza": "CC0",
+     "autore": "Dave Mack01",
+     "data": "2025-07-23",
+     "larghezza": 2048,
+     "altezza": 1680,
+     "url": "https://commons.wikimedia.org/wiki/File:Rock_and_Roll_Bassline.png"
+    },
+    {
+     "file": "File:Rock and Roll Hall of Fame, May 2016.jpg",
+     "termino": "rock and roll",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "MusikAnimal",
+     "data": "2016-05-26 10:32:34",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Rock_and_Roll_Hall_of_Fame,_May_2016.jpg"
+    },
+    {
+     "file": "File:Rock and roll rose 2020.jpg",
+     "termino": "rock and roll",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Nathan Williams, Portland Oregon",
+     "data": "2020-06-06 11:22:32",
+     "larghezza": 1482,
+     "altezza": 1170,
+     "url": "https://commons.wikimedia.org/wiki/File:Rock_and_roll_rose_2020.jpg"
+    },
+    {
+     "file": "File:Sex-drugs-and-rock-n-roll-.gif",
+     "termino": "rock and roll",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "KristaLeanne",
+     "data": "2011-11-03",
+     "larghezza": 764,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Sex-drugs-and-rock-n-roll-.gif"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 7,
+   "voce": "il rock",
+   "termini": [
+    "r",
+    "r",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:\"Band (rock and pop)- Iranian Band Musician (Mortaz Band) - Mostafa meraji - Photography with Canon- Creative Commons Wikipedia\" 03.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mostafameraji",
+     "data": "2025-09-30 20:38:39",
+     "larghezza": 4000,
+     "altezza": 2667,
+     "url": "https://commons.wikimedia.org/wiki/File:%22Band_(rock_and_pop)-_Iranian_Band_Musician_(Mortaz_Band)_-_Mostafa_meraji_-_Photography_with_Canon-_Creative_Commons_Wikipedia%22_03.jpg"
+    },
+    {
+     "file": "File:Progressive Rock in Iran Progressive rock musicians Iranian Rock Band Canon photography 06.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mostafameraji",
+     "data": "2025-12-12 00:39:39",
+     "larghezza": 6240,
+     "altezza": 4160,
+     "url": "https://commons.wikimedia.org/wiki/File:Progressive_Rock_in_Iran_Progressive_rock_musicians_Iranian_Rock_Band_Canon_photography_06.jpg"
+    },
+    {
+     "file": "File:Progressive Rock in Iran Progressive rock musicians Iranian Rock Band Canon photography 13.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mostafameraji",
+     "data": "2025-12-12 00:42:58",
+     "larghezza": 4160,
+     "altezza": 6240,
+     "url": "https://commons.wikimedia.org/wiki/File:Progressive_Rock_in_Iran_Progressive_rock_musicians_Iranian_Rock_Band_Canon_photography_13.jpg"
+    },
+    {
+     "file": "File:Progressive Rock in Iran Progressive rock musicians Iranian Rock Band Canon photography 35.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mostafameraji",
+     "data": "2025-12-12 01:29:25",
+     "larghezza": 6240,
+     "altezza": 4160,
+     "url": "https://commons.wikimedia.org/wiki/File:Progressive_Rock_in_Iran_Progressive_rock_musicians_Iranian_Rock_Band_Canon_photography_35.jpg"
+    },
+    {
+     "file": "File:Progressive Rock in Iran Progressive rock musicians Iranian Rock Band Canon photography 42.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mostafameraji",
+     "data": "2025-12-12 01:38:06",
+     "larghezza": 6240,
+     "altezza": 4160,
+     "url": "https://commons.wikimedia.org/wiki/File:Progressive_Rock_in_Iran_Progressive_rock_musicians_Iranian_Rock_Band_Canon_photography_42.jpg"
+    },
+    {
+     "file": "File:Red Rock Guitar.png",
+     "termino": "rock music",
+     "licenza": "CC0",
+     "autore": "BrandonWilson1",
+     "data": "2024-02-04",
+     "larghezza": 703,
+     "altezza": 249,
+     "url": "https://commons.wikimedia.org/wiki/File:Red_Rock_Guitar.png"
+    },
+    {
+     "file": "File:Rock Nocą - Koncert OOBE.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Jakuboll",
+     "data": "2014-01-01",
+     "larghezza": 3000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Rock_Noc%C4%85_-_Koncert_OOBE.jpg"
+    },
+    {
+     "file": "File:Sukalski Rock Band.jpg",
+     "termino": "rock music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sukalski",
+     "data": "2021-04-15",
+     "larghezza": 800,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Sukalski_Rock_Band.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 8,
+   "voce": "il punk",
+   "termini": [
+    "p",
+    "p",
+    "u",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Daft Punk in 2013.jpg",
+     "termino": "punk",
+     "licenza": "CC BY 4.0",
+     "autore": "Sony Music Entertainment",
+     "data": "2013-04-20 02:36:02",
+     "larghezza": 3332,
+     "altezza": 2500,
+     "url": "https://commons.wikimedia.org/wiki/File:Daft_Punk_in_2013.jpg"
+    },
+    {
+     "file": "File:Daft Punk in 2013 2- centered.jpg",
+     "termino": "punk",
+     "licenza": "CC BY 4.0",
+     "autore": "Sony Music Entertainment, additional editing by  W.carter",
+     "data": "2013-04-20 02:42:21",
+     "larghezza": 3600,
+     "altezza": 2700,
+     "url": "https://commons.wikimedia.org/wiki/File:Daft_Punk_in_2013_2-_centered.jpg"
+    },
+    {
+     "file": "File:HC Punk Más Allá de la Gral Paz.jpg",
+     "termino": "punk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "HCPunkMasAlla",
+     "data": "2023-05-08",
+     "larghezza": 735,
+     "altezza": 735,
+     "url": "https://commons.wikimedia.org/wiki/File:HC_Punk_M%C3%A1s_All%C3%A1_de_la_Gral_Paz.jpg"
+    },
+    {
+     "file": "File:PunkRockFestival.png",
+     "termino": "punk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Punk Rock Festival",
+     "data": "2012-05-20",
+     "larghezza": 559,
+     "altezza": 235,
+     "url": "https://commons.wikimedia.org/wiki/File:PunkRockFestival.png"
+    },
+    {
+     "file": "File:PunkRockFestival2015.jpg",
+     "termino": "punk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Cooperativa.cl",
+     "data": "2016-04-27 16:13:33",
+     "larghezza": 649,
+     "altezza": 365,
+     "url": "https://commons.wikimedia.org/wiki/File:PunkRockFestival2015.jpg"
+    },
+    {
+     "file": "File:Punk Patch pants.jpg",
+     "termino": "punk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kielich25",
+     "data": "2025-04-01 21:19:57",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Punk_Patch_pants.jpg"
+    },
+    {
+     "file": "File:Punk at SoCal Regionals 2018.jpg",
+     "termino": "punk",
+     "licenza": "CC BY 3.0",
+     "autore": "Echo Fox",
+     "data": "2018-09-21",
+     "larghezza": 616,
+     "altezza": 776,
+     "url": "https://commons.wikimedia.org/wiki/File:Punk_at_SoCal_Regionals_2018.jpg"
+    },
+    {
+     "file": "File:Punker op BOA.jpg",
+     "termino": "punk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Someone Not Awful",
+     "data": "2016-09-10 17:56:10",
+     "larghezza": 5312,
+     "altezza": 2988,
+     "url": "https://commons.wikimedia.org/wiki/File:Punker_op_BOA.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 9,
+   "voce": "l'hip hop",
+   "termini": [
+    "h",
+    "h",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Boombox hip hop festival 2011 sticker.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Someone Not Awful",
+     "data": "2016-10-01 17:08:18",
+     "larghezza": 5312,
+     "altezza": 2988,
+     "url": "https://commons.wikimedia.org/wiki/File:Boombox_hip_hop_festival_2011_sticker.jpg"
+    },
+    {
+     "file": "File:Entrance of Contact High - A Visual History of Hip Hop exhibit at The Annenberg Space For Photography April 2019 photo by Ithaka Darin Pappas.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "IthakaDarinPappas",
+     "data": "2019-05",
+     "larghezza": 2040,
+     "altezza": 1800,
+     "url": "https://commons.wikimedia.org/wiki/File:Entrance_of_Contact_High_-_A_Visual_History_of_Hip_Hop_exhibit_at_The_Annenberg_Space_For_Photography_April_2019_photo_by_Ithaka_Darin_Pappas.jpg"
+    },
+    {
+     "file": "File:HIP HOP CULTURE OF ALGERIA.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Muhammed amine benloulou",
+     "data": "2023-09-03",
+     "larghezza": 1644,
+     "altezza": 1440,
+     "url": "https://commons.wikimedia.org/wiki/File:HIP_HOP_CULTURE_OF_ALGERIA.jpg"
+    },
+    {
+     "file": "File:HIP HOP DZ.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Muhammed amine benloulou",
+     "data": "2023-09-03",
+     "larghezza": 1444,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:HIP_HOP_DZ.jpg"
+    },
+    {
+     "file": "File:Hip-hop togolais - coiffure.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Komavo",
+     "data": "2023-03-19 17:24:40",
+     "larghezza": 1440,
+     "altezza": 2560,
+     "url": "https://commons.wikimedia.org/wiki/File:Hip-hop_togolais_-_coiffure.jpg"
+    },
+    {
+     "file": "File:Hip hop dance.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Muhammed amine benloulou",
+     "data": "2017-12-09 16:24:56",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Hip_hop_dance.jpg"
+    },
+    {
+     "file": "File:Soiree hip hop 3367 moy.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Photo by  Sandrine Dole",
+     "data": "2010-12-07 16:09:41",
+     "larghezza": 1280,
+     "altezza": 853,
+     "url": "https://commons.wikimedia.org/wiki/File:Soiree_hip_hop_3367_moy.jpg"
+    },
+    {
+     "file": "File:Twizm Whyte Piece hip-hop music artist.jpg",
+     "termino": "hip hop",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "TwpFcr247",
+     "data": "2018-10-18 20:39:55",
+     "larghezza": 6016,
+     "altezza": 4016,
+     "url": "https://commons.wikimedia.org/wiki/File:Twizm_Whyte_Piece_hip-hop_music_artist.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 10,
+   "voce": "il rap",
+   "termini": [
+    "r",
+    "r",
+    "a",
+    "a"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Rap allstars.jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 22:30:00",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars.jpg"
+    },
+    {
+     "file": "File:Rap allstars (2).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 20:18:24",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(2).jpg"
+    },
+    {
+     "file": "File:Rap allstars (3).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 20:18:30",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(3).jpg"
+    },
+    {
+     "file": "File:Rap allstars (4).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 20:53:54",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(4).jpg"
+    },
+    {
+     "file": "File:Rap allstars (5).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 21:35:03",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(5).jpg"
+    },
+    {
+     "file": "File:Rap allstars (6).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 22:14:24",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(6).jpg"
+    },
+    {
+     "file": "File:Rap allstars (7).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 22:23:12",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(7).jpg"
+    },
+    {
+     "file": "File:Rap allstars (9).jpg",
+     "termino": "rap",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elekes Andor",
+     "data": "2022-05-06 20:18:16",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Rap_allstars_(9).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 11,
+   "voce": "il soul",
+   "termini": [
+    "s",
+    "s",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:945 K-Soul 2010.png",
+     "termino": "soul music",
+     "licenza": "Public domain",
+     "autore": "Radio One",
+     "data": "2015",
+     "larghezza": 208,
+     "altezza": 52,
+     "url": "https://commons.wikimedia.org/wiki/File:945_K-Soul_2010.png"
+    },
+    {
+     "file": "File:Ambigram Soul of Laos - animated.gif",
+     "termino": "soul music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2012-03-04",
+     "larghezza": 1000,
+     "altezza": 1000,
+     "url": "https://commons.wikimedia.org/wiki/File:Ambigram_Soul_of_Laos_-_animated.gif"
+    },
+    {
+     "file": "File:Cina Soul at 3 Music Awards 22.jpg",
+     "termino": "soul music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Owula kpakpo",
+     "data": "2022-03-26 21:35:33",
+     "larghezza": 4160,
+     "altezza": 6240,
+     "url": "https://commons.wikimedia.org/wiki/File:Cina_Soul_at_3_Music_Awards_22.jpg"
+    },
+    {
+     "file": "File:Cina Soul at 3 Music Awards 22 10.jpg",
+     "termino": "soul music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Owula kpakpo",
+     "data": "2022-03-26 21:08:46",
+     "larghezza": 4160,
+     "altezza": 6240,
+     "url": "https://commons.wikimedia.org/wiki/File:Cina_Soul_at_3_Music_Awards_22_10.jpg"
+    },
+    {
+     "file": "File:Cina Soul at 3 Music Awards 22 8.jpg",
+     "termino": "soul music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Owula kpakpo",
+     "data": "2022-03-26 21:08:41",
+     "larghezza": 4160,
+     "altezza": 6240,
+     "url": "https://commons.wikimedia.org/wiki/File:Cina_Soul_at_3_Music_Awards_22_8.jpg"
+    },
+    {
+     "file": "File:Flames on the Street and a Symbol of Struggle and Soul Healing.jpg",
+     "termino": "soul music",
+     "licenza": "CC0",
+     "autore": "Coastarica",
+     "data": "2025-07-18 18:39:51",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Flames_on_the_Street_and_a_Symbol_of_Struggle_and_Soul_Healing.jpg"
+    },
+    {
+     "file": "File:Heart and Soul nebulae.jpg",
+     "termino": "soul music",
+     "licenza": "Public domain",
+     "autore": "NASA/JPL-Caltech/UCLA",
+     "data": "2010-05-24",
+     "larghezza": 7252,
+     "altezza": 5142,
+     "url": "https://commons.wikimedia.org/wiki/File:Heart_and_Soul_nebulae.jpg"
+    },
+    {
+     "file": "File:Little Mike and the Sweet Soul Music Band.jpg",
+     "termino": "soul music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Storolle",
+     "data": "2020-04-11 01:12:05",
+     "larghezza": 1000,
+     "altezza": 1000,
+     "url": "https://commons.wikimedia.org/wiki/File:Little_Mike_and_the_Sweet_Soul_Music_Band.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 12,
+   "voce": "il funk",
+   "termini": [
+    "f",
+    "f",
+    "u",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:DC Funk Parade 2015, U Street (17184291200).jpg",
+     "termino": "funk",
+     "licenza": "CC BY 2.0",
+     "autore": "S Pakhrin  from DC, USA",
+     "data": "2015-05-02 14:52",
+     "larghezza": 3680,
+     "altezza": 5520,
+     "url": "https://commons.wikimedia.org/wiki/File:DC_Funk_Parade_2015,_U_Street_(17184291200).jpg"
+    },
+    {
+     "file": "File:DC Funk Parade 2016 (26820784172).jpg",
+     "termino": "funk",
+     "licenza": "CC BY 2.0",
+     "autore": "S Pakhrin  from DC, USA",
+     "data": "2016-05-07 12:55",
+     "larghezza": 5520,
+     "altezza": 3680,
+     "url": "https://commons.wikimedia.org/wiki/File:DC_Funk_Parade_2016_(26820784172).jpg"
+    },
+    {
+     "file": "File:Funk, Nebraska downtown 1.JPG",
+     "termino": "funk",
+     "licenza": "CC0",
+     "autore": "Ammodramus",
+     "data": "2012-04-30",
+     "larghezza": 2426,
+     "altezza": 1635,
+     "url": "https://commons.wikimedia.org/wiki/File:Funk,_Nebraska_downtown_1.JPG"
+    },
+    {
+     "file": "File:Funk Division.jpg",
+     "termino": "funk",
+     "licenza": "CC0",
+     "autore": "Mark Duffus",
+     "data": "2018-04-26",
+     "larghezza": 800,
+     "altezza": 598,
+     "url": "https://commons.wikimedia.org/wiki/File:Funk_Division.jpg"
+    },
+    {
+     "file": "File:Jazz-funk band durning a concert.jpg",
+     "termino": "funk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "KTadeáš",
+     "data": "2021-10-23 20:47:18",
+     "larghezza": 5568,
+     "altezza": 3374,
+     "url": "https://commons.wikimedia.org/wiki/File:Jazz-funk_band_durning_a_concert.jpg"
+    },
+    {
+     "file": "File:Pedro Morales, Terry Funk and Dory Funk Sr.jpg",
+     "termino": "funk",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "1973",
+     "larghezza": 3424,
+     "altezza": 1948,
+     "url": "https://commons.wikimedia.org/wiki/File:Pedro_Morales,_Terry_Funk_and_Dory_Funk_Sr.jpg"
+    },
+    {
+     "file": "File:SUPER BAD The Band.jpg",
+     "termino": "funk",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marco Caponi",
+     "data": "2018-06-28",
+     "larghezza": 2362,
+     "altezza": 1575,
+     "url": "https://commons.wikimedia.org/wiki/File:SUPER_BAD_The_Band.jpg"
+    },
+    {
+     "file": "File:TRUDOKU-Logo (funk).tif",
+     "termino": "funk",
+     "licenza": "Public domain",
+     "autore": "TRUDOKU-Team",
+     "data": "2019-09-16",
+     "larghezza": 1080,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:TRUDOKU-Logo_(funk).tif"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 13,
+   "voce": "il reggae",
+   "termini": [
+    "r",
+    "r",
+    "e",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Buju Banton.jpg",
+     "termino": "reggae",
+     "licenza": "CC BY 2.0",
+     "autore": "Ville Miettinen  from Helsinki, Finland",
+     "data": "2006-07-15 20:15",
+     "larghezza": 375,
+     "altezza": 500,
+     "url": "https://commons.wikimedia.org/wiki/File:Buju_Banton.jpg"
+    },
+    {
+     "file": "File:LION REGGAE.jpg",
+     "termino": "reggae",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "LionReggaeOfficial",
+     "data": "2018-11-09 22:56:52",
+     "larghezza": 2916,
+     "altezza": 3543,
+     "url": "https://commons.wikimedia.org/wiki/File:LION_REGGAE.jpg"
+    },
+    {
+     "file": "File:LION REGGAE live.jpg",
+     "termino": "reggae",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "LionReggaeOfficial",
+     "data": "2018-11-09 22:56:52",
+     "larghezza": 832,
+     "altezza": 1011,
+     "url": "https://commons.wikimedia.org/wiki/File:LION_REGGAE_live.jpg"
+    },
+    {
+     "file": "File:Rebelution Reggae Band.jpg",
+     "termino": "reggae",
+     "licenza": "CC BY 2.0",
+     "autore": "Abby Gillardi",
+     "data": "Taken on 23 July 2014, 07:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Rebelution_Reggae_Band.jpg"
+    },
+    {
+     "file": "File:Reggae Artist Mike Love.jpg",
+     "termino": "reggae",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Anthony Baratier",
+     "data": "2023-08-04 22:17:40",
+     "larghezza": 1896,
+     "altezza": 2528,
+     "url": "https://commons.wikimedia.org/wiki/File:Reggae_Artist_Mike_Love.jpg"
+    },
+    {
+     "file": "File:The-Process-Reggae-Band.jpg",
+     "termino": "reggae",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "David Asher",
+     "data": "2013-06-09",
+     "larghezza": 677,
+     "altezza": 578,
+     "url": "https://commons.wikimedia.org/wiki/File:The-Process-Reggae-Band.jpg"
+    },
+    {
+     "file": "File:“Trench Town Rock”： Reggae Music, Landscape Inscription, and the Making of Place in Kingston, Jamaica Figure 1.png",
+     "termino": "reggae",
+     "licenza": "CC BY 4.0",
+     "autore": "Kevon Rhiney and Romain Cruse",
+     "data": "2012",
+     "larghezza": 637,
+     "altezza": 520,
+     "url": "https://commons.wikimedia.org/wiki/File:%E2%80%9CTrench_Town_Rock%E2%80%9D%EF%BC%9A_Reggae_Music,_Landscape_Inscription,_and_the_Making_of_Place_in_Kingston,_Jamaica_Figure_1.png"
+    },
+    {
+     "file": "File:“Trench Town Rock”： Reggae Music, Landscape Inscription, and the Making of Place in Kingston, Jamaica Figure 10a.png",
+     "termino": "reggae",
+     "licenza": "CC BY 4.0",
+     "autore": "Kevon Rhiney and Romain Cruse",
+     "data": "2012",
+     "larghezza": 306,
+     "altezza": 282,
+     "url": "https://commons.wikimedia.org/wiki/File:%E2%80%9CTrench_Town_Rock%E2%80%9D%EF%BC%9A_Reggae_Music,_Landscape_Inscription,_and_the_Making_of_Place_in_Kingston,_Jamaica_Figure_10a.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 14,
+   "voce": "lo ska",
+   "termini": [
+    "s",
+    "s",
+    "k",
+    "k"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Meerkat National Park, Square Kilometre Array radio telescope facility.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "Square Kilometre Array Organisation (SKAO)",
+     "data": "2013-10-18 16:58:20",
+     "larghezza": 1202,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Meerkat_National_Park,_Square_Kilometre_Array_radio_telescope_facility.jpg"
+    },
+    {
+     "file": "File:SKA-MPI-3.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "Square Kilometre Array Organisation (SKAO)",
+     "data": "2019-04-24 07:31:37",
+     "larghezza": 8256,
+     "altezza": 5504,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA-MPI-3.jpg"
+    },
+    {
+     "file": "File:SKA-MPI-4.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "Square Kilometre Array Organisation (SKAO)",
+     "data": "2019-04-24 09:19:06",
+     "larghezza": 8256,
+     "altezza": 5504,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA-MPI-4.jpg"
+    },
+    {
+     "file": "File:SKA-MPI-5.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "Square Kilometre Array Organisation (SKAO)",
+     "data": "2019-04-24 08:55:19",
+     "larghezza": 7841,
+     "altezza": 5227,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA-MPI-5.jpg"
+    },
+    {
+     "file": "File:SKA-MPI-6.jpg",
+     "termino": "ska",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "SKAO / Square Kilometre Array Organisation (SKAO) / Gerhard Swart",
+     "data": "2019-10-09 10:18:28",
+     "larghezza": 3456,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA-MPI-6.jpg"
+    },
+    {
+     "file": "File:SKA-MPI.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "Square Kilometre Array Organisation (SKAO)",
+     "data": "2019-04-24 08:15:04",
+     "larghezza": 7844,
+     "altezza": 5229,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA-MPI.jpg"
+    },
+    {
+     "file": "File:SKA Low Frequency Aperture Array – Close up – Australia.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "SKA Organisation",
+     "data": "2015-03-20",
+     "larghezza": 5000,
+     "altezza": 5000,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA_Low_Frequency_Aperture_Array_%E2%80%93_Close_up_%E2%80%93_Australia.jpg"
+    },
+    {
+     "file": "File:SKA overview.jpg",
+     "termino": "ska",
+     "licenza": "CC BY 3.0",
+     "autore": "SKA Project Development Office and Swinburne Astronomy Productions",
+     "data": "2010-08-27",
+     "larghezza": 5000,
+     "altezza": 2735,
+     "url": "https://commons.wikimedia.org/wiki/File:SKA_overview.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 15,
+   "voce": "il country",
+   "termini": [
+    "c",
+    "c",
+    "o",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:BUCKLE N BOOTS performing live at The British Country Music Festival 2025.jpg",
+     "termino": "country music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "BeeMusicUK",
+     "data": "2025-08-30 13:20:25",
+     "larghezza": 6048,
+     "altezza": 4024,
+     "url": "https://commons.wikimedia.org/wiki/File:BUCKLE_N_BOOTS_performing_live_at_The_British_Country_Music_Festival_2025.jpg"
+    },
+    {
+     "file": "File:Bee Ounsworth Country Singer and Songwriter.jpg",
+     "termino": "country music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "BeeMusicUK",
+     "data": "2026-04-04 19:43:34",
+     "larghezza": 6143,
+     "altezza": 4095,
+     "url": "https://commons.wikimedia.org/wiki/File:Bee_Ounsworth_Country_Singer_and_Songwriter.jpg"
+    },
+    {
+     "file": "File:Bee Ounsworth UK Country Artist from BUCKLE N BOOTS.jpg",
+     "termino": "country music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "BeeMusicUK",
+     "data": "2026-04-04 18:34:14",
+     "larghezza": 4768,
+     "altezza": 4095,
+     "url": "https://commons.wikimedia.org/wiki/File:Bee_Ounsworth_UK_Country_Artist_from_BUCKLE_N_BOOTS.jpg"
+    },
+    {
+     "file": "File:Bee Ounsworth UK Country Artist from BUCKLE N BOOTS 2026.jpg",
+     "termino": "country music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "BeeMusicUK",
+     "data": "2026-05-05 18:41:03",
+     "larghezza": 4259,
+     "altezza": 5478,
+     "url": "https://commons.wikimedia.org/wiki/File:Bee_Ounsworth_UK_Country_Artist_from_BUCKLE_N_BOOTS_2026.jpg"
+    },
+    {
+     "file": "File:Midwest Country Music Theater, Sandstone, Minnesota-01.jpg",
+     "termino": "country music",
+     "licenza": "CC BY 4.0",
+     "autore": "Myotus",
+     "data": "2025-08-08 14:32:18",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Midwest_Country_Music_Theater,_Sandstone,_Minnesota-01.jpg"
+    },
+    {
+     "file": "File:Midwest Country Music Theater, Sandstone, Minnesota-02.jpg",
+     "termino": "country music",
+     "licenza": "CC BY 4.0",
+     "autore": "Myotus",
+     "data": "2025-08-08 14:32:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Midwest_Country_Music_Theater,_Sandstone,_Minnesota-02.jpg"
+    },
+    {
+     "file": "File:The corn skirt by fashion designer Barrie Kaufman for country singer Hailey Whitters, Country Music Hall of Fame and Museum.jpg",
+     "termino": "country music",
+     "licenza": "CC0",
+     "autore": "Trekinasibyllinedream",
+     "data": "2024-01-19",
+     "larghezza": 600,
+     "altezza": 600,
+     "url": "https://commons.wikimedia.org/wiki/File:The_corn_skirt_by_fashion_designer_Barrie_Kaufman_for_country_singer_Hailey_Whitters,_Country_Music_Hall_of_Fame_and_Museum.jpg"
+    },
+    {
+     "file": "File:Yulie Ruth en San Pedro Country Music Festival.jpg",
+     "termino": "country music",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Vane Ruth79",
+     "data": "2016-09-23 22:31:49",
+     "larghezza": 3987,
+     "altezza": 2641,
+     "url": "https://commons.wikimedia.org/wiki/File:Yulie_Ruth_en_San_Pedro_Country_Music_Festival.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 16,
+   "voce": "la musica classica",
+   "termini": [
+    "m",
+    "o",
+    "u",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:An Indian classical music performance.jpg",
+     "termino": "musica classica",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Karen Blaha  from Charlottesville, VA",
+     "data": "2007-10-27 19:55",
+     "larghezza": 2330,
+     "altezza": 1553,
+     "url": "https://commons.wikimedia.org/wiki/File:An_Indian_classical_music_performance.jpg"
+    },
+    {
+     "file": "File:Bengal-ITC SRA Classical Music Festival 2016.jpg",
+     "termino": "musica classica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Nahid Sultan",
+     "data": "2016-11-28 22:13:07",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Bengal-ITC_SRA_Classical_Music_Festival_2016.jpg"
+    },
+    {
+     "file": "File:Performance of Sarodiya Brothers at SwarDarbar Music Concert.png",
+     "termino": "musica classica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Sarodiyabrothers",
+     "data": "2024-04-02",
+     "larghezza": 1172,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Performance_of_Sarodiya_Brothers_at_SwarDarbar_Music_Concert.png"
+    },
+    {
+     "file": "File:Roger Rooman classical music composer.jpg",
+     "termino": "musica classica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Bianca Rooman",
+     "data": "1/2/1990",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Roger_Rooman_classical_music_composer.jpg"
+    },
+    {
+     "file": "File:Serata estiva nel Museo Aufidenate con concerto di musica classica.jpg",
+     "termino": "musica classica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mario Rainaldi",
+     "data": "2023-08-18 21:34:24",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Serata_estiva_nel_Museo_Aufidenate_con_concerto_di_musica_classica.jpg"
+    },
+    {
+     "file": "File:Shounak Roy being awarded for The Doverlane Music Conference Talent Search Contest.png",
+     "termino": "musica classica",
+     "licenza": "CC0",
+     "autore": "Sarodiyabrothers",
+     "data": "03.09.2024",
+     "larghezza": 1000,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Shounak_Roy_being_awarded_for_The_Doverlane_Music_Conference_Talent_Search_Contest.png"
+    },
+    {
+     "file": "File:The Doverlane Music Conference Winner's Award.png",
+     "termino": "musica classica",
+     "licenza": "CC0",
+     "autore": "Sarodiyabrothers",
+     "data": "2024-08-22",
+     "larghezza": 1000,
+     "altezza": 572,
+     "url": "https://commons.wikimedia.org/wiki/File:The_Doverlane_Music_Conference_Winner%27s_Award.png"
+    },
+    {
+     "file": "File:Timeline Classical music composers.png",
+     "termino": "musica classica",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "",
+     "larghezza": 1035,
+     "altezza": 1742,
+     "url": "https://commons.wikimedia.org/wiki/File:Timeline_Classical_music_composers.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 17,
+   "voce": "l'opera",
+   "termini": [
+    "o",
+    "o",
+    "p",
+    "p"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Museo Cinema Torino - Dario Argento - Opera, crow.jpg",
+     "termino": "opera",
+     "licenza": "CC BY 4.0",
+     "autore": "SunOfErat",
+     "data": "2022-08-28 14:44:30",
+     "larghezza": 3024,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Museo_Cinema_Torino_-_Dario_Argento_-_Opera,_crow.jpg"
+    },
+    {
+     "file": "File:Opera Garnier Grand Escalier.jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Benh LIEU SONG",
+     "data": "2007-06-29",
+     "larghezza": 2000,
+     "altezza": 1596,
+     "url": "https://commons.wikimedia.org/wiki/File:Opera_Garnier_Grand_Escalier.jpg"
+    },
+    {
+     "file": "File:Opera at Llandudno (1531694).jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Geoff Charles",
+     "data": "20 August 1969 date QS:P571,+1969-08-20T00:00:00Z/11",
+     "larghezza": 1822,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:Opera_at_Llandudno_(1531694).jpg"
+    },
+    {
+     "file": "File:Opera at Llandudno (1531739).jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Geoff Charles",
+     "data": "20 August 1969 date QS:P571,+1969-08-20T00:00:00Z/11",
+     "larghezza": 1187,
+     "altezza": 1720,
+     "url": "https://commons.wikimedia.org/wiki/File:Opera_at_Llandudno_(1531739).jpg"
+    },
+    {
+     "file": "File:Opera at Llandudno (1531741).jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Geoff Charles",
+     "data": "20 August 1969 date QS:P571,+1969-08-20T00:00:00Z/11",
+     "larghezza": 1250,
+     "altezza": 1267,
+     "url": "https://commons.wikimedia.org/wiki/File:Opera_at_Llandudno_(1531741).jpg"
+    },
+    {
+     "file": "File:Sydney (AU), Opera House -- 2019 -- 3054.jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dietmar Rabich",
+     "data": "Taken on 25 October 2019, 11:54",
+     "larghezza": 6479,
+     "altezza": 3644,
+     "url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Opera_House_--_2019_--_3054.jpg"
+    },
+    {
+     "file": "File:Sydney Opera House - Dec 2008.jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Diliff",
+     "data": "2008-12-02",
+     "larghezza": 2544,
+     "altezza": 1406,
+     "url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg"
+    },
+    {
+     "file": "File:Sydneyoperahouse at night.jpg",
+     "termino": "opera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Thomas Adams",
+     "data": "2016-06-16 23:44:38",
+     "larghezza": 5831,
+     "altezza": 3692,
+     "url": "https://commons.wikimedia.org/wiki/File:Sydneyoperahouse_at_night.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 18,
+   "voce": "la musica da camera",
+   "termini": [
+    "m",
+    "c",
+    "u",
+    "h"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:\"Chamber music\" LCCN2006690167.jpg",
+     "termino": "musica da camera",
+     "licenza": "Public domain",
+     "autore": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+     "data": "1892",
+     "larghezza": 1035,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:%22Chamber_music%22_LCCN2006690167.jpg"
+    },
+    {
+     "file": "File:Casa da Musica Porto 2018.jpg",
+     "termino": "musica da camera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "I.shevtsov",
+     "data": "2018-10-09 11:43:18",
+     "larghezza": 4160,
+     "altezza": 3120,
+     "url": "https://commons.wikimedia.org/wiki/File:Casa_da_Musica_Porto_2018.jpg"
+    },
+    {
+     "file": "File:Dominic Paetsch, Yoko Paetsch, Michaela Paetsch, Raphaela Paetsch, Valentina Paetsch & Johann S Paetsch after a concert in Bellmund, Switzerland 15 Dec 2019.jpg",
+     "termino": "musica da camera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Swanstone",
+     "data": "2019-12-15 19:02:26",
+     "larghezza": 3226,
+     "altezza": 2564,
+     "url": "https://commons.wikimedia.org/wiki/File:Dominic_Paetsch,_Yoko_Paetsch,_Michaela_Paetsch,_Raphaela_Paetsch,_Valentina_Paetsch_%26_Johann_S_Paetsch_after_a_concert_in_Bellmund,_Switzerland_15_Dec_2019.jpg"
+    },
+    {
+     "file": "File:Electronic Chamber Music, LP Cover.png",
+     "termino": "musica da camera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Daniel Malpica",
+     "data": "2018-12-01",
+     "larghezza": 1710,
+     "altezza": 1678,
+     "url": "https://commons.wikimedia.org/wiki/File:Electronic_Chamber_Music,_LP_Cover.png"
+    },
+    {
+     "file": "File:Grün - Chamber Music Concert.jpg",
+     "termino": "musica da camera",
+     "licenza": "Public domain",
+     "autore": "Jules-Alexandre Grün",
+     "data": "circa 1885 date QS:P,+1885-90-00T00:00:00Z/10,P1480,Q5727902",
+     "larghezza": 450,
+     "altezza": 348,
+     "url": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCn_-_Chamber_Music_Concert.jpg"
+    },
+    {
+     "file": "File:Komitas Chamber Music Hall, Yerevan 33.jpg",
+     "termino": "musica da camera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "23artashes",
+     "data": "2019-05-09 18:59:40",
+     "larghezza": 3264,
+     "altezza": 1836,
+     "url": "https://commons.wikimedia.org/wiki/File:Komitas_Chamber_Music_Hall,_Yerevan_33.jpg"
+    },
+    {
+     "file": "File:Komitas Chamber Music House (front).jpg",
+     "termino": "musica da camera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Алексей Веллог",
+     "data": "2024-12-26 16:37:37",
+     "larghezza": 6016,
+     "altezza": 3384,
+     "url": "https://commons.wikimedia.org/wiki/File:Komitas_Chamber_Music_House_(front).jpg"
+    },
+    {
+     "file": "File:Nagu Kammarmusikfestival.jpg",
+     "termino": "musica da camera",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Cogitato",
+     "data": "2010-07-09 14:56:10",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Nagu_Kammarmusikfestival.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 19,
+   "voce": "il minimalismo",
+   "termini": [
+    "m",
+    "m",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Ambigramme Inoui - noir et gris anime.gif",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2014-06-11",
+     "larghezza": 1000,
+     "altezza": 1000,
+     "url": "https://commons.wikimedia.org/wiki/File:Ambigramme_Inoui_-_noir_et_gris_anime.gif"
+    },
+    {
+     "file": "File:Center.gif.jpg",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Splintercell10",
+     "data": "2013-07-26",
+     "larghezza": 4272,
+     "altezza": 2848,
+     "url": "https://commons.wikimedia.org/wiki/File:Center.gif.jpg"
+    },
+    {
+     "file": "File:Egon Rusina Ghialar Istitut Ladin Micura de Rü 2016.jpg",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Egon Rusina",
+     "data": "21 October 2016",
+     "larghezza": 7360,
+     "altezza": 2167,
+     "url": "https://commons.wikimedia.org/wiki/File:Egon_Rusina_Ghialar_Istitut_Ladin_Micura_de_R%C3%BC_2016.jpg"
+    },
+    {
+     "file": "File:Femme Allongee in interior by Sheryn Bullis.jpg",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "HelsinkiArtBeat",
+     "data": "2021-02-05 14:45:04",
+     "larghezza": 640,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Femme_Allongee_in_interior_by_Sheryn_Bullis.jpg"
+    },
+    {
+     "file": "File:Kazimir Malevich, 1915, Black Suprematic Square, oil on linen canvas, 79.5 x 79.5 cm, Tretyakov Gallery, Moscow.jpg",
+     "termino": "minimalismo",
+     "licenza": "Public domain",
+     "autore": "Kazimir Malevich",
+     "data": "1915 date QS:P571,+1915-00-00T00:00:00Z/9",
+     "larghezza": 1718,
+     "altezza": 1718,
+     "url": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+    },
+    {
+     "file": "File:Pangramme autoréférentiel 30 mots dans carré justifié police Dayac.png",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2024-02-05",
+     "larghezza": 6000,
+     "altezza": 6000,
+     "url": "https://commons.wikimedia.org/wiki/File:Pangramme_autor%C3%A9f%C3%A9rentiel_30_mots_dans_carr%C3%A9_justifi%C3%A9_police_Dayac.png"
+    },
+    {
+     "file": "File:Pangramme autoréférentiel 30 mots dans carré justifié police Dotoc.png",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2024-02-05",
+     "larghezza": 6000,
+     "altezza": 6000,
+     "url": "https://commons.wikimedia.org/wiki/File:Pangramme_autor%C3%A9f%C3%A9rentiel_30_mots_dans_carr%C3%A9_justifi%C3%A9_police_Dotoc.png"
+    },
+    {
+     "file": "File:Pintura minimalista.jpg",
+     "termino": "minimalismo",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Jessica Quijano Guzman",
+     "data": "2023-04-03",
+     "larghezza": 1106,
+     "altezza": 1347,
+     "url": "https://commons.wikimedia.org/wiki/File:Pintura_minimalista.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 20,
+   "voce": "la musica elettronica",
+   "termini": [
+    "m",
+    "e",
+    "u",
+    "l"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Blue-white MEV Sonic7.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 1.0",
+     "autore": "Nigel Fozard",
+     "data": "2011-03-19",
+     "larghezza": 640,
+     "altezza": 360,
+     "url": "https://commons.wikimedia.org/wiki/File:Blue-white_MEV_Sonic7.jpg"
+    },
+    {
+     "file": "File:DBR1-Replicar-MEV-Exomotive1.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Stuart Mills",
+     "data": "2013-04-22",
+     "larghezza": 975,
+     "altezza": 495,
+     "url": "https://commons.wikimedia.org/wiki/File:DBR1-Replicar-MEV-Exomotive1.jpg"
+    },
+    {
+     "file": "File:MEV-1.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Aare Adamson",
+     "data": "",
+     "larghezza": 1200,
+     "altezza": 852,
+     "url": "https://commons.wikimedia.org/wiki/File:MEV-1.jpg"
+    },
+    {
+     "file": "File:MEV Etrike.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 1.0",
+     "autore": "Sean Collins",
+     "data": "2010-05-01",
+     "larghezza": 1394,
+     "altezza": 783,
+     "url": "https://commons.wikimedia.org/wiki/File:MEV_Etrike.jpg"
+    },
+    {
+     "file": "File:MEV Monster.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "JohnP53",
+     "data": "2013-09-20",
+     "larghezza": 996,
+     "altezza": 418,
+     "url": "https://commons.wikimedia.org/wiki/File:MEV_Monster.jpg"
+    },
+    {
+     "file": "File:MEV R2.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Stiggymills",
+     "data": "2011-04-04",
+     "larghezza": 600,
+     "altezza": 339,
+     "url": "https://commons.wikimedia.org/wiki/File:MEV_R2.jpg"
+    },
+    {
+     "file": "File:MEV R3.jpg",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Stiggymills",
+     "data": "",
+     "larghezza": 597,
+     "altezza": 379,
+     "url": "https://commons.wikimedia.org/wiki/File:MEV_R3.jpg"
+    },
+    {
+     "file": "File:Yellow MEV Rocket.JPG",
+     "termino": "musica elettronica",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Stiggymills",
+     "data": "",
+     "larghezza": 1535,
+     "altezza": 872,
+     "url": "https://commons.wikimedia.org/wiki/File:Yellow_MEV_Rocket.JPG"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 21,
+   "voce": "la musica sperimentale",
+   "termini": [
+    "m",
+    "e",
+    "u",
+    "x"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Audiopill is electronic experimental device for enjoying music from the inside 01.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Jan Strmiska",
+     "data": "2016-01-24",
+     "larghezza": 4000,
+     "altezza": 2513,
+     "url": "https://commons.wikimedia.org/wiki/File:Audiopill_is_electronic_experimental_device_for_enjoying_music_from_the_inside_01.jpg"
+    },
+    {
+     "file": "File:CT SWaM and AMEE present Spanish Electroacoustic Multi-Channel Music.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Laboa.xyz",
+     "data": "2017-03-18",
+     "larghezza": 2550,
+     "altezza": 1658,
+     "url": "https://commons.wikimedia.org/wiki/File:CT_SWaM_and_AMEE_present_Spanish_Electroacoustic_Multi-Channel_Music.jpg"
+    },
+    {
+     "file": "File:Dave Willey with Thinking Plague, Olympia Experimental Music Festival, June 2013.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Joe Mabel  from Seattle, US",
+     "data": "2013-06-29 22:48",
+     "larghezza": 3259,
+     "altezza": 2842,
+     "url": "https://commons.wikimedia.org/wiki/File:Dave_Willey_with_Thinking_Plague,_Olympia_Experimental_Music_Festival,_June_2013.jpg"
+    },
+    {
+     "file": "File:Experimental musical instruments by Pol Palli.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "POL PALLI",
+     "data": "2022-12-13 16:57:42",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Experimental_musical_instruments_by_Pol_Palli.jpg"
+    },
+    {
+     "file": "File:Lecture at Output.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Yuri Landman Hypercustom",
+     "data": "3rd of october",
+     "larghezza": 3872,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Lecture_at_Output.jpg"
+    },
+    {
+     "file": "File:Matt Hsu's Obscure Orchestra - 01.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Aimee Catt, Matthew Hsu",
+     "data": "2017-05-19",
+     "larghezza": 2600,
+     "altezza": 3900,
+     "url": "https://commons.wikimedia.org/wiki/File:Matt_Hsu%27s_Obscure_Orchestra_-_01.jpg"
+    },
+    {
+     "file": "File:Matt Hsu's Obscure Orchestra - 04.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Rod Pilbeam, Matthew Hsu",
+     "data": "2019-03-04",
+     "larghezza": 3759,
+     "altezza": 5639,
+     "url": "https://commons.wikimedia.org/wiki/File:Matt_Hsu%27s_Obscure_Orchestra_-_04.jpg"
+    },
+    {
+     "file": "File:StandStraightOrLeave.jpg",
+     "termino": "musica sperimentale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Starrlightmighty5",
+     "data": "2020-07-09 00:55:53",
+     "larghezza": 2049,
+     "altezza": 1537,
+     "url": "https://commons.wikimedia.org/wiki/File:StandStraightOrLeave.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 22,
+   "voce": "il canto corale",
+   "termini": [
+    "c",
+    "c",
+    "a",
+    "h"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:(Toulouse) La Chorale - Théodule Ribot - Toulouse, musée des Augustins - Joconde05620014373.jpg",
+     "termino": "canto corale",
+     "licenza": "Public domain",
+     "autore": "Didier Descouens",
+     "data": "Taken on 11 November 2021",
+     "larghezza": 4002,
+     "altezza": 4734,
+     "url": "https://commons.wikimedia.org/wiki/File:(Toulouse)_La_Chorale_-_Th%C3%A9odule_Ribot_-_Toulouse,_mus%C3%A9e_des_Augustins_-_Joconde05620014373.jpg"
+    },
+    {
+     "file": "File:BSU Chorale in Malaybalay.jpg",
+     "termino": "canto corale",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Sinned 777",
+     "data": "2011-06-09",
+     "larghezza": 2032,
+     "altezza": 1016,
+     "url": "https://commons.wikimedia.org/wiki/File:BSU_Chorale_in_Malaybalay.jpg"
+    },
+    {
+     "file": "File:Chorale 2.jpg",
+     "termino": "canto corale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Prince OBEMBO",
+     "data": "2019-07-02",
+     "larghezza": 1547,
+     "altezza": 1112,
+     "url": "https://commons.wikimedia.org/wiki/File:Chorale_2.jpg"
+    },
+    {
+     "file": "File:Chorale 3.jpg",
+     "termino": "canto corale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Prince OBEMBO",
+     "data": "2019-07-02",
+     "larghezza": 1421,
+     "altezza": 1035,
+     "url": "https://commons.wikimedia.org/wiki/File:Chorale_3.jpg"
+    },
+    {
+     "file": "File:Chorale camerounaise 5.jpg",
+     "termino": "canto corale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "NZALLI MAMBOU Freddy",
+     "data": "2018-11-18",
+     "larghezza": 960,
+     "altezza": 640,
+     "url": "https://commons.wikimedia.org/wiki/File:Chorale_camerounaise_5.jpg"
+    },
+    {
+     "file": "File:Paul Salamunovich rehearses the Los Angeles Master Chorale as assistant conductor. Music Director Roger Wagner is seated at the piano on the right.png",
+     "termino": "canto corale",
+     "licenza": "CC0",
+     "autore": "Panddsboy",
+     "data": "1975-02-08",
+     "larghezza": 2576,
+     "altezza": 2064,
+     "url": "https://commons.wikimedia.org/wiki/File:Paul_Salamunovich_rehearses_the_Los_Angeles_Master_Chorale_as_assistant_conductor._Music_Director_Roger_Wagner_is_seated_at_the_piano_on_the_right.png"
+    },
+    {
+     "file": "File:Spooky Mens Chorale Rudolstadt 05.jpg",
+     "termino": "canto corale",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Schorle",
+     "data": "2019-07-06 16:07:01",
+     "larghezza": 6720,
+     "altezza": 4480,
+     "url": "https://commons.wikimedia.org/wiki/File:Spooky_Mens_Chorale_Rudolstadt_05.jpg"
+    },
+    {
+     "file": "File:Via retta della voce corale (1671) (14585475718).jpg",
+     "termino": "canto corale",
+     "licenza": "No restrictions",
+     "autore": "Marinelli, Giulio Cesare",
+     "data": "1671",
+     "larghezza": 1892,
+     "altezza": 2864,
+     "url": "https://commons.wikimedia.org/wiki/File:Via_retta_della_voce_corale_(1671)_(14585475718).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 23,
+   "voce": "il lied",
+   "termini": [
+    "l",
+    "L",
+    "i",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Alexandre Cabanel - The Birth of Venus - Google Art Project 2.jpg",
+     "termino": "lied",
+     "licenza": "Public domain",
+     "autore": "Alexandre Cabanel",
+     "data": "1863 date QS:P571,+1863-00-00T00:00:00Z/9",
+     "larghezza": 4032,
+     "altezza": 2290,
+     "url": "https://commons.wikimedia.org/wiki/File:Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg"
+    },
+    {
+     "file": "File:Brahms Immer leiser 1.gif",
+     "termino": "lied",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Monozigote",
+     "data": "2022-04-07",
+     "larghezza": 479,
+     "altezza": 804,
+     "url": "https://commons.wikimedia.org/wiki/File:Brahms_Immer_leiser_1.gif"
+    },
+    {
+     "file": "File:Brahms Immer leiser 2.gif",
+     "termino": "lied",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Monozigote",
+     "data": "2022-04-07",
+     "larghezza": 480,
+     "altezza": 750,
+     "url": "https://commons.wikimedia.org/wiki/File:Brahms_Immer_leiser_2.gif"
+    },
+    {
+     "file": "File:Dichterliebe.png",
+     "termino": "lied",
+     "licenza": "CC BY 4.0",
+     "autore": "C. F. Peters",
+     "data": "2022-01-04",
+     "larghezza": 1200,
+     "altezza": 1533,
+     "url": "https://commons.wikimedia.org/wiki/File:Dichterliebe.png"
+    },
+    {
+     "file": "File:Flickr - Israel Defense Forces - Air Force Exercise in Sardinia, Nov 2010.jpg",
+     "termino": "lied",
+     "licenza": "CC BY 2.0",
+     "autore": "Israel Defense Forces",
+     "data": "2010-11-18 09:11",
+     "larghezza": 2000,
+     "altezza": 1333,
+     "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_Air_Force_Exercise_in_Sardinia,_Nov_2010.jpg"
+    },
+    {
+     "file": "File:Jan Simons at a wedding 1992.jpg",
+     "termino": "lied",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Andrew Simons",
+     "data": "1992-05-07",
+     "larghezza": 562,
+     "altezza": 481,
+     "url": "https://commons.wikimedia.org/wiki/File:Jan_Simons_at_a_wedding_1992.jpg"
+    },
+    {
+     "file": "File:Leugen en Bedrog verstoren een zakelijke transactie Hendrick Goltzius.jpg",
+     "termino": "lied",
+     "licenza": "Public domain",
+     "autore": "Hendrik Goltzius",
+     "data": "1597 date QS:P571,+1597-00-00T00:00:00Z/9",
+     "larghezza": 964,
+     "altezza": 767,
+     "url": "https://commons.wikimedia.org/wiki/File:Leugen_en_Bedrog_verstoren_een_zakelijke_transactie_Hendrick_Goltzius.jpg"
+    },
+    {
+     "file": "File:Lies Noor (c. 1956), Djakartawood (no name).jpg",
+     "termino": "lied",
+     "licenza": "Public domain",
+     "autore": "Credited to Djakartawood Studio, Semarang",
+     "data": "circa 1956 date QS:P,+1956-00-00T00:00:00Z/9,P1480,Q5727902",
+     "larghezza": 2552,
+     "altezza": 4063,
+     "url": "https://commons.wikimedia.org/wiki/File:Lies_Noor_(c._1956),_Djakartawood_(no_name).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 24,
+   "voce": "la musica da film",
+   "termini": [
+    "c",
+    "f",
+    "o",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Chronomads OST (2025) – Official Cover by Jaime Córdoba.png",
+     "termino": "colonna sonora",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Jaime Córdoba",
+     "data": "2025-04-04",
+     "larghezza": 1080,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Chronomads_OST_(2025)_%E2%80%93_Official_Cover_by_Jaime_C%C3%B3rdoba.png"
+    },
+    {
+     "file": "File:Colonna sonora (omaggio a P.I.Tchaikovsky).jpg",
+     "termino": "colonna sonora",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "William Girometti",
+     "data": "15 November 1973, 22:35:06",
+     "larghezza": 1176,
+     "altezza": 1635,
+     "url": "https://commons.wikimedia.org/wiki/File:Colonna_sonora_(omaggio_a_P.I.Tchaikovsky).jpg"
+    },
+    {
+     "file": "File:Disco colonna sonora i-wish you were here - vorrei tu fossi qui.jpg",
+     "termino": "colonna sonora",
+     "licenza": "Public domain",
+     "autore": "Nippon Columbia",
+     "data": "2001-11-21",
+     "larghezza": 2000,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Disco_colonna_sonora_i-wish_you_were_here_-_vorrei_tu_fossi_qui.jpg"
+    },
+    {
+     "file": "File:Il ragazzo e l'airone (logo colonna sonora).jpg",
+     "termino": "colonna sonora",
+     "licenza": "Public domain",
+     "autore": "Joe Hisaishi",
+     "data": "",
+     "larghezza": 498,
+     "altezza": 588,
+     "url": "https://commons.wikimedia.org/wiki/File:Il_ragazzo_e_l%27airone_(logo_colonna_sonora).jpg"
+    },
+    {
+     "file": "File:Mohamed Iguerbouchène en 1934 (SACEM).jpg",
+     "termino": "colonna sonora",
+     "licenza": "CC0",
+     "autore": "Auteur inconnu",
+     "data": "2024-04-04 20:08:38",
+     "larghezza": 1280,
+     "altezza": 1920,
+     "url": "https://commons.wikimedia.org/wiki/File:Mohamed_Iguerbouch%C3%A8ne_en_1934_(SACEM).jpg"
+    },
+    {
+     "file": "File:Musée du Vieux Toulouse - Marie Guignon dite Mademoiselle Lescot - Joseph Roques Inv. 64 2 2.jpg",
+     "termino": "colonna sonora",
+     "licenza": "Public domain",
+     "autore": "Didier Descouens",
+     "data": "Taken on 18 April 2018",
+     "larghezza": 5576,
+     "altezza": 7078,
+     "url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Vieux_Toulouse_-_Marie_Guignon_dite_Mademoiselle_Lescot_-_Joseph_Roques_Inv._64_2_2.jpg"
+    },
+    {
+     "file": "File:Reza azadipour at this boy is a child Screening show.jpg",
+     "termino": "colonna sonora",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ali music",
+     "data": "2020-02-10 01:13:41",
+     "larghezza": 417,
+     "altezza": 408,
+     "url": "https://commons.wikimedia.org/wiki/File:Reza_azadipour_at_this_boy_is_a_child_Screening_show.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 25,
+   "voce": "il musical",
+   "termini": [
+    "m",
+    "m",
+    "u",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Babes In Toyland (1914 Musical) Announcement.jpg",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "ColorProcess",
+     "data": "1914-01-01",
+     "larghezza": 1540,
+     "altezza": 1043,
+     "url": "https://commons.wikimedia.org/wiki/File:Babes_In_Toyland_(1914_Musical)_Announcement.jpg"
+    },
+    {
+     "file": "File:Dispositif de table de mixage de son musical manipulée à toviklin au Bénin.jpg",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Adoscam",
+     "data": "2021-02-06 21:21:38",
+     "larghezza": 2631,
+     "altezza": 3632,
+     "url": "https://commons.wikimedia.org/wiki/File:Dispositif_de_table_de_mixage_de_son_musical_manipul%C3%A9e_%C3%A0_toviklin_au_B%C3%A9nin.jpg"
+    },
+    {
+     "file": "File:I AM FROM AUSTRIA - Das Musical in Japan.jpg",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Wikitius",
+     "data": "2019-08-22 17:11:43",
+     "larghezza": 1509,
+     "altezza": 2382,
+     "url": "https://commons.wikimedia.org/wiki/File:I_AM_FROM_AUSTRIA_-_Das_Musical_in_Japan.jpg"
+    },
+    {
+     "file": "File:Lucy Diakovska beim Dinklager Musical Festival Nr.3.JPG",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "CHR!S",
+     "data": "2020-08-01",
+     "larghezza": 4320,
+     "altezza": 3240,
+     "url": "https://commons.wikimedia.org/wiki/File:Lucy_Diakovska_beim_Dinklager_Musical_Festival_Nr.3.JPG"
+    },
+    {
+     "file": "File:Musical band, circa 1920.jpg",
+     "termino": "musical",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "1920-01-02",
+     "larghezza": 781,
+     "altezza": 960,
+     "url": "https://commons.wikimedia.org/wiki/File:Musical_band,_circa_1920.jpg"
+    },
+    {
+     "file": "File:The musical group IZEM IFRANE for Ahidous art.jpg",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mounir Neddi",
+     "data": "2023-03-11 21:17:27",
+     "larghezza": 5184,
+     "altezza": 2485,
+     "url": "https://commons.wikimedia.org/wiki/File:The_musical_group_IZEM_IFRANE_for_Ahidous_art.jpg"
+    },
+    {
+     "file": "File:Trade0ffsmusic.jpg",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Trade0ffsmusic",
+     "data": "2018-09-28 18:27:48",
+     "larghezza": 5568,
+     "altezza": 3712,
+     "url": "https://commons.wikimedia.org/wiki/File:Trade0ffsmusic.jpg"
+    },
+    {
+     "file": "File:Uluberia Musical Instrument Cluster.png",
+     "termino": "musical",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "T Creation",
+     "data": "2023-03-29",
+     "larghezza": 601,
+     "altezza": 393,
+     "url": "https://commons.wikimedia.org/wiki/File:Uluberia_Musical_Instrument_Cluster.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 26,
+   "voce": "la musica di protesta",
+   "termini": [
+    "m",
+    "p",
+    "u",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Chanson \"chant des verriers de la verrerie ouvrière par l’Ami Gérault\" 1 - Archives Nationales - 14AS-132.jpg",
+     "termino": "musica di protesta",
+     "licenza": "Public domain",
+     "autore": "This file was provided to Wikimedia Commons by the  Archives Nationales  as part of a cooperation project with  Wikimédi",
+     "data": "1896 date QS:P571,+1896-00-00T00:00:00Z/9",
+     "larghezza": 872,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Chanson_%22chant_des_verriers_de_la_verrerie_ouvri%C3%A8re_par_l%E2%80%99Ami_G%C3%A9rault%22_1_-_Archives_Nationales_-_14AS-132.jpg"
+    },
+    {
+     "file": "File:Cubase3 Notat.png",
+     "termino": "musica di protesta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "No machine-readable author provided.  Timo1974~commonswiki  assumed (based on copyright claims).",
+     "data": "2 January 2006 (original upload date)",
+     "larghezza": 622,
+     "altezza": 672,
+     "url": "https://commons.wikimedia.org/wiki/File:Cubase3_Notat.png"
+    },
+    {
+     "file": "File:I did not raise my girl to be a voter3.jpg",
+     "termino": "musica di protesta",
+     "licenza": "Public domain",
+     "autore": "Merle De Vore Johnson (1874-1935).  Author not named in bibliographic record.",
+     "data": "1915, published 9 October on page 6 of  Puck",
+     "larghezza": 961,
+     "altezza": 1399,
+     "url": "https://commons.wikimedia.org/wiki/File:I_did_not_raise_my_girl_to_be_a_voter3.jpg"
+    },
+    {
+     "file": "File:Identite-G-Moustaki-1955-Sacem.png",
+     "termino": "musica di protesta",
+     "licenza": "Public domain",
+     "autore": "Inconnu",
+     "data": "1955-01-01",
+     "larghezza": 1472,
+     "altezza": 1773,
+     "url": "https://commons.wikimedia.org/wiki/File:Identite-G-Moustaki-1955-Sacem.png"
+    },
+    {
+     "file": "File:No Es Mi Presidente banner.jpg",
+     "termino": "musica di protesta",
+     "licenza": "CC BY 2.0",
+     "autore": "Gaetano Vaccaro",
+     "data": "2017-02-05",
+     "larghezza": 5392,
+     "altezza": 3594,
+     "url": "https://commons.wikimedia.org/wiki/File:No_Es_Mi_Presidente_banner.jpg"
+    },
+    {
+     "file": "File:Protest music. Euromaidan 2014 in Kyiv.jpg",
+     "termino": "musica di protesta",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Ввласенко",
+     "data": "2014-02-10 13:09:22",
+     "larghezza": 5637,
+     "altezza": 2865,
+     "url": "https://commons.wikimedia.org/wiki/File:Protest_music._Euromaidan_2014_in_Kyiv.jpg"
+    },
+    {
+     "file": "File:Tapes of Korean Protest Songs in 1980s.jpeg",
+     "termino": "musica di protesta",
+     "licenza": "CC0",
+     "autore": "Motoko C. K.",
+     "data": "2016-04-15 19:46:27",
+     "larghezza": 423,
+     "altezza": 228,
+     "url": "https://commons.wikimedia.org/wiki/File:Tapes_of_Korean_Protest_Songs_in_1980s.jpeg"
+    },
+    {
+     "file": "File:The Specials - Protest Songs.png",
+     "termino": "musica di protesta",
+     "licenza": "Public domain",
+     "autore": "",
+     "data": "",
+     "larghezza": 300,
+     "altezza": 300,
+     "url": "https://commons.wikimedia.org/wiki/File:The_Specials_-_Protest_Songs.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 27,
+   "voce": "il canto gregoriano",
+   "termini": [
+    "c",
+    "G",
+    "a",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Alta Trinità beate (Cortone).png",
+     "termino": "canto gregoriano",
+     "licenza": "CC0",
+     "autore": "Willuconquer",
+     "data": "2025-06-16",
+     "larghezza": 588,
+     "altezza": 703,
+     "url": "https://commons.wikimedia.org/wiki/File:Alta_Trinit%C3%A0_beate_(Cortone).png"
+    },
+    {
+     "file": "File:Alta Trinità beate (Florence).png",
+     "termino": "canto gregoriano",
+     "licenza": "CC0",
+     "autore": "Willuconquer",
+     "data": "2025-06-16",
+     "larghezza": 454,
+     "altezza": 642,
+     "url": "https://commons.wikimedia.org/wiki/File:Alta_Trinit%C3%A0_beate_(Florence).png"
+    },
+    {
+     "file": "File:Ave maria gregorian chant.gif",
+     "termino": "canto gregoriano",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Domínio Público",
+     "data": "05/03/1563",
+     "larghezza": 1132,
+     "altezza": 798,
+     "url": "https://commons.wikimedia.org/wiki/File:Ave_maria_gregorian_chant.gif"
+    },
+    {
+     "file": "File:Gregorian legend.png",
+     "termino": "canto gregoriano",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "MicheletB",
+     "data": "01/01/07",
+     "larghezza": 431,
+     "altezza": 1299,
+     "url": "https://commons.wikimedia.org/wiki/File:Gregorian_legend.png"
+    },
+    {
+     "file": "File:Te Deum (Gregorian).png",
+     "termino": "canto gregoriano",
+     "licenza": "Public domain",
+     "autore": "ancient",
+     "data": "ancient",
+     "larghezza": 516,
+     "altezza": 2557,
+     "url": "https://commons.wikimedia.org/wiki/File:Te_Deum_(Gregorian).png"
+    },
+    {
+     "file": "File:Tibães March 2016-21.jpg",
+     "termino": "canto gregoriano",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Alvesgaspar",
+     "data": "2016-03-11 17:35:16",
+     "larghezza": 6249,
+     "altezza": 4352,
+     "url": "https://commons.wikimedia.org/wiki/File:Tib%C3%A3es_March_2016-21.jpg"
+    },
+    {
+     "file": "File:Tota pulchra es (Gregorian).jpg",
+     "termino": "canto gregoriano",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "4 th  century date QS:P,+350-00-00T00:00:00Z/7",
+     "larghezza": 447,
+     "altezza": 605,
+     "url": "https://commons.wikimedia.org/wiki/File:Tota_pulchra_es_(Gregorian).jpg"
+    },
+    {
+     "file": "File:Troparium et prosarium Sancti Martialis Lemovicensis BNF Latin 1118 fo 104.jpg",
+     "termino": "canto gregoriano",
+     "licenza": "Public domain",
+     "autore": "Provenance : Abbaye Saint-Martial de Limoges (avant 1010). Droits: domaine public ( https://gallica.bnf.fr/ark:/12148/bt",
+     "data": "990–1010",
+     "larghezza": 913,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Troparium_et_prosarium_Sancti_Martialis_Lemovicensis_BNF_Latin_1118_fo_104.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 28,
+   "voce": "la musica popolare",
+   "termini": [
+    "m",
+    "f",
+    "u",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Banda della scuola popolare di musica di Testaccio a Valle Giulia.jpg",
+     "termino": "musica popolare",
+     "licenza": "Public domain",
+     "autore": "utente",
+     "data": "10 February 2017 (original upload date)",
+     "larghezza": 600,
+     "altezza": 400,
+     "url": "https://commons.wikimedia.org/wiki/File:Banda_della_scuola_popolare_di_musica_di_Testaccio_a_Valle_Giulia.jpg"
+    },
+    {
+     "file": "File:Conservatorio di musica popolare della Calabria a Isca sullo Jonio - Ingresso.jpg",
+     "termino": "musica popolare",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Marcuscalabresus",
+     "data": "30 August 2025 (according to   Exif   data)",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Conservatorio_di_musica_popolare_della_Calabria_a_Isca_sullo_Jonio_-_Ingresso.jpg"
+    },
+    {
+     "file": "File:Grammofono Museo Gesso (ME).jpg",
+     "termino": "musica popolare",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ada Salvato",
+     "data": "2023",
+     "larghezza": 1200,
+     "altezza": 1600,
+     "url": "https://commons.wikimedia.org/wiki/File:Grammofono_Museo_Gesso_(ME).jpg"
+    },
+    {
+     "file": "File:I pupi siciliani, museo cultura e musica popolare dei peloritani, Gesso, Messina.jpg",
+     "termino": "musica popolare",
+     "licenza": "CC0",
+     "autore": "Lucadeb",
+     "data": "2022-08-28",
+     "larghezza": 2080,
+     "altezza": 4624,
+     "url": "https://commons.wikimedia.org/wiki/File:I_pupi_siciliani,_museo_cultura_e_musica_popolare_dei_peloritani,_Gesso,_Messina.jpg"
+    },
+    {
+     "file": "File:Logo scuola popolare di musica di testaccio.jpg",
+     "termino": "musica popolare",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Giulia Pirandello",
+     "data": "",
+     "larghezza": 92,
+     "altezza": 80,
+     "url": "https://commons.wikimedia.org/wiki/File:Logo_scuola_popolare_di_musica_di_testaccio.jpg"
+    },
+    {
+     "file": "File:Museo e conservatoriodi musica popolare della Calabria.JPG",
+     "termino": "musica popolare",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Marcuscalabresus",
+     "data": "",
+     "larghezza": 3456,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Museo_e_conservatoriodi_musica_popolare_della_Calabria.JPG"
+    },
+    {
+     "file": "File:Ortica, ingresso al quartiere e murali OrMe (Alla legalità) (verde) e (Alla musica popolare) (rosso) LU05035.jpg",
+     "termino": "musica popolare",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Lalupa",
+     "data": "2021-05-23 13:14:02",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Ortica,_ingresso_al_quartiere_e_murali_OrMe_(Alla_legalit%C3%A0)_(verde)_e_(Alla_musica_popolare)_(rosso)_LU05035.jpg"
+    },
+    {
+     "file": "File:Sala Multimediale.jpg",
+     "termino": "musica popolare",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ada Salvato",
+     "data": "2023",
+     "larghezza": 1600,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:Sala_Multimediale.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 29,
+   "voce": "i testi delle canzoni",
+   "termini": [
+    "t",
+    "s",
+    "e",
+    "o"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Godavari Aarti Aksharganvritta Chart.png",
+     "termino": "testo canzone",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Godavariaarti",
+     "data": "2022-01-19",
+     "larghezza": 1700,
+     "altezza": 2200,
+     "url": "https://commons.wikimedia.org/wiki/File:Godavari_Aarti_Aksharganvritta_Chart.png"
+    },
+    {
+     "file": "File:Kantari app pantaila-irudiak.png",
+     "termino": "testo canzone",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Berria.eus",
+     "data": "2022-09-01",
+     "larghezza": 1613,
+     "altezza": 650,
+     "url": "https://commons.wikimedia.org/wiki/File:Kantari_app_pantaila-irudiak.png"
+    },
+    {
+     "file": "File:Singin-in-the-rain2-framed.webp",
+     "termino": "testo canzone",
+     "licenza": "Public domain",
+     "autore": "Metro-Goldwyn-Mayer",
+     "data": "1929",
+     "larghezza": 1000,
+     "altezza": 800,
+     "url": "https://commons.wikimedia.org/wiki/File:Singin-in-the-rain2-framed.webp"
+    },
+    {
+     "file": "File:So Get Up lyric collage by Ithaka Darin Pappas.jpg",
+     "termino": "testo canzone",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "IthakaDarinPappas",
+     "data": "1992-12-13",
+     "larghezza": 2569,
+     "altezza": 2545,
+     "url": "https://commons.wikimedia.org/wiki/File:So_Get_Up_lyric_collage_by_Ithaka_Darin_Pappas.jpg"
+    },
+    {
+     "file": "File:Song lyrics about Namazu, the giant catfish who causes earthquakes (13470133804).jpg",
+     "termino": "testo canzone",
+     "licenza": "No restrictions",
+     "autore": "UBC Library Digitization Centre",
+     "data": "2014-02-17 14:08:06",
+     "larghezza": 1297,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Song_lyrics_about_Namazu,_the_giant_catfish_who_causes_earthquakes_(13470133804).jpg"
+    },
+    {
+     "file": "File:The Fight Between the Nottingham and the Mars 1746 song lyrics.jpg",
+     "termino": "testo canzone",
+     "licenza": "Public domain",
+     "autore": "Philip Saumarez",
+     "data": "1746",
+     "larghezza": 2295,
+     "altezza": 1757,
+     "url": "https://commons.wikimedia.org/wiki/File:The_Fight_Between_the_Nottingham_and_the_Mars_1746_song_lyrics.jpg"
+    },
+    {
+     "file": "File:Votes for Women songs.jpg",
+     "termino": "testo canzone",
+     "licenza": "CC0",
+     "autore": "LSE Library",
+     "data": "2018-05-16",
+     "larghezza": 4293,
+     "altezza": 5469,
+     "url": "https://commons.wikimedia.org/wiki/File:Votes_for_Women_songs.jpg"
+    },
+    {
+     "file": "File:Zvončići.jpg",
+     "termino": "testo canzone",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Mudroslov",
+     "data": "2023-12",
+     "larghezza": 3120,
+     "altezza": 2876,
+     "url": "https://commons.wikimedia.org/wiki/File:Zvon%C4%8Di%C4%87i.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EN",
+   "numero": 30,
+   "voce": "le interviste ai musicisti",
+   "termini": [
+    "i",
+    "m",
+    "n",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Luther kingw.jpg",
+     "termino": "intervista musicista",
+     "licenza": "CC0",
+     "autore": "João Wagner Galuzio",
+     "data": "2014-11-30",
+     "larghezza": 291,
+     "altezza": 315,
+     "url": "https://commons.wikimedia.org/wiki/File:Luther_kingw.jpg"
+    },
+    {
+     "file": "File:Piergiorgio Corallo 2025 portrait.jpg",
+     "termino": "intervista musicista",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "NordSudArchive",
+     "data": "2025-11-26",
+     "larghezza": 1600,
+     "altezza": 739,
+     "url": "https://commons.wikimedia.org/wiki/File:Piergiorgio_Corallo_2025_portrait.jpg"
+    },
+    {
+     "file": "File:Piergiorgio Corallo portrait black and white.jpg",
+     "termino": "intervista musicista",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "NordSudArchive",
+     "data": "16/09/2025",
+     "larghezza": 1410,
+     "altezza": 1728,
+     "url": "https://commons.wikimedia.org/wiki/File:Piergiorgio_Corallo_portrait_black_and_white.jpg"
+    },
+    {
+     "file": "File:Piergiorgio Corallo portrait outdoor architecture.png",
+     "termino": "intervista musicista",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "NordSudArchive",
+     "data": "13/03/2026",
+     "larghezza": 1211,
+     "altezza": 603,
+     "url": "https://commons.wikimedia.org/wiki/File:Piergiorgio_Corallo_portrait_outdoor_architecture.png"
+    }
+   ]
+  }
+ ]
+}

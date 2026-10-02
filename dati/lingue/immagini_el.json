@@ -1,0 +1,2508 @@
+{
+ "versione": 1,
+ "data": "2026-10-02",
+ "nota": "Proposte, non scelte, e non ancora guardate a vista: le scelte le fa una persona e si registrano in sorgenti/lingue/attestazione_oggetti.json con etichetta e motivo, come per i ritratti.",
+ "lingue": [
+  "EL"
+ ],
+ "risultati": [
+  {
+   "lingua": "EL",
+   "numero": 1,
+   "voce": "il vino",
+   "termini": [
+    "v",
+    "G",
+    "i",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Port wine.jpg",
+     "termino": "vino",
+     "licenza": "Public domain",
+     "autore": "Jon Sullivan",
+     "data": "2003-01-06",
+     "larghezza": 1024,
+     "altezza": 768,
+     "url": "https://commons.wikimedia.org/wiki/File:Port_wine.jpg"
+    },
+    {
+     "file": "File:Red and white wine 12-2015.jpg",
+     "termino": "vino",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "A.Savin",
+     "data": "2015-12-22",
+     "larghezza": 3073,
+     "altezza": 3073,
+     "url": "https://commons.wikimedia.org/wiki/File:Red_and_white_wine_12-2015.jpg"
+    },
+    {
+     "file": "File:Ruta del Vino Aguascalientes 2022.jpg",
+     "termino": "vino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "CristinaHV",
+     "data": "2024-07-01",
+     "larghezza": 784,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Ruta_del_Vino_Aguascalientes_2022.jpg"
+    },
+    {
+     "file": "File:Schwappender Wein.jpg",
+     "termino": "vino",
+     "licenza": "CC BY 3.0 de",
+     "autore": "Stefan Krause, Germany",
+     "data": "2009-04-16",
+     "larghezza": 2608,
+     "altezza": 3920,
+     "url": "https://commons.wikimedia.org/wiki/File:Schwappender_Wein.jpg"
+    },
+    {
+     "file": "File:Strumento per imbottigliare il vino 2.jpg",
+     "termino": "vino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "This photo was taken by  Susanna Giaccai . Feel free to use my photos, but please mention me as the author and if you wa",
+     "data": "2023-02-25 11:04:43",
+     "larghezza": 4000,
+     "altezza": 1894,
+     "url": "https://commons.wikimedia.org/wiki/File:Strumento_per_imbottigliare_il_vino_2.jpg"
+    },
+    {
+     "file": "File:Vino Grosuplje Slovenia 1.jpg",
+     "termino": "vino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Doremo",
+     "data": "2021-05-16 10:04:40",
+     "larghezza": 4818,
+     "altezza": 3558,
+     "url": "https://commons.wikimedia.org/wiki/File:Vino_Grosuplje_Slovenia_1.jpg"
+    },
+    {
+     "file": "File:Vino de Pago Aylés.jpg",
+     "termino": "vino",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Willtron",
+     "data": "31 December 2024 (according to   Exif   data)",
+     "larghezza": 3425,
+     "altezza": 4567,
+     "url": "https://commons.wikimedia.org/wiki/File:Vino_de_Pago_Ayl%C3%A9s.jpg"
+    },
+    {
+     "file": "File:Wine and cheese.jpg",
+     "termino": "vino",
+     "licenza": "CC BY 4.0",
+     "autore": "Adityaoberai",
+     "data": "2024-08-24 21:46:19",
+     "larghezza": 4416,
+     "altezza": 2944,
+     "url": "https://commons.wikimedia.org/wiki/File:Wine_and_cheese.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 2,
+   "voce": "la produzione del vino",
+   "termini": [
+    "v",
+    "a",
+    "i",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Attrezzi per la produzione del vino, sala museo.jpg",
+     "termino": "vino produzione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Federica Fraticelli",
+     "data": "2021-07-09 12:24:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Attrezzi_per_la_produzione_del_vino,_sala_museo.jpg"
+    },
+    {
+     "file": "File:Penny Magazine 1836 177 Wine-making at Pola.jpg",
+     "termino": "vino produzione",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author",
+     "data": "May 7, 1836",
+     "larghezza": 1765,
+     "altezza": 1410,
+     "url": "https://commons.wikimedia.org/wiki/File:Penny_Magazine_1836_177_Wine-making_at_Pola.jpg"
+    },
+    {
+     "file": "File:Productions of Italy - Wine (Vino).png",
+     "termino": "vino produzione",
+     "licenza": "CC BY 3.0",
+     "autore": "LucaLindholm",
+     "data": "2024-02-16",
+     "larghezza": 5948,
+     "altezza": 3828,
+     "url": "https://commons.wikimedia.org/wiki/File:Productions_of_Italy_-_Wine_(Vino).png"
+    },
+    {
+     "file": "File:Red wine cap.jpg",
+     "termino": "vino produzione",
+     "licenza": "CC BY 2.0",
+     "autore": "",
+     "data": "",
+     "larghezza": 800,
+     "altezza": 600,
+     "url": "https://commons.wikimedia.org/wiki/File:Red_wine_cap.jpg"
+    },
+    {
+     "file": "File:Sagre, lavorazione e produzione vino.jpg",
+     "termino": "vino produzione",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Palladino Neil",
+     "data": "2013-09-08 09:55:16",
+     "larghezza": 640,
+     "altezza": 480,
+     "url": "https://commons.wikimedia.org/wiki/File:Sagre,_lavorazione_e_produzione_vino.jpg"
+    },
+    {
+     "file": "File:Scuola del deccan, produzione del vino, xix secolo, vendemmia.jpg",
+     "termino": "vino produzione",
+     "licenza": "CC BY 3.0",
+     "autore": "Sailko",
+     "data": "2019-11-07 10:00:16",
+     "larghezza": 4056,
+     "altezza": 2628,
+     "url": "https://commons.wikimedia.org/wiki/File:Scuola_del_deccan,_produzione_del_vino,_xix_secolo,_vendemmia.jpg"
+    },
+    {
+     "file": "File:Wine Production Equipment MMGC.jpg",
+     "termino": "vino produzione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Catlemur",
+     "data": "2025-01-11 13:22:21",
+     "larghezza": 3060,
+     "altezza": 4080,
+     "url": "https://commons.wikimedia.org/wiki/File:Wine_Production_Equipment_MMGC.jpg"
+    },
+    {
+     "file": "File:Wine production, 2022.png",
+     "termino": "vino produzione",
+     "licenza": "CC BY 4.0",
+     "autore": "Our World in Data",
+     "data": "2025-08-09",
+     "larghezza": 3400,
+     "altezza": 2400,
+     "url": "https://commons.wikimedia.org/wiki/File:Wine_production,_2022.png"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 3,
+   "voce": "l'oliva",
+   "termini": [
+    "o",
+    "o",
+    "l",
+    "l"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:0007 Planta De Oliva.jpg",
+     "termino": "oliva",
+     "licenza": "Public domain",
+     "autore": "Leonardus de Ferrarys",
+     "data": "1699",
+     "larghezza": 10279,
+     "altezza": 7013,
+     "url": "https://commons.wikimedia.org/wiki/File:0007_Planta_De_Oliva.jpg"
+    },
+    {
+     "file": "File:Oliva, plaça de l'ajuntament.JPG",
+     "termino": "oliva",
+     "licenza": "Public domain",
+     "autore": "Joanbanjo",
+     "data": "2009-12",
+     "larghezza": 3664,
+     "altezza": 2748,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva,_pla%C3%A7a_de_l%27ajuntament.JPG"
+    },
+    {
+     "file": "File:Oliva mantichora 01.jpg",
+     "termino": "oliva",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "H. Zell",
+     "data": "2012-12-29",
+     "larghezza": 6000,
+     "altezza": 5670,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva_mantichora_01.jpg"
+    },
+    {
+     "file": "File:Oliva oliva longispira.JPG",
+     "termino": "oliva",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "H. Zell",
+     "data": "2016-10-08",
+     "larghezza": 7000,
+     "altezza": 6563,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva_oliva_longispira.JPG"
+    },
+    {
+     "file": "File:Oliva oliva shell.jpg",
+     "termino": "oliva",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Richard Parker",
+     "data": "2008-09-27 08:55:49",
+     "larghezza": 1026,
+     "altezza": 1475,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva_oliva_shell.jpg"
+    },
+    {
+     "file": "File:Oliva oliva var stellata 01.jpg",
+     "termino": "oliva",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "H. Zell",
+     "data": "2021-05-01",
+     "larghezza": 8800,
+     "altezza": 8400,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva_oliva_var_stellata_01.jpg"
+    },
+    {
+     "file": "File:Oliva reticularis 01.JPG",
+     "termino": "oliva",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "H. Zell",
+     "data": "2018-06-10",
+     "larghezza": 7000,
+     "altezza": 6251,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva_reticularis_01.JPG"
+    },
+    {
+     "file": "File:Oliva spicata (MNHN-IM-2000-1362).jpeg",
+     "termino": "oliva",
+     "licenza": "CC BY 4.0",
+     "autore": "Manuel CABALLER",
+     "data": "",
+     "larghezza": 6665,
+     "altezza": 4665,
+     "url": "https://commons.wikimedia.org/wiki/File:Oliva_spicata_(MNHN-IM-2000-1362).jpeg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 4,
+   "voce": "l'olio d'oliva",
+   "termini": [
+    "o",
+    "G",
+    "l",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Bottiglia di olio extra vergine di oliva Cirio.jpg",
+     "termino": "olio oliva",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ensahequ",
+     "data": "2025-02-13 13:02:03",
+     "larghezza": 2880,
+     "altezza": 4032,
+     "url": "https://commons.wikimedia.org/wiki/File:Bottiglia_di_olio_extra_vergine_di_oliva_Cirio.jpg"
+    },
+    {
+     "file": "File:Motor oil refill with funnel.JPG",
+     "termino": "olio oliva",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Dvortygirl",
+     "data": "2007-02-11",
+     "larghezza": 2048,
+     "altezza": 1536,
+     "url": "https://commons.wikimedia.org/wiki/File:Motor_oil_refill_with_funnel.JPG"
+    },
+    {
+     "file": "File:Oil Mist Formation.png",
+     "termino": "olio oliva",
+     "licenza": "CC0",
+     "autore": "Sjiji0102",
+     "data": "2024-05-17",
+     "larghezza": 1005,
+     "altezza": 601,
+     "url": "https://commons.wikimedia.org/wiki/File:Oil_Mist_Formation.png"
+    },
+    {
+     "file": "File:Olio Di Oliva PL.JPG",
+     "termino": "olio oliva",
+     "licenza": "CC BY 3.0",
+     "autore": "Beemwej",
+     "data": "2012-12-07",
+     "larghezza": 1424,
+     "altezza": 2144,
+     "url": "https://commons.wikimedia.org/wiki/File:Olio_Di_Oliva_PL.JPG"
+    },
+    {
+     "file": "File:Olio di Oliva PL.JPG",
+     "termino": "olio oliva",
+     "licenza": "CC BY 3.0",
+     "autore": "Beemwej",
+     "data": "2012-12-07",
+     "larghezza": 1424,
+     "altezza": 2144,
+     "url": "https://commons.wikimedia.org/wiki/File:Olio_di_Oliva_PL.JPG"
+    },
+    {
+     "file": "File:Olio extravergine di oliva del Lago di Garda.JPG",
+     "termino": "olio oliva",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "LukeWiller",
+     "data": "2017-10-28",
+     "larghezza": 2448,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:Olio_extravergine_di_oliva_del_Lago_di_Garda.JPG"
+    },
+    {
+     "file": "File:Sasso olio di oliva.JPG",
+     "termino": "olio oliva",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Daniel Ventura",
+     "data": "2013-07-18 14:56:52",
+     "larghezza": 2682,
+     "altezza": 2063,
+     "url": "https://commons.wikimedia.org/wiki/File:Sasso_olio_di_oliva.JPG"
+    },
+    {
+     "file": "File:Spilled oil in a parking lot 02.jpg",
+     "termino": "olio oliva",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Kritzolina",
+     "data": "2024-01-18 12:18:32",
+     "larghezza": 5472,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Spilled_oil_in_a_parking_lot_02.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 5,
+   "voce": "l'acqua",
+   "termini": [
+    "a",
+    "G",
+    "c",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Aquamarine water pool at Bumpass Hell-8882.jpg",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Frank Schulenburg",
+     "data": "Taken on 5 October 2019, 10:04:01",
+     "larghezza": 5782,
+     "altezza": 3855,
+     "url": "https://commons.wikimedia.org/wiki/File:Aquamarine_water_pool_at_Bumpass_Hell-8882.jpg"
+    },
+    {
+     "file": "File:Coa fam ITA acqua.jpg",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimop",
+     "data": "2012-06-25",
+     "larghezza": 840,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Coa_fam_ITA_acqua.jpg"
+    },
+    {
+     "file": "File:Diamonds Thudufushi Beach and Water Villas, May 2017 -04.jpg",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Martin Falbisoner",
+     "data": "2017-05-16 15:14:23",
+     "larghezza": 5823,
+     "altezza": 3119,
+     "url": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-04.jpg"
+    },
+    {
+     "file": "File:Drop of water on water-resistant textile (100% polyester).jpg",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Petar Milošević",
+     "data": "2021-07-01 18:03:30",
+     "larghezza": 4666,
+     "altezza": 3048,
+     "url": "https://commons.wikimedia.org/wiki/File:Drop_of_water_on_water-resistant_textile_(100%25_polyester).jpg"
+    },
+    {
+     "file": "File:Museum on Water, Ohrid.JPG",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Pudelek  (Marcin Szala)",
+     "data": "2012-08",
+     "larghezza": 4512,
+     "altezza": 1548,
+     "url": "https://commons.wikimedia.org/wiki/File:Museum_on_Water,_Ohrid.JPG"
+    },
+    {
+     "file": "File:Piedo.JPG",
+     "termino": "acqua",
+     "licenza": "Public domain",
+     "autore": "gc",
+     "data": "2007",
+     "larghezza": 1261,
+     "altezza": 1954,
+     "url": "https://commons.wikimedia.org/wiki/File:Piedo.JPG"
+    },
+    {
+     "file": "File:Three buffaloes heads above water in Si Phan Don.jpg",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2018-03-18 16:51:59",
+     "larghezza": 5176,
+     "altezza": 3451,
+     "url": "https://commons.wikimedia.org/wiki/File:Three_buffaloes_heads_above_water_in_Si_Phan_Don.jpg"
+    },
+    {
+     "file": "File:Two water buffaloes bathing at golden hour.jpg",
+     "termino": "acqua",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Basile Morin",
+     "data": "2021-11-22 06:38:17",
+     "larghezza": 6368,
+     "altezza": 3980,
+     "url": "https://commons.wikimedia.org/wiki/File:Two_water_buffaloes_bathing_at_golden_hour.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 6,
+   "voce": "il simposio",
+   "termini": [
+    "s",
+    "s",
+    "y",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Black figure epinetron, symposion scene, AM of Corinth, 202835.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2020-09-28 09:31:25",
+     "larghezza": 5590,
+     "altezza": 3720,
+     "url": "https://commons.wikimedia.org/wiki/File:Black_figure_epinetron,_symposion_scene,_AM_of_Corinth,_202835.jpg"
+    },
+    {
+     "file": "File:Black figure epinetron, symposion scene, AM of Corinth, 202835x.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2020-09-28 09:31:25",
+     "larghezza": 2981,
+     "altezza": 1983,
+     "url": "https://commons.wikimedia.org/wiki/File:Black_figure_epinetron,_symposion_scene,_AM_of_Corinth,_202835x.jpg"
+    },
+    {
+     "file": "File:Pythokles painter, Symposium, Ancient Greek pottery in the Museo Gregoriano Etrusco 02.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Carlo Dell'Orto",
+     "data": "2021-05-24 11:07:46",
+     "larghezza": 3456,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Pythokles_painter,_Symposium,_Ancient_Greek_pottery_in_the_Museo_Gregoriano_Etrusco_02.jpg"
+    },
+    {
+     "file": "File:Symposion Lindabrunn, Takera Narita 1968.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Herzi Pinki",
+     "data": "2010-08-21",
+     "larghezza": 2000,
+     "altezza": 3008,
+     "url": "https://commons.wikimedia.org/wiki/File:Symposion_Lindabrunn,_Takera_Narita_1968.jpg"
+    },
+    {
+     "file": "File:Symposion Lindabrunn, Tor der Erkenntnis, 1988.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Herzi Pinki",
+     "data": "2010-08-21",
+     "larghezza": 1604,
+     "altezza": 2952,
+     "url": "https://commons.wikimedia.org/wiki/File:Symposion_Lindabrunn,_Tor_der_Erkenntnis,_1988.jpg"
+    },
+    {
+     "file": "File:Symposion Urbanum Nürnberg 1971 Wassertor.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "UlrichAAB",
+     "data": "2025-02-17 13:00:15",
+     "larghezza": 4344,
+     "altezza": 2544,
+     "url": "https://commons.wikimedia.org/wiki/File:Symposion_Urbanum_N%C3%BCrnberg_1971_Wassertor.jpg"
+    },
+    {
+     "file": "File:Symposion Weißenseifen 3.jpg",
+     "termino": "symposion",
+     "licenza": "CC BY 4.0",
+     "autore": "Bärwinkel,Klaus",
+     "data": "2024-06-27 13:07:32",
+     "larghezza": 2340,
+     "altezza": 3327,
+     "url": "https://commons.wikimedia.org/wiki/File:Symposion_Wei%C3%9Fenseifen_3.jpg"
+    },
+    {
+     "file": "File:Symposion beginning. Editio princeps.jpg",
+     "termino": "symposion",
+     "licenza": "Public domain",
+     "autore": "Plato",
+     "data": "1513",
+     "larghezza": 1224,
+     "altezza": 1948,
+     "url": "https://commons.wikimedia.org/wiki/File:Symposion_beginning._Editio_princeps.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 7,
+   "voce": "il banchetto",
+   "termini": [
+    "d",
+    "G",
+    "e",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Ancient Greece Marble Funerary Banquet Relief (27879137874).jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Funerary_Banquet_Relief_(27879137874).jpg"
+    },
+    {
+     "file": "File:Ancient Greece Marble Funerary Banquet Relief (28417886441).jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Funerary_Banquet_Relief_(28417886441).jpg"
+    },
+    {
+     "file": "File:Ancient Greece Marble Funerary Banquet Relief (28463822546).jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Funerary_Banquet_Relief_(28463822546).jpg"
+    },
+    {
+     "file": "File:Ancient Greece Marble Funerary Banquet Relief (28495667355).jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Funerary_Banquet_Relief_(28495667355).jpg"
+    },
+    {
+     "file": "File:Ancient Greece Marble Funerary Banquet Relief (28495684345).jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Funerary_Banquet_Relief_(28495684345).jpg"
+    },
+    {
+     "file": "File:Ancient Greece Marble Votive Relief of a Funerary Banquet.jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Votive_Relief_of_a_Funerary_Banquet.jpg"
+    },
+    {
+     "file": "File:Ancient Greece Marble Votive Relief of a Funerary Banquet (1).jpg",
+     "termino": "Greek banquet",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 20:43",
+     "larghezza": 5184,
+     "altezza": 3456,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Marble_Votive_Relief_of_a_Funerary_Banquet_(1).jpg"
+    },
+    {
+     "file": "File:Greek - Banquet Relief - Walters 23222.jpg",
+     "termino": "Greek banquet",
+     "licenza": "Public domain",
+     "autore": "Anonymous  (  Greece  ) Unknown author",
+     "data": "2nd half 4th century BC (Classical)",
+     "larghezza": 1799,
+     "altezza": 1415,
+     "url": "https://commons.wikimedia.org/wiki/File:Greek_-_Banquet_Relief_-_Walters_23222.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 8,
+   "voce": "la coppa",
+   "termini": [
+    "k",
+    "k",
+    "y",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Antiphon Painter, kylix, MCA, 225421.jpg",
+     "termino": "kylix",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2022-06-11 09:33:24",
+     "larghezza": 4683,
+     "altezza": 3512,
+     "url": "https://commons.wikimedia.org/wiki/File:Antiphon_Painter,_kylix,_MCA,_225421.jpg"
+    },
+    {
+     "file": "File:KYLIX3 IDE JP.png",
+     "termino": "kylix",
+     "licenza": "Public domain",
+     "autore": "Hideaki Tominaga",
+     "data": "2019/03/07",
+     "larghezza": 1152,
+     "altezza": 864,
+     "url": "https://commons.wikimedia.org/wiki/File:KYLIX3_IDE_JP.png"
+    },
+    {
+     "file": "File:Kylix, goat, Kanellopoulos Museum, 225159.jpg",
+     "termino": "kylix",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2022-06-10 11:31:40",
+     "larghezza": 5630,
+     "altezza": 3746,
+     "url": "https://commons.wikimedia.org/wiki/File:Kylix,_goat,_Kanellopoulos_Museum,_225159.jpg"
+    },
+    {
+     "file": "File:Kylix impressa 001.png",
+     "termino": "kylix",
+     "licenza": "Public domain",
+     "autore": "G.W. Tryon",
+     "data": "1884",
+     "larghezza": 241,
+     "altezza": 322,
+     "url": "https://commons.wikimedia.org/wiki/File:Kylix_impressa_001.png"
+    },
+    {
+     "file": "File:Real and mythical animals, stemless kylix, Greek-Corinthian, c. 590-580 BC, terracotta - Blanton Museum of Art - Austin, Texas - DSC07661.jpg",
+     "termino": "kylix",
+     "licenza": "Public domain",
+     "autore": "Daderot",
+     "data": "2015-11-15 15:19:47",
+     "larghezza": 5258,
+     "altezza": 3363,
+     "url": "https://commons.wikimedia.org/wiki/File:Real_and_mythical_animals,_stemless_kylix,_Greek-Corinthian,_c._590-580_BC,_terracotta_-_Blanton_Museum_of_Art_-_Austin,_Texas_-_DSC07661.jpg"
+    },
+    {
+     "file": "File:Red-figure kylix, boy carrying amphorae, AGMA, 225322.jpg",
+     "termino": "kylix",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2022-06-10 13:58:31",
+     "larghezza": 5008,
+     "altezza": 3757,
+     "url": "https://commons.wikimedia.org/wiki/File:Red-figure_kylix,_boy_carrying_amphorae,_AGMA,_225322.jpg"
+    },
+    {
+     "file": "File:Red-figure kylix, youth holding a hare, AGMA, 225312y.jpg",
+     "termino": "kylix",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2022-06-10 13:55:32",
+     "larghezza": 2326,
+     "altezza": 1744,
+     "url": "https://commons.wikimedia.org/wiki/File:Red-figure_kylix,_youth_holding_a_hare,_AGMA,_225312y.jpg"
+    },
+    {
+     "file": "File:Terracotta kylix (drinking cup) MET DP114812.jpg",
+     "termino": "kylix",
+     "licenza": "CC0",
+     "autore": "Creator:Apollodoros  (attributed)",
+     "data": "circa 500–490 B.C.",
+     "larghezza": 4000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Terracotta_kylix_(drinking_cup)_MET_DP114812.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 9,
+   "voce": "il consumo rituale",
+   "termini": [
+    "c",
+    "l",
+    "o",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Greek libation bowl.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Eric Polk",
+     "data": "2021-11-11 16:46:25",
+     "larghezza": 1703,
+     "altezza": 1745,
+     "url": "https://commons.wikimedia.org/wiki/File:Greek_libation_bowl.jpg"
+    },
+    {
+     "file": "File:Libation Macron Louvre G149.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "Public domain",
+     "autore": "Marie-Lan Nguyen",
+     "data": "2011",
+     "larghezza": 2500,
+     "altezza": 2450,
+     "url": "https://commons.wikimedia.org/wiki/File:Libation_Macron_Louvre_G149.jpg"
+    },
+    {
+     "file": "File:Phiale from Panagyurishte gold treasure.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC BY 4.0",
+     "autore": "Biser Todorov",
+     "data": "2021-01-15 10:30:42",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Phiale_from_Panagyurishte_gold_treasure.jpg"
+    },
+    {
+     "file": "File:Pátera - Tomis.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC0",
+     "autore": "Laci3",
+     "data": "2022-02-25 15:36:22",
+     "larghezza": 5184,
+     "altezza": 3888,
+     "url": "https://commons.wikimedia.org/wiki/File:P%C3%A1tera_-_Tomis.jpg"
+    },
+    {
+     "file": "File:Pátera de Tomis.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dorieo",
+     "data": "2022-02-25 15:46:06",
+     "larghezza": 2667,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:P%C3%A1tera_de_Tomis.jpg"
+    },
+    {
+     "file": "File:Terracotta phiale (libation bowl) MET DP114235.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC0",
+     "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+     "data": "3rd–2nd century B.C.",
+     "larghezza": 4000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Terracotta_phiale_(libation_bowl)_MET_DP114235.jpg"
+    },
+    {
+     "file": "File:Terracotta phiale (libation bowl) MET sf01813edited.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC0",
+     "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+     "data": "3 rd  century  BC  date QS:P571,-250-00-00T00:00:00Z/7",
+     "larghezza": 900,
+     "altezza": 675,
+     "url": "https://commons.wikimedia.org/wiki/File:Terracotta_phiale_(libation_bowl)_MET_sf01813edited.jpg"
+    },
+    {
+     "file": "File:Terracotta phiale (libation bowl) MET sf2316012edited.jpg",
+     "termino": "libation ancient Greece",
+     "licenza": "CC0",
+     "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+     "data": "3 rd  century  BC  date QS:P571,-250-00-00T00:00:00Z/7",
+     "larghezza": 900,
+     "altezza": 675,
+     "url": "https://commons.wikimedia.org/wiki/File:Terracotta_phiale_(libation_bowl)_MET_sf2316012edited.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 10,
+   "voce": "il vino di Maronea",
+   "termini": [
+    "v",
+    "M",
+    "i",
+    "a"
+   ],
+   "categoria": "nessuna",
+   "motivo": "nessun risultato libero per i termini usati",
+   "candidati": []
+  },
+  {
+   "lingua": "EL",
+   "numero": 11,
+   "voce": "vini di Creta",
+   "termini": [
+    "v",
+    "C",
+    "i",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:José Ángel Biel 2015.jpg",
+     "termino": "vino Creta",
+     "licenza": "CC BY 3.0",
+     "autore": "LaComarcaTeVe  (youtube)",
+     "data": "2015-03-30",
+     "larghezza": 548,
+     "altezza": 351,
+     "url": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_%C3%81ngel_Biel_2015.jpg"
+    },
+    {
+     "file": "File:José Ángel Biel 2015 (cropped).jpg",
+     "termino": "vino Creta",
+     "licenza": "CC BY 3.0",
+     "autore": "LaComarcaTeVe  (youtube)",
+     "data": "2015-03-30",
+     "larghezza": 322,
+     "altezza": 351,
+     "url": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_%C3%81ngel_Biel_2015_(cropped).jpg"
+    },
+    {
+     "file": "File:José Ángel Biel in 2015.jpg",
+     "termino": "vino Creta",
+     "licenza": "CC BY 3.0",
+     "autore": "LaComarcaTeVe  (youtube)",
+     "data": "2015-03-30",
+     "larghezza": 230,
+     "altezza": 346,
+     "url": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_%C3%81ngel_Biel_in_2015.jpg"
+    },
+    {
+     "file": "File:Le imagini dei degli antichi (1608) (14770761893).jpg",
+     "termino": "vino Creta",
+     "licenza": "No restrictions",
+     "autore": "Internet Archive Book Images",
+     "data": "1608",
+     "larghezza": 1588,
+     "altezza": 2104,
+     "url": "https://commons.wikimedia.org/wiki/File:Le_imagini_dei_degli_antichi_(1608)_(14770761893).jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 12,
+   "voce": "il kykeon",
+   "termini": [
+    "k",
+    "k",
+    "y",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Briseis Phoinix Louvre G152.jpg",
+     "termino": "kykeon",
+     "licenza": "Public domain",
+     "autore": "User:Bibi Saint-Pol , own work, 2007-06-06",
+     "data": "",
+     "larghezza": 1857,
+     "altezza": 1833,
+     "url": "https://commons.wikimedia.org/wiki/File:Briseis_Phoinix_Louvre_G152.jpg"
+    },
+    {
+     "file": "File:Briseis and phoenix cropped 1200px.jpg",
+     "termino": "kykeon",
+     "licenza": "CC0",
+     "autore": "Brygos (potter, signed), Brygos Painter",
+     "data": "circa 490 BCE",
+     "larghezza": 1200,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:Briseis_and_phoenix_cropped_1200px.jpg"
+    },
+    {
+     "file": "File:NAMA Circé & Ulysse.jpg",
+     "termino": "kykeon",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Marsyas",
+     "data": "2005",
+     "larghezza": 730,
+     "altezza": 1771,
+     "url": "https://commons.wikimedia.org/wiki/File:NAMA_Circ%C3%A9_%26_Ulysse.jpg"
+    },
+    {
+     "file": "File:Ovid Met 5 - Star Lizard - Adam Elsheimer.jpg",
+     "termino": "kykeon",
+     "licenza": "Public domain",
+     "autore": "Adam Elsheimer   and workshop",
+     "data": "circa 1605 date QS:P571,+1605-00-00T00:00:00Z/9,P1480,Q57279",
+     "larghezza": 2362,
+     "altezza": 2917,
+     "url": "https://commons.wikimedia.org/wiki/File:Ovid_Met_5_-_Star_Lizard_-_Adam_Elsheimer.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 13,
+   "voce": "la birra",
+   "termini": [
+    "b",
+    "a",
+    "i",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Beer glasses Birra Messina.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Flazaza",
+     "data": "2017-06-03 12:37:34",
+     "larghezza": 2736,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Beer_glasses_Birra_Messina.jpg"
+    },
+    {
+     "file": "File:Birra Korça Brewery.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Albinfo",
+     "data": "2013-10",
+     "larghezza": 2500,
+     "altezza": 1090,
+     "url": "https://commons.wikimedia.org/wiki/File:Birra_Kor%C3%A7a_Brewery.jpg"
+    },
+    {
+     "file": "File:Birra Messina Cristalli di Sale.jpg",
+     "termino": "birra",
+     "licenza": "CC BY 4.0",
+     "autore": "Mitsjol",
+     "data": "2021-09-24 18:39:28",
+     "larghezza": 3456,
+     "altezza": 4608,
+     "url": "https://commons.wikimedia.org/wiki/File:Birra_Messina_Cristalli_di_Sale.jpg"
+    },
+    {
+     "file": "File:Birra Moretti beer bottle.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Slyronit",
+     "data": "2020-10-03 13:00:54",
+     "larghezza": 1536,
+     "altezza": 2048,
+     "url": "https://commons.wikimedia.org/wiki/File:Birra_Moretti_beer_bottle.jpg"
+    },
+    {
+     "file": "File:Bottle cap - Birra Moretti.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Przemek Pietrak",
+     "data": "2021-11-29 19:01:34",
+     "larghezza": 2000,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Bottle_cap_-_Birra_Moretti.jpg"
+    },
+    {
+     "file": "File:Bottle cap - Birra Raffo.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Przemek Pietrak",
+     "data": "2021-11-29 19:03:57",
+     "larghezza": 2000,
+     "altezza": 2000,
+     "url": "https://commons.wikimedia.org/wiki/File:Bottle_cap_-_Birra_Raffo.jpg"
+    },
+    {
+     "file": "File:Hacker-Pschorr Oktoberfest Girl Remix.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "File:Hacker-Pschorr Oktoberfest Girl.jpg  by  Markburger83  \n Derivative work:  Lauro Sirgado  ( talk    ·    contribs )",
+     "data": "2011",
+     "larghezza": 3961,
+     "altezza": 3870,
+     "url": "https://commons.wikimedia.org/wiki/File:Hacker-Pschorr_Oktoberfest_Girl_Remix.jpg"
+    },
+    {
+     "file": "File:Taranto birra e sport.jpg",
+     "termino": "birra",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Original :  Beren85  - Uploader on commons :  Tarder",
+     "data": "6-11-2004",
+     "larghezza": 640,
+     "altezza": 359,
+     "url": "https://commons.wikimedia.org/wiki/File:Taranto_birra_e_sport.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 14,
+   "voce": "il caffè",
+   "termini": [
+    "c",
+    "G",
+    "a",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:A small cup of coffee.JPG",
+     "termino": "caffè",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Julius Schorzman",
+     "data": "2005-04-13",
+     "larghezza": 1600,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG"
+    },
+    {
+     "file": "File:Beetroot Latte and Matcha Latte, Purezza, Brighton.jpg",
+     "termino": "caffè",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2023-01-02 17:14:56",
+     "larghezza": 4032,
+     "altezza": 3024,
+     "url": "https://commons.wikimedia.org/wiki/File:Beetroot_Latte_and_Matcha_Latte,_Purezza,_Brighton.jpg"
+    },
+    {
+     "file": "File:Caffe Latte cup.jpg",
+     "termino": "caffè",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Maksym Kozlenko",
+     "data": "2021-04-25 11:34:23",
+     "larghezza": 2899,
+     "altezza": 2630,
+     "url": "https://commons.wikimedia.org/wiki/File:Caffe_Latte_cup.jpg"
+    },
+    {
+     "file": "File:Caffè.jpg",
+     "termino": "caffè",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Visitor7",
+     "data": "2012-10-19 12:14:12",
+     "larghezza": 3596,
+     "altezza": 2877,
+     "url": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8.jpg"
+    },
+    {
+     "file": "File:Caffè Latte at Sainsbury's Low Hall, Chingford, London 1.jpg",
+     "termino": "caffè",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Acabashi",
+     "data": "2019-07-12 12:35:00",
+     "larghezza": 3303,
+     "altezza": 3303,
+     "url": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8_Latte_at_Sainsbury%27s_Low_Hall,_Chingford,_London_1.jpg"
+    },
+    {
+     "file": "File:Caffè latte Michele’s Café Cookham.jpg",
+     "termino": "caffè",
+     "licenza": "CC BY 4.0",
+     "autore": "Rho9998",
+     "data": "2024-08-15 12:57:30",
+     "larghezza": 3024,
+     "altezza": 2996,
+     "url": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8_latte_Michele%E2%80%99s_Caf%C3%A9_Cookham.jpg"
+    },
+    {
+     "file": "File:Caffè latte as being served at Kaffebrenneriet Torshov, Oslo, Norway 2 600x600 100KB.jpg",
+     "termino": "caffè",
+     "licenza": "Public domain",
+     "autore": "Jazzbobrown",
+     "data": "2009-04-30",
+     "larghezza": 600,
+     "altezza": 450,
+     "url": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8_latte_as_being_served_at_Kaffebrenneriet_Torshov,_Oslo,_Norway_2_600x600_100KB.jpg"
+    },
+    {
+     "file": "File:Tiramisu Latte - Caffè Nero 2024-11-11.jpg",
+     "termino": "caffè",
+     "licenza": "CC0",
+     "autore": "Andy Li",
+     "data": "2024-11-11 17:04:42",
+     "larghezza": 6144,
+     "altezza": 8160,
+     "url": "https://commons.wikimedia.org/wiki/File:Tiramisu_Latte_-_Caff%C3%A8_Nero_2024-11-11.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 15,
+   "voce": "il tè",
+   "termini": [
+    "t",
+    "G",
+    "h",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:De Zwaan Windmill in Holland, Michigan.jpg",
+     "termino": "the",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Jarek Tuszyński",
+     "data": "2008-06-22",
+     "larghezza": 2128,
+     "altezza": 2832,
+     "url": "https://commons.wikimedia.org/wiki/File:De_Zwaan_Windmill_in_Holland,_Michigan.jpg"
+    },
+    {
+     "file": "File:Karakteristieke boerderij, Aldlansdyk in Cornjum 02.jpg",
+     "termino": "the",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Dominicus Johannes Bergsma",
+     "data": "2017-04-14 12:46:41",
+     "larghezza": 4605,
+     "altezza": 3363,
+     "url": "https://commons.wikimedia.org/wiki/File:Karakteristieke_boerderij,_Aldlansdyk_in_Cornjum_02.jpg"
+    },
+    {
+     "file": "File:Magnificent CME Erupts on the Sun - August 31.jpg",
+     "termino": "the",
+     "licenza": "CC BY 2.0",
+     "autore": "NASA Goddard Space Flight Center",
+     "data": "2012-08-31 15:22:27",
+     "larghezza": 1920,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Magnificent_CME_Erupts_on_the_Sun_-_August_31.jpg"
+    },
+    {
+     "file": "File:Solar Orbiter’s widest high-res view of the Sun ESA508430.jpg",
+     "termino": "the",
+     "licenza": "CC BY-SA 3.0 igo",
+     "autore": "European Space Agency",
+     "data": "24 April 2025 (upload date) - Taken on 9 March 2025",
+     "larghezza": 12544,
+     "altezza": 12544,
+     "url": "https://commons.wikimedia.org/wiki/File:Solar_Orbiter%E2%80%99s_widest_high-res_view_of_the_Sun_ESA508430.jpg"
+    },
+    {
+     "file": "File:The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg",
+     "termino": "the",
+     "licenza": "Public domain",
+     "autore": "NASA/SDO (AIA)",
+     "data": "2010-08-19 00:32:21",
+     "larghezza": 4044,
+     "altezza": 3860,
+     "url": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg"
+    },
+    {
+     "file": "File:The sun and the moon in South New Brighton's beach, New Zealand.jpg",
+     "termino": "the",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Michal Klajban",
+     "data": "Taken on 19 June 2019, 08:07",
+     "larghezza": 13369,
+     "altezza": 2693,
+     "url": "https://commons.wikimedia.org/wiki/File:The_sun_and_the_moon_in_South_New_Brighton%27s_beach,_New_Zealand.jpg"
+    },
+    {
+     "file": "File:The violent youth of solar proxies.jpg",
+     "termino": "the",
+     "licenza": "CC BY 4.0",
+     "autore": "IAU/E. Guinan",
+     "data": "2013-12-16 00:28:50",
+     "larghezza": 4000,
+     "altezza": 1951,
+     "url": "https://commons.wikimedia.org/wiki/File:The_violent_youth_of_solar_proxies.jpg"
+    },
+    {
+     "file": "File:Zeeland, Netherlands ESA22256852.jpeg",
+     "termino": "the",
+     "licenza": "Attribution",
+     "autore": "European Space Agency",
+     "data": "16 October 2020 (upload date)",
+     "larghezza": 10344,
+     "altezza": 10344,
+     "url": "https://commons.wikimedia.org/wiki/File:Zeeland,_Netherlands_ESA22256852.jpeg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 16,
+   "voce": "le coppe dipinte",
+   "termini": [
+    "c",
+    "G",
+    "o",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Exekias - ABV 146 21 - Dionysos reclining in a ship - fight - München AS 8729 - 02.jpg",
+     "termino": "Greek kylix painting",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "ArchaiOptix",
+     "data": "2016-04-20 19:52:41",
+     "larghezza": 3181,
+     "altezza": 3181,
+     "url": "https://commons.wikimedia.org/wiki/File:Exekias_-_ABV_146_21_-_Dionysos_reclining_in_a_ship_-_fight_-_M%C3%BCnchen_AS_8729_-_02.jpg"
+    },
+    {
+     "file": "File:Exekias - ABV 146 21 - Dionysos reclining in a ship - fight - München AS 8729 - 08.jpg",
+     "termino": "Greek kylix painting",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "ArchaiOptix",
+     "data": "2018-06-20 19:01:03",
+     "larghezza": 3648,
+     "altezza": 4190,
+     "url": "https://commons.wikimedia.org/wiki/File:Exekias_-_ABV_146_21_-_Dionysos_reclining_in_a_ship_-_fight_-_M%C3%BCnchen_AS_8729_-_08.jpg"
+    },
+    {
+     "file": "File:Kylix Dionysus on a ship between dolphins 1.jpg",
+     "termino": "Greek kylix painting",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Burkhard Mücke",
+     "data": "2022-02-24 11:18:35",
+     "larghezza": 3872,
+     "altezza": 2840,
+     "url": "https://commons.wikimedia.org/wiki/File:Kylix_Dionysus_on_a_ship_between_dolphins_1.jpg"
+    },
+    {
+     "file": "File:Kylix by Peithinos - Altes Museum Berlin.JPG",
+     "termino": "Greek kylix painting",
+     "licenza": "Public domain",
+     "autore": "Harrison, Jane E.; MacColl, Dugald S.  Greek vase paintings: a selection of examples",
+     "data": "1894",
+     "larghezza": 2263,
+     "altezza": 2298,
+     "url": "https://commons.wikimedia.org/wiki/File:Kylix_by_Peithinos_-_Altes_Museum_Berlin.JPG"
+    },
+    {
+     "file": "File:Kylix by Peithinos - Altes Museum Berlin from Harrison1894 0086 white-balanced resized colored.png",
+     "termino": "Greek kylix painting",
+     "licenza": "CC0",
+     "autore": "Harrison, Jane E.; MacColl, Dugald S. Greek vase paintings: a selection of examples\n \nPeithinos Painter of Attic Red-Fig",
+     "data": "1894",
+     "larghezza": 1533,
+     "altezza": 1497,
+     "url": "https://commons.wikimedia.org/wiki/File:Kylix_by_Peithinos_-_Altes_Museum_Berlin_from_Harrison1894_0086_white-balanced_resized_colored.png"
+    },
+    {
+     "file": "File:Kylix by Peithinos - Altes Museum Berlin from Harrison1894 0086 white balanced resized.png",
+     "termino": "Greek kylix painting",
+     "licenza": "CC0",
+     "autore": "Harrison, Jane E.; MacColl, Dugald S. Greek vase paintings: a selection of examples",
+     "data": "1894",
+     "larghezza": 1533,
+     "altezza": 1497,
+     "url": "https://commons.wikimedia.org/wiki/File:Kylix_by_Peithinos_-_Altes_Museum_Berlin_from_Harrison1894_0086_white_balanced_resized.png"
+    },
+    {
+     "file": "File:Red-figure kylix youth painting kylix (Boston MFA 01.8073).jpg",
+     "termino": "Greek kylix painting",
+     "licenza": "CC BY 4.0",
+     "autore": "Mark Landon",
+     "data": "2023-03-06",
+     "larghezza": 3402,
+     "altezza": 3228,
+     "url": "https://commons.wikimedia.org/wiki/File:Red-figure_kylix_youth_painting_kylix_(Boston_MFA_01.8073).jpg"
+    },
+    {
+     "file": "File:Zeus on throne, Laconian kylix, around 530 BC, Olympia 21.jpg",
+     "termino": "Greek kylix painting",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Zde",
+     "data": "2000-06-20",
+     "larghezza": 1024,
+     "altezza": 682,
+     "url": "https://commons.wikimedia.org/wiki/File:Zeus_on_throne,_Laconian_kylix,_around_530_BC,_Olympia_21.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 17,
+   "voce": "gli inventari dei simposi",
+   "termini": [
+    "i",
+    "s",
+    "n",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:21. Symposium 1991 (Farbfotos)-Bayrisches Buffet am Symposium-HSGH 022-002213-03.jpg",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "University of St. Gallen",
+     "data": "1991",
+     "larghezza": 6947,
+     "altezza": 4417,
+     "url": "https://commons.wikimedia.org/wiki/File:21._Symposium_1991_(Farbfotos)-Bayrisches_Buffet_am_Symposium-HSGH_022-002213-03.jpg"
+    },
+    {
+     "file": "File:21. Symposium 1991 (Farbfotos)-Redner aus Deutschland am Symposium-HSGH 022-002213-05.jpg",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "University of St. Gallen",
+     "data": "1991",
+     "larghezza": 4674,
+     "altezza": 6947,
+     "url": "https://commons.wikimedia.org/wiki/File:21._Symposium_1991_(Farbfotos)-Redner_aus_Deutschland_am_Symposium-HSGH_022-002213-05.jpg"
+    },
+    {
+     "file": "File:27. Internationales Management Symposium 1997-Gruppenbild der Preisträger am Symposium-HSGH 022-000754-12.jpg",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Regina Kühne",
+     "data": "1997",
+     "larghezza": 6947,
+     "altezza": 4012,
+     "url": "https://commons.wikimedia.org/wiki/File:27._Internationales_Management_Symposium_1997-Gruppenbild_der_Preistr%C3%A4ger_am_Symposium-HSGH_022-000754-12.jpg"
+    },
+    {
+     "file": "File:27. Internationales Management Symposium 1997-Publikum beim Symposium-HSGH 022-000754-11.jpg",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Regina Kühne",
+     "data": "1997",
+     "larghezza": 6947,
+     "altezza": 4596,
+     "url": "https://commons.wikimedia.org/wiki/File:27._Internationales_Management_Symposium_1997-Publikum_beim_Symposium-HSGH_022-000754-11.jpg"
+    },
+    {
+     "file": "File:30. ISC-Symposium-Martin Lockett-HSGN 028-01453.tif",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Regina Kühne",
+     "data": "2000",
+     "larghezza": 3752,
+     "altezza": 5508,
+     "url": "https://commons.wikimedia.org/wiki/File:30._ISC-Symposium-Martin_Lockett-HSGN_028-01453.tif"
+    },
+    {
+     "file": "File:30. ISC-Symposium-Moritz Leuenberger-HSGN 028-01432.tif",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Regina Kühne",
+     "data": "2000",
+     "larghezza": 4871,
+     "altezza": 3560,
+     "url": "https://commons.wikimedia.org/wiki/File:30._ISC-Symposium-Moritz_Leuenberger-HSGN_028-01432.tif"
+    },
+    {
+     "file": "File:30. ISC-Symposium-Pausengespräch bei der Jubiläums-Kuhskulptur mit Symposiums-Logo-HSGN 028-01443.tif",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Regina Kühne",
+     "data": "2000",
+     "larghezza": 5698,
+     "altezza": 3749,
+     "url": "https://commons.wikimedia.org/wiki/File:30._ISC-Symposium-Pausengespr%C3%A4ch_bei_der_Jubil%C3%A4ums-Kuhskulptur_mit_Symposiums-Logo-HSGN_028-01443.tif"
+    },
+    {
+     "file": "File:Paul Watzlawick am ISC-Symposium 1988 HSGH 022-000762.jpg",
+     "termino": "symposium inventory",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Regina Kühne",
+     "data": "1988-05-16",
+     "larghezza": 6000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Paul_Watzlawick_am_ISC-Symposium_1988_HSGH_022-000762.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 18,
+   "voce": "i nomi dei vasi",
+   "termini": [
+    "v",
+    "G",
+    "a",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Cemetery Novodevichy, Vasily Timofeev grave.jpg",
+     "termino": "vasi nomi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Pierre André Leclercq",
+     "data": "2013-03-31 07:46:15",
+     "larghezza": 2221,
+     "altezza": 1474,
+     "url": "https://commons.wikimedia.org/wiki/File:Cemetery_Novodevichy,_Vasily_Timofeev_grave.jpg"
+    },
+    {
+     "file": "File:Sant Vasily cathedral in Moscow.JPG",
+     "termino": "vasi nomi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Petar Milošević",
+     "data": "2009-04-18",
+     "larghezza": 2576,
+     "altezza": 3648,
+     "url": "https://commons.wikimedia.org/wiki/File:Sant_Vasily_cathedral_in_Moscow.JPG"
+    },
+    {
+     "file": "File:Vasily Aksyonov 1980.jpg",
+     "termino": "vasi nomi",
+     "licenza": "Public domain",
+     "autore": "Bernard Gotfryd photograph collection (Library of Congress)",
+     "data": "1980",
+     "larghezza": 697,
+     "altezza": 1024,
+     "url": "https://commons.wikimedia.org/wiki/File:Vasily_Aksyonov_1980.jpg"
+    },
+    {
+     "file": "File:Vasily Makarovich Cherdintsev.jpg",
+     "termino": "vasi nomi",
+     "licenza": "CC0",
+     "autore": "В. А. Погадаев",
+     "data": "2008-01-12 13:48:11",
+     "larghezza": 2251,
+     "altezza": 2890,
+     "url": "https://commons.wikimedia.org/wiki/File:Vasily_Makarovich_Cherdintsev.jpg"
+    },
+    {
+     "file": "File:Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg",
+     "termino": "vasi nomi",
+     "licenza": "Public domain",
+     "autore": "Vasily Perov",
+     "data": "1872",
+     "larghezza": 3200,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+    },
+    {
+     "file": "File:Vasily Pukirev - Неравный брак - Google Art Project.jpg",
+     "termino": "vasi nomi",
+     "licenza": "Public domain",
+     "autore": "Vassili Vladimirovich Pukiryov",
+     "data": "1862 date QS:P571,+1862-00-00T00:00:00Z/9",
+     "larghezza": 3146,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Vasily_Pukirev_-_%D0%9D%D0%B5%D1%80%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B1%D1%80%D0%B0%D0%BA_-_Google_Art_Project.jpg"
+    },
+    {
+     "file": "File:Vasily Surikov - Боярыня Морозова - Google Art Project.jpg",
+     "termino": "vasi nomi",
+     "licenza": "Public domain",
+     "autore": "Vasily Surikov",
+     "data": "1887 date QS:P571,+1887-00-00T00:00:00Z/9",
+     "larghezza": 4000,
+     "altezza": 2059,
+     "url": "https://commons.wikimedia.org/wiki/File:Vasily_Surikov_-_%D0%91%D0%BE%D1%8F%D1%80%D1%8B%D0%BD%D1%8F_%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0_-_Google_Art_Project.jpg"
+    },
+    {
+     "file": "File:Vasily Surikov - Утро стрелецкой казни - Google Art Project.jpg",
+     "termino": "vasi nomi",
+     "licenza": "Public domain",
+     "autore": "Vasily Surikov",
+     "data": "1881 date QS:P571,+1881-00-00T00:00:00Z/9",
+     "larghezza": 4000,
+     "altezza": 2301,
+     "url": "https://commons.wikimedia.org/wiki/File:Vasily_Surikov_-_%D0%A3%D1%82%D1%80%D0%BE_%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%B5%D1%86%D0%BA%D0%BE%D0%B9_%D0%BA%D0%B0%D0%B7%D0%BD%D0%B8_-_Google_Art_Project.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 19,
+   "voce": "i vini dirottati",
+   "termini": [
+    "v",
+    "G",
+    "i",
+    "r"
+   ],
+   "categoria": "nessuna",
+   "motivo": "nessun risultato libero per i termini usati",
+   "candidati": []
+  },
+  {
+   "lingua": "EL",
+   "numero": 20,
+   "voce": "la sete",
+   "termini": [
+    "s",
+    "T",
+    "e",
+    "h"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Canal de la Peyrade, Sète, Hérault 01.jpg",
+     "termino": "sete",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 13 September 2013, 12:32:51",
+     "larghezza": 3977,
+     "altezza": 5957,
+     "url": "https://commons.wikimedia.org/wiki/File:Canal_de_la_Peyrade,_S%C3%A8te,_H%C3%A9rault_01.jpg"
+    },
+    {
+     "file": "File:Canal de la Peyrade toward Sète.jpg",
+     "termino": "sete",
+     "licenza": "CC BY 4.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 14 March 2021, 07:47:17",
+     "larghezza": 7178,
+     "altezza": 4486,
+     "url": "https://commons.wikimedia.org/wiki/File:Canal_de_la_Peyrade_toward_S%C3%A8te.jpg"
+    },
+    {
+     "file": "File:Canal of Sète at dusk cf01.jpg",
+     "termino": "sete",
+     "licenza": "CC BY 4.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 24 June 2017, 22:01:07",
+     "larghezza": 7247,
+     "altezza": 4076,
+     "url": "https://commons.wikimedia.org/wiki/File:Canal_of_S%C3%A8te_at_dusk_cf01.jpg"
+    },
+    {
+     "file": "File:La Grace (ship, 2010), Sète, Hérault 01.jpg",
+     "termino": "sete",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 19 April 2014, 07:20:10",
+     "larghezza": 5280,
+     "altezza": 3300,
+     "url": "https://commons.wikimedia.org/wiki/File:La_Grace_(ship,_2010),_S%C3%A8te,_H%C3%A9rault_01.jpg"
+    },
+    {
+     "file": "File:Nao Victoria moored in Sète 01.jpg",
+     "termino": "sete",
+     "licenza": "CC BY 4.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 14 June 2019, 05:59:17",
+     "larghezza": 7360,
+     "altezza": 4912,
+     "url": "https://commons.wikimedia.org/wiki/File:Nao_Victoria_moored_in_S%C3%A8te_01.jpg"
+    },
+    {
+     "file": "File:Sympetrum fonscolombii, female, Sète cf04.jpg",
+     "termino": "sete",
+     "licenza": "CC BY 4.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 14 August 2016, 10:23:15",
+     "larghezza": 2809,
+     "altezza": 4214,
+     "url": "https://commons.wikimedia.org/wiki/File:Sympetrum_fonscolombii,_female,_S%C3%A8te_cf04.jpg"
+    },
+    {
+     "file": "File:Sète from Mount Saint-Clair by night 01.jpg",
+     "termino": "sete",
+     "licenza": "CC BY 4.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 10 April 2015, 20:52:04",
+     "larghezza": 7270,
+     "altezza": 3485,
+     "url": "https://commons.wikimedia.org/wiki/File:S%C3%A8te_from_Mount_Saint-Clair_by_night_01.jpg"
+    },
+    {
+     "file": "File:Étang de Thau, Sète, Hérault 02.jpg",
+     "termino": "sete",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Christian Ferrer",
+     "data": "Taken on 10 September 2013, 19:22:58",
+     "larghezza": 4280,
+     "altezza": 2675,
+     "url": "https://commons.wikimedia.org/wiki/File:%C3%89tang_de_Thau,_S%C3%A8te,_H%C3%A9rault_02.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 21,
+   "voce": "l'ospitalità",
+   "termini": [
+    "o",
+    "x",
+    "s",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:BOWYER BIBLE GENESIS 136. Abraham and the Angels. Genesis cap 18 vv 6, 8. Pinz.jpg",
+     "termino": "ospitalità",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Phidev74",
+     "data": "",
+     "larghezza": 719,
+     "altezza": 1052,
+     "url": "https://commons.wikimedia.org/wiki/File:BOWYER_BIBLE_GENESIS_136._Abraham_and_the_Angels._Genesis_cap_18_vv_6,_8._Pinz.jpg"
+    },
+    {
+     "file": "File:Cadrick Chimuti , exploring A.I in Hospitality at Laren Hotel in Turkey.png",
+     "termino": "ospitalità",
+     "licenza": "CC0",
+     "autore": "Davidson Tenewari",
+     "data": "2024-04-09",
+     "larghezza": 1080,
+     "altezza": 1591,
+     "url": "https://commons.wikimedia.org/wiki/File:Cadrick_Chimuti_,_exploring_A.I_in_Hospitality_at_Laren_Hotel_in_Turkey.png"
+    },
+    {
+     "file": "File:Cadrick Chimuti , meets Georgia Tourism Agency.jpg",
+     "termino": "ospitalità",
+     "licenza": "CC BY 4.0",
+     "autore": "Davidson Tenewari",
+     "data": "2023-06-12",
+     "larghezza": 720,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Cadrick_Chimuti_,_meets_Georgia_Tourism_Agency.jpg"
+    },
+    {
+     "file": "File:Chambal River Front Night view.jpg",
+     "termino": "ospitalità",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Imakanksha",
+     "data": "2025-08-21",
+     "larghezza": 2340,
+     "altezza": 4160,
+     "url": "https://commons.wikimedia.org/wiki/File:Chambal_River_Front_Night_view.jpg"
+    },
+    {
+     "file": "File:Choynak va piyola.png",
+     "termino": "ospitalità",
+     "licenza": "CC BY 4.0",
+     "autore": "AIDEPCUL",
+     "data": "2026-08-10",
+     "larghezza": 1920,
+     "altezza": 1080,
+     "url": "https://commons.wikimedia.org/wiki/File:Choynak_va_piyola.png"
+    },
+    {
+     "file": "File:Palov ko‘tarayotgan xizmatchi.jpg",
+     "termino": "ospitalità",
+     "licenza": "CC BY 4.0",
+     "autore": "AIDEPCUL",
+     "data": "2023-07-01 12:00:18",
+     "larghezza": 8256,
+     "altezza": 5504,
+     "url": "https://commons.wikimedia.org/wiki/File:Palov_ko%E2%80%98tarayotgan_xizmatchi.jpg"
+    },
+    {
+     "file": "File:Roasted Pig Ritterfestspiele Bentheim 2026.jpg",
+     "termino": "ospitalità",
+     "licenza": "CC0",
+     "autore": "NordhornerII",
+     "data": "2026-05-02 13:05:15",
+     "larghezza": 3072,
+     "altezza": 4080,
+     "url": "https://commons.wikimedia.org/wiki/File:Roasted_Pig_Ritterfestspiele_Bentheim_2026.jpg"
+    },
+    {
+     "file": "File:Turkmen-girls-greeting-guests.jpg",
+     "termino": "ospitalità",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Amustard",
+     "data": "2017-03-21 09:42:54",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:Turkmen-girls-greeting-guests.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 22,
+   "voce": "il brindisi",
+   "termini": [
+    "b",
+    "G",
+    "r",
+    "r"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:9.4.2023 in Brindisi. 02.jpg",
+     "termino": "brindisi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Holger Uwe Schmitt",
+     "data": "2023-04-09 12:22:27",
+     "larghezza": 5906,
+     "altezza": 4109,
+     "url": "https://commons.wikimedia.org/wiki/File:9.4.2023_in_Brindisi._02.jpg"
+    },
+    {
+     "file": "File:Brindisi OSM.png",
+     "termino": "brindisi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Description Brindisi OSM.png  \n \n \nThis map  was created from  OpenStreetMap  project data, collected by the community. ",
+     "data": "2020-05-07",
+     "larghezza": 999,
+     "altezza": 843,
+     "url": "https://commons.wikimedia.org/wiki/File:Brindisi_OSM.png"
+    },
+    {
+     "file": "File:Brindisi by Piri Reis.jpg",
+     "termino": "brindisi",
+     "licenza": "Public domain",
+     "autore": "Piri Reis",
+     "data": "29 October 2006 (original upload date)",
+     "larghezza": 801,
+     "altezza": 574,
+     "url": "https://commons.wikimedia.org/wiki/File:Brindisi_by_Piri_Reis.jpg"
+    },
+    {
+     "file": "File:Le colonne della Via Appia a Brindisi.jpg",
+     "termino": "brindisi",
+     "licenza": "Public domain",
+     "autore": "Io sono l'autore, la scalinata delle colonne. Original uploader was  Zappuddu  at  it.wikipedia",
+     "data": "8 September 2007 (original upload date)",
+     "larghezza": 3040,
+     "altezza": 2288,
+     "url": "https://commons.wikimedia.org/wiki/File:Le_colonne_della_Via_Appia_a_Brindisi.jpg"
+    },
+    {
+     "file": "File:PAsseggiata a mare di Brindisi con luce rosa prima del tramonto.jpg",
+     "termino": "brindisi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Ale zena",
+     "data": "2021-05-02 19:48:54",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:PAsseggiata_a_mare_di_Brindisi_con_luce_rosa_prima_del_tramonto.jpg"
+    },
+    {
+     "file": "File:Photo Portal of the Angevin Mint in Brindisi 1930 - Touring Club Italiano s06105-01.jpg",
+     "termino": "brindisi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Unknown author Unknown author",
+     "data": "1930 date QS:P571,+1930-00-00T00:00:00Z/9",
+     "larghezza": 852,
+     "altezza": 1125,
+     "url": "https://commons.wikimedia.org/wiki/File:Photo_Portal_of_the_Angevin_Mint_in_Brindisi_1930_-_Touring_Club_Italiano_s06105-01.jpg"
+    },
+    {
+     "file": "File:Photo Romanesque capital at the Civic Archaeological Museum of Brindisi 1930 - Touring Club Italiano s06107-01.jpg",
+     "termino": "brindisi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Unknown author Unknown author",
+     "data": "1930 date QS:P571,+1930-00-00T00:00:00Z/9",
+     "larghezza": 813,
+     "altezza": 1125,
+     "url": "https://commons.wikimedia.org/wiki/File:Photo_Romanesque_capital_at_the_Civic_Archaeological_Museum_of_Brindisi_1930_-_Touring_Club_Italiano_s06107-01.jpg"
+    },
+    {
+     "file": "File:Photo View of the temple of San Giovanni al Sepolcro in Brindisi 1930 - Touring Club Italiano s06106-01.jpg",
+     "termino": "brindisi",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Unknown author Unknown author",
+     "data": "1930 date QS:P571,+1930-00-00T00:00:00Z/9",
+     "larghezza": 1125,
+     "altezza": 781,
+     "url": "https://commons.wikimedia.org/wiki/File:Photo_View_of_the_temple_of_San_Giovanni_al_Sepolcro_in_Brindisi_1930_-_Touring_Club_Italiano_s06106-01.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 23,
+   "voce": "i precetti di temperanza",
+   "termini": [
+    "t",
+    "s",
+    "e",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Giotto di Bondone - No. 42 The Seven Virtues - Temperance - WGA09269.jpg",
+     "termino": "temperanza",
+     "licenza": "Public domain",
+     "autore": "Giotto",
+     "data": "1306 date QS:P571,+1306-00-00T00:00:00Z/9",
+     "larghezza": 600,
+     "altezza": 1114,
+     "url": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._42_The_Seven_Virtues_-_Temperance_-_WGA09269.jpg"
+    },
+    {
+     "file": "File:Piero del Pollaiolo - Temperance - Uffizi.jpeg",
+     "termino": "temperanza",
+     "licenza": "Public domain",
+     "autore": "Piero del Pollaiuolo",
+     "data": "1470",
+     "larghezza": 2956,
+     "altezza": 5683,
+     "url": "https://commons.wikimedia.org/wiki/File:Piero_del_Pollaiolo_-_Temperance_-_Uffizi.jpeg"
+    },
+    {
+     "file": "File:Rosie Stephenson-Goodknight presenting on Temperance Women at Wikimania - International Conference Centre.jpg",
+     "termino": "temperanza",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Lajmmoore",
+     "data": "9 August 2024 (according to   Exif   data)",
+     "larghezza": 4032,
+     "altezza": 2268,
+     "url": "https://commons.wikimedia.org/wiki/File:Rosie_Stephenson-Goodknight_presenting_on_Temperance_Women_at_Wikimania_-_International_Conference_Centre.jpg"
+    },
+    {
+     "file": "File:Scuola Grande dei Carmini (Venice) - Sala capitolare - Prudenza, purezza e temperanza - Giambattista Tiepolo.jpg",
+     "termino": "temperanza",
+     "licenza": "Public domain",
+     "autore": "Didier Descouens",
+     "data": "Taken on 23 May 2017",
+     "larghezza": 2753,
+     "altezza": 2714,
+     "url": "https://commons.wikimedia.org/wiki/File:Scuola_Grande_dei_Carmini_(Venice)_-_Sala_capitolare_-_Prudenza,_purezza_e_temperanza_-_Giambattista_Tiepolo.jpg"
+    },
+    {
+     "file": "File:Temperanza Alvise Tagliapietra.jpg",
+     "termino": "temperanza",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "This Photo  was taken by    Wolfgang Moroder   .       \n \n Feel free to use my photos, but please mention me as the auth",
+     "data": "2010-07-31",
+     "larghezza": 2428,
+     "altezza": 4242,
+     "url": "https://commons.wikimedia.org/wiki/File:Temperanza_Alvise_Tagliapietra.jpg"
+    },
+    {
+     "file": "File:Temperanza Alvise Tagliapietra notte.jpg",
+     "termino": "temperanza",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "This Photo  was taken by    Wolfgang Moroder   .       \n \n Feel free to use my photos, but please mention me as the auth",
+     "data": "2010-07-31",
+     "larghezza": 5342,
+     "altezza": 7640,
+     "url": "https://commons.wikimedia.org/wiki/File:Temperanza_Alvise_Tagliapietra_notte.jpg"
+    },
+    {
+     "file": "File:Temperanza di Donato Creti - Coll comunali d arte abc1.jpg",
+     "termino": "temperanza",
+     "licenza": "Public domain",
+     "autore": "Donato Creti",
+     "data": "between 1719 and 1721 date QS:P571,+1750-00-00T00:00:00Z/7,P",
+     "larghezza": 2189,
+     "altezza": 2178,
+     "url": "https://commons.wikimedia.org/wiki/File:Temperanza_di_Donato_Creti_-_Coll_comunali_d_arte_abc1.jpg"
+    },
+    {
+     "file": "File:Temperanza di Donato Creti - Coll comunali d arte abc2.jpg",
+     "termino": "temperanza",
+     "licenza": "Public domain",
+     "autore": "Patafisik",
+     "data": "",
+     "larghezza": 3033,
+     "altezza": 3534,
+     "url": "https://commons.wikimedia.org/wiki/File:Temperanza_di_Donato_Creti_-_Coll_comunali_d_arte_abc2.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 24,
+   "voce": "i vini del Peloponneso",
+   "termini": [
+    "v",
+    "P",
+    "i",
+    "e"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Delos.jpg",
+     "termino": "Peloponnesian wine",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Leonora Enking",
+     "data": "2004-08-01 00:00:00",
+     "larghezza": 1698,
+     "altezza": 1139,
+     "url": "https://commons.wikimedia.org/wiki/File:Delos.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 25,
+   "voce": "i vini delle isole",
+   "termini": [
+    "v",
+    "i",
+    "i",
+    "s"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:'Liastos' Traditional straw wine in Greece.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Tim Clarke01",
+     "data": "2017-09-01",
+     "larghezza": 3264,
+     "altezza": 2448,
+     "url": "https://commons.wikimedia.org/wiki/File:%27Liastos%27_Traditional_straw_wine_in_Greece.jpg"
+    },
+    {
+     "file": "File:Loading grapes in wine press in Akrotiri.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY 2.0",
+     "autore": "Klearchos Kapoutsis",
+     "data": "2011-08-24 14:06:49",
+     "larghezza": 1024,
+     "altezza": 683,
+     "url": "https://commons.wikimedia.org/wiki/File:Loading_grapes_in_wine_press_in_Akrotiri.jpg"
+    },
+    {
+     "file": "File:Red Santorini wine.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY 2.0",
+     "autore": "BluEyedA73",
+     "data": "2009-09-24 02:44:36",
+     "larghezza": 960,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Red_Santorini_wine.jpg"
+    },
+    {
+     "file": "File:Samos muscat wine.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Agne27",
+     "data": "9 May 2014 (according to   Exif   data)",
+     "larghezza": 1936,
+     "altezza": 2592,
+     "url": "https://commons.wikimedia.org/wiki/File:Samos_muscat_wine.jpg"
+    },
+    {
+     "file": "File:View of Mudros showing French wine store. In the background is the French hospital. Lemnos Island, Aegean Sea.... - NARA - 533107.tif",
+     "termino": "island wine Greece",
+     "licenza": "Public domain",
+     "autore": "Unknown author Unknown author  or not provided",
+     "data": "between circa 1919 and circa 1919 date QS:P571,+1919-00-00T0",
+     "larghezza": 3000,
+     "altezza": 2298,
+     "url": "https://commons.wikimedia.org/wiki/File:View_of_Mudros_showing_French_wine_store._In_the_background_is_the_French_hospital._Lemnos_Island,_Aegean_Sea...._-_NARA_-_533107.tif"
+    },
+    {
+     "file": "File:Vin rosé de Crète.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY 2.0",
+     "autore": "Signe Karin",
+     "data": "2010-05-23 16:31:07",
+     "larghezza": 4000,
+     "altezza": 3000,
+     "url": "https://commons.wikimedia.org/wiki/File:Vin_ros%C3%A9_de_Cr%C3%A8te.jpg"
+    },
+    {
+     "file": "File:White Santorini wine.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY 2.0",
+     "autore": "Klearchos Kapoutsis",
+     "data": "2010-03-25 16:23:51",
+     "larghezza": 3168,
+     "altezza": 4752,
+     "url": "https://commons.wikimedia.org/wiki/File:White_Santorini_wine.jpg"
+    },
+    {
+     "file": "File:Wine Press at Estate Argyros Winery in Episkopi Gonia, Santorini.jpg",
+     "termino": "island wine Greece",
+     "licenza": "CC BY 2.0",
+     "autore": "BluEyedA73",
+     "data": "2009-09-22 22:50:56",
+     "larghezza": 960,
+     "altezza": 1280,
+     "url": "https://commons.wikimedia.org/wiki/File:Wine_Press_at_Estate_Argyros_Winery_in_Episkopi_Gonia,_Santorini.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 26,
+   "voce": "il mosto",
+   "termini": [
+    "m",
+    "m",
+    "o",
+    "u"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Ca' da Mosto facciata in Campiello del Leon Bianco (Venice).jpg",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Didier Descouens",
+     "data": "Taken on 11 May 2015",
+     "larghezza": 4710,
+     "altezza": 5151,
+     "url": "https://commons.wikimedia.org/wiki/File:Ca%27_da_Mosto_facciata_in_Campiello_del_Leon_Bianco_(Venice).jpg"
+    },
+    {
+     "file": "File:Ca'da Mosto e gondola sul Canal Grande Venezia.jpg",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "This Photo  was taken by    Wolfgang Moroder   .       \n \n Feel free to use my photos, but please mention me as the auth",
+     "data": "2017-06-20",
+     "larghezza": 4912,
+     "altezza": 7360,
+     "url": "https://commons.wikimedia.org/wiki/File:Ca%27da_Mosto_e_gondola_sul_Canal_Grande_Venezia.jpg"
+    },
+    {
+     "file": "File:Ca’ da Mosto sul Canal Grande,Venezia,Italia - 2004.jpg",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 2.5",
+     "autore": "Nino Barbieri",
+     "data": "2004-11",
+     "larghezza": 2050,
+     "altezza": 3074,
+     "url": "https://commons.wikimedia.org/wiki/File:Ca%E2%80%99_da_Mosto_sul_Canal_Grande,Venezia,Italia_-_2004.jpg"
+    },
+    {
+     "file": "File:DaMosto Venice shield.png",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Abxbay",
+     "data": "2021-04-23",
+     "larghezza": 1000,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:DaMosto_Venice_shield.png"
+    },
+    {
+     "file": "File:DaMosto shield.png",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Abxbay",
+     "data": "2021-01-28",
+     "larghezza": 1000,
+     "altezza": 1200,
+     "url": "https://commons.wikimedia.org/wiki/File:DaMosto_shield.png"
+    },
+    {
+     "file": "File:Mosto - IMG 20260103 144948.jpg",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "El Pantera",
+     "data": "2026-01-03 14:49:48",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Mosto_-_IMG_20260103_144948.jpg"
+    },
+    {
+     "file": "File:Must.jpg",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Nicubunu",
+     "data": "2012-10-20 15:58:44",
+     "larghezza": 1200,
+     "altezza": 1800,
+     "url": "https://commons.wikimedia.org/wiki/File:Must.jpg"
+    },
+    {
+     "file": "File:Palazzo Ca' da Mosto Canal Grande Venezia.jpg",
+     "termino": "mosto",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "This Photo  was taken by    Wolfgang Moroder   .       \n \n Feel free to use my photos, but please mention me as the auth",
+     "data": "2016-04-19",
+     "larghezza": 7360,
+     "altezza": 4912,
+     "url": "https://commons.wikimedia.org/wiki/File:Palazzo_Ca%27_da_Mosto_Canal_Grande_Venezia.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 27,
+   "voce": "la conservazione",
+   "termini": [
+    "c",
+    "w",
+    "o",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Conservation biology draws from many other sciences to protect biodiversity Wilson&Primack2019Fig 1.3.png",
+     "termino": "conservazione",
+     "licenza": "CC BY 4.0",
+     "autore": "John W. Wilson, Richard B. Primack: \"Conservation Biology in Sub-Saharan Africa\", Chapter 1: \"What is Conservation Biolo",
+     "data": "2019",
+     "larghezza": 1767,
+     "altezza": 1229,
+     "url": "https://commons.wikimedia.org/wiki/File:Conservation_biology_draws_from_many_other_sciences_to_protect_biodiversity_Wilson%26Primack2019Fig_1.3.png"
+    },
+    {
+     "file": "File:Conservation reliant species08.jpg",
+     "termino": "conservazione",
+     "licenza": "Public domain",
+     "autore": "J. Michael Scott, Dale Goble, Aaron Haines",
+     "data": "2008-08",
+     "larghezza": 1183,
+     "altezza": 1004,
+     "url": "https://commons.wikimedia.org/wiki/File:Conservation_reliant_species08.jpg"
+    },
+    {
+     "file": "File:How open science practices can help bridge the knowledge-action gap in conservation (cropped).jpg",
+     "termino": "conservazione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elise Gagnon, Canadian Parks and Wilderness Society (CPAWS) - Northern Alberta",
+     "data": "",
+     "larghezza": 1400,
+     "altezza": 369,
+     "url": "https://commons.wikimedia.org/wiki/File:How_open_science_practices_can_help_bridge_the_knowledge-action_gap_in_conservation_(cropped).jpg"
+    },
+    {
+     "file": "File:How open science practices can help bridge the knowledge-action gap in conservation (cropped to the bridging part).jpg",
+     "termino": "conservazione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elise Gagnon, Canadian Parks and Wilderness Society (CPAWS) - Northern Alberta",
+     "data": "",
+     "larghezza": 660,
+     "altezza": 368,
+     "url": "https://commons.wikimedia.org/wiki/File:How_open_science_practices_can_help_bridge_the_knowledge-action_gap_in_conservation_(cropped_to_the_bridging_part).jpg"
+    },
+    {
+     "file": "File:How open science practices can help bridge the knowledge-action gap in conservation (cropped to the gap part).jpg",
+     "termino": "conservazione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Elise Gagnon, Canadian Parks and Wilderness Society (CPAWS) - Northern Alberta",
+     "data": "",
+     "larghezza": 639,
+     "altezza": 369,
+     "url": "https://commons.wikimedia.org/wiki/File:How_open_science_practices_can_help_bridge_the_knowledge-action_gap_in_conservation_(cropped_to_the_gap_part).jpg"
+    },
+    {
+     "file": "File:Research themes in conservation physiology - Cooke et al. (2021).jpg",
+     "termino": "conservazione",
+     "licenza": "CC BY 4.0",
+     "autore": "Steven J Cooke, Jordanna N Bergman, Christine L Madliger, Rebecca L Cramp, John Beardall, Gary Burness, Timothy D Clark,",
+     "data": "2021-04-07",
+     "larghezza": 301,
+     "altezza": 692,
+     "url": "https://commons.wikimedia.org/wiki/File:Research_themes_in_conservation_physiology_-_Cooke_et_al._(2021).jpg"
+    },
+    {
+     "file": "File:StagBeetleStumperyAldershot.jpg",
+     "termino": "conservazione",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Martinvl",
+     "data": "2020-07-23 15:00:55",
+     "larghezza": 3456,
+     "altezza": 4616,
+     "url": "https://commons.wikimedia.org/wiki/File:StagBeetleStumperyAldershot.jpg"
+    },
+    {
+     "file": "File:The Berry Biodiversity Conservation Center at the University of Wyoming.jpg",
+     "termino": "conservazione",
+     "licenza": "CC BY 2.0",
+     "autore": "Tony Webster",
+     "data": "2024-06-20 14:41",
+     "larghezza": 8001,
+     "altezza": 5458,
+     "url": "https://commons.wikimedia.org/wiki/File:The_Berry_Biodiversity_Conservation_Center_at_the_University_of_Wyoming.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 28,
+   "voce": "il trasporto delle botti",
+   "termini": [
+    "t",
+    "w",
+    "r",
+    "i"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:CARRO CON BALESTRE PER IL TRAINO ANIMALE.jpg",
+     "termino": "trasporto botti",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "Agrimuseo",
+     "data": "2025-03-21",
+     "larghezza": 1268,
+     "altezza": 719,
+     "url": "https://commons.wikimedia.org/wiki/File:CARRO_CON_BALESTRE_PER_IL_TRAINO_ANIMALE.jpg"
+    },
+    {
+     "file": "File:Conrad 86 Napoli.jpg",
+     "termino": "trasporto botti",
+     "licenza": "Public domain",
+     "autore": "Giorgio Conrad",
+     "data": "before 1889 date QS:P,+1889-00-00T00:00:00Z/7,P1326,+1889-00",
+     "larghezza": 1475,
+     "altezza": 1217,
+     "url": "https://commons.wikimedia.org/wiki/File:Conrad_86_Napoli.jpg"
+    },
+    {
+     "file": "File:Le bateau ivre? (1549296449).jpg",
+     "termino": "trasporto botti",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "ho visto nina volare  from Italy",
+     "data": "2007-09-10 14:12",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Le_bateau_ivre%3F_(1549296449).jpg"
+    },
+    {
+     "file": "File:Palazzo Tozzoni Imola - Cantina 11.jpg",
+     "termino": "trasporto botti",
+     "licenza": "CC0",
+     "autore": "Civic museums of Imola",
+     "data": "2012-04-03 15:38:53",
+     "larghezza": 1500,
+     "altezza": 980,
+     "url": "https://commons.wikimedia.org/wiki/File:Palazzo_Tozzoni_Imola_-_Cantina_11.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 29,
+   "voce": "la tavola",
+   "termini": [
+    "t",
+    "s",
+    "a",
+    "y"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:Tavola (Prato) 01.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_01.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 06.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_06.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 10.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_10.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 13.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_13.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 18.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_18.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 21.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_21.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 23.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011-08-02",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_23.jpg"
+    },
+    {
+     "file": "File:Tavola (Prato) 24.jpg",
+     "termino": "tavola",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "Massimilianogalardi",
+     "data": "2011-08-02",
+     "larghezza": 3648,
+     "altezza": 2736,
+     "url": "https://commons.wikimedia.org/wiki/File:Tavola_(Prato)_24.jpg"
+    }
+   ]
+  },
+  {
+   "lingua": "EL",
+   "numero": 30,
+   "voce": "il brindisi degli atleti",
+   "termini": [
+    "b",
+    "a",
+    "r",
+    "n"
+   ],
+   "categoria": "da_vedere",
+   "motivo": "",
+   "candidati": [
+    {
+     "file": "File:(Venice) Greek antiquities in the Museo Archeologico Nazionale (Venice) - Head of an athlete.jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "Public domain",
+     "autore": "Didier Descouens",
+     "data": "Taken on 11 May 2023",
+     "larghezza": 7768,
+     "altezza": 9340,
+     "url": "https://commons.wikimedia.org/wiki/File:(Venice)_Greek_antiquities_in_the_Museo_Archeologico_Nazionale_(Venice)_-_Head_of_an_athlete.jpg"
+    },
+    {
+     "file": "File:Ancient Greece Bronze Statue of Athlete, found in sea off Marathon, Attica; c. 340-330 BC.jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC0",
+     "autore": "Gary Todd  from Xinzheng, China",
+     "data": "2016-07-20 17:03",
+     "larghezza": 3456,
+     "altezza": 5184,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Bronze_Statue_of_Athlete,_found_in_sea_off_Marathon,_Attica;_c._340-330_BC.jpg"
+    },
+    {
+     "file": "File:Ancient Greek athlete using a strigel cropped.jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC BY-SA 3.0",
+     "autore": "RickyBennison",
+     "data": "2014-05-21 15:33:05",
+     "larghezza": 316,
+     "altezza": 549,
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Greek_athlete_using_a_strigel_cropped.jpg"
+    },
+    {
+     "file": "File:Graffiti of ancient athletes in the Ancient Stadium of Nemea, Ancient Nemea, Greece (14094566395).jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Carole Raddato  from FRANKFURT, Germany",
+     "data": "2014-04-21 13:38",
+     "larghezza": 4928,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:Graffiti_of_ancient_athletes_in_the_Ancient_Stadium_of_Nemea,_Ancient_Nemea,_Greece_(14094566395).jpg"
+    },
+    {
+     "file": "File:Graffiti of ancient athletes in the Ancient Stadium of Nemea, Ancient Nemea, Greece (14114795273).jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "Carole Raddato  from FRANKFURT, Germany",
+     "data": "2014-04-21 13:08",
+     "larghezza": 4928,
+     "altezza": 3264,
+     "url": "https://commons.wikimedia.org/wiki/File:Graffiti_of_ancient_athletes_in_the_Ancient_Stadium_of_Nemea,_Ancient_Nemea,_Greece_(14114795273).jpg"
+    },
+    {
+     "file": "File:Head of a Greek Athlete.jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC BY-SA 2.0",
+     "autore": "MumblerJamie",
+     "data": "2021-10-25 15:34:33",
+     "larghezza": 3000,
+     "altezza": 4000,
+     "url": "https://commons.wikimedia.org/wiki/File:Head_of_a_Greek_Athlete.jpg"
+    },
+    {
+     "file": "File:Javelin thrower Ancient Greece.jpg",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC BY-SA 4.0",
+     "autore": "RickyBennison",
+     "data": "2020-10-01",
+     "larghezza": 869,
+     "altezza": 1213,
+     "url": "https://commons.wikimedia.org/wiki/File:Javelin_thrower_Ancient_Greece.jpg"
+    },
+    {
+     "file": "File:Javelin throwers Ancient Greece.png",
+     "termino": "ancient Greek athletes",
+     "licenza": "CC0",
+     "autore": "RickyBennison",
+     "data": "2017-08-24",
+     "larghezza": 943,
+     "altezza": 669,
+     "url": "https://commons.wikimedia.org/wiki/File:Javelin_throwers_Ancient_Greece.png"
+    }
+   ]
+  }
+ ]
+}

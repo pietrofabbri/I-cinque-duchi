@@ -9,7 +9,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 ## 2. Fonte di verità e ordine di lettura
 
 1. `docs/` è la **fonte di verità**. `dati/` contiene gli stessi contenuti in forma leggibile dai programmi. `prototipo/` si genera da `sorgenti/`.
-2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2, 3, 4 e 5, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati. **Prima di assegnare un luogo a una tappa, leggi `docs/videogioco-5-duchi-luoghi.md`**: è trasversale e vale per tutti e cinque gli anni. **Prima di scrivere un livello linguistico, leggi `docs/videogioco-5-duchi-lingue.md`**: è trasversale, vale per tutti e cinque gli anni, e contiene i 900 titoli con la loro provenienza.
+2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2, 3, 4 e 5, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati. **Prima di assegnare un luogo a una tappa, leggi `docs/videogioco-5-duchi-luoghi.md`**: è trasversale e vale per tutti e cinque gli anni. **Prima di scrivere un livello linguistico, leggi `docs/videogioco-5-duchi-lingue.md`**: è trasversale, vale per tutti e cinque gli anni, e contiene i 900 titoli con la loro provenienza. **Prima di scegliere un'immagine per un oggetto o per un testo autentico, leggi `docs/videogioco-5-duchi-lingue-immagini.md`**: contiene la regola delle quattro categorie, le etichette, la misura 96×72 e i sette controlli.
 3. Se due documenti si contraddicono, vale quello con la data più recente. Conviene segnalare la contraddizione a Pietro.
 
 ## 3. Decisioni di Pietro da rispettare (non cambiarle senza chiedere)
@@ -117,6 +117,17 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Le trenta voci per lingua in `dati/lingue/associazioni.json` sono PROPOSTE**, non voci confermate. Per il ferrarese la voce non è un testo ma un **campo da rilevare**: i proverbi si raccolgono, non si scrivono.
 - **I 900 titoli sono in `sorgenti/lingue/`**, sei file di 150 righe, e ogni riga dichiara la sua provenienza: `titolo` (di Pietro) oppure `tema` (proposto). `titoli_livelli.txt` è un output, non un sorgente. Prima di usare un titolo, `python3 sorgenti/lingue/verifica_titoli.py` deve dare **0 problemi**.
 - **Non scrivere una lingua dei segni a tavolino**, e non raccogliere proverbi ferraresi senza la regola del consenso: entrambe le cose sono questioni aperte (`lingue.md` §7 Q3 e Q4).
+
+**Immagini degli oggetti linguistici** (trasversale, vedi `lingue-immagini.md`, decisioni del 02/10/2026)
+- **Quattro categorie, non una**: `foto`, `dipinto`, `stampa`, `nessuna`. Un oggetto che non ha immagine libera va **dichiarato** (`nessuna`), non disegnato. Nel gioco **non entra un'immagine generata** per nessun oggetto, come per i volti.
+- **Le trenta voci ferraresi non hanno immagine** e non ne possono avere: sono campi di rilevazione. Non è una ricerca saltata, è una categoria dichiarata nei dati.
+- **La scheda dell'oggetto è 96×72 px** (i ritratti sono 48×54). **Le immagini non si strecano mai**: il ritaglio è ammesso solo se non toglie l'oggetto, e si dichiara sulla scheda.
+- **Sotto 160×120 l'immagine non entra**, perché nel gioco verrebbe ingrandita e il gioco non ingrandisce.
+- **Ogni immagine porta etichetta, autore, licenza, data e museo/inventario**: la data solo se c'è, e «non c'è» è una risposta ammessa.
+- **Una ricerca che restituisce un file non ha trovato l'oggetto.** La scelta la fa una persona e si registra in `dati/lingue/attestazione_oggetti.json` con etichetta e **motivo del giudizio**. Il lavoro di ieri ne ha prodotto la prova: alla voce «la correggia» il file migliore era un pittore che si chiama Correggio, alla voce «gli occhiali» una moschea di Istanbul, alla voce «la sete» un canale a Sète.
+- **Il controllo G7** segnala le voci in cui nessun candidato nomina l'oggetto: sono 67 su 146, e vanno guardate per prime. Non è un errore ed è per questo che non fa fallire `verifica_immagini_oggetti.py`.
+- **Il latino non si cerca su Commons**: le fonti sono i corpus epigrafici (EDCS, EDR) e le biblioteche digitali. 27 voci latine su 28 hanno solo proposte scoperte per caso.
+- **Prima di ridimensionare**, aspetta che le immagini siano scelte: ridurre prima significa buttare via il lavoro.
 
 **Esercizi e testo**
 - **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
