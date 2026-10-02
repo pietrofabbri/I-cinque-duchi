@@ -1,0 +1,150 @@
+EL|1|1|Alfabeto|titolo
+EL|1|2|Pronuncia|titolo
+EL|1|3|Spiriti|titolo
+EL|1|4|Accenti|titolo
+EL|1|5|Sillabe|titolo
+EL|1|6|Articolo|tema
+EL|1|7|Prima declinazione|tema
+EL|1|8|Seconda declinazione|tema
+EL|1|9|Terza declinazione|tema
+EL|1|10|Aggettivi|tema
+EL|1|11|Pronomi|tema
+EL|1|12|Il verbo essere|tema
+EL|1|13|Presente|tema
+EL|1|14|Imperfetto|tema
+EL|1|15|Futuro|tema
+EL|1|16|Aoristo|tema
+EL|1|17|Perfetto|tema
+EL|1|18|Participio|tema
+EL|1|19|Infinito|tema
+EL|1|20|Preposizioni|tema
+EL|1|21|Casi|tema
+EL|1|22|Complementi|tema
+EL|1|23|Proposizioni|tema
+EL|1|24|Negazione|tema
+EL|1|25|Comparativi|tema
+EL|1|26|Superlativi|tema
+EL|1|27|Lessico fondamentale|tema
+EL|1|28|Frasi autentiche|tema
+EL|1|29|Primo testo|tema
+EL|1|30|Prima lettura autonoma|tema
+EL|2|1|Congiuntivo|tema
+EL|2|2|Ottativo|tema
+EL|2|3|Imperativo|tema
+EL|2|4|Medio|tema
+EL|2|5|Passivo|tema
+EL|2|6|Aoristo passivo|tema
+EL|2|7|Participio avanzato|tema
+EL|2|8|Infinitive|tema
+EL|2|9|Finali|tema
+EL|2|10|Consecutive|tema
+EL|2|11|Causali|tema
+EL|2|12|Temporali|tema
+EL|2|13|Relative|tema
+EL|2|14|Periodo ipotetico|tema
+EL|2|15|Genitivo assoluto|tema
+EL|2|16|Accusativo|tema
+EL|2|17|Sintassi dei casi|tema
+EL|2|18|Omero|tema
+EL|2|19|Erodoto|tema
+EL|2|20|Tucidide|tema
+EL|2|21|Platone|tema
+EL|2|22|Aristotele|tema
+EL|2|23|Sofocle|tema
+EL|2|24|Euripide|tema
+EL|2|25|Eschilo|tema
+EL|2|26|Vangelo e koinè|tema
+EL|2|27|Ellenismo|tema
+EL|2|28|Lessico filosofico|tema
+EL|2|29|Analisi filologica|tema
+EL|2|30|Lettura commentata|tema
+EL|3|1|Greco arcaico: la lingua di Omero e di Esiodo|tema
+EL|3|2|Greco omerico: formule e formule d'autorità|tema
+EL|3|3|Greco ionico e greco attico: due varietà distinte|tema
+EL|3|4|Greco dorico: che cosa distingue|tema
+EL|3|5|Fonologia storica greca: le trasformazioni del suono|tema
+EL|3|6|Aoristo e forme forti: la regola e la sua eccezione|tema
+EL|3|7|Morfologia storica: le tre famiglie di declinazione|tema
+EL|3|8|Il genitivo: una funzione che si moltiplica|tema
+EL|3|9|Sintassi della prosa attica: l'ordine delle parole|tema
+EL|3|10|La prosa eronica di Tucidide|tema
+EL|3|11|Metrica: la prima riforma metrica|tema
+EL|3|12|Metrica: il verso giambico e il dramma|tema
+EL|3|13|La retorica greca: tecniche e limiti|tema
+EL|3|14|Poesia e prosa: due registri della stessa lingua|tema
+EL|3|15|Koinè: la lingua della conquista|tema
+EL|3|16|Greco ellenistico: la lingua delle istituzioni|tema
+EL|3|17|Greco del Nuovo Testamento: la traduzione e le sue scelte|tema
+EL|3|18|Greco bizantino: la lingua di uno stato e di una chiesa|tema
+EL|3|19|Greco medievale: la varietà gotica|tema
+EL|3|20|La nascita del greco moderno|tema
+EL|3|21|Etimologia greca: derivare o ricostruire|tema
+EL|3|22|Lessico greco nelle lingue moderne|tema
+EL|3|23|Greco in Italia: perché si studia|tema
+EL|3|24|Papirologia: leggere un papiro greco|tema
+EL|3|25|Epigrafia greca: le iscritrizioni di Atene|tema
+EL|3|26|Paleografia greca: dalla maiuscola al corsivo|tema
+EL|3|27|Critica testuale greca: varianti e edizioni|tema
+EL|3|28|Confronto: greco e latino, due parenti e due destini|tema
+EL|3|29|Confronto: una parola greca in italiano, in latino, in inglese|tema
+EL|3|30|Progetto: commentare un passo di un testo autentico|tema
+EL|4|1|Greco classico e critica testuale: i problemi aperti|tema
+EL|4|2|I dialetti greci: il quadro complessivo|tema
+EL|4|3|Le famiglie di verbi greche|tema
+EL|4|4|Le tendenze della lingua greca antica|tema
+EL|4|5|Mutamento fonetico greco: perché certe forme si spengono|tema
+EL|4|6|Mutamento morfologico greco: le classi che si dissolvono|tema
+EL|4|7|Mutamento sintattico greco: l'ordine delle parole|tema
+EL|4|8|Mutamento semantico greco: gli slittamenti frequenti|tema
+EL|4|9|Morfologia storica greca: strati e livelli|tema
+EL|4|10|Fonologia storica greca: sistemi e anomalie|tema
+EL|4|11|Semantica storica: le famiglie di parole|tema
+EL|4|12|Filologia classica: scuola tedesca, italiana, francese|tema
+EL|4|13|Codicologia greca: i manoscritti di Atene e del mondo|tema
+EL|4|14|Il papiro come supporto: che cosa conserva e che cosa no|tema
+EL|4|15|Critica testuale: tradizione diretta e indiretta|tema
+EL|4|16|Apparato e stemma: gli strumenti|tema
+EL|4|17|Greco, ebraico e aramaico nel Nuovo Testamento|tema
+EL|4|18|Greco e latino cristiani: la polemica delle formule|tema
+EL|4|19|I Padri della Chiesa: come scrivono in greco|tema
+EL|4|20|Byzantion: la lingua come identità di stato|tema
+EL|4|21|Greco e culture: le lingue dell'impero|tema
+EL|4|22|Greco medievale e italiano: le parole che passano|tema
+EL|4|23|Corpus greco antico: che cosa contiene e che cosa manca|tema
+EL|4|24|Corpus greco medievale e moderno|tema
+EL|4|25|La linguistica greca contemporanea|tema
+EL|4|26|La questione della lingua in Grecia oggi|tema
+EL|4|27|Greco arcaico e greco moderno: continuità e fratture|tema
+EL|4|28|Etimologia greco-italiana: le famiglie di parole|tema
+EL|4|29|Progettare una ricerca su un corpus greco|tema
+EL|4|30|Seminario: un testo greco antico e uno moderno a confronto|tema
+EL|5|1|Filologia greca: il metodo e le sue varianti|tema
+EL|5|2|Critica testuale: il testo non è mai univoco|tema
+EL|5|3|Papirologia e paleografia: leggere un supporto e datarlo|tema
+EL|5|4|Greco biblico: la lingua del Nuovo Testamento|tema
+EL|5|5|Koinè e lingue cristiane|tema
+EL|5|6|Byzantino: il greco come lingua di Stato|tema
+EL|5|7|Medioevo greco: le varietà regionali|tema
+EL|5|8|Greco moderno: le radici antiche nel greco di oggi|tema
+EL|5|9|Fonologia del greco moderno|tema
+EL|5|10|Morfologia del greco moderno|tema
+EL|5|11|Sintassi del greco moderno: l'ordine delle parole|tema
+EL|5|12|La punteggiatura greca antica|tema
+EL|5|13|Segni diacritici: sistemi e funzioni|tema
+EL|5|14|Le fasi della lingua greca antica|tema
+EL|5|15|Toponimi greci: la geografia dei nomi|tema
+EL|5|16|Antropomastica greca|tema
+EL|5|17|Etimologia: la parola greca dentro la parola italiana|tema
+EL|5|18|Etimologia: la parola greca dentro la parola inglese|tema
+EL|5|19|Cognati greco-latino-italiano: le tre generazioni|tema
+EL|5|20|La scienza antica in greco: i lessici tecnici|tema
+EL|5|21|La filosofia antica in greco: il lessico dei concetti|tema
+EL|5|22|La retorica antica e le sue categorie|tema
+EL|5|23|Corpus e interrogazione: un milione di parole|tema
+EL|5|24|Concordanza e distribuzione|tema
+EL|5|25|Linguistica greca quantitativa|tema
+EL|5|26|Confronto finale: greco, latino, italiano, ferrarese|tema
+EL|5|27|Confronto finale: greco, inglese, lingua dei segni|tema
+EL|5|28|Una domanda di ricerca sul greco, e come si risponde|tema
+EL|5|29|Didattica del greco: perché si legge un testo senza traduzione|tema
+EL|5|30|Progetto finale: seguire una parola greca attraverso duemilacinquecento anni|tema

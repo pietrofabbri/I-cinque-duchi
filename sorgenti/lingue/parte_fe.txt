@@ -1,0 +1,150 @@
+FE|1|1|Cos'è una varietà linguistica|titolo
+FE|1|2|Ferrara e il suo territorio linguistica|titolo
+FE|1|3|Ascoltare il ferrarese|titolo
+FE|1|4|Alfabeto e convenzioni di scrittura|titolo
+FE|1|5|Pronuncia|titolo
+FE|1|6|Vocali|titolo
+FE|1|7|Consonanti|titolo
+FE|1|8|Saluti|titolo
+FE|1|9|Presentarsi|titolo
+FE|1|10|Numeri|titolo
+FE|1|11|Tempo|titolo
+FE|1|12|Famiglia|titolo
+FE|1|13|Casa|titolo
+FE|1|14|Cibo|titolo
+FE|1|15|Corpo|titolo
+FE|1|16|Animali|titolo
+FE|1|17|Mestieri|titolo
+FE|1|18|Luoghi della città|titolo
+FE|1|19|Verbi fondamentali|titolo
+FE|1|20|Negazione|titolo
+FE|1|21|Domande|titolo
+FE|1|22|Aggettivi|titolo
+FE|1|23|Possessivi|titolo
+FE|1|24|Preposizioni|titolo
+FE|1|25|Frasi quotidiane|titolo
+FE|1|26|Piccoli dialoghi|titolo
+FE|1|27|Proverbi|titolo
+FE|1|28|Modi di dire|titolo
+FE|1|29|Ascolto di parlanti|titolo
+FE|1|30|Primo dialogo autonomo|titolo
+FE|2|1|Morfologia nominale|titolo
+FE|2|2|Articoli|titolo
+FE|2|3|Pronomi|titolo
+FE|2|4|Verbi regolari|titolo
+FE|2|5|Verbi irregolari|titolo
+FE|2|6|Tempi principali|titolo
+FE|2|7|Negazione|titolo
+FE|2|8|Interrogazione|titolo
+FE|2|9|Sintassi della frase|titolo
+FE|2|10|Ordine delle parole|titolo
+FE|2|11|Preposizioni|titolo
+FE|2|12|Avverbi|titolo
+FE|2|13|Comparativi|titolo
+FE|2|14|Racconto|titolo
+FE|2|15|Descrizione|titolo
+FE|2|16|Conversazione|titolo
+FE|2|17|Lessico agricolo|titolo
+FE|2|18|Lessico urbano|titolo
+FE|2|19|Lessico familiare|titolo
+FE|2|20|Lessico del lavoro|titolo
+FE|2|21|Toponomastica ferrarese|titolo
+FE|2|22|Antroponimia|titolo
+FE|2|23|Proverbi|titolo
+FE|2|24|Filastrocche|titolo
+FE|2|25|Testimonianze orali|titolo
+FE|2|26|Variazione generazionale|titolo
+FE|2|27|Variazione geografica|titolo
+FE|2|28|Italiano e ferrarese|titolo
+FE|2|29|Prestiti linguistici|titolo
+FE|2|30|Racconto breve in ferrarese|titolo
+FE|3|1|Fonetica ferrarese: le vocali lunghe|tema
+FE|3|2|Il suono che l'orecchio non sente: γ e κ|tema
+FE|3|3|Fonologia: le opposizioni minime|tema
+FE|3|4|Morfologia verbale: il ferrarese e il suo passato|tema
+FE|3|5|Il condizionale che l'italiano non ha|tema
+FE|3|6|La negazione: che cosa non c'è|tema
+FE|3|7|Frasi senza soggetto|tema
+FE|3|8|L'ordine delle parole: la regola e l'eccezione|tema
+FE|3|9|Preposizioni e casi residui|tema
+FE|3|10|Lessico storico: parole di terra e di bottega|tema
+FE|3|11|L'etimologia delle parole del piatto|tema
+FE|3|12|Emiliano-romagnolo e gallo-italico|tema
+FE|3|13|Ferrara nella rete linguistica medievale|tema
+FE|3|14|Il dialetto nella documentazione d'archivio|tema
+FE|3|15|Testi popolari: le «rime» di bottega|tema
+FE|3|16|Un testo letterario in dialetto|tema
+FE|3|17|Variazione urbana e rurale|tema
+FE|3|18|Chi parla il ferrarese e chi dice di parlarlo|tema
+FE|3|19|Il ricordo di una lingua: che cosa si perde e quando|tema
+FE|3|20|Fonologia storica del ferrarese|tema
+FE|3|21|Morfologia storica del ferrarese|tema
+FE|3|22|Atlanti linguistici: la carta di una varietà|tema
+FE|3|23|Intervista: come si raccoglie una voce|tema
+FE|3|24|Trascrizione di parlato: convenzioni e perché servono|tema
+FE|3|25|Analisi di una coppia di parole|tema
+FE|3|26|Parole che cambiano significato|tema
+FE|3|27|Il lessico della pesca e del delta|tema
+FE|3|28|Un proverbo, tre varianti: come si sceglie la più giusta|tema
+FE|3|29|Confronto: la stessa frase in italiano, in ferrarese, in latino|tema
+FE|3|30|Raccolta: costruire il primo corpus di ferrarese di classe|tema
+FE|4|1|Filologia dialettale: che cosa si edita e perché|tema
+FE|4|2|L'atlante come fonte storica|tema
+FE|4|3|Dialettologia italiana: dove sta il ferrarese|tema
+FE|4|4|Ferrara medievale: chi scriveva e in che lingua|tema
+FE|4|5|La varietà di corte: il dialetto degli scrittori|tema
+FE|4|6|Dalla trascrizione diplomatica all'edizione critica|tema
+FE|4|7|Lo stemma codicum di un testo ferrarese|tema
+FE|4|8|La tradizione manoscritta ferrarese|tema
+FE|4|9|Il lessico tecnico delle arti|tema
+FE|4|10|Il lessico tecnico delle acque e dei canali|tema
+FE|4|11|Antroponimia storica ferrarese|tema
+FE|4|12|Toponimi: quando un nome di luogo è una parola|tema
+FE|4|13|Cognati e prestiti: latino, italiano, ferrarese|tema
+FE|4|14|Semantica storica: parole che hanno cambiato mestiere|tema
+FE|4|15|Sociolinguistica del dialetto: uso e percezione|tema
+FE|4|16|Il dialetto nella scuola e fuori|tema
+FE|4|17|Tutela e valorizzazione: che cosa significa «salvare» una lingua|tema
+FE|4|18|Parlare il ferrarese oggi: il vincolo del tempo|tema
+FE|4|19|Il dibattito sull'italiano regionale|tema
+FE|4|20|Corpus di parlato: come si costruisce e a cosa serve|tema
+FE|4|21|Corpus scritto: la differenza rispetto al parlato|tema
+FE|4|22|Strumenti: software per annotare una trascrizione|tema
+FE|4|23|Analisi quantitativa: le parole più lunghe|tema
+FE|4|24|Analisi quantitativa: le parole che spariscono|tema
+FE|4|25|Confronto con altri dialetti italiani|tema
+FE|4|26|Confronto con le altre lingue del gioco|tema
+FE|4|27|Progettare una campagna di raccolta|tema
+FE|4|28|Didattica: che cosa si può insegnare del dialetto a scuola|tema
+FE|4|29|Il dialetto nei documenti digitali: una ricerca|tema
+FE|4|30|Presentazione: il ferrarese di oggi, con i suoi dati|tema
+FE|5|1|Fonologia storica: le leggi del suono|tema
+FE|5|2|Fonologia storica: le eccezioni che spiegano il perché|tema
+FE|5|3|Morfologia storica: le parole che cambiano forma|tema
+FE|5|4|La frase lunga: sintassi del parlato|tema
+FE|5|5|Discorso diretto e racconto nel parlato ferrarese|tema
+FE|5|6|Racconto orale: strutture che si riconoscono|tema
+FE|5|7|Proverbi: la struttura binaria e le sue varianti|tema
+FE|5|8|Modi di dire: che cosa fa una parola quando si sposta|tema
+FE|5|9|Registro: chi parla come chi, davanti a chi|tema
+FE|5|10|Linguaggio delle professioni del delta|tema
+FE|5|11|Linguaggio delle feste e dei riti civili|tema
+FE|5|12|Linguaggio delle feste patronali e dei canti|tema
+FE|5|13|Toponimi e storia del territorio|tema
+FE|5|14|Antroponimia: i cognomi di Ferrara e dintorni|tema
+FE|5|15|Cognati: la stessa radice in sei lingue del gioco|tema
+FE|5|16|Falsi cognati: quando la somiglianza inganna|tema
+FE|5|17|Prestiti: dall'italiano, dal latino, dall'inglese|tema
+FE|5|18|Trascrizione fonetica: la scelta che cambia il significato|tema
+FE|5|19|Norma e varietà: chi decide, e con quali mezzi|tema
+FE|5|20|Pluralità: forme che indicano chi sei e con chi|tema
+FE|5|21|Genere e genere grammaticale|tema
+FE|5|22|Numerali: contarle tutte le lingue del gioco|tema
+FE|5|23|Sistema pronominale: chi parla, con chi, di chi|tema
+FE|5|24|Velocità dell'ellipsis: quando si sottintende tutto|tema
+FE|5|25|Percezione del parlante: che cosa crede di parlare|tema
+FE|5|26|Atti linguistici nel dialetto: imprecare, promettere, scherzare|tema
+FE|5|27|Scrittura: perché il dialetto si scrive male e come si rimedia|tema
+FE|5|28|Digitalizzazione: cosa succede a una voce quando muore l'ultimo parlante|tema
+FE|5|29|Una domanda di ricerca sul ferrarese, e come si risponde|tema
+FE|5|30|Progetto finale: documentare una varietà linguistica della città|tema

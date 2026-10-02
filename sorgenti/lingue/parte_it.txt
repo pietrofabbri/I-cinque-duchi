@@ -1,0 +1,150 @@
+IT|1|1|La parola e il significato|titolo
+IT|1|2|Suoni e lettere|titolo
+IT|1|3|Leggere senza inciampare|titolo
+IT|1|4|Costruire una frase|titolo
+IT|1|5|Chi fa cosa?|titolo
+IT|1|6|Raccontare un fatto|titolo
+IT|1|7|Il nome|titolo
+IT|1|8|L'articolo|titolo
+IT|1|9|L'aggettivo|titolo
+IT|1|10|Il pronome|titolo
+IT|1|11|Il verbo|titolo
+IT|1|12|Presente, passato, futuro|titolo
+IT|1|13|Singolare e plurale|titolo
+IT|1|14|Maschile e femminile|titolo
+IT|1|15|Preposizioni|titolo
+IT|1|16|Avverbi|titolo
+IT|1|17|Frasi negative e interrogative|titolo
+IT|1|18|Coordinare le idee|titolo
+IT|1|19|Subordinare le idee|titolo
+IT|1|20|Descrivere un luogo|titolo
+IT|1|21|Descrivere una persona senza stereotipi|titolo
+IT|1|22|Raccontare una storia|titolo
+IT|1|23|Spiegare qualcosa|titolo
+IT|1|24|Dare istruzioni|titolo
+IT|1|25|Esprimere un'opinione|titolo
+IT|1|26|Distinguere fatto, opinione e interpretazione|titolo
+IT|1|27|Parole precise|titolo
+IT|1|28|Registro linguistico|titolo
+IT|1|29|Ambiguità|titolo
+IT|1|30|Il laboratorio della lingua|titolo
+IT|2|1|Parti del discorso|titolo
+IT|2|2|Struttura della frase|titolo
+IT|2|3|Predicato verbale e nominale|titolo
+IT|2|4|Complementi|titolo
+IT|2|5|Pronomi personali|titolo
+IT|2|6|Pronomi relativi|titolo
+IT|2|7|Tempi verbali|titolo
+IT|2|8|Aspetto dell'azione|titolo
+IT|2|9|Imperfetto e passato remoto|titolo
+IT|2|10|Passato prossimo e remoto|titolo
+IT|2|11|Futuro e condizionale|titolo
+IT|2|12|Congiuntivo: prima introduzione|titolo
+IT|2|13|Periodo ipotetico|titolo
+IT|2|14|Discorso diretto e indiretto|titolo
+IT|2|15|Frase semplice e complessa|titolo
+IT|2|16|Coordinazione|titolo
+IT|2|17|Subordinazione|titolo
+IT|2|18|Causa e conseguenza|titolo
+IT|2|19|Tempo e contemporaneità|titolo
+IT|2|20|Finalità|titolo
+IT|2|21|Concessione|titolo
+IT|2|22|Comparazione|titolo
+IT|2|23|Coesione testuale|titolo
+IT|2|24|Coerenza|titolo
+IT|2|25|Anafora e catafora|titolo
+IT|2|26|Connettivi|titolo
+IT|2|27|Parafrasi|titolo
+IT|2|28|Riassunto|titolo
+IT|2|29|Argomentazione|titolo
+IT|2|30|Scrivere un testo strutturato|titolo
+IT|3|1|Fonologia|titolo
+IT|3|2|Fonetica articolatoria|titolo
+IT|3|3|Morfologia|titolo
+IT|3|4|Morfemi|titolo
+IT|3|5|Derivazione|titolo
+IT|3|6|Composizione|titolo
+IT|3|7|Flessione|titolo
+IT|3|8|Sintassi|titolo
+IT|3|9|Costituenti|titolo
+IT|3|10|Valenza verbale|titolo
+IT|3|11|Semantica|titolo
+IT|3|12|Polisemia|titolo
+IT|3|13|Omografia|titolo
+IT|3|14|Sinonimia e quasi-sinonimia|titolo
+IT|3|15|Antonimia|titolo
+IT|3|16|Pragmatica|titolo
+IT|3|17|Presupposizione|titolo
+IT|3|18|Implicatura|titolo
+IT|3|19|Deissi|titolo
+IT|3|20|Atti linguistici|titolo
+IT|3|21|Registro|titolo
+IT|3|22|Varietà regionali|titolo
+IT|3|23|Dialetti|titolo
+IT|3|24|Italiano regionale|titolo
+IT|3|25|Italiano standard|titolo
+IT|3|26|Lingua parlata e scritta|titolo
+IT|3|27|Lingua e società|titolo
+IT|3|28|Lingua e identità|titolo
+IT|3|29|Mutamento linguistico|titolo
+IT|3|30|Costruire una piccola analisi linguistica|titolo
+IT|4|1|Storia dell'italiano|titolo
+IT|4|2|Dal latino all'italiano|titolo
+IT|4|3|Volgare e latino|titolo
+IT|4|4|Prime testimonianze|titolo
+IT|4|5|Dante e il plurilinguismo|titolo
+IT|4|6|Petrarca e il modello linguistico|titolo
+IT|4|7|Boccaccio|titolo
+IT|4|8|La questione della lingua|titolo
+IT|4|9|Bembo|titolo
+IT|4|10|Manzoni|titolo
+IT|4|11|Italiano postunitario|titolo
+IT|4|12|Italiano contemporaneo|titolo
+IT|4|13|Dialettologia|titolo
+IT|4|14|Geografia linguistica|titolo
+IT|4|15|Atlanti linguistici|titolo
+IT|4|16|Sociolinguistica|titolo
+IT|4|17|Diglossia|titolo
+IT|4|18|Bilinguismo|titolo
+IT|4|19|Code-switching|titolo
+IT|4|20|Lingua e potere|titolo
+IT|4|21|Lingua e discriminazione|titolo
+IT|4|22|Linguaggio inclusivo|titolo
+IT|4|23|Linguaggio politico|titolo
+IT|4|24|Linguaggio scientifico|titolo
+IT|4|25|Linguaggio burocratico|titolo
+IT|4|26|Linguaggio dei media|titolo
+IT|4|27|Linguaggio digitale|titolo
+IT|4|28|Linguistica dei corpora|titolo
+IT|4|29|Analisi di dati linguistici|titolo
+IT|4|30|Progettare una ricerca linguistica|titolo
+IT|5|1|Fonologia avanzata|titolo
+IT|5|2|Fonetica acustica|titolo
+IT|5|3|Morfologia teorica|titolo
+IT|5|4|Sintassi teorica|titolo
+IT|5|5|Semantica formale|titolo
+IT|5|6|Pragmatica|titolo
+IT|5|7|Tipologia linguistica|titolo
+IT|5|8|Linguistica storica|titolo
+IT|5|9|Comparazione linguistica|titolo
+IT|5|10|Ricostruzione linguistica|titolo
+IT|5|11|Mutamento fonetico|titolo
+IT|5|12|Mutamento morfologico|titolo
+IT|5|13|Mutamento sintattico|titolo
+IT|5|14|Mutamento semantico|titolo
+IT|5|15|Etimologia|titolo
+IT|5|16|Filologia|titolo
+IT|5|17|Critica del testo|titolo
+IT|5|18|Varianti manoscritte|titolo
+IT|5|19|Sociolinguistica quantitativa|titolo
+IT|5|20|Linguistica cognitiva|titolo
+IT|5|21|Psicolinguistica|titolo
+IT|5|22|Acquisizione del linguaggio|titolo
+IT|5|23|Neurolinguistica|titolo
+IT|5|24|Linguistica computazionale|titolo
+IT|5|25|Corpus linguistics|titolo
+IT|5|26|Lessicografia|titolo
+IT|5|27|Onomastica|titolo
+IT|5|28|Dialettologia avanzata|titolo
+IT|5|29|Come si costruisce un'ipotesi linguistica|titolo
+IT|5|30|Progetto finale: analizzare una lingua come un linguista|titolo

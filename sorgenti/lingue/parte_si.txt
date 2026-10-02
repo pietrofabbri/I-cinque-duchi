@@ -1,0 +1,150 @@
+SI|1|1|Cos'è una lingua visivo-gestuale|titolo
+SI|1|2|Cultura sorda|titolo
+SI|1|3|Comunicazione visiva|titolo
+SI|1|4|Configurazioni|titolo
+SI|1|5|Movimento|titolo
+SI|1|6|Orientamento|titolo
+SI|1|7|Luogo|titolo
+SI|1|8|Espressione facciale|titolo
+SI|1|9|Saluti|titolo
+SI|1|10|Presentarsi|titolo
+SI|1|11|Numeri|titolo
+SI|1|12|Famiglia|titolo
+SI|1|13|Persone|titolo
+SI|1|14|Oggetti|titolo
+SI|1|15|Casa|titolo
+SI|1|16|Scuola|titolo
+SI|1|17|Città|titolo
+SI|1|18|Tempo|titolo
+SI|1|19|Giorni|titolo
+SI|1|20|Azioni|titolo
+SI|1|21|Emozioni|titolo
+SI|1|22|Domande|titolo
+SI|1|23|Negazione|titolo
+SI|1|24|Spazio|titolo
+SI|1|25|Direzioni|titolo
+SI|1|26|Classificatori introduttivi|titolo
+SI|1|27|Frasi semplici|titolo
+SI|1|28|Comprensione video|titolo
+SI|1|29|Narrazione semplice|titolo
+SI|1|30|Primo dialogo LIS|titolo
+SI|2|1|Morfologia LIS: i segni e le loro famiglie|tema
+SI|2|2|Classificatori: che cosa nominano|tema
+SI|2|3|Classificatori di quantità e di misura|tema
+SI|2|4|Verbi di stato e verbi d'azione|tema
+SI|2|5|Verbi direzionali: andare e venire|tema
+SI|2|6|Verbi spaziali: posizione e relazione|tema
+SI|2|7|Spazio grammaticale: dove si costruisce la frase|tema
+SI|2|8|Referenza: come si indica qualcosa che si è appena detto|tema
+SI|2|9|Temporalità: ordine, durata, momento|tema
+SI|2|10|Marcatori non manuali: le sopracciglia e il volto|tema
+SI|2|11|Topicalizzazione: che cosa metti in evidenza|tema
+SI|2|12|Frasi interrogative: la domanda che cambia posto|tema
+SI|2|13|Negazione: come si nega in LIS|tema
+SI|2|14|Frasi complesse|tema
+SI|2|15|Narrazione in LIS|tema
+SI|2|16|Descrizione in LIS|tema
+SI|2|17|Argomentazione in LIS|tema
+SI|2|18|Poesia segnata|tema
+SI|2|19|Variazione: chi segna e come|tema
+SI|2|20|Trascrizione della LIS: che cosa si scrive e che cosa no|tema
+SI|2|21|Comprensione di un testo segnato|tema
+SI|2|22|Interpretazione: il passaggio fra due lingue|tema
+SI|2|23|LIS e italiano: la stessa frase nei due sistemi|tema
+SI|2|24|LIS e inglese: due lingue lessicalmente diverse|tema
+SI|2|25|Ferrarese segnato: che cosa succede a un dialetto|tema
+SI|2|26|LIS e latino: due lingue che non hanno nulla in comune|tema
+SI|2|27|Progetto: raccontare in LIS una storia|tema
+SI|2|28|Esercizio di ascolto prolungato|tema
+SI|2|29|LIM: la lingua dei segni come materia scolastica|tema
+SI|2|30|Progetto B1: una presentazione in LIS|tema
+SI|3|1|Sintassi della LIS: l'ordine degli argomenti|tema
+SI|3|2|Iconicità: quando il segno imita la realtà|tema
+SI|3|3|Iconicità e convenzione: il limite tra le due|tema
+SI|3|4|Concordanza verbale nella LIS|tema
+SI|3|5|Casi e funzioni: come la LIS gestisce le relazioni|tema
+SI|3|6|Segni a due mani e segni a una mano|tema
+SI|3|7|Spazio e deissi: indicare senza puntare|tema
+SI|3|8|Classificatori e tipicità: il gioco delle categorie|tema
+SI|3|9|Intensificatori e quantificatori|tema
+SI|3|10|Negazione morfosintattica|tema
+SI|3|11|Questione e risposta: le forme che non ci si aspettano|tema
+SI|3|12|Discriminazione lessicale: come una parola ha due usi|tema
+SI|3|13|Bilinguismo LIS-italiano: che cosa succede in testa|tema
+SI|3|14|Cultura sorda: la storia che il gioco non deve semplificare|tema
+SI|3|15|Comunità sorda: identità e diritti|tema
+SI|3|16|Educazione: la LIS a scuola, che cosa è previsto e che cosa no|tema
+SI|3|17|Interpretazione scolastica: che cosa comporta per chi legge|tema
+SI|3|18|Sintesi vocale: le tecniche e i loro limiti|tema
+SI|3|19|Modelli linguistici per le lingue dei segni|tema
+SI|3|20|Corpus LIS: che cosa esiste e che cosa manca|tema
+SI|3|21|Annotazione di un corpus segnato|tema
+SI|3|22|Tipologia delle lingue dei segni|tema
+SI|3|23|Grammaticalizzazione: come un gesto diventa funzione|tema
+SI|3|24|Contatto fra lingue dei segni|tema
+SI|3|25|Confronto LIS/inglese: due lingue che non si somigliano|tema
+SI|3|26|Confronto LIS/grezzo antico: due lingue storiche|tema
+SI|3|27|Progetto: annotare un minuto di LIS|tema
+SI|3|28|Esercizio: raccontare un evento in due varianti di registro|tema
+SI|3|29|Esercizio: distinguere due usi dello stesso segno|tema
+SI|3|30|Progetto B1: analizzare un frammento di LIS|tema
+SI|4|1|Storia della LIS: come nasce una lingua|tema
+SI|4|2|La LIS tra Ottocento e Novecento|tema
+SI|4|3|Le scuole e i congressi: chi decide la norma|tema
+SI|4|4|La normalizzazione della LIS e le sue critiche|tema
+SI|4|5|Le varietà regionali della LIS|tema
+SI|4|6|La trasmissione familiare: quando non c'è una scuola|tema
+SI|4|7|Intergenerazionale: che cosa non si trasmette più|tema
+SI|4|8|Sistemi di segnazione nelle scuole: il punto di contatto|tema
+SI|4|9|La LIS nell'Università e nella ricerca|tema
+SI|4|10|La LIS nel lavoro e nei servizi|tema
+SI|4|11|L'accessibilità: la lingua come condizione|tema
+SI|4|12|La LIS e la legge: diritti linguistici|tema
+SI|4|13|Linguistica dei segni: le scuole di ricerca|tema
+SI|4|14|Analisi del segno: parametri e problemi aperti|tema
+SI|4|15|Progettazione di una varietà segnata: che cosa si sceglie|tema
+SI|4|16|Fonologia e morfosintassi: la ricerca sulla struttura|tema
+SI|4|17|Processi di generazione e comprensione: modelli|tema
+SI|4|18|Bilinguismo: come si studia e come si misura|tema
+SI|4|19|La persona bilingue non è due metà|tema
+SI|4|20|Deissi spaziale: come la LIS descrive l'ambiente|tema
+SI|4|21|Racconto e struttura testuale nella LIS|tema
+SI|4|22|Discorso referenziale e discorso non referenziale|tema
+SI|4|23|Corpus annotato: che cosa si può chiedere a un corpus|tema
+SI|4|24|LIS e media: la sottotitolazione come problema|tema
+SI|4|25|Progettazione di una prova di competenza in LIS|tema
+SI|4|26|LIS, italiano, inglese: politiche linguistiche a confronto|tema
+SI|4|27|Progetto: costruire una prova di comprensione in LIS|tema
+SI|4|28|Esercizio: analizzare i segni non manuali di un video|tema
+SI|4|29|Esercizio: distinguere due varietà della LIS|tema
+SI|4|30|Progetto: una presentazione scientifica in LIS|tema
+SI|5|1|Scienza del segno: che cosa sappiamo e come lo sappiamo|tema
+SI|5|2|Analisi fonologica della LIS|tema
+SI|5|3|Analisi morfosintattica della LIS|tema
+SI|5|4|Sintassi: teorie a confronto|tema
+SI|5|5|Semantica della LIS|tema
+SI|5|6|Pragmatica e discorso|tema
+SI|5|7|Iconicità: la ricerca recente|tema
+SI|5|8|Processi di grammaticalizzazione|tema
+SI|5|9|Tipologia delle lingue visuali|tema
+SI|5|10|Lingue dei segni a confronto: la linguistica applicata|tema
+SI|5|11|Lingue dei segni e sordità: il punto cieco|tema
+SI|5|12|Sistemi di segnazione: come sono nati e perché cambiano|tema
+SI|5|13|Storia della ricerca: le scuole europee e americane|tema
+SI|5|14|Terminologia scientifica in LIS|tema
+SI|5|15|Corpus di riferimento per la LIS|tema
+SI|5|16|Strumenti computazionali per la LIS|tema
+SI|5|17|Tecniche di visione artificiale applicate ai segni|tema
+SI|5|18|Riconoscimento automatico dei segni: i limiti|tema
+SI|5|19|Glossario e lessicografia della LIS|tema
+SI|5|20|Corpus di segni: che cosa è annotabile|tema
+SI|5|21|Psicologia della comprensione in LIS|tema
+SI|5|22|Acquisizione: come si impara la LIS da adulto|tema
+SI|5|23|Neuroimaging della lingua dei segni|tema
+SI|5|24|Bilinguismo e identità: dati e storie|tema
+SI|5|25|Etica della ricerca con la comunità sorda|tema
+SI|5|26|Partecipazione della comunità sorda alla ricerca|tema
+SI|5|27|Progettazione di una ricerca con la comunità|tema
+SI|5|28|Risultati: che cosa cambia e che cosa no|tema
+SI|5|29|Diffusione della ricerca: a chi si parla|tema
+SI|5|30|Progetto finale: analizzare la LIS con metodo scientifico|tema

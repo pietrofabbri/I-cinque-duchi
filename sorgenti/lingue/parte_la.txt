@@ -1,0 +1,150 @@
+LA|1|1|Alfabeto e pronuncia|titolo
+LA|1|2|Quantità vocalica|titolo
+LA|1|3|Sillaba|titolo
+LA|1|4|Accento|titolo
+LA|1|5|Prima declinazione|titolo
+LA|1|6|Seconda declinazione|titolo
+LA|1|7|Nomi|titolo
+LA|1|8|Aggettivi|titolo
+LA|1|9|Sum|titolo
+LA|1|10|Indicativo presente|titolo
+LA|1|11|Imperfetto|titolo
+LA|1|12|Futuro|titolo
+LA|1|13|Complementi fondamentali|titolo
+LA|1|14|Preposizioni|titolo
+LA|1|15|Terza declinazione|titolo
+LA|1|16|Aggettivi della seconda classe|titolo
+LA|1|17|Pronomi|titolo
+LA|1|18|Possessivi|titolo
+LA|1|19|Quarta declinazione|titolo
+LA|1|20|Quinta declinazione|titolo
+LA|1|21|Perfetto|titolo
+LA|1|22|Piuccheperfetto|titolo
+LA|1|23|Futuro anteriore|titolo
+LA|1|24|Participio|titolo
+LA|1|25|Infinito|titolo
+LA|1|26|Ablativo assoluto|titolo
+LA|1|27|Proposizioni infinitive|titolo
+LA|1|28|Lettura graduata|titolo
+LA|1|29|Prima autentica pagina latina|titolo
+LA|1|30|Comprendere un testo latino senza tradurlo parola per parola|titolo
+LA|2|1|Congiuntivo|titolo
+LA|2|2|Proposizioni finali|titolo
+LA|2|3|Consecutive|titolo
+LA|2|4|Temporali|titolo
+LA|2|5|Causali|titolo
+LA|2|6|Relative|titolo
+LA|2|7|Cum|titolo
+LA|2|8|Periodo ipotetico|titolo
+LA|2|9|Gerundio|titolo
+LA|2|10|Gerundivo|titolo
+LA|2|11|Perifrastica|titolo
+LA|2|12|Comparativi|titolo
+LA|2|13|Superlativi|titolo
+LA|2|14|Pronomi relativi|titolo
+LA|2|15|Pronomi dimostrativi|titolo
+LA|2|16|Pronomi personali|titolo
+LA|2|17|Sintassi dei casi|titolo
+LA|2|18|Oratio obliqua|titolo
+LA|2|19|Ordine delle parole|titolo
+LA|2|20|Prosa classica|titolo
+LA|2|21|Cesare|titolo
+LA|2|22|Cicerone|titolo
+LA|2|23|Sallustio|titolo
+LA|2|24|Livio|titolo
+LA|2|25|Virgilio|titolo
+LA|2|26|Ovidio|titolo
+LA|2|27|Epigrafia|titolo
+LA|2|28|Latino medievale|titolo
+LA|2|29|Latino cristiano|titolo
+LA|2|30|Lettura commentata|titolo
+LA|3|1|Latino arcaico: come parlava il latino di Ennio|tema
+LA|3|2|Li opus: quando una parola cambia di genere|tema
+LA|3|3|Poesia: endecasillabo e pentametro|tema
+LA|3|4|Metrica: perché gli accenti non sono dove sembrano|tema
+LA|3|5|Metrica: la quantità delle sillabe tesse|tema
+LA|3|6|Poesia e prosa: due lingue nella stessa lingua|tema
+LA|3|7|Retorica: i loci communes dell'oratore|tema
+LA|3|8|Stilistica: riconoscere la mano di un autore|tema
+LA|3|9|Storia della lingua latina: le fasi|tema
+LA|3|10|Il latino di Plauto e il latino di Cicerone: che cosa cambia|tema
+LA|3|11|Latino tardo: le parole che si allargano|tema
+LA|3|12|Latino tardo: la sintassi si scioglie|tema
+LA|3|13|Latino medievale: la lingua della Chiesa|tema
+LA|3|14|Latino medievale: la lingua del diritto|tema
+LA|3|15|Latino umanistico: la lingua che imita gli antichi|tema
+LA|3|16|Paleografia: leggere una scrittura del Duecento|tema
+LA|3|17|Codicologia: che cosa contiene un manoscritto|tema
+LA|3|18|Epigrafia romana: iscritrizioni che parlano di loro stesse|tema
+LA|3|19|Critica testuale: perché due manoscritti non sono la stessa cosa|tema
+LA|3|20|Lo stemma codicum: come si ricostruisce la genealogia dei testi|tema
+LA|3|21|Apparato critico: leggere le varianti in colonna|tema
+LA|3|22|Filologia latina: che cosa si fa di un errore|tema
+LA|3|23|Etimologia latina: derivare o ricostruire|tema
+LA|3|24|Dal latino alle lingue romanze: il punto di partenza|tema
+LA|3|25|Italiano e latino: le parole che vengono e quelle che no|tema
+LA|3|26|Ferrarese e latino: due secoli di contatto|tema
+LA|3|27|Leggere senza traduzione intermedia|tema
+LA|3|28|Commentare un testo: il metodo in cinque passi|tema
+LA|3|29|Confronto: la stessa perifrastica in tre lingue del gioco|tema
+LA|3|30|Progetto: edizione commentata di un testo latino breve|tema
+LA|4|1|Linguistica storica: metodo e periodizzazione|tema
+LA|4|2|Fonologia storica latina: le consonanti|tema
+LA|4|3|Fonologia storica latina: le vocali lunghe|tema
+LA|4|4|Fonologia storica latina: perché certe combinazioni sono impossibili|tema
+LA|4|5|Morfologia storica: le declinazioni come categorie vive|tema
+LA|4|6|La genesi dei casi: ablativo e genitivo|tema
+LA|4|7|Sintassi storica: l'ordine delle parole come informazione|tema
+LA|4|8|Semantica storica: slittamenti frequenti|tema
+LA|4|9|Tipologia linguistica: latino e greco a confronto|tema
+LA|4|10|Lingue che hanno scritto il latino|tema
+LA|4|11|Perifrasi e formule fisse|tema
+LA|4|12|Pronomi e anafora: che cosa rende noto al lettore|tema
+LA|4|13|Deissi nello spazio e nel testo|tema
+LA|4|14|Oratio obliqua: il discorso riportato come problema tecnico|tema
+LA|4|15|Corpus latino: che cosa c'è e che cosa manca|tema
+LA|4|16|Concordanza e interrogazione di un corpus|tema
+LA|4|17|Latinità e romanzo: la costruzione di un'identità|tema
+LA|4|18|La lingua della scienza antica: Galeno, Tolomeo|tema
+LA|4|19|La lingua del diritto romano: le formule che sopravvivono|tema
+LA|4|20|La lingua del diritto canonico: la tradizione medievale|tema
+LA|4|21|Vulgate e traduzioni bibliche: la lingua come scelta teologica|tema
+LA|4|22|Retorica e propaganda: la lingua degli imperi|tema
+LA|4|23|Toponimi e nomi di persona dall'età imperiale|tema
+LA|4|24|Il latino nelle epigrafi: le mani degli umili|tema
+LA|4|25|Codicologia: i manoscritti che non arrivano a noi|tema
+LA|4|26|Critica testuale: le edizioni e i loro errori|tema
+LA|4|27|Traduzione: che cosa si traduce e che cosa si deve rifare|tema
+LA|4|28|Confronto: tradurre la stessa frase in sei lingue del gioco|tema
+LA|4|29|Didattica del latino: perché si legge un testo senza traduzione|tema
+LA|4|30|Seminario: un testo latino commentato in tre modi|tema
+LA|5|1|Filologia latina: principi e varietà dei metodi|tema
+LA|5|2|Critica testuale: le due tradizioni, italiana e francese|tema
+LA|5|3|Stemma codicum: costruirlo e leggerlo|tema
+LA|5|4|Tradizione indiretta: quando il testo passa per un compendio|tema
+LA|5|5|Emendatio: correggere, e dichiarare che si corregge|tema
+LA|5|6|Apparato: la forma in cui si dichiarano le varianti|tema
+LA|5|7|Latina vulgata e tradizioni bibliche: la filologia al servizio della teologia|tema
+LA|5|8|Papirologia: il rotolo e le sue condizioni materiali|tema
+LA|5|9|Paleografia gotica e Humanistica: leggere due mani diverse|tema
+LA|5|10|Codicologia quantitativa: quante copie, quante biblioteche|tema
+LA|5|11|Linguistica dei corpora latini: le incoerenze del dato|tema
+LA|5|12|Sintassi quantitativa: quanto spesso, e con quale eccezione|tema
+LA|5|13|Semantica storica: una parola dal latino moderno all'italiano|tema
+LA|5|14|Etimologia: quando la forma popolare batte quella dotta|tema
+LA|5|15|Latino, greco, italiano: parole a confronto|tema
+LA|5|16|Prestiti e calchi: il latino dentro le altre lingue europee|tema
+LA|5|17|Lingue minori: il falisco, il venetico, l'osco|tema
+LA|5|18|Reconstruction: ricostruire una lingua morta senza dati sufficienti|tema
+LA|5|19|Le lingue dell'Impero: latino, greco, lingue locali|tema
+LA|5|20|Lingua e religione: il latino come lingua della verità|tema
+LA|5|21|Lingua e diritto: la lingua che non ammette eccezioni|tema
+LA|5|22|Atti linguistici: giurare, maledire, promettere in latino|tema
+LA|5|23|Rituali e formule: le parole che si recitano e non si discutono|tema
+LA|5|24|Retorica antica e retorica contemporanea|tema
+LA|5|25|Toponomastica: leggere il territorio nelle iscrizioni|tema
+LA|5|26|Antropomastica: i nomi che un impero dà ai suoi funzionari|tema
+LA|5|27|Onomastica e potere: chi si chiama come l'imperatore|tema
+LA|5|28|Un problema di filologia vera: scegliere e dichiarare|tema
+LA|5|29|Commento filologico: struttura e limiti di un apparato|tema
+LA|5|30|Progetto finale: leggere, analizzare e commentare un testo latino con strumenti filologici|tema

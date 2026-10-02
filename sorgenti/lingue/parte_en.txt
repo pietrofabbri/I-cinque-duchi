@@ -1,0 +1,150 @@
+EN|1|1|Suoni dell'inglese|titolo
+EN|1|2|Alphabet|titolo
+EN|1|3|Pronouns|titolo
+EN|1|4|Be|titolo
+EN|1|5|Have|titolo
+EN|1|6|Present simple|titolo
+EN|1|7|Questions|titolo
+EN|1|8|Negation|titolo
+EN|1|9|Articles|titolo
+EN|1|10|Plurals|titolo
+EN|1|11|Possessives|titolo
+EN|1|12|Demonstratives|titolo
+EN|1|13|Numbers|titolo
+EN|1|14|Time|titolo
+EN|1|15|Family|titolo
+EN|1|16|Home|titolo
+EN|1|17|Food|titolo
+EN|1|18|Places|titolo
+EN|1|19|Daily activities|titolo
+EN|1|20|Adjectives|titolo
+EN|1|21|Adverbs|titolo
+EN|1|22|Can|titolo
+EN|1|23|Present continuous|titolo
+EN|1|24|Past introduction|titolo
+EN|1|25|Future introduction|titolo
+EN|1|26|Asking for information|titolo
+EN|1|27|Describing|titolo
+EN|1|28|Narrating|titolo
+EN|1|29|Listening|titolo
+EN|1|30|First autonomous conversation|titolo
+EN|2|1|Past simple|titolo
+EN|2|2|Past continuous|titolo
+EN|2|3|Future forms|titolo
+EN|2|4|Present perfect|titolo
+EN|2|5|Modals|titolo
+EN|2|6|Comparatives|titolo
+EN|2|7|Superlatives|titolo
+EN|2|8|Countability|titolo
+EN|2|9|Quantifiers|titolo
+EN|2|10|Pronouns|titolo
+EN|2|11|Relative clauses|titolo
+EN|2|12|Conditionals|titolo
+EN|2|13|Infinitive|titolo
+EN|2|14|Gerund|titolo
+EN|2|15|Phrasal verbs|titolo
+EN|2|16|Everyday conversation|titolo
+EN|2|17|Formal language|titolo
+EN|2|18|Informal language|titolo
+EN|2|19|Reading|titolo
+EN|2|20|Writing|titolo
+EN|2|21|Narrative|titolo
+EN|2|22|Description|titolo
+EN|2|23|Explanation|titolo
+EN|2|24|Argument|titolo
+EN|2|25|News|titolo
+EN|2|26|Culture|titolo
+EN|2|27|Literature|titolo
+EN|2|28|Listening to authentic speech|titolo
+EN|2|29|Speaking|titolo
+EN|2|30|A2 project|titolo
+EN|3|1|Idiomatic language|tema
+EN|3|2|Phrasal verbs, secondo livello|tema
+EN|3|3|Discourse markers|tema
+EN|3|4|Register: come cambia con chi parli|tema
+EN|3|5|Academic English: le formule che si riciclano|tema
+EN|3|6|Scientific English: descrivere un metodo|tema
+EN|3|7|News English: titoli e coppie|tema
+EN|3|8|Rhetoric: quando la figura sostituisce l'argomento|tema
+EN|3|9|Irony e understatement|tema
+EN|3|10|Metaphor in English: le metafore che non si vedono più|tema
+EN|3|11|Sociolinguistics: chi parla come chi|tema
+EN|3|12|Varieties of English: le varietà vive|tema
+EN|3|13|British e American: differenze vere e differenze inventate|tema
+EN|3|14|World Englishes: chi decide la lingua giusta|tema
+EN|3|15|Historical English: da Chaucer a Shakespeare|tema
+EN|3|16|Old English: una lingua germanica mascherata di latino|tema
+EN|3|17|Middle English: il tempo in cui l'inglese si fa inglese|tema
+EN|3|18|Shakespeare: la lingua come personaggio|tema
+EN|3|19|Etymology: le parole che vengono da fuori|tema
+EN|3|20|Cognates: parentele che si riconoscono|tema
+EN|3|21|False friends: la stessa forma, due significati|tema
+EN|3|22|Translation: che cosa si perde e che cosa si guadagna|tema
+EN|3|23|Corpus analysis: misurare che cosa si usa davvero|tema
+EN|3|24|Pronunciation and accent: che cosa è un errore e che cosa è un accento|tema
+EN|3|25|Argumentation: sostenere una tesi e reggere le obiezioni|tema
+EN|3|26|Essay writing: la struttura che si vede dal bordo|tema
+EN|3|27|Presentation: parlare e far capire|tema
+EN|3|28|Debate: ascoltare per confutare|tema
+EN|3|29|Critical reading: riconoscere l'argomento nascosto|tema
+EN|3|30|Progetto: un'analisi di un testo inglese con strumenti linguistici|tema
+EN|4|1|Le origini germaniche dell'inglese|tema
+EN|4|2|Norman French: la lingua che si è imposta dall'alto|tema
+EN|4|3|L'inglese di Chaucer: leggere il Trecento inglese|tema
+EN|4|4|La riforma di Johnson e l'inglese stabile|tema
+EN|4|5|L'inglese del Settecento e l'illuminismo|tema
+EN|4|6|L'inglese della Rivoluzione industriale|tema
+EN|4|7|Imperial English: la lingua come amministrazione|tema
+EN|4|8|Standard English: la varietà che si è fatta norma|tema
+EN|4|9|Cockney e ilimusso: due accenti che sono anche due luoghi|tema
+EN|4|10|L'inglese nei media: titoli, sottotitoli, pubblicità|tema
+EN|4|11|L'inglese del web: come cambia con il canale|tema
+EN|4|12|Social media: la lingua che si accorcia ogni anno|tema
+EN|4|13|Internet slang e la sua durata|tema
+EN|4|14|Corpora di sottotitoli: la lingua parlata per iscritto|tema
+EN|4|15|Corpora di conversazione: che cosa si può contare e che cosa no|tema
+EN|4|16|Corpus di discorso accademico|tema
+EN|4|17|L'inglese scientifico: chi scrive, in che registro|tema
+EN|4|18|L'inglese tecnico: manuali, schede, istruzioni|tema
+EN|4|19|Translation and localization: la lingua che cambia prodotto|tema
+EN|4|20|L'inglese nella pubblicità: la promessa che non si può mantenere|tema
+EN|4|21|Political speech: le formule che non significano niente|tema
+EN|4|22|Hate speech e il linguaggio: dove sta il confine e chi lo decide|tema
+EN|4|23|Euphemism: la parola buona che copre la cosa cattiva|tema
+EN|4|24|Naming: chi decide il nome di una cosa nuova|tema
+EN|4|25|Phonology of English: le coppie minime|tema
+EN|4|26|Morphology: le parole costruite con pezzi|tema
+EN|4|27|Syntax: che cosa l'inglese mette in fondo e perché|tema
+EN|4|28|Semantics: la classe di parole più ampia di tutte|tema
+EN|4|29|Progettare una ricerca su un corpus inglese|tema
+EN|4|30|Seminario: leggere un testo inglese con strumenti di linguistica|tema
+EN|5|1|Sociolinguistica quantitativa: misurare chi parla e come|tema
+EN|5|2|Atti linguistici in inglese: minaccia, promessa, atto|tema
+EN|5|3|Deissi e spazio: qui, there, e i deittici che mancano|tema
+EN|5|4|Pragmatica: implicature, presupposizioni, ironia|tema
+EN|5|5|Tipologia: l'inglese e le lingue che gli somigliano|tema
+EN|5|6|Lingua storica: i mutamenti che non si vedono in una frase|tema
+EN|5|7|Mutamento fonologico: le leggi che si sono rotte|tema
+EN|5|8|Comparazione: inglese e italiano, le stesse funzioni diversi meccanismi|tema
+EN|5|9|Comparazione con il ferrarese: due lingue che si somigliano poco|tema
+EN|5|10|Comparazione con il latino: le parole che sopravvivono|tema
+EN|5|11|Comparazione con il greco|tema
+EN|5|12|Lingua dei segni e inglese: due modi di segnare il tempo|tema
+EN|5|13|Psicrolinguistica: come la lingua è compresa a metà frase|tema
+EN|5|14|Psicrolinguistica applicata: la scelta della risposta automatica|tema
+EN|5|15|Lingua e cervello: le lesioni che rivelano le funzioni|tema
+EN|5|16|Acquisizione: come si impara una seconda lingua da adulti|tema
+EN|5|17|Interlingua: la lingua che nessuno parla e tutti capiscono|tema
+EN|5|18|Traduzione automatica: che cosa sbaglia e perché|tema
+EN|5|19|Modelli linguistici: una lingua come statistica|tema
+EN|5|20|Corpus e modello: che cosa si può dedurre da milioni di frasi|tema
+EN|5|21|Discorso: coerenza, coesione e topicalizzazione|tema
+EN|5|22|Lingua dei media: come i media cambiano la sintassi|tema
+EN|5|23|Lingua pubblicitaria: la promessa e la verifica|tema
+EN|5|24|Lingua della politica: quando la parola sostituisce il dato|tema
+EN|5|25|Lingua dell'accusa: pregiudizio e prova linguistica|tema
+EN|5|26|Educazione linguistica: perché si insegna una lingua e come si misura|tema
+EN|5|27|Certificazioni: che cosa certificano davvero|tema
+EN|5|28|Plurilinguismo: sei lingue, sei sistemi, un cervello|tema
+EN|5|29|Una domanda di ricerca sulla lingua inglese, e come si risponde|tema
+EN|5|30|Progetto finale: analizzare l'uso di una lingua inglese con metodo scientifico|tema

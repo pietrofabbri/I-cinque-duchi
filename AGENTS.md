@@ -9,7 +9,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 ## 2. Fonte di verità e ordine di lettura
 
 1. `docs/` è la **fonte di verità**. `dati/` contiene gli stessi contenuti in forma leggibile dai programmi. `prototipo/` si genera da `sorgenti/`.
-2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2, 3, 4 e 5, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati. **Prima di assegnare un luogo a una tappa, leggi `docs/videogioco-5-duchi-luoghi.md`**: è trasversale e vale per tutti e cinque gli anni.
+2. Ordine di lettura: `README.md` → `docs/videogioco-5-duchi-gioco.md` → `docs/videogioco-5-duchi-esercizi.md` → il documento del tema su cui lavori. Per gli anni 2, 3, 4 e 5, leggi prima la sezione §0 e le questioni aperte del documento dell'anno: contengono decisioni prese e limiti che non si possono dare per scontati. **Prima di assegnare un luogo a una tappa, leggi `docs/videogioco-5-duchi-luoghi.md`**: è trasversale e vale per tutti e cinque gli anni. **Prima di scrivere un livello linguistico, leggi `docs/videogioco-5-duchi-lingue.md`**: è trasversale, vale per tutti e cinque gli anni, e contiene i 900 titoli con la loro provenienza.
 3. Se due documenti si contraddicono, vale quello con la data più recente. Conviene segnalare la contraddizione a Pietro.
 
 ## 3. Decisioni di Pietro da rispettare (non cambiarle senza chiedere)
@@ -103,6 +103,20 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Una ricerca automatica propone, non decide.** Un nome di file non è una prova: la ricerca ha restituito un gatto per Renata Viganò e una ceramica iraniana per i mercanti di Ferrara. Ogni immagine entra nel gioco solo dopo un attestato in `sorgenti/art/attestazione_immagini.json`, che porta etichetta e motivo.
 - **Una richiesta che non arriva non è una risposta negativa.** Vale per ogni ricerca, ogni download e ogni interrogazione: se la risposta non c'è, la scheda resta `da_rivedere` e non diventa un fatto. È la regola che ha salvato quindici schede dopo che un `HTTP 429` era stato letto come «nessun ritratto esiste».
 - Le 53 immagini sotto CC BY o CC BY-SA richiedono di mostrare autore e licenza: i crediti del gioco li leggono da `ritratti_disponibili.json`, campo `dettagli`, e non si scrivono a mano.
+
+**Sistema linguistico** (trasversale, vedi `lingue.md`, decisioni del 02/10/2026)
+- **Sei lingue, cinque anni, trenta livelli all'anno: 900 livelli.** Italiano, ferrarese, latino, inglese, **LIS** (lingua dei segni italiana, non una generica «lingua dei segni»), greco. I 150 livelli informatici restano 150: i due sistemi sono **distinti** e non si sommano.
+- **Il CEFR è metafora per il latino e il greco**, livello reale per inglese, ferrarese e LIS. Dove compare una sigla CEFR, il documento dice in una riga se è metafora o livello reale.
+- **Nessuna delle sei lingue è la versione tradotta di un'altra.** Lo stesso argomento si presenta nelle sei con strutture diverse, e la differenza è il contenuto, non un dettaglio.
+- **L'anno 1 parte dal basso e il resto no**: la padronanza iniziale è quella della 2ª-3ª primaria, ma contenuti, esempi e problemi sono degni di un adolescente. Nessun testo «da bambini».
+- **Ogni livello ha nove componenti**: nucleo teorico, esempi, testo autentico, esercizi di comprensione, di produzione, di trasformazione, **osservazione linguistica**, piccola sfida, e confronto filologico (facoltativo come componente, mai vuoto quando c'è). Un livello senza testo autentico non esiste.
+- **L'«occhio del linguista» è in tutti i 900 livelli**, anche nei primi. È il principio trasversale: non imparare soltanto una lingua, imparare a renderti conto di come funziona una lingua. Non è valutato e non fa perdere punti.
+- **I trenta livelli di ogni anno si dividono in cinque blocchi da sei**: Fondamenta, Struttura, Comprensione, Produzione, Consapevolezza linguistica. I blocchi non sono le tappe: sono un taglio interno alla sequenza dei livelli.
+- **Le sei associazioni fra lingua e oggetto** sono fissate e non si cambiano: Italiano→Cibi, Ferrarese→Detti popolari, Latino→Superstizioni, Inglese→Musiche, Lingua dei segni→Artigianato tipico, Greco→Bevande. Le ragioni sono in `lingue.md` §5.1.
+- **L'oggetto è FACOLTATIVO in tutti i 900 livelli**: non blocca, non dà punti, non sblocca niente. Gli esercizi dell'oggetto sono **gli stessi meccanismi** di quelli informatici, cambia solo il contenuto.
+- **Le trenta voci per lingua in `dati/lingue/associazioni.json` sono PROPOSTE**, non voci confermate. Per il ferrarese la voce non è un testo ma un **campo da rilevare**: i proverbi si raccolgono, non si scrivono.
+- **I 900 titoli sono in `sorgenti/lingue/`**, sei file di 150 righe, e ogni riga dichiara la sua provenienza: `titolo` (di Pietro) oppure `tema` (proposto). `titoli_livelli.txt` è un output, non un sorgente. Prima di usare un titolo, `python3 sorgenti/lingue/verifica_titoli.py` deve dare **0 problemi**.
+- **Non scrivere una lingua dei segni a tavolino**, e non raccogliere proverbi ferraresi senza la regola del consenso: entrambe le cose sono questioni aperte (`lingue.md` §7 Q3 e Q4).
 
 **Esercizi e testo**
 - **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.

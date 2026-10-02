@@ -1,0 +1,922 @@
+# I 900 titoli dei livelli linguistici: sei lingue, cinque anni, trenta livelli ciascuno.
+#
+# FORMATO, una riga per livello, campi separati da "|":
+#   lingua|anno|numero|titolo|fonte
+#
+# `fonte` dichiara da dove viene il titolo, e non è una decorazione:
+#   titolo  il titolo è quello scritto da Pietro, riga per riga
+#   tema    il titolo è stato costruito a partire dall'elenco di temi che
+#           Pietro ha dato per quell'anno (la lista è nel documento di
+#           progetto, §3.4): il titolo è una proposta, e come tale va
+#           trattata finché non è confermata. Un titolo costruito che sembra
+#           definitorio è la cosa peggiore che possa capitare in un progetto
+#           di scuola.
+#
+# LINGUE: IT italiano · FE ferrarese · LA latino · EN inglese · SI lingua dei
+# segni italiana · EL greco.
+#
+# Il file è generato: si controlla con
+#   python3 sorgenti/lingue/verifica_titoli.py
+# e si ricostruisce dalle sei parti con
+#   python3 sorgenti/lingue/verifica_titoli.py --unisci
+#
+IT|1|1|La parola e il significato|titolo
+IT|1|2|Suoni e lettere|titolo
+IT|1|3|Leggere senza inciampare|titolo
+IT|1|4|Costruire una frase|titolo
+IT|1|5|Chi fa cosa?|titolo
+IT|1|6|Raccontare un fatto|titolo
+IT|1|7|Il nome|titolo
+IT|1|8|L'articolo|titolo
+IT|1|9|L'aggettivo|titolo
+IT|1|10|Il pronome|titolo
+IT|1|11|Il verbo|titolo
+IT|1|12|Presente, passato, futuro|titolo
+IT|1|13|Singolare e plurale|titolo
+IT|1|14|Maschile e femminile|titolo
+IT|1|15|Preposizioni|titolo
+IT|1|16|Avverbi|titolo
+IT|1|17|Frasi negative e interrogative|titolo
+IT|1|18|Coordinare le idee|titolo
+IT|1|19|Subordinare le idee|titolo
+IT|1|20|Descrivere un luogo|titolo
+IT|1|21|Descrivere una persona senza stereotipi|titolo
+IT|1|22|Raccontare una storia|titolo
+IT|1|23|Spiegare qualcosa|titolo
+IT|1|24|Dare istruzioni|titolo
+IT|1|25|Esprimere un'opinione|titolo
+IT|1|26|Distinguere fatto, opinione e interpretazione|titolo
+IT|1|27|Parole precise|titolo
+IT|1|28|Registro linguistico|titolo
+IT|1|29|Ambiguità|titolo
+IT|1|30|Il laboratorio della lingua|titolo
+IT|2|1|Parti del discorso|titolo
+IT|2|2|Struttura della frase|titolo
+IT|2|3|Predicato verbale e nominale|titolo
+IT|2|4|Complementi|titolo
+IT|2|5|Pronomi personali|titolo
+IT|2|6|Pronomi relativi|titolo
+IT|2|7|Tempi verbali|titolo
+IT|2|8|Aspetto dell'azione|titolo
+IT|2|9|Imperfetto e passato remoto|titolo
+IT|2|10|Passato prossimo e remoto|titolo
+IT|2|11|Futuro e condizionale|titolo
+IT|2|12|Congiuntivo: prima introduzione|titolo
+IT|2|13|Periodo ipotetico|titolo
+IT|2|14|Discorso diretto e indiretto|titolo
+IT|2|15|Frase semplice e complessa|titolo
+IT|2|16|Coordinazione|titolo
+IT|2|17|Subordinazione|titolo
+IT|2|18|Causa e conseguenza|titolo
+IT|2|19|Tempo e contemporaneità|titolo
+IT|2|20|Finalità|titolo
+IT|2|21|Concessione|titolo
+IT|2|22|Comparazione|titolo
+IT|2|23|Coesione testuale|titolo
+IT|2|24|Coerenza|titolo
+IT|2|25|Anafora e catafora|titolo
+IT|2|26|Connettivi|titolo
+IT|2|27|Parafrasi|titolo
+IT|2|28|Riassunto|titolo
+IT|2|29|Argomentazione|titolo
+IT|2|30|Scrivere un testo strutturato|titolo
+IT|3|1|Fonologia|titolo
+IT|3|2|Fonetica articolatoria|titolo
+IT|3|3|Morfologia|titolo
+IT|3|4|Morfemi|titolo
+IT|3|5|Derivazione|titolo
+IT|3|6|Composizione|titolo
+IT|3|7|Flessione|titolo
+IT|3|8|Sintassi|titolo
+IT|3|9|Costituenti|titolo
+IT|3|10|Valenza verbale|titolo
+IT|3|11|Semantica|titolo
+IT|3|12|Polisemia|titolo
+IT|3|13|Omografia|titolo
+IT|3|14|Sinonimia e quasi-sinonimia|titolo
+IT|3|15|Antonimia|titolo
+IT|3|16|Pragmatica|titolo
+IT|3|17|Presupposizione|titolo
+IT|3|18|Implicatura|titolo
+IT|3|19|Deissi|titolo
+IT|3|20|Atti linguistici|titolo
+IT|3|21|Registro|titolo
+IT|3|22|Varietà regionali|titolo
+IT|3|23|Dialetti|titolo
+IT|3|24|Italiano regionale|titolo
+IT|3|25|Italiano standard|titolo
+IT|3|26|Lingua parlata e scritta|titolo
+IT|3|27|Lingua e società|titolo
+IT|3|28|Lingua e identità|titolo
+IT|3|29|Mutamento linguistico|titolo
+IT|3|30|Costruire una piccola analisi linguistica|titolo
+IT|4|1|Storia dell'italiano|titolo
+IT|4|2|Dal latino all'italiano|titolo
+IT|4|3|Volgare e latino|titolo
+IT|4|4|Prime testimonianze|titolo
+IT|4|5|Dante e il plurilinguismo|titolo
+IT|4|6|Petrarca e il modello linguistico|titolo
+IT|4|7|Boccaccio|titolo
+IT|4|8|La questione della lingua|titolo
+IT|4|9|Bembo|titolo
+IT|4|10|Manzoni|titolo
+IT|4|11|Italiano postunitario|titolo
+IT|4|12|Italiano contemporaneo|titolo
+IT|4|13|Dialettologia|titolo
+IT|4|14|Geografia linguistica|titolo
+IT|4|15|Atlanti linguistici|titolo
+IT|4|16|Sociolinguistica|titolo
+IT|4|17|Diglossia|titolo
+IT|4|18|Bilinguismo|titolo
+IT|4|19|Code-switching|titolo
+IT|4|20|Lingua e potere|titolo
+IT|4|21|Lingua e discriminazione|titolo
+IT|4|22|Linguaggio inclusivo|titolo
+IT|4|23|Linguaggio politico|titolo
+IT|4|24|Linguaggio scientifico|titolo
+IT|4|25|Linguaggio burocratico|titolo
+IT|4|26|Linguaggio dei media|titolo
+IT|4|27|Linguaggio digitale|titolo
+IT|4|28|Linguistica dei corpora|titolo
+IT|4|29|Analisi di dati linguistici|titolo
+IT|4|30|Progettare una ricerca linguistica|titolo
+IT|5|1|Fonologia avanzata|titolo
+IT|5|2|Fonetica acustica|titolo
+IT|5|3|Morfologia teorica|titolo
+IT|5|4|Sintassi teorica|titolo
+IT|5|5|Semantica formale|titolo
+IT|5|6|Pragmatica|titolo
+IT|5|7|Tipologia linguistica|titolo
+IT|5|8|Linguistica storica|titolo
+IT|5|9|Comparazione linguistica|titolo
+IT|5|10|Ricostruzione linguistica|titolo
+IT|5|11|Mutamento fonetico|titolo
+IT|5|12|Mutamento morfologico|titolo
+IT|5|13|Mutamento sintattico|titolo
+IT|5|14|Mutamento semantico|titolo
+IT|5|15|Etimologia|titolo
+IT|5|16|Filologia|titolo
+IT|5|17|Critica del testo|titolo
+IT|5|18|Varianti manoscritte|titolo
+IT|5|19|Sociolinguistica quantitativa|titolo
+IT|5|20|Linguistica cognitiva|titolo
+IT|5|21|Psicolinguistica|titolo
+IT|5|22|Acquisizione del linguaggio|titolo
+IT|5|23|Neurolinguistica|titolo
+IT|5|24|Linguistica computazionale|titolo
+IT|5|25|Corpus linguistics|titolo
+IT|5|26|Lessicografia|titolo
+IT|5|27|Onomastica|titolo
+IT|5|28|Dialettologia avanzata|titolo
+IT|5|29|Come si costruisce un'ipotesi linguistica|titolo
+IT|5|30|Progetto finale: analizzare una lingua come un linguista|titolo
+FE|1|1|Cos'è una varietà linguistica|titolo
+FE|1|2|Ferrara e il suo territorio linguistica|titolo
+FE|1|3|Ascoltare il ferrarese|titolo
+FE|1|4|Alfabeto e convenzioni di scrittura|titolo
+FE|1|5|Pronuncia|titolo
+FE|1|6|Vocali|titolo
+FE|1|7|Consonanti|titolo
+FE|1|8|Saluti|titolo
+FE|1|9|Presentarsi|titolo
+FE|1|10|Numeri|titolo
+FE|1|11|Tempo|titolo
+FE|1|12|Famiglia|titolo
+FE|1|13|Casa|titolo
+FE|1|14|Cibo|titolo
+FE|1|15|Corpo|titolo
+FE|1|16|Animali|titolo
+FE|1|17|Mestieri|titolo
+FE|1|18|Luoghi della città|titolo
+FE|1|19|Verbi fondamentali|titolo
+FE|1|20|Negazione|titolo
+FE|1|21|Domande|titolo
+FE|1|22|Aggettivi|titolo
+FE|1|23|Possessivi|titolo
+FE|1|24|Preposizioni|titolo
+FE|1|25|Frasi quotidiane|titolo
+FE|1|26|Piccoli dialoghi|titolo
+FE|1|27|Proverbi|titolo
+FE|1|28|Modi di dire|titolo
+FE|1|29|Ascolto di parlanti|titolo
+FE|1|30|Primo dialogo autonomo|titolo
+FE|2|1|Morfologia nominale|titolo
+FE|2|2|Articoli|titolo
+FE|2|3|Pronomi|titolo
+FE|2|4|Verbi regolari|titolo
+FE|2|5|Verbi irregolari|titolo
+FE|2|6|Tempi principali|titolo
+FE|2|7|Negazione|titolo
+FE|2|8|Interrogazione|titolo
+FE|2|9|Sintassi della frase|titolo
+FE|2|10|Ordine delle parole|titolo
+FE|2|11|Preposizioni|titolo
+FE|2|12|Avverbi|titolo
+FE|2|13|Comparativi|titolo
+FE|2|14|Racconto|titolo
+FE|2|15|Descrizione|titolo
+FE|2|16|Conversazione|titolo
+FE|2|17|Lessico agricolo|titolo
+FE|2|18|Lessico urbano|titolo
+FE|2|19|Lessico familiare|titolo
+FE|2|20|Lessico del lavoro|titolo
+FE|2|21|Toponomastica ferrarese|titolo
+FE|2|22|Antroponimia|titolo
+FE|2|23|Proverbi|titolo
+FE|2|24|Filastrocche|titolo
+FE|2|25|Testimonianze orali|titolo
+FE|2|26|Variazione generazionale|titolo
+FE|2|27|Variazione geografica|titolo
+FE|2|28|Italiano e ferrarese|titolo
+FE|2|29|Prestiti linguistici|titolo
+FE|2|30|Racconto breve in ferrarese|titolo
+FE|3|1|Fonetica ferrarese: le vocali lunghe|tema
+FE|3|2|Il suono che l'orecchio non sente: γ e κ|tema
+FE|3|3|Fonologia: le opposizioni minime|tema
+FE|3|4|Morfologia verbale: il ferrarese e il suo passato|tema
+FE|3|5|Il condizionale che l'italiano non ha|tema
+FE|3|6|La negazione: che cosa non c'è|tema
+FE|3|7|Frasi senza soggetto|tema
+FE|3|8|L'ordine delle parole: la regola e l'eccezione|tema
+FE|3|9|Preposizioni e casi residui|tema
+FE|3|10|Lessico storico: parole di terra e di bottega|tema
+FE|3|11|L'etimologia delle parole del piatto|tema
+FE|3|12|Emiliano-romagnolo e gallo-italico|tema
+FE|3|13|Ferrara nella rete linguistica medievale|tema
+FE|3|14|Il dialetto nella documentazione d'archivio|tema
+FE|3|15|Testi popolari: le «rime» di bottega|tema
+FE|3|16|Un testo letterario in dialetto|tema
+FE|3|17|Variazione urbana e rurale|tema
+FE|3|18|Chi parla il ferrarese e chi dice di parlarlo|tema
+FE|3|19|Il ricordo di una lingua: che cosa si perde e quando|tema
+FE|3|20|Fonologia storica del ferrarese|tema
+FE|3|21|Morfologia storica del ferrarese|tema
+FE|3|22|Atlanti linguistici: la carta di una varietà|tema
+FE|3|23|Intervista: come si raccoglie una voce|tema
+FE|3|24|Trascrizione di parlato: convenzioni e perché servono|tema
+FE|3|25|Analisi di una coppia di parole|tema
+FE|3|26|Parole che cambiano significato|tema
+FE|3|27|Il lessico della pesca e del delta|tema
+FE|3|28|Un proverbo, tre varianti: come si sceglie la più giusta|tema
+FE|3|29|Confronto: la stessa frase in italiano, in ferrarese, in latino|tema
+FE|3|30|Raccolta: costruire il primo corpus di ferrarese di classe|tema
+FE|4|1|Filologia dialettale: che cosa si edita e perché|tema
+FE|4|2|L'atlante come fonte storica|tema
+FE|4|3|Dialettologia italiana: dove sta il ferrarese|tema
+FE|4|4|Ferrara medievale: chi scriveva e in che lingua|tema
+FE|4|5|La varietà di corte: il dialetto degli scrittori|tema
+FE|4|6|Dalla trascrizione diplomatica all'edizione critica|tema
+FE|4|7|Lo stemma codicum di un testo ferrarese|tema
+FE|4|8|La tradizione manoscritta ferrarese|tema
+FE|4|9|Il lessico tecnico delle arti|tema
+FE|4|10|Il lessico tecnico delle acque e dei canali|tema
+FE|4|11|Antroponimia storica ferrarese|tema
+FE|4|12|Toponimi: quando un nome di luogo è una parola|tema
+FE|4|13|Cognati e prestiti: latino, italiano, ferrarese|tema
+FE|4|14|Semantica storica: parole che hanno cambiato mestiere|tema
+FE|4|15|Sociolinguistica del dialetto: uso e percezione|tema
+FE|4|16|Il dialetto nella scuola e fuori|tema
+FE|4|17|Tutela e valorizzazione: che cosa significa «salvare» una lingua|tema
+FE|4|18|Parlare il ferrarese oggi: il vincolo del tempo|tema
+FE|4|19|Il dibattito sull'italiano regionale|tema
+FE|4|20|Corpus di parlato: come si costruisce e a cosa serve|tema
+FE|4|21|Corpus scritto: la differenza rispetto al parlato|tema
+FE|4|22|Strumenti: software per annotare una trascrizione|tema
+FE|4|23|Analisi quantitativa: le parole più lunghe|tema
+FE|4|24|Analisi quantitativa: le parole che spariscono|tema
+FE|4|25|Confronto con altri dialetti italiani|tema
+FE|4|26|Confronto con le altre lingue del gioco|tema
+FE|4|27|Progettare una campagna di raccolta|tema
+FE|4|28|Didattica: che cosa si può insegnare del dialetto a scuola|tema
+FE|4|29|Il dialetto nei documenti digitali: una ricerca|tema
+FE|4|30|Presentazione: il ferrarese di oggi, con i suoi dati|tema
+FE|5|1|Fonologia storica: le leggi del suono|tema
+FE|5|2|Fonologia storica: le eccezioni che spiegano il perché|tema
+FE|5|3|Morfologia storica: le parole che cambiano forma|tema
+FE|5|4|La frase lunga: sintassi del parlato|tema
+FE|5|5|Discorso diretto e racconto nel parlato ferrarese|tema
+FE|5|6|Racconto orale: strutture che si riconoscono|tema
+FE|5|7|Proverbi: la struttura binaria e le sue varianti|tema
+FE|5|8|Modi di dire: che cosa fa una parola quando si sposta|tema
+FE|5|9|Registro: chi parla come chi, davanti a chi|tema
+FE|5|10|Linguaggio delle professioni del delta|tema
+FE|5|11|Linguaggio delle feste e dei riti civili|tema
+FE|5|12|Linguaggio delle feste patronali e dei canti|tema
+FE|5|13|Toponimi e storia del territorio|tema
+FE|5|14|Antroponimia: i cognomi di Ferrara e dintorni|tema
+FE|5|15|Cognati: la stessa radice in sei lingue del gioco|tema
+FE|5|16|Falsi cognati: quando la somiglianza inganna|tema
+FE|5|17|Prestiti: dall'italiano, dal latino, dall'inglese|tema
+FE|5|18|Trascrizione fonetica: la scelta che cambia il significato|tema
+FE|5|19|Norma e varietà: chi decide, e con quali mezzi|tema
+FE|5|20|Pluralità: forme che indicano chi sei e con chi|tema
+FE|5|21|Genere e genere grammaticale|tema
+FE|5|22|Numerali: contarle tutte le lingue del gioco|tema
+FE|5|23|Sistema pronominale: chi parla, con chi, di chi|tema
+FE|5|24|Velocità dell'ellipsis: quando si sottintende tutto|tema
+FE|5|25|Percezione del parlante: che cosa crede di parlare|tema
+FE|5|26|Atti linguistici nel dialetto: imprecare, promettere, scherzare|tema
+FE|5|27|Scrittura: perché il dialetto si scrive male e come si rimedia|tema
+FE|5|28|Digitalizzazione: cosa succede a una voce quando muore l'ultimo parlante|tema
+FE|5|29|Una domanda di ricerca sul ferrarese, e come si risponde|tema
+FE|5|30|Progetto finale: documentare una varietà linguistica della città|tema
+LA|1|1|Alfabeto e pronuncia|titolo
+LA|1|2|Quantità vocalica|titolo
+LA|1|3|Sillaba|titolo
+LA|1|4|Accento|titolo
+LA|1|5|Prima declinazione|titolo
+LA|1|6|Seconda declinazione|titolo
+LA|1|7|Nomi|titolo
+LA|1|8|Aggettivi|titolo
+LA|1|9|Sum|titolo
+LA|1|10|Indicativo presente|titolo
+LA|1|11|Imperfetto|titolo
+LA|1|12|Futuro|titolo
+LA|1|13|Complementi fondamentali|titolo
+LA|1|14|Preposizioni|titolo
+LA|1|15|Terza declinazione|titolo
+LA|1|16|Aggettivi della seconda classe|titolo
+LA|1|17|Pronomi|titolo
+LA|1|18|Possessivi|titolo
+LA|1|19|Quarta declinazione|titolo
+LA|1|20|Quinta declinazione|titolo
+LA|1|21|Perfetto|titolo
+LA|1|22|Piuccheperfetto|titolo
+LA|1|23|Futuro anteriore|titolo
+LA|1|24|Participio|titolo
+LA|1|25|Infinito|titolo
+LA|1|26|Ablativo assoluto|titolo
+LA|1|27|Proposizioni infinitive|titolo
+LA|1|28|Lettura graduata|titolo
+LA|1|29|Prima autentica pagina latina|titolo
+LA|1|30|Comprendere un testo latino senza tradurlo parola per parola|titolo
+LA|2|1|Congiuntivo|titolo
+LA|2|2|Proposizioni finali|titolo
+LA|2|3|Consecutive|titolo
+LA|2|4|Temporali|titolo
+LA|2|5|Causali|titolo
+LA|2|6|Relative|titolo
+LA|2|7|Cum|titolo
+LA|2|8|Periodo ipotetico|titolo
+LA|2|9|Gerundio|titolo
+LA|2|10|Gerundivo|titolo
+LA|2|11|Perifrastica|titolo
+LA|2|12|Comparativi|titolo
+LA|2|13|Superlativi|titolo
+LA|2|14|Pronomi relativi|titolo
+LA|2|15|Pronomi dimostrativi|titolo
+LA|2|16|Pronomi personali|titolo
+LA|2|17|Sintassi dei casi|titolo
+LA|2|18|Oratio obliqua|titolo
+LA|2|19|Ordine delle parole|titolo
+LA|2|20|Prosa classica|titolo
+LA|2|21|Cesare|titolo
+LA|2|22|Cicerone|titolo
+LA|2|23|Sallustio|titolo
+LA|2|24|Livio|titolo
+LA|2|25|Virgilio|titolo
+LA|2|26|Ovidio|titolo
+LA|2|27|Epigrafia|titolo
+LA|2|28|Latino medievale|titolo
+LA|2|29|Latino cristiano|titolo
+LA|2|30|Lettura commentata|titolo
+LA|3|1|Latino arcaico: come parlava il latino di Ennio|tema
+LA|3|2|Li opus: quando una parola cambia di genere|tema
+LA|3|3|Poesia: endecasillabo e pentametro|tema
+LA|3|4|Metrica: perché gli accenti non sono dove sembrano|tema
+LA|3|5|Metrica: la quantità delle sillabe tesse|tema
+LA|3|6|Poesia e prosa: due lingue nella stessa lingua|tema
+LA|3|7|Retorica: i loci communes dell'oratore|tema
+LA|3|8|Stilistica: riconoscere la mano di un autore|tema
+LA|3|9|Storia della lingua latina: le fasi|tema
+LA|3|10|Il latino di Plauto e il latino di Cicerone: che cosa cambia|tema
+LA|3|11|Latino tardo: le parole che si allargano|tema
+LA|3|12|Latino tardo: la sintassi si scioglie|tema
+LA|3|13|Latino medievale: la lingua della Chiesa|tema
+LA|3|14|Latino medievale: la lingua del diritto|tema
+LA|3|15|Latino umanistico: la lingua che imita gli antichi|tema
+LA|3|16|Paleografia: leggere una scrittura del Duecento|tema
+LA|3|17|Codicologia: che cosa contiene un manoscritto|tema
+LA|3|18|Epigrafia romana: iscritrizioni che parlano di loro stesse|tema
+LA|3|19|Critica testuale: perché due manoscritti non sono la stessa cosa|tema
+LA|3|20|Lo stemma codicum: come si ricostruisce la genealogia dei testi|tema
+LA|3|21|Apparato critico: leggere le varianti in colonna|tema
+LA|3|22|Filologia latina: che cosa si fa di un errore|tema
+LA|3|23|Etimologia latina: derivare o ricostruire|tema
+LA|3|24|Dal latino alle lingue romanze: il punto di partenza|tema
+LA|3|25|Italiano e latino: le parole che vengono e quelle che no|tema
+LA|3|26|Ferrarese e latino: due secoli di contatto|tema
+LA|3|27|Leggere senza traduzione intermedia|tema
+LA|3|28|Commentare un testo: il metodo in cinque passi|tema
+LA|3|29|Confronto: la stessa perifrastica in tre lingue del gioco|tema
+LA|3|30|Progetto: edizione commentata di un testo latino breve|tema
+LA|4|1|Linguistica storica: metodo e periodizzazione|tema
+LA|4|2|Fonologia storica latina: le consonanti|tema
+LA|4|3|Fonologia storica latina: le vocali lunghe|tema
+LA|4|4|Fonologia storica latina: perché certe combinazioni sono impossibili|tema
+LA|4|5|Morfologia storica: le declinazioni come categorie vive|tema
+LA|4|6|La genesi dei casi: ablativo e genitivo|tema
+LA|4|7|Sintassi storica: l'ordine delle parole come informazione|tema
+LA|4|8|Semantica storica: slittamenti frequenti|tema
+LA|4|9|Tipologia linguistica: latino e greco a confronto|tema
+LA|4|10|Lingue che hanno scritto il latino|tema
+LA|4|11|Perifrasi e formule fisse|tema
+LA|4|12|Pronomi e anafora: che cosa rende noto al lettore|tema
+LA|4|13|Deissi nello spazio e nel testo|tema
+LA|4|14|Oratio obliqua: il discorso riportato come problema tecnico|tema
+LA|4|15|Corpus latino: che cosa c'è e che cosa manca|tema
+LA|4|16|Concordanza e interrogazione di un corpus|tema
+LA|4|17|Latinità e romanzo: la costruzione di un'identità|tema
+LA|4|18|La lingua della scienza antica: Galeno, Tolomeo|tema
+LA|4|19|La lingua del diritto romano: le formule che sopravvivono|tema
+LA|4|20|La lingua del diritto canonico: la tradizione medievale|tema
+LA|4|21|Vulgate e traduzioni bibliche: la lingua come scelta teologica|tema
+LA|4|22|Retorica e propaganda: la lingua degli imperi|tema
+LA|4|23|Toponimi e nomi di persona dall'età imperiale|tema
+LA|4|24|Il latino nelle epigrafi: le mani degli umili|tema
+LA|4|25|Codicologia: i manoscritti che non arrivano a noi|tema
+LA|4|26|Critica testuale: le edizioni e i loro errori|tema
+LA|4|27|Traduzione: che cosa si traduce e che cosa si deve rifare|tema
+LA|4|28|Confronto: tradurre la stessa frase in sei lingue del gioco|tema
+LA|4|29|Didattica del latino: perché si legge un testo senza traduzione|tema
+LA|4|30|Seminario: un testo latino commentato in tre modi|tema
+LA|5|1|Filologia latina: principi e varietà dei metodi|tema
+LA|5|2|Critica testuale: le due tradizioni, italiana e francese|tema
+LA|5|3|Stemma codicum: costruirlo e leggerlo|tema
+LA|5|4|Tradizione indiretta: quando il testo passa per un compendio|tema
+LA|5|5|Emendatio: correggere, e dichiarare che si corregge|tema
+LA|5|6|Apparato: la forma in cui si dichiarano le varianti|tema
+LA|5|7|Latina vulgata e tradizioni bibliche: la filologia al servizio della teologia|tema
+LA|5|8|Papirologia: il rotolo e le sue condizioni materiali|tema
+LA|5|9|Paleografia gotica e Humanistica: leggere due mani diverse|tema
+LA|5|10|Codicologia quantitativa: quante copie, quante biblioteche|tema
+LA|5|11|Linguistica dei corpora latini: le incoerenze del dato|tema
+LA|5|12|Sintassi quantitativa: quanto spesso, e con quale eccezione|tema
+LA|5|13|Semantica storica: una parola dal latino moderno all'italiano|tema
+LA|5|14|Etimologia: quando la forma popolare batte quella dotta|tema
+LA|5|15|Latino, greco, italiano: parole a confronto|tema
+LA|5|16|Prestiti e calchi: il latino dentro le altre lingue europee|tema
+LA|5|17|Lingue minori: il falisco, il venetico, l'osco|tema
+LA|5|18|Reconstruction: ricostruire una lingua morta senza dati sufficienti|tema
+LA|5|19|Le lingue dell'Impero: latino, greco, lingue locali|tema
+LA|5|20|Lingua e religione: il latino come lingua della verità|tema
+LA|5|21|Lingua e diritto: la lingua che non ammette eccezioni|tema
+LA|5|22|Atti linguistici: giurare, maledire, promettere in latino|tema
+LA|5|23|Rituali e formule: le parole che si recitano e non si discutono|tema
+LA|5|24|Retorica antica e retorica contemporanea|tema
+LA|5|25|Toponomastica: leggere il territorio nelle iscrizioni|tema
+LA|5|26|Antropomastica: i nomi che un impero dà ai suoi funzionari|tema
+LA|5|27|Onomastica e potere: chi si chiama come l'imperatore|tema
+LA|5|28|Un problema di filologia vera: scegliere e dichiarare|tema
+LA|5|29|Commento filologico: struttura e limiti di un apparato|tema
+LA|5|30|Progetto finale: leggere, analizzare e commentare un testo latino con strumenti filologici|tema
+EN|1|1|Suoni dell'inglese|titolo
+EN|1|2|Alphabet|titolo
+EN|1|3|Pronouns|titolo
+EN|1|4|Be|titolo
+EN|1|5|Have|titolo
+EN|1|6|Present simple|titolo
+EN|1|7|Questions|titolo
+EN|1|8|Negation|titolo
+EN|1|9|Articles|titolo
+EN|1|10|Plurals|titolo
+EN|1|11|Possessives|titolo
+EN|1|12|Demonstratives|titolo
+EN|1|13|Numbers|titolo
+EN|1|14|Time|titolo
+EN|1|15|Family|titolo
+EN|1|16|Home|titolo
+EN|1|17|Food|titolo
+EN|1|18|Places|titolo
+EN|1|19|Daily activities|titolo
+EN|1|20|Adjectives|titolo
+EN|1|21|Adverbs|titolo
+EN|1|22|Can|titolo
+EN|1|23|Present continuous|titolo
+EN|1|24|Past introduction|titolo
+EN|1|25|Future introduction|titolo
+EN|1|26|Asking for information|titolo
+EN|1|27|Describing|titolo
+EN|1|28|Narrating|titolo
+EN|1|29|Listening|titolo
+EN|1|30|First autonomous conversation|titolo
+EN|2|1|Past simple|titolo
+EN|2|2|Past continuous|titolo
+EN|2|3|Future forms|titolo
+EN|2|4|Present perfect|titolo
+EN|2|5|Modals|titolo
+EN|2|6|Comparatives|titolo
+EN|2|7|Superlatives|titolo
+EN|2|8|Countability|titolo
+EN|2|9|Quantifiers|titolo
+EN|2|10|Pronouns|titolo
+EN|2|11|Relative clauses|titolo
+EN|2|12|Conditionals|titolo
+EN|2|13|Infinitive|titolo
+EN|2|14|Gerund|titolo
+EN|2|15|Phrasal verbs|titolo
+EN|2|16|Everyday conversation|titolo
+EN|2|17|Formal language|titolo
+EN|2|18|Informal language|titolo
+EN|2|19|Reading|titolo
+EN|2|20|Writing|titolo
+EN|2|21|Narrative|titolo
+EN|2|22|Description|titolo
+EN|2|23|Explanation|titolo
+EN|2|24|Argument|titolo
+EN|2|25|News|titolo
+EN|2|26|Culture|titolo
+EN|2|27|Literature|titolo
+EN|2|28|Listening to authentic speech|titolo
+EN|2|29|Speaking|titolo
+EN|2|30|A2 project|titolo
+EN|3|1|Idiomatic language|tema
+EN|3|2|Phrasal verbs, secondo livello|tema
+EN|3|3|Discourse markers|tema
+EN|3|4|Register: come cambia con chi parli|tema
+EN|3|5|Academic English: le formule che si riciclano|tema
+EN|3|6|Scientific English: descrivere un metodo|tema
+EN|3|7|News English: titoli e coppie|tema
+EN|3|8|Rhetoric: quando la figura sostituisce l'argomento|tema
+EN|3|9|Irony e understatement|tema
+EN|3|10|Metaphor in English: le metafore che non si vedono più|tema
+EN|3|11|Sociolinguistics: chi parla come chi|tema
+EN|3|12|Varieties of English: le varietà vive|tema
+EN|3|13|British e American: differenze vere e differenze inventate|tema
+EN|3|14|World Englishes: chi decide la lingua giusta|tema
+EN|3|15|Historical English: da Chaucer a Shakespeare|tema
+EN|3|16|Old English: una lingua germanica mascherata di latino|tema
+EN|3|17|Middle English: il tempo in cui l'inglese si fa inglese|tema
+EN|3|18|Shakespeare: la lingua come personaggio|tema
+EN|3|19|Etymology: le parole che vengono da fuori|tema
+EN|3|20|Cognates: parentele che si riconoscono|tema
+EN|3|21|False friends: la stessa forma, due significati|tema
+EN|3|22|Translation: che cosa si perde e che cosa si guadagna|tema
+EN|3|23|Corpus analysis: misurare che cosa si usa davvero|tema
+EN|3|24|Pronunciation and accent: che cosa è un errore e che cosa è un accento|tema
+EN|3|25|Argumentation: sostenere una tesi e reggere le obiezioni|tema
+EN|3|26|Essay writing: la struttura che si vede dal bordo|tema
+EN|3|27|Presentation: parlare e far capire|tema
+EN|3|28|Debate: ascoltare per confutare|tema
+EN|3|29|Critical reading: riconoscere l'argomento nascosto|tema
+EN|3|30|Progetto: un'analisi di un testo inglese con strumenti linguistici|tema
+EN|4|1|Le origini germaniche dell'inglese|tema
+EN|4|2|Norman French: la lingua che si è imposta dall'alto|tema
+EN|4|3|L'inglese di Chaucer: leggere il Trecento inglese|tema
+EN|4|4|La riforma di Johnson e l'inglese stabile|tema
+EN|4|5|L'inglese del Settecento e l'illuminismo|tema
+EN|4|6|L'inglese della Rivoluzione industriale|tema
+EN|4|7|Imperial English: la lingua come amministrazione|tema
+EN|4|8|Standard English: la varietà che si è fatta norma|tema
+EN|4|9|Cockney e ilimusso: due accenti che sono anche due luoghi|tema
+EN|4|10|L'inglese nei media: titoli, sottotitoli, pubblicità|tema
+EN|4|11|L'inglese del web: come cambia con il canale|tema
+EN|4|12|Social media: la lingua che si accorcia ogni anno|tema
+EN|4|13|Internet slang e la sua durata|tema
+EN|4|14|Corpora di sottotitoli: la lingua parlata per iscritto|tema
+EN|4|15|Corpora di conversazione: che cosa si può contare e che cosa no|tema
+EN|4|16|Corpus di discorso accademico|tema
+EN|4|17|L'inglese scientifico: chi scrive, in che registro|tema
+EN|4|18|L'inglese tecnico: manuali, schede, istruzioni|tema
+EN|4|19|Translation and localization: la lingua che cambia prodotto|tema
+EN|4|20|L'inglese nella pubblicità: la promessa che non si può mantenere|tema
+EN|4|21|Political speech: le formule che non significano niente|tema
+EN|4|22|Hate speech e il linguaggio: dove sta il confine e chi lo decide|tema
+EN|4|23|Euphemism: la parola buona che copre la cosa cattiva|tema
+EN|4|24|Naming: chi decide il nome di una cosa nuova|tema
+EN|4|25|Phonology of English: le coppie minime|tema
+EN|4|26|Morphology: le parole costruite con pezzi|tema
+EN|4|27|Syntax: che cosa l'inglese mette in fondo e perché|tema
+EN|4|28|Semantics: la classe di parole più ampia di tutte|tema
+EN|4|29|Progettare una ricerca su un corpus inglese|tema
+EN|4|30|Seminario: leggere un testo inglese con strumenti di linguistica|tema
+EN|5|1|Sociolinguistica quantitativa: misurare chi parla e come|tema
+EN|5|2|Atti linguistici in inglese: minaccia, promessa, atto|tema
+EN|5|3|Deissi e spazio: qui, there, e i deittici che mancano|tema
+EN|5|4|Pragmatica: implicature, presupposizioni, ironia|tema
+EN|5|5|Tipologia: l'inglese e le lingue che gli somigliano|tema
+EN|5|6|Lingua storica: i mutamenti che non si vedono in una frase|tema
+EN|5|7|Mutamento fonologico: le leggi che si sono rotte|tema
+EN|5|8|Comparazione: inglese e italiano, le stesse funzioni diversi meccanismi|tema
+EN|5|9|Comparazione con il ferrarese: due lingue che si somigliano poco|tema
+EN|5|10|Comparazione con il latino: le parole che sopravvivono|tema
+EN|5|11|Comparazione con il greco|tema
+EN|5|12|Lingua dei segni e inglese: due modi di segnare il tempo|tema
+EN|5|13|Psicrolinguistica: come la lingua è compresa a metà frase|tema
+EN|5|14|Psicrolinguistica applicata: la scelta della risposta automatica|tema
+EN|5|15|Lingua e cervello: le lesioni che rivelano le funzioni|tema
+EN|5|16|Acquisizione: come si impara una seconda lingua da adulti|tema
+EN|5|17|Interlingua: la lingua che nessuno parla e tutti capiscono|tema
+EN|5|18|Traduzione automatica: che cosa sbaglia e perché|tema
+EN|5|19|Modelli linguistici: una lingua come statistica|tema
+EN|5|20|Corpus e modello: che cosa si può dedurre da milioni di frasi|tema
+EN|5|21|Discorso: coerenza, coesione e topicalizzazione|tema
+EN|5|22|Lingua dei media: come i media cambiano la sintassi|tema
+EN|5|23|Lingua pubblicitaria: la promessa e la verifica|tema
+EN|5|24|Lingua della politica: quando la parola sostituisce il dato|tema
+EN|5|25|Lingua dell'accusa: pregiudizio e prova linguistica|tema
+EN|5|26|Educazione linguistica: perché si insegna una lingua e come si misura|tema
+EN|5|27|Certificazioni: che cosa certificano davvero|tema
+EN|5|28|Plurilinguismo: sei lingue, sei sistemi, un cervello|tema
+EN|5|29|Una domanda di ricerca sulla lingua inglese, e come si risponde|tema
+EN|5|30|Progetto finale: analizzare l'uso di una lingua inglese con metodo scientifico|tema
+SI|1|1|Cos'è una lingua visivo-gestuale|titolo
+SI|1|2|Cultura sorda|titolo
+SI|1|3|Comunicazione visiva|titolo
+SI|1|4|Configurazioni|titolo
+SI|1|5|Movimento|titolo
+SI|1|6|Orientamento|titolo
+SI|1|7|Luogo|titolo
+SI|1|8|Espressione facciale|titolo
+SI|1|9|Saluti|titolo
+SI|1|10|Presentarsi|titolo
+SI|1|11|Numeri|titolo
+SI|1|12|Famiglia|titolo
+SI|1|13|Persone|titolo
+SI|1|14|Oggetti|titolo
+SI|1|15|Casa|titolo
+SI|1|16|Scuola|titolo
+SI|1|17|Città|titolo
+SI|1|18|Tempo|titolo
+SI|1|19|Giorni|titolo
+SI|1|20|Azioni|titolo
+SI|1|21|Emozioni|titolo
+SI|1|22|Domande|titolo
+SI|1|23|Negazione|titolo
+SI|1|24|Spazio|titolo
+SI|1|25|Direzioni|titolo
+SI|1|26|Classificatori introduttivi|titolo
+SI|1|27|Frasi semplici|titolo
+SI|1|28|Comprensione video|titolo
+SI|1|29|Narrazione semplice|titolo
+SI|1|30|Primo dialogo LIS|titolo
+SI|2|1|Morfologia LIS: i segni e le loro famiglie|tema
+SI|2|2|Classificatori: che cosa nominano|tema
+SI|2|3|Classificatori di quantità e di misura|tema
+SI|2|4|Verbi di stato e verbi d'azione|tema
+SI|2|5|Verbi direzionali: andare e venire|tema
+SI|2|6|Verbi spaziali: posizione e relazione|tema
+SI|2|7|Spazio grammaticale: dove si costruisce la frase|tema
+SI|2|8|Referenza: come si indica qualcosa che si è appena detto|tema
+SI|2|9|Temporalità: ordine, durata, momento|tema
+SI|2|10|Marcatori non manuali: le sopracciglia e il volto|tema
+SI|2|11|Topicalizzazione: che cosa metti in evidenza|tema
+SI|2|12|Frasi interrogative: la domanda che cambia posto|tema
+SI|2|13|Negazione: come si nega in LIS|tema
+SI|2|14|Frasi complesse|tema
+SI|2|15|Narrazione in LIS|tema
+SI|2|16|Descrizione in LIS|tema
+SI|2|17|Argomentazione in LIS|tema
+SI|2|18|Poesia segnata|tema
+SI|2|19|Variazione: chi segna e come|tema
+SI|2|20|Trascrizione della LIS: che cosa si scrive e che cosa no|tema
+SI|2|21|Comprensione di un testo segnato|tema
+SI|2|22|Interpretazione: il passaggio fra due lingue|tema
+SI|2|23|LIS e italiano: la stessa frase nei due sistemi|tema
+SI|2|24|LIS e inglese: due lingue lessicalmente diverse|tema
+SI|2|25|Ferrarese segnato: che cosa succede a un dialetto|tema
+SI|2|26|LIS e latino: due lingue che non hanno nulla in comune|tema
+SI|2|27|Progetto: raccontare in LIS una storia|tema
+SI|2|28|Esercizio di ascolto prolungato|tema
+SI|2|29|LIM: la lingua dei segni come materia scolastica|tema
+SI|2|30|Progetto B1: una presentazione in LIS|tema
+SI|3|1|Sintassi della LIS: l'ordine degli argomenti|tema
+SI|3|2|Iconicità: quando il segno imita la realtà|tema
+SI|3|3|Iconicità e convenzione: il limite tra le due|tema
+SI|3|4|Concordanza verbale nella LIS|tema
+SI|3|5|Casi e funzioni: come la LIS gestisce le relazioni|tema
+SI|3|6|Segni a due mani e segni a una mano|tema
+SI|3|7|Spazio e deissi: indicare senza puntare|tema
+SI|3|8|Classificatori e tipicità: il gioco delle categorie|tema
+SI|3|9|Intensificatori e quantificatori|tema
+SI|3|10|Negazione morfosintattica|tema
+SI|3|11|Questione e risposta: le forme che non ci si aspettano|tema
+SI|3|12|Discriminazione lessicale: come una parola ha due usi|tema
+SI|3|13|Bilinguismo LIS-italiano: che cosa succede in testa|tema
+SI|3|14|Cultura sorda: la storia che il gioco non deve semplificare|tema
+SI|3|15|Comunità sorda: identità e diritti|tema
+SI|3|16|Educazione: la LIS a scuola, che cosa è previsto e che cosa no|tema
+SI|3|17|Interpretazione scolastica: che cosa comporta per chi legge|tema
+SI|3|18|Sintesi vocale: le tecniche e i loro limiti|tema
+SI|3|19|Modelli linguistici per le lingue dei segni|tema
+SI|3|20|Corpus LIS: che cosa esiste e che cosa manca|tema
+SI|3|21|Annotazione di un corpus segnato|tema
+SI|3|22|Tipologia delle lingue dei segni|tema
+SI|3|23|Grammaticalizzazione: come un gesto diventa funzione|tema
+SI|3|24|Contatto fra lingue dei segni|tema
+SI|3|25|Confronto LIS/inglese: due lingue che non si somigliano|tema
+SI|3|26|Confronto LIS/grezzo antico: due lingue storiche|tema
+SI|3|27|Progetto: annotare un minuto di LIS|tema
+SI|3|28|Esercizio: raccontare un evento in due varianti di registro|tema
+SI|3|29|Esercizio: distinguere due usi dello stesso segno|tema
+SI|3|30|Progetto B1: analizzare un frammento di LIS|tema
+SI|4|1|Storia della LIS: come nasce una lingua|tema
+SI|4|2|La LIS tra Ottocento e Novecento|tema
+SI|4|3|Le scuole e i congressi: chi decide la norma|tema
+SI|4|4|La normalizzazione della LIS e le sue critiche|tema
+SI|4|5|Le varietà regionali della LIS|tema
+SI|4|6|La trasmissione familiare: quando non c'è una scuola|tema
+SI|4|7|Intergenerazionale: che cosa non si trasmette più|tema
+SI|4|8|Sistemi di segnazione nelle scuole: il punto di contatto|tema
+SI|4|9|La LIS nell'Università e nella ricerca|tema
+SI|4|10|La LIS nel lavoro e nei servizi|tema
+SI|4|11|L'accessibilità: la lingua come condizione|tema
+SI|4|12|La LIS e la legge: diritti linguistici|tema
+SI|4|13|Linguistica dei segni: le scuole di ricerca|tema
+SI|4|14|Analisi del segno: parametri e problemi aperti|tema
+SI|4|15|Progettazione di una varietà segnata: che cosa si sceglie|tema
+SI|4|16|Fonologia e morfosintassi: la ricerca sulla struttura|tema
+SI|4|17|Processi di generazione e comprensione: modelli|tema
+SI|4|18|Bilinguismo: come si studia e come si misura|tema
+SI|4|19|La persona bilingue non è due metà|tema
+SI|4|20|Deissi spaziale: come la LIS descrive l'ambiente|tema
+SI|4|21|Racconto e struttura testuale nella LIS|tema
+SI|4|22|Discorso referenziale e discorso non referenziale|tema
+SI|4|23|Corpus annotato: che cosa si può chiedere a un corpus|tema
+SI|4|24|LIS e media: la sottotitolazione come problema|tema
+SI|4|25|Progettazione di una prova di competenza in LIS|tema
+SI|4|26|LIS, italiano, inglese: politiche linguistiche a confronto|tema
+SI|4|27|Progetto: costruire una prova di comprensione in LIS|tema
+SI|4|28|Esercizio: analizzare i segni non manuali di un video|tema
+SI|4|29|Esercizio: distinguere due varietà della LIS|tema
+SI|4|30|Progetto: una presentazione scientifica in LIS|tema
+SI|5|1|Scienza del segno: che cosa sappiamo e come lo sappiamo|tema
+SI|5|2|Analisi fonologica della LIS|tema
+SI|5|3|Analisi morfosintattica della LIS|tema
+SI|5|4|Sintassi: teorie a confronto|tema
+SI|5|5|Semantica della LIS|tema
+SI|5|6|Pragmatica e discorso|tema
+SI|5|7|Iconicità: la ricerca recente|tema
+SI|5|8|Processi di grammaticalizzazione|tema
+SI|5|9|Tipologia delle lingue visuali|tema
+SI|5|10|Lingue dei segni a confronto: la linguistica applicata|tema
+SI|5|11|Lingue dei segni e sordità: il punto cieco|tema
+SI|5|12|Sistemi di segnazione: come sono nati e perché cambiano|tema
+SI|5|13|Storia della ricerca: le scuole europee e americane|tema
+SI|5|14|Terminologia scientifica in LIS|tema
+SI|5|15|Corpus di riferimento per la LIS|tema
+SI|5|16|Strumenti computazionali per la LIS|tema
+SI|5|17|Tecniche di visione artificiale applicate ai segni|tema
+SI|5|18|Riconoscimento automatico dei segni: i limiti|tema
+SI|5|19|Glossario e lessicografia della LIS|tema
+SI|5|20|Corpus di segni: che cosa è annotabile|tema
+SI|5|21|Psicologia della comprensione in LIS|tema
+SI|5|22|Acquisizione: come si impara la LIS da adulto|tema
+SI|5|23|Neuroimaging della lingua dei segni|tema
+SI|5|24|Bilinguismo e identità: dati e storie|tema
+SI|5|25|Etica della ricerca con la comunità sorda|tema
+SI|5|26|Partecipazione della comunità sorda alla ricerca|tema
+SI|5|27|Progettazione di una ricerca con la comunità|tema
+SI|5|28|Risultati: che cosa cambia e che cosa no|tema
+SI|5|29|Diffusione della ricerca: a chi si parla|tema
+SI|5|30|Progetto finale: analizzare la LIS con metodo scientifico|tema
+EL|1|1|Alfabeto|titolo
+EL|1|2|Pronuncia|titolo
+EL|1|3|Spiriti|titolo
+EL|1|4|Accenti|titolo
+EL|1|5|Sillabe|titolo
+EL|1|6|Articolo|tema
+EL|1|7|Prima declinazione|tema
+EL|1|8|Seconda declinazione|tema
+EL|1|9|Terza declinazione|tema
+EL|1|10|Aggettivi|tema
+EL|1|11|Pronomi|tema
+EL|1|12|Il verbo essere|tema
+EL|1|13|Presente|tema
+EL|1|14|Imperfetto|tema
+EL|1|15|Futuro|tema
+EL|1|16|Aoristo|tema
+EL|1|17|Perfetto|tema
+EL|1|18|Participio|tema
+EL|1|19|Infinito|tema
+EL|1|20|Preposizioni|tema
+EL|1|21|Casi|tema
+EL|1|22|Complementi|tema
+EL|1|23|Proposizioni|tema
+EL|1|24|Negazione|tema
+EL|1|25|Comparativi|tema
+EL|1|26|Superlativi|tema
+EL|1|27|Lessico fondamentale|tema
+EL|1|28|Frasi autentiche|tema
+EL|1|29|Primo testo|tema
+EL|1|30|Prima lettura autonoma|tema
+EL|2|1|Congiuntivo|tema
+EL|2|2|Ottativo|tema
+EL|2|3|Imperativo|tema
+EL|2|4|Medio|tema
+EL|2|5|Passivo|tema
+EL|2|6|Aoristo passivo|tema
+EL|2|7|Participio avanzato|tema
+EL|2|8|Infinitive|tema
+EL|2|9|Finali|tema
+EL|2|10|Consecutive|tema
+EL|2|11|Causali|tema
+EL|2|12|Temporali|tema
+EL|2|13|Relative|tema
+EL|2|14|Periodo ipotetico|tema
+EL|2|15|Genitivo assoluto|tema
+EL|2|16|Accusativo|tema
+EL|2|17|Sintassi dei casi|tema
+EL|2|18|Omero|tema
+EL|2|19|Erodoto|tema
+EL|2|20|Tucidide|tema
+EL|2|21|Platone|tema
+EL|2|22|Aristotele|tema
+EL|2|23|Sofocle|tema
+EL|2|24|Euripide|tema
+EL|2|25|Eschilo|tema
+EL|2|26|Vangelo e koinè|tema
+EL|2|27|Ellenismo|tema
+EL|2|28|Lessico filosofico|tema
+EL|2|29|Analisi filologica|tema
+EL|2|30|Lettura commentata|tema
+EL|3|1|Greco arcaico: la lingua di Omero e di Esiodo|tema
+EL|3|2|Greco omerico: formule e formule d'autorità|tema
+EL|3|3|Greco ionico e greco attico: due varietà distinte|tema
+EL|3|4|Greco dorico: che cosa distingue|tema
+EL|3|5|Fonologia storica greca: le trasformazioni del suono|tema
+EL|3|6|Aoristo e forme forti: la regola e la sua eccezione|tema
+EL|3|7|Morfologia storica: le tre famiglie di declinazione|tema
+EL|3|8|Il genitivo: una funzione che si moltiplica|tema
+EL|3|9|Sintassi della prosa attica: l'ordine delle parole|tema
+EL|3|10|La prosa eronica di Tucidide|tema
+EL|3|11|Metrica: la prima riforma metrica|tema
+EL|3|12|Metrica: il verso giambico e il dramma|tema
+EL|3|13|La retorica greca: tecniche e limiti|tema
+EL|3|14|Poesia e prosa: due registri della stessa lingua|tema
+EL|3|15|Koinè: la lingua della conquista|tema
+EL|3|16|Greco ellenistico: la lingua delle istituzioni|tema
+EL|3|17|Greco del Nuovo Testamento: la traduzione e le sue scelte|tema
+EL|3|18|Greco bizantino: la lingua di uno stato e di una chiesa|tema
+EL|3|19|Greco medievale: la varietà gotica|tema
+EL|3|20|La nascita del greco moderno|tema
+EL|3|21|Etimologia greca: derivare o ricostruire|tema
+EL|3|22|Lessico greco nelle lingue moderne|tema
+EL|3|23|Greco in Italia: perché si studia|tema
+EL|3|24|Papirologia: leggere un papiro greco|tema
+EL|3|25|Epigrafia greca: le iscritrizioni di Atene|tema
+EL|3|26|Paleografia greca: dalla maiuscola al corsivo|tema
+EL|3|27|Critica testuale greca: varianti e edizioni|tema
+EL|3|28|Confronto: greco e latino, due parenti e due destini|tema
+EL|3|29|Confronto: una parola greca in italiano, in latino, in inglese|tema
+EL|3|30|Progetto: commentare un passo di un testo autentico|tema
+EL|4|1|Greco classico e critica testuale: i problemi aperti|tema
+EL|4|2|I dialetti greci: il quadro complessivo|tema
+EL|4|3|Le famiglie di verbi greche|tema
+EL|4|4|Le tendenze della lingua greca antica|tema
+EL|4|5|Mutamento fonetico greco: perché certe forme si spengono|tema
+EL|4|6|Mutamento morfologico greco: le classi che si dissolvono|tema
+EL|4|7|Mutamento sintattico greco: l'ordine delle parole|tema
+EL|4|8|Mutamento semantico greco: gli slittamenti frequenti|tema
+EL|4|9|Morfologia storica greca: strati e livelli|tema
+EL|4|10|Fonologia storica greca: sistemi e anomalie|tema
+EL|4|11|Semantica storica: le famiglie di parole|tema
+EL|4|12|Filologia classica: scuola tedesca, italiana, francese|tema
+EL|4|13|Codicologia greca: i manoscritti di Atene e del mondo|tema
+EL|4|14|Il papiro come supporto: che cosa conserva e che cosa no|tema
+EL|4|15|Critica testuale: tradizione diretta e indiretta|tema
+EL|4|16|Apparato e stemma: gli strumenti|tema
+EL|4|17|Greco, ebraico e aramaico nel Nuovo Testamento|tema
+EL|4|18|Greco e latino cristiani: la polemica delle formule|tema
+EL|4|19|I Padri della Chiesa: come scrivono in greco|tema
+EL|4|20|Byzantion: la lingua come identità di stato|tema
+EL|4|21|Greco e culture: le lingue dell'impero|tema
+EL|4|22|Greco medievale e italiano: le parole che passano|tema
+EL|4|23|Corpus greco antico: che cosa contiene e che cosa manca|tema
+EL|4|24|Corpus greco medievale e moderno|tema
+EL|4|25|La linguistica greca contemporanea|tema
+EL|4|26|La questione della lingua in Grecia oggi|tema
+EL|4|27|Greco arcaico e greco moderno: continuità e fratture|tema
+EL|4|28|Etimologia greco-italiana: le famiglie di parole|tema
+EL|4|29|Progettare una ricerca su un corpus greco|tema
+EL|4|30|Seminario: un testo greco antico e uno moderno a confronto|tema
+EL|5|1|Filologia greca: il metodo e le sue varianti|tema
+EL|5|2|Critica testuale: il testo non è mai univoco|tema
+EL|5|3|Papirologia e paleografia: leggere un supporto e datarlo|tema
+EL|5|4|Greco biblico: la lingua del Nuovo Testamento|tema
+EL|5|5|Koinè e lingue cristiane|tema
+EL|5|6|Byzantino: il greco come lingua di Stato|tema
+EL|5|7|Medioevo greco: le varietà regionali|tema
+EL|5|8|Greco moderno: le radici antiche nel greco di oggi|tema
+EL|5|9|Fonologia del greco moderno|tema
+EL|5|10|Morfologia del greco moderno|tema
+EL|5|11|Sintassi del greco moderno: l'ordine delle parole|tema
+EL|5|12|La punteggiatura greca antica|tema
+EL|5|13|Segni diacritici: sistemi e funzioni|tema
+EL|5|14|Le fasi della lingua greca antica|tema
+EL|5|15|Toponimi greci: la geografia dei nomi|tema
+EL|5|16|Antropomastica greca|tema
+EL|5|17|Etimologia: la parola greca dentro la parola italiana|tema
+EL|5|18|Etimologia: la parola greca dentro la parola inglese|tema
+EL|5|19|Cognati greco-latino-italiano: le tre generazioni|tema
+EL|5|20|La scienza antica in greco: i lessici tecnici|tema
+EL|5|21|La filosofia antica in greco: il lessico dei concetti|tema
+EL|5|22|La retorica antica e le sue categorie|tema
+EL|5|23|Corpus e interrogazione: un milione di parole|tema
+EL|5|24|Concordanza e distribuzione|tema
+EL|5|25|Linguistica greca quantitativa|tema
+EL|5|26|Confronto finale: greco, latino, italiano, ferrarese|tema
+EL|5|27|Confronto finale: greco, inglese, lingua dei segni|tema
+EL|5|28|Una domanda di ricerca sul greco, e come si risponde|tema
+EL|5|29|Didattica del greco: perché si legge un testo senza traduzione|tema
+EL|5|30|Progetto finale: seguire una parola greca attraverso duemilacinquecento anni|tema
