@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — audit delle questioni aperte: la lista operativa
-versione: 0.2
+versione: 0.3
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte: lettura di tutti i quindici documenti di progetto, verificata da sorgenti/lingue/conta_questioni.py
-documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.1), videogioco-5-duchi-fonti-visive.md (v0.1), videogioco-5-duchi-furioso.md (v0.4), videogioco-5-duchi-luoghi.md (v0.3), videogioco-5-duchi-mappe.md (v0.4), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.1), videogioco-5-duchi-fonti-visive.md (v0.1), videogioco-5-duchi-furioso.md (v0.4), videogioco-5-duchi-luoghi.md (v0.3), videogioco-5-duchi-mappe.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
 ---
 
 # Audit delle questioni aperte: la lista
@@ -23,9 +23,9 @@ Il documento è verificato da `sorgenti/lingue/conta_questioni.py`, che confront
 |---|---|
 | Documenti con una sezione «Questioni aperte» | **15** |
 | Voci enumerate | **114** |
-| **Chiuse** | **22** |
-| **Aperte** | **92** |
-| Di cui bloccanti | cinque |
+| **Chiuse** | **23** |
+| **Aperte** | **91** |
+| Di cui bloccanti | quattro |
 | Di cui importanti (cambiano il gioco) | diciannove |
 | Di cui minori (si possono rimandare) | le altre |
 
@@ -33,13 +33,13 @@ Il documento è verificato da `sorgenti/lingue/conta_questioni.py`, che confront
 
 **Una voce non è sempre una domanda.** In `lingue.md` Q3 ci sono due sotto-voci dentro una sola domanda. Le **114 voci non sono 114 domande**.
 
-**Nessuna delle ventidue chiuse è bloccante**: le decisioni prese hanno tolto lavoro, non lo hanno aggiunto.
+**Nessuna delle ventitré chiuse è bloccante**, e una delle quattro bloccanti rimaste non è mai stata una domanda: era un lavoro, ed è stato fatto il 02/10/2026. Le decisioni prese hanno tolto lavoro, non lo hanno aggiunto.
 
 ---
 
-## 2. Le cinque bloccanti
+## 2. Le quattro bloccanti
 
-Sono le uniche che fermano qualcosa. Ognuna ha una scheda.
+Sono le uniche che fermano qualcosa, e sono le quattro che aspettano una **risposta**. Ognuna ha una scheda. La quinta, **B5**, era un lavoro e non una domanda: è in §2bis.
 
 ---
 
@@ -59,9 +59,34 @@ Sono le uniche che fermano qualcosa. Ognuna ha una scheda.
 
 `lingue-immagini.md` §6.2 Q1 · **pro**: guardarle è lavoro di ore, non di minuti; i candidati sono già tutti e hanno licenza libera. **contro**: nessuna è stata guardata; 67 su 146 sono a rischio (G7). **valutazione**: l'opzione realistica è **un campione** — i 146 migliori per voce — dichiarando che un campione non attesta il resto; le tre opzioni sono guardarle tutte, guardarle un campione, o non guardarle. **responsabilità**: io (l'IA) o Pietro; la decisione di *quanto* guardare è di Pietro. **blocca**: le tappe facoltative degli oggetti, e nient'altro.
 
-### B5 · I novanta pin degli anni 2, 3 e 4 sono verificati?
+### B5 · I novanta pin degli anni 2, 3 e 4 sono verificati? — **chiusa il 02/10/2026**
 
-`mappe.md` §10 · **pro**: il controllo esiste (`punto_in_poligono.py`), le coordinate sono già scritte a mano; è il controllo che vale più di qualunque altro. **contro**: non è una domanda, è un lavoro; non c'è contro, e per questo è l'unica bloccante che non aspetta nessuna decisione. **valutazione**: **va fatto subito, mentre si decide tutto il resto** — è l'unica delle cinque che non ha una risposta da aspettare. **responsabilità**: il progetto (l'IA), non Pietro. **blocca**: le tappe degli anni 2-4 che dicono «a Torino» senza averlo verificato.
+Non è più una bloccante: la scheda è in **§2bis**. Era l'unica delle cinque che non aspettava nessuna decisione, ed è l'unica che il progetto poteva chiudere da solo.
+
+---
+
+## 2bis. B5 chiusa: cosa è costato verificare i pin
+
+*(02/10/2026 — `sorgenti/gis/verifica_pin.py`, otto controlli, tutti superati; `mappe.md` §8bis)*
+
+Il numero dell'audit era giusto e la sua etichetta era sbagliata: i **novanta** non sono novanta pin distinti, sono novanta **slot di pin**, uno per tappa. Dietro ci sono 69 posti, e i posti che hanno coordinate sono 39.
+
+| | slot | posti |
+|---|---|---|
+| anni 2, 3 e 4 | 90 (30 per anno) | 69 |
+| con coordinate, verificati | **53** | **39** |
+| senza coordinate, tutti con stato dichiarato | 37 | 37 |
+
+**I due difetti che sono usciti** non sono nella tabella delle tappe e non si vedrebbero mai guardando i documenti: sono nella tabella delle coordinate.
+
+- **Baghdad**, 34 km a sud del proprio centro. La latitudine era `33.03333` invece di `33.31528`: una cifra. Il file lo dichiarava `verificata`, e lo era stato davvero — la fonte, l'articolo italiano di Wikipedia, riporta 33°02′ N. **Il dato era fedele alla fonte e la fonte era sbagliata**, e solo il confronto con un secondo file lo ha fatto vedere.
+- **Karakorum**, che cadeva in **Cina**. Il nome aveva risolto sull'articolo della catena montuosa, non su quello della città. La quota lo aveva già sospettato (8 128 m), e il punto-in-poligono dà la prova che mancava: la coordinata è dentro `CHN`.
+
+**Il caso che non è un difetto**, e che vale quanto i due difetti: **Costantinopoli** non cade in nessun Paese, a nessuna delle tre scale, perché il Corno d'Oro è stretto e la terra è a 1,4 km. Un controllo che avesse detto «in mare, errore» avrebbe fatto riscrivere una coordinata giusta. La soglia dei 3 km è dichiarata nel codice per questa ragione.
+
+**Che cosa resta**: nove pin non sono verificabili sull'unità amministrativa, perché il file amministrativo non copre quei Paesi. Non è un buco del gioco, è una copertura mancante di un file che si può scaricare.
+
+**La lezione, che è la stessa di tre volte**: questo progetto ha risolto **un titolo** invece di un luogo (Karakorum due volte, Castel del Monte una volta, Baghdad per la cifra). Il controllo automatico batte la lettura, e questa è la prima volta che lo si vede su un numero che qualcuno aveva firmato come verificato.
 
 ---
 
@@ -210,11 +235,11 @@ Le cinque bloccanti hanno una catena sola.
 
 **B2** (voci confermate) viene **prima** di **B4** (chi guarda le immagini): cercare le immagini prima di aver confermato le voci è lavoro da rifare. **B1** (livelli linguistici o informatici) decide quanti tipi di tappa esistono, e quindi decide se B4 ha senso come domanda.
 
-La catena è: **B1 → B2 → B4**. **B3** (la LIS) è indipendente e parte in parallelo, ed è la più lenta. **B5** (i novanta pin) non aspetta nessuna e va fatto adesso.
+La catena è: **B1 → B2 → B4**. **B3** (la LIS) è indipendente e parte in parallelo, ed è la più lenta. **B5** (i novanta pin) non aspettava nessuna e **è stata fatta il 02/10/2026**: otto controlli, due difetti corretti (§2bis).
 
-E la regola che segue, la sola che conta per il lavoro di oggi:
+E la regola che ne segue, che è quella che il lavoro ha reso vera:
 
-> **Mentre si decide, si verifica il pin.** Le altre quattro aspettano una risposta; quella no.
+> **Mentre si decide, si verifica il pin.** Le altre quattro aspettano una risposta; quella no — e non è una metafora: il controllo automatico ha trovato due coordinate sbagliate che nessuno aveva lette.
 
 ---
 
@@ -223,4 +248,5 @@ E la regola che segue, la sola che conta per il lavoro di oggi:
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|
 | 02/10/2026 | 0.1 | Prima stesura. Le dodici sezioni «Questioni aperte» allora esistenti, **96 voci**, 22 chiuse e 74 aperte, cinque bloccanti, e la catena delle dipendenze. |
+| 02/10/2026 | 0.3 | **B5 chiusa.** La verifica dei pin degli anni 2, 3 e 4 è fatta (`sorgenti/gis/verifica_pin.py`, otto controlli, tutti superati): 53 slot di pin con coordinate su 90, e **due difetti reali corretti** — Baghdad a 34 km dal proprio centro, Karakorum in Cina invece che in Mongolia. Il numero 90 era esatto ma era il numero degli **slot**, non dei pin distinti: dietro ci sono 69 posti. Il conto passa a **23 chiuse** e **91 aperte**, e le bloccanti da cinque a **quattro**. Aggiunta **§2bis**, che dice cosa è costato e che cosa resta (nove pin senza unità amministrativa, per copertura del file e non per difetto). Rimando a `mappe.md` aggiornato a v0.5. |
 | 02/10/2026 | 0.2 | La **lista operativa**. Il contatore è stato corretto perché vedeva tredici documenti su quindici e sbagliava il conto: ora sono **114 voci**, 22 chiuse e **92 aperte**, con i documenti nuovi (`lingue.md`, `lingue-immagini.md`, `percorsi.md`, `fonti-visive.md`) dentro. Ogni bloccante e ogni importante ha **pro, contro, valutazione e responsabilità**; le altre settantatre sono in sintesi con chi decide. Registrata una doppia domanda (`lingue.md` Q5 = `anno5-mondo.md`) e la catena B1 → B2 → B4. |

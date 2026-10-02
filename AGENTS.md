@@ -70,10 +70,11 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 **Mappe e dati geografici** (trasversale, vedi `mappe.md`)
 - **Il fondo geografico degli anni 2, 3 e 4 è in `dati/mappe/`**: 19 file tolti da Natural Earth (pubblico dominio) in tre scale — 110m mondo, 50m Europa, 10m penisola.
 - **I file di `dati/mappe/` NON sono JSON valido.** Sono in un formato a delta con quantizzazione, e si leggono **solo** con `sorgenti/gis/mappe_lettore.py`, che restituisce coordinate in gradi decimali. Non usare `json.load` su questi file.
-- **Prima di assegnare un pin a una tappa degli anni 2, 3 e 4, verificalo** con `sorgenti/gis/punto_in_poligono.py`: il pin deve cadere nel Paese e nell'unità amministrativa che il documento dichiara. Sono 90 coordinate scritte a mano e la verifica non è ancora stata fatta.
+- **I pin degli anni 2, 3 e 4 sono verificati** (02/10/2026, `sorgenti/gis/verifica_pin.py`, otto controlli): il pin deve cadere nel Paese e nell'unità amministrativa che il documento dichiara. I 90 sono **slot di pin**, uno per tappa, e i posti distinti sono 69. **Prima di aggiungere o cambiare un pin, rilancia il verificatore**: ha trovato due coordinate sbagliate che erano dichiarate `verificata` (Baghdad, Karakorum), perché risolvevano il titolo e non il luogo.
 - **Le altezze degli edifici non sono un dato disponibile**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Ogni edificio che ne usa una deve dichiarare la fonte (`lidar`, `osm`, `stimata`), come fanno i campi `attendibilita` e `manca` del registro dell'anno 4.
 - **OpenStreetMap è autorizzato dal 02/10/2026** (`mappe.md` §10 Q1, risolta): entra, i dati derivati viaggiano con ODbL e l'attribuzione «© OpenStreetMap contributors». **Non scaricare dati OSM per gli edifici senza dichiarare edificio per edificio da dove viene la sagoma e da dove viene l'altezza.**
-- Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio.
+- Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio. E poi **sempre** `verifica_pin.py` per i pin degli anni 2, 3 e 4: otto controlli.
+- **Per rimisurare quota e pendenza** usa `rilievo.py`; se Pillow non è installato, `rilievo_senza_pil.py` fa lo stesso con `zlib` e dà gli stessi numeri.
 
 **Luoghi e sagome** (trasversale, vedi `luoghi-edifici.md`)
 - **Ogni luogo ha un `tipo`** fra sette, e il tipo decide come si disegna: `citta`, `citta_antica`, `edificio`, `area`, `percorso`, `situazione`, `porta`. **`situazione` e `porta` non hanno coordinate e non si disegnano**: nel quinto anno la casella «Luogo (pin)» contiene una situazione (tappe 5-18, 5-22, 5-24…), e le porte `PT-*` sono uscite dal nodo, non strade.
@@ -134,8 +135,8 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I buchi geografici degli anni 2 e 3 sono continentali** (Sardegna, Inghilterra, Scozia, Portogallo, Balcani), non solo continentali: vanno trattati come facoltative (`luoghi.md` §4.7).
 
 **Questioni aperte** (trasversale, vedi `audit.md`)
-- **Tutte le questioni aperte stanno in `docs/videogioco-5-duchi-audit.md`.** Prima di aprire una discussione, guarda l'audit: è possibile che la domanda sia già chiusa in un altro documento, o che sia una delle cinque bloccanti e non si possa rispondere.
-- **Cinque bloccanti, e quattro sono la stessa**: `lingue.md` Q1 (livelli linguistici o informatici), Q2 (le trenta voci confermate), Q4 (la LIS), `lingue-immagini.md` Q1 (chi guarda le immagini), e `mappe.md` §10.5 (i novanta pin, che è un **lavoro** e non una domanda).
+- **Tutte le questioni aperte stanno in `docs/videogioco-5-duchi-audit.md`.** Prima di aprire una discussione, guarda l'audit: è possibile che la domanda sia già chiusa in un altro documento, o che sia una delle quattro bloccanti e non si possa rispondere.
+- **Quattro bloccanti, e tre sono la stessa**: `lingue.md` Q1 (livelli linguistici o informatici), Q2 (le trenta voci confermate), Q4 (la LIS), e `lingue-immagini.md` Q1 (chi guarda le immagini). La quinta, i novanta pin, **era un lavoro e non una domanda**: è fatta il 02/10/2026 (`mappe.md` §8bis, `audit.md` §2bis).
 - **Dal 02/10/2026 c'è anche `percorsi.md` Q1**, che non è bloccante ma è la decisione di progetto più importante aperta: se il percorso del duca è l'ordine delle tappe o un giro a parte.
 - **L'ordine è B1 → B2 → B4**: finché non si decide se le tappe sono 30 o 150 non ha senso scegliere le immagini, e finché non sono confermate le voci non ha senso scegliere le immagini.
 - **Una domanda nuova va aggiunta all'audit**, non lasciata in un documento. Se è chiusa, si sposta nel registro del documento suo e non si cancella.

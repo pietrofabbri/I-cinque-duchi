@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.4
+versione: 0.5
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
@@ -27,7 +27,7 @@ Sono due problemi diversi, con due fonti diverse, e la parte 2 ha una brutta not
 |---|---|
 | **Scaricate** | 42 livelli shapefile di **Natural Earth**, in tre scale (110m, 50m, 10m) |
 | **Prodotti** | 19 file di mappe in formato proprio, in `dati/mappe/`, per un totale di **1,4 MB** |
-| **Verifiche** | **57 controlli automatici, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`) |
+| **Verifiche** | **57 controlli automatici sulle mappe, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`), più **8 controlli sui pin degli anni 2, 3 e 4, tutti superati** (`sorgenti/gis/verifica_pin.py`, §8bis) |
 | **Licenza** | Natural Earth è **pubblico dominio**: nessun vincolo, nessuna attribuzione richiesta |
 | **Non è stato possibile** | il fondo delle tappe di dettaglio: vedi §5, e la ragione è tecnica, non di volontà |
 
@@ -236,7 +236,68 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 | nessun vertice fuori dal mondo, in tutti i 19 file | **conforme** |
 | **totale** | **57 su 57** |
 
-*(da fare)* Non è ancora verificato che **ogni pin delle 90 tappe degli anni 2, 3 e 4** cada nel Paese e nella regione che il documento dichiara. È il controllo più importante che resta, ed è possibile adesso che prima non lo era.
+*(fatto il 02/10/2026)* Il controllo sui pin è in §8bis: **53 slot di pin hanno coordinate e sono stati verificati tutti**, e ne sono usciti **due difetti reali**, corretti.
+
+---
+
+## 8bis. I pin degli anni 2, 3 e 4, verificati uno per uno
+
+*(fatto il 02/10/2026 — `sorgenti/gis/verifica_pin.py`, otto controlli, tutti superati)*
+
+È il controllo che §8 dichiarava mancante, e che l'audit chiamava **B5**: non una domanda, un lavoro.
+
+### Che cosa è stato verificato, e che cosa non
+
+Il numero «90» è **esatto**, ma non è il numero dei pin: è il numero degli **slot di pin**, uno per tappa. Le novanta tappe degli anni 2, 3 e 4 hanno novanta slot, e i novanta si dividono così:
+
+| | slot | posti distinti |
+|---|---|---|
+| tutti | **90** (30 per anno) | 69 |
+| con coordinate, e quindi verificabili | **53** (14 nel 2º anno, 26 nel 3º, 13 nel 4º) | 39 |
+| senza coordinate | 37 | 37 |
+
+I 37 senza coordinate hanno tutti uno stato dichiarato: 16 `non_e_un_luogo` (porte e situazioni, che per definizione non sono un luogo), 11 `da_geocodificare_a_mano` e 10 `da_geocodificare_wfs`. **Nessuno è un buco silenzioso**, ed è quello che il controllo 7 verifica: ogni pin con coordinate ha un Paese atteso dichiarato nella tabella del verificatore.
+
+### Gli otto controlli
+
+| # | Controllo | Soglia | Esito |
+|---|---|---|---|
+| 1 | nessun pin cade in mare | 3 km dalla terra | **1 su 1** (Costantinopoli, terra a 1,4 km) |
+| 2 | il pin cade nel Paese che il nome dichiara | — | **38 su 38** confrontabili |
+| 3 | il pin cade nell'unità amministrativa che il nome dichiara | — | **30 su 30** verificabili |
+| 4 | il pin è entro 30 km dal centro omonimo archiviato | 30 km | **14 su 14** |
+| 5 | nessuna coordinata duplicata fra due pin | — | **0** |
+| 6 | nessuna coordinata presa da un altro pin e scambiata | — | **0** |
+| 7 | ogni pin con coordinate ha un Paese atteso dichiarato | — | **0 mancanti** |
+| 8 | ogni difetto trovato è dichiarato nel file di luoghi | — | **0 non dichiarati** |
+
+### I due difetti trovati, e corretti
+
+**Baghdad, 34 km fuori.** La coordinata era `lat 33.03333`, cioè **33°02′ N**, che è quanto riporta l'articolo in italiano di Wikipedia. Il centro che i file delle città archiviano è a 33,34° N: il pin era **34,4 km a sud**. La cifra della latitudine era sbagliata di un intero grado — `33.03` invece di `33.32`. Corretto su `en.wikipedia` (33.31528 N 44.36611 E), che è la fonte che il progetto usa quando quella italiana non torna. Il pin è ora a **3,7 km** dal centro archiviato, che per una metropoli di otto milioni di abitanti è il centro.
+
+**Karakorum, nel Paese sbagliato.** Il nome aveva risolto sull'articolo «Karakorum», che è la **catena montuosa** fra Pakistan e Cina: la quota lo aveva già dichiarato sospetto (8 128 m, il K2) e il file lo marchiava `da_verificare`. Il controllo aggiunge la prova che mancava: la coordinata **cade dentro `CHN`** al punto-in-poligono. La capitale di Gengis Khan è in Mongolia, nella provincia dell'Övörkhangaj, a 47.1757 N 102.3338 E. Corretto sull'articolo giusto, «Karakorum (città)», e ora la verifica dice `MNG`.
+
+### Un terzo difetto che era nella tabella, non nei dati
+
+La prima stesura della tabella degli attesi scriveva, per **Castel del Monte**, la provincia dell'Aquila. Il controllo 3 ha detto che il pin cade in **Barletta-Andria-Trani**, che è Puglia, e la Puglia ha ragione: il castello federiciano è ad Andria, e l'omonima frazione abruzzese è un paese senza castello. **L'errore era nella mia attesa, non nel pin.** È il tipo di errore che vale la pena dichiarare, perché è la terza volta che questo progetto risolve un titolo invece di un luogo (Karakorum due volte, Castel del Monte una volta).
+
+### Costantinopoli: un caso che non è un difetto
+
+Il pin di Costantinopoli (41.01224, 28.97602) **non cade in nessun Paese**, a nessuna delle tre scale: è il Corno d'Oro, e il Bosforo è largo poco più di un chilometro. La terra più vicina è a 1,4 km, quindi il controllo 1 lo dichiara «sulla costa semplificata» e il controllo 2 lo esclude dal confronto sul Paese senza chiamarlo errore. **Se il pin fosse davvero in mare, il controllo 1 lo direbbe**: la soglia dei 3 km è dichiarata, e oltre i 12 km la misura non viene più fatta perché non ha senso.
+
+### Che cosa questo controllo non copre
+
+- **9 pin** non sono verificabili sull'unità amministrativa: Agra, Il Cairo, Karakorum, Qufu, Tenochtitlán e Xianyang sono fuori dall'Europa, dove il file amministrativo non arriva; Costantinopoli, Uruk e Westminster sono in Paesi che il file europeo contiene solo in parte. Non è un difetto dei pin: è **copertura mancante**, e il numero è dichiarato.
+- **Solo 14 pin su 39** hanno un confronto con il centro archiviato: i file delle città hanno 212 e 186 punti, che sono capitali e non un gazetteer. Per gli altri 25 la verifica è fatta sui poligoni, che è più debole ma non assente.
+- Il punto-in-poligono lavora su geometrie semplificate: **non prova che il pin sia sulla strada o dentro il muro**, prova che è nella giusta unità amministrativa.
+
+### Come si esegue
+
+```bash
+python3 sorgenti/gis/verifica_pin.py    # otto controlli, esce con 1 se qualcosa non torna
+```
+
+Il file ha anche `rilievo_senza_pil.py`, che misura quota e pendenza sui tasselli Terrarium **senza Pillow** (il PNG si decodifica con `zlib`, quarantacinque righe): serve perché `rilievo.py` va pure lui su questa macchina e senza `PIL` si ferma al primo tassello. I due file danno **numeri identici** su sette città già archiviate, e serve a rimisurare un punto senza reinstallare nulla.
 
 ---
 
@@ -246,7 +307,8 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 # rigenerare le mappe da capo (serve pyshp: pip install pyshp)
 python3 sorgenti/gis/scarica_ne.py        # scarica i 42 shapefile
 python3 sorgenti/gis/mappe_formato.py     # produce i 19 file in dati/mappe/
-python3 sorgenti/gis/verifica_mappe_numeriche.py   # 57 controlli
+python3 sorgenti/gis/verifica_mappe_numeriche.py   # 57 controlli sulle mappe
+python3 sorgenti/gis/verifica_pin.py               # 8 controlli sui pin degli anni 2, 3 e 4
 ```
 
 Il lettore si usa così:
@@ -271,14 +333,14 @@ for proprieta, anelli in geometrie:
 2. **Il vincolo di 20 000 abitanti per mostrare una città** (§4.2) è giusto? È una proposta, non una decisione, e cambia molto la quantità di nomi sulla mappa.
 3. **Le trenta zone percorribili** si fanno tutte, o solo dove il luogo è davvero lo spazio del gioco (§5.2)? La seconda ipotesi fa risparmiare mesi e il progetto funziona già così nell'anno 1.
 4. **Il file `europa_50_regioni_amministrative` è grosso** (450 kB, 1 687 geometrie). Va tenuto intero, o ridotto alle unità di primo livello, visto che molte tappe dell'anno 3 sono in capitali di Stato e non serve il dettaglio dei distretti?
-5. **I pin degli anni 2, 3 e 4** vanno verificati tutti? Sono 90 coordinate scritte a mano, e questa è la prima volta che si può farlo.
+5. ~~**I pin degli anni 2, 3 e 4**~~ **Risolto il 02/10/2026: verificati tutti.** Sono 90 slot di pin, di cui 53 con coordinate, e i 53 sono passati per otto controlli (`verifica_pin.py`, §8bis). Ne sono usciti **due difetti reali** — Baghdad 34 km fuori, Karakorum in Cina invece che in Mongolia — entrambi corretti e annotati nel file di luoghi, e un caso che non è un difetto (Costantinopoli, nel Corno d'Oro, a 1,4 km dalla terra). La domanda che resta, e che è più piccola: **i nove pin non verificabili sull'unità amministrativa** (§8bis) meritano il file amministrativo mondiale, o il controllo sui poligoni basta?
 
 ---
 
 ## 11. Cosa c'è da fare
 
 1. ~~**Decidere ODbL**~~ **fatto il 02/10/2026**: entra, e i sagomi si prendono da OSM dichiarandone la provenienza edificio per edificio (`luoghi-edifici.md` §1)
-2. **Verificare i 90 pin** degli anni 2, 3 e 4 contro i file archiviati: è il controllo che manca e che vale più di qualunque altro
+2. ~~**Verificare i 90 pin**~~ **fatto il 02/10/2026**: 8 controlli in `sorgenti/gis/verifica_pin.py`, 53 pin con coordinate verificati, 2 difetti corretti (§8bis). Rimane da fare solo la parte che il file amministrativo non copre
 3. **Convertire l'altitudine** (`geography_regions_elevation_points`): serve al quinto anno, dove la colonna degli strati è il tempo e la montagna è un dato
 4. **Costruire `dati/mappe/anno1_pin.json`**: i pin dell'anno 1 verificati con lo stesso metodo, così il metodo è provato su dati già noti
 5. **Decidere il formato degli edifici**: se si sceglie OSM, definire `dati/mappe/edifici.json` con i campi `forma`, `altezza`, `fonte_altezza` (`lidar`/`osm`/`stimata`), `livelli` — la regola di §5.1 scritta nei dati, non solo nel documento
@@ -298,6 +360,8 @@ for proprieta, anelli in geometrie:
   - **cinque questioni aperte**, la prima delle quali è la licenza ODbL, che è una decisione di Pietro e non può essere presa da una fonte.
 
 - **v0.4 (02/10/2026)**: rimandi di versione aggiornati agli anni 3, 4 e 5 e a `luoghi.md`, che sono saliti a v0.4, v0.5, v0.4 e v0.3 con le decisioni del 02/10/2026.
+- **v0.5 (02/10/2026)**: **la verifica dei pin degli anni 2, 3 e 4 è fatta**, ed è la sezione **§8bis**, nuova. Otto controlli in `sorgenti/gis/verifica_pin.py`, tutti superati, su **53 slot di pin con coordinate** dei 90 slot totali. Il numero 90 dell'audit è esatto ma è il numero degli **slot** (uno per tappa), non dei pin distinti: i posti sono 69 e i pin con coordinate sono 39. Risultato: **due difetti reali corretti** (Baghdad, 34 km a sud del centro per una cifra di latitudine sbagliata; Karakorum, che cadeva in Cina invece che in Mongolia, risolto sull'articolo giusto), **un errore nella tabella degli attesi** (Castel del Monte non è in Abruzzo) e **un caso che non è un difetto** (Costantinopoli cade nel Corno d'Oro, a 1,4 km dalla terra). Aggiunto `sorgenti/gis/rilievo_senza_pil.py`, che rimisura quota e pendenza senza Pillow e dà gli stessi numeri di `rilievo.py` su sette città archiviate. Corretti in `dati/luoghi_gioco.json` i record di Baghdad e Karakorum (coordinate, articolo, fonte, terreno rimisurato).
+
 - **v0.3 (02/10/2026)**: controllo di coerenza. Il rimando a `anno5-mondo.md` era fermo alla v0.1 (è alla v0.2) e quello a `luoghi.md` alla v0.1 (è alla v0.2). I due file citati che il documento non promette esistere — `dati/mappe/anno1_pin.json` e `dati/mappe/edifici.json` — restano quelli che sono, cioè roba **da costruire**: il controllo automatico li legge ora come «dichiarati come futuri» e non come smarriti.
 
 - **v0.2 (02/10/2026)**: la Q1 è risolta e il §5 è sbloccato.
