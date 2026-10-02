@@ -118,9 +118,17 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I 900 titoli sono in `sorgenti/lingue/`**, sei file di 150 righe, e ogni riga dichiara la sua provenienza: `titolo` (di Pietro) oppure `tema` (proposto). `titoli_livelli.txt` è un output, non un sorgente. Prima di usare un titolo, `python3 sorgenti/lingue/verifica_titoli.py` deve dare **0 problemi**.
 - **Non scrivere una lingua dei segni a tavolino**, e non raccogliere proverbi ferraresi senza la regola del consenso: entrambe le cose sono questioni aperte (`lingue.md` §7 Q3 e Q4).
 
+**Percorsi del duca** (trasversale, vedi `percorsi.md`)
+- **L'ordine dei numeri di tappa non è un ordine di viaggio.** I pin sono sparsi su un continente, e l'ordine degli argomenti li fa attraversare avanti e indietro: nell'anno 3 il percorso delle tappe è **18 318 km e 539 giorni** a cavallo, il giro che copre tutti i luoghi è **9 308 km e 275 giorni**. Non correggere i numeri di tappa per far quadrare il viaggio: sono due ordini diversi, e la proposta è tenerli separati (`percorsi.md` §3).
+- **I mezzi di trasporto sono per anno, e non si cambiano senza dichiararlo**: a piedi nel primo, cavallo e galera nel secondo e nel terzo, nave/carovana/diligenza nel quarto, treno e aereo nel quinto. Le velocità sono **stime dichiarate** (`percorsi_mezzi.py`), non date storiche, e ogni distanza è **in linea d'aria**: il cammino reale è più lungo.
+- **Nell'anno 4 il duca non viaggia**: all'archivio arriva un documento, e il mezzo che conta è quello di chi lo porta (`anno4-mondo.md` §3). Non disegnare il duca in viaggio nell'anno 4.
+- **Il ritorno è il momento degli incontri**: sulla strada del ritorno il duca non cerca niente e incontra, e lì si aprono le tappe facoltative con i personaggi nuovi (`percorsi.md` §4). Il ritorno non è un costo: è un dispositivo.
+- **I buchi geografici degli anni 2 e 3 sono continentali** (Sardegna, Inghilterra, Scozia, Portogallo, Balcani), non solo continentali: vanno trattati come facoltative (`luoghi.md` §4.7).
+
 **Questioni aperte** (trasversale, vedi `audit.md`)
 - **Tutte le questioni aperte stanno in `docs/videogioco-5-duchi-audit.md`.** Prima di aprire una discussione, guarda l'audit: è possibile che la domanda sia già chiusa in un altro documento, o che sia una delle cinque bloccanti e non si possa rispondere.
 - **Cinque bloccanti, e quattro sono la stessa**: `lingue.md` Q1 (livelli linguistici o informatici), Q2 (le trenta voci confermate), Q4 (la LIS), `lingue-immagini.md` Q1 (chi guarda le immagini), e `mappe.md` §10.5 (i novanta pin, che è un **lavoro** e non una domanda).
+- **Dal 02/10/2026 c'è anche `percorsi.md` Q1**, che non è bloccante ma è la decisione di progetto più importante aperta: se il percorso del duca è l'ordine delle tappe o un giro a parte.
 - **L'ordine è B1 → B2 → B4**: finché non si decide se le tappe sono 30 o 150 non ha senso scegliere le immagini, e finché non sono confermate le voci non ha senso scegliere le immagini.
 - **Una domanda nuova va aggiunta all'audit**, non lasciata in un documento. Se è chiusa, si sposta nel registro del documento suo e non si cancella.
 - **`conta_questioni.py` confronta il proprio conto con i numeri dell'audit**: se i due non concordano, è l'audit che ha torto. Non correggere il numero a mano senza far girare lo script.
