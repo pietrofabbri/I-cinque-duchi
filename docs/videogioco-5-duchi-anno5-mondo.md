@@ -1,11 +1,12 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno V, il mondo contemporaneo: il cantiere dell'Addizione Erculea e la carta della stima
-versione: 0.3
+versione: 0.4
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
+revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (le nove persone viventi erano sei: tre nomi senza stato); v0.3 (rimandi di versione); v0.4 (le sedici decisioni di Pietro del 02/10/2026: il giocatore è dentro il *Furioso* e la tabella delle tappe ha la colonna della stanza e del filone, i codici `Q` sono confermati, `F11` entra come facoltativa, e i buchi geografici degli anni 2-4 diventano facoltative continentali)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO V — IL MONDO CONTEMPORANEO, primo percorso" e "ANNO V — IL MONDO CONTEMPORANEO, secondo percorso"), 01/10/2026
-dati: videogioco-5-duchi-anno5-mondo.json e videogioco-5-duchi-anno5-personaggi.json e videogioco-5-duchi-anno5-stime.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 5-1…5-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.5 elenco dei livelli dell'anno 5), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, che questo documento applica ai propri pin), videogioco-5-duchi-anno4-mondo.md (v0.4, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno3-europa.md (v0.3), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
+dati: videogioco-5-duchi-anno5-mondo.json e videogioco-5-duchi-anno5-personaggi.json e videogioco-5-duchi-anno5-stime.json (da generare, v0.1); dati/furioso/citazioni.json (v3, le trenta citazioni del *Furioso* e la facoltativa `5-22F`); dati/luoghi_gioco.json (blocco `tappe`: i trenta pin e le trenta stanze)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 5-1…5-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.5 elenco dei livelli dell'anno 5), videogioco-5-duchi-luoghi.md (v0.3, la regola dei luoghi e i due strati), videogioco-5-duchi-furioso.md (v0.4, i filoni e le citazioni che questo documento applica alle trenta tappe), videogioco-5-duchi-anno4-mondo.md (v0.5, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno V — Il mondo contemporaneo
 
@@ -40,6 +41,7 @@ Come nell'anno precedente, il materiale arriva in **due documenti separati**:
 2. **Il quinto duca è Alfonso II d'Este, e il luogo è un cantiere.** Alfonso II è duca dal 1559 al 1597 e nel 1592 fa iniziare l'**Addizione Erculea**, l'ampliamento della città. Il livello 5-20 chiede di **progettare la rete di un edificio**, e il livello 5-10 di **validare un modello**: un duca che progetta una città con dei numeri è, senza cercarlo, la figura giusta per un anno che finisce con l'intelligenza artificiale. Il luogo percorribile è dunque **la tavola di progetto dell'ingegnere ducale** (§3.3).
 3. **La città non fu finita.** L'Addizione Erculea fu interrotta e completata solo in parte. È il simbolo dell'anno, e il gioco deve dirlo: **il percorso si chiude con un progetto incompiuto**, non con una conclusione.
 4. **Chi garantisce la verità?** È la domanda con cui il materiale chiude (§116), ed è la domanda del gioco: i livelli 5-26…5-28 sono imparare dai dati, reti neurali, IA generativa, bias e AI Act.
+5. **Il giocatore è dentro il *Orlando furioso*** (decisione di Pietro, 02/10/2026). Fin qui il quinto anno era un anno in cui il giocatore guardava il mondo reale dalla tavola di progetto; da oggi **la stanza in cui si svolge ogni tappa è quella di un racconto**, e il giocatore c'è dentro. Le due cose non si sostituiscono: il **pin** resta il luogo reale e verificato del personaggio (Chicago, Los Alamos, Rotterdam), e la **stanza** è il luogo del filone (la strada della fuga di Rinaldo, la Luna, il regno di Logistilla). È la **regola dei due strati**, e la sua conseguenza per la scena è in §4.2.
 
 ### 0.3 Quattro conseguenze da mettere in conto subito
 
@@ -179,6 +181,10 @@ La domanda a schermo intero, che è la conclusione del quinto anno, è quella de
 
 *(aggiunta — costruita sui 30 livelli dello schema, non il contrario)*
 
+**Colonna «Pin (dove siamo oggi)».** Il luogo reale e verificato del personaggio, quello su cui il gioco si ferma. Uno per tappa: se due tappe hanno lo stesso pin è un **ritorno**, e va detto al giocatore.
+
+**Colonna «Stanza (dove sta accadendo)».** *(aggiunta il 02/10/2026.)* Il luogo del **filone** del *Furioso* che porta la tappa, con il codice del filone (`F1`…`F12`), il canto e l'ottava della citazione, e il **tipo di legame** della stanza: `A` (là è successo qualcosa), `S` (quel luogo spiega qualcosa), `I` (luogo che non esiste), `N` (non luogo). Le due colonne non sono la stessa cosa e non si sostituiscono: il pin è vero, la stanza può essere una favola, e **il gioco deve dirlo**. La stanza senza coordinate è una cosa che il motore non può mettere sulla mappa, ed è perciò disegnata a mano (`videogioco-5-duchi-furioso.md` §2.2 e §6.2).
+
 **Colonna «Forza».** Come negli anni precedenti: **forte** il legame è naturale; **medio** funziona ma va costruito nel racconto; **di scena** il luogo fa solo da ambientazione.
 
 **Colonna «Confronto».** Il tema del secondo percorso su cui quella tappa si appoggia (§0.1).
@@ -187,38 +193,38 @@ La domanda a schermo intero, che è la conclusione del quinto anno, è quella de
 
 **Colonna «Stato».** `def` = persona defunta, `in formazione` = persona vivente, scheda con `stato: in formazione`, **solo emblema e nessuna affermazione di correttezza** (decisione di Pietro, 01/10/2026: §0.3 d).
 
-| Livello | Argomento | Strato | Pin | Voce | Porta | Domanda che apre la tappa | Forza | Confronto (percorso II) | Facoltativi (2) |
-|---|---|---|---|---|---|---|---|---|---|
-| **5-1** | Errori numerici e approssimazione | `S83` | Chicago | **Enrico Fermi** (Q301) | `PT-LAB` | Non sai la risposta: come fai a dare un numero che sia comunque giusto? | forte | §5 La scienza nella competizione mondiale | il problema di Fermi; il fisico teorico (facoltativa) |
-| **5-2** | Zeri di funzione: il metodo di bisezione | `S82` | Vienna | **Karl Popper** (Q302) | `PT-PAP` | Come si fa a trovare il punto esatto in cui un'idea si rompe? | forte | §35 La conoscenza non è neutra | Thomas Kuhn (facoltativa); Duhem e Quine (facoltativa) |
-| **5-3** | Il metodo di Newton ★ | `S80` | Londra | **Isaac Newton** (Q303) | `PT-PAP` | Partendo da un numero sbagliato, quante volte ci arrivo a quello giusto? | forte | §35 La conoscenza non è neutra | Eulero; Ostrowski (facoltativa) |
-| **5-4** | Aree sotto una curva: rettangoli e trapezi | `S85` | Bethesda | **Vera Rubin** (Q306) | `PT-LAB` | Non vedo metà dell'Universo: la calcolo dall'area sotto la curva? | forte | §5 La scienza nella competizione mondiale | Ford e Thonnard; de Sitter (facoltativa) |
-| **5-5** | Stimare π con il metodo Monte Carlo | `S83` | Los Alamos | **John von Neumann** (Q304) | `PT-PAP` | Come fa a darmi la costante dell'Universo un tiro casuale? | forte | §5 La scienza nella competizione mondiale | Stanislaw Ulam; Nicholas Metropolis (facoltative) |
-| **5-6** | Successioni e ricorrenze: approssimare √2 | `S80` | Babilonia | **Le mani che hanno approssimato √2** (Q305, collettivo `C`) | `PT-LAB` | Un numero con cui non si può fare niente di esatto e con cui si costruiva tutto: che cosa se ne fa? | medio | §61 Il quinto anno non deve insegnare il futuro | il regolo babilonese; i matematici arabi (facoltative) |
-| **5-7** | Simulazione a tempo discreto: il moto (Eulero) | `S86` | Londra | **James Lovelock** (Q307) | `PT-URB` | Tutto l'insieme cambia ogni volta e nessuno lo controlla: come lo si tiene in piedi? | forte | §22 La Terra come sistema | Margret Turner; i modelli climatici (collettivo) |
-| **5-8** | Oscillatori e attrito | `S83` | Bajkonur | **Sergej Korolëv** (Q308) | `PT-URB` | Un pezzo in orbita si calcola ogni secondo: che cosa succede se sbaglio due volte? | medio | §6 La corsa allo spazio | il programma spaziale (collettivo); Oktyabrskij (facoltativa) |
-| **5-9** | Modelli di popolazione e di ecosistema: SIR | `S81` | Londra, Broad Street | **John Snow** (Q309, *aggiunta*) | `PT-CIT` | Un numero di morti in una città: che cosa devo guardare per capire come si diffonde? | forte | §45 La pandemia | William Farr; le statistiche cittadine (facoltative) |
-| **5-10** | Prova di corte: validare un modello e confrontarlo con le fonti | `S87` | Stoccolma | **Hans Rosling** (Q310, *aggiunta*) | `PT-CIT` | Gli stessi dati raccontano due storie opposte: ho sbagliato i dati o l'asse? | forte | §42 L'informazione diventa sovrabbondante | Gapminder (collettivo); i revisori dei modelli (facoltativa) |
-| **5-11** | Confrontare un modello con i dati: minimi quadrati | `S88` | Princeton | **Fei-Fei Li** (Q311, *in formazione*) | `PT-PAP` | Un computer non ha visto niente: come gli dico che cosa deve guardare? | forte | §36 Chi può produrre conoscenza? | chi ha etichettato ImageNet (collettivo); Jia Deng (facoltativa) |
-| **5-12** | Automi a stati finiti | `S83` | Buenos Aires | **Jorge Luis Borges** (Q312) | `PT-URB` | Una biblioteca che contiene tutti i libri possibili, con un numero sbagliato ogni quattro righe | forte | §42 L'informazione diventa sovrabbondante | «Tlön, Uqbar, Orbis Tertius»; i bibliotecari (collettivo) |
-| **5-13** | La macchina di Turing | `S82` | Cambridge | **La macchina** (Q313, collettivo `C`) | `PT-MAT` | Un nastro, una testina, due stati: che cosa basta davvero a dire «sto pensando»? | forte | §8 Turing e la domanda sulle macchine | Alan Turing (ritorno dal 3-28); Alonzo Church (ritorno, 5-14) |
-| **5-14** | Calcolabilità: il problema della fermata | `S82` | Princeton | **Alonzo Church** (Q314, *aggiunta*) | `PT-PAP` | Esiste un programma che non si ferma mai: come fa uno a saperlo? | forte | §8 Turing e la domanda sulle macchine | Turing; il lambda calculus (facoltativa) |
-| **5-15** | Complessità: P e NP in modo intuitivo | `S89` | New York | **Yann LeCun** (Q315, *in formazione*) | `PT-PAP` | Funziona benissimo e non sappiamo spiegare perché: che cosa vuol dire «non sappiamo»? | forte | §35 La conoscenza non è neutra | Stephen Cook; Leslie Valiant (facoltative) |
-| **5-16** | Reti: tipi, topologie, commutazione | `S86` | Seattle | **Radia Perlman** (Q316) | `PT-CAB` | Due reti collegate da un cavo: che cosa succede se i messaggi girano in tondo? | forte | §27 Dalla macchina personale alla rete | Bob Kahn; i ponti (collettivo, facoltativa) |
-| **5-17** | Modelli a strati: ISO/OSI e TCP/IP | `S84` | Los Angeles | **Vint Cerf** (Q317) | `PT-CAB` | Due reti che parlano lingue diverse: come si fa senza obbligare nessuno a cambiare lingua? | forte | §27 Dalla macchina personale alla rete | Bob Kahn; Louis Pouzin (facoltative) |
-| **5-18** | Livello fisico e di collegamento: Ethernet, CRC | `S86` | una sala di riunione, 1983 | **Gli ingegneri delle reti** (Q318, collettivo `C`) | `PT-MAT` | Uno standard di collegamento scritto da ingegneri di sei paesi: chi decide che cosa è corretto? | medio | §27 Dalla macchina personale alla rete | Donald Davies (facoltativa, è al 5-19); Bob Kahn (facoltativa) |
-| **5-19** | Indirizzi IP e subnetting | `S84` | Londra | **Donald Davies** (Q319, *aggiunta*) | `PT-CAB` | Un numero che identifica un computer: che cosa succede quando i computer sono miliardi? | forte | §27 Dalla macchina personale alla rete | Peter Kirstein; la Cambridge Ring (facoltative) |
-| **5-20** | Prova di corte: progettare la rete di un edificio | `S80` | Ferrara | **Alfonso II d'Este** (Q320) | `PT-CIT` | Voglio un quartiere nuovo: quanti rubano, da dove arriva l'acqua, chi ci passa? | forte | §64 Il futuro non è scritto | Aleotti; i geometri ducali (facoltativa) |
-| **5-21** | Instradamento e grafi: Dijkstra | `S83` | Rotterdam | **Edsger Dijkstra** (Q321, *aggiunta*) | `PT-MAT` | Qual è il cammino più corto, se «corto» non è la stessa cosa per tutti? | forte | §58 Il futuro della politica | Bellman; Floyd (facoltative) |
-| **5-22** | TCP, UDP e porte | `S88` | un documento del 2008 | **Satoshi Nakamoto** (Q322) | `PT-MAT` | Come si ha ordine e affidabilità senza un'autorità che garantisca niente? | forte | §33 La finanza digitale | Vitalik Buterin; chi ha perso (facoltativa) |
-| **5-23** | Servizi di rete: DNS, HTTP, posta | `S86` | Ginevra | **Tim Berners-Lee** (Q323) | `PT-CAB` | Un indirizzo che non appartiene a nessuna persona: che cosa c'è, in fondo, a un numero? | forte | §28 Il problema dell'informazione | il CERN nel 1990; i primi browser (collettivo) |
-| **5-24** | Sicurezza in rete: crittografia asimmetrica | `S84` | un ufficio riservato, 1970 | **James Ellis** (Q324, *aggiunta*) | `PT-CAB` | Se lo so solo io e non lo dico a nessuno: la conoscenza esiste? | forte | §35 La conoscenza non è neutra | Diffie e Hellman; Rivest, Shamir, Adleman (facoltative) |
-| **5-25** | Prestazioni: banda, latenza, throughput | `S83` | Murray Hill, 1948 | **Claude Shannon** (Q325) | `PT-LAB` | Più banda non basta mai: che cosa la blocca? | forte | §9 Shannon e l'era dell'informazione | Norbert Wiener; von Neumann (ritorno, 5-5) |
-| **5-26** | Intelligenza artificiale: imparare dai dati | `S89` | Boston, 2018 | **Joy Buolamwini** (Q326, *in formazione*) | `PT-LAB` | Il riconoscimento funziona: solo che funziona peggio su certe facce. Che cosa correggo? | forte | §50 Ma l'algoritmo non è neutrale | Timnit Gebru (facoltativa, è al 5-28); chi ha costruito i dataset (collettivo) |
-| **5-27** | Reti neurali in modo intuitivo ★ | `S89` | Toronto, 2012 | **Geoffrey Hinton** (Q327, *in formazione*) | `PT-LAB` | Una riga di unità collegate a caso produce frasi: com'è che «funziona» vuol dire qualcosa? | forte | §48 L'intelligenza artificiale | Yann LeCun (ritorno, 5-15); Yoshua Bengio (facoltativa) |
-| **5-28** | IA generativa: limiti, etica, AI Act ★ | `S89` | Seattle, 2020 | **Timnit Gebru** (Q328, *in formazione*) | `PT-PAP` | Un sistema che funziona e che sbaglia certe persone: di chi è il documento che lo dice? | forte | §51 La macchina che decide | Margaret Mitchell; le schede dei dataset (facoltative) |
-| **5-29** | Informatica e metodo scientifico | `S89` | Londra, 2020 | **Demis Hassabis** (Q329, *in formazione*) | `PT-PAP` | Se la macchina propone e noi non capiamo il ragionamento: la scoperta è di chi? | forte | §49 L'AI entra nella scienza | Bruno Latour; AlphaFold (facoltativa) |
-| **5-30** | Prova finale: un progetto di simulazione completo | `S89` | Ferrara, sala di progetto | **Daniel Kahneman** (Q330) | `PT-FUT` | Il progetto è pronto e non so se è giusto: lo apro, e a chi affido i dati? | forte | §62 Il quinto anno non deve insegnare il futuro | Amos Tversky; chi scriverà nelle fasce bianche (facoltative) |
+| Livello | Argomento | Strato | Pin (dove siamo oggi) | Stanza (dove sta accadendo) | Voce | Porta | Domanda che apre la tappa | Forza | Confronto (percorso II) | Facoltativi |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **5-1** | Errori numerici e approssimazione | `S83` | Chicago | **la strada della fuga di Rinaldo** `F2` 1,32 · `A` | **Enrico Fermi** (Q301) | `PT-LAB` | Non sai la risposta: come fai a dare un numero che sia comunque giusto? | forte | §5 La scienza nella competizione mondiale | il problema di Fermi; il fisico teorico (facoltativa) |
+| **5-2** | Zeri di funzione: il metodo di bisezione | `S82` | Vienna | **il bosco dove Orlando perde il senno** `F3` 23,124 · `A` | **Karl Popper** (Q302) | `PT-PAP` | Come si fa a trovare il punto esatto in cui un'idea si rompe? | forte | §35 La conoscenza non è neutra | Thomas Kuhn (facoltativa); Duhem e Quine (facoltativa) |
+| **5-3** | Il metodo di Newton ★ | `S80` | Londra | **il bosco di Pontiero** `F9` 22,30 · `A` | **Isaac Newton** (Q303) | `PT-PAP` | Partendo da un numero sbagliato, quante volte ci arrivo a quello giusto? | forte | §35 La conoscenza non è neutra | Eulero; Ostrowski (facoltativa) |
+| **5-4** | Aree sotto una curva: rettangoli e trapezi | `S85` | Bethesda | **la Luna** `F9` 34,49 · `I` | **Vera Rubin** (Q306) | `PT-LAB` | Non vedo metà dell'Universo: la calcolo dall'area sotto la curva? | forte | §5 La scienza nella competizione mondiale | Ford e Thonnard; de Sitter (facoltativa) |
+| **5-5** | Stimare π con il metodo Monte Carlo | `S83` | Los Alamos | **la foresta dove passa Ferraú** `F2` 1,77 · `A` | **John von Neumann** (Q304) | `PT-PAP` | Come fa a darmi la costante dell'Universo un tiro casuale? | forte | §5 La scienza nella competizione mondiale | Stanislaw Ulam; Nicholas Metropolis (facoltative) |
+| **5-6** | Successioni e ricorrenze: approssimare √2 | `S80` | Babilonia | **la corte di Scozia** `F5` 5,23 · `A` | **Le mani che hanno approssimato √2** (Q305, collettivo `C`) | `PT-LAB` | Un numero con cui non si può fare niente di esatto e con cui si costruiva tutto: che cosa se ne fa? | medio | §61 Il quinto anno non deve insegnare il futuro | il regolo babilonese; i matematici arabi (facoltative) |
+| **5-7** | Simulazione a tempo discreto: il moto (Eulero) | `S86` | Londra | **il fossato di Sarza, sotto Parigi** `F1` 14,133 · `A` | **James Lovelock** (Q307) | `PT-URB` | Tutto l'insieme cambia ogni volta e nessuno lo controlla: come lo si tiene in piedi? | forte | §22 La Terra come sistema | Margret Turner; i modelli climatici (collettivo) |
+| **5-8** | Oscillatori e attrito | `S83` | Bajkonur | **l'aria sopra la foresta** `F9` 23,16 · `N` | **Sergej Korolëv** (Q308) | `PT-URB` | Un pezzo in orbita si calcola ogni secondo: che cosa succede se sbaglio due volte? | medio | §6 La corsa allo spazio | il programma spaziale (collettivo); Oktyabrskij (facoltativa) |
+| **5-9** | Modelli di popolazione e di ecosistema: SIR | `S81` | Londra, Broad Street | **la strada di Pontiero** `F5` 23,40 · `A` | **John Snow** (Q309, *aggiunta*) | `PT-CIT` | Un numero di morti in una città: che cosa devo guardare per capire come si diffonde? | forte | §45 La pandemia | William Farr; le statistiche cittadine (facoltative) |
+| **5-10** | Prova di corte: validare un modello e confrontarlo con le fonti | `S87` | Stoccolma | **il paese degli incantatori** `F6` 8,1 · `S` | **Hans Rosling** (Q310, *aggiunta*) | `PT-CIT` | Gli stessi dati raccontano due storie opposte: ho sbagliato i dati o l'asse? | forte | §42 L'informazione diventa sovrabbondante | Gapminder (collettivo); i revisori dei modelli (facoltativa) |
+| **5-11** | Confrontare un modello con i dati: minimi quadrati | `S88` | Princeton | **l'isola di Alcina** `F6` 6,35 · `I` | **Fei-Fei Li** (Q311, *in formazione*) | `PT-PAP` | Un computer non ha visto niente: come gli dico che cosa deve guardare? | forte | §36 Chi può produrre conoscenza? | chi ha etichettato ImageNet (collettivo); Jia Deng (facoltativa) |
+| **5-12** | Automi a stati finiti | `S83` | Buenos Aires | **il petron di Merlino** `F10` 11,4 · `S` | **Jorge Luis Borges** (Q312) | `PT-URB` | Una biblioteca che contiene tutti i libri possibili, con un numero sbagliato ogni quattro righe | forte | §42 L'informazione diventa sovrabbondante | «Tlön, Uqbar, Orbis Tertius»; i bibliotecari (collettivo) |
+| **5-13** | La macchina di Turing | `S82` | Cambridge | **la pagina** `F3` 1,2 · `S` | **La macchina** (Q313, collettivo `C`) | `PT-MAT` | Un nastro, una testina, due stati: che cosa basta davvero a dire «sto pensando»? | forte | §8 Turing e la domanda sulle macchine | Alan Turing (ritorno dal 3-28); Alonzo Church (ritorno, 5-14) |
+| **5-14** | Calcolabilità: il problema della fermata | `S82` | Princeton | **il campo** `F12` 32,102 · `S` | **Alonzo Church** (Q314, *aggiunta*) | `PT-PAP` | Esiste un programma che non si ferma mai: come fa uno a saperlo? | forte | §8 Turing e la domanda sulle macchine | Turing; il lambda calculus (facoltativa) |
+| **5-15** | Complessità: P e NP in modo intuitivo | `S89` | New York | **il castello d'Atlante** `F4` 4,30 · `I` | **Yann LeCun** (Q315, *in formazione*) | `PT-PAP` | Funziona benissimo e non sappiamo spiegare perché: che cosa vuol dire «non sappiamo»? | forte | §35 La conoscenza non è neutra | Stephen Cook; Leslie Valiant (facoltative) |
+| **5-16** | Reti: tipi, topologie, commutazione | `S86` | Seattle | **il ponte d'Erifilla sulla riviera** `F5` 7,2 · `A` | **Radia Perlman** (Q316) | `PT-CAB` | Due reti collegate da un cavo: che cosa succede se i messaggi girano in tondo? | forte | §27 Dalla macchina personale alla rete | Bob Kahn; i ponti (collettivo, facoltativa) |
+| **5-17** | Modelli a strati: ISO/OSI e TCP/IP | `S84` | Los Angeles | **i monti Rifei** `F4` 4,18 · `S` | **Vint Cerf** (Q317) | `PT-CAB` | Due reti che parlano lingue diverse: come si fa senza obbligare nessuno a cambiare lingua? | forte | §27 Dalla macchina personale alla rete | Bob Kahn; Louis Pouzin (facoltative) |
+| **5-18** | Livello fisico e di collegamento: Ethernet, CRC | `S86` | una sala di riunione, 1983 | **il libro di Turpino** `F12` 24,44 · `S` | **Gli ingegneri delle reti** (Q318, collettivo `C`) | `PT-MAT` | Uno standard di collegamento scritto da ingegneri di sei paesi: chi decide che cosa è corretto? | medio | §27 Dalla macchina personale alla rete | Donald Davies (facoltativa, è al 5-19); Bob Kahn (facoltativa) |
+| **5-19** | Indirizzi IP e subnetting | `S84` | Londra | **Montalbano** `F4` 30,93 · `S` | **Donald Davies** (Q319, *aggiunta*) | `PT-CAB` | Un numero che identifica un computer: che cosa succede quando i computer sono miliardi? | forte | §27 Dalla macchina personale alla rete | Peter Kirstein; la Cambridge Ring (facoltative) |
+| **5-20** | Prova di corte: progettare la rete di un edificio | `S80` | Ferrara | **Zibeltaro e l'Erculeo segno, cioè Ferrara** `F1` 16,37 · `A` | **Alfonso II d'Este** (Q320) | `PT-CIT` | Voglio un quartiere nuovo: quanti rubano, da dove arriva l'acqua, chi ci passa? | forte | §64 Il futuro non è scritto | Aleotti; i geometri ducali (facoltativa) |
+| **5-21** | Instradamento e grafi: Dijkstra | `S83` | Rotterdam | **la selva** `F2` 1,64 · `A` | **Edsger Dijkstra** (Q321, *aggiunta*) | `PT-MAT` | Qual è il cammino più corto, se «corto» non è la stessa cosa per tutti? | forte | §58 Il futuro della politica | Bellman; Floyd (facoltative) |
+| **5-22** | TCP, UDP e porte | `S88` | un documento del 2008 | **il campo davanti a Parigi** `F1` 1,9 · `A` | **Satoshi Nakamoto** (Q322) | `PT-MAT` | Come si ha ordine e affidabilità senza un'autorità che garantisca niente? | forte | §33 La finanza digitale | Vitalik Buterin; chi ha perso; **Ruggiero e la conversione `5-22F`** (canto XXV, 89: la promessa che aspetta una condizione) |
+| **5-23** | Servizi di rete: DNS, HTTP, posta | `S86` | Ginevra | **il regno di Logistilla** `F7` 6,45 · `I` | **Tim Berners-Lee** (Q323) | `PT-CAB` | Un indirizzo che non appartiene a nessuna persona: che cosa c'è, in fondo, a un numero? | forte | §28 Il problema dell'informazione | il CERN nel 1990; i primi browser (collettivo) |
+| **5-24** | Sicurezza in rete: crittografia asimmetrica | `S84` | un ufficio riservato, 1970 | **la corte di Scozia** `F5` 5,18 · `A` | **James Ellis** (Q324, *aggiunta*) | `PT-CAB` | Se lo so solo io e non lo dico a nessuno: la conoscenza esiste? | forte | §35 La conoscenza non è neutra | Diffie e Hellman; Rivest, Shamir, Adleman (facoltative) |
+| **5-25** | Prestazioni: banda, latenza, throughput | `S83` | Murray Hill, 1948 | **la strada del messaggero** `F12` 30,80 · `S` | **Claude Shannon** (Q325) | `PT-LAB` | Più banda non basta mai: che cosa la blocca? | forte | §9 Shannon e l'era dell'informazione | Norbert Wiener; von Neumann (ritorno, 5-5) |
+| **5-26** | Intelligenza artificiale: imparare dai dati | `S89` | Boston, 2018 | **il duello di Ginevra** `F5` 5,36 · `A` | **Joy Buolamwini** (Q326, *in formazione*) | `PT-LAB` | Il riconoscimento funziona: solo che funziona peggio su certe facce. Che cosa correggo? | forte | §50 Ma l'algoritmo non è neutrale | Timnit Gebru (facoltativa, è al 5-28); chi ha costruito i dataset (collettivo) |
+| **5-27** | Reti neurali in modo intuitivo ★ | `S89` | Toronto, 2012 | **la tomba di Merlino, nelle selve di Pontiero** `F8` 7,38 · `A` | **Geoffrey Hinton** (Q327, *in formazione*) | `PT-LAB` | Una riga di unità collegate a caso produce frasi: com'è che «funziona» vuol dire qualcosa? | forte | §48 L'intelligenza artificiale | Yann LeCun (ritorno, 5-15); Yoshua Bengio (facoltativa) |
+| **5-28** | IA generativa: limiti, etica, AI Act ★ | `S89` | Seattle, 2020 | **il luogo del pentimento** `F12` 30,2 · `S` | **Timnit Gebru** (Q328, *in formazione*) | `PT-PAP` | Un sistema che funziona e che sbaglia certe persone: di chi è il documento che lo dice? | forte | §51 La macchina che decide | Margaret Mitchell; le schede dei dataset (facoltative) |
+| **5-29** | Informatica e metodo scientifico | `S89` | Londra, 2020 | **la corte di Scozia** `F1` 12,12 · `A` | **Demis Hassabis** (Q329, *in formazione*) | `PT-PAP` | Se la macchina propone e noi non capiamo il ragionamento: la scoperta è di chi? | forte | §49 L'AI entra nella scienza | Bruno Latour; AlphaFold (facoltativa) |
+| **5-30** | Prova finale: un progetto di simulazione completo | `S89` | Ferrara, sala di progetto | **la prima pagina** `F3` 1,1 · `S` | **Daniel Kahneman** (Q330) | `PT-FUT` | Il progetto è pronto e non so se è giusto: lo apro, e a chi affido i dati? | forte | §62 Il quinto anno non deve insegnare il futuro | Amos Tversky; chi scriverà nelle fasce bianche (facoltative) |
 
 **Verifica degli agganci.** Dei 30 agganci: **27 forti, 3 medi, 0 di scena**. I **tre medi** sono 5-6 (la coda delle mani, le ricorrenze), 5-8 (Korolëv, gli oscillatori) e 5-18 (gli ingegneri delle reti, il livello fisico). I quattro **da rivedere con Pietro** perché l'aggancio è forse troppo ovvio: **5-5** (Monte Carlo e von Neumann), **5-12** (Borges e gli automi), **5-25** (Shannon e la capacità del canale) e **5-30** (Kahneman e la prova finale).
 
@@ -259,9 +265,35 @@ La domanda a schermo intero, che è la conclusione del quinto anno, è quella de
 
 ---
 
+### 4.2 Il giocatore è dentro il poema
+
+*(decisione di Pietro, 02/10/2026: il giocatore è **dentro** il *Furioso*; «i personaggi parlano di sé e della propria età, come negli anni 3-4»; «facciamo così nel modo migliore possibile».)*
+
+Negli anni 3 e 4 chi gioca è **il visitatore che attraversa**: arriva alla corte di Alfonso I, o all'archivio di Ercole II, e ogni personaggio che incontra gli fa la stessa domanda — *da quanto sono qui?* — perché il giocatore è di un'epoca che quelle persone non possono immaginare. Il quinto anno ha la stessa struttura e un mondo in più.
+
+**La scena, in pratica, è questa.** La stanza in cui si svolge la tappa è quella del filone: una strada del 1513, una grotta, un campo, la Luna. Il **pin** è sulla mappa ed è il luogo vero della persona (Chicago 1942, Los Alamos, Rotterdam). Sulla scheda del gioco le due cose stanno **una sopra l'altra**, e il giocatore le legge insieme:
+
+> **Pin:** Chicago, 1942 — Enrico Fermi, primo livello.
+> **Stanza:** *la strada della fuga di Rinaldo* — *Orlando furioso*, canto I, ottava 32.
+> «Il cavallo è sordo e corre. Non ha nessuno a cui chiedere scusa: ha la distanza, e la distanza cresce.»
+
+**Le tre regole che ne derivano, e sono le stesse degli anni 3-4.**
+
+1. **chi gioca dentro il *Furioso* non è un personaggio del *Furioso*.** Non ha nome nel testo, non viene ritratto, non vince niente e non muore. È la stessa posizione del visitatore degli anni precedenti, e la stessa garanzia: il personaggio del gioco non è il protagonista.
+2. **ogni personaggio parla di sé e della propria età.** Se l'anno sta a Ferrara nel 1592, ogni voce che entra chiede quanto siamo lontani da oggi; e se è una voce del Cinquecento, la risposta è di quattro secoli e non di quattro mesi. È la regola che trasforma la colonna degli strati in qualcosa che il ragazzo sente.
+3. **la domanda dell'anno ha due facce, e il gioco non sceglie.** Il **pin** dice *quanto siamo lontani da oggi* (Chicago 1942); la **stanza** dice *in che anno siamo* (1513). La domanda del livello sta nel mezzo, e le due risposte non si cancellano.
+
+**Perché questo rende l'anno migliore e non più confuso.** Il principio zero dell'anno è che *nessuno sapeva che cosa sarebbe successo dopo*. Fin qui la cosa restava un'affermazione; da qui è **un'esperienza**: il giocatore è in un racconto che sa già come va a finire, in un mondo di cui non sa ancora che cosa verrà, e deve lavorare con quello che ha. E la tappa 5-30 — le sei fasce bianche — non è più una conclusione: è il momento in cui il giocatore, dentro un libro finito, **scrive quello che il libro non dice**.
+
+**Che cosa il gioco dichiara, sempre, prima di aprire la stanza.** «Questa stanza è una storia, non un luogo reale.» Per i luoghi `I` e `N` la frase è più forte e va detta per intero: *qui non c'è niente da raggiungere*. Sono cinque tappe su trenta, e sono quelle che rendono credibili le altre venticinque.
+
+*(riferimenti: `videogioco-5-duchi-furioso.md` §2.2 (la regola dei due strati), §2.5 (la stessa regola vista dal lato del *Furioso*), §6.2 (come è scritta nei dati); `videogioco-5-duchi-luoghi.md` §4.5)*
+
+---
+
 ## 5. Le schede dei 30 personaggi obbligatori
 
-*(aggiunta — i codici `Q` continuano la serie degli anni precedenti da **Q301**; v. §13, Q4)*
+*(aggiunta — i codici `Q` sono **confermati** da Pietro il 02/10/2026: la serie è `Q101…Q130` per l'anno III, `Q201…Q230` per l'anno IV e **`Q301…Q330` per l'anno V**. Non c'è collisione: i due anni precedenti usano già le due serie minori, e i trenta codici di quest'anno non li toccano.)*
 
 **Due campi nuovi in quest'anno**, che riguardano l'anno e non la persona:
 
@@ -791,18 +823,28 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
 
 ## 13. Questioni aperte
 
-*(da decidere con Pietro)*
+*(aggiornato il 02/10/2026, dopo le risposte di Pietro. **Tre delle dieci sono chiuse**; le altre sette restano e sono elencate con la loro numerazione originale, perché cambiar i numeri delle questioni aperte rende impossibile a chi le ha lette sapere se una è stata risposta.)*
 
-1. **Il 1945 non è una tappa.** Le prime tre voci del percorso I sono Eleanor Roosevelt, René Cassin e Hersch Lauterpacht, e i livelli dell'anno cominciano dai numeri. Le opzioni: **(a)** tenere i trenta come sono e dichiarare il 1945 come **contesto** del primo percorso, non come tappa (è la mia proposta); **(b)** sostituire una tappa con una voce giuridica; **(c)** aprire il capitolo dell'anno con una **tappa zero** non numerata, che non conta nei trenta e presenta il dopoguerra come cornice. La (c) è la più bella e la più costosa
-2. **Il buco della biologia.** Il materiale dedica quindici voci a medicina, vaccini, antibiotici, DNA e genetica, e **nessun livello dell'anno 5 le copre**. È il buco più grosso fra materiale e schema. Le opzioni: tenere il buco e dirlo, o aggiungere facoltative forti che si aprano dai livelli vicini (5-4 e 5-26 sono i più adatti)
-3. **I facoltativi «che il gioco non può mettere in tabella».** Turing, Shannon, Wiener, Bardeen, Brattain, Shockley, Feynman, Oppenheimer sono nel materiale e non sono tappe. La mia proposta è che il gioco **dica loro esplicitamente perché** non sono obbligatori, altrimenti sembra un gioco che ha dimenticato i nomi importanti. Va deciso se questo diventa una schermata fissa o una voce di atlante
-4. **I codici `Q`.** Proposta: la serie continua con **Q201…Q230** → **Q301…Q330**. Alternativa: `R01…R30`. Va confermata una volta sola, perché da qui in poi la numerazione è nel repository
-5. **I quattro agganci da rivedere.** 5-5 (Monte Carlo e von Neumann), 5-12 (Borges e gli automi), 5-25 (Shannon e la capacità del canale) e 5-30 (Kahneman e la prova finale) sono forse **troppo** ovvii: il livello sembra fatto per la persona. Segnalo questi quattro; 5-1 (Fermi) e 5-23 (Berners-Lee) mi sembrano i più solidi
-6. **Il bilancio geografico.** Trenta tappe su trenta fuori dal Sud globale (§6.4). Va deciso se il capitolo lo dichiara al giocatore con una schermata o se resta una nota di progetto
-7. **La sesta tappa del `PT-FUT`.** La porta che non porta niente è la chiusa dell'anno. Va deciso se il giocatore può **scrivere** nelle fasce o solo guardarle: la prima opzione rende la consegna più forte, la seconda è più facile da valutare
-8. **Le previsioni con la data.** Il gioco conserva le previsioni del giocatore e le rilette fra dieci anni? Se sì, serve un formato che sopravviva a un cambio di piattaforma e a una consegna su Classroom. Se no, la previsione resta un esercizio di scrivere, che è comunque utile ma molto meno
-9. **Il quinto anno e l'anno 3.** Il terzo anno ha il vuoto del Novecento (§13 Q1 di `anno3-europa.md`). Il quinto anno, di fatto, **riempie** quel vuoto. Va deciso se l'anno 3 debba accennare al fatto che il Novecento arriva, o se resta una domanda aperta fino alla fine del percorso
-10. **Le fonti del materiale.** Come per gli anni II, III e IV, il materiale è ricco e non è stato consultato sistematicamente. Serve un abbozzo di bibliografia per i trenta obbligatori prima della stesura delle schede in `dati/`
+**Chiuse il 02/10/2026.**
+
+4. **I codici `Q`.** **Confermati**: `Q101…Q130` anno III, `Q201…Q230` anno IV, **`Q301…Q330` anno V**. La serie non collide e da qui in poi la numerazione è nel repository.
+6. **Chi è il protagonista.** **Il giocatore è dentro il *Furioso*** (§4.2): pin reale e stanza del filone sulla stessa scheda, e i personaggi parlano di sé e della propria età come negli anni 3-4.
+9. **Il quinto anno e l'anno 3.** L'anno 3 ha ripreso il Novecento dove poteva (Curie, Freud, Levi, Arendt: `anno3-europa.md` §4.2 e §13 Q1) e ha dichiarato il resto atlante; l'anno 5 non è più l'unico a coprirlo, e il rimando fra i due anni è dichiarato invece che lasciato implicito.
+
+**Aperte, e sono sette.**
+
+1. **Il 1945 non è una tappa.** Le prime tre voci del percorso I sono Eleanor Roosevelt, René Cassin e Hersch Lauterpacht, e i livelli dell'anno cominciano dai numeri. Le opzioni: **(a)** tenere i trenta come sono e dichiarare il 1945 come **contesto** del primo percorso, non come tappa; **(b)** sostituire una tappa con una voce giuridica; **(c)** aprire il capitolo dell'anno con una **tappa zero** non numerata. La (c) è la più bella e la più costosa
+2. **Il buco della biologia.** Il materiale dedica quindici voci a medicina, vaccini, antibiotici, DNA e genetica, e **nessun livello dell'anno 5 le copre**. Le opzioni: tenere il buco e dirlo, o aggiungere facoltative forti che si aprano dai livelli vicini (5-4 e 5-26 sono i più adatti)
+3. **I facoltativi «che il gioco non può mettere in tabella».** Turing, Shannon, Wiener, Bardeen, Brattain, Shockley, Feynman, Oppenheimer sono nel materiale e non sono tappe. La proposta è che il gioco **dica loro esplicitamente perché** non sono obbligatori. Va deciso se diventa una schermata fissa o una voce di atlante
+5. **I quattro agganci da rivedere.** 5-5 (Monte Carlo e von Neumann), 5-12 (Borges e gli automi), 5-25 (Shannon e la capacità del canale) e 5-30 (Kahneman e la prova finale) sono forse **troppo** ovvii. Segnalo questi quattro; 5-1 (Fermi) e 5-23 (Berners-Lee) mi sembrano i più solidi
+7. **La sesta tappa del `PT-FUT`.** La porta che non porta niente è la chiusa dell'anno. Va deciso se il giocatore può **scrivere** nelle fasce o solo guardarle
+8. **Le previsioni con la data.** Il gioco conserva le previsioni del giocatore e le rilette fra dieci anni? Se sì, serve un formato che sopravviva a un cambio di piattaforma. Se no, la previsione resta un esercizio di scrivere
+10. **Le fonti del materiale.** Serve un abbozzo di bibliografia per i trenta obbligatori prima della stesura delle schede in `dati/`
+
+**Le due nuove, che sono quelle che rendono il capitolo giocabile.**
+
+10bis. **La resa grafica delle stanze.** Quindici stanze su trenta non hanno coordinate e non possono essere disegnate come un pin: strade senza nome, grotte, campi, la Luna, un castello, un regno, e «l'aria sopra la foresta», che non è nemmeno un luogo. È il primo ostacolo alla giocabilità e riguarda `motore-e-grafica.md` e `mappe.md`, non questo capitolo (`furioso.md` §8, Q6.2).
+11. **Il posto di `F11` nel registro del gioco.** Il filone è dichiarato e ha una stanza facoltativa (`5-22F`), ma il giocatore ne vede tredici e il documento ne dichiara dodici. La proposta è che `F11` stia come **stanza aperta da una tappa** e non come filone per cui si viaggia, e che il gioco lo dica.
 
 ---
 
@@ -811,7 +853,7 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
 1. **Decidere Q1** (il 1945 non è una tappa) e **Q2** (il buco della biologia). Le altre scelte dipendono da queste
 2. **Verifiche storiche** (§12): **V1 e V2** (l'Addizione Erculea e la sua interruzione), **V8** (Broad Street, che è la verifica più sovracitata), **V21** (James Ellis, la più delicata) e **V25** (il caso Gebru, dove la distinzione fra documentato e ricostruito è decisiva) sono le cinque che cambiano una scheda se sbagliate
 3. **Revisione degli agganci forti** con Pietro (§13, Q5): 5-5, 5-12, 5-25, 5-30
-4. **Applicare la regola dei luoghi** (`luoghi.md` §1 e §5.3) a tutti i pin di questo documento: ogni pin dichiara il suo tipo di legame, e i **luoghi fantastici** — se e quando Q1 di `luoghi.md` verrà decisa nella direzione «atlante e finale» — sono gli unici senza coordinate
+4. **Applicare la regola dei luoghi** (`luoghi.md` §1 e §5.3) a tutti i pin di questo documento: ogni pin dichiara il suo tipo di legame (`B/A/S/I/C`), e i **luoghi fantastici e i non luoghi** delle stanze sono gli unici senza coordinate. La Q1 è chiusa: i pin sono quelli che sono, e le stanze sono quelle del filone (`luoghi.md` §4.5)
 5. **Aggiornare `AGENTS.md`** §3 con la sezione «Anno 5» (il luogo è una sala di progetto; l'unità di gioco è il calcolo; il numero è sempre accompagnato dall'errore) e con la sezione trasversale «La regola dei luoghi»
 6. **Generare i dati** in `dati/`:
    - `videogioco-5-duchi-anno5-mondo.json`: 30 tappe con livello, argomento, strato, pin, porta, funzione del personaggio, forza, confronto (voce del percorso II), rimando, facoltativi;
@@ -820,12 +862,23 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
    - `videogioco-5-duchi-anno5-stime.json`: **i campi della carta delle stime** (§7.2) e le sei fasce bianche, che è il deliverable dell'anno e va progettato per primo
 7. **Prima tappa completa** (5-1, Fermi a Chicago), sul modello di `videogioco-5-duchi-tappa-1-01.md`, con l'ingresso della misura da `PT-LAB`, il commento di Alfonso II e la prima riga della carta delle stime con **due numeri**
 8. **Aggiornare `README.md`**: tabella dei documenti e «da fare» — fatto in v0.1 di questo documento, da rifare quando il capitolo sarà completo
+9. **Il disegno delle quindici stanze senza coordinate** (§13, 10bis): strade senza nome, grotte, campi, la Luna, il regno di Logistilla e «l'aria sopra la foresta». È il primo ostacolo alla giocabilità del quinto anno, e non si risolve in questo documento
+10. **La stanza `5-22F` e la sua apertura dalla 5-22**: il codice, la porta e il momento in cui il gioco la propone. Una facoltativa che il giocatore non trova è una voce sprecata
 
 ---
 
 ## 15. Registro modifiche
 
-- **v0.3 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4). Nota per chi legge `furioso.md`: questo documento **non** contiene ancora la stanza del filone — il *pin* reale e la *stanza* sono due cose, e qui si tiene solo il *pin* (vedi `furioso.md` §6.2 e `luoghi.md` §5.1): la colonna del filone è la prossima cosa da aggiungere qui, e sta nella lista delle cose da fare.
+- **v0.4 (02/10/2026)**: le sedici decisioni di Pietro applicate. La modifica che conta è una: **la tabella delle trenta tappe ha una colonna in più, e non è una colonna decorativa**.
+  - **la tabella ha la colonna «Stanza (dove sta accadendo)»** accanto al pin, con il luogo del filone, il codice del filone, il canto, l'ottava e il tipo di legame della stanza. Le trenta righe sono state riempite dai dati (`dati/furioso/citazioni.json`), non a mano: una tabella copiata a mano è una tabella che un giorno dirà una cosa diversa dal file;
+  - **nasce §4.2, «Il giocatore è dentro il poema»**: pin e stanza sulla stessa scheda, i personaggi che parlano di sé e della propria età come negli anni 3-4, la regola che **chi gioca dentro il *Furioso* non è un personaggio del *Furioso***, e la frase che il gioco deve dire prima di aprire ogni stanza;
+  - **§0.2 ha una quinta decisione**: il giocatore è dentro il racconto;
+  - **`F11` entra come facoltativa `5-22F`** dalla tappa 5-22 (canto XXV, 89), con la definizione di facoltativa che vale per tutto il progetto (`furioso.md` §3, `luoghi.md` §4.7);
+  - **i codici `Q` sono confermati** (`Q301…Q330`, senza collisione con `Q101…Q130` e `Q201…Q230`), e la nota sotto il §5 che li dichiarava ancora da decidere è diventata una dichiarazione;
+  - **tre questioni su dieci sono chiuse** (i codici, il protagonista, il rapporto con l'anno 3) e **due nuove sono nate**: il disegno delle stanze senza coordinate e il posto di `F11` nel registro;
+  - il §13 conserva la numerazione originale delle questioni aperte, anche di quelle chiuse: cambiar i numeri renderebbe impossibile a chi le ha letto sapere se una è stata risposta.
+
+- **v0.3 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4). Nota per chi legge `furioso.md`: questo documento **non** contiene ancora la stanza del filone — il *pin* reale e la *stanza* sono due cose, e qui si tiene solo il *pin* (vedi `furioso.md` §6.2 e `luoghi.md` §5.1): la colonna del filone è la prossima cosa da aggiungere qui, e sta nella lista delle cose da fare. *(La nota vale per la v0.3; nella v0.4 la colonna c'è.)*
 
 - **v0.2 (01/10/2026)**: corregge il numero di persone viventi: era **sei**, è **nove**. Le tre schede marcate `in formazione` (Fei-Fei Li, LeCun, Buolamwini, Hinton, Gebru, Hassabis) erano giuste, ma nell'anno ci sono anche Radia Perlman (5-16), Vint Cerf (5-17) e Tim Berners-Lee (5-23), che sono viventi e avevano la scheda senza dichiararlo nell'elenco del §0.3 e nella tabella dei temi sensibili. Le tre voci ricevono la dicitura «vivente, `in formazione`» nel catalogo del §6.5. La conseguenza non è cosmetica: **un personaggio senza `Stato` è indistinto da uno defunto**, ed è la regola che vieta il ritratto inventato. Il difetto è emerso costruendo l'elenco dei 213 personaggi per le immagini.
 

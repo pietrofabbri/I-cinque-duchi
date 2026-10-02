@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.3
+versione: 0.4
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
 dati: dati/mappe/*.json (19 file, prodotti il 01/10/2026 da Natural Earth con `sorgenti/gis/mappe_formato.py`)
-documenti collegati: videogioco-5-duchi-motore-e-grafica.md (v0.1, la pipeline che questi dati alimentano), videogioco-5-duchi-luoghi.md (v0.2, la regola che decide *quali* luoghi servono), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.3), videogioco-5-duchi-anno4-mondo.md (v0.4), videogioco-5-duchi-anno5-mondo.md (v0.3), FONTI-E-LICENZE.md, AGENTS.md
+documenti collegati: videogioco-5-duchi-motore-e-grafica.md (v0.1, la pipeline che questi dati alimentano), videogioco-5-duchi-luoghi.md (v0.3, la regola che decide *quali* luoghi servono), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), FONTI-E-LICENZE.md, AGENTS.md
 ---
 
 # Le mappe
@@ -297,6 +297,7 @@ for proprieta, anelli in geometrie:
   - la proposta del **vincolo dei 20 000 abitanti** per decidere che cosa si può attraversare senza fermarsi;
   - **cinque questioni aperte**, la prima delle quali è la licenza ODbL, che è una decisione di Pietro e non può essere presa da una fonte.
 
+- **v0.4 (02/10/2026)**: rimandi di versione aggiornati agli anni 3, 4 e 5 e a `luoghi.md`, che sono saliti a v0.4, v0.5, v0.4 e v0.3 con le decisioni del 02/10/2026.
 - **v0.3 (02/10/2026)**: controllo di coerenza. Il rimando a `anno5-mondo.md` era fermo alla v0.1 (è alla v0.2) e quello a `luoghi.md` alla v0.1 (è alla v0.2). I due file citati che il documento non promette esistere — `dati/mappe/anno1_pin.json` e `dati/mappe/edifici.json` — restano quelli che sono, cioè roba **da costruire**: il controllo automatico li legge ora come «dichiarati come futuri» e non come smarriti.
 
 - **v0.2 (02/10/2026)**: la Q1 è risolta e il §5 è sbloccato.

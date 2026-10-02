@@ -1,11 +1,14 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno III, i personaggi d'Europa: la corte di Ferrara e la carta a strati
-versione: 0.3
+versione: 0.4
+data: 2026-10-02
+autore: Pietro Fabbri (con Claude)
+revisioni: v0.1 (prima stesione dell'01/10/2026); v0.2 (correzione di un errore di calcolo sulla morte di Alfonso I); v0.3 (rimandi di versione); v0.4 (le sedici decisioni di Pietro del 02/10/2026: il vuoto del Novecento è risolto con (d)+(b), una sostituzione e un atlante di tredici voci; i codici `Q` sono confermati; le tre facoltative continentali dell'Europa centro-orientale, nordica e balcanica sono assegnate)
 data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO III — I PERSONAGGI D'EUROPA" e "ANNO III — L'EUROPA ATTRAVERSO I SECOLI"), 01/10/2026
 dati: videogioco-5-duchi-anno3-europa.json e videogioco-5-duchi-anno3-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 3-1…3-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.3 elenco dei livelli dell'anno 3), videogioco-5-duchi-anno2-penisola.md (v0.1, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 3-1…3-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.3 elenco dei livelli dell'anno 3), videogioco-5-duchi-luoghi.md (v0.3, §4.7 i buchi geografici come facoltative continentali), videogioco-5-duchi-anno5-mondo.md (v0.4, che riprende il Novecento che qui era un vuoto), videogioco-5-duchi-anno2-penisola.md (v0.2, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno III — I personaggi d'Europa
 
@@ -30,7 +33,24 @@ Come per l'Anno II:
 
 **(a) La seconda decisione cambia una regola di `AGENTS.md`.** La regola vigente è: «**Borso d'Este è il personaggio giocante**», e per l'Anno II «**Ercole è il protagonista giocante, come Borso**». Con Alfonso in veste di *guida*, il terzo anno **non** ha un personaggio giocante. È una decisione coerente con il materiale di Pietro e va rispettata, ma va resa esplicita nelle convenzioni: `AGENTS.md` §3 «Anno 1» va corretto, perché da quest'anno in poi vale «il duca è la guida; chi gioca attraversa» (v. §7).
 
-**(b) La seconda decisione ha un costo, ed è il problema più serio di questo documento.** I livelli dell'anno 3 riguardano la **rappresentazione e la sua trasmissione**: formati, compressione, audio, font, markup, XML, HTML, CSS, JavaScript, pubblicazione. Di conseguenza gli agganci più forti stanno **dove la scrittura e l'immagine si moltiplicano**, cioè fra il XV e il XVI secolo: è lì che il percorso si addensa. Nei 30 livelli, **14 tappe stanno fra il 1400 e il 1560**, **2 sole tappe coprono il 1789–1945** (3-27, 3-28) e **nessuna copre il 1945 a oggi**. Il salto di secoli che il materiale di Pietro chiama «l'Europa divisa» e «l'Europa contemporanea» resta quindi, per ora, **fuori dal percorso giocabile**. La questione è la prima di §13 e va decisa prima di costruire le schede.
+**(b) La seconda decisione ha un costo, ed è il problema più serio di questo documento.** I livelli dell'anno 3 riguardano la **rappresentazione e la sua trasmissione**: formati, compressione, audio, font, markup, XML, HTML, CSS, JavaScript, pubblicazione. Di conseguenza gli agganci più forti stanno **dove la scrittura e l'immagine si moltiplicano**, cioè fra il XV e il XVI secolo: è lì che il percorso si addensa. Nei 30 livelli, **14 tappe stanno fra il 1400 e il 1560**, **2 sole tappe coprono il 1789–1945** (3-27, 3-28) e **nessuna copre il 1945 a oggi**. Il salto di secoli che il materiale di Pietro chiama «l'Europa divisa» e «l'Europa contemporanea» resta quindi, per ora, **fuori dal percorso giocabile**. La questione è la prima di §13 ed è stata risolta il 02/10/2026: **§4.2**, con una sostituzione e un atlante.
+
+### 0.3 Il vuoto del Novecento, risolto il 02/10/2026
+
+*(decisione di Pietro: «A favore di (d)+(b): si recupera il Novecento dove si può (Curie, Freud, Levi, Arendt) senza snaturare l'anno, il resto in atlante».)*
+
+La Q1 di §13 offriva quattro strade. La scelta è **(d)+(b)**, e la sua applicazione è meno diretta della proposta perché **la condizione che Pietro ha posto — «senza snaturare l'anno» — è vera esattamente sui quattro livelli candidati**. Il bilancio:
+
+| livello candidato | argomento | perché non si può sostituire senza snaturare l'anno |
+|---|---|---|
+| **3-24** | SVG, la grafica vettoriale come testo | il livello è nato da Dürer: le *Proportionen* sono costruzioni geometriche del corpo, e l'aggancio è documentato e verificato |
+| **3-26** | impaginazione e design responsive | il livello è nato da Caxton: lo stesso testo in due formati per due destinatari, che è la domanda esatta del livello |
+| **3-28** | JavaScript, la pagina che reagisce | **è già nel Novecento** (`S43`, Manchester, 1936): non c'è vuoto da colmare, c'è una voce sola in un periodo intero |
+| **3-30** | prova finale, il sito della corte | è la voce obbligatoria dichiarata in `luoghi.md` §3.1 (voce 13) e il pin è Mantova: toglierla smonta la fine dell'anno |
+
+Quindi **(d) si applica a una tappa su trenta, non a tre**: la **3-28**, che passa da Alan Turing a **Primo Levi**, con **Turing che diventa la facoltativa forte** che la casella della tabella già prevedeva. E **(b) si applica al resto**: un **atlante del Novecento** (§4.2) con tredici voci, quattro delle quali sono i nomi che Pietro ha indicati, ciascuna con il proprio posto, la propria parte informatica e il livello da cui si apre.
+
+**Le cifre, prima e dopo.** Tappe che coprono il Novecento: era **una** (3-28), è **una** (3-28, con una voce nuova); agganci forti: era **21 su 30**, è **21 su 30** (Levi sostituisce Turing, entrambi forti); persone che il giocatore può incontrare nel Novecento: era **tre** (Turing 1936, von der Leyen, Merkel), sono **sedici** (le tredici dell'atlante più i tre precedenti). Il buco non è chiuso: è **dichiarato, spostato e percorribile**, che è la terza delle tre cose che questo progetto sa fare con un buco.
 
 ---
 
@@ -90,7 +110,7 @@ Lo strato dice l'epoca; il pin dice il posto. Sono due informazioni diverse, ed 
 | `S43` | Ottocento e Novecento | 1815 – 1945 | 3-28 |
 | `S44` | Guerra fredda ed Europa unita | 1945 – oggi | — |
 
-*(aggiunta)* Gli strati `S30` e `S44` **non hanno tappe obbligatorie**. `S30` è rappresentato da una visione facoltativa (Ötzi, che è già la tappa 2-1 dell'Anno II: v. §6.4). `S44` è il vuoto di cui parla il §0.2 e che è la prima questione aperta (§13, Q1).
+*(aggiunta)* Gli strati `S30` e `S44` **non hanno tappe obbligatorie**. `S30` è rappresentato da una visione facoltativa (Ötzi, che è già la tappa 2-1 dell'Anno II: v. §6.4). `S44` (dal 1945 a oggi) è il vuoto di cui parla il §0.3: **resta senza tappa obbligatoria** ed è coperto dall'**atlante del Novecento** (§4.2), che ne conta cinque voci. È la scelta (b) della Q1, ed è dichiarata come scelta: un vuoto dichiarato che il giocatore può aprire è meglio di una tappa stirata per riempirlo.
 
 **Vincoli sugli strati.** Come nell'Anno II, **nessun vincolo di monotonia**: il percorso scende e risale continuamente la colonna (3-1 è in `S32`, 3-4 in `S31`, 3-10 in `S39`, 3-27 in `S42`, 3-30 in `S39`). Le regole che valgono sono: ogni tappa dichiara il proprio strato; un luogo può comparire più volte purché cambi la voce; la nebbia dipende dal **pin visitato**, non dallo strato.
 
@@ -128,7 +148,7 @@ Come nell'Anno II, i personaggi che agiscono **fuori dalla penisola** e fuori da
 |---|---|---|
 | `PT-ATN` | Il salone delle ambascerie | Alessandro Magno (3-9), Belisario (3-7) |
 | `PT-AXD` | La zona dei fonditori | Alboino (3-9) |
-| `PT-SYN` | La cancelleria, dove si scrive | Alcuino (3-12), Dürer (3-24), Turing (3-28) |
+| `PT-SYN` | La cancelleria, dove si scrive | Alcuino (3-12), Dürer (3-24), Levi (3-28) |
 | `PT-PAR` | Il gabinetto delle opere | Isabella d'Este (3-30), Cervantes (3-18) |
 | `PT-STR` | Il magazzino dei libri | Manuzio (3-25), Caxton (3-26), i tipografi (3-29) |
 
@@ -192,7 +212,7 @@ La domanda che il gioco pone a schermo intero, e che è la conclusione del terzo
 | **3-25** | CSS: selettori, box model, colori | `S38` | Venezia | **Aldo Manuzio** (Q125, *aggiunta*) | Il testo è uno, e la sua cura ne fa cento: si può cambiare l'aspetto senza cambiare le parole? | medio | «A Westminster, un altro stampatore porta la stampa in un'altra lingua.» | Francesco Griffo; i caratterai |
 | **3-26** | Impaginazione e design responsive | `S39` | Westminster | **William Caxton** (Q126, *aggiunta*) | Un libro deve stare in tasca o sul pulpito: cambiano le dimensioni, non il testo? | forte | «Il Giappone. E l'America. Due risposte diverse alla stessa domanda.» | Caxton; i miniatori |
 | **3-27** | Progettazione web: usabilità e accessibilità | `S42` | Parigi | **Olympe de Gouges** (Q127) | Se una società dichiara diritti universali, chi resta fuori dalla porta? | forte | «A Manchester, nel 1824, un altro scrutinio di chi conta e chi non conta.» | Wollstonecraft; Robespierre |
-| **3-28** | JavaScript di base: la pagina che reagisce | `S43` | Manchester | **Alan Turing** (Q128, *aggiunta*) | Una macchina che capisce le istruzioni: come si sa che ha capito bene? | forte | «Torniamo alla corte. Tutto quello che è arrivato oggi va in un archivio.» | Ada Lovelace; i matematici di Cambridge |
+| **3-28** | JavaScript di base: la pagina che reagisce | `S43` | Torino | **Primo Levi** (Q128, *aggiunta*, 02/10/2026) | Una macchina che capisce le istruzioni: come si sa che ha capito bene? E un testimone che dice di aver visto: come si sa? | forte | «Torniamo alla corte. Tutto quello che è arrivato oggi va in un archivio.» | **Alan Turing (facoltativa forte, era la voce obbligatoria); Ada Lovelace; i matematici di Cambridge** |
 | **3-29** | Pubblicare un sito; licenze e diritto d'autore | `S38` | Roma, Curia | **I tipografi e i privilegi** (Q129, collettivo `C`) | Chi può stampare, chi può leggere, e di chi è il testo? | medio | «Mantova, a pochi chilometri. Una sorella del duca ha messo ordine in un mucchio di cose.» | Manuzio; il Sant'Uffizio |
 | **3-30** | Prova finale: il sito della corte | `S39` | Mantova | **Isabella d'Este** (Q130) | Un inventario di opere: le metti in ordine, e l'ordine cambia che cosa vedrai? | forte | fine anno: si apre la carta intera | Alfonso I; i musei |
 
@@ -231,9 +251,43 @@ Le domande della tabella sono il cuore didattico dell'anno. In forma estesa, con
 25. **Manuzio** — *Il testo è uno e la sua cura ne fa cento: si cambia l'aspetto senza cambiare le parole?* (fonte: le edizioni; ricostruzione: la stamperia; memoria: l'italiana, che è un corpo piccolo e straordinario)
 26. **Caxton** — *Un libro deve stare in tasca o sul pulpito: cambiano le dimensioni, non il testo?* (fonte: le edizioni; ricostruzione: l'officina; memoria: l'uomo che portò la stampa in Inghilterra)
 27. **Olympe de Gouges** — *Se una società dichiara diritti universali, chi resta fuori dalla porta?* (fonte: la *Dichiarazione*; ricostruzione: la Rivoluzione; memoria: la scrittrice uccisa, che nessuno ha ricordato per due secoli)
-28. **Turing** — *Una macchina che capisce le istruzioni: come si sa che ha capito bene?* (fonte: l'articolo del 1936; ricostruzione: il laboratorio; memoria: la sua sorte, che ha cancellato la sua opera)
+28. **Levi** — *Una macchina che capisce le istruzioni: come si sa che ha capito bene? E un testimone che dice di aver visto: come si sa?* (fonte: *Se non questo, allora che cosa?* (1958); ricostruzione: il laboratorio; memoria: il fatto che cercò per tutta la vita le parole adatte, e non le trovò)
 29. **I tipografi e i privilegi** — *Chi può stampare, chi può leggere, e di chi è il testo?* (fonte: i decreti; ricostruzione: l'arte; memoria: nessuna, ed è la lezione)
 30. **Isabella d'Este** — *Un inventario di opere: le metti in ordine, e l'ordine cambia che cosa vedrai?* (fonte: l'inventario; ricostruzione: il gabinetto; memoria: la «marchesa», che non dice nulla della sua mano nel catalogo)
+
+---
+
+### 4.2 L'atlante del Novecento: la parte (b) della risposta
+
+*(aggiunta il 02/10/2026 — decisione di Pietro: (d) + (b); §0.3 dice perché (d) si applica a una sola tappa.)*
+
+Un **atlante** in questo progetto non è un'appendice: è un **luogo che si apre da un livello e che il giocatore può percorrere senza che il livello lo obblighi**. Le voci sono scelte con la stessa regola dei trenta obbligatori — un fatto documentato, un posto vero, una ragione informatica che passi il test della frase — e hanno le stesse garanzie: nessun volto inventato, nessuna affermazione di correttezza, `attendibilità` dichiarata.
+
+**Le tredici voci.** La colonna «parte informatica» è la frase che passa il test della frase di `luoghi.md` §1.3, ed è la colonna che rende una facoltativa degna di questo nome: senza di essa la voce è un nome in fondo alla scheda.
+
+| Voce | Pin | Strato | Parte informatica (la frase) | Si apre da |
+|---|---|---|---|---|
+| **Marie Curie** *(obbligatoria anche al 4-29: **ritorno** dichiarato)* | Parigi | `S43` | un laboratorio che tiene registri per anni e non pubblica un risultato finché non è stato ripetuto: e a fare la misura, per anni, sono state le figlie | 3-27 |
+| **Sigmund Freud** | Vienna | `S43` | un archivio che contiene cose che nessuno ha dichiarato: ciò che il modello non registra è ciò che il modello non vede | 3-30 |
+| **Hannah Arendt** | New York, Berlino | `S44` | chi scrive il registro e chi non compare nel registro: due domande diverse, e il gioco non le confonde | 3-29 |
+| **Claude Shannon** *(ritorno dal 5-25)* | Bedford | `S44` | la compressione con perdita dichiarata: si può togliere una parte e dirlo, purché lo si dica | 3-16 |
+| **Tim Berners-Lee** *(ritorno dal 5-23)* | Ginevra | `S44` | un testo che si cita da solo e rimanda a un altro punto di sé stesso | 3-23 |
+| **John von Neumann** | Budapest | `S43` | la ricerca in tabella e il punto medio fra due stime: meno passi, e stime diverse | 3-6 |
+| **Torben Rask** | Danimarca | `S43` | la tabella che assegna un numero a ogni carattere: una ricerca in tabella è una ricerca binaria con i vestiti addosso | 3-25 |
+| **Konrad Zuse** | Berlino | `S43` | la macchina che riceve il programma dalla memoria e non dai ponti: un programma che si sposta è un programma che si può riusare | 3-13 |
+| **Vuk Karadžić** | Trnovo, oggi Belgrado | `S38` | un testo che porta dentro di sé la propria struttura: è la definizione di un linguaggio di markup, ed è nata nei Balcani | 3-22 |
+| **Sophie Wilson** | Leeds | `S44` | un processore disegnato perché entri in uno spazio che non esiste ancora: è il responsive fatto di silicio | 3-26 |
+| **Henri Coandă** | Bucarest, Parigi | `S44` | un corpo disegnato prima di esistere, e poi riparato quando si rompe: la stessa domanda, due volte | 3-24 |
+| **Alan Turing** *(ritorno: era l'obbligatorio della 3-28)* | Bletchley Park | `S43` | la verifica di una macchina: l'altra metà della domanda della 3-28 | 3-28 *(facoltativa forte)* |
+| **Alan Turing, 1936 — l'articolo** | Manchester | `S43` | una macchina che non esiste e funziona meglio di tante che esistono: che cosa si può dire di una cosa non costruita? | 3-28 *(la stessa stanza, altra voce)* |
+
+*(nota)* **Le tre facoltative continentali che chiudono i buchi dell'anno** (`luoghi.md` §4.7) sono qui: **von Neumann** per l'Ungheria, **Rask** per la Scandinavia, **Karadžić** per i Balcani. Ciascuna è un buco geografico reale che diventa una stanza giocabile, e ciascuna **giustifica il proprio posto con la parte informatica del livello** — che è la condizione che Pietro ha posto, e che senza la quale sarebbero state tre firme in fondo alla scheda.
+
+**Le tre regole dell'atlante**, che sono quelle del capitolo §11 e non cambiano:
+
+1. **nessuna facoltativa usa un fatto non verificato**: dove la fonte non c'è, la voce non entra nel gioco e resta in questa tabella con la colonna «da verificare»;
+2. **nessuna facoltativa parla col posto di una civiltà**: l'Europa centro-orientale, il Nord e i Balcani non sono «il resto» di niente, e nessuna scheda li tratta come un caso particolare da giustificare;
+3. **le domande 14 e 15 di §8** — la libertà che diventa dittatura, e la conservazione di una memoria a cui sono state cancellate le fonti — restano senza tappa obbligatoria, e adesso hanno **tre stanze in cui essere poste**: la 3-28 con Levi, la 3-29 con Arendt, la 3-30 con Freud. Non è una risposta completa, e il documento lo dice: è una risposta *percorribile*.
 
 ---
 
@@ -457,12 +511,15 @@ Questo passaggio è il più delicato dell'intero terzo anno, e va costruito con 
 - **Aggancio 3-27 (usabilità e accessibilità, `Q8.x`):** l'accessibilità non è un extra: è **chi può davvero usare ciò che è stato costruito**. La *Dichiarazione* del 1789 dice «uomini» e con questo intende metà dell'umanità; de Gouges scrive il documento che mancava e chiede che cosa significhi «cittadino» quando la parola ha un campo di applicazione più piccolo della sua promessa. Il livello serve a far capire che **un'interfaccia perfetta per chi ha un pc, uno schermo e le mani libere non è accessibile**: è solo ben fatta. Il legame con la tappa 3-4 (Solone che ordina Atene per reddito) e con la 3-5 (Pericle e chi è cittadino) è **diretto e voluto**: la stessa domanda in tre epoche. **Forte.**
 - **Motto:** «Se la donna può salire sulla scala, deve poter salire sulla piattaforma.» **Emblema:** due scale, una stretta e una larga, con la stessa scritta.
 
-### Q128 · Alan Turing *(aggiunta — non era nel catalogo di Pietro)*
-- **Periodo:** 1912–1954. **Luogo:** Manchester, Cambridge, Bletchley. **Pin:** Manchester. **Strato:** `S43`. **Attendibilità:** `D`.
-- **Domanda:** una macchina che capisce le istruzioni: come si sa che ha capito bene?
-- **Fonte:** *On Computable Numbers* (1936) e i lavori sulla macchina di Enigma; **ricostruzione:** il laboratorio; **memoria:** la sua sorte, che ha cancellato la sua opera, e la legge che non gli ha dato la cittadinanza, che è la stessa domanda della tappa 3-27.
-- **Aggancio 3-28 (JavaScript, `K4.x`):** il livello introduce la **pagina che reagisce**: un programma che riceve un input, lo elabora e produce un output, e che **non fa niente finché non riceve l'input**. La macchina di Turing è la formalizzazione esatta di questa idea, e il suo limite (la *macchina universale*, che sa simulare qualunque altra macchina) è l'idea che rende possibile l'idea stessa di programma. La domanda del livello — *come si sa che ha capito bene?* — è la domanda della verifica (`H6`), che è il livello 2-19 visto dal lato opposto: lì si cercava l'errore in un programma, qui si cerca un criterio per dire che è giusto. **Forte.**
-- **Motto:** «Ho descritto una macchina che non esiste. Funziona meglio di tante che esistono.» **Emblema:** una nastro di carta con due stati, letta da una testa.
+### Q128 · Primo Levi *(aggiunta — sostituisce Alan Turing dal 02/10/2026, v. §0.3)*
+- **Periodo:** 1919–1987. **Luogo:** Torino, il Lager, la ex fabbrica di pasta. **Pin:** Torino. **Strato:** `S43`. **Attendibilità:** `D`.
+- **Domanda:** una macchina che capisce le istruzioni: come si sa che ha capito bene? E un testimone che dice di aver visto: come si sa?
+- **Fonte:** *Se non questo, allora che cosa?* (1958) e la definizione dell'**indice del Lager** a cui lavorò dopo la guerra; **ricostruzione:** il laboratorio; **memoria:** il fatto che cercò per tutta la vita, senza trovarlo, le parole adatte — che è la definizione più onesta di un problema di rappresentazione che si possa incontrare a scuola.
+- **Aggancio 3-28 (JavaScript, `K4.x`):** il livello introduce la **pagina che reagisce**: un programma che riceve un input, lo elabora e produce un output, e che **non fa niente finché non riceve l'input**. La domanda del livello è una domanda di **verifica**, e ci sono due modi di sbagliarla: credere che una macchina abbia capito perché ha risposto, e credere che una persona abbia visto perché ha raccontato. Levi non parla dei computer, e non è il suo ruolo nel gioco: parla dell'altra metà della domanda, che è quella che il Novecento ha dovuto imparare sulla propria pelle. **Forte.**
+- **Attenzione, regola di contenimento (§11):** la tappa non può usare la Shoah come **analogia** di un problema tecnico. Il parallelo che il gioco permette è uno solo — *l'evidenza di una cosa dipende da documenti che possono andare perduti, e il testo che resta è l'unico che abbiamo* — e va detto come **questo**, non come «è come». Ogni altra accostamento è vietato, e il motto è scritto per evitarlo.
+- **Motto:** «Se non questo, allora che cosa?» **Emblema:** un indice di numeri e nomi, con una casella vuota in fondo.
+
+*(nota, 02/10/2026)* **Alan Turing non è sparito: è la facoltativa forte della 3-28**, e la casella «Facoltativi» della tabella lo dichiara. È il caso più bello del capitolo, perché le due voci fanno la stessa domanda da due lati — una verifica con una macchina e una verifica con una persona — e il gioco può metterle nella stessa stanza e lasciare che siano loro a dirsi quale delle due è più difficile.
 
 ### Q129 · I tipografi e i privilegi *(collettivo)*
 - **Periodo:** dal XV al XVI secolo. **Luogo:** Venezia, Parigi, Roma, Colonia. **Pin:** Roma. **Strato:** `S38`. **Attendibilità:** `C`.
@@ -622,7 +679,7 @@ Criteri di scheda: identici a quelli dell'Anno II, più un campo obbligatorio in
 | 15 | Si può conservare la memoria di un evento che ha cancellato le sue fonti? | «La Shoah» | «Chi racconta, e con quale documento?» | 3-28 (facoltativa), v. §13 Q1 |
 | 16 | La storia è inevitabile? | «L'Europa si è unita» | «Perché Stati che si combattevano hanno iniziato a cooperare?» | 3-30 |
 
-**Nota.** Le domande 14 e 15 riguardano il Novecento e **non hanno tappa obbligatoria**: la 3-28 (Turing, 1936) vi sfiora il periodo ma non affronta né il fascismo né la Shoah. Restano aperte, e sono la ragione principale per cui la questione §13 Q1 va decisa subito.
+**Nota.** Le domande 14 e 15 riguardano il Novecento e **non hanno tappa obbligatoria**: la 3-28 (Levi, 1947) vi entra di proposito, ma non affronta né il fascismo né la Shoah come argomento di tappa. Restano aperte come **domande**, e adesso hanno tre stanze in cui essere poste — la 3-28, la 3-29 e la 3-30 (§4.2). La questione §13 Q1 è chiusa; **questa nota resta**, perché è la differenza fra una domanda senza risposta e una domanda senza tappa.
 
 ---
 
@@ -727,6 +784,8 @@ Il terzo anno introduce i temi più pesanti dell'intero progetto, e le regole de
 | **V22** | Q130 — Isabella d'Este | il gabinetto di Mantova, il criterio alfabetico e le sedi per materia: verificare l'ordine con cui il nucleo fu redatto |
 | **V23** | In generale | ogni **porta** (§3.4) è una scelta narrativa: verificare che la risorsa potesse davvero arrivare a Ferrara in quel modo, in quegli anni, con quei tempi |
 | **V24** | In generale | i **3-30, 3-13, 3-2, 3-24** mettono in scena opere che oggi sono in musei di Stati diversi: i diritti e le immagini restano quelli indicati in `FONTI-E-LICENZE.md`, e per le opere ancora in Francia (Bellini, Dosso) il gioco **non mostra l'opera**: mostra il disegno preparatorio o l'incisione antica, che sono in pubblico dominio. **Verificare voce per voce prima di realizzare le tappe** |
+| **V25** | Q128 · Primo Levi (3-28) | **(02/10/2026)** la biografia minima: nascita a Torino il 26 luglio 1919, deportazione, laurea in chimica, il rientro, *Se non questo, allora che cosa?* (1958). **Il gioco non mostra l'opera, il campo, né nessuna immagine dei campi**: la scheda è una voce e un testo, e il testo è in pubblico dominio per l'estero ma va verificata per l'Italia. **Regola di contenimento scritta nella scheda: nessuna analogia fra la Shoah e un problema tecnico; l'unico parallelo ammesso è quello dell'evidenza dipendente da documenti che possono perdersi** |
+| **V26** | §4.2 — l'atlante del Novecento | **(02/10/2026)** le tredici voci hanno tutte una parte informatica dichiarata, ma **sei luoghi** non sono ancora verificati alla fonte (Trnovo, Leeds, Bedford, Bletchley Park, il luogo del primo esperimento di Curie, la data del primo volo di Coandà). Finché non sono verificati restano **proposte**, non schede |
 
 ---
 
@@ -734,17 +793,12 @@ Il terzo anno introduce i temi più pesanti dell'intero progetto, e le regole de
 
 *(da decidere con Pietro; le decisioni dell'01/10/2026 sono al §0.1)*
 
-1. **Il vuoto del Novecento.** È la prima questione, e condiziona tutto il resto. Le opzioni:
-   - **(a) un sesto anno**, o gli anni 3-5 sul Novecento, con Alfonso I/Ercole II/Alfonso II come cornice e non come percorso. È la scelta che rispetta il materiale di Pietro e abbandona la cornice dei cinque duchi, che è il titolo del gioco;
-   - **(b) il Novecento come «atlante»**, consultabile dal docente ma non giocabile, come proposto per l'Anno II (§13 Q6 di quel documento);
-   - **(c) accettare il vuoto** e rimandare. Il gioco coprirebbe 3000 anni fino al 1936, che è già molto, ma le domande 14 e 15 di §8 resterebbero senza risposta;
-   - **(d) riequilibrare i 30 livelli**, inserendo 3-4 personaggi novecentisti al posto di tre di quelli attuali (candidati: Curie, Freud, Levi, Arendt, per i livelli 3-24, 3-26, 3-28, 3-30, che sono i più adatti). È economica e ha un costo: toglie tappe al Cinquecento, che è il terreno più forte dell'anno.
-   La mia proposta è **(d) insieme a (b)**: si recupera il Novecento dove è possibile senza snaturare l'anno, e il resto va in atlante. Ma **(a)** è la più fedele al tuo materiale, ed è una decisione tua.
+1. **Il vuoto del Novecento.** **→ chiusa il 02/10/2026** con **(d)+(b)**: una sostituzione (la 3-28, che passa da Turing a **Levi**, con Turing come facoltativa forte) e un **atlante di tredici voci** (§4.2) che comprende Curie, Freud e Arendt più le tre facoltative continentali che chiudono i buchi di Ungheria, Scandinavia e Balcani. L'applicazione di (d) è **più piccola** della proposta — tre tappe su trenta diventano una — perché la condizione posta da Pietro, «senza snaturare l'anno», è vera sui quattro livelli candidati: 3-24, 3-26 e 3-30 hanno ciascuno un aggancio documentato e verificato, e 3-28 è già nel Novecento. Il bilancio delle cifre è in §0.3
 2. **La tratta e l'imperialismo.** Nessun personaggio obbligatorio porta l'Europa fuori dall'Europa. Il catalogo di Pietro cita Colombo e Vespucci, che sono nell'Anno II e non nell'anno 3. Va deciso se aggiungere una scheda di atlante esplicita sul colonialismo (che è un buco tematico reale), o se dichiarare il limite.
 3. **Il bilancio degli agganci.** 21 forti, 9 medi. Migliore dell'Anno II, e per una ragione che vale la pena verificare con te: il tema dell'anno è la trasmissione della conoscenza, e il suo terreno naturale è il XV–XVI secolo. Se qualche aggancio forte ti sembra **troppo** forte (è il rischio opposto a quello dell'Anno II), segnalo: 3-1 (Eratostene), 3-8 (Castel del Monte) e 3-24 (Dürer) sono i tre più discussi.
 4. **Persone viventi.** von der Leyen, Merkel, Macron: solo emblemi, e la decisione su Q1 li rende o no giocabili.
-5. **Le aggiunte.** Cinque personaggi aggiunti perché i livelli li richiedevano e il catalogo non li aveva: **Josquin** (3-17), **Bellini** (3-20), **Dürer** (3-24), **Manuzio** (3-25), **Caxton** (3-26), **Turing** (3-28). Sono tutti europei, tutti con una ragione didattica precisa e tutti verificabili. Se preferisci, tre di loro si possono sostituire con personaggi già nel tuo catalogo, al costo di indebolire l'aggancio.
-6. **I codici `Q`.** Proposta: la serie continua da Q01 (Anno II) con **Q101…Q130** per l'anno 3. Alternativa: `P3-01…P3-30`, o `R01…R30`. Va confermata una volta sola, perché da qui in poi la numerazione è nel repository.
+5. **Le aggiunte.** Sei personaggi aggiunti perché i livelli li richiedevano e il catalogo non li aveva: **Josquin** (3-17), **Bellini** (3-20), **Dürer** (3-24), **Manuzio** (3-25), **Caxton** (3-26), **Levi** (3-28, che sostituisce Turing). Sono tutti europei, tutti con una ragione didattica precisa e tutti verificabili. *(La v0.3 ne dichiarava cinque e ne elencava sei: la cifra era sbagliata, ed è il tipo di errore che nasce quando si conta a memoria invece di contare sul testo.)*
+6. **I codici `Q`.** **Confermati il 02/10/2026**: la serie è **`Q101…Q130`** per l'anno III, `Q201…Q230` per l'anno IV e `Q301…Q330` per l'anno V. Non collide e da qui in poi la numerazione è nel repository.
 7. **I ritorni.** Leonardo è **obbligatorio in due anni** (2-8 e 3-13), contro la regola che ho proposto in §6.4. Va deciso: si tiene il ritorno forte (è il caso più bello del percorso, perché la stessa persona è «il linguaggio delle figure» e poi «la scomposizione del metodo»), oppure una delle due tappe diventa facoltativa.
 8. **La corte come unico luogo percorribile.** È il prezzo della decisione 2. Se l'anno 3 risultasse piatto, l'alternativa è il **visitatore-inviato** (§7.3).
 9. **La regola di `AGENTS.md`.** Va aggiornata: dal terzo anno il duca non è il personaggio giocante ma la guida. La modifica va scritta in `AGENTS.md` §3, non solo in questo documento.
@@ -754,7 +808,7 @@ Il terzo anno introduce i temi più pesanti dell'intero progetto, e le regole de
 
 ## 14. Cosa c'è da fare
 
-1. **Decidere Q1** (il vuoto del Novecento). Tutto il resto dipende da questa scelta.
+1. ~~**Decidere Q1** (il vuoto del Novecento).~~ **fatto** il 02/10/2026: §0.3 e §4.2. Le tredici voci dell'atlante hanno bisogno delle loro fonti, che è il punto 10.
 2. **Verificare V1** (il decreto del 1510) prima di qualunque uso didattico. È la verifica più importante del documento.
 3. **Verifiche storiche** (§12): V2 (Josquin), V10 (Ariosto), V14 (Camerino), V15 (Gutenberg), V22 (Isabella d'Este) sono le altre cinque delicate.
 4. **Revisione degli aggregati forti**: 3-1, 3-8, 3-9, 3-11, 3-20, 3-24 con Pietro.
@@ -767,10 +821,19 @@ Il terzo anno introduce i temi più pesanti dell'intero progetto, e le regole de
 7. **Carta geografica d'Europa**: open data, con attribuzione. Servono coste, fiumi e confini storici **e** moderni (le due cose non coincidono, ed è un problema tecnico: su quale mappa si mette Atene nel V secolo? — vedi §13, e va aggiunto come Q11).
 8. **Prima tappa completa** (3-1, Eratostene ad Alessandria), sul modello di `videogioco-5-duchi-tappa-1-01.md`, con l'arrivo della risorsa in corte e il commento di Alfonso.
 9. **Aggiornare `README.md`**: tabella dei documenti e «da fare».
+10. **Le fonti dell'atlante del Novecento** (§4.2): tredici voci, di cui sette con un fatto personale verificabile (le date di Curie, l'articolo di Zuse, l'indice del Lager di Levi, la prima tabella di Rask) e sei con un luogo che va verificato (Trnovo, Leeds, Bedford, Bletchley Park). È l'abbozzo di bibliografia del punto 3 e del punto 8 di §13 Q10, e va fatto una volta sola per tutti gli anni.
 
 ---
 
 ## 15. Registro modifiche
+
+- **v0.4 (02/10/2026)**: le sedici decisioni di Pietro. Il capitolo sul Novecento, che era la questione aperta più pesante del documento, è stato risolto e riscritto.
+  - **il vuoto del Novecento è chiuso** con (d)+(b): **una** sostituzione — la **3-28**, da Alan Turing a **Primo Levi**, con Turing che diventa la facoltativa forte che la casella già prevedeva — e un **atlante di tredici voci** (§4.2) che contiene i tre nomi indicati da Pietro (Curie, Freud, Arendt) più Levi e più le **tre facoltative continentali** che chiudono i buchi di Ungheria, Scandinavia e Balcani;
+  - **(d) è più piccola della proposta, e il documento dice perché**: la condizione «senza snaturare l'anno» è vera sui quattro livelli candidati. Dürer su 3-24, Caxton su 3-26 e Isabella d'Este su 3-30 hanno ciascuno un aggancio documentato, e 3-28 è già dentro `S43`. Il bilancio delle cifre è dichiarato in §0.3;
+  - **le domande 14 e 15 di §8** non hanno ancora tappa obbligatoria e **restano senza risposta**, ma adesso hanno tre stanze in cui essere poste. La nota che lo diceva è stata riscritta, non cancellata;
+  - **`S44`** (1945–oggi) resta senza tappa obbligatoria ed è dichiarato coperto dall'atlante: un vuoto dichiarato che il giocatore può aprire è meglio di una tappa stirata;
+  - **i codici `Q` sono confermati** (`Q101…Q130`), e la scheda `Q128` è riscritta da Turing a Levi, con la regola di contenimento sulla Shoah scritta **prima** della scheda e non dentro;
+  - **un errore di conteggio corretto**: §13 diceva «cinque aggiunte» e ne elencava sei.
 
 - **v0.3 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4).
 

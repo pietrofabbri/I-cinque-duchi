@@ -2284,5 +2284,457 @@
    "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
    "dettagli": []
   }
+ ],
+ "tappe": [
+  {
+   "tappa": "5-1",
+   "pin": {
+    "luogo": "Chicago",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "la strada della fuga di Rinaldo",
+    "legame": "A",
+    "filone": "F2",
+    "canto": 1,
+    "ottava": 32,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-2",
+   "pin": {
+    "luogo": "Vienna",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il bosco dove Orlando perde il senno",
+    "legame": "A",
+    "filone": "F3",
+    "canto": 23,
+    "ottava": 124,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-3",
+   "pin": {
+    "luogo": "Londra",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il bosco di Pontiero",
+    "legame": "A",
+    "filone": "F9",
+    "canto": 22,
+    "ottava": 30,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-4",
+   "pin": {
+    "luogo": "Bethesda",
+    "coord_stato": "da_geocodificare_a_mano"
+   },
+   "stanza": {
+    "luogo": "la Luna",
+    "legame": "I",
+    "filone": "F9",
+    "canto": 34,
+    "ottava": 49,
+    "coordinate": null
+   }
+  },
+  {
+   "tappa": "5-5",
+   "pin": {
+    "luogo": "Los Alamos",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "la foresta dove passa Ferraú",
+    "legame": "A",
+    "filone": "F2",
+    "canto": 1,
+    "ottava": 77,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-6",
+   "pin": {
+    "luogo": "Babilonia",
+    "coord_stato": "da_geocodificare_a_mano"
+   },
+   "stanza": {
+    "luogo": "la corte di Scozia",
+    "legame": "A",
+    "filone": "F5",
+    "canto": 5,
+    "ottava": 23,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-7",
+   "pin": {
+    "luogo": "Londra",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il fossato di Sarza, sotto Parigi",
+    "legame": "A",
+    "filone": "F1",
+    "canto": 14,
+    "ottava": 133,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-8",
+   "pin": {
+    "luogo": "Bajkonur",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "l'aria sopra la foresta",
+    "legame": "N",
+    "filone": "F9",
+    "canto": 23,
+    "ottava": 16,
+    "coordinate": null
+   }
+  },
+  {
+   "tappa": "5-9",
+   "pin": {
+    "luogo": "Londra, Broad Street",
+    "coord_stato": "da_geocodificare_a_mano"
+   },
+   "stanza": {
+    "luogo": "la strada di Pontiero",
+    "legame": "A",
+    "filone": "F5",
+    "canto": 23,
+    "ottava": 40,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-10",
+   "pin": {
+    "luogo": "Stoccolma",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il paese degli incantatori",
+    "legame": "S",
+    "filone": "F6",
+    "canto": 8,
+    "ottava": 1,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-11",
+   "pin": {
+    "luogo": "Princeton",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "l'isola di Alcina",
+    "legame": "I",
+    "filone": "F6",
+    "canto": 6,
+    "ottava": 35,
+    "coordinate": null
+   }
+  },
+  {
+   "tappa": "5-12",
+   "pin": {
+    "luogo": "Buenos Aires",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il petron di Merlino",
+    "legame": "S",
+    "filone": "F10",
+    "canto": 11,
+    "ottava": 4,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-13",
+   "pin": {
+    "luogo": "Cambridge",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "la pagina",
+    "legame": "S",
+    "filone": "F3",
+    "canto": 1,
+    "ottava": 2,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-14",
+   "pin": {
+    "luogo": "Princeton",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il campo",
+    "legame": "S",
+    "filone": "F12",
+    "canto": 32,
+    "ottava": 102,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-15",
+   "pin": {
+    "luogo": "New York",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il castello d'Atlante",
+    "legame": "I",
+    "filone": "F4",
+    "canto": 4,
+    "ottava": 30,
+    "coordinate": null
+   }
+  },
+  {
+   "tappa": "5-16",
+   "pin": {
+    "luogo": "Seattle",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il ponte d'Erifilla sulla riviera",
+    "legame": "A",
+    "filone": "F5",
+    "canto": 7,
+    "ottava": 2,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-17",
+   "pin": {
+    "luogo": "Los Angeles",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "i monti Rifei",
+    "legame": "S",
+    "filone": "F4",
+    "canto": 4,
+    "ottava": 18,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-18",
+   "pin": {
+    "luogo": "una sala di riunione, 1983",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "il libro di Turpino",
+    "legame": "S",
+    "filone": "F12",
+    "canto": 24,
+    "ottava": 44,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-19",
+   "pin": {
+    "luogo": "Londra",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "Montalbano",
+    "legame": "S",
+    "filone": "F4",
+    "canto": 30,
+    "ottava": 93,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-20",
+   "pin": {
+    "luogo": "Ferrara",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "Zibeltaro e l'Erculeo segno, cioè Ferrara",
+    "legame": "A",
+    "filone": "F1",
+    "canto": 16,
+    "ottava": 37,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-21",
+   "pin": {
+    "luogo": "Rotterdam",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "la selva",
+    "legame": "A",
+    "filone": "F2",
+    "canto": 1,
+    "ottava": 64,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-22",
+   "pin": {
+    "luogo": "un documento del 2008",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "il campo davanti a Parigi",
+    "legame": "A",
+    "filone": "F1",
+    "canto": 1,
+    "ottava": 9,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-23",
+   "pin": {
+    "luogo": "Ginevra",
+    "coord_stato": "verificata"
+   },
+   "stanza": {
+    "luogo": "il regno di Logistilla",
+    "legame": "I",
+    "filone": "F7",
+    "canto": 6,
+    "ottava": 45,
+    "coordinate": null
+   }
+  },
+  {
+   "tappa": "5-24",
+   "pin": {
+    "luogo": "un ufficio riservato, 1970",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "la corte di Scozia",
+    "legame": "A",
+    "filone": "F5",
+    "canto": 5,
+    "ottava": 18,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-25",
+   "pin": {
+    "luogo": "Murray Hill, 1948",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "la strada del messaggero",
+    "legame": "S",
+    "filone": "F12",
+    "canto": 30,
+    "ottava": 80,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-26",
+   "pin": {
+    "luogo": "Boston, 2018",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "il duello di Ginevra",
+    "legame": "A",
+    "filone": "F5",
+    "canto": 5,
+    "ottava": 36,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-27",
+   "pin": {
+    "luogo": "Toronto, 2012",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "la tomba di Merlino, nelle selve di Pontiero",
+    "legame": "A",
+    "filone": "F8",
+    "canto": 7,
+    "ottava": 38,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-28",
+   "pin": {
+    "luogo": "Seattle, 2020",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "il luogo del pentimento",
+    "legame": "S",
+    "filone": "F12",
+    "canto": 30,
+    "ottava": 2,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-29",
+   "pin": {
+    "luogo": "Londra, 2020",
+    "coord_stato": "non_e_un_luogo"
+   },
+   "stanza": {
+    "luogo": "la corte di Scozia",
+    "legame": "A",
+    "filone": "F1",
+    "canto": 12,
+    "ottava": 12,
+    "coordinate": "del_pin"
+   }
+  },
+  {
+   "tappa": "5-30",
+   "pin": {
+    "luogo": "Ferrara, sala di progetto",
+    "coord_stato": "da_geocodificare_wfs"
+   },
+   "stanza": {
+    "luogo": "la prima pagina",
+    "legame": "S",
+    "filone": "F3",
+    "canto": 1,
+    "ottava": 1,
+    "coordinate": "del_pin"
+   }
+  }
  ]
 }

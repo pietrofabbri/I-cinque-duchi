@@ -22,7 +22,9 @@ dentro l'ottava, e prende i versi che vengono dopo. Se il testo cambia, il
 frammento non si trova e lo script si ferma: è un errore che dice una parola
 all'inizio invece di un refuso in fondo.
 
-Uso:  python3 costruisci_citazioni.py            -> scrive il JSON
+Uso:  python3 costruisci_citazioni.py            -> scrive il JSON delle citazioni
+      python3 costruisci_citazioni.py --luoghi   -> scrive anche il blocco `tappe`
+                                                      (pin + stanza) in dati/luoghi_gioco.json
       python3 costruisci_citazioni.py --stampa   -> lo mostra in tavella
 """
 import json
@@ -34,6 +36,7 @@ import estrai_ottave as E  # noqa: E402
 
 RADICE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(RADICE, "dati", "furioso", "citazioni.json")
+LUOGHI = os.path.join(RADICE, "dati", "luoghi_gioco.json")
 
 # I dodici filoni della vicenda. Il codice è nel gioco e nel JSON: F1…F12.
 FILONI = {
@@ -63,10 +66,24 @@ FILONI = {
 # perché nella scheda sembrava tutto coerente.
 INESISTENTI = {
     "la Luna": "esiste e non esiste: nel gioco è il luogo perduto, ed è dichiarato come tale",
-    "l'aria sopra la foresta": "non è un luogo ma una condizione: la si attraversa, non la si raggiunge",
     "l'isola di Alcina": "l'isola dell'incantesimo, nel canto VI",
     "il castello d'Atlante": "i due castelli che imprigionano nell'illusione, nel canto IV",
     "il regno di Logistilla": "il regno di Logistilla, nel canto VI",
+}
+
+# I NON LUOGHI (tipo `N`): non sono luoghi che non esistono, sono cose che non
+# sono luoghi. Una condizione, un attraversamento, un intervallo. Non hanno
+# coordinate, come gli inesistenti, ma la ragione è diversa e va dichiarata:
+# dirgli che «l'aria non esiste» sarebbe falso, e il gioco non scrive cose
+# false per poter usare una regola.
+#
+# DECISIONE DI PIETRO (02/10/2026): «mi piace come luogo non luogo (utile anche
+# per eventuale filosofia)». Fino a questa versione «l'aria sopra la foresta»
+# era nel dizionario INESISTENTI, che è la ragione per cui i legami contavano
+# cinque `I` invece di quattro.
+NON_LUOGHI = {
+    "l'aria sopra la foresta": "non è un luogo inesistente: è una condizione che si attraversa. "
+                               "Non la si raggiunge, e mentre la si attraversa non si è da nessuna parte",
 }
 
 # tappa, filone, canto, ottava, blocchi [(frammento, quanti versi)], luogo, tipo,
@@ -123,7 +140,7 @@ T = [
   "Ogni simulazione del clima fa esattamente questo: calcola lo stato, poi il passo dopo. "
   "Se il passo è piccolo non è detto che sia giusto — ed è per questo che il modello va calibrato."),
  ("5-8", "F9", 23, 16, [("indi lo caccia", 3)],
-  "l'aria sopra la foresta", "I",
+  "l'aria sopra la foresta", "N",
   "risolutezza", "concentrazione",
   "ogni secondo di ritardo è un errore che non si cancella",
   "Astolfo non parte di scatto: va «lento lento». Un'orbita è la stessa frase detta in chiave. "
@@ -211,13 +228,14 @@ T = [
   "Un indirizzo IP non certifica niente e non garantisce niente; "
   "se sbagli la persona, il messaggio arriva lo stesso — e arriva a un altro."),
  ("5-20", "F1", 16, 37, [("di zibeltaro", 2)],
-  "Zibeltaro e l'Erculeo segno, cioè Adria e Ferrara", "A",
+  "Zibeltaro e l'Erculeo segno, cioè Ferrara", "A",
   "preoccupazione", "concretezza",
   "una rete di un edificio si progetta con l'acqua che c'è, non con quella che si vorrebbe",
-  "I Mori sono usciti «di Zibeltaro e de l'Erculeo segno» e hanno portato via cose. "
-  "Zibeltaro ed Ercole sono Adria e Ferrara: la città del duca è dentro il libro che gioca. "
-  "Alfonso II chiede una rete per un quartiere nuovo, e un acquedotto disegnato bene non basta "
-  "se poi il quartiere resta senza acqua."),
+  "Rinaldo avverte i baroni che i Mori sono usciti «di Zibeltaro e de l'Erculeo segno»: "
+  "la minaccia non viene da lontano, viene da una parte che credevano sicura. "
+  "«L'Erculeo segno» è lo stemma degli Estensi, cioè Ferrara: la città del duca è dentro "
+  "il libro che gioca. Alfonso II chiede una rete per un quartiere nuovo, e un acquedotto "
+  "disegnato bene non basta se poi il quartiere resta senza acqua."),
  ("5-21", "F2", 1, 64, [("camin dritto", 2)],
   "la selva", "A",
   "decisione", "risolutezza",
@@ -292,6 +310,30 @@ T = [
   "non troverai, e non è una scusa, è un impegno."),
 ]
 
+# Le citazioni delle stanze FACOLTATIVE: non sostituiscono nessuna delle trenta,
+# si aprono da una tappa e si possono anche non aprire.
+#
+# DEFINIZIONE (decisione di Pietro, 02/10/2026: «i facoltativi dovranno essere
+# personaggi/posti con cui interagire e vanno tutti pensati anche in base alla
+# parte informatica»): una facoltativa è una persona o un luogo con cui il
+# giocatore può interagire, e dev'essere pensata per la parte informatica della
+# tappa che la apre. Il codice è quello della tappa che la apre più la lettera
+# `F`, ed è controllato: una facoltativa che non si sa da dove si apre è una
+# voce in più, non un livello.
+#
+# codice, tappa che la apre, filone, canto, ottava, blocchi, luogo, tipo, moto,
+# emozione, tema, parafrasi
+FACOLTATIVE = [
+ ("5-22F", "5-22", "F11", 25, 89, [("finito il tempo in che per fede astretto", 3)],
+  "il campo sotto l'assedio, dove Ruggiero scrive", "A",
+  "prudenza", "risoluzione",
+  "una promessa non è un'azione: è un'obbligazione che aspetta che una condizione si verifichi",
+  "Ruggiero scrive al suo re che scioglierà il giuramento «finito il tempo in che per fede "
+  "astretto era al suo re [...] si fará cristian». Una promessa non è un'azione: è un "
+  "impegno che resta valido e che nessuno può verificare finché la condizione non si verifica. "
+  "È la parte di 5-22 che il gioco non mostra nelle reti informatiche e che vale più di tutte le altre."),
+]
+
 
 def trova_blocco(versi, frammento, quanti, dove):
     """Cerca il frammento dentro l'ottava e restituisce i 'quanti' versi da lì.
@@ -319,53 +361,81 @@ def trova_blocco(versi, frammento, quanti, dove):
     raise SystemExit("frammento %r non trovato in %s: %s" % (frammento, dove, versi))
 
 
+def record(ottave, codice, filone, apre, canto, n, blocchi, luogo, tipo, moto,
+           emozione, tema, parafrasi):
+    """Un record di citazione, obbligatorio o facoltativo: stesso schema.
+
+    Il parametro `apre` vale `codice` per le trenta tappe e vale il codice della
+    tappa che apre la stanza per le facoltative. Il campo si chiama `apre` anche
+    per le obbligatorie, perché un campo che cambia nome a seconda del caso è un
+    campo che verrà letto solo metà delle volte.
+    """
+    versi = ottave.get((canto, n))
+    dove = "canto %d, ottava %d" % (canto, n)
+    if not versi:
+        raise SystemExit("%s punta a %s, che non esiste nell'indice: "
+                         "la citazione sarebbe inventata" % (codice, dove))
+    scelti = []
+    numeri = []
+    for frammento, quanti in blocchi:
+        inizio, blocco = trova_blocco(versi, frammento, quanti, dove)
+        # una posizione per ogni verso citato: `blocchi` serve al costruttore,
+        # `numeri_versi` al verificatore, e se il secondo indicizza per blocco
+        # e non per verso il controllo confronta ogni citazione con il primo
+        # verso dell'ottava e non combacia mai
+        numeri.extend(range(inizio + 1, inizio + quanti + 1))
+        scelti.extend(blocco)
+    titolo, canti = FILONI[filone]
+    return {
+        "tappa": codice,
+        "apre": apre,
+        "facoltativa": codice != apre,
+        "filone": filone,
+        "filone_titolo": titolo,
+        "filone_canti": canti,
+        "canto": canto,
+        "ottava": n,
+        "riferimento": dove,
+        "numeri_versi": numeri,
+        "versi": scelti,
+        "parafrasi": parafrasi,
+        "moto": moto,
+        "emozione": emozione,
+        "tema": tema,
+        "luogo": luogo,
+        "legame": tipo,
+        "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio",
+    }
+
+
 def costruisci():
     ottave = E.indicizza("wikisource")
     righe = []
+    facoltative = []
     for (tappa, filone, canto, n, blocchi, luogo, tipo, moto, emozione, tema,
          parafrasi) in T:
-        versi = ottave.get((canto, n))
-        dove = "canto %d, ottava %d" % (canto, n)
-        if not versi:
-            raise SystemExit("la tappa %s punta a %s, che non esiste nell'indice: "
-                             "la citazione sarebbe inventata" % (tappa, dove))
-        scelti = []
-        numeri = []
-        for frammento, quanti in blocchi:
-            inizio, blocco = trova_blocco(versi, frammento, quanti, dove)
-            # una posizione per ogni verso citato: `blocchi` serve al costruttore,
-            # `numeri_versi` al verificatore, e se il secondo indicizza per blocco
-            # e non per verso il controllo confronta ogni citazione con il primo
-            # verso dell'ottava e non combacia mai
-            numeri.extend(range(inizio + 1, inizio + quanti + 1))
-            scelti.extend(blocco)
-        titolo, canti = FILONI[filone]
-        righe.append({
-            "tappa": tappa,
-            "filone": filone,
-            "filone_titolo": titolo,
-            "filone_canti": canti,
-            "canto": canto,
-            "ottava": n,
-            "riferimento": dove,
-            "numeri_versi": numeri,
-            "versi": scelti,
-            "parafrasi": parafrasi,
-            "moto": moto,
-            "emozione": emozione,
-            "tema": tema,
-            "luogo": luogo,
-            "legame": tipo,
-            "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio",
-        })
+        righe.append(record(ottave, tappa, filone, tappa, canto, n, blocchi,
+                            luogo, tipo, moto, emozione, tema, parafrasi))
+    for (codice, apre, filone, canto, n, blocchi, luogo, tipo, moto, emozione,
+         tema, parafrasi) in FACOLTATIVE:
+        if filone not in FILONI:
+            raise SystemExit("la facoltativa %s dichiara il filone %s, che non è fra i dodici"
+                             % (codice, filone))
+        if not codice.startswith(apre + "F"):
+            raise SystemExit("la facoltativa %s non ha il codice della tappa che la apre (%s): "
+                             "una facoltativa che non si sa da dove si apre è una voce in più"
+                             % (codice, apre))
+        facoltative.append(record(ottave, codice, filone, apre, canto, n, blocchi,
+                                  luogo, tipo, moto, emozione, tema, parafrasi))
     attese = ["5-%d" % i for i in range(1, 31)]
     mancanti = [t for t in attese if t not in [r["tappa"] for r in righe]]
     if mancanti:
         raise SystemExit("tappe senza citazione: %s" % ", ".join(mancanti))
-    usati = {r["filone"] for r in righe}
+    usati = {r["filone"] for r in righe} | {r["filone"] for r in facoltative}
     return {
-        "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno",
-        "versione": 2,
+        "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno "
+                     "e per le sue stanze facoltative",
+        "versione": 3,
         "data": "2026-10-02",
         "fonte": {
             "opera": "Ludovico Ariosto, Orlando furioso",
@@ -382,7 +452,11 @@ def costruisci():
         "regole": {
             "una_ottava_per_tappa": "sì: nessuna tappa riprende la stessa ottava di un'altra",
             "filone": "F1…F12, il racconto a cui la tappa appartiene",
-            "legame": "B/A/S/I/C della regola dei luoghi; I solo per i luoghi che non esistono",
+            "legame": "B/A/S/I/C/N della regola dei luoghi; I solo per i luoghi che non "
+                      "esistono e N solo per i non luoghi, nessuno dei due con coordinate",
+            "facoltativa": "citazione che si apre da una tappa (codice 5-NNF) e non occupa "
+                           "una delle trenta tappe: ogni facoltativa è una persona o un luogo "
+                           "con cui si interagisce, pensato per la parte informatica della tappa",
             "parafrasi": "due o tre frasi, in italiano di bocca: è ciò che il livello legge al ragazzo",
             "moto": "che cosa prova il personaggio del Furioso in quel momento",
             "emozione": "la sfumatura che il gioco deve far sentire",
@@ -391,14 +465,63 @@ def costruisci():
                          "nella stesura di Ottobre i numeri di riga sbagliavano 53 versi su 78",
         },
         "luoghi_inesistenti": INESISTENTI,
+        "non_luoghi": NON_LUOGHI,
         "filoni": {
             codice: {"titolo": t, "canti": c,
                      "assegnato": codice in usati,
-                     "tappe": [r["tappa"] for r in righe if r["filone"] == codice]}
+                     "tappe": [r["tappa"] for r in righe + facoltative if r["filone"] == codice]}
             for codice, (t, c) in FILONI.items()
         },
         "citazioni": righe,
+        "facoltative": facoltative,
     }
+
+
+def scrive_tappe(documento):
+    """Scrive il blocco `tappe` di dati/luoghi_gioco.json: pin e stanza.
+
+    Il `pin` NON viene scritto qui: si legge. Ogni record di `luoghi_gioco.json`
+    dichiara gia` le tappe che lo usano, e quella dichiarazione e` la fonte
+    unica. Scrivere qui il pin significherebbe avere due verita` sullo stesso
+    fatto, cioe` esattamente il difetto che questo progetto ha imparato a
+    cercare. Percio` il pin si deriva, e se due luoghi rivendicano la stessa
+    tappa il programma si ferma e lo dice.
+
+    La `stanza` viene invece dai dati delle citazioni, che sono la fonte unica
+    anche lei. Qui si controlla solo che i due combacino: verifica F15.
+    """
+    with open(LUOGHI, encoding="utf-8") as f:
+        luoghi = json.load(f)
+    tappe = []
+    for r in documento["citazioni"]:
+        tappa = r["tappa"]
+        padroni = [x for x in luoghi["luoghi"] if tappa in x["tappe"]]
+        if len(padroni) != 1:
+            raise SystemExit("la tappa %s compare in %d luoghi (%s): un pin per tappa, "
+                             "e il dato ne dichiara due"
+                             % (tappa, len(padroni),
+                                ", ".join(x["luogo"] for x in padroni) or "nessuno"))
+        pin = padroni[0]
+        tappe.append({
+            "tappa": tappa,
+            "pin": {"luogo": pin["luogo"], "coord_stato": pin.get("coord_stato")},
+            "stanza": {
+                "luogo": r["luogo"],
+                "legame": r["legame"],
+                "filone": r["filone"],
+                "canto": r["canto"],
+                "ottava": r["ottava"],
+                # coordinate: solo per le stanze che sono un luogo reale. `I` e
+                # `N` non ne hanno, e il controllo automatico (F14) vieta che
+                # ne abbiano: un valore inventato qui sarebbe una coordinata
+                # falsa in un file che la mappa legge.
+                "coordinate": None if r["legame"] in ("I", "N") else "del_pin",
+            },
+        })
+    luoghi["tappe"] = tappe
+    with open(LUOGHI, "w", encoding="utf-8") as f:
+        json.dump(luoghi, f, ensure_ascii=False, indent=1)
+    print("scritte %d tappe (pin + stanza) in %s" % (len(tappe), LUOGHI))
 
 
 if __name__ == "__main__":
@@ -414,4 +537,14 @@ if __name__ == "__main__":
             json.dump(documento, f, ensure_ascii=False, indent=1)
         print("scritte %d citazioni in %s" % (len(documento["citazioni"]), OUT))
         print("filoni usati: %d su %d"
-              % (len({r["filone"] for r in documento["citazioni"]}), len(FILONI)))
+              % (len({r["filone"] for r in documento["citazioni"] + documento["facoltative"]}),
+                 len(FILONI)))
+        if "--luoghi" in sys.argv:
+            scrive_tappe(documento)
+        if "--stampa" in sys.argv:
+            for r in documento["citazioni"] + documento["facoltative"]:
+                print("\n%s  %s  %s  [%s]" % (r["tappa"], r["filone"], r["riferimento"], r["legame"]))
+                for v in r["versi"]:
+                    print("    " + v)
+                print("    parafrasi: " + r["parafrasi"])
+

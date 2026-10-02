@@ -1,15 +1,15 @@
 ---
 titolo: Videogioco "I cinque duchi" — I filoni dell'Orlando furioso: i luoghi del quinto anno e le citazioni delle trenta tappe
-versione: 0.3
+versione: 0.4
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
-revisioni: v0.1 (testo e trenta citazioni); v0.2 (controllo di coerenza del 02/10/2026: tre citazioni erano nel filone sbagliato, due tappe confinanti citavano ottave adiacenti, e le cifre del risconto sono state ricalcolate); v0.3 (seconda tornata dello stesso controllo: un legame `I` posto su un luogo che esiste, l'elenco degli inesistenti dichiarato nei dati, la tabella delle verifiche riordinata e due rimandi corretti)
+revisioni: v0.1 (testo e trenta citazioni); v0.2 (controllo di coerenza del 02/10/2026: tre citazioni erano nel filone sbagliato, due tappe confinanti citavano ottave adiacenti, e le cifre del riscontro sono state ricalcolate); v0.3 (seconda tornata dello stesso controllo: un legame `I` posto su un luogo che esiste, l'elenco degli inesistenti dichiarato nei dati, la tabella delle verifiche riordinata e due rimandi corretti); v0.4 (le sedici decisioni di Pietro del 02/10/2026 applicate: regola dei due strati ratificata, `F8` e `F9` fatte sul testo, il tipo `N` di non luogo, `F11` come tappa facoltativa, il giocatore dentro il *Furioso*, l'Africa riscritta, l'edizione spiegata in modo semplice)
 fonte del materiale: la richiesta di Pietro (02/10/2026) — «sulla base dell'Orlando furioso dobbiamo creare i vari luoghi, cercando di ricalcare il più possibile i filoni della vicenda; devono esserci, in ogni livello, delle brevi citazioni del poema con parafrasi interattiva, intuitiva, emozionale, breve che diano senso alla trama ariostesca del Furioso» — e il testo dell'Orlando furioso edizione 1928 (Biblioteca BEIC) trascritto su Wikisource
 dati: dati/furioso/citazioni.json (v2, trenta record: tappa, filone, canto, ottava, versi, parafrasi, moto, emozione, tema, luogo, legame, e l'elenco `luoghi_inesistenti`), dati/furioso/pagine_wikisource.jsonl (1 244 pagine del digitalizzato), dati/furioso/orlando_furioso_1928.txt (4 796 ottave indicizzate, testo normalizzato)
 strumenti: sorgenti/furioso/scarica_wikisource.py, sorgenti/furioso/estrai_ottave.py, sorgenti/furioso/costruisci_citazioni.py, sorgenti/furioso/verifica_citazioni.py, sorgenti/furioso/provino_html.py, sorgenti/verifica_coerenza.py
-controllo: python3 sorgenti/furioso/verifica_citazioni.py (30 citazioni, 82 versi, 0 problemi) e --gutenberg (23 citazioni a riscontro, 3 differenze dichiarate); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
+controllo: python3 sorgenti/furioso/verifica_citazioni.py (30 citazioni obbligatorie, 82 versi, 1 citazione facoltativa, 0 problemi) e --gutenberg (23 citazioni a riscontro, 3 differenze dichiarate); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
 prototipo: provino_furioso.html (una pagina, offline, generata)
-documenti collegati: videogioco-5-duchi-luoghi.md (v0.2, §4.5 e la Q1 che questo documento scioglie), videogioco-5-duchi-anno5-mondo.md (v0.3, le trenta tappe 5-1…5-30), videogioco-5-duchi-luoghi-edifici.md (v0.2), AGENTS.md, FONTI-E-LICENZE.md
+documenti collegati: videogioco-5-duchi-luoghi.md (v0.3, §4.5 con la regola dei due strati e il tipo `N` di non luogo), videogioco-5-duchi-anno5-mondo.md (v0.4, le trenta tappe 5-1…5-30 e la sezione sul giocatore dentro il *Furioso*), videogioco-5-duchi-luoghi-edifici.md (v0.2), AGENTS.md, FONTI-E-LICENZE.md
 ---
 # I filoni dell'*Orlando furioso*
 
@@ -23,7 +23,7 @@ Pietro chiede tre cose, e sono tre cose diverse:
 
 Questo documento risponde alle tre, e risponde anche a una quarta domanda che nessuno ha fatto ma che era lì sotto: **se i luoghi vengono dal poema, dove vanno i trenta personaggi dell'anno, che sono persone vere e non paladini?**
 
-La risposta è in §2, ed è una risposta che scioglie la **Q1** di `videogioco-5-duchi-luoghi.md` §8.
+La risposta è in §2, ed è una risposta che scioglie la **Q1** di `videogioco-5-duchi-luoghi.md` §8. La Q1 è **chiusa**: Pietro ha ratificato la regola dei due strati il 02/10/2026 (§2.2).
 
 ---
 
@@ -73,7 +73,22 @@ Nella prima stesura, `estrai_ottave.py` indicizzava i numeri di ottava del Guten
 
 La correzione non è stata «toccare i numeri», che avrebbe prodotto un indice bellissimo e falso. È stata: **chi tiene l'indice tiene anche l'elenco dei numeri di cui non è sicuro**, e non li rimappa in nessun modo. Un buco dichiarato è recuperabile; un numero spostato di uno in un canto intero non lo è, e non si vede.
 
-### 1.5 Le due edizioni a riscontro: tre differenze, tutte dichiarate
+### 1.5 L'edizione, e che cosa si trova aprendo un'altra
+
+*(decisione di Pietro, 02/10/2026: «mantiene la rima extranea (7 versi), che è un difetto dell'edizione e non del testo; a scuola serve sapere quale differenza si trova aprendo un'altra edizione. Specificandolo in modo chiaro e semplice».)*
+
+**La scelta: si tiene il 1928.** Il gioco cita l'edizione della **Biblioteca BEIC** di tutte le lettere, perché è in pubblico dominio ed è l'unica delle quattro fonti di §1.1 che abbia il numero d'ottava scritto esplicitamente.
+
+**La rima extranea, in parole semplici.** Un'ottava dell'*Orlando furioso* ha normalmente **otto versi**. Ma metà delle ottave del poema ne ha **sette**: l'ultimo, quello che non rima, si chiama appunto **rima extranea**, e serve a dare un riposo all'orecchio prima del ritmo di nuovo. Ariosto lo mette in corsivo. Il 1928 lo mette **fra parentesi** e in fondo al verso c'è un **50** di pagina: cosa voglia quel numero non è dichiarato in nessuna delle quattro edizioni, e va detto che non lo sappiamo.
+
+Perché questa cosa conta al gioco, e non è una curiosità da filologo: **è un difetto dell'edizione, non un difetto del testo**. Chi stampa il 1928 e conta i versi a mano sbaglia; chi sbaglia i numeri poi sbaglia le citazioni. Per questo la prima stesura indicava i versi per numero di riga e sbagliava **53 versi su 78** (§4.4), e per questo oggi la citazione si individua con un **frammento distintivo** e non con un numero.
+
+Le altre due cose da dire ai ragazzi, che vengono dalla stessa esperienza:
+
+- **la rima extranea sposta i numeri ma non sposta le parole**: il verso c'è, e basta cercarlo dentro l'ottava;
+- **aprire un'altra edizione può cambiare una riga, e va detto quale**: sotto, le tre differenze trovate fra il 1928 e il *Gutenberg*, tutte dichiarate e tutte verificabili con le mani.
+
+### 1.6 Le due edizioni a riscontro: tre differenze, tutte dichiarate
 
 `verifica_citazioni.py --gutenberg` confronta le citazioni che cadono nella prima parte — quella che il *Gutenberg* contiene — con l'altra edizione. Sono **23 su 30**; le altre sette sono fuori dal *Gutenberg* e il loro elenco è stampato ogni volta, non tacito.
 
@@ -87,6 +102,8 @@ Il risultato: **20 citazioni coincidono**, e **tre** dicono cose diverse.
 
 *(nota)* L'apostrofo non viene contato come differenza. «degl'infideli» e «degli infideli» sono la stessa parola in due edizioni, e segnalarlo sarebbe rumore: un controllo che segnala duecento cose non viene letto, e un controllo che non si legge non controlla.
 
+*(nota)* **Le tre differenze sono tutte di scrittura, non di significato.** Una è un verso che un'edizione mette fra parentesi e l'altra no; una è l'apostrofo eliso; una è «quante» contro «quanto». In nessuna delle tre un ragazzo perde il senso della tappa. La regola che ne segue è semplice e la vale per ogni disciplina: **un'edizione non è la verità, è una scelta** — e la scelta va detta, altrimenti il libro che il ragazzo ha in mano non è quello che il gioco gli ha citato.
+
 **La conclusione che conta** è che **nessuna delle tre differenze cambia l'insegnamento della tappa**. Il gioco può tenere il 1928 senza perdere nulla, purché lo dichiari — e lo dichiara, in tre righe, sulla prima pagina del testo e in fondo a ogni record.
 
 ---
@@ -99,7 +116,13 @@ Il risultato: **20 citazioni coincidono**, e **tre** dicono cose diverse.
 
 ### 2.2 La regola: due strati, un solo pin
 
+*(ratificata da Pietro il 02/10/2026: «va bene, estendiamo il file nel miglior modo possibile».)*
+
 > **Il `pin` — il luogo dove il gioco si ferma — resta il luogo reale e verificato del personaggio. La `stanza` — lo spazio che il giocatore attraversa — è quella del filone, e può essere un luogo che non esiste, dichiarato con il tipo `I`.**
+
+**Che cosa sono i pin, in una frase.** Un **pin** è il luogo in cui il gioco si **ferma**: quello su cui il giocatore può posare il dito e dire «sono qui». Il progetto ne ammette **uno per tappa**, e i trenta pin di un anno sono dunque trenta. Ma più tappe possono fermarsi nello stesso posto — Londra è il pin di 5-3, 5-7 e 5-19 — e in quel caso il posto è uno solo e i pin sono tre: è un **ritorno**, non una contraddizione. Nei dati (`dati/luoghi_gioco.json`) il campo `pin` di ciascun luogo è proprio questo: **quante tappe si fermano lì**, e la somma su tutti i luoghi dà esattamente il numero delle tappe del gioco (120).
+
+Lo si dice perché la parola «pin» viene dalla cartografia dei programmi e qui ha due sensi, e solo uno dei due è il suo. **Il pin è una tappa, non un indirizzo:** il pin è *dove il gioco si ferma*, l'indirizzo è *dove si trova quella cosa*. Sono due righe diverse, ed è per questo che la regola seguente ne fa due campi.
 
 È la stessa distinzione che il progetto ha già per i **strati**: la colonna dice l'anno e l'epoca storica, la nebbia dipende dal **pin visitato**. Qui la colonna storica resta, e la stanza è un'altra cosa.
 
@@ -108,6 +131,8 @@ Le conseguenze sono tre, e vanno dichiarate perché sono le regole del gioco:
 1. **un solo pin per tappa**, come sempre: nessuna tappa ha due luoghi sulla mappa;
 2. **nessun legame analogico verso un luogo reale**: se il filone è ambientato in un luogo reale, il legame dichiara *che cosa è successo lì* (`A`) o *che cosa quel luogo spiega* (`S`); se il luogo non esiste, il legame è `I` e non può essere altro;
 3. **il giocatore sa sempre in che mondo è**: la scheda della tappa porta tre righe — il pin (dove), il filone (di chi è questa storia), il luogo della stanza (dove sta accadendo). Le prime due sono vere; la terza può essere una favola, e lo dichiara.
+
+**La conseguenza tecnica, ratificata insieme alla regola.** `dati/luoghi_gioco.json` si estende con un blocco `tappe`: per ciascuna delle trenta tappe del quinto anno, il `pin` (il luogo reale, con il suo stato di coordinata) e la `stanza` (il luogo del filone, con filone, canto, ottava e tipo di legame). I due controlli automatici che ne derivano sono **F14** e **F15** (§7).
 
 ### 2.3 Perché la risposta è «entrambe le cose»
 
@@ -119,7 +144,19 @@ Si perde la promessa che **Fermi entri sulla Luna**. Era una buona promessa e l'
 
 ---
 
-## 3. I dodici filoni
+### 2.5 Il giocatore è dentro il *Furioso*
+
+*(decisione di Pietro, 02/10/2026: il giocatore è **dentro** il poema; «i personaggi parlano di sé e della propria età, come negli anni 3-4»; la sezione per esteso è in `videogioco-5-duchi-anno5-mondo.md` §4.2.)*
+
+La regola dei due strati non è solo una regola sui dati: è una scelta su **chi gioca**. Negli anni 3 e 4 chi gioca è **il visitatore che attraversa** la corte o l'archivio di un duca morto da secoli, e la domanda dell'anno è sua. Nel quinto anno la domanda è la stessa, ma la risposta la dà **il poema**: il giocatore è dentro l'*Orlando furioso*, e la domanda che lo riguarda non è «che cosa succede a Chicago» ma **«che cosa succede, in questo momento, a me che sto qui»**.
+
+Le tre conseguenze, che sono tutte verificabili nel testo del progetto:
+
+1. **i personaggi del parlano di sé e della loro età**, come negli anni 3 e 4: se l'anno sta a Ferrara nel 1592, la domanda di ogni persona che entra è *«da quanto sono qui?»*, e la risposta vale per lei e per il gioco;
+2. **la domanda dell'anno diventa leggibile** perché ha due facce: il *pin* dice quanto siamo lontani da oggi (Chicago, 1942), la *stanza* dice in che anno siamo (la strada della fuga di Rinaldo, 1513). Il gioco mette le due facce sulla stessa scheda e non sceglie;
+3. **i sei strati bianchi in fondo diventano la prova finale**: se il giocatore è dentro un racconto che sa già come va a finire, l'ultima tappa non è «che cosa succederà» ma **«che cosa ci resta da scrivere»** — che è la stessa domanda dei sei strati `S90`–`S95` (`anno5-mondo.md` §0.3 c).
+
+La regola che ne discende, e che vale per tutti i documenti: **chi gioca dentro il *Furioso* non è un personaggio del *Furioso*.** Non ha nome proprio nel testo, non viene ritratto, e non «vince» niente: sta dove la stanza dice che sta, e quando la stanza è un luogo che non esiste, il gioco lo dichiara prima di aprirla.
 
 Un **filone** è un racconto che attraversa più canti e più luoghi, e a cui il giocatore può tornare. Dodici sono molti per trenta tappe: la media è due e mezzo tappe per filone, e le tappe che si accavallano sono quelle in cui un filone riappare dopo venti canti — che è esattamente ciò che succede nel *Furioso*, e che il giocatore deve sentire.
 
@@ -135,18 +172,31 @@ Un **filone** è un racconto che attraversa più canti e più luoghi, e a cui il
 | `F8` | **Bradamante e Merlino** | 7-8, 21-22 | la tomba di Merlino, le selve di Pontiero | 5-27 |
 | `F9` | **Astolfo e il viaggio straordinario** | 22-23, 34-35 | il bosco, l'aria, **la Luna** | 5-3, 5-4, 5-8 |
 | `F10` | **Malagigi e l'incantesimo** | 11, 25-26 | il petron di Merlino, la torre | 5-12 |
-| `F11` | **Ruggiero e la conversione** | 13-16, 22-26, 41 | il campo di battaglia, la chiesa | **nessuna nel 5º anno** |
+| `F11` | **Ruggiero e la conversione** | 13-16, 22-26, 41 | il campo sotto l'assedio, la lettera | **5-22, facoltativa (`5-22F`)** |
 | `F12` | **La parola data a un altro** | 24, 30, 32, 46 | il libro di Turpino, il campo, la strada del messaggero | 5-14, 5-18, 5-25, 5-28 |
 
 La colonna dei **canti** è vincolante, non decorativa: ogni citazione deve cadere in un canto che il suo filone dichiara, e lo controlla `verifica_citazioni.py`. È una regola che è nata da un errore (§4.5).
 
-*(nota)* **`F11` non ha tappa nel quinto anno**, e non è un errore: la conversione di Ruggiero è un racconto che chiede un livello tutto suo (la fede, il battesimo, la scelta che non si può disfare) e quel livello è di un anno diverso, o del sesto. È dichiarato in `citazioni.json` con `assegnato: false` invece di essere cancellato, perché un filone senza tappa è un pensiero rimandato, non un pensiero scartato.
+*(nota, 02/10/2026 — decisione di Pietro)* **`F11` entra come tappa facoltativa**, non come tappa obbligatoria. La conversione di Ruggiero è un racconto che chiede un livello con due condizioni insieme: **una scelta che non si può disfare** e **la disponibilità ad aspettare che una condizione si verifichi prima di poterla onorare**. Le due condizioni sono esattamente l'argomento della tappa **5-22** (*ordine e affidabilità senza un'autorità che garantisca niente*), e il testo gliele dà entrambe nel canto XXV, dove Ruggiero promette per iscritto che «finito il tempo in che per fede astretto era al suo re […] si fará cristian». Non sostituisce nessuna delle trenta tappe: è una stanza in più, che si apre da 5-22 e che si può anche non aprire.
+
+**La definizione dei facoltativi**, che da qui vale per tutto il progetto (decisione di Pietro: «i facoltativi dovranno essere personaggi/posti con cui interagire e vanno tutti pensati anche in base alla parte informatica»):
+
+> **Un facoltativo è una persona o un luogo con cui il giocatore può interagire, e ogni facoltativo esiste per una ragione informatica dichiarata.** Se non c'è una parte del livello per cui quella persona serve, non è un facoltativo: è un nome in fondo alla scheda.
+
+I tre vincoli che ne derivano, e che `verifica_coerenza.py` controlla dal 02/10/2026: **un facoltativo è sempre un essere con cui si parla o un posto in cui si entra** (non un libro, non un'idea); **ha un tipo di legame dichiarato** (`B/A/S/I/C/N`); **e il suo spostamento geografico va giustificato** — se il facoltativo porta il protagonista su un altro continente, la tappa lo dichiara, perché un teletrasporto non spiegato è il difetto che questo progetto combatte.
 
 ---
+
+
+## 3. I dodici filoni
+
+*(la sezione 2.5 è stata spostata in `videogioco-5-duchi-anno5-mondo.md` §4.2, che è il documento che descrive il quinto anno: questo documento dice *che cosa è* il gioco dentro il poema, quello dice *come si gioca*)*
 
 ## 4. Le trenta citazioni
 
 ### 4.1 La regola della citazione
+
+*(aggiornata il 02/10/2026: tredici regole. La tredicesima è il tipo `N` di non luogo, §4.2 e `videogioco-5-duchi-luoghi.md` §4.3.)*
 
 > **Una tappa, un'ottava, due o quattro versi, e una parafrasi che si possa dire a voce.**
 
@@ -163,7 +213,8 @@ Dodici regole, tutte verificabili da `verifica_citazioni.py`:
 9. nessun campo obbligatorio è vuoto, e la **parafrasi** è di 186–300 caratteri: sotto i 120 è un titolo, e una tappa non ha un titolo al posto della spiegazione;
 10. il **`moto`** è una parola sola: è l'emozione che il personaggio *prova*, non quella che il lettore deve provare;
 11. il **`tema`** è la frase che va sulla targa, e deve stare anche da sola;
-12. il legame **`I`** non si sceglie sul tono della citazione ma sul luogo: va solo a un luogo che **non esiste**, e quel luogo deve essere nell'elenco dichiarato `luoghi_inesistenti` di `citazioni.json` (§4.7).
+12. il legame **`I`** non si sceglie sul tono della citazione ma sul luogo: va solo a un luogo che **non esiste**, e quel luogo deve essere nell'elenco dichiarato `luoghi_inesistenti` di `citazioni.json` (§4.7);
+13. il legame **`N`** (non luogo) si usa per ciò che non è un luogo ma non è nemmeno un luogo inesistente: una condizione attraversata, un'aria, un intervallo di tempo. Come `I`, non ammette coordinate; come `I`, va dichiarato in `citazioni.json`, in un elenco separato.
 
 ### 4.2 La tabella
 
@@ -178,7 +229,7 @@ Verificata il 02/10/2026: **30 citazioni, 82 versi, 0 problemi**.
 | **5-5** | F2 | canto 1, ottava 77 | `A` | la foresta dove passa Ferraú | curiosità / sorpresa | un tiro casuale non è un tiro sbagliato: è un tiro senza garanzia |
 | **5-6** | F5 | canto 5, ottava 23 | `A` | la corte di Scozia | pazienza / ostinazione | un numero irrazionale si costruisce tagliando e ricominciando |
 | **5-7** | F1 | canto 14, ottava 133 | `A` | il fossato di Sarza, sotto Parigi | terrore / allarme | una simulazione a tempo discreto è un incendio che avanza a passi |
-| **5-8** | F9 | canto 23, ottava 16 | `I` | l'aria sopra la foresta | risolutezza / concentrazione | ogni secondo di ritardo è un errore che non si cancella |
+| **5-8** | F9 | canto 23, ottava 16 | `N` | **l'aria sopra la foresta** *(non luogo)* | risolutezza / concentrazione | ogni secondo di ritardo è un errore che non si cancella |
 | **5-9** | F5 | canto 23, ottava 40 | `A` | la strada di Pontiero | inchiesta / determinazione | il dato non è il numero aggregato: è la sua distribuzione |
 | **5-10** | F6 | canto 8, ottava 1 | `S` | il paese degli incantatori | sorpresa / stupimento | gli stessi dati, due storie opposte: dipende da dove guardi |
 | **5-11** | F6 | canto 6, ottava 35 | `I` | **l'isola di Alcina** | inganno / seduzione | un dataset con una classe sola produce un modello con una risposta sola |
@@ -190,9 +241,10 @@ Verificata il 02/10/2026: **30 citazioni, 82 versi, 0 problemi**.
 | **5-17** | F4 | canto 4, ottava 18 | `S` | i monti Rifei | curiosità / divertimento | chi scrive lo standard sceglie la parola, e la parola finisce nel manuale di tutti |
 | **5-18** | F12 | canto 24, ottava 44 | `S` | il libro di Turpino | scoperta / soddisfazione | chi decide che cosa è corretto è la fonte, non il giudizio |
 | **5-19** | F4 | canto 30, ottava 93 | `S` | Montalbano | sollievo / arrivo | un indirizzo non certifica niente: dice solo «qui», e si verifica arrivando |
-| **5-20** | F1 | canto 16, ottava 37 | `A` | **Zibeltaro e l'Erculeo segno: Adria e Ferrara** | preoccupazione / concretezza | una rete di un edificio si progetta con l'acqua che c'è, non con quella che si vorrebbe |
+| **5-20** | F1 | canto 16, ottava 37 | `A` | **Zibeltaro e l'Erculeo segno, cioè Ferrara** (v. §4.8, verifica **F8**) | preoccupazione / concretezza | una rete di un edificio si progetta con l'acqua che c'è, non con quella che si vorrebbe |
 | **5-21** | F2 | canto 1, ottava 64 | `A` | la selva | decisione / risolutezza | il cammino più corto non è il più bello, e quando due costano uguale la scelta è tua |
 | **5-22** | F1 | canto 1, ottava 9 | `A` | il campo davanti a Parigi | sfida / slancio | l'ordine senza autorità funziona se il patto è chiaro e i fatti lo verificano |
+| ***5-22F*** *(facoltativa)* | F11 | canto 25, ottava 89 | `A` | il campo sotto l'assedio, dove Ruggiero scrive | prudenza / risoluzione | una promessa non è un'azione: è un'obbligazione che aspetta che una condizione si verifichi |
 | **5-23** | F7 | canto 6, ottava 45 | `I` | il regno di Logistilla | autorità / ammirazione | un nome che non appartiene a nessuno è il motivo per cui funziona |
 | **5-24** | F5 | canto 5, ottava 18 | `A` | la corte di Scozia | fiducia / trepida | un segreto che tutti hanno non è un segreto: è una telefonata |
 | **5-25** | F12 | canto 30, ottava 80 | `S` | la strada del messaggero | impazienza / ansia | più banda non serve se il canale è lento: la capacità non è la velocità |
@@ -202,7 +254,9 @@ Verificata il 02/10/2026: **30 citazioni, 82 versi, 0 problemi**.
 | **5-29** | F1 | canto 12, ottava 12 | `A` | la corte di Scozia | sospetto / irritazione | il merito di una scoperta va a chi l'ha fatta, non a chi l'ha detta per primo |
 | **5-30** | F3 | canto 1, ottava 1 | `S` | la prima pagina | impegno / serietà | un programma è l'elenco di ciò che farà: tutto, e nient'altro |
 
-I **legami** si distribuiscono così: quindici `A`, dieci `S`, cinque `I`. Nessun `B` e nessun `C`, ed è giusto: **nessuna delle trenta citazioni è un luogo di nascita**, perché il libro non è un libro di biografie. I cinque `I` sono tutti luoghi che non esistono, come deve essere, e sono i cinque dell'elenco dichiarato in `citazioni.json` (`luoghi_inesistenti`): la Luna, l'aria sopra la foresta, l'isola di Alcina, il castello d'Atlante, il regno di Logistilla. Gli altri luoghi delle stanze sono reali — strade, boschi, ponti, un campo — e prendono `A` o `S` secondo che sia successo qualcosa lì o quel luogo spieghi qualcosa.
+I **legami** si distribuiscono così: quindici `A`, dieci `S`, quattro `I`, un `N`. Nessun `B` e nessun `C`, ed è giusto: **nessuna delle trenta citazioni è un luogo di nascita**, perché il libro non è un libro di biografie. I quattro `I` sono tutti luoghi che non esistono, come deve essere, e sono quelli dell'elenco dichiarato in `citazioni.json` (`luoghi_inesistenti`): la Luna, l'isola di Alcina, il castello d'Atlante, il regno di Logistilla. Il quinto nome di quell'elenco è **«l'aria sopra la foresta»**, che dal 02/10/2026 ha il tipo **`N`**: non è un luogo che non esiste, è **un non luogo**, e la differenza non è una sfumatura (v. §4.9). Gli altri luoghi delle stanze sono reali — strade, boschi, ponti, un campo — e prendono `A` o `S` secondo che sia successo qualcosa lì o quel luogo spieghi qualcosa.
+
+**La citazione facoltativa `5-22F`** non è una delle trenta e non conta nei numeri della tabella: sta nel dizionario `facoltative` di `citazioni.json`, con lo stesso schema. `verifica_citazioni.py` la riverifica come tutte le altre e le controlla tre cose che le altre non hanno: **il filone è uno dei dodici**; **il canto è fra quelli che il filone dichiara**; **il codice è quello della tappa che la apre, con la lettera `F` in coda**. Una facoltativa che non si sa da dove si apre è una voce in più, non un livello.
 
 I **canti** da cui attingono le trenta citazioni sono sedici, e nessuno porta più di sei tappe: il canto 1 (il proemio, la dedica, l'inizio della fuga di Angelica) sei, il canto 23 tre, il canto 30 tre, il canto 5 tre, gli altri uno o due.
 
@@ -253,7 +307,62 @@ La lezione è la stessa delle altre tre, detta diversamente: **ogni regola che n
 
 ---
 
-## 5. La parafrasi interattiva
+### 4.8 Il quinto difetto: due nomi che il gioco aveva sbagliati (**F8** e **F9**, fatte)
+
+*(le due verifiche da fonte del 02/10/2026 sono state risolte sul testo, non sull'atlante: la regola del progetto è che quando due fonti non concordano, il testo del 1928 è il testimone e l'atlante è l'imputato.)*
+
+**F8 — «Zibeltaro» e «l'Erculeo segno» (16,37; ottava 5-20).**
+
+La citazione è di **Rinaldo**, che nella piana fuori di Parigi ragiona ai baroni. Il testo è netto su un punto e reticente su un altro, e la distinzione è la lezione:
+
+| nome nel testo | che cosa si può verificare sul 1928 | conclusione |
+|---|---|---|
+| **l'Erculeo segno** | è lo stemma degli **Estensi**: il poeta stesso, al canto XXVI (ottava 51), scrive «Duo Erculi, duo Ippoliti da Este, un altro Ercule, un altro Ippolito anco», mettendo «Ercole» e «Este» nella stessa frase | **è Ferrara**, e il gioco può dirlo: è la città del duca dentro il libro che gioca |
+| **Zibeltaro** | il poema lo richiama in un solo altro punto (canto XXX, ottava 10: «Zizera detta, che siede allo stretto / di Zibeltarro, o vuoi di Zibelterra») e non lo localizza mai | **non si può dichiarare**: è una terra di là dello stretto, e due letture sono in campo |
+
+L'errore che il gioco stava per perpetuare era doppio, euguale: la parafrasi della tappa 5-20 scriveva «Zibeltaro ed Ercole sono **Adria** e Ferrara», e **Adria non risulta da nessuna parte** — né dal testo né dall'atlante. La parafrasi è stata corretta e il luogo della stanza è diventato «Zibeltaro e l'Erculeo segno, cioè Ferrara», con una nota che dichiara che **Zibeltaro resta non localizzato**.
+
+La cosa più preziosa che ne esce non è la coordinata: è che **la tappa ha un argomento migliore di quanto non avesse**. Rinaldo avverte che i Mori sono già usciti una volta, e che l'attacco non viene da lontano: viene da una parte che credevano sicura. È esattamente il tema di 5-20 — **progettare una rete idrica con l'acqua che c'è, non con quella che si vorrebbe** — e diventa il caso in cui la minaccia è *dentro casa*. Ferrara è il nome della minaccia: il gioco può dirlo, e lo dice, con la fonte.
+
+**F9 — «la vocal tomba di Merlino» (7,38; ottava 5-27).**
+
+Il testo lo dice in quattro versi, e li dice senza equivoci:
+
+> Con questa intenzïon prese il camino / verso le selve prossime a Pontiero, / dove la vocal tomba di Merlino / era nascosa in loco alpestro e fiero. / **Ma quella maga** che sempre vicino / **tenuto a Bradamante avea il pensiero**, / quella, dico io, che nella bella grotta / l'avea de la sua stirpe instrutta e dotta;
+
+è **Bradamante** che parte, e non Astolfo. Il filone `F8` si chiama giustamente «Bradamante e Merlino» e la parafrasi era già corretta: **non c'è stato nessun errore, e il rischio era un altro** — il *Furioso* contiene **due** episodi che si somigliano, e chi li confonde scrive che è andata Astolfo:
+
+- **canto VII,38** — Bradamante va alla tomba e vi riceve la previsione (è la nostra tappa);
+- **canto XXXIV,5-6** — Astolfo entra in un antro dove cerca Merlino e **non lo trova**;
+- **canto XXIII,72** — Pinabello, sconfitto, **butta il cavallo nella tomba di Merlino**.
+
+La regola che ne segue è scritta nel dato: **ogni stanza del poema porta il nome di chi la abita**, e `verifica_citazioni.py` vieta che una stanza di Merlino venga assegnata ad Astolfo. Le lettere e le previsioni che Orlando cerca sono sulla **Luna** (canto XXXIV,83-87), e la tappa 5-4 le dichiara già: due posti diversi, due filoni diversi.
+
+### 4.9 Il sesto difetto, che è una decisione di genere: «l'aria sopra la foresta»
+
+*(decisione di Pietro, 02/10/2026: «mi piace come luogo non luogo (utile anche per eventuale filosofia)».)*
+
+Cinque stanze su trenta non hanno un luogo. Quattro sono **luoghi che non esistono** — la Luna, l'isola di Alcina, il castello d'Atlante, il regno di Logistilla — e hanno il tipo `I`: sono immagini, e su un'immagine si può ragionare. La quinta, **«l'aria sopra la foresta»**, è un'altra cosa: **non è un luogo inesistente, è un non luogo**. L'aria non si raggiunge, non si pinza, non ha coordinate: **la si attraversa**, e mentre la attraversi non sei da nessuna parte.
+
+Metterla fra gli inesistenti era comodo e sbagliato: obbligava a dire che l'aria «non esiste», che è falso, e nascondeva la cosa più interessante della stanza, cioè che **esistono cose che non sono né qui né altrove**.
+
+Da qui il **tipo `N`**, che è il sesto della scala dei legami:
+
+| Codice | Tipo | Che cosa ammette | Prova |
+|---|---|---|---|
+| `I` | **luogo che non esiste** | un'immagine, un regno favoloso, un corpo celeste | il luogo è dichiarato inesistente in `citazioni.json` |
+| `N` | **non luogo** | una condizione, un attraversamento, un intervallo | il luogo è dichiarato in un elenco separato, `non_luoghi` |
+
+Come `I`, `N` **non ammette coordinate**: è controllato dalla verifica **F14**. E come `I` va dichiarato, perché la regola vale per entrambi: se domani si può mettere `I` o `N` a piacere, il gioco perde la capacità di dire al ragazzo *quando una cosa è finta*.
+
+**Perché è utile anche per la filosofia, come dice Pietro, e in modo concreto.** «L'aria che attraversi» è il posto giusto per due domande che il quinto anno deve poter fare a voce: **dove si trova una cosa che non è in nessun posto?** (un dato in memoria, una promessa, un valore che passa da una variabile a un'altra) e **che cosa distingue un luogo da una condizione?** (una coordinata dice *dove*; una coordinata mancante dice *che tipo di cosa è*). Sono due domande di epistemologia, e nascono da una stanza in cui non si può disegnare niente.
+
+### 4.10 Il settimo difetto: due paragrafi che il gioco non poteva onorare
+
+Non un difetto del testo: un difetto del progetto, dichiarato perché anche i difetti di progetto vanno scritti. Il documento promises due cose che nessuno dei due poteva fare: **una tappa per `F11`** (§3) e **la definizione dei luoghi fantastici per tutte le stanze** (§4.2). La prima è risolta come facoltativa, la seconda come tipo `N`: sono le due cose che la revisione del 02/10/2026 ha cambiato, ed entrambe erano state scritte nella stessa settimana in cui il gioco si è accorto che i facoltativi non erano mai stati definiti.
+
+---
+
 
 ### 5.1 Che cosa deve fare, e che cosa non deve
 
@@ -285,6 +394,12 @@ Il provino è **generato**, non scritto: `sorgenti/furioso/provino_html.py` lo r
 
 ---
 
+---
+
+## 5. La parafrasi interattiva
+
+---
+
 ## 6. Come si collega al resto dei dati
 
 ### 6.1 Lo schema di un record (`dati/furioso/citazioni.json`)
@@ -298,22 +413,29 @@ Il provino è **generato**, non scritto: `sorgenti/furioso/provino_html.py` lo r
 | `versi` | lista di testo | i versi, presi dall'indice e non copiati |
 | `parafrasi` | testo | le due o tre frasi che il livello legge |
 | `moto`, `emozione`, `tema` | testo, testo, testo | il sentimento del personaggio, la sfumatura del gioco, la frase sulla targa |
-| `luogo`, `legame` | testo, `B/A/S/I/C` | il luogo della stanza e il tipo di legame, secondo `videogioco-5-duchi-luoghi.md` §1.2 |
+| `luogo`, `legame` | testo, `B/A/S/I/C/N` | il luogo della stanza e il tipo di legame, secondo `videogioco-5-duchi-luoghi.md` §1.2 e §4.3 |
 | `fonte` | testo | l'edizione, sempre |
 
-Accanto ai record, nella stessa radice del JSON, ci sono due dizionari che non sono tappe e che pure sono controllati: `filoni` (codice, titolo, canti, `assegnato`, `tappe`) e `luoghi_inesistenti` (gli unici luoghi a cui il legame `I` può arrivare, ciascuno con il perché). Una tappa senza questi due campi non viene dal generatore, e un generatore che li scrive a mano è un generatore che un giorno dirà una cosa diversa dal file.
+Accanto ai record, nella stessa radice del JSON, ci sono quattro strutture che non sono tappe e che pure sono controllate: `filoni` (codice, titolo, canti, `assegnato`, `tappe`), `luoghi_inesistenti` (gli unici luoghi a cui il legame `I` può arrivare, ciascuno con il perché), `non_luoghi` (gli unici a cui può arrivare `N`) e `facoltative` (le citazioni delle stanze facoltative, con il codice `5-NN F` della tappa che le apre). Una tappa senza questi campi non viene dal generatore, e un generatore che li scrive a mano è un generatore che un giorno dirà una cosa diversa dal file.
 
 ### 6.2 Che cosa va fatto anche in `dati/luoghi_gioco.json`
 
-Ogni record di tappa che oggi ha un solo `luogo` ne avrà due campi distinti, e la distinzione non è una formalità:
+Ogni record di tappa che oggi ha un solo `luogo` ne avrà due distinti, e la distinzione non è una formalità. `dati/luoghi_gioco.json` ha una chiave nuova, **`tappe`**, accanto a `luoghi`: trenta record, uno per tappa del quinto anno.
 
 ```json
-"pin":   {"nome": "Chicago", "tipo": "A"},
-"stanza": {"nome": "la strada della fuga di Rinaldo", "filone": "F2",
-           "canto": 1, "ottava": 32, "tipo": "A"}
+{"tappa": "5-20",
+ "pin":   {"luogo": "Ferrara", "coord_stato": "verificata"},
+ "stanza": {"luogo": "Zibeltaro e l'Erculeo segno", "legame": "A",
+            "filone": "F1", "canto": 16, "ottava": 37,
+            "coordinate": null}}
 ```
 
-Il `pin` va sulla mappa e ha coordinate; la `stanza` non ha coordinate quando il luogo non esiste, e questo diventa un controllo automatico: **una stanza di tipo `I` con coordinate è un errore**, e come ogni errore automatico va detto (§7).
+* il **`pin`** è il luogo reale: quello su cui il giocatore si ferma, con il suo stato di coordinata, che in `luoghi_gioco.json` è già dichiarato e non va ricreato;
+* la **`stanza`** è il luogo del filone, con il suo tipo di legame e il rimando al testo.
+
+I due campi hanno una sola regola in comune, ed è automatica: **una stanza di tipo `I` o `N` con coordinate è un errore** (verifica **F14**). E una seconda, che è quella che rende il blocco utile invece che decorativo: **`pin` e `stanza` devono essere dichiarati per tutte e trenta le tappe, e la stanza deve coincidere con la citazione** (verifica **F15**).
+
+Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene al catalogo degli accoppiamenti persona–luogo (`videogioco-5-duchi-luoghi.json`, ancora da generare, §5.1 di `luoghi.md`), e qui compitarlo sarebbe inventare ventisei valutazioni non verificate. Il blocco porta il **luogo** e il suo **stato di coordinata**: tutto ciò che la mappa sa già.
 
 ---
 
@@ -323,40 +445,62 @@ Il `pin` va sulla mappa e ha coordinate; la `stanza` non ha coordinate quando il
 |---|---|---|
 | **F1** | l'ottava 1 del canto 1 dice «Le donne, i cavallier, l'arme, gli amori» | **fatta** (è la prima riga di `dati/furioso/orlando_furioso_1928.txt`) |
 | **F2** | tutti i 46 canti sono coperti | **fatta** (46/46, nessuna pagina mancante) |
-| **F3** | le trenta citazioni corrispondono al testo | **fatta**: 30 citazioni, 82 versi, 0 problemi |
+| **F3** | le trenta citazioni corrispondono al testo | **fatta**: 30 citazioni obbligatorie, 82 versi, più la citazione facoltativa `5-22F`; 0 problemi |
 | **F4** | nessuna ottava è citata due volte | **fatta** (controllata dallo script) |
 | **F5** | nessuna citazione cade su un'ottava difettosa o ambigua | **fatta** (controllata dallo script) |
 | **F6** | il prototipo non chiede niente a nessuno | **fatta** (nessun `http`, `fetch`, `XMLHttpRequest`, `<script src`, `<link>`) |
-| **F7** | la stessa ottava, nelle due edizioni disponibili (*Gutenberg* e 1928), dà lo stesso testo | **fatta**: 23 citazioni confrontate, **20 coincidono**, tre divergono (§1.5): un verso in più, un apostrofo, una variante di accordo. Nessuna cambia l'insegnamento |
-| **F8** | Zibeltaro è Adria e «l'Erculeo segno» è Ferrara | **da fare**: la citazione 5-20 è di Adria e Ferrara, ed è il fatto che collega il poema alla città del gioco; va verificato su fonte |
-| **F9** | la «vocal tomba di Merlino» (5-27) è la grotta che Bradamante visita, non quella che Astolfo visita | **da fare**: il testo è chiaro (7,38), ma nel *Furioso* ci sono due visite e i nomi si somigliano |
-| **F10** | le trenta parafrasi sono state lette ad alta voce da qualcuno che non le ha scritte | **da fare**, ed è la verifica più importante: una parafrasi che a voce suona male è una parafrasi da rifare |
+| **F7** | la stessa ottava, nelle due edizioni disponibili (*Gutenberg* e 1928), dà lo stesso testo | **fatta**: 23 citazioni confrontate, **20 coincidono**, tre divergono (§1.6): un verso in più, un apostrofo, una variante di accordo. Nessuna cambia l'insegnamento |
+| **F8** | «l'Erculeo segno» è Ferrara, e che cosa è «Zibeltaro» | **fatta** (§4.8): l'Erculeo segno è **lo stemma degli Estensi** — lo dice il poeta stesso al canto XXVI, 51, «Duo Erculi, duo Ippoliti da Este» — e dunque Ferrara. **Zibeltaro non è localizzabile sul testo** e resta dichiarato tale. La parafrasi di 5-20, che diceva «Zibeltaro ed Ercole sono Adria e Ferrara», era **sbagliata**: Adria non compare né nel testo né nell'atlante, ed è stata corretta |
+| **F9** | la «vocal tomba di Merlino» (5-27) è la grotta che Bradamante visita, non quella che Astolfo visita | **fatta** (§4.8): **è Bradamante** (7,38, «quella maga che sempre vicino / tenuto a Bradamante avea il pensiero»). La parafrasi era già giusta; il pericolo era la confusione con i due altri episodi — Astolfo nell'antro senza trovar Merlino (34,5-6) e il cavallo di Pinabello gettato nella tomba (23,72). Ora ogni stanza porta il nome di chi la abita |
+| **F10** | le trenta parafrasi sono state lette ad alta voce da qualcuno che non le ha scritte | **lasciata in sospeso** per decisione di Pietro (02/10/2026): è l'unica verifica che **non si può chiudere da solo**, perché richiede una voce estranea al testo. Va fatta con la classe, prima della pubblicazione, e finché non è fatta il capitolo dei dati porta `F10: sospesa` invece di `fatta` — che è la differenza fra «non l'abbiamo fatto» e «abbiamo deciso di non farlo adesso» |
 | **F11** | ogni citazione cade in un canto che il suo filone dichiara | **fatta**: prima del controllo tre erano fuori (§4.5), ora zero |
 | **F12** | due tappe confinanti non citano ottave dello stesso canto a meno di tre distanza | **fatta** (§4.6) |
 | **F13** | il legame `I` va solo a un luogo che non esiste, e quel luogo è dichiarato | **fatta**: prima del controllo 5-17 aveva `I` su un luogo reale (§4.7), ora zero |
+| **F14** | una stanza di tipo `I` o `N` non ha coordinate | **fatta** (controllata dallo script, su tutti e trenta i record `tappe` di `dati/luoghi_gioco.json`): prima della regola dei due strati la domanda non era nemmeno formulabile, perché la stanza non era un campo |
+| **F15** | `pin` e `stanza` sono dichiarati per tutte e trenta le tappe, e la stanza combacia con la citazione | **fatta**: trenta record, trenta pin (il gioco si ferma in trenta posti), trenta stanze, nessuna senza il suo filone, canto e ottava |
 
 ---
 
 ## 8. Questioni aperte
 
-1. **Q1 → risolta** (la Q1 di `luoghi.md` §8): il *pin* resta reale e verificato, la stanza è quella del filone, e la Q1 non si pone più. Va ratificata da Pietro, perché è una sua decisione e non mia.
-2. **`F11` senza tappa**: Ruggiero e la conversione restano fuori dal quinto anno. Va deciso se diventano il livello di un altro anno, o se il filone entra con una sola tappa.
-3. **L'Africa del *Furioso***: `videogioco-5-duchi-luoghi.md` §6.1 dichiara già che è il tema più serio del quinto anno. Con quattro tappe su `F1` — la guerra e il patto — questa parte va riscritta con la stessa onestà: nel poema il nemico è «il Moro», e il gioco non deve insegnare nient'altro su quella riga.
-4. **L'edizione**: qui si usa il 1928, che modernizza la grafia. A scuola si sceglie un'edizione e si tiene quella. La scelta è di Pietro (V, `citazioni.json → fonte.avvertenza_2`).
-5. **Il *Furioso* anche negli anni 2–4?** Fin qui il poema è del quinto anno. Se la stanza del filone funziona, è la cosa più bella che si possa fare anche all'anno III (Europa: Ruggiero, Bradamante, Atlante). Non propongo di farlo adesso: propongo di sapere che si può.
+*(aggiornato il 02/10/2026, dopo le risposte di Pietro. Le cinque questioni di v0.3 sono **chiuse**, tutte e cinque, e al loro posto sono nate due nuove che sono davvero aperte.)*
+
+| # | questione | esito |
+|---|---|---|
+| 1 | La mappa è il *Furioso* o il *Furioso* è l'atlante? | **chiusa** — la regola dei due strati, ratificata (§2.2) |
+| 2 | `F11` senza tappa | **chiusa** — entra come **facoltativa `5-22F`**, con la definizione dei facoltativi (§3) |
+| 3 | L'Africa del *Furioso* | **chiusa** — riscritta in `videogioco-5-duchi-luoghi.md` §6.1, sulla parola del testo |
+| 4 | L'edizione | **chiusa** — si tiene il **1928**, e la rima extranea e le tre differenze sono spiegate in modo semplice (§1.5) |
+| 5 | Il *Furioso* anche negli anni 2–4? | **chiusa** — **no**, per decisione di Pietro: riaprirebbe tre documenti già coerenti e aggiungerebbe un secondo strato agli anni 2–4, dove nessuno lo chiede. Resta scritto che si potrebbe |
+
+**Q6 — le due nuove questioni, che sono le vere.**
+
+1. **I tredici filoni che il gioco mostra e i dodici che il documento dichiara.** Da quando `F11` è entrato come facoltativa, i filoni *usati* sono dodici e quelli *dichiarati* sono dodici: la cifra torna. Ma il giocatore ne vede **tredici**, perché la facoltativa ha un titolo suo. Va deciso se nel registro del gioco `F11` sta come **filone giocabile** o come **stanza aperta da un'altra**, e la seconda è la risposta che consiglio: un filone che si apre da una tappa non è un filone per cui si viaggia, e dirlo al ragazzo è più onesto.
+2. **Le ventisei stanze che non hanno una coordinata e non ne hanno bisogno.** Le stanze sono già tutte dichiarate in `citazioni.json`; quel che manca è la loro **resa grafica**: come si disegna sulla carta del gioco una strada che non ha nome, una grotta, un campo, un non luogo e una Luna. È un problema di `motore-e-grafica.md` e di `mappe.md`, non di questo documento, e va affrontato prima che il primo livello sia giocabile.
 
 ---
 
 ## 9. Cosa c'è da fare
 
-1. **ratificare la regola dei due strati** (§2.2): è la decisione che regge tutto il resto, e finché non è presa il documento resta una proposta.
-2. **estendere `dati/luoghi_gioco.json`** con `pin` e `stanza`, e aggiungere il controllo automatico *stanza di tipo `I` senza coordinate*.
-3. **fare F8 e F9**, che sono le due verifiche da fonte, e non da script.
-4. **le trenta parafrasi, lette ad alta voce** (F10): da fare con la classe, non prima.
-5. **riscrivere §4.5 di `luoghi.md`** con la regola dei due strati, e chiudere la Q1.
-6. **decidere il posto di `F11`** (questione 2).
-7. **scegliere l'edizione per la scuola** (§1.5): il 1928 va bene, ma va detto, e va detto anche *quale* differenza si trova chi apre un'altra edizione.
-8. **arrecare l'elenco degli inesistenti di `luoghi.md` §4.3**: delle cinque stanze con legame `I`, quattro sono già nell'elenco dei luoghi fantastici; «l'aria sopra la foresta» non c'è, ed è un caso che va deciso — è un luogo che non esiste, o è una condizione (l'aria che si attraversa) e quindi non un luogo?
+*(i primi otto punti della v0.3 sono **fatti** e sono spariti dalla lista, non dimenticati: la regola è che una cosa fatta non resta nella lista, resta nel registro)*
+
+1. **la regola dei due strati** (era punto 1): fatta, ratificata (§2.2).
+2. **`dati/luoghi_gioco.json` esteso** (era punto 2): fatto, con `pin`, `stanza` e i due controlli F14 e F15 (§6.2).
+3. **F8 e F9** (era punto 3): fatte sul testo, e una delle due ha trovato un errore vero nella parafrasi (§4.8).
+4. **le trenta parafrasi lette ad alta voce** (era punto 4): **sospese** per decisione di Pietro, non cancellate (§7, F10).
+5. **`luoghi.md` §4.5 riscritta** (era punto 5): fatto, v0.3.
+6. **il posto di `F11`** (era punto 6): fatto, è la facoltativa `5-22F`.
+7. **l'edizione** (era punto 7): fatto, §1.5.
+8. **«l'aria sopra la foresta»** (era punto 8): fatto, è il tipo `N` e ha una sezione tutta sua (§4.9).
+
+**Quello che resta, in ordine di utilità:**
+
+1. **la Q6.2**: il disegno delle stanze senza coordinate. È il primo ostacolo alla giocabilità e non riguarda questo documento.
+2. **la Q6.1**: la fascia di `F11` nel registro del gioco.
+3. **`F10`**, quando ci sarà qualcuno che legga ad alta voce.
+4. **la scheda di `citazioni.json` per la tappa 5-20**: il luogo «Zibeltaro e l'Erculeo segno» non ha coordinate e non deve Averle, ma la scheda del giocatore deve dire *perché* — e il perché è che uno dei due nomi non è localizzato. Un luogo non localizzato dichiarato vale più di un luogo inventato.
+7. *(fatto — l'edizione è scelta e spiegata: §1.5)*
+8. *(fatto — «l'aria sopra la foresta» è il tipo `N`: §4.9)*
 
 ---
 
@@ -382,3 +526,15 @@ Il `pin` va sulla mappa e ha coordinate; la `stanza` non ha coordinate quando il
   - **un legame `I` su un luogo che esiste**: la tappa 5-17 portava «i monti Rifei» con il legame interpretativo, ma quei monti sono una catena vera, e `I` significa «questo luogo non esiste» (§4.7). Il legame diventa `S` — sono i monti Rifei che spiegano il nome dell'ippogrifo, che è il tema della tappa — e i legami diventano quindici `A`, dieci `S`, cinque `I`;
   - **l'elenco degli inesistenti è dichiarato nei dati**: `citazioni.json` ha ora il campo `luoghi_inesistenti`, con i cinque luoghi ammessi come inesistenti e il perché di ognuno; `verifica_citazioni.py` vieta a un `I` qualsiasi altro luogo (nuova verifica **F13**, regola numero 12);
   - la tabella delle verifiche è riordinata da F1…F13, il rimando a `anno5-mondo.md` torna alla v0.2 (quella che il documento ha davvero, e non una v0.3 che non esiste ancora), il punto 5 di §9 punta a `luoghi.md` §4.5 e non a §6.1, e c'è un punto nuovo: decidere che cosa sia «l'aria sopra la foresta».
+- **v0.4 (02/10/2026)**: le sedici decisioni di Pietro applicate. Il testo non è stato riscritto: sono state prese cinque decisioni, fatte due verifiche da fonte, corretti un errore vero e un difetto di conteggio.
+  - **la regola dei due strati è ratificata** e la Q1 è chiusa (§2.2), con la spiegazione di che cosa sono i pin — che è una domanda che il documento non aveva mai risposto e che chi legge i dati si fa subito: il pin è il luogo dove il gioco si **ferma**, uno per tappa, e più tappe possono fermarsi nello stesso posto (Londra è il pin di 5-3, 5-7 e 5-19);
+  - **`F8` fatta e con un errore trovato**: «l'Erculeo segno» è **Ferrara** — lo stemma degli Estensi, che il poeta stesso dichiara al canto XXVI, 51 — mentre **«Zibeltaro» non è localizzabile sul testo** e resta dichiarato tale. La parafrasi della tappa 5-20 diceva «Zibeltaro ed Ercole sono **Adria** e Ferrara»: **Adria non compare né nel testo né nell'atlante**, ed è stata tolta. Il luogo della stanza è ora «Zibeltaro e l'Erculeo segno, cioè Ferrara» (§4.8);
+  - **`F9` fatta**: è **Bradamante** ad andare alla tomba di Merlino (7,38), non Astolfo; la parafrasi era già giusta, il pericolo era la confusione con i due altri episodi della tomba e dell'antro. Ora ogni stanza del poema porta il nome di chi la abita;
+  - **`F10` sospesa**, non cancellata: è l'unica verifica che richiede una voce estranea al testo, e il registro dice *sospesa* invece di *fatta*;
+  - **il giocatore è dentro il *Furioso*** (§2.5, e per esteso `anno5-mondo.md` §4.2): pin e stanza sulla stessa scheda, con due domande diverse — quanto siamo lontani da oggi, e in che anno siamo;
+  - **`F11` entra come tappa facoltativa `5-22F`** (canto XXV, 89: la promessa che aspetta una condizione), ed è definita la **facoltativa** come «una persona o un luogo con cui si interagisce, pensato per la parte informatica della tappa, con il suo spostamento dichiarato»;
+  - **nasce il tipo `N`, non luogo**: «l'aria sopra la foresta» non è un luogo inesistente ma una condizione attraversata, e va detto al ragazzo, perché è la domanda che riguarda i dati in memoria e le promesse non ancora scadute;
+  - **l'edizione è scelta e spiegata in modo semplice** (§1.5): si tiene il 1928, la **rima extranea** (sette versi invece di otto) è spiegata come **difetto dell'edizione e non del testo**, e le tre differenze con il *Gutenberg* sono dichiarate una per una;
+  - **`dati/luoghi_gioco.json` ha il blocco `tappe`**: trenta record con `pin` e `stanza`, e due verifiche nuove, **F14** (una stanza `I` o `N` non ha coordinate) e **F15** (pin e stanza per tutte e trenta le tappe, e la stanza combacia con la citazione);
+  - **le questioni aperte passano da cinque a due**, e sono due nuove: il posto di `F11` nel registro del gioco, e il disegno delle stanze senza coordinate;
+  - **un difetto di conteggio corretto**: i legami erano «quindici `A`, dieci `S`, cinque `I`» e dopo il tipo `N` sono quindici `A`, dieci `S`, quattro `I`, un `N`. Cinque `I` erano la somma sbagliata di quattro luoghi inesistenti più un non luogo.

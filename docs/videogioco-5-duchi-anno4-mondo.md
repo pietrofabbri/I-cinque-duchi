@@ -1,11 +1,12 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno IV, il mondo oltre l'Europa: l'archivio di Ferrara e il pianeta a strati
-versione: 0.4
-data: 2026-10-01
+versione: 0.5
+data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
+revisioni: v0.1 (prima stesione dell'01/10/2026); v0.2 (la regola di Newton al 4-7); v0.3 (rimandi); v0.4 (rimandi); v0.5 (le sedici decisioni di Pietro del 02/10/2026: il buco di `S66` è chiuso con una sostituzione — la 4-16 passa da Ibn Khaldun ad Ashoka —, il presente entra come facoltative forti, i due collettivi restano due tappe distinte, i codici `Q` sono confermati, e i buchi geografici dell'anno diventano facoltative continentali)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO IV — IL MONDO OLTRE L'EUROPA" e "ANNO IV — LE CIVILTÀ DEL MONDO"), 01/10/2026
 dati: videogioco-5-duchi-anno4-mondo.json e videogioco-5-duchi-anno4-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 4-1…4-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.4 elenco dei livelli dell'anno 4), videogioco-5-duchi-luoghi.md (v0.1, la regola dei luoghi, applicata ai pin di questo documento), videogioco-5-duchi-anno3-europa.md (v0.2, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 4-1…4-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.4 elenco dei livelli dell'anno 4), videogioco-5-duchi-luoghi.md (v0.3, la regola dei luoghi e i buchi geografici come facoltative continentali), videogioco-5-duchi-anno3-europa.md (v0.4, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno IV — Il mondo oltre l'Europa
 
@@ -51,11 +52,25 @@ La formalizzazione li tiene separati perché sono due cose diverse, e li unisce 
 **(b) Due strati restano senza tappe, ed è un buco vero.** Dei sedici strati (§3.2), due sono vuoti:
 
 - **`S60`, prima delle città**: non è una scelta, è una constatazione. Prima del 3300 a.C. **non esistono documenti scritti**, e un archivio di quei tempi è vuoto. Il gioco può mostrarlo con una tappa facoltativa (Ötzi, che è già la tappa 2-1 dell'Anno II: v. §6.4);
-- **`S66`, India e Asia meridionale dal 300 a.C. al 1200**: qui è una scelta, ed è un buco. Buddha e Ashoka sono due delle voci più forti del materiale e **non hanno tappa obbligatoria** (§13, Q2).
+- ~~**`S66`, India e Asia meridionale dal 300 a.C. al 1200**: qui era una scelta, ed era un buco.~~ **chiuso il 02/10/2026**: `S66` ha una tappa obbligatoria, la **4-16**, che porta **Ashoka** (v. §0.4). Buddha resta facoltativa forte della stessa tappa.
 
-**(c) L'età digitale resta sottorappresentata, e per una ragione buona.** Quattro tappe arrivano all'Ottocento e al primo Novecento (4-17 Ambedkar, 4-25 Douglass, 4-27 Nightingale, 4-29 Curie) e **una sola** arriva al Novecento pieno (4-28, Orwell, 1903–1950). Berners-Lee, Gagarin, Armstrong, Mandela, Malala sono nel catalogo come **facoltativi e di atlante**. La ragione è che i livelli 4-29 e 4-30 (privacy, open data, database) sono i livelli in cui il presente sarebbe più naturale, e sono anche gli ultimi due, dove il percorso deve chiudersi con la domanda e non con un personaggio. È una decisione, non una dimenticanza: §13, Q3.
+**(c) L'età digitale resta sottorappresentata, e per una ragione buona.** Quattro tappe arrivano all'Ottocento e al primo Novecento (4-17 Ambedkar, 4-25 Douglass, 4-27 Nightingale, 4-29 Curie) e **una sola** arriva al Novecento pieno (4-28, Orwell, 1903–1950). Berners-Lee e Malala sono **facoltative forti** dal 02/10/2026 (4-11 e 4-29); Gagarin, Armstrong e Mandela restano nel catalogo come **facoltativi e di atlante**. La ragione è che i livelli 4-29 e 4-30 (privacy, open data, database) sono i livelli in cui il presente sarebbe più naturale, e sono anche gli ultimi due, dove il percorso deve chiudersi con la domanda e non con un personaggio. È una decisione, non una dimenticanza: §13, Q3.
 
 ---
+
+### 0.4 Il buco dell'Asia meridionale, chiuso (02/10/2026)
+
+*(decisione di Pietro: opzione **(a)**, «sostituire una delle 30 tappe con Ashoka».)*
+
+La Q1 di §13 offriva tre strade e la scelta è stata la prima. La tappa scelta è la **4-16** (*Dato, informazione, archivio*, `PT-SCR`), ed è l'unica dei sei agganci «medio» che **non perde forza** cambiando voce: Ibn Khaldun ne era un caso concettuale, perché la *Muqaddimah* non contiene un archivio ma una teoria dell'archivio; Ashoka ne contiene **centinaia**, incise su pietra.
+
+Tre conseguenze, dichiarate perché sono quelle che il gioco deve sapere:
+
+1. **`S66` non è più uno strato vuoto**: ha una tappa obbligatoria, e con essa l'India antica entra nel percorso dell'anno che si chiama «il mondo oltre l'Europa». Era esattamente l'errore che il documento dichiarava di voler evitare;
+2. **Ibn Khaldun diventa la facoltativa forte della stessa tappa**, e **Buddha** l'altra facoltativa. La sostituzione non cancella nessuno: sposta il peso da una voce che era concettuale a una che ha i documenti, e lascia le altre due nella stanza;
+3. **il pin passa da Tunisi a Pataliputra**, e le coordinate di Pataliputra (l'antica Patna, Bihar) sono da verificare in `dati/luoghi_gioco.json` con lo stato `da_geocodificare_a_mano`, dichiarato e non inventato.
+
+**Il bilancio.** Agganci forti: 24 → **25**. Medi: 6 → **5**. Strati privi di tappa obbligatoria: da due a **uno**: `S66` si è riempito, e resta solo `S60`, che è giustamente vuoto perché prima del 3300 a.C. non ci sono documenti scritti — un vuoto che l'anno deve mostrare, non colmare.
 
 ## 1. Il principio zero, esteso: il mondo non esiste ancora
 
@@ -107,7 +122,7 @@ La differenza rispetto agli anni precedenti è nella scala, e va risolta esplici
 | `S63` | Cina: le procedure e la scrittura | 600 a.C. – 500 d.C. | 4-3, 4-12 |
 | `S64` | I mondi greci | 800 – 100 a.C. | 4-15 |
 | `S65` | Roma, l'Impero, il tardoantico | 100 a.C. – 600 d.C. | 4-13 |
-| `S66` | India e Asia meridionale | 300 a.C. – 1200 d.C. | — |
+| `S66` | India e Asia meridionale | 300 a.C. – 1200 d.C. | 4-16 |
 | `S67` | I mondi islamici | 700 – 1500 | 4-2, 4-11, 4-19 |
 | `S68` | Gli imperi eurasiatici | 1100 – 1300 | 4-6 |
 | `S69` | Africa occidentale, deserti e rotte | 1200 – 1450 | 4-9, 4-16 |
@@ -118,7 +133,7 @@ La differenza rispetto agli anni precedenti è nella scala, e va risolta esplici
 | `S74` | Cifre, diritti, misure | 1750 – 1900 | 4-17, 4-20, 4-25, 4-27, 4-29 |
 | `S75` | Il secolo breve e il presente aperto | 1900 – oggi | 4-28, 4-30 |
 
-**I due strati vuoti.** `S60` non è un errore: prima del 3300 a.C. **non ci sono documenti scritti**, e il vuoto dell'archivio è il primo insegnamento dell'anno. `S66` è una scelta, e una scelta discussa: Buddha e Ashoka ci sono, ma come facoltativi (§13, Q2).
+**I due strati vuoti.** `S60` non è un errore: prima del 3300 a.C. **non ci sono documenti scritti**, e il vuoto dell'archivio è il primo insegnamento dell'anno. `S66` **non è più vuoto** dal 02/10/2026: la tappa **4-16** vi porta **Ashoka**, e l'India antica entra nel percorso obbligatorio al posto del deserto di Ibn Khaldun (§0.4, `13 Q1`).
 
 **Vincoli sugli strati.** Come negli anni precedenti, **nessun vincolo di monotonia**: il percorso scende e risale continuamente (4-1 è in `S61`, 4-4 in `S62`, 4-10 in `S72`, 4-13 in `S65`, 4-22 in `S61`, 4-30 in `S75`). Le regole: ogni tappa dichiara il proprio strato; un luogo può comparire più volte purché cambi la voce; la nebbia dipende dal **pin visitato**, non dallo strato.
 
@@ -202,12 +217,12 @@ La domanda a schermo intero, che è la conclusione del quarto anno, è quella de
 | **4-8** | Diagramma UML delle classi | `S73` | Uppsala | **Carl Linneo** (Q208) | `PT-CRR` | Il mondo diventa un disegno di caselle e linee. È una descrizione, o è un verdetto? | forte | §20 Il razzismo moderno | I lini (collettivo); le critiche alla classificazione (facoltativa) |
 | **4-9** | Liste collegate e riferimenti | `S69` | Il Cairo `A`, con Timbuctù `S` | **Mansa Musa** (Q209) | `PT-MAR` | Una catena di pozzi, e ogni pozzo indica il successivo: che cosa succede se ne salta uno? | forte | §9 Il commercio | I mercanti di Songhai; Ibn Battuta (ritorno, facoltativa) |
 | **4-10** | Prova di corte: modellare un sistema a oggetti | `S72` | Ferrara, corte | **Ercole II d'Este** (Q210) | `PT-CRR` | Di settantacinque anni di duchi, quasi niente è rimasto. Che cosa manca, e chi l'ha perso? | forte | §71 Ercole II guarda il mondo | I magazzinieri; Lucrezia Borgia (ritorno) |
-| **4-11** | Implementare un linguaggio | `S67` | Baghdad | **Al-Khwarizmi** (Q211) | `PT-SCR` | Una procedura scritta perché la esegua qualcun altro: il primo programma è una regola in arabo. | forte | §50 Le lingue | Robert of Chester (facoltativa); il libro dell'algebra |
+| **4-11** | Implementare un linguaggio | `S67` | Baghdad | **Al-Khwarizmi** (Q211) | `PT-SCR` | Una procedura scritta perché la esegua qualcun altro: il primo programma è una regola in arabo. | forte | §50 Le lingue | **Tim Berners-Lee (facoltativa forte dal 02/10/2026)**; Robert of Chester (facoltativa); il libro dell'algebra |
 | **4-12** | Analisi lessicale: i token | `S63` | Qufu | **Confucio** (Q212) | `PT-SCR` | Un testo di cinquemila anni senza un punto e senza una virgola: come trovi le parole? | forte | §1 Vivere insieme | Il dizionario di Mengxi (facoltativa); i calligrafi |
 | **4-13** | Grammatiche e sintassi (BNF) | `S65` | Alessandria | **Ipazia** (Q213) | `PT-ORR` | Tre scritture sulla stessa pietra e una sola frase: come si riconosce la stessa frase in tre lingue? | medio | §23 Ma la conoscenza può anche essere perduta | I sacerdoti di Soknopaiou Nesos (facoltativa); le tre scritture |
 | **4-14** | Alberi sintattici e valutazione | `S71` | Tenochtitlán | **Moctezuma II** (Q214) | `PT-REG` | Il trono si eredita dalla parte della madre: l'albero si percorre al contrario. Come ci si cerca dentro? | medio | §13 Le Americhe prima e dopo l'arrivo europeo | Tlacaelel (facoltativa); i calendari (collettivo) |
 | **4-15** | Un mini-interprete | `S64` | Chio e la Ionia | **Omero** (Q215) | `PT-ORR` | Nessuno scrisse i poemi: li cantavano. Un testo senza pagina, che si esegue a voce? | forte | §25 Esplorare non significa scoprire | I rapsodi (collettivo); Pisistrato (facoltativa) |
-| **4-16** | Dato, informazione, archivio | `S69` | Tunisi e Il Cairo | **Ibn Khaldun** (Q216) | `PT-SCR` | Davanti a sette generazioni dico che cambieranno. È una previsione, o ha letto i registri? | medio | §72 Il concetto di progresso | Cesare (ritorno, facoltativa); le tribù del deserto |
+| **4-16** | Dato, informazione, archivio | `S66` | Pataliputra | **Ashoka** (Q216, *sostituisce Ibn Khaldun dal 02/10/2026, v. §0.4*) | `PT-SCR` | Un impero scrive su pietra perché chi verrà possa leggere: un dato che sopravvive a chi l'ha prodotto | forte | §72 Il concetto di progresso | **Ibn Khaldun (facoltativa forte, era la voce obbligatoria)**; Cesare (ritorno); i monaci buddisti |
 | **4-17** | Modello E/R: entità, attributi, relazioni | `S74` | Bombay e Delhi | **B. R. Ambedkar** (Q217) | `PT-CRR` | Nati in una certa famiglia si eredita anche un mestiere e un posto dove sedersi. È una tabella? | forte | §19 Le caste e la gerarchia | Il tempio di Kalaram (facoltativa); il poeta |
 | **4-18** | Cardinalità e vincoli | `S72` | Costantinopoli | **Solimano il Magnifico** (Q218) | `PT-CRR` | Un impero in cui ognuno appartiene a più di una cosa: quante relazioni servono? | forte | §8 Le città raccontano il potere | I millet (collettivo); Ibrahim, fratello del sultano (facoltativa) |
 | **4-19** | Modello relazionale: tabelle e chiavi | `S67` | Il Cairo | **Ibn al-Haytham** (Q219) | `PT-LAB` | Sei righe di misure per ogni luce: la tabella c'è, ma la chiave è una domanda. | medio | §24 Chi può produrre conoscenza | Il Libro degli specchi (facoltativa); il muḥtasib |
@@ -220,10 +235,10 @@ La domanda a schermo intero, che è la conclusione del quarto anno, è quella de
 | **4-26** | SQL: JOIN | `S71` | Spagna e Tenochtitlán | **Hernán Cortés** (Q226) | `PT-ORR` | Un impero di milioni non crolla per un esercito: crolla quando si unisce a un'altra tabella. | forte | §48 Il colonialismo visto da più lati | Las Casas (facoltativa); i signori di Tlaxcala (collettivo) |
 | **4-27** | SQL: aggregazioni e GROUP BY | `S74` | Scutari e Costantinopoli | **Florence Nightingale** (Q227) | `PT-LAB` | Non basta sapere quante persone sono morte: bisogna sapere di che cosa, e in che mese. | forte | §29 Le epidemie | Gorgas (facoltativa); i soldati (collettivo) |
 | **4-28** | SQL da Python ★ | `S75` | Motihari e Londra | **George Orwell** (Q228) | `PT-SCR` | Un programma è un testo che si legge: ogni testo che arriva dall'esterno va letto come un ordine. Come? | forte | §67 Il problema dell'informazione | Il lavoro alla BBC; la revisione spagnola (facoltativa) |
-| **4-29** | Privacy, GDPR, open data | `S74` | Parigi e Varsavia | **Marie Curie** (Q229) | `PT-LAB` | I suoi quaderni sono ancora radioattivi: di chi sono i dati di una persona, e chi decide? | forte | §4 Donne e potere | Il libro di Irène; l'Accademia (facoltativa) |
+| **4-29** | Privacy, GDPR, open data | `S74` | Parigi e Varsavia | **Marie Curie** (Q229) | `PT-LAB` | I suoi quaderni sono ancora radioattivi: di chi sono i dati di una persona, e chi decide? | forte | §4 Donne e potere | **Malala Yousafzai (facoltativa forte dal 02/10/2026)**; il libro di Irène; l'Accademia (facoltativa) |
 | **4-30** | Prova finale: database e applicazione a oggetti | `S75` | Ferrara, archivio | **Le persone che non hanno firmato** (Q230, collettivo `C`) | `PT-VOC` | Trenta documenti, trenta righe. Chi non ha potuto scrivere la sua? | forte | §69 La storia dei vincitori | Le voci senza nome (facoltativa); Ercole II |
 
-**Verifica degli agganci.** Dei 30 agganci: **24 forti, 6 medi, 0 di scena**. I **sei medi** sono 4-5 (Akbar/incapsulamento), 4-7 (Leibniz/polimorfismo), 4-13 (Ipazia/BNF), 4-14 (Moctezuma/alberi), 4-16 (Ibn Khaldun/ciclo di vita), 4-19 (Ibn al-Haytham/chiavi). I tre **da rivedere con Pietro** perché l'aggancio è forse troppo ovvio: 4-8, 4-9, 4-24.
+**Verifica degli agganci.** Dei 30 agganci: **25 forti, 5 medi, 0 di scena**. *(02/10/2026: erano 24 e 6; 4-16 è passata da medio a forte con la sostituzione di Ibn Khaldun per Ashoka.)* I **cinque medi** sono 4-5 (Akbar/incapsulamento), 4-7 (Leibniz/polimorfismo), 4-13 (Ipazia/BNF), 4-14 (Moctezuma/alberi), 4-19 (Ibn al-Haytham/chiavi). I tre **da rivedere con Pietro** perché l'aggancio è forse troppo ovvio: 4-8, 4-9, 4-24.
 
 *(proposta)* Questo bilancio è migliore di quello degli anni precedenti (13 forti nell'Anno II, 21 nell'Anno III) e la ragione è verificabile: i livelli dell'anno 4 sono **la rappresentazione del dato e i suoi strumenti**, e il materiale di Pietro è, senza volerlo, la storia di **come l'umanità si è registrata e di chi non è riuscito a registrarsi**. Il percorso è stato costruito da qui, non per forzatura. Vedi §13, Q4.
 
@@ -375,12 +390,14 @@ Formato di ogni scheda, come in `anno1-ferrara.md` §10, `anno2-penisola.md` §5
 - **Aggancio 4-15:** il livello chiede di **scrivere un interprete**, cioè un programma che esegue una descrizione. Il caso di Omero è l'esempio più anteno e più onesto di questo: un testo la cui esecuzione non è la lettura ma **il canto, con la variazione del rapsodo**. Un interprete che «esegue» un testo non ne esce mai identico. **Forte.**
 - **Motto:** «Il testo non è quello che ho scritto: è quello che ho detto ieri sera.» **Emblema:** un rotolo senza parole, con una bocca e un ritmo.
 
-### Q216 · Ibn Khaldun
-- **Periodo:** 1332–1406. **Luogo:** Tunisi, Il Cairo, Fes. **Pin:** Tunisi. **Strato:** `S69`. **Attendibilità:** `D`.
-- **Domanda:** davanti a sette generazioni dico che cambieranno. È una previsione, o ha letto i registri?
-- **Fonte:** la *Muqaddimah* (1377); **ricostruzione:** il metodo: distinguere ciò che è proprio delle società da ciò che è proprio degli uomini; **memoria:** il filosofo isolato, a cui il destino fa incontrare un giovane spagnolo che lo copierà.
-- **Aggancio 4-16:** il livello chiede che cosa si fa di un dato **dopo** averlo raccolto: lo si conserva, lo si elabora, lo si distrugge? Ibn Khaldun è il primo a dire che certe informazioni sono **delle informazioni** e che si possono raccogliere e ordinare come si ordina il resto: i dati su chi sia una popolazione e su come viva valgono più di un aneddoto. **Medio:** l'aggancio è concettuale e non ha un documento che lo sostenga; va costruito nel racconto, e va detto ai ragazzi che lo stiamo usando come esempio, non come documentazione.
-- **Motto:** «La civiltà è un ciclo, e io ne ho visto quattro.» **Emblema:** una clessidra con dentro un nome.
+### Q216 · Ashoka *(sostituisce Ibn Khaldun dal 02/10/2026, v. §0.4)*
+- **Periodo:** III sec. a.C. – 232 d.C. **Luogo:** Pataliputra, la valle del Ganges, le grotte. **Pin:** Pataliputra. **Strato:** `S66`. **Attendibilità:** `D`.
+- **Domanda:** un impero scrive su pietra perché chi verrà possa leggere: un dato che sopravvive a chi lo ha prodotto.
+- **Fonte:** gli **Editti** (i *Rajgir*, le *Pillar Edicts*) e l'*Arthashastra*; **ricostruzione:** l'impero in cui la scrittura è un'infrastruttura; **memoria:** l'uomo che dopo la guerra di successione smise di fare la guerra e passò il resto della vita a scrivere perché gli altri leggessero — che è la cosa più improbabile del mondo antico.
+- **Aggancio 4-16 (dato, informazione, archivio, `PT-SCR`):** il livello chiede che cosa si fa di un dato **dopo** averlo raccolto: lo si conserva, lo si elabora, lo si distrugge? Gli editti di Ashoka sono **il primo caso in cui uno Stato scrive per un lettore che non esiste ancora e non saprà mai il suo nome**, su un supporto che dura più di qualunque archivio: la pietra. E sono scritti in una **lingua che il lettore doveva parlare**, perché un editto in una lingua che non si capisce è un editto perso. Sono due lezioni che oggi si chiamano **formato** e **pubblico bersaglio**, e il livello le ha una per una. **Forte.**
+- **Motto:** «Il mio nome è [il nome del re]; i Piyassi lo onoreranno come nella mia madre l'Oceano.» **Emblema:** una colonna con lettere incise.
+
+*(nota, 02/10/2026)* **Ibn Khaldun non è sparito: è la facoltativa forte della 4-16**, e la casella dei facoltativi lo dichiara. È la sostituzione meno distruttiva di un capitolo che abbia questa geografia, perché la *Muqaddimah* è il testo che ha fondato la moderna teoria dell-archivio: perderla dal percorso obbligatorio sarebbe stato un errore, e non averla sarebbe stato un errore maggiore. **Buddha** resta facoltativa della stessa tappa, che è il posto che gli spetta in un anno che adesso ha una tappa nell-India antica.
 
 ### Q217 · B. R. Ambedkar
 - **Periodo:** 1891–1956. **Luogo:** Bombay, Delhi. **Pin:** Bombay. **Strato:** `S74`. **Attendibilità:** `D`.
@@ -733,11 +750,11 @@ Il quarto anno è l'anno più difficile del progetto: porta **schiavitù, conqui
 
 *(da decidere con Pietro)*
 
-1. **Il buco di `S66`.** India e Asia meridionale dal 300 a.C. al 1200 non hanno tappa obbligatoria, e nel materiale sono due voci forti: Buddha e Ashoka. Le opzioni: **(a)** sostituire una delle 30 tappe con Ashoka (candidati: i sei «medi»); **(b)** tenere i 30 e portare Buddha e Ashoka in facoltativa forte e atlante; **(c)** aggiungere un **dialogo di confronto** in 4-12 (Confucio) e in 4-3 (Qin Shi Huang), dove la tappa è la cinese e il confronto è l'India. La mia proposta è **(a)**: un anno che si chiama «il mondo oltre l'Europa» e lascia fuori l'Asia meridionale antica è un anno che ripete l'errore che dice di combattere.
-2. **Il presente.** Le tappe arrivano al 1900-1950 e si fermano (4-28). Berners-Lee, Mandela, Malala, Gagarin sono in facoltativa e in atlante. Va deciso se l'anno 4 accetta questo limite (la risposta del **principio zero**: il presente non è ancora conosciuto) o se almeno due di questi entrano come facoltative forti nei livelli 4-11 e 4-29, che sono i più adatti (Internet e dati personali).
-3. **La regola dei due collettivi.** Il quarto anno ha due voci senza nome (i censori e le persone che non hanno firmato). Sono la parte più forte del percorso e anche la più difficile da scrivere bene. Va deciso se sono **due tappe** o se la 4-30 le unisce in una sola con dentro entrambe le voci.
+1. **Il buco di `S66`.** **→ chiusa il 02/10/2026** con l'opzione **(a)**: la **4-16** passa da Ibn Khaldun ad **Ashoka**, con Ibn Khaldun e Buddha come facoltative forti (§0.4). L'aggancio della 4-16 era «medio» e diventa forte; gli agganci forti sono 25 su 30 e i medi 5.
+2. **Il presente.** **→ chiusa il 02/10/2026** con l'opzione che il documento proponeva: **almeno due entrano come facoltative forti nei livelli 4-11 e 4-29**, che sono i più adatti (linguaggi, e dati personali). Le facoltative forti sono **Berners-Lee** (4-11, come il realizzatore di una lingua che altri hanno costruito) e **Malala** (4-29, perché nessun dato personale è suo). Mandela e Gagarin restano in atlante. Il **limite dell'anno resta dichiarato**: le tappe si fermano al 1900-1950, ed è la risposta del principio zero — il presente non è ancora conosciuto — non una dimenticanza.
+3. **La regola dei due collettivi.** **→ chiusa il 02/10/2026**: restano **due tappe distinte** (4-20, i censori; 4-30, le persone che non hanno firmato) e non vengono fuse. La ragione è che i due collettivi non dicono la stessa cosa: i censori sono **quelli che scrivono il registro**, le persone che non hanno firmato sono **quelli che il registro non contiene**. Fuse, la 4-30 direbbe «e gli altri?», che è una domanda sul presente; separate, dicono una cosa sola ciascuna, che è la lezione del capitolo.
 4. **I tre agganci «forti» da rivedere.** 4-8 (Linneo), 4-9 (Mansa Musa) e 4-24 (Zheng He) sono forse **troppo** ovvii: il livello sembra fatto per la persona. Segnalo questi tre in particolare; 4-22 (Hammurabi) e 4-27 (Nightingale) mi sembrano i due più solidi.
-5. **I codici `Q`.** Proposta: la serie continua con **Q101…Q130** → **Q201…Q230**. Alternativa: `R01…R30`. Va confermata una volta sola, perché da qui in poi la numerazione è nel repository.
+5. **I codici `Q`.** **Confermati il 02/10/2026**: `Q101…Q130` anno III, **`Q201…Q230` anno IV**, `Q301…Q330` anno V. La serie non collide e da qui in poi la numerazione è nel repository.
 6. **Le persone viventi.** Nessuna entra nel percorso. Resta il problema, già segnalato nell'Anno III, di che cosa fare del presente.
 7. **La tappa 4-10 e l'incendio.** Se V1 conferma che dell'archivio ducale si è perso molto nel 1534, quella è la prova più forte della tesi dell'anno e va nella tappa 4-10 come fatto. Se non si conferma, la tappa resta, ma il materiale è solo un'inferenza e va detto.
 8. **Le fonti del materiale.** Come per gli anni II e III, il materiale è ricco e non è stato ancora consultato sistematicamente. Serve un abbozzo di bibliografia per i 30 obbligatori prima della stesura delle schede in `dati/`.
@@ -762,6 +779,14 @@ Il quarto anno è l'anno più difficile del progetto: porta **schiavitù, conqui
 ---
 
 ## 15. Registro modifiche
+
+- **v0.5 (02/10/2026)**: le sedici decisioni di Pietro. Il quarto capitolo era quello con il buco più visibile, ed è stato chiuso.
+  - **il buco di `S66` è chiuso** con l'opzione (a): la **4-16** passa da Ibn Khaldun ad **Ashoka**, e con essa l-India antica entra nel percorso obbligatorio. Ibn Khaldun e Buddha diventano facoltative forti della stessa tappa, e nessuna delle due voci sparisce (§0.4);
+  - **l'aggancio della 4-16 passa da medio a forte**, perché l'argomento del livello — che cosa si fa di un dato dopo averlo raccolto — ha in Ashoka un documento invece di una teoria. Il bilancio passa a **25 forti e 5 medi**;
+  - **il presente entra come facoltative forti** in 4-11 (Berners-Lee) e 4-29 (Malala); il limite del 1900-1950 resta dichiarato come scelta e non come dimenticanza;
+  - **i due collettivi restano due tappe**, e la ragione per cui non vengono fuse è scritta: uno è il registro, l'altro è quello che nel registro non c-é;
+  - **i codici `Q` sono confermati** (`Q201…Q230`), e la scheda `Q216` è riscritta da Ibn Khaldun ad Ashoka;
+  - **i rimandi di versione** dei documenti collegati tornano a quelli veri (`luoghi.md` v0.3, `anno3-europa.md` v0.4).
 
 - **v0.4 (02/10/2026)**: controllo di coerenza su tutto il progetto. Il testo non cambia: due rimandi di versione erano fermi (`anno1-mappa.md` v0.8, `gioco.md` v0.4).
 

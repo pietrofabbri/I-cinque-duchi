@@ -1,6 +1,6 @@
 {
- "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno",
- "versione": 2,
+ "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno e per le sue stanze facoltative",
+ "versione": 3,
  "data": "2026-10-02",
  "fonte": {
   "opera": "Ludovico Ariosto, Orlando furioso",
@@ -15,7 +15,8 @@
  "regole": {
   "una_ottava_per_tappa": "sì: nessuna tappa riprende la stessa ottava di un'altra",
   "filone": "F1…F12, il racconto a cui la tappa appartiene",
-  "legame": "B/A/S/I/C della regola dei luoghi; I solo per i luoghi che non esistono",
+  "legame": "B/A/S/I/C/N della regola dei luoghi; I solo per i luoghi che non esistono e N solo per i non luoghi, nessuno dei due con coordinate",
+  "facoltativa": "citazione che si apre da una tappa (codice 5-NNF) e non occupa una delle trenta tappe: ogni facoltativa è una persona o un luogo con cui si interagisce, pensato per la parte informatica della tappa",
   "parafrasi": "due o tre frasi, in italiano di bocca: è ciò che il livello legge al ragazzo",
   "moto": "che cosa prova il personaggio del Furioso in quel momento",
   "emozione": "la sfumatura che il gioco deve far sentire",
@@ -24,10 +25,12 @@
  },
  "luoghi_inesistenti": {
   "la Luna": "esiste e non esiste: nel gioco è il luogo perduto, ed è dichiarato come tale",
-  "l'aria sopra la foresta": "non è un luogo ma una condizione: la si attraversa, non la si raggiunge",
   "l'isola di Alcina": "l'isola dell'incantesimo, nel canto VI",
   "il castello d'Atlante": "i due castelli che imprigionano nell'illusione, nel canto IV",
   "il regno di Logistilla": "il regno di Logistilla, nel canto VI"
+ },
+ "non_luoghi": {
+  "l'aria sopra la foresta": "non è un luogo inesistente: è una condizione che si attraversa. Non la si raggiunge, e mentre la si attraversa non si è da nessuna parte"
  },
  "filoni": {
   "F1": {
@@ -129,8 +132,10 @@
   "F11": {
    "titolo": "Ruggiero e la conversione",
    "canti": "canti 13-16, 22-26, 41",
-   "assegnato": false,
-   "tappe": []
+   "assegnato": true,
+   "tappe": [
+    "5-22F"
+   ]
   },
   "F12": {
    "titolo": "La parola data a un altro",
@@ -147,6 +152,8 @@
  "citazioni": [
   {
    "tappa": "5-1",
+   "apre": "5-1",
+   "facoltativa": false,
    "filone": "F2",
    "filone_titolo": "Angelica e la fuga",
    "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
@@ -173,6 +180,8 @@
   },
   {
    "tappa": "5-2",
+   "apre": "5-2",
+   "facoltativa": false,
    "filone": "F3",
    "filone_titolo": "Orlando e il ritorno di sé",
    "filone_canti": "canti 1, 12-13, 23-24",
@@ -199,6 +208,8 @@
   },
   {
    "tappa": "5-3",
+   "apre": "5-3",
+   "facoltativa": false,
    "filone": "F9",
    "filone_titolo": "Astolfo e il viaggio straordinario",
    "filone_canti": "canti 22-23, 34-35",
@@ -225,6 +236,8 @@
   },
   {
    "tappa": "5-4",
+   "apre": "5-4",
+   "facoltativa": false,
    "filone": "F9",
    "filone_titolo": "Astolfo e il viaggio straordinario",
    "filone_canti": "canti 22-23, 34-35",
@@ -253,6 +266,8 @@
   },
   {
    "tappa": "5-5",
+   "apre": "5-5",
+   "facoltativa": false,
    "filone": "F2",
    "filone_titolo": "Angelica e la fuga",
    "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
@@ -279,6 +294,8 @@
   },
   {
    "tappa": "5-6",
+   "apre": "5-6",
+   "facoltativa": false,
    "filone": "F5",
    "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
    "filone_canti": "canti 4-5, 7, 23",
@@ -305,6 +322,8 @@
   },
   {
    "tappa": "5-7",
+   "apre": "5-7",
+   "facoltativa": false,
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
    "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
@@ -331,6 +350,8 @@
   },
   {
    "tappa": "5-8",
+   "apre": "5-8",
+   "facoltativa": false,
    "filone": "F9",
    "filone_titolo": "Astolfo e il viaggio straordinario",
    "filone_canti": "canti 22-23, 34-35",
@@ -352,11 +373,13 @@
    "emozione": "concentrazione",
    "tema": "ogni secondo di ritardo è un errore che non si cancella",
    "luogo": "l'aria sopra la foresta",
-   "legame": "I",
+   "legame": "N",
    "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
   },
   {
    "tappa": "5-9",
+   "apre": "5-9",
+   "facoltativa": false,
    "filone": "F5",
    "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
    "filone_canti": "canti 4-5, 7, 23",
@@ -383,6 +406,8 @@
   },
   {
    "tappa": "5-10",
+   "apre": "5-10",
+   "facoltativa": false,
    "filone": "F6",
    "filone_titolo": "Alcina e l'isola",
    "filone_canti": "canti 6, 8, 21",
@@ -409,6 +434,8 @@
   },
   {
    "tappa": "5-11",
+   "apre": "5-11",
+   "facoltativa": false,
    "filone": "F6",
    "filone_titolo": "Alcina e l'isola",
    "filone_canti": "canti 6, 8, 21",
@@ -433,6 +460,8 @@
   },
   {
    "tappa": "5-12",
+   "apre": "5-12",
+   "facoltativa": false,
    "filone": "F10",
    "filone_titolo": "Malagigi e l'incantesimo",
    "filone_canti": "canti 11, 25-26",
@@ -457,6 +486,8 @@
   },
   {
    "tappa": "5-13",
+   "apre": "5-13",
+   "facoltativa": false,
    "filone": "F3",
    "filone_titolo": "Orlando e il ritorno di sé",
    "filone_canti": "canti 1, 12-13, 23-24",
@@ -483,6 +514,8 @@
   },
   {
    "tappa": "5-14",
+   "apre": "5-14",
+   "facoltativa": false,
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
    "filone_canti": "canti 24, 30, 32, 46",
@@ -507,6 +540,8 @@
   },
   {
    "tappa": "5-15",
+   "apre": "5-15",
+   "facoltativa": false,
    "filone": "F4",
    "filone_titolo": "Atlante e il castello incantato",
    "filone_canti": "canti 4, 6, 22-23, 30",
@@ -531,6 +566,8 @@
   },
   {
    "tappa": "5-16",
+   "apre": "5-16",
+   "facoltativa": false,
    "filone": "F5",
    "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
    "filone_canti": "canti 4-5, 7, 23",
@@ -555,6 +592,8 @@
   },
   {
    "tappa": "5-17",
+   "apre": "5-17",
+   "facoltativa": false,
    "filone": "F4",
    "filone_titolo": "Atlante e il castello incantato",
    "filone_canti": "canti 4, 6, 22-23, 30",
@@ -585,6 +624,8 @@
   },
   {
    "tappa": "5-18",
+   "apre": "5-18",
+   "facoltativa": false,
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
    "filone_canti": "canti 24, 30, 32, 46",
@@ -609,6 +650,8 @@
   },
   {
    "tappa": "5-19",
+   "apre": "5-19",
+   "facoltativa": false,
    "filone": "F4",
    "filone_titolo": "Atlante e il castello incantato",
    "filone_canti": "canti 4, 6, 22-23, 30",
@@ -635,6 +678,8 @@
   },
   {
    "tappa": "5-20",
+   "apre": "5-20",
+   "facoltativa": false,
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
    "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
@@ -649,16 +694,18 @@
     "di Zibeltaro e de l’Erculeo segno,",
     "riportâr prede da l’isole vostre,"
    ],
-   "parafrasi": "I Mori sono usciti «di Zibeltaro e de l'Erculeo segno» e hanno portato via cose. Zibeltaro ed Ercole sono Adria e Ferrara: la città del duca è dentro il libro che gioca. Alfonso II chiede una rete per un quartiere nuovo, e un acquedotto disegnato bene non basta se poi il quartiere resta senza acqua.",
+   "parafrasi": "Rinaldo avverte i baroni che i Mori sono usciti «di Zibeltaro e de l'Erculeo segno»: la minaccia non viene da lontano, viene da una parte che credevano sicura. «L'Erculeo segno» è lo stemma degli Estensi, cioè Ferrara: la città del duca è dentro il libro che gioca. Alfonso II chiede una rete per un quartiere nuovo, e un acquedotto disegnato bene non basta se poi il quartiere resta senza acqua.",
    "moto": "preoccupazione",
    "emozione": "concretezza",
    "tema": "una rete di un edificio si progetta con l'acqua che c'è, non con quella che si vorrebbe",
-   "luogo": "Zibeltaro e l'Erculeo segno, cioè Adria e Ferrara",
+   "luogo": "Zibeltaro e l'Erculeo segno, cioè Ferrara",
    "legame": "A",
    "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
   },
   {
    "tappa": "5-21",
+   "apre": "5-21",
+   "facoltativa": false,
    "filone": "F2",
    "filone_titolo": "Angelica e la fuga",
    "filone_canti": "canti 1-2, 5, 9-12, 21, 23",
@@ -683,6 +730,8 @@
   },
   {
    "tappa": "5-22",
+   "apre": "5-22",
+   "facoltativa": false,
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
    "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
@@ -709,6 +758,8 @@
   },
   {
    "tappa": "5-23",
+   "apre": "5-23",
+   "facoltativa": false,
    "filone": "F7",
    "filone_titolo": "Logistilla e l'anello",
    "filone_canti": "canti 6, 22, 25-26",
@@ -733,6 +784,8 @@
   },
   {
    "tappa": "5-24",
+   "apre": "5-24",
+   "facoltativa": false,
    "filone": "F5",
    "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
    "filone_canti": "canti 4-5, 7, 23",
@@ -757,6 +810,8 @@
   },
   {
    "tappa": "5-25",
+   "apre": "5-25",
+   "facoltativa": false,
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
    "filone_canti": "canti 24, 30, 32, 46",
@@ -781,6 +836,8 @@
   },
   {
    "tappa": "5-26",
+   "apre": "5-26",
+   "facoltativa": false,
    "filone": "F5",
    "filone_titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
    "filone_canti": "canti 4-5, 7, 23",
@@ -805,6 +862,8 @@
   },
   {
    "tappa": "5-27",
+   "apre": "5-27",
+   "facoltativa": false,
    "filone": "F8",
    "filone_titolo": "Bradamante e Merlino",
    "filone_canti": "canti 7-8, 21-22",
@@ -829,6 +888,8 @@
   },
   {
    "tappa": "5-28",
+   "apre": "5-28",
+   "facoltativa": false,
    "filone": "F12",
    "filone_titolo": "La parola data a un altro",
    "filone_canti": "canti 24, 30, 32, 46",
@@ -853,6 +914,8 @@
   },
   {
    "tappa": "5-29",
+   "apre": "5-29",
+   "facoltativa": false,
    "filone": "F1",
    "filone_titolo": "La guerra e il patto",
    "filone_canti": "canti 1, 4, 12-16, 18, 22, 33",
@@ -883,6 +946,8 @@
   },
   {
    "tappa": "5-30",
+   "apre": "5-30",
+   "facoltativa": false,
    "filone": "F3",
    "filone_titolo": "Orlando e il ritorno di sé",
    "filone_canti": "canti 1, 12-13, 23-24",
@@ -907,6 +972,36 @@
    "tema": "un programma è l'elenco di ciò che farà: tutto, e nient'altro",
    "luogo": "la prima pagina",
    "legame": "S",
+   "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
+  }
+ ],
+ "facoltative": [
+  {
+   "tappa": "5-22F",
+   "apre": "5-22",
+   "facoltativa": true,
+   "filone": "F11",
+   "filone_titolo": "Ruggiero e la conversione",
+   "filone_canti": "canti 13-16, 22-26, 41",
+   "canto": 25,
+   "ottava": 89,
+   "riferimento": "canto 25, ottava 89",
+   "numeri_versi": [
+    3,
+    4,
+    5
+   ],
+   "versi": [
+    "finito il tempo in che per fede astretto",
+    "era al suo re, quando non prima muora,",
+    "che si fará cristian cosí d’effetto,"
+   ],
+   "parafrasi": "Ruggiero scrive al suo re che scioglierà il giuramento «finito il tempo in che per fede astretto era al suo re [...] si fará cristian». Una promessa non è un'azione: è un impegno che resta valido e che nessuno può verificare finché la condizione non si verifica. È la parte di 5-22 che il gioco non mostra nelle reti informatiche e che vale più di tutte le altre.",
+   "moto": "prudenza",
+   "emozione": "risoluzione",
+   "tema": "una promessa non è un'azione: è un'obbligazione che aspetta che una condizione si verifichi",
+   "luogo": "il campo sotto l'assedio, dove Ruggiero scrive",
+   "legame": "A",
    "fonte": "Wikisource, Orlando furioso (1928), pubblico dominio"
   }
  ]
