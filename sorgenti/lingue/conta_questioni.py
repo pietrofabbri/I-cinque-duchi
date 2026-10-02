@@ -41,9 +41,20 @@ FORME = [
     re.compile(r"^\s*\d+\.\s+"),
     re.compile(r"^###+\s*Q\d+\s*[-—:.]?\s*"),
     re.compile(r"^\|\s*\*{0,2}Q?\d+\*{0,2}\s*\|"),
+    # I documenti trasversali recenti scrivono le questioni in due forme che
+    # il contatore deve vedere, altrimenti l'audit si ferma ai tredici
+    # documenti più vecchi e non conta le dodici domande più importanti:
+    #   percorsi.md       `### Q1 — la domanda`
+    #   fonti-visive.md   `**Q1 — la domanda**`
+    re.compile(r"^###+\s+Q\d+\s*[-—:.]"),
+    re.compile(r"^\*\*Q\d+\s*[-—:.]"),
 ]
 
-SEZIONE = re.compile(r"^##+\s*[\d.]*\s*Questioni aperte(.*?)(?=^##\s|\Z)", re.M | re.S)
+# I documenti chiamano la sezione in due modi: «Questioni aperte» e «Le
+# questioni aperte». La regex accetta entrambi, perché un contatore che vede
+# tredici documenti su quindici sbaglia il conto e l'audit dice un numero falso.
+SEZIONE = re.compile(r"^##+\s*[\d.]*\s*(?:Le\s+)?[Qq]uestioni aperte(.*?)(?=^##\s|\Z)",
+                     re.M | re.S)
 
 
 def sezione_voci(sezione):
