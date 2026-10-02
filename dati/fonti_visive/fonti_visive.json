@@ -1,0 +1,1535 @@
+{
+ "versione": 1,
+ "data": "2026-10-02",
+ "nota": "Proposte, non scelte: la ricerca propone, una persona guarda e registra in attestazione.json.",
+ "risultati": {
+  "mezzo": [
+   {
+    "voce": "a piedi",
+    "termini": [
+     "Quattrocento pedestrian Renaissance painting",
+     "Quattrocento pedestrian Renaissance painting",
+     "medieval pilgrim walking"
+    ],
+    "candidati": [
+     {
+      "file": "File:Pilgrim's Route Autumn.jpg",
+      "termino": "medieval pilgrim walking",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "WelshDave",
+      "data": "2024-11-04 15:06:02",
+      "larghezza": 4160,
+      "altezza": 3120,
+      "url": "https://commons.wikimedia.org/wiki/File:Pilgrim%27s_Route_Autumn.jpg"
+     },
+     {
+      "file": "File:Scallop shaped mount (FindID 797636).jpg",
+      "termino": "medieval pilgrim walking",
+      "licenza": "CC BY 2.0",
+      "autore": "The Portable Antiquities Scheme, Dot Boughton, 2016-09-25 21:01:54",
+      "data": "between 1200 and 1700 date QS:P571,+1500-00-00T00:00:00Z/6,P",
+      "larghezza": 1675,
+      "altezza": 1075,
+      "url": "https://commons.wikimedia.org/wiki/File:Scallop_shaped_mount_(FindID_797636).jpg"
+     }
+    ]
+   },
+   {
+    "voce": "mulo",
+    "termini": [
+     "mulo di somma incisione",
+     "mulo di somma incisione",
+     "pack mule drawing 19th century"
+    ],
+    "candidati": [
+     {
+      "file": "File:A man riding a mule, his whip raised, another mule loaded with grass alongside, from a group of drawings depicting Peruvian costume MET DP883505.jpg",
+      "termino": "pack mule drawing 19th century",
+      "licenza": "CC0",
+      "autore": "Attributed to   Pancho Fierro",
+      "data": "circa 1848 date QS:P571,+1848-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 2982,
+      "altezza": 3337,
+      "url": "https://commons.wikimedia.org/wiki/File:A_man_riding_a_mule,_his_whip_raised,_another_mule_loaded_with_grass_alongside,_from_a_group_of_drawings_depicting_Peruvian_costume_MET_DP883505.jpg"
+     },
+     {
+      "file": "File:Arabische markt, RP-T-1949-69.jpg",
+      "termino": "pack mule drawing 19th century",
+      "licenza": "CC0",
+      "autore": "Rijksmuseum",
+      "data": "between 1865 and 1930 date QS:P,+1500-00-00T00:00:00Z/6,P131",
+      "larghezza": 6684,
+      "altezza": 4978,
+      "url": "https://commons.wikimedia.org/wiki/File:Arabische_markt,_RP-T-1949-69.jpg"
+     },
+     {
+      "file": "File:Groep muilezels, RP-T-1996-53.jpg",
+      "termino": "pack mule drawing 19th century",
+      "licenza": "CC0",
+      "autore": "Rijksmuseum",
+      "data": "between 1814 and 1860 date QS:P,+1850-00-00T00:00:00Z/7,P131",
+      "larghezza": 4272,
+      "altezza": 3112,
+      "url": "https://commons.wikimedia.org/wiki/File:Groep_muilezels,_RP-T-1996-53.jpg"
+     },
+     {
+      "file": "File:Man Holding a Mule before a House MET DP874437.jpg",
+      "termino": "pack mule drawing 19th century",
+      "licenza": "CC0",
+      "autore": "Jean-Jacques de Boissieu",
+      "data": "early 19 th  century date QS:P571,+1850-00-00T00:00:00Z/7,P4",
+      "larghezza": 2940,
+      "altezza": 2779,
+      "url": "https://commons.wikimedia.org/wiki/File:Man_Holding_a_Mule_before_a_House_MET_DP874437.jpg"
+     },
+     {
+      "file": "File:Peter Birmann - The Devil's Bridge in the Schöllenen Gorge on the Way across the St. Gotthard Pass with a Mule Train, before 1805 - Google Art Project.jpg",
+      "termino": "pack mule drawing 19th century",
+      "licenza": "Public domain",
+      "autore": "Peter Birmann (1758 - 1844) – Painter (Swiss)   Details on Google Art Project",
+      "data": "before 1805",
+      "larghezza": 3058,
+      "altezza": 3945,
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_Birmann_-_The_Devil%27s_Bridge_in_the_Sch%C3%B6llenen_Gorge_on_the_Way_across_the_St._Gotthard_Pass_with_a_Mule_Train,_before_1805_-_Google_Art_Project.jpg"
+     },
+     {
+      "file": "File:Staand lastpaardje met zijmanden en een kruik, RP-T-1952-28.jpg",
+      "termino": "pack mule drawing 19th century",
+      "licenza": "CC0",
+      "autore": "Rijksmuseum",
+      "data": "between 1813 and 1860 date QS:P,+1850-00-00T00:00:00Z/7,P131",
+      "larghezza": 4760,
+      "altezza": 4192,
+      "url": "https://commons.wikimedia.org/wiki/File:Staand_lastpaardje_met_zijmanden_en_een_kruik,_RP-T-1952-28.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "cavallo",
+    "termini": [
+     "cavaliere quattrocento dipinto",
+     "cavaliere quattrocento dipinto",
+     "horse rider Renaissance painting"
+    ],
+    "candidati": [
+     {
+      "file": "File:Benozzo Gozzoli, cappella dei magi, parete est (dettaglio).jpg",
+      "termino": "horse rider Renaissance painting",
+      "licenza": "Public domain",
+      "autore": "Benozzo Gozzoli",
+      "data": "between May 1459 and 1464 date QS:P,+1450-00-00T00:00:00Z/7,",
+      "larghezza": 1491,
+      "altezza": 1239,
+      "url": "https://commons.wikimedia.org/wiki/File:Benozzo_Gozzoli,_cappella_dei_magi,_parete_est_(dettaglio).jpg"
+     },
+     {
+      "file": "File:Benozzo gozzoli, corteo dei magi, 1 inizio, 1459, 23.JPG",
+      "termino": "horse rider Renaissance painting",
+      "licenza": "Public domain",
+      "autore": "Benozzo Gozzoli",
+      "data": "between May 1459 and 1464 date QS:P,+1450-00-00T00:00:00Z/7,",
+      "larghezza": 3456,
+      "altezza": 2304,
+      "url": "https://commons.wikimedia.org/wiki/File:Benozzo_gozzoli,_corteo_dei_magi,_1_inizio,_1459,_23.JPG"
+     },
+     {
+      "file": "File:Benozzo gozzoli, corteo dei magi, 1 inizio, 1459, 30.JPG",
+      "termino": "horse rider Renaissance painting",
+      "licenza": "Public domain",
+      "autore": "Benozzo Gozzoli",
+      "data": "between May 1459 and 1464 date QS:P,+1450-00-00T00:00:00Z/7,",
+      "larghezza": 3456,
+      "altezza": 2304,
+      "url": "https://commons.wikimedia.org/wiki/File:Benozzo_gozzoli,_corteo_dei_magi,_1_inizio,_1459,_30.JPG"
+     },
+     {
+      "file": "File:French troops and artillery entering Naples 1495.jpg",
+      "termino": "horse rider Renaissance painting",
+      "licenza": "Public domain",
+      "autore": "Melchionne (o 'Melchiorre)  Ferraiolo, \"Cronaca della Napoli aragonese\" (o \"Cronaca figurata del Quattrocento\"), circa 1",
+      "data": "circa 1498 date QS:P,+1498-00-00T00:00:00Z/9,P1480,Q5727902",
+      "larghezza": 1952,
+      "altezza": 1402,
+      "url": "https://commons.wikimedia.org/wiki/File:French_troops_and_artillery_entering_Naples_1495.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "galera",
+    "termini": [
+     "galera veneziana",
+     "galera veneziana",
+     "Venetian galley painting"
+    ],
+    "candidati": [
+     {
+      "file": "File:Galea veneziana del Provveditore d'Armata imbandierata.jpg",
+      "termino": "galera veneziana",
+      "licenza": "Public domain",
+      "autore": "Unkown",
+      "data": "1700-01-01",
+      "larghezza": 735,
+      "altezza": 516,
+      "url": "https://commons.wikimedia.org/wiki/File:Galea_veneziana_del_Provveditore_d%27Armata_imbandierata.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "nave",
+    "termini": [
+     "nave veneziana quattrocento",
+     "nave veneziana quattrocento",
+     "carrack painting 16th century"
+    ],
+    "candidati": [
+     {
+      "file": "File:Joachim Patinir (c.1480-before 1524) (circle of) - Portuguese Carracks off a Rocky Coast - BHC0705 - Royal Museums Greenwich.jpg",
+      "termino": "carrack painting 16th century",
+      "licenza": "Public domain",
+      "autore": "Unknown author Unknown author",
+      "data": "1540",
+      "larghezza": 1200,
+      "altezza": 634,
+      "url": "https://commons.wikimedia.org/wiki/File:Joachim_Patinir_(c.1480-before_1524)_(circle_of)_-_Portuguese_Carracks_off_a_Rocky_Coast_-_BHC0705_-_Royal_Museums_Greenwich.jpg"
+     },
+     {
+      "file": "File:Medieval carrack - detail by Pieter Bruegel the Elder.jpg",
+      "termino": "carrack painting 16th century",
+      "licenza": "Public domain",
+      "autore": "Pieter Bruegel the Elder",
+      "data": "circa 1558 date QS:P,+1558-00-00T00:00:00Z/9,P1480,Q5727902",
+      "larghezza": 560,
+      "altezza": 560,
+      "url": "https://commons.wikimedia.org/wiki/File:Medieval_carrack_-_detail_by_Pieter_Bruegel_the_Elder.jpg"
+     },
+     {
+      "file": "File:NanbanCarrack-Enhanced.jpg",
+      "termino": "carrack painting 16th century",
+      "licenza": "Public domain",
+      "autore": "Shonebrooks",
+      "data": "2023-12-18 10:58:43",
+      "larghezza": 1748,
+      "altezza": 1579,
+      "url": "https://commons.wikimedia.org/wiki/File:NanbanCarrack-Enhanced.jpg"
+     },
+     {
+      "file": "File:NanbanCarrack.jpg",
+      "termino": "carrack painting 16th century",
+      "licenza": "Public domain",
+      "autore": "Kanō Naizen",
+      "data": "between late 16 th  century and 1616",
+      "larghezza": 1748,
+      "altezza": 1579,
+      "url": "https://commons.wikimedia.org/wiki/File:NanbanCarrack.jpg"
+     },
+     {
+      "file": "File:Portuguese Carracks off a Rocky Coast.jpg",
+      "termino": "carrack painting 16th century",
+      "licenza": "Public domain",
+      "autore": "Unknown author Unknown author",
+      "data": "circa 1540 date QS:P571,+1540-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 3200,
+      "altezza": 1660,
+      "url": "https://commons.wikimedia.org/wiki/File:Portuguese_Carracks_off_a_Rocky_Coast.jpg"
+     },
+     {
+      "file": "File:Portuguese Carracks off a Rocky Coast (cropped) (cropped).jpg",
+      "termino": "carrack painting 16th century",
+      "licenza": "Public domain",
+      "autore": "Circle of Joachim Patinir",
+      "data": "circa 1540 date QS:P571,+1540-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 916,
+      "altezza": 1206,
+      "url": "https://commons.wikimedia.org/wiki/File:Portuguese_Carracks_off_a_Rocky_Coast_(cropped)_(cropped).jpg"
+     }
+    ]
+   },
+   {
+    "voce": "carovana",
+    "termini": [
+     "carovana del sale",
+     "carovana del sale",
+     "caravan desert painting"
+    ],
+    "candidati": [
+     {
+      "file": "File:Photo A camel caravan transports salt in the Mauritanian Adrar region 1965 - Touring Club Italiano BBC 40.jpg",
+      "termino": "carovana del sale",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Unknown author Unknown author",
+      "data": "1965 date QS:P571,+1965-00-00T00:00:00Z/9",
+      "larghezza": 2794,
+      "altezza": 2119,
+      "url": "https://commons.wikimedia.org/wiki/File:Photo_A_camel_caravan_transports_salt_in_the_Mauritanian_Adrar_region_1965_-_Touring_Club_Italiano_BBC_40.jpg"
+     },
+     {
+      "file": "File:Photo A man and his camel during the journey of a salt caravan in the Mauritanian Adrar region 1965 - Touring Club Italiano BBC 41.jpg",
+      "termino": "carovana del sale",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Unknown author Unknown author",
+      "data": "1965 date QS:P571,+1965-00-00T00:00:00Z/9",
+      "larghezza": 2128,
+      "altezza": 2807,
+      "url": "https://commons.wikimedia.org/wiki/File:Photo_A_man_and_his_camel_during_the_journey_of_a_salt_caravan_in_the_Mauritanian_Adrar_region_1965_-_Touring_Club_Italiano_BBC_41.jpg"
+     },
+     {
+      "file": "File:Photo Two camel drivers load salt blocks onto a camel in a salt caravan in the Adrar region of Mauritania 1965 - Touring Club Italiano BBC 42.jpg",
+      "termino": "carovana del sale",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Unknown author Unknown author",
+      "data": "1965 date QS:P571,+1965-00-00T00:00:00Z/9",
+      "larghezza": 2128,
+      "altezza": 2394,
+      "url": "https://commons.wikimedia.org/wiki/File:Photo_Two_camel_drivers_load_salt_blocks_onto_a_camel_in_a_salt_caravan_in_the_Adrar_region_of_Mauritania_1965_-_Touring_Club_Italiano_BBC_42.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "diligenza",
+    "termini": [
+     "diligenza ottocento",
+     "diligenza ottocento",
+     "stagecoach painting"
+    ],
+    "candidati": [
+     {
+      "file": "File:Abel Hold (1815-1896) - Lincoln and Wakefield Stagecoach - 1963.85-1 - Hepworth Wakefield.jpg",
+      "termino": "stagecoach painting",
+      "licenza": "Public domain",
+      "autore": "Abel Hold",
+      "data": "",
+      "larghezza": 1200,
+      "altezza": 946,
+      "url": "https://commons.wikimedia.org/wiki/File:Abel_Hold_(1815-1896)_-_Lincoln_and_Wakefield_Stagecoach_-_1963.85-1_-_Hepworth_Wakefield.jpg"
+     },
+     {
+      "file": "File:Eastman Johnson - The Old Stagecoach (1871).jpg",
+      "termino": "stagecoach painting",
+      "licenza": "Public domain",
+      "autore": "Eastman Johnson",
+      "data": "1871 date QS:P571,+1871-00-00T00:00:00Z/9",
+      "larghezza": 5199,
+      "altezza": 3123,
+      "url": "https://commons.wikimedia.org/wiki/File:Eastman_Johnson_-_The_Old_Stagecoach_(1871).jpg"
+     },
+     {
+      "file": "File:Eastman Johnson - The Old Stagecoach 1871.jpg",
+      "termino": "stagecoach painting",
+      "licenza": "Public domain",
+      "autore": "Photo credit: John R. Glembin, Layton Art Collection, Inc.",
+      "data": "1871-01-01",
+      "larghezza": 2560,
+      "altezza": 1538,
+      "url": "https://commons.wikimedia.org/wiki/File:Eastman_Johnson_-_The_Old_Stagecoach_1871.jpg"
+     },
+     {
+      "file": "File:Old stagecoach eastman johnson.jpg",
+      "termino": "stagecoach painting",
+      "licenza": "Public domain",
+      "autore": "Eastman Johnson",
+      "data": "1871",
+      "larghezza": 768,
+      "altezza": 463,
+      "url": "https://commons.wikimedia.org/wiki/File:Old_stagecoach_eastman_johnson.jpg"
+     },
+     {
+      "file": "File:Painting of stagecoach by Edward Joseph Holslag.JPG",
+      "termino": "stagecoach painting",
+      "licenza": "Public domain",
+      "autore": "Edward Joseph Holslag",
+      "data": "circa 1922 date QS:P571,+1922-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 4608,
+      "altezza": 2208,
+      "url": "https://commons.wikimedia.org/wiki/File:Painting_of_stagecoach_by_Edward_Joseph_Holslag.JPG"
+     },
+     {
+      "file": "File:Vincent van Gogh - Tarascon Stagecoach - L.1988.62.11 - Princeton University Art Museum.jpg",
+      "termino": "stagecoach painting",
+      "licenza": "Public domain",
+      "autore": "Vincent van Gogh",
+      "data": "October 1888",
+      "larghezza": 5528,
+      "altezza": 4280,
+      "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Tarascon_Stagecoach_-_L.1988.62.11_-_Princeton_University_Art_Museum.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "treno",
+    "termini": [
+     "prima ferrovia Italia",
+     "prima ferrovia Italia",
+     "early railway locomotive 19th century"
+    ],
+    "candidati": [
+     {
+      "file": "File:FerroviaValDiFiemme-ArrivoAPredazzo.jpg",
+      "termino": "prima ferrovia Italia",
+      "licenza": "Public domain",
+      "autore": "sconosciuto",
+      "data": "1918",
+      "larghezza": 750,
+      "altezza": 486,
+      "url": "https://commons.wikimedia.org/wiki/File:FerroviaValDiFiemme-ArrivoAPredazzo.jpg"
+     },
+     {
+      "file": "File:Ferrovia Marmifera Carrara -1890.jpg",
+      "termino": "prima ferrovia Italia",
+      "licenza": "Public domain",
+      "autore": "L'Eco del Carrione - 1890",
+      "data": "18/19 maggio 1890",
+      "larghezza": 641,
+      "altezza": 393,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrovia_Marmifera_Carrara_-1890.jpg"
+     },
+     {
+      "file": "File:La ferrovia a scartamento ridotto e le funicolari forestali di Rueping, vicino a Saracena, Italia. I faggi prima e durante l'azione della Rueping erano dei giganti.jpg",
+      "termino": "prima ferrovia Italia",
+      "licenza": "Public domain",
+      "autore": "Unknown author Unknown author",
+      "data": "1911",
+      "larghezza": 285,
+      "altezza": 400,
+      "url": "https://commons.wikimedia.org/wiki/File:La_ferrovia_a_scartamento_ridotto_e_le_funicolari_forestali_di_Rueping,_vicino_a_Saracena,_Italia._I_faggi_prima_e_durante_l%27azione_della_Rueping_erano_dei_giganti.jpg"
+     },
+     {
+      "file": "File:La patria; geografia dell' Italia. Cenni storici, costumi, topografia, prodotti, industria, commercio, mari, fiumi, laghi, canali, strade, ponti, strade ferrate, porti, monumenti, dati statistici; (14762649151).jpg",
+      "termino": "prima ferrovia Italia",
+      "licenza": "No restrictions",
+      "autore": "Strafforello, Gustavo, 1820-1903, comp;\nArneudo, Giuseppe Isidoro;\nBodio, Luigi, 1840-1920, head of the Direzione genera",
+      "data": "1890",
+      "larghezza": 3008,
+      "altezza": 2096,
+      "url": "https://commons.wikimedia.org/wiki/File:La_patria;_geografia_dell%27_Italia._Cenni_storici,_costumi,_topografia,_prodotti,_industria,_commercio,_mari,_fiumi,_laghi,_canali,_strade,_ponti,_strade_ferrate,_porti,_monumenti,_dati_statistici;_(14762649151).jpg"
+     },
+     {
+      "file": "File:La patria; geografia dell' Italia. Cenni storici, costumi, topografia, prodotti, industria, commercio, mari, fiumi, laghi, canali, strade, ponti, strade ferrate, porti, monumenti, dati statistici; (14765719215).jpg",
+      "termino": "prima ferrovia Italia",
+      "licenza": "No restrictions",
+      "autore": "Internet Archive Book Images",
+      "data": "1890",
+      "larghezza": 1658,
+      "altezza": 1908,
+      "url": "https://commons.wikimedia.org/wiki/File:La_patria;_geografia_dell%27_Italia._Cenni_storici,_costumi,_topografia,_prodotti,_industria,_commercio,_mari,_fiumi,_laghi,_canali,_strade,_ponti,_strade_ferrate,_porti,_monumenti,_dati_statistici;_(14765719215).jpg"
+     },
+     {
+      "file": "File:Prima nave a vapore mediterraneo.JPG",
+      "termino": "prima ferrovia Italia",
+      "licenza": "CC BY 3.0",
+      "autore": "Vichingpedia",
+      "data": "2014",
+      "larghezza": 520,
+      "altezza": 550,
+      "url": "https://commons.wikimedia.org/wiki/File:Prima_nave_a_vapore_mediterraneo.JPG"
+     }
+    ]
+   },
+   {
+    "voce": "aereo",
+    "termini": [
+     "primo aereo linea",
+     "primo aereo linea",
+     "early airliner 1950s"
+    ],
+    "candidati": [
+     {
+      "file": "File:Giardini Naxos-Messina-Sicilia-Italy - Creative Commons by gnuckx (4054199718).jpg",
+      "termino": "primo aereo linea",
+      "licenza": "CC BY 2.0",
+      "autore": "gnuckx",
+      "data": "2009-07-28 17:58",
+      "larghezza": 1280,
+      "altezza": 960,
+      "url": "https://commons.wikimedia.org/wiki/File:Giardini_Naxos-Messina-Sicilia-Italy_-_Creative_Commons_by_gnuckx_(4054199718).jpg"
+     },
+     {
+      "file": "File:Νάξος-Σικελίας.jpg",
+      "termino": "primo aereo linea",
+      "licenza": "CC BY 2.0",
+      "autore": "gnuckx",
+      "data": "2009-07-28 17:35",
+      "larghezza": 1280,
+      "altezza": 960,
+      "url": "https://commons.wikimedia.org/wiki/File:%CE%9D%CE%AC%CE%BE%CE%BF%CF%82-%CE%A3%CE%B9%CE%BA%CE%B5%CE%BB%CE%AF%CE%B1%CF%82.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "carrozza",
+    "termini": [
+     "carrozza di corte rinascimento",
+     "carrozza di corte rinascimento",
+     "Renaissance court carriage"
+    ],
+    "candidati": [
+     {
+      "file": "File:Hot Springs second Arlington Hotel 1922.jpeg",
+      "termino": "Renaissance court carriage",
+      "licenza": "Public domain",
+      "autore": "Unknown author Unknown author",
+      "data": "1922",
+      "larghezza": 1640,
+      "altezza": 1056,
+      "url": "https://commons.wikimedia.org/wiki/File:Hot_Springs_second_Arlington_Hotel_1922.jpeg"
+     },
+     {
+      "file": "File:L Hearn Courtyard St Louis St NOLA B.jpg",
+      "termino": "Renaissance court carriage",
+      "licenza": "Public domain",
+      "autore": "Arnold Genthe",
+      "data": "between 1920 and 1926 date QS:P,+1920-00-00T00:00:00Z/8,P131",
+      "larghezza": 5505,
+      "altezza": 7512,
+      "url": "https://commons.wikimedia.org/wiki/File:L_Hearn_Courtyard_St_Louis_St_NOLA_B.jpg"
+     },
+     {
+      "file": "File:The stranger's illustrated pocket guide to Philadelphia, embracing a description of the principal objects of interest in and around the city, with directions how to reach them (1876) (14592616340).jpg",
+      "termino": "Renaissance court carriage",
+      "licenza": "No restrictions",
+      "autore": "Internet Archive Book Images",
+      "data": "1876",
+      "larghezza": 2232,
+      "altezza": 1616,
+      "url": "https://commons.wikimedia.org/wiki/File:The_stranger%27s_illustrated_pocket_guide_to_Philadelphia,_embracing_a_description_of_the_principal_objects_of_interest_in_and_around_the_city,_with_directions_how_to_reach_them_(1876)_(14592616340).jpg"
+     },
+     {
+      "file": "File:Town Crier Card Index - DPLA - 60b9d3a65a1e6ac6b4d4a128fcad911b.jpg",
+      "termino": "Renaissance court carriage",
+      "licenza": "Public domain",
+      "autore": "Seattle Public Library",
+      "data": "",
+      "larghezza": 1275,
+      "altezza": 1650,
+      "url": "https://commons.wikimedia.org/wiki/File:Town_Crier_Card_Index_-_DPLA_-_60b9d3a65a1e6ac6b4d4a128fcad911b.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "pipa",
+    "termini": [
+     "pipa botanical illustration",
+     "pipa botanical illustration",
+     "Tabernaemontana plant"
+    ],
+    "candidati": [
+     {
+      "file": "File:Dactylethra capensis (Clawed frog), Pipa americana (Surinam toad).jpg",
+      "termino": "pipa botanical illustration",
+      "licenza": "CC BY 2.0",
+      "autore": "Free Public Domain Illustrations by rawpixel",
+      "data": "2017-07-20 09:51:49",
+      "larghezza": 2500,
+      "altezza": 3890,
+      "url": "https://commons.wikimedia.org/wiki/File:Dactylethra_capensis_(Clawed_frog),_Pipa_americana_(Surinam_toad).jpg"
+     }
+    ]
+   }
+  ],
+  "edificio": [
+   {
+    "voce": "cattedrale",
+    "termini": [
+     "Ferrara cathedral facade",
+     "Ferrara cathedral facade",
+     "duomo di Ferrara esterno"
+    ],
+    "candidati": [
+     {
+      "file": "File:Ferrara Cathedral 01.jpg",
+      "termino": "Ferrara cathedral facade",
+      "licenza": "CC BY-SA 2.0",
+      "autore": "https://www.flickr.com/photos/scuba04/",
+      "data": "2008-03-30 11:07:10",
+      "larghezza": 2592,
+      "altezza": 1944,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_01.jpg"
+     },
+     {
+      "file": "File:Ferrara Cathedral 02.jpg",
+      "termino": "Ferrara cathedral facade",
+      "licenza": "CC BY-SA 2.0",
+      "autore": "https://www.flickr.com/photos/100716140@N08/",
+      "data": "2015-03-07 15:55:01",
+      "larghezza": 4240,
+      "altezza": 2804,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_02.jpg"
+     },
+     {
+      "file": "File:Ferrara Cathedral 03.jpg",
+      "termino": "Ferrara cathedral facade",
+      "licenza": "CC BY-SA 2.0",
+      "autore": "https://www.flickr.com/photos/ltangelini/",
+      "data": "2009-02-01 15:07:30",
+      "larghezza": 2048,
+      "altezza": 1536,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_03.jpg"
+     },
+     {
+      "file": "File:Ferrara Cathedral 04.jpg",
+      "termino": "Ferrara cathedral facade",
+      "licenza": "CC BY 2.0",
+      "autore": "Gary Bembridge",
+      "data": "Taken on 9 May 2015, 09:17:00",
+      "larghezza": 5184,
+      "altezza": 3456,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_04.jpg"
+     },
+     {
+      "file": "File:Ferrara Cathedral 05.jpg",
+      "termino": "Ferrara cathedral facade",
+      "licenza": "CC BY-SA 2.0",
+      "autore": "https://www.flickr.com/photos/almusaiti/",
+      "data": "2015-06-30 13:58:53",
+      "larghezza": 1697,
+      "altezza": 1820,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Cathedral_05.jpg"
+     },
+     {
+      "file": "File:Ferrara Dom 4.JPG",
+      "termino": "Ferrara cathedral facade",
+      "licenza": "CC0",
+      "autore": "Zairon",
+      "data": "2005-09",
+      "larghezza": 1600,
+      "altezza": 1200,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Dom_4.JPG"
+     }
+    ]
+   },
+   {
+    "voce": "castello",
+    "termini": [
+     "Castello Estense Ferrara",
+     "Castello Estense Ferrara",
+     "castello medioevale Italian"
+    ],
+    "candidati": [
+     {
+      "file": "File:Castello Estense, Ferrara 2014 117.jpg",
+      "termino": "Castello Estense Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Photograph by  Mike Peel  ( www.mikepeel.net ).",
+      "data": "2014-12-03",
+      "larghezza": 3456,
+      "altezza": 5184,
+      "url": "https://commons.wikimedia.org/wiki/File:Castello_Estense,_Ferrara_2014_117.jpg"
+     },
+     {
+      "file": "File:Castello Estense in Ferrara.jpg",
+      "termino": "Castello Estense Ferrara",
+      "licenza": "CC0",
+      "autore": "Dani1998ele",
+      "data": "2025-11-10",
+      "larghezza": 1600,
+      "altezza": 1200,
+      "url": "https://commons.wikimedia.org/wiki/File:Castello_Estense_in_Ferrara.jpg"
+     },
+     {
+      "file": "File:Ferrara - Castello Estense - Tower.jpg",
+      "termino": "Castello Estense Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Ingo Mehling",
+      "data": "2021-09-24 09:16:19",
+      "larghezza": 4178,
+      "altezza": 5291,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_-_Castello_Estense_-_Tower.jpg"
+     },
+     {
+      "file": "File:Ferrara - Castello Estense Verlies.JPG",
+      "termino": "Castello Estense Ferrara",
+      "licenza": "CC0",
+      "autore": "Zairon",
+      "data": "2005-09",
+      "larghezza": 1600,
+      "altezza": 1200,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_-_Castello_Estense_Verlies.JPG"
+     },
+     {
+      "file": "File:Ferrara Castello Estense 28mar06 01.jpg",
+      "termino": "Castello Estense Ferrara",
+      "licenza": "CC BY-SA 2.5",
+      "autore": "Marcok  -  it.wikipedia.org",
+      "data": "2006-03-28",
+      "larghezza": 1944,
+      "altezza": 1401,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Castello_Estense_28mar06_01.jpg"
+     },
+     {
+      "file": "File:Ferrara Castello Estense Vista su una Torre.jpg",
+      "termino": "Castello Estense Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zairon",
+      "data": "2022-04-28 14:28:14",
+      "larghezza": 3994,
+      "altezza": 3238,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Castello_Estense_Vista_su_una_Torre.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "palazzo",
+    "termini": [
+     "Palazzo Schifanoia Ferrara",
+     "Palazzo Schifanoia Ferrara",
+     "Palazzo dei Diamanti Ferrara"
+    ],
+    "candidati": [
+     {
+      "file": "File:Ferrara Palazzo Schifanoia Interno Sala delle Virtù Soffitto 01.jpg",
+      "termino": "Palazzo Schifanoia Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zairon",
+      "data": "2022-04-28 12:47:07",
+      "larghezza": 4573,
+      "altezza": 3207,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Palazzo_Schifanoia_Interno_Sala_delle_Virt%C3%B9_Soffitto_01.jpg"
+     },
+     {
+      "file": "File:Ferrara Palazzo Schifanoia Interno Sala delle Virtù Soffitto 06.jpg",
+      "termino": "Palazzo Schifanoia Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zairon",
+      "data": "2022-04-28 12:47:19",
+      "larghezza": 4429,
+      "altezza": 3095,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Palazzo_Schifanoia_Interno_Sala_delle_Virt%C3%B9_Soffitto_06.jpg"
+     },
+     {
+      "file": "File:Ferrara Palazzo Schifanoia Interno Sala delle Virtù Soffitto 08.jpg",
+      "termino": "Palazzo Schifanoia Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zairon",
+      "data": "2022-04-28 12:47:24",
+      "larghezza": 4404,
+      "altezza": 3302,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Palazzo_Schifanoia_Interno_Sala_delle_Virt%C3%B9_Soffitto_08.jpg"
+     },
+     {
+      "file": "File:Ferrara Palazzo Schifanoia Interno Sala delle Virtù Soffitto 10.jpg",
+      "termino": "Palazzo Schifanoia Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zairon",
+      "data": "2022-04-28 12:49:48",
+      "larghezza": 4262,
+      "altezza": 3240,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_Palazzo_Schifanoia_Interno_Sala_delle_Virt%C3%B9_Soffitto_10.jpg"
+     },
+     {
+      "file": "File:Palazzo Schifanoia (Ferrara), Soffitto.jpg",
+      "termino": "Palazzo Schifanoia Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Nicola Quirico",
+      "data": "2022-09-18 16:59:23",
+      "larghezza": 5981,
+      "altezza": 3847,
+      "url": "https://commons.wikimedia.org/wiki/File:Palazzo_Schifanoia_(Ferrara),_Soffitto.jpg"
+     },
+     {
+      "file": "File:Palazzo Schifanoia (Ferrara) - Logo.jpg",
+      "termino": "Palazzo Schifanoia Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Nicola Quirico",
+      "data": "2022-09-18 16:07:26",
+      "larghezza": 3454,
+      "altezza": 3341,
+      "url": "https://commons.wikimedia.org/wiki/File:Palazzo_Schifanoia_(Ferrara)_-_Logo.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "chiesa",
+    "termini": [
+     "chiesa romanica facciata Italia",
+     "chiesa romanica facciata Italia",
+     "Italian Romanesque church facade"
+    ],
+    "candidati": [
+     {
+      "file": "File:CHIESA DI SANTO STEFANO.jpg",
+      "termino": "chiesa romanica facciata Italia",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Daniel rossetti",
+      "data": "2018-09-23 19:08:50",
+      "larghezza": 1500,
+      "altezza": 1000,
+      "url": "https://commons.wikimedia.org/wiki/File:CHIESA_DI_SANTO_STEFANO.jpg"
+     },
+     {
+      "file": "File:Diano Arentino - frazione Diano Borello - chiesa di San Michele Arcangelo - facciata.jpg",
+      "termino": "chiesa romanica facciata Italia",
+      "licenza": "CC BY-SA 3.0",
+      "autore": "Davide Papalini",
+      "data": "5 April 2008, 07:58:42 (according to   Exif   data)",
+      "larghezza": 544,
+      "altezza": 816,
+      "url": "https://commons.wikimedia.org/wiki/File:Diano_Arentino_-_frazione_Diano_Borello_-_chiesa_di_San_Michele_Arcangelo_-_facciata.jpg"
+     },
+     {
+      "file": "File:Facciata della Chiesa di San Marco.jpg",
+      "termino": "chiesa romanica facciata Italia",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Viaggiamocela",
+      "data": "2025-06-05",
+      "larghezza": 3072,
+      "altezza": 4096,
+      "url": "https://commons.wikimedia.org/wiki/File:Facciata_della_Chiesa_di_San_Marco.jpg"
+     },
+     {
+      "file": "File:Facciata della Chiesa monumentale di San Gaudenzio a Baceno.JPG",
+      "termino": "chiesa romanica facciata Italia",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Monica Rondoni",
+      "data": "2022-08-06",
+      "larghezza": 4032,
+      "altezza": 3024,
+      "url": "https://commons.wikimedia.org/wiki/File:Facciata_della_Chiesa_monumentale_di_San_Gaudenzio_a_Baceno.JPG"
+     },
+     {
+      "file": "File:La facciata a capanna della Chiesa di San Quirico - Domodossola.JPG",
+      "termino": "chiesa romanica facciata Italia",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Monica Rondoni",
+      "data": "2023-06-03",
+      "larghezza": 3243,
+      "altezza": 4865,
+      "url": "https://commons.wikimedia.org/wiki/File:La_facciata_a_capanna_della_Chiesa_di_San_Quirico_-_Domodossola.JPG"
+     },
+     {
+      "file": "File:Piazza Santi Apostoli, part.jpg",
+      "termino": "chiesa romanica facciata Italia",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Gian Sini",
+      "data": "2019-09-18 11:26:53",
+      "larghezza": 2042,
+      "altezza": 2788,
+      "url": "https://commons.wikimedia.org/wiki/File:Piazza_Santi_Apostoli,_part.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "mura",
+    "termini": [
+     "mura di Ferrara",
+     "mura di Ferrara",
+     "Ferrara city walls"
+    ],
+    "candidati": [
+     {
+      "file": "File:Antiche mura, via Ludovico Ticchioni (Ferrara).jpg",
+      "termino": "mura di Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Threecharlie",
+      "data": "2022-09-06 16:37:38",
+      "larghezza": 4608,
+      "altezza": 3456,
+      "url": "https://commons.wikimedia.org/wiki/File:Antiche_mura,_via_Ludovico_Ticchioni_(Ferrara).jpg"
+     },
+     {
+      "file": "File:Antiche mura, via Ludovico Ticchioni angolo via Arturo Cassoli (Ferrara).jpg",
+      "termino": "mura di Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Threecharlie",
+      "data": "2022-09-06 16:39:59",
+      "larghezza": 3456,
+      "altezza": 4608,
+      "url": "https://commons.wikimedia.org/wiki/File:Antiche_mura,_via_Ludovico_Ticchioni_angolo_via_Arturo_Cassoli_(Ferrara).jpg"
+     },
+     {
+      "file": "File:Ferrara - Mura.jpg",
+      "termino": "mura di Ferrara",
+      "licenza": "CC BY-SA 3.0",
+      "autore": "Rapallo80",
+      "data": "2013-05-23 10:38:55",
+      "larghezza": 2848,
+      "altezza": 2136,
+      "url": "https://commons.wikimedia.org/wiki/File:Ferrara_-_Mura.jpg"
+     },
+     {
+      "file": "File:Mura di Ferrara - Nevicata.jpg",
+      "termino": "mura di Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Nicola Quirico",
+      "data": "2010-01-31 17:47:31",
+      "larghezza": 2448,
+      "altezza": 3264,
+      "url": "https://commons.wikimedia.org/wiki/File:Mura_di_Ferrara_-_Nevicata.jpg"
+     },
+     {
+      "file": "File:Mura di Ferrara 00.jpg",
+      "termino": "mura di Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Nicola Quirico",
+      "data": "2008-03-10 17:29:38",
+      "larghezza": 3244,
+      "altezza": 2193,
+      "url": "https://commons.wikimedia.org/wiki/File:Mura_di_Ferrara_00.jpg"
+     },
+     {
+      "file": "File:Mura di Ferrara 01.jpg",
+      "termino": "mura di Ferrara",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Nicola Quirico",
+      "data": "2008-03-10 17:27:29",
+      "larghezza": 3250,
+      "altezza": 2111,
+      "url": "https://commons.wikimedia.org/wiki/File:Mura_di_Ferrara_01.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "casa",
+    "termini": [
+     "casa torre Emilia",
+     "casa torre Emilia",
+     "Emilian medieval house"
+    ],
+    "candidati": [
+     {
+      "file": "File:Carpineti casa torre 05.jpg",
+      "termino": "casa torre Emilia",
+      "licenza": "CC BY-SA 3.0",
+      "autore": "Paolo da Reggio",
+      "data": "2005-05-05 20:44",
+      "larghezza": 1526,
+      "altezza": 644,
+      "url": "https://commons.wikimedia.org/wiki/File:Carpineti_casa_torre_05.jpg"
+     },
+     {
+      "file": "File:Carpineti casa torre neve.jpg",
+      "termino": "casa torre Emilia",
+      "licenza": "Public domain",
+      "autore": "No machine-readable author provided.  Paolo da Reggio~commonswiki  assumed (based on copyright claims).",
+      "data": "2000-01-01",
+      "larghezza": 2048,
+      "altezza": 1536,
+      "url": "https://commons.wikimedia.org/wiki/File:Carpineti_casa_torre_neve.jpg"
+     },
+     {
+      "file": "File:Carpineti casa torre paesaggio.jpg",
+      "termino": "casa torre Emilia",
+      "licenza": "CC BY-SA 3.0",
+      "autore": "",
+      "data": "",
+      "larghezza": 2048,
+      "altezza": 1536,
+      "url": "https://commons.wikimedia.org/wiki/File:Carpineti_casa_torre_paesaggio.jpg"
+     },
+     {
+      "file": "File:Casa Museu D. Maria Emília Vasconcelos Cabral - Oliveira do Hospital - Portugal (8270480390).jpg",
+      "termino": "casa torre Emilia",
+      "licenza": "CC BY-SA 2.0",
+      "autore": "Vitor Oliveira  from Torres Vedras, PORTUGAL",
+      "data": "2012-12-13 13:42",
+      "larghezza": 3789,
+      "altezza": 5685,
+      "url": "https://commons.wikimedia.org/wiki/File:Casa_Museu_D._Maria_Em%C3%ADlia_Vasconcelos_Cabral_-_Oliveira_do_Hospital_-_Portugal_(8270480390).jpg"
+     },
+     {
+      "file": "File:Casa torre catalani.jpg",
+      "termino": "casa torre Emilia",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Anita.malina",
+      "data": "2017-10-29 17:48:20",
+      "larghezza": 4608,
+      "altezza": 3072,
+      "url": "https://commons.wikimedia.org/wiki/File:Casa_torre_catalani.jpg"
+     },
+     {
+      "file": "File:Torre Lluvià, Villa Emília.jpg",
+      "termino": "casa torre Emilia",
+      "licenza": "CC BY-SA 3.0",
+      "autore": "AlbaCiC",
+      "data": "2015-03-29",
+      "larghezza": 3264,
+      "altezza": 1836,
+      "url": "https://commons.wikimedia.org/wiki/File:Torre_Lluvi%C3%A0,_Villa_Em%C3%ADlia.jpg"
+     }
+    ]
+   }
+  ],
+  "epigrafe": [
+   {
+    "voce": "lapide",
+    "termini": [
+     "Roman funerary inscription stone",
+     "Roman funerary inscription stone",
+     "epigrafe romana Museo"
+    ],
+    "candidati": [
+     {
+      "file": "File:Funerary slab Pomponius Terme.jpg",
+      "termino": "Roman funerary inscription stone",
+      "licenza": "Public domain",
+      "autore": "Marie-Lan Nguyen",
+      "data": "2006",
+      "larghezza": 2600,
+      "altezza": 1733,
+      "url": "https://commons.wikimedia.org/wiki/File:Funerary_slab_Pomponius_Terme.jpg"
+     },
+     {
+      "file": "File:Funerary stele of Sosibia (Boston MFA 1971.209).jpg",
+      "termino": "Roman funerary inscription stone",
+      "licenza": "CC BY 4.0",
+      "autore": "Mark Landon",
+      "data": "2023-03-06",
+      "larghezza": 3460,
+      "altezza": 5352,
+      "url": "https://commons.wikimedia.org/wiki/File:Funerary_stele_of_Sosibia_(Boston_MFA_1971.209).jpg"
+     },
+     {
+      "file": "File:Marble funerary inscription MET DP132689.jpg",
+      "termino": "Roman funerary inscription stone",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "early 3rd century A.D.",
+      "larghezza": 4000,
+      "altezza": 3180,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_inscription_MET_DP132689.jpg"
+     },
+     {
+      "file": "File:Marble funerary inscription MET DP132690.jpg",
+      "termino": "Roman funerary inscription stone",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "2nd–3rd century A.D.",
+      "larghezza": 4000,
+      "altezza": 3125,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_inscription_MET_DP132690.jpg"
+     },
+     {
+      "file": "File:National Roman Legion Museum (Caerleon) 20171016 the Great Bulmore gravestones.jpg",
+      "termino": "Roman funerary inscription stone",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Otter",
+      "data": "2017-10-16",
+      "larghezza": 3158,
+      "altezza": 2000,
+      "url": "https://commons.wikimedia.org/wiki/File:National_Roman_Legion_Museum_(Caerleon)_20171016_the_Great_Bulmore_gravestones.jpg"
+     },
+     {
+      "file": "File:Zgornji Kaselj Slovenia - Roman stone.JPG",
+      "termino": "Roman funerary inscription stone",
+      "licenza": "CC BY-SA 3.0",
+      "autore": "Doremo",
+      "data": "2013-06-16 06:43:17",
+      "larghezza": 2710,
+      "altezza": 1805,
+      "url": "https://commons.wikimedia.org/wiki/File:Zgornji_Kaselj_Slovenia_-_Roman_stone.JPG"
+     }
+    ]
+   },
+   {
+    "voce": "lastra",
+    "termini": [
+     "Roman funerary relief marble",
+     "Roman funerary relief marble",
+     "stele funeraria greca"
+    ],
+    "candidati": [
+     {
+      "file": "File:Marble funerary relief MET DP337516.jpg",
+      "termino": "Roman funerary relief marble",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "2nd–3rd century A.D.",
+      "larghezza": 3919,
+      "altezza": 2947,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_relief_MET_DP337516.jpg"
+     },
+     {
+      "file": "File:Marble portrait of a man from a funerary relief MET DP337271.jpg",
+      "termino": "Roman funerary relief marble",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "late 1st century B.C.",
+      "larghezza": 2911,
+      "altezza": 3880,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337271.jpg"
+     },
+     {
+      "file": "File:Marble portrait of a man from a funerary relief MET DP337291.jpg",
+      "termino": "Roman funerary relief marble",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "late 1st century B.C.",
+      "larghezza": 2911,
+      "altezza": 3880,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337291.jpg"
+     },
+     {
+      "file": "File:Marble portrait of a man from a funerary relief MET DP337292.jpg",
+      "termino": "Roman funerary relief marble",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "late 1st century B.C.",
+      "larghezza": 2911,
+      "altezza": 3880,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337292.jpg"
+     },
+     {
+      "file": "File:Marble portrait of a man from a funerary relief MET DP337293.jpg",
+      "termino": "Roman funerary relief marble",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "late 1st century B.C.",
+      "larghezza": 2911,
+      "altezza": 3880,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337293.jpg"
+     },
+     {
+      "file": "File:Marble portrait of a man from a funerary relief MET DP337795.jpg",
+      "termino": "Roman funerary relief marble",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "late 1st century B.C.",
+      "larghezza": 2911,
+      "altezza": 3880,
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337795.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "iscrizione",
+    "termini": [
+     "Greek inscription stone museum",
+     "Greek inscription stone museum",
+     "iscrizione greca antica"
+    ],
+    "candidati": [
+     {
+      "file": "File:Greek inscription, Eleutherna, 600-450 BC, AM Rethymno, 076104.jpg",
+      "termino": "Greek inscription stone museum",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zde",
+      "data": "2007-07-04",
+      "larghezza": 3452,
+      "altezza": 2300,
+      "url": "https://commons.wikimedia.org/wiki/File:Greek_inscription,_Eleutherna,_600-450_BC,_AM_Rethymno,_076104.jpg"
+     },
+     {
+      "file": "File:Greek inscription on a stone slab, Roman Age, AM Apeiranthos, 176949.jpg",
+      "termino": "Greek inscription stone museum",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zde",
+      "data": "2017-06-30 11:51:33",
+      "larghezza": 2736,
+      "altezza": 1824,
+      "url": "https://commons.wikimedia.org/wiki/File:Greek_inscription_on_a_stone_slab,_Roman_Age,_AM_Apeiranthos,_176949.jpg"
+     },
+     {
+      "file": "File:Old stone and Ancient Greek script.jpg",
+      "termino": "Greek inscription stone museum",
+      "licenza": "CC0",
+      "autore": "Kaap bij Sneeuw",
+      "data": "2025-07-24",
+      "larghezza": 1276,
+      "altezza": 1702,
+      "url": "https://commons.wikimedia.org/wiki/File:Old_stone_and_Ancient_Greek_script.jpg"
+     },
+     {
+      "file": "File:Phallic stone, 7th-6th century, Greek inscription, AM Corfu, BC, Krfm01.jpg",
+      "termino": "Greek inscription stone museum",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zde",
+      "data": "2000-07-07",
+      "larghezza": 800,
+      "altezza": 1200,
+      "url": "https://commons.wikimedia.org/wiki/File:Phallic_stone,_7th-6th_century,_Greek_inscription,_AM_Corfu,_BC,_Krfm01.jpg"
+     },
+     {
+      "file": "File:Stone, ancient Greek inscription, AM Paros, 177046.jpg",
+      "termino": "Greek inscription stone museum",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Zde",
+      "data": "2017-07-01 09:19:54",
+      "larghezza": 3498,
+      "altezza": 2332,
+      "url": "https://commons.wikimedia.org/wiki/File:Stone,_ancient_Greek_inscription,_AM_Paros,_177046.jpg"
+     },
+     {
+      "file": "File:Stone greek inscription, Persepolis.JPG",
+      "termino": "Greek inscription stone museum",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Davide Mauro",
+      "data": "2016-04-24 12:31:44",
+      "larghezza": 2816,
+      "altezza": 1432,
+      "url": "https://commons.wikimedia.org/wiki/File:Stone_greek_inscription,_Persepolis.JPG"
+     }
+    ]
+   }
+  ],
+  "incidente": [
+   {
+    "voce": "incendio",
+    "termini": [
+     "incendio di Ferrara archivio",
+     "incendio di Ferrara archivio",
+     "incendio biblioteca antica"
+    ],
+    "candidati": []
+   },
+   {
+    "voce": "carestia",
+    "termini": [
+     "carestia 1520 incisione",
+     "carestia 1520 incisione",
+     "famine Europe 16th century engraving"
+    ],
+    "candidati": []
+   },
+   {
+    "voce": "moria",
+    "termini": [
+     "peste Italia 1520",
+     "peste Italia 1520",
+     "plague Italy engraving"
+    ],
+    "candidati": [
+     {
+      "file": "File:Lodovico Pogliaghi - Procession in Rome during the plague in 590.jpg",
+      "termino": "plague Italy engraving",
+      "licenza": "Public domain",
+      "autore": "Lodovico Pogliaghi",
+      "data": "c. 1890",
+      "larghezza": 1544,
+      "altezza": 1094,
+      "url": "https://commons.wikimedia.org/wiki/File:Lodovico_Pogliaghi_-_Procession_in_Rome_during_the_plague_in_590.jpg"
+     },
+     {
+      "file": "File:Marcantonio - A plague scene, H,3.46.jpg",
+      "termino": "plague Italy engraving",
+      "licenza": "Public domain",
+      "autore": "Marcantonio Raimondi",
+      "data": "",
+      "larghezza": 2500,
+      "altezza": 2005,
+      "url": "https://commons.wikimedia.org/wiki/File:Marcantonio_-_A_plague_scene,_H,3.46.jpg"
+     },
+     {
+      "file": "File:Marcantonio - A plague scene, H,3.47.jpg",
+      "termino": "plague Italy engraving",
+      "licenza": "Public domain",
+      "autore": "Marcantonio Raimondi",
+      "data": "",
+      "larghezza": 2500,
+      "altezza": 1942,
+      "url": "https://commons.wikimedia.org/wiki/File:Marcantonio_-_A_plague_scene,_H,3.47.jpg"
+     },
+     {
+      "file": "File:Marcantonio - After - A plague scene, 1863,0110.72.jpg",
+      "termino": "plague Italy engraving",
+      "licenza": "Public domain",
+      "autore": "Marcantonio Raimondi",
+      "data": "",
+      "larghezza": 2500,
+      "altezza": 2002,
+      "url": "https://commons.wikimedia.org/wiki/File:Marcantonio_-_After_-_A_plague_scene,_1863,0110.72.jpg"
+     },
+     {
+      "file": "File:Plague scene after Raphael Wellcome L0011953.jpg",
+      "termino": "plague Italy engraving",
+      "licenza": "CC BY 4.0",
+      "autore": "https://wellcomeimages.org/indexplus/obf_images/b2/6d/e42a57accdbdda81f48b5d397d2a.jpg \n \n  Gallery:  https://wellcomeim",
+      "data": "",
+      "larghezza": 1528,
+      "altezza": 1208,
+      "url": "https://commons.wikimedia.org/wiki/File:Plague_scene_after_Raphael_Wellcome_L0011953.jpg"
+     },
+     {
+      "file": "File:Raimondi - The Plague, 23.984.jpg",
+      "termino": "plague Italy engraving",
+      "licenza": "Public domain",
+      "autore": "Marcantonio Raimondi",
+      "data": "16 th  century date QS:P571,+1550-00-00T00:00:00Z/7",
+      "larghezza": 1600,
+      "altezza": 1254,
+      "url": "https://commons.wikimedia.org/wiki/File:Raimondi_-_The_Plague,_23.984.jpg"
+     }
+    ]
+   }
+  ],
+  "colore": [
+   {
+    "voce": "tavolozza affreschi",
+    "termini": [
+     "affresco quattrocento campionatura",
+     "affresco quattrocento campionatura",
+     "Italian fresco palette"
+    ],
+    "candidati": [
+     {
+      "file": "File:Alessandro Allori - Autoritratto - 1689 - Uffizi Gallery.jpg",
+      "termino": "Italian fresco palette",
+      "licenza": "Public domain",
+      "autore": "Alessandro Allori",
+      "data": "1555",
+      "larghezza": 2256,
+      "altezza": 3000,
+      "url": "https://commons.wikimedia.org/wiki/File:Alessandro_Allori_-_Autoritratto_-_1689_-_Uffizi_Gallery.jpg"
+     },
+     {
+      "file": "File:Giambattista Piazzetta - Ritratto di Giulia Lama (1718-19) - Museo Nacional Thyssen-Bornemisza Madrid.jpg",
+      "termino": "Italian fresco palette",
+      "licenza": "CC BY-SA 4.0",
+      "autore": "Didier Descouens",
+      "data": "Taken on 4 May 2019",
+      "larghezza": 4709,
+      "altezza": 6044,
+      "url": "https://commons.wikimedia.org/wiki/File:Giambattista_Piazzetta_-_Ritratto_di_Giulia_Lama_(1718-19)_-_Museo_Nacional_Thyssen-Bornemisza_Madrid.jpg"
+     },
+     {
+      "file": "File:Guercino - Atelier de - Portrait de l'artiste tenant une palette, INV 87 ; MR 268.jpg",
+      "termino": "Italian fresco palette",
+      "licenza": "Public domain",
+      "autore": "Guercino",
+      "data": "",
+      "larghezza": 1266,
+      "altezza": 1500,
+      "url": "https://commons.wikimedia.org/wiki/File:Guercino_-_Atelier_de_-_Portrait_de_l%27artiste_tenant_une_palette,_INV_87_;_MR_268.jpg"
+     },
+     {
+      "file": "File:Guercino Allegoria pittura scultura.jpg",
+      "termino": "Italian fresco palette",
+      "licenza": "Public domain",
+      "autore": "Guercino",
+      "data": "1637",
+      "larghezza": 972,
+      "altezza": 804,
+      "url": "https://commons.wikimedia.org/wiki/File:Guercino_Allegoria_pittura_scultura.jpg"
+     },
+     {
+      "file": "File:SELF PORTRAIT OF THE ARTIST PAINTING AND HOLDING A PALETTE.PNG",
+      "termino": "Italian fresco palette",
+      "licenza": "Public domain",
+      "autore": "Giovanni Battista Gaulli",
+      "data": "",
+      "larghezza": 569,
+      "altezza": 662,
+      "url": "https://commons.wikimedia.org/wiki/File:SELF_PORTRAIT_OF_THE_ARTIST_PAINTING_AND_HOLDING_A_PALETTE.PNG"
+     },
+     {
+      "file": "File:Self-portrait by Alessandro Allori.jpg",
+      "termino": "Italian fresco palette",
+      "licenza": "Public domain",
+      "autore": "Alessandro Allori",
+      "data": "circa 1555 date QS:P571,+1555-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 4614,
+      "altezza": 6010,
+      "url": "https://commons.wikimedia.org/wiki/File:Self-portrait_by_Alessandro_Allori.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "tessile",
+    "termini": [
+     "tappeto persiano motivo",
+     "tappeto persiano motivo",
+     "Islamic textile pattern"
+    ],
+    "candidati": [
+     {
+      "file": "File:Textile Fragment with Interlace Pattern MET 56906.jpg",
+      "termino": "Islamic textile pattern",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "3rd–4th century",
+      "larghezza": 2161,
+      "altezza": 2473,
+      "url": "https://commons.wikimedia.org/wiki/File:Textile_Fragment_with_Interlace_Pattern_MET_56906.jpg"
+     },
+     {
+      "file": "File:Textile Fragment with Interlace Pattern MET DP349276.jpg",
+      "termino": "Islamic textile pattern",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "3rd–4th century",
+      "larghezza": 3876,
+      "altezza": 3848,
+      "url": "https://commons.wikimedia.org/wiki/File:Textile_Fragment_with_Interlace_Pattern_MET_DP349276.jpg"
+     },
+     {
+      "file": "File:Textile Fragment with Interlace Pattern MET DP349277.jpg",
+      "termino": "Islamic textile pattern",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "3rd–4th century",
+      "larghezza": 3832,
+      "altezza": 3845,
+      "url": "https://commons.wikimedia.org/wiki/File:Textile_Fragment_with_Interlace_Pattern_MET_DP349277.jpg"
+     },
+     {
+      "file": "File:Textile Fragment with Ogival Pattern MET 137335.jpg",
+      "termino": "Islamic textile pattern",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "14 th  century date QS:P571,+1350-00-00T00:00:00Z/7",
+      "larghezza": 554,
+      "altezza": 656,
+      "url": "https://commons.wikimedia.org/wiki/File:Textile_Fragment_with_Ogival_Pattern_MET_137335.jpg"
+     },
+     {
+      "file": "File:Textile Fragment with Ogival Pattern MET DP230043.jpg",
+      "termino": "Islamic textile pattern",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "14 th  century date QS:P571,+1350-00-00T00:00:00Z/7",
+      "larghezza": 1180,
+      "altezza": 1784,
+      "url": "https://commons.wikimedia.org/wiki/File:Textile_Fragment_with_Ogival_Pattern_MET_DP230043.jpg"
+     },
+     {
+      "file": "File:Textile Fragment with Ogival Pattern MET DP251967.jpg",
+      "termino": "Islamic textile pattern",
+      "licenza": "CC0",
+      "autore": "This file was donated to Wikimedia Commons as part of a project by the  Metropolitan Museum of Art . See the  Image and ",
+      "data": "14 th  century date QS:P571,+1350-00-00T00:00:00Z/7",
+      "larghezza": 2402,
+      "altezza": 4000,
+      "url": "https://commons.wikimedia.org/wiki/File:Textile_Fragment_with_Ogival_Pattern_MET_DP251967.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "tinta",
+    "termini": [
+     "colori manoscritto miniato quattrocento",
+     "colori manoscritto miniato quattrocento",
+     "illuminated manuscript pigments"
+    ],
+    "candidati": [
+     {
+      "file": "File:African - Text Page with Illuminated Marginal Medallion - Walters W56813B - Full Page.jpg",
+      "termino": "illuminated manuscript pigments",
+      "licenza": "Public domain",
+      "autore": "Anonymous  (  Africa  ) Unknown author",
+      "data": "12th century AH/AD 18th century",
+      "larghezza": 1330,
+      "altezza": 1800,
+      "url": "https://commons.wikimedia.org/wiki/File:African_-_Text_Page_with_Illuminated_Marginal_Medallion_-_Walters_W56813B_-_Full_Page.jpg"
+     },
+     {
+      "file": "File:Cosmology manuscript panel showing Himavanta Forest where Buddhas meditate.jpg",
+      "termino": "illuminated manuscript pigments",
+      "licenza": "Public domain",
+      "autore": "Unknown artist Unknown artist",
+      "data": "Between 1857 to 1885",
+      "larghezza": 2408,
+      "altezza": 1582,
+      "url": "https://commons.wikimedia.org/wiki/File:Cosmology_manuscript_panel_showing_Himavanta_Forest_where_Buddhas_meditate.jpg"
+     },
+     {
+      "file": "File:Illuminated Headings for Chapters 108-113 (CBL Is 1439, ff.365b-366a).jpg",
+      "termino": "illuminated manuscript pigments",
+      "licenza": "Public domain",
+      "autore": "Copied by Muhammad b. Ahmad al-Jabali al-[...], illuminated by 'Abd al-Rahman b. Muhammad al-Sufi",
+      "data": "Circa 1200",
+      "larghezza": 7210,
+      "altezza": 4460,
+      "url": "https://commons.wikimedia.org/wiki/File:Illuminated_Headings_for_Chapters_108-113_(CBL_Is_1439,_ff.365b-366a).jpg"
+     },
+     {
+      "file": "File:Illuminated Manuscript Walters Art Museum Ms. W.554, fol.77b.jpg",
+      "termino": "illuminated manuscript pigments",
+      "licenza": "CC0",
+      "autore": "Anonymous  (Islamic) Unknown author",
+      "data": "late 3rd century AH/AD 9th century (  Abbasid Caliphate   er",
+      "larghezza": 1800,
+      "altezza": 1167,
+      "url": "https://commons.wikimedia.org/wiki/File:Illuminated_Manuscript_Walters_Art_Museum_Ms._W.554,_fol.77b.jpg"
+     },
+     {
+      "file": "File:Illuminated folio. The Ruzbihan Qur'an (CBL Is 1558, f. 209a).jpg",
+      "termino": "illuminated manuscript pigments",
+      "licenza": "Public domain",
+      "autore": "Ruzbihan Muhammad al-Tab‘i al-Shirazi",
+      "data": "1550",
+      "larghezza": 3910,
+      "altezza": 5689,
+      "url": "https://commons.wikimedia.org/wiki/File:Illuminated_folio._The_Ruzbihan_Qur%27an_(CBL_Is_1558,_f._209a).jpg"
+     },
+     {
+      "file": "File:Iranian - Illuminated Chapter Heading for Chapter 113 of the Qur'an - Walters W56245B - Full Page.jpg",
+      "termino": "illuminated manuscript pigments",
+      "licenza": "Public domain",
+      "autore": "Anonymous  (  Iran  ) Unknown author",
+      "data": "9th century AH/AD 15th century (  Timurid Empire   era QS:P2",
+      "larghezza": 1319,
+      "altezza": 1800,
+      "url": "https://commons.wikimedia.org/wiki/File:Iranian_-_Illuminated_Chapter_Heading_for_Chapter_113_of_the_Qur%27an_-_Walters_W56245B_-_Full_Page.jpg"
+     }
+    ]
+   },
+   {
+    "voce": "terra",
+    "termini": [
+     "terre d'oliva Ferrara paesaggio",
+     "terre d'oliva Ferrara paesaggio",
+     "Ferrara landscape painting Renaissance"
+    ],
+    "candidati": [
+     {
+      "file": "File:A history of painting in north Italy; Venice, Padua, Vicenza, Verona, Ferrara, Millan, Friuli, Brescia, from the fourteenth to the sixteenth century (1871) (14576509710).jpg",
+      "termino": "Ferrara landscape painting Renaissance",
+      "licenza": "No restrictions",
+      "autore": "Internet Archive Book Images",
+      "data": "1871",
+      "larghezza": 1692,
+      "altezza": 2860,
+      "url": "https://commons.wikimedia.org/wiki/File:A_history_of_painting_in_north_Italy;_Venice,_Padua,_Vicenza,_Verona,_Ferrara,_Millan,_Friuli,_Brescia,_from_the_fourteenth_to_the_sixteenth_century_(1871)_(14576509710).jpg"
+     },
+     {
+      "file": "File:Bono da Ferrara - Saint Jerome.jpg",
+      "termino": "Ferrara landscape painting Renaissance",
+      "licenza": "Public domain",
+      "autore": "Bono da Ferrara",
+      "data": "circa 1440 date QS:P571,+1440-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 574,
+      "altezza": 800,
+      "url": "https://commons.wikimedia.org/wiki/File:Bono_da_Ferrara_-_Saint_Jerome.jpg"
+     },
+     {
+      "file": "File:Landscape with saints by D.Dossi (1530s, Pushkin museum).jpg",
+      "termino": "Ferrara landscape painting Renaissance",
+      "licenza": "Public domain",
+      "autore": "Dosso Dossi",
+      "data": "1530s date QS:P571,+1530-00-00T00:00:00Z/8",
+      "larghezza": 700,
+      "altezza": 476,
+      "url": "https://commons.wikimedia.org/wiki/File:Landscape_with_saints_by_D.Dossi_(1530s,_Pushkin_museum).jpg"
+     },
+     {
+      "file": "File:Madonna and Child in an Evening Landscape - Titian.jpg",
+      "termino": "Ferrara landscape painting Renaissance",
+      "licenza": "CC BY 4.0",
+      "autore": "GoldenArtists",
+      "data": "2023-08-05 13:52:43",
+      "larghezza": 5185,
+      "altezza": 6424,
+      "url": "https://commons.wikimedia.org/wiki/File:Madonna_and_Child_in_an_Evening_Landscape_-_Titian.jpg"
+     },
+     {
+      "file": "File:The painters of the school of Ferrara (1911) (14581696880).jpg",
+      "termino": "Ferrara landscape painting Renaissance",
+      "licenza": "No restrictions",
+      "autore": "Internet Archive Book Images",
+      "data": "1911",
+      "larghezza": 1762,
+      "altezza": 2754,
+      "url": "https://commons.wikimedia.org/wiki/File:The_painters_of_the_school_of_Ferrara_(1911)_(14581696880).jpg"
+     },
+     {
+      "file": "File:Titian - Madonna and Child in an Evening Landscape - WGA22828.jpg",
+      "termino": "Ferrara landscape painting Renaissance",
+      "licenza": "Public domain",
+      "autore": "Titian",
+      "data": "circa 1560 date QS:P571,+1560-00-00T00:00:00Z/9,P1480,Q57279",
+      "larghezza": 867,
+      "altezza": 1137,
+      "url": "https://commons.wikimedia.org/wiki/File:Titian_-_Madonna_and_Child_in_an_Evening_Landscape_-_WGA22828.jpg"
+     }
+    ]
+   }
+  ]
+ }
+}

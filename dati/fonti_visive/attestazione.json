@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "data": "2026-10-02",
+  "stato": "vuoto: nessuna fonte visiva è stata ancora scelta né guardata a vista",
+  "nota": "Una riga per ogni fonte che entra nel gioco. Le proposte sono in dati/fonti_visive/fonti_visive.json; scegliere vuol dire guardare e scrivere qui perché questa è quella. Una fonte senza motivo di giudizio non entra. Le regole sono in docs/videogioco-5-duchi-fonti-visive.md.",
+  "campi": {
+    "categoria": "mezzo, edificio, epigrafe, incidente, colore",
+    "voce": "la voce cercata, come nel file delle proposte",
+    "file": "il nome del file su Commons, con il prefisso File:",
+    "etichetta": "fotografia, immagine_d_archivio, dipinto, incisione, miniatura, rilievo, stampa, schema",
+    "autore": "come dichiara la pagina del file; stringa vuota se non c'è",
+    "licenza": "come dichiara la pagina del file",
+    "data": "quando c'è; stringa vuota se non c'è",
+    "url": "l'indirizzo della pagina del file su Commons",
+    "uso": "dove entra nel gioco: la tappa, il percorso, la scheda",
+    "motivo": "perché questa fonte e non un'altra, in una riga",
+    "guardata_a_vista": "true: guardata da una persona. false non entra nel gioco"
+  },
+  "scelte": []
+}

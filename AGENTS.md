@@ -72,7 +72,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I file di `dati/mappe/` NON sono JSON valido.** Sono in un formato a delta con quantizzazione, e si leggono **solo** con `sorgenti/gis/mappe_lettore.py`, che restituisce coordinate in gradi decimali. Non usare `json.load` su questi file.
 - **Prima di assegnare un pin a una tappa degli anni 2, 3 e 4, verificalo** con `sorgenti/gis/punto_in_poligono.py`: il pin deve cadere nel Paese e nell'unità amministrativa che il documento dichiara. Sono 90 coordinate scritte a mano e la verifica non è ancora stata fatta.
 - **Le altezze degli edifici non sono un dato disponibile**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Ogni edificio che ne usa una deve dichiarare la fonte (`lidar`, `osm`, `stimata`), come fanno i campi `attendibilita` e `manca` del registro dell'anno 4.
-- **OpenStreetMap è ODbL e non è ancora autorizzato** (`mappe.md` §10 Q1). Non scaricare dati OSM finché Pietro non ha deciso.
+- **OpenStreetMap è autorizzato dal 02/10/2026** (`mappe.md` §10 Q1, risolta): entra, i dati derivati viaggiano con ODbL e l'attribuzione «© OpenStreetMap contributors». **Non scaricare dati OSM per gli edifici senza dichiarare edificio per edificio da dove viene la sagoma e da dove viene l'altezza.**
 - Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio.
 
 **Luoghi e sagome** (trasversale, vedi `luoghi-edifici.md`)
@@ -82,7 +82,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Un campo vuoto non si stima.** Le dimensioni in metri di una piazza, se la fonte non le dà, restano vuote. Il default tipologico lo sceglie il motore e lo dichiara.
 - Il file dei luoghi si **rigenera** con `python3 sorgenti/luoghi/estrai_luoghi.py` e poi `classifica.py`: non si scrive a mano, perché un inventario scritto a parte diverge dai documenti, e un inventario che diverge è falso. **La tabella delle colonne va riletta** quando un documento cambia: nel 4º anno la colonna si chiama `Pin` e non `Luogo (pin)`, e la prima versione leggeva la colonna sbagliata trovandosi trenta nomi di persone al posto di trenta luoghi.
 - **Il rilievo si misura, non si stima**: `sorgenti/gis/rilievo.py`, verificato su 14 punti ad altitudine nota con errore medio di 12,6 m. Non usare `lon mod 16` per il pixel dentro un tassello: è l'indice di un tassello, non di un pixel (256 pixel, non 16).
-- **OpenStreetMap è autorizzato dal 02/10/2026** e i dati derivati viaggiano con ODbL e l'attribuzione «© OpenStreetMap contributors». Il codice del gioco non è obbligato a licenza libera.
+- **Le sagome degli edifici vengono da OSM**, dichiarando la provenienza edificio per edificio (`luoghi-edifici.md` §2); il codice del gioco non è obbligato a licenza libera, i dati derivati sì.
 
 **L'*Orlando furioso* nel quinto anno** (vedi `furioso.md`)
 - **Il testo è l'edizione 1928** della Biblioteca BEIC, trascritta su Wikisource, **in pubblico dominio**, e si scarica con `python3 sorgenti/furioso/scarica_wikisource.py`. Non usare Project Gutenberg (solo 16 canti), né Liber Liber (non estraibile), né Internet Archive (OCR rovinato). Le tre scelte e i loro motivi sono nel documento, §1.1.
@@ -117,6 +117,14 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Le trenta voci per lingua in `dati/lingue/associazioni.json` sono PROPOSTE**, non voci confermate. Per il ferrarese la voce non è un testo ma un **campo da rilevare**: i proverbi si raccolgono, non si scrivono.
 - **I 900 titoli sono in `sorgenti/lingue/`**, sei file di 150 righe, e ogni riga dichiara la sua provenienza: `titolo` (di Pietro) oppure `tema` (proposto). `titoli_livelli.txt` è un output, non un sorgente. Prima di usare un titolo, `python3 sorgenti/lingue/verifica_titoli.py` deve dare **0 problemi**.
 - **Non scrivere una lingua dei segni a tavolino**, e non raccogliere proverbi ferraresi senza la regola del consenso: entrambe le cose sono questioni aperte (`lingue.md` §7 Q3 e Q4).
+
+**Fonti visive** (trasversale, vedi `fonti-visive.md`)
+- **Il gioco ha tre sistemi di immagini che non concordano**: i 213 ritratti, i 1120 candidati degli oggetti e i 19 fondi geografici. **La tavolozza è da produrre**: `dati/fonti_visive/tavolozza.json` non esiste ancora, e finché non esiste ogni immagine porta i suoi colori. È il buco più urgente.
+- **Le sagome degli edifici non esistono come file.** OSM è autorizzata, ma nessun file building è stato costruito: le città si disegnano con i volumi neutri che `luoghi-edifici.md` §1 già prevede.
+- **Nessuna immagine si stira**, e per le carte la regola è più forte: **ogni carta porta la proiezione dichiarata**, come porta la scala, perché una proiezione non dichiarata mente sulle distanze senza che nessuno se ne accorga guardando.
+- **Una parola ambigua si cerca con due parole**: alla voce «pipa» (la pianta del Cinquecento) Commons restituisce il rospo del genere *Pipa*. I termini corretti sono nel campo `termini` di `dati/fonti_visive/fonti_visive.json`.
+- **Un vuoto si dichiara, non si riempie**: l'incendio e la carestia non hanno immagine d'epoca libera, e si rappresentano con la fonte testuale, come si è fatto per l'Africa del *Furioso*.
+- **La ricerca propone, una persona decide**, in ogni categoria: ritratti, oggetti, fonti visive. La decisione si registra nei rispettivi file `attestazione*.json`, che sono tutti vuoti.
 
 **Percorsi del duca** (trasversale, vedi `percorsi.md`)
 - **L'ordine dei numeri di tappa non è un ordine di viaggio.** I pin sono sparsi su un continente, e l'ordine degli argomenti li fa attraversare avanti e indietro: nell'anno 3 il percorso delle tappe è **18 318 km e 539 giorni** a cavallo, il giro che copre tutti i luoghi è **9 308 km e 275 giorni**. Non correggere i numeri di tappa per far quadrare il viaggio: sono due ordini diversi, e la proposta è tenerli separati (`percorsi.md` §3).
