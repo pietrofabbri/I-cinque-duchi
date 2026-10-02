@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.5
+versione: 0.6
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
@@ -27,7 +27,7 @@ Sono due problemi diversi, con due fonti diverse, e la parte 2 ha una brutta not
 |---|---|
 | **Scaricate** | 42 livelli shapefile di **Natural Earth**, in tre scale (110m, 50m, 10m) |
 | **Prodotti** | 19 file di mappe in formato proprio, in `dati/mappe/`, per un totale di **1,4 MB** |
-| **Verifiche** | **57 controlli automatici sulle mappe, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`), più **8 controlli sui pin degli anni 2, 3 e 4, tutti superati** (`sorgenti/gis/verifica_pin.py`, §8bis) |
+| **Verifiche** | **57 controlli automatici sulle mappe, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`), più **8 controlli sui pin degli anni dal secondo in poi, tutti superati** (`sorgenti/gis/verifica_pin.py`, §8bis: 71 slot con coordinate su 120) |
 | **Licenza** | Natural Earth è **pubblico dominio**: nessun vincolo, nessuna attribuzione richiesta |
 | **Non è stato possibile** | il fondo delle tappe di dettaglio: vedi §5, e la ragione è tecnica, non di volontà |
 
@@ -236,11 +236,11 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 | nessun vertice fuori dal mondo, in tutti i 19 file | **conforme** |
 | **totale** | **57 su 57** |
 
-*(fatto il 02/10/2026)* Il controllo sui pin è in §8bis: **53 slot di pin hanno coordinate e sono stati verificati tutti**, e ne sono usciti **due difetti reali**, corretti.
+*(fatto il 02/10/2026)* Il controllo sui pin è in §8bis: **71 slot di pin hanno coordinate e sono stati verificati tutti**, e ne sono usciti **due difetti reali**, corretti.
 
 ---
 
-## 8bis. I pin degli anni 2, 3 e 4, verificati uno per uno
+## 8bis. I pin degli anni dal secondo in poi, verificati uno per uno
 
 *(fatto il 02/10/2026 — `sorgenti/gis/verifica_pin.py`, otto controlli, tutti superati)*
 
@@ -248,28 +248,37 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 
 ### Che cosa è stato verificato, e che cosa non
 
-Il numero «90» è **esatto**, ma non è il numero dei pin: è il numero degli **slot di pin**, uno per tappa. Le novanta tappe degli anni 2, 3 e 4 hanno novanta slot, e i novanta si dividono così:
+Il numero «90» dell'audit era **esatto**, ma non era il numero dei pin: è il numero degli **slot di pin**, uno per tappa. Con il quinto anno la tabella completa è questa:
 
-| | slot | posti distinti |
-|---|---|---|
-| tutti | **90** (30 per anno) | 69 |
-| con coordinate, e quindi verificabili | **53** (14 nel 2º anno, 26 nel 3º, 13 nel 4º) | 39 |
-| senza coordinate | 37 | 37 |
+| Anno | slot | con coordinate | posti distinti |
+|---|---|---|---|
+| 2 | 30 | 14 | 21 |
+| 3 | 30 | 26 | 26 |
+| 4 | 30 | 13 | 30 |
+| 5 | 30 | 18 | 27 |
+| **2-5** | **120** | **71** | **95** |
+| **2-4** (la B5) | 90 | 53 | 69 |
 
-I 37 senza coordinate hanno tutti uno stato dichiarato: 16 `non_e_un_luogo` (porte e situazioni, che per definizione non sono un luogo), 11 `da_geocodificare_a_mano` e 10 `da_geocodificare_wfs`. **Nessuno è un buco silenzioso**, ed è quello che il controllo 7 verifica: ogni pin con coordinate ha un Paese atteso dichiarato nella tabella del verificatore.
+I 49 slot senza coordinate hanno tutti uno stato dichiarato: 24 `non_e_un_luogo` (porte e situazioni, che per definizione non sono un luogo), 14 `da_geocodificare_a_mano` e 11 `da_geocodificare_wfs`. **Nessuno è un buco silenzioso**, ed è quello che il controllo 7 verifica: ogni pin con coordinate ha un Paese atteso dichiarato nella tabella del verificatore.
 
 ### Gli otto controlli
 
-| # | Controllo | Soglia | Esito |
+| # | Controllo | Soglia | Esito (anni 2-5) |
 |---|---|---|---|
 | 1 | nessun pin cade in mare | 3 km dalla terra | **1 su 1** (Costantinopoli, terra a 1,4 km) |
-| 2 | il pin cade nel Paese che il nome dichiara | — | **38 su 38** confrontabili |
-| 3 | il pin cade nell'unità amministrativa che il nome dichiara | — | **30 su 30** verificabili |
-| 4 | il pin è entro 30 km dal centro omonimo archiviato | 30 km | **14 su 14** |
+| 2 | il pin cade nel Paese che il nome dichiara | — | **53 su 53** confrontabili |
+| 3 | il pin cade nell'unità amministrativa che il nome dichiara | — | **35 su 35** verificabili |
+| 4 | il pin è entro 30 km dal centro omonimo archiviato | 30 km | **19 su 19** |
 | 5 | nessuna coordinata duplicata fra due pin | — | **0** |
 | 6 | nessuna coordinata presa da un altro pin e scambiata | — | **0** |
 | 7 | ogni pin con coordinate ha un Paese atteso dichiarato | — | **0 mancanti** |
 | 8 | ogni difetto trovato è dichiarato nel file di luoghi | — | **0 non dichiarati** |
+
+### Il quinto anno: quindici pin, nessun difetto
+
+Il quinto anno era l'unico che nessuno aveva guardato, e `verifica_pin.py` gira su di lui senza modifiche (`--anno 5`). **15 posti con coordinate, 30 slot, e nessun difetto**: tutti i Paesi giusti, tutte le unità amministrative giuste fra le cinque verificabili, tutti i centri entro 30 km dove il confronto è possibile. Il quinto anno è anche il primo in cui il confronto con i centri archiviati è quasi impossibile — Chicago, Los Alamos, Princeton e gli altri non ci sono, perché i due file delle città hanno 398 punti e sono quasi tutti capitali europee.
+
+Il quinto anno ha però prodotto **due errori nella tabella degli attesi del verificatore**, non nei dati: Rotterdam è nel Brabante olandese del Sud e non nella provincia che il file chiama «Zelanda» (che è Frisia). È il secondo errore di questo genere dopo Castel del Monte, e la lezione è la stessa: **una tabella di attese scritta a mano è essa stessa un dato da verificare**, e il verificatore che segnala un'attesa sbagliata vale quanto quello che segnala un pin sbagliato.
 
 ### I due difetti trovati, e corretti
 
@@ -287,14 +296,17 @@ Il pin di Costantinopoli (41.01224, 28.97602) **non cade in nessun Paese**, a ne
 
 ### Che cosa questo controllo non copre
 
-- **9 pin** non sono verificabili sull'unità amministrativa: Agra, Il Cairo, Karakorum, Qufu, Tenochtitlán e Xianyang sono fuori dall'Europa, dove il file amministrativo non arriva; Costantinopoli, Uruk e Westminster sono in Paesi che il file europeo contiene solo in parte. Non è un difetto dei pin: è **copertura mancante**, e il numero è dichiarato.
-- **Solo 14 pin su 39** hanno un confronto con il centro archiviato: i file delle città hanno 212 e 186 punti, che sono capitali e non un gazetteer. Per gli altri 25 la verifica è fatta sui poligoni, che è più debole ma non assente.
+- **19 pin** non sono verificabili sull'unità amministrativa: Agra, Buenos Aires, Bajkonur, Cambridge, Chicago, Il Cairo, Los Alamos, Los Angeles, New York, Princeton, Seattle e gli altri sono fuori dall'Europa, dove il file amministrativo non arriva; Costantinopoli, Uruk e Westminster sono in Paesi che il file europeo contiene solo in parte. Non è un difetto dei pin: è **copertura mancante**, e il numero è dichiarato.
+- **Solo 19 pin su 54** hanno un confronto con il centro archiviato: i file delle città hanno 212 e 186 punti, che sono capitali e non un gazetteer. Per gli altri 35 la verifica è fatta sui poligoni, che è più debole ma non assente.
+- L'**anno 1 non è coperto**: i suoi pin sono dentro Ferrara e prendono il confine dal WFS del Comune (`luoghi-edifici.md`), non dalle mappe. Il §11 punto 4 lo dice già.
 - Il punto-in-poligono lavora su geometrie semplificate: **non prova che il pin sia sulla strada o dentro il muro**, prova che è nella giusta unità amministrativa.
 
 ### Come si esegue
 
 ```bash
-python3 sorgenti/gis/verifica_pin.py    # otto controlli, esce con 1 se qualcosa non torna
+python3 sorgenti/gis/verifica_pin.py            # anni 2, 3 e 4 (la B5)
+python3 sorgenti/gis/verifica_pin.py --anno 5   # il quinto anno
+python3 sorgenti/gis/verifica_pin.py --tutti     # tutti e cinque: 120 slot, 71 con coordinate
 ```
 
 Il file ha anche `rilievo_senza_pil.py`, che misura quota e pendenza sui tasselli Terrarium **senza Pillow** (il PNG si decodifica con `zlib`, quarantacinque righe): serve perché `rilievo.py` va pure lui su questa macchina e senza `PIL` si ferma al primo tassello. I due file danno **numeri identici** su sette città già archiviate, e serve a rimisurare un punto senza reinstallare nulla.
@@ -309,6 +321,7 @@ python3 sorgenti/gis/scarica_ne.py        # scarica i 42 shapefile
 python3 sorgenti/gis/mappe_formato.py     # produce i 19 file in dati/mappe/
 python3 sorgenti/gis/verifica_mappe_numeriche.py   # 57 controlli sulle mappe
 python3 sorgenti/gis/verifica_pin.py               # 8 controlli sui pin degli anni 2, 3 e 4
+python3 sorgenti/gis/verifica_pin.py --tutti       # gli stessi 8 controlli, tutti e cinque gli anni
 ```
 
 Il lettore si usa così:
@@ -333,14 +346,14 @@ for proprieta, anelli in geometrie:
 2. **Il vincolo di 20 000 abitanti per mostrare una città** (§4.2) è giusto? È una proposta, non una decisione, e cambia molto la quantità di nomi sulla mappa.
 3. **Le trenta zone percorribili** si fanno tutte, o solo dove il luogo è davvero lo spazio del gioco (§5.2)? La seconda ipotesi fa risparmiare mesi e il progetto funziona già così nell'anno 1.
 4. **Il file `europa_50_regioni_amministrative` è grosso** (450 kB, 1 687 geometrie). Va tenuto intero, o ridotto alle unità di primo livello, visto che molte tappe dell'anno 3 sono in capitali di Stato e non serve il dettaglio dei distretti?
-5. ~~**I pin degli anni 2, 3 e 4**~~ **Risolto il 02/10/2026: verificati tutti.** Sono 90 slot di pin, di cui 53 con coordinate, e i 53 sono passati per otto controlli (`verifica_pin.py`, §8bis). Ne sono usciti **due difetti reali** — Baghdad 34 km fuori, Karakorum in Cina invece che in Mongolia — entrambi corretti e annotati nel file di luoghi, e un caso che non è un difetto (Costantinopoli, nel Corno d'Oro, a 1,4 km dalla terra). La domanda che resta, e che è più piccola: **i nove pin non verificabili sull'unità amministrativa** (§8bis) meritano il file amministrativo mondiale, o il controllo sui poligoni basta?
+5. ~~**I pin degli anni 2, 3 e 4**~~ **Risolto il 02/10/2026: verificati tutti.** Sono 90 slot di pin, di cui 53 con coordinate, e i 53 sono passati per otto controlli (`verifica_pin.py`, §8bis). Ne sono usciti **due difetti reali** — Baghdad 34 km fuori, Karakorum in Cina invece che in Mongolia — entrambi corretti e annotati nel file di luoghi, e un caso che non è un difetto (Costantinopoli, nel Corno d'Oro, a 1,4 km dalla terra). La domanda che resta, e che è più piccola: **i diciannove pin non verificabili sull'unità amministrativa** (§8bis, che ora copre tutti e cinque gli anni) meritano il file amministrativo mondiale, o il controllo sui poligoni basta?
 
 ---
 
 ## 11. Cosa c'è da fare
 
 1. ~~**Decidere ODbL**~~ **fatto il 02/10/2026**: entra, e i sagomi si prendono da OSM dichiarandone la provenienza edificio per edificio (`luoghi-edifici.md` §1)
-2. ~~**Verificare i 90 pin**~~ **fatto il 02/10/2026**: 8 controlli in `sorgenti/gis/verifica_pin.py`, 53 pin con coordinate verificati, 2 difetti corretti (§8bis). Rimane da fare solo la parte che il file amministrativo non copre
+2. ~~**Verificare i 90 pin**~~ **fatto il 02/10/2026**: 8 controlli in `sorgenti/gis/verifica_pin.py`, 53 pin con coordinate verificati, 2 difetti corretti (§8bis). Il quinto anno è passato dagli stessi controlli lo stesso giorno, senza difetti; rimane da fare solo la parte che il file amministrativo non copre
 3. **Convertire l'altitudine** (`geography_regions_elevation_points`): serve al quinto anno, dove la colonna degli strati è il tempo e la montagna è un dato
 4. **Costruire `dati/mappe/anno1_pin.json`**: i pin dell'anno 1 verificati con lo stesso metodo, così il metodo è provato su dati già noti
 5. **Decidere il formato degli edifici**: se si sceglie OSM, definire `dati/mappe/edifici.json` con i campi `forma`, `altezza`, `fonte_altezza` (`lidar`/`osm`/`stimata`), `livelli` — la regola di §5.1 scritta nei dati, non solo nel documento
@@ -360,6 +373,8 @@ for proprieta, anelli in geometrie:
   - **cinque questioni aperte**, la prima delle quali è la licenza ODbL, che è una decisione di Pietro e non può essere presa da una fonte.
 
 - **v0.4 (02/10/2026)**: rimandi di versione aggiornati agli anni 3, 4 e 5 e a `luoghi.md`, che sono saliti a v0.4, v0.5, v0.4 e v0.3 con le decisioni del 02/10/2026.
+- **v0.6 (02/10/2026)**: **la verifica dei pin copre adesso tutti e cinque gli anni.** `verifica_pin.py` prende `--anno N` e `--tutti`, e il quinto anno è passato dagli stessi otto controlli lo stesso giorno: **30 slot, 15 posti con coordinate, nessun difetto**. Il quinto anno ha pero' prodotto **due errori nella tabella degli attesi** (Rotterdam non è nella provincia che il file chiama «Zelanda»), cioè il secondo caso in cui l'errore era nella mia attesa e non nei dati: la tabella degli attesi è essa stessa un dato da verificare. §8bis ora porta la tabella completa (120 slot, 71 con coordinate) e dichiara anche che **l'anno 1 non è coperto**, perché i suoi pin prendono il confine dal WFS del Comune e non dalle mappe.
+
 - **v0.5 (02/10/2026)**: **la verifica dei pin degli anni 2, 3 e 4 è fatta**, ed è la sezione **§8bis**, nuova. Otto controlli in `sorgenti/gis/verifica_pin.py`, tutti superati, su **53 slot di pin con coordinate** dei 90 slot totali. Il numero 90 dell'audit è esatto ma è il numero degli **slot** (uno per tappa), non dei pin distinti: i posti sono 69 e i pin con coordinate sono 39. Risultato: **due difetti reali corretti** (Baghdad, 34 km a sud del centro per una cifra di latitudine sbagliata; Karakorum, che cadeva in Cina invece che in Mongolia, risolto sull'articolo giusto), **un errore nella tabella degli attesi** (Castel del Monte non è in Abruzzo) e **un caso che non è un difetto** (Costantinopoli cade nel Corno d'Oro, a 1,4 km dalla terra). Aggiunto `sorgenti/gis/rilievo_senza_pil.py`, che rimisura quota e pendenza senza Pillow e dà gli stessi numeri di `rilievo.py` su sette città archiviate. Corretti in `dati/luoghi_gioco.json` i record di Baghdad e Karakorum (coordinate, articolo, fonte, terreno rimisurato).
 
 - **v0.3 (02/10/2026)**: controllo di coerenza. Il rimando a `anno5-mondo.md` era fermo alla v0.1 (è alla v0.2) e quello a `luoghi.md` alla v0.1 (è alla v0.2). I due file citati che il documento non promette esistere — `dati/mappe/anno1_pin.json` e `dati/mappe/edifici.json` — restano quelli che sono, cioè roba **da costruire**: il controllo automatico li legge ora come «dichiarati come futuri» e non come smarriti.

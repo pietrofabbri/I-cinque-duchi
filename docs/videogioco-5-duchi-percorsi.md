@@ -4,7 +4,7 @@ versione: 0.1
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte: calcolo sulle coordinate di dati/luoghi_gioco.json
-documenti collegati: videogioco-5-duchi-luoghi.md (v0.3), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-audit.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-luoghi.md (v0.3), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-audit.md (v0.4), AGENTS.md
 ---
 
 # I percorsi del duca

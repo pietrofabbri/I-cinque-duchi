@@ -1,5 +1,5 @@
-"""Verifica i pin degli anni 2, 3 e 4: cadono nel Paese e nell'unita' che il
-documento dichiara?
+"""Verifica i pin degli anni dal secondo in poi: cadono nel Paese e nell'unita'
+che il documento dichiara?
 
 Il controllo esiste (`punto_in_poligono.py`) e le coordinate sono scritte a
 mano dal 2026-09: questo file e' quello che le mette alla prova. Un pin puo'
@@ -24,15 +24,19 @@ fuori dalla scala grossa e dentro quella fine: non e' un difetto.
 **Tre difetti veri, che nessuno aveva visti** (trovati da questo file):
 
 - **Baghdad** a 34 km dal centro che il file delle citta' archivia: il numero
-  nella coordinata ha una cifra sbagliata (33.03 invece di 33.31);
-- **Castel del Monte** e' il paese omonimo pugliese, non il castello di
-  Federico II, che e' in Abruzzo. Il titolo combacia, il luogo no: lo stesso
-  difetto di Karakorum, preso dal titolo invece che dal documento;
-- **Karakorum** cade in Cina: la coordinata e' quella del valico del
-  Karakoram, non la capitale mongola ( Mongolia). Il file di luoghi lo
-  dichiarava gia' `da_verificare`; adesso sappiamo anche in che Paese cade.
+  nella coordinata aveva una cifra sbagliata (33.03 invece di 33.31);
+- **Karakorum** cadeva in Cina: la coordinata era quella del valico del
+  Karakoram, non la capitale mongola (Mongolia);
+- **Castel del Monte**, dove l'errore era nella tabella degli attesi di questo
+  file e non nei dati: il castello federiciano e' ad Andria, in Puglia, e
+  l'omonima frazione abruzzese non ce l'ha. Vale la pena tenerlo scritto,
+  perche' e' la terza volta che il progetto risolve un titolo invece di un
+  luogo, e la prima volta che un controllo automatico lo segnala.
 
-Uso:  python3 sorgenti/gis/verifica_pin.py
+Uso:
+    python3 sorgenti/gis/verifica_pin.py                  # anni 2, 3 e 4
+    python3 sorgenti/gis/verifica_pin.py --anno 5
+    python3 sorgenti/gis/verifica_pin.py --tutti
 """
 import json
 import math
@@ -138,6 +142,28 @@ ATTESI_GIA = {
     "Uppsala": ("SWE", ["Uppsala"]),
     "Uruk": ("IRQ", ["Wasit"]),
     "Xianyang": ("CHN", None),
+    # anno 5. Il quinto anno e' il primo con pin fuori dall'Europa e dagli
+    # Stati Uniti, e percio' e' anche il primo in cui il confronto con il
+    # centro archiviato non e' possibile quasi mai: i file delle citta'
+    # hanno 398 punti e sono quasi tutti capitali europee.
+    "Bajkonur": ("KAZ", None),
+    "Buenos Aires": ("ARG", None),
+    "Cambridge": ("GBR", None),
+    "Chicago": ("USA", None),
+    "Ferrara": ("ITA", ["Ferrara"]),
+    "Ginevra": ("CHE", ["Canton Ginevra"]),
+    "Londra": ("GBR", None),
+    "Los Alamos": ("USA", None),
+    "Los Angeles": ("USA", None),
+    "New York": ("USA", None),
+    "Princeton": ("USA", None),
+    # Rotterdam e' nel Brabante Olandese del Sud, non nella provincia che il
+    # file chiama «Zelanda» (che e' Friesland): l'attesa iniziale di questo
+    # file sbagliava, e il secondo errore di questo genere dopo Castel del Monte.
+"Rotterdam": ("NLD", ["Olanda Meridionale"]),
+    "Seattle": ("USA", None),
+    "Stoccolma": ("SWE", ["Stoccolma"]),
+    "Vienna": ("AUT", ["Vienna"]),
 }
 
 
@@ -222,19 +248,34 @@ def cerca_capoluogo(nome, punti, lon, lat):
     return migliore
 
 
+def anni_richiesti():
+    """Gli anni da verificare: 2, 3 e 4 di default, `--anno N` per uno solo,
+    `--tutti` per tutti e cinque. Si puo' ripetere `--anno`."""
+    if "--tutti" in sys.argv:
+        return [2, 3, 4, 5]
+    scelti = []
+    for i, a in enumerate(sys.argv):
+        if a == "--anno" and i + 1 < len(sys.argv):
+            scelti += [int(x) for x in sys.argv[i + 1].split(",")]
+    return scelti or [2, 3, 4]
+
+
 def main():
     global ATTESI
     ATTESI = {normalizza(k): v for k, v in ATTESI_GIA.items()}
+    anni = anni_richiesti()
     luoghi = json.load(open(os.path.join(RADICE, "dati", "luoghi_gioco.json")))["luoghi"]
+    etichetta = ("anni " + ", ".join(str(a) for a in anni)
+                 if anni != [2, 3, 4, 5] else "tutti e cinque gli anni")
 
     # ------------------------------------------------ selezione
     slot, per_anno, slot_coord, coord_anno = 0, {}, 0, {}
     posti = [v for v in luoghi
-             if any(a in (2, 3, 4) for a in v.get("anni", []))]
+             if any(a in anni for a in v.get("anni", []))]
     for v in posti:
         for t in v.get("tappe", []):
             a = int(t.split("-")[0])
-            if a not in (2, 3, 4):
+            if a not in anni:
                 continue
             slot += 1
             per_anno[a] = per_anno.get(a, 0) + 1
@@ -242,14 +283,14 @@ def main():
                 slot_coord += 1
                 coord_anno[a] = coord_anno.get(a, 0) + 1
 
-    print("== 0. quanti pin sono, e quanti hanno coordinate ==")
-    print(f"  posti degli anni 2, 3 e 4: {len(posti)}")
+    print(f"== 0. quanti pin sono, e quanti hanno coordinate ({etichetta}) ==")
+    print(f"  posti: {len(posti)}")
     print(f"  slot di pin (uno per tappa): {slot}  per anno: "
           + ", ".join(f"{a}-anno {per_anno[a]}" for a in sorted(per_anno)))
     print(f"  slot con coordinate: {slot_coord}  per anno: "
           + ", ".join(f"{a}-anno {coord_anno.get(a, 0)}" for a in sorted(per_anno)))
     senza = [v for v in posti for t in v.get("tappe", [])
-             if int(t.split("-")[0]) in (2, 3, 4) and v.get("lat") is None]
+             if int(t.split("-")[0]) in anni and v.get("lat") is None]
     print(f"  slot senza coordinate: {slot - slot_coord}, in {len(senza)} posti distinti")
     stati = {}
     for v in senza:

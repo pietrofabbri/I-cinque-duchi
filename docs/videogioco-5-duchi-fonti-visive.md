@@ -4,7 +4,7 @@ versione: 0.1
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte: ricerca su Wikimedia Commons del 02/10/2026, e verifica dei fondi già in dati/mappe/
-documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.1), videogioco-5-duchi-mappe.md (v0.5), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-audit.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.1), videogioco-5-duchi-mappe.md (v0.6), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-audit.md (v0.4), AGENTS.md
 dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto)
 ---
 
