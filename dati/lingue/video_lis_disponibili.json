@@ -1,0 +1,23 @@
+{
+  "versione": 1,
+  "data": "2026-10-03",
+  "scopo": "quanti video liberi di lingua dei segni italiana esistono su Wikimedia Commons, e quanti hanno gia' il testo italiano parallelo dichiarato",
+  "fonte": "Wikimedia Commons, categoria Category:Videos in Italian_Sign_Language",
+  "wikidata_lingua": "Q12867462",
+  "come_si_conta": "API list=categorymembers sulla categoria, poi prop=imageinfo per licenza e peso; il testo parallelo si riconosce dal nome del file, perche' e' l'articolo della convenzione tradotto in italiano",
+  "avvertenza_sulla_fonte": "una categoria non e' tutto quello che esiste: il numero e' quello che la categoria contiene, e va detto con la sua data",
+  "video": 55,
+  "sottocategorie_non_conteggiate": 0,
+  "con_testo_parallelo": {
+    "convenzione_crpd": 49
+  },
+  "licenze": {
+    "CC BY 3.0": 1,
+    "CC BY-SA 4.0": 54
+  },
+  "non_liberi": 0,
+  "peso_totale_mb": 1300.7,
+  "peso_medio_mb": 23.6,
+  "esito": "contato",
+  "verdetto": "49 video su 55 hanno il testo italiano parallelo gia' dichiarato nel nome del file: sono i soli su cui il gioco puo' mostrare il segno e la sua traduzione senza scrivere la traduzione lui"
+}

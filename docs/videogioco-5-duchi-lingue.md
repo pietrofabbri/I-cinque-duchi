@@ -1,7 +1,7 @@
 ---
 titolo: Videogioco "I cinque duchi" — il sistema linguistico: sei lingue, novecento livelli
-versione: 0.1
-data: 2026-10-02
+versione: 0.2
+data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: indicazioni di Pietro del 02/10/2026
 documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), AGENTS.md
@@ -511,7 +511,7 @@ Il gioco ha 150 livelli informatici (`schema-livelli.md` v1.1) e qui 900 livelli
 
 | Possibilità | Che cosa comporta |
 |---|---|
-| **Due sistemi paralleli, stessa tappa** | Ogni tappa contiene un livello informatico e uno per ciascuna delle sei lingue. Trentadue livelli per tappa: il gioco diventa enormous, e i trenta livelli di ogni lingua hanno ciascuno la propria soglia, in un'unica tappa. |
+| **Due sistemi paralleli, stessa tappa** | Ogni tappa contiene un livello informatico e uno per ciascuna delle sei lingue. **Sette livelli per tappa** (uno di informatica e uno per ciascuna delle sei lingue), non trentadue: il conto è 1050/150 ed è stato rifatto il 03/10/2026 sui dati, dove ogni tappa linguistica ha già sei righe, una per lingua. I trenta livelli di ogni lingua hanno ciascuno la propria soglia, in un'unica tappa. |
 | **Due sistemi paralleli, tappe diverse** | Le trenta tappe sono o linguistiche o informatiche, alternate. Si raddoppia il numero di tappe, o si sceglie di coprirne una parte. |
 | **Lingue dentro l'informatica** | I 150 livelli informatici restano 150, e le sei lingue sono contenuti che si attivano dentro certi livelli, non tappe. Le 900 tappe linguistiche non esistono come unità di gioco. |
 
@@ -531,6 +531,26 @@ Ogni livello ha un testo autentico (§2), ma «autentico» non significa la stes
 ### Q4 — La LIS nel gioco: chi insegna, e con quali materiali? **(bloccante per la LIS)**
 
 Il percorso della LIS presuppone cose che il progetto non ha ancora: un milieu collaborativo con la comunità sorda, i materiali video, la trascrizione, e una competenza del docente che Pietro non ha dichiarato di avere. I trenta livelli LIS sono i più difficili da scrivere di tutti i novecento, perché **non si può scrivere una lingua dei segni a tavolino**. La sequenza dei titoli c'è, il metodo no.
+
+#### Q4bis — Che cosa si può guardare, e che cosa si può decodificare (03/10/2026)
+
+Pietro ha chiesto che cosa significhi la frase di `premi.md` §2.1 — «il gioco non sa disegnare la propria lingua dei segni» — e che cosa si possa fare per far interagire con la LIS. La frase significa una cosa sola e precisa: **il progetto non può produrre il segno, e quindi non può premiare il segno**. Non significa che la LIS non possa stare nel gioco, e significa anche che un disegno di un segno fatto dal progetto sarebbe un errore: la `Q4` qui sopra vieta esattamente quello, perché una lingua che si muove nello spazio non sta in un riquadro. Il premio è quindi la categoria K, e il segno lo mette il giocatore.
+
+La domanda giusta è se cosa si può **vedere** e se cosa si può **decodificare**, e sono due problemi con risposte opposte.
+
+**Guardare: sì, e si può contare.** `sorgenti/lingue/cerca_video_lis.py` conta su Wikimedia Commons, e il numero è fermo: **55 video in lingua dei segni italiana, tutti con licenza libera** (54 CC BY-SA 4.0, 1 CC BY 3.0), **zero non liberi**. Di questi, **49 hanno il testo italiano parallelo già dichiarato** nella descrizione del file: sono i 49 articoli della **Convenzione ONU sui diritti delle persone con disabilità** tradotti in LIS dal CNR ISTC (gruppo SILIS), e il nome del file porta l'articolo con il suo titolo italiano — «Articolo 1 - Scopo», «Articolo 7 - Consenso», e così via fino al 50 (manca il 10). Il dato è in `dati/lingue/video_lis_disponibili.json` con la sua data e la sua query.
+
+Quei 49 sono **l'unico materiale che il gioco può usare senza che nessuno scriva la traduzione**: il testo italiano è nella fonte, non è una scelta del progetto. È la stessa regola delle 180 immagini degli oggetti, e la stessa prova 1.
+
+**Decodificare: no, non è alla portata, e il numero lo dice.** Ci sono i due progetti che sembrano fare il gioco intero, e nessuno dei due è utilizzabile:
+
+- **SiGIL** (il progetto italiano: traduzione LIS ↔ italiano con avatar che segnano) è un corpus di ricerca, **non è su GitHub** e si scarica per accordo;
+- **SpreadTheSign** è il dizionario più grande del mondo — oltre 600 000 segni in 23 lingue, con l'italiano — e dichiara nella pagina «About us» una frase che chiude la porta: *«It is not allowed to download or use our videos or data without permission»*. **Escluso**, e va escluso per licenza, non per difficoltà;
+- **SignAvatars** (ECCV 2024) ha i modelli 3D che servirebbero, ma chiede un modulo d'accesso, non distribuisce i video originali per licenza, e **non contiene la LIS**: c'è ASL, GSL, HamNoSys e inglese.
+
+Il riconoscimento automatico della LIS in tempo reale, poi, è un problema di ricerca aperto: i dataset esistenti hanno centinaia di segni annotati, non le migliaia che servirebbero, e servono modelli che non entrano in un gioco senza server.
+
+**Quindi la risposta è una, ed è la stessa forma della categoria K.** Il gioco può **mostrare** la LIS, con il testo italiano accanto che la fonte fornisce; non può **produrla**, e non può **riconoscere** ciò che il giocatore segna. Esattamente come per il ferrarese, che si registra invece di essere cercato: **la parte che il gioco non sa fare la mette dentro la cosa che non sa fare il giocatore**. Per la LIS questo significa che il livello si chiude con il giocatore che guarda il video, sceglie fra le alternative, e **produce il segno** — che è il premio, ed è l'unico premio che non si può copiare.
 
 ### Q5 — Il greco moderno attraversa quattro periodi: un percorso solo o sei? **(non bloccante)**
 

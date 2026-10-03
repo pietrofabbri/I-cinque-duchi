@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — audit delle questioni aperte: la lista operativa
-versione: 0.10
+versione: 0.11
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: lettura di tutti i quindici documenti di progetto, verificata da sorgenti/lingue/conta_questioni.py
-documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.4), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-luoghi.md (v0.6), videogioco-5-duchi-mappe.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-lingue.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.4), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-luoghi.md (v0.6), videogioco-5-duchi-mappe.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
 ---
 
 # Audit delle questioni aperte: la lista
@@ -22,16 +22,16 @@ Il documento è verificato da `sorgenti/lingue/conta_questioni.py`, che confront
 | | |
 |---|---|
 | Documenti con una sezione «Questioni aperte» | **15** |
-| Voci enumerate | **114** |
+| Voci enumerate | **115** |
 | **Chiuse** | **29** |
-| **Aperte** | **85** |
+| **Aperte** | **86** |
 | Di cui bloccanti | quattro |
 | Di cui importanti (cambiano il gioco) | quindici |
 | Di cui minori (si possono rimandare) | le altre |
 
 **Il criterio**, dichiarato perché un numero senza criterio non è un dato. Una **voce** è un punto numerato, un `### Q1` o una riga di tabella della sezione «Questioni aperte». Una voce è **chiusa** se porta la marcatura nella sua **prima riga** — «chiusa», «risolto», «ratificata», «confermata» — e non in tutto il corpo, perché una voce aperta spiega dentro il corpo quale parte è stata chiusa.
 
-**Una voce non è sempre una domanda.** In `lingue.md` Q3 ci sono due sotto-voci dentro una sola domanda. Le **114 voci non sono 114 domande**.
+**Una voce non è sempre una domanda.** In `lingue.md` Q3 ci sono due sotto-voci dentro una sola domanda. Le **115 voci non sono 115 domande**.
 
 **Nessuna delle ventinove chiuse è bloccante**, e due delle quattro bloccanti rimaste non sono mai state domande: erano lavori, e sono stati fatti — i novanta pin il 02/10/2026 (§2bis), la tavolozza, le sagome, il fondo di Ferrara e i colori delle carte il 03/10/2026 (§3bis). Le decisioni prese hanno tolto lavoro, non lo hanno aggiunto.
 
@@ -45,7 +45,7 @@ Sono le uniche che fermano qualcosa, e sono le quattro che aspettano una **rispo
 
 ### B1 · I livelli linguistici e quelli informatici sono lo stesso livello o due?
 
-`lingue.md` §7 Q1 · **pro**: due sistemi paralleli nella stessa tappa dà 32 livelli per tappa ed è l'unica forma in cui i due percorsi si incontrano. **contro**: rende ogni tappa enorme, e le trenta tappe coprirebbero 150 informatici più 900 linguistici in un'ora di lezione; l'alternativa «lingue dentro l'informatica» cancella le 900 unità di gioco. **valutazione**: è la decisione con la conseguenza più grande e la meno reversibile; va presa con la stima delle schermate per tappa, che nessuno ha fatto. **responsabilità**: Pietro. **blocca**: i dati dei livelli, la scelta delle immagini, tutte le tappe linguistiche, i testi autentici, la progressione.
+`lingue.md` §7 Q1 · **pro**: due sistemi paralleli nella stessa tappa dà 7 livelli per tappa (uno di informatica e uno per ciascuna delle sei lingue) ed è l'unica forma in cui i due percorsi si incontrano. **contro**: rende ogni tappa enorme, e le trenta tappe coprirebbero 150 informatici più 900 linguistici in un'ora di lezione; l'alternativa «lingue dentro l'informatica» cancella le 900 unità di gioco. **valutazione**: è la decisione con la conseguenza più grande e la meno reversibile; va presa con la stima delle schermate per tappa, che nessuno ha fatto. **responsabilità**: Pietro. **blocca**: i dati dei livelli, la scelta delle immagini, tutte le tappe linguistiche, i testi autentici, la progressione.
 
 #### B1 in parole semplici
 
@@ -58,7 +58,7 @@ Le due cose non possono stare nella stessa lista. La domanda è una sola, e si p
 > **Quando il ragazzo è dentro la tappa 5-12, quante cose deve fare?**
 
 - **Oppure una.** Solo il livello di informatica. E i 900 livelli di lingue spariscono come unità di gioco: diventano contenuti che compaiono dentro alcuni livelli di informatica (l'inglese che serve a una tappa, il latino che serve a un'altra). Questo è «lingue dentro l'informatica».
-- **Oppure tante in fila.** Nella stessa tappa c'è il livello di informatica **e** un livello per ciascuna delle sei lingue: **32 livelli in una tappa sola**. È l'unica forma in cui i due percorsi si incontrano davvero, ed è anche quella che rende ogni tappa enorme: trenta tappe da un'ora di lezione dovrebbero contenere 150 livelli informatici più 900 linguistici, cioè **cinquantacinque livelli all'ora**. Non ci stanno.
+- **Oppure tante in fila.** Nella stessa tappa c'è il livello di informatica **e** un livello per ciascuna delle sei lingue: **7 livelli in una tappa sola** (1 + 6, non 32: il conto è stato rifatto il 03/10/2026 sui dati e ogni tappa linguistica porta esattamente sei lingue). È l'unica forma in cui i due percorsi si incontrano davvero. Con sette livelli, non con trentadue, la tappa **non diventa enorme**: i 150 informatici più i 900 linguistici sono **1050**, cioè 1050/150 = **7 per tappa**, e i dati dei 900 titoli sono già costruiti esattamente su questa forma — ogni tappa (anno, numero) ha sei righe, una per lingua. Il vero costo non è il numero di livelli, è che in un'ora di lezione ne facciamo sette invece di uno.
 - **Oppure a tappe alterne.** Le trenta tappe di un anno sono metà linguistiche e metà informatiche. Allora le tappe raddoppiano (diventano 300 in tutto), oppure se ne copre solo una parte e il progetto si presenta come un gioco di 150 livelli che in realtà ne copre 75.
 
 **Che cosa è già costruito e che cosa è bloccato.** Le 150 tappe informatiche esistono già quasi tutte: mappa, pin, ambienti, mezzi, luoghi. Quelle non aspettano la B1. I **900 livelli linguistici**, invece, non esistono come dati, e non possono esistere finché la domanda non è risolta: non si sa in che stanza stanno, e senza quello non si possono scrivere i testi né scegliere le immagini. **È questa la differenza fra «blocca tutto» e «blocca metà» che l'audit dichiarava e che questa scheda non ripete.**
@@ -66,6 +66,28 @@ Le due cose non possono stare nella stessa lista. La domanda è una sola, e si p
 **Perché non la decido io, e perché è la decisione giusta che ti spetta.** Le tre scelte danno giochi diversi, non giochi uguali con dettagli diversi, e la differenza la si vede dopo: nel motore, nel tempo di lezione, nel numero di schermate. La stima delle schermate per tappa — che è ciò che servirebbe per scegliere — dipende da un prototipo che non esiste ancora. Quindi la domanda giusta non è «quale delle tre è giusta», ma:
 
 > **quando entri in una tappa, vedi un compito solo o un compito per ciascuna lingua?**
+
+#### Le tre proposte, e il conto che le rende diverse (03/10/2026)
+
+*(Pietro ha chiesto delle proposte. Il numero che le rende diverse è stato rifatto: la scheda sopra diceva **32 livelli per tappa**, ed è un errore — sono **sette**.)*
+
+**Il conto.** Una tappa vale **un livello di informatica e uno per ciascuna delle sei lingue**: 1 + 6 = **7**. Le trenta tappe di ogni anno per cinque anni sono 150 tappe, e 150 × 7 = **1050**, che è esattamente il numero dei premi che Pietro ha deciso il 03/10/2026. **La B1 e il numero dei premi sono la stessa domanda**, e la risposta che hai già dato — 1050 — è la risposta alla B1: *sette livelli per tappa, tutti nella stessa tappa*. Non è una coincidenza: i 900 titoli sono già costruiti su questa forma, ogni tappa (anno, numero) ha sei righe, una per lingua.
+
+Le tre proposte diventano quindi:
+
+| | Che cosa fa il giocatore in una tappa | Cosa costa | Rischio |
+|---|---|---|---|
+| **A. Sette in fila** | Sceglie la lingua del giorno, fa il livello di informatica e **un** livello linguistico. Gli altri cinque restano lì. | Niente: è la forma dei dati. | Che il gioco prometta sei lingue e ne faccia una sola. |
+| **B. Tutte e sette** | Li fa tutti, o li fa a scelta fra quelli che gli sono da rimettere. | Il tempo di una tappa raddoppia: da un'ora a due, o da un livello a sette in un'ora. | Che in un'ora di lezione non si arrivi in fondo, e che la tappa sembri un muro. |
+| **C. Una lingua per tappa, e le altre in ricorrenza** | Ogni tappa porta una lingua principale; le altre cinque si incontrano ogni sei tappe, a rotazione, con le tappe che passano. | Una rotazione da scrivere, e le linguistiche diventano sei filoni invece di uno. | Che le sei lingue restino separate e non si incontrino mai, che è la cosa che il progetto voleva evitare. |
+
+**La mia proposta è A, con una correzione che la rende onesta.** In A la scelta della lingua è del giocatore, e questo è il punto: **un ragazzo di un liceo scientifico a Ferrara studia due lingue straniere, non sei**. Le sei lingue sono il progetto del professore, non la giornata dello studente. Quindi A è la forma giusta se il gioco **dichiara** che in una tappa si fa l'informatica e una lingua a scelta, e che le altre cinque si incontrano a rotazione — cioè A e C insieme, con la rotazione dichiarata e non nascosta.
+
+**Perché non B.** Non perché sia impossibile, ma perché mette nella stessa ora **sette livelli con sette soglie diverse**, e la difficoltà di una tappa smette di essere una cosa che si misura. La `pedagogia.md` chiede una **sfida a mani nude ogni quindici livelli**: con sette livelli in fila, la sfida arriva ogni due tappe e perde il senso. Con uno, arriva ogni quindici tappe, come è scritto.
+
+**Che cosa non cambia con nessuna delle tre**: i 1050 premi (uno per livello, come hai deciso), le nove componenti del livello, il file `.txt` di consegna, e le tappe informatiche già costruite — che non aspettano questa risposta da nessuna delle tre.
+
+---
 
 **Quello che si può fare intanto, e che è già stato fatto.** Nessuna delle trenta tappe di informatica aspetta questa risposta: i 150 ambienti, le coordinate, i mezzi e i luoghi sono costruiti senza di lei. È la stessa regola che vale per le altre tre bloccanti: **mentre si decide, si costruisce quello che si può costruire** (`percorsi.md` §1.2 dice perché i mezzi dell'anno 4 sono stati scelti senza aspettare nessuna decisione).
 
@@ -399,6 +421,8 @@ E la regola che ne segue, che è quella che il lavoro ha reso vera:
 ## 7. Registro delle modifiche
 
 | Data | Versione | Che cosa è cambiato |
+| 03/10/2026 | 0.11 | **La B1 aveva il conto sbagliato, e il numero dei premi che Pietro ha deciso è la risposta.** La scheda diceva **32 livelli per tappa** e **cinquantacinque livelli all'ora**: è un errore, sono **sette** (uno di informatica e uno per ciascuna delle sei lingue) e quindi **7 × 150 = 1050**. Il conto è stato rifatto sui dati, dove ogni tappa linguistica ha già sei righe, una per lingua — cioè i 900 titoli sono costruiti su questa forma da prima che la domanda fosse posta. **La B1 e il numero dei premi sono la stessa domanda**, e i **1050 premi** che Pietro ha deciso equivalgono a *sette livelli per tappa, tutti nella stessa tappa*. Aggiunte **le tre proposte** (A: uno per lingua a scelta del giocatore; B: tutti e sette; C: una principale e le altre a rotazione), con la raccomandazione per **A con la rotazione dichiarata**, perché un ragazzo studia due lingue, non sei, e perché la sfida a mani nude ogni quindici livelli deve restare ogni quindici tappe.
+Nello stesso giorno è entrata **Q4bis** in `lingue.md`, che risponde a «che cosa significa che il gioco non sa disegnare la propria lingua dei segni»: significa che **non può produrre il segno**, non che la LIS non possa stare nel gioco. Il numero che mancava è contato e fermo: **55 video in LIS su Commons, tutti con licenza libera (zero non liberi), e 49 con il testo italiano parallelo già nella fonte** — i 49 articoli della Convenzione ONU sui diritti delle persone con disabilità tradotti dal CNR ISTC. Le tre strade che sembravano risolvere il gioco intero sono escluse e per motivi diversi: **SiGIL** (il progetto italiano, traduzione LIS ↔ italiano con avatar che segnano) non è su GitHub e si prende per accordo; **SpreadTheSign**, con oltre 600 000 segni in 23 lingue, dichiara *«It is not allowed to download or use our videos or data without permission»*; **SignAvatars** (ECCV 2024) chiede un modulo e **non contiene la LIS**. Nuovo `cerca_video_lis.py` e `dati/lingue/video_lis_disponibili.json`. Il conto di §1 passa a **115 voci** perché Q4bis è una voce nuova, e resta con **29 chiuse e 86 aperte**: **la B1 resta aperta** perché le proposte sono tre e la scelta è di Pietro. |
 | 03/10/2026 | 0.10 | **Un punto di «cosa c'è da fare» era chiuso da due giorni, e insegnava una cosa che nessun controllo sapeva.** In `mappe.md` §11 il punto 8 chiedeva gli ambienti dei centocinquanta livelli: il file c'era, al 150 su 150. Chiudendolo sono tornato alla sezione che l'aveva prodotto e **i numeri scritti non erano più quelli del file**: 99 coordinate contro 100, 69 sagome contro 68, `citta_antica` 11 contro 12, `percorso` 11 contro 10, tre cifre nei vuoti, e la frase che dava alla 1-1 un orientamento che non ha come **nessuno** dei centocinquanta. Le sette verifiche degli ambienti passavano tutte, perché confrontano **i dati fra loro** e nessuna confronta un dato con **le frasi che il documento scrive su di esso**. Il controllo che mancava è **B8** (`verifica_ambienti.py`): legge `fonti-visive.md` §3.6 e confronta ogni numero con il conto, e ne ha trovati sette in una volta sola; è stato poi provato con difetti iniettati su tre vie e morde tutte. Le due frasi che il file scrive su se stesso sono ora **calcolate** in `ambienti_livelli.py`: dicevano «le 51 tappe» quando le ipotesi erano 50. Aggiunta **§3quinquies**. Il conto di §1 non cambia: **le voci sono ancora 114, 29 chiuse, 85 aperte e quattro bloccanti**, perché un difetto di prosa non è una voce. |
 | 03/10/2026 | 0.9 | **La parte orale è un documento, e il README aveva un difetto che nessun controllo vedeva.** Nasce `videogioco-5-duchi-parlato.md` (v0.2): la Web Speech API è esclusa perché manda l'audio ai server di Google, il riconoscimento on-device è dichiarato non fatto (non esiste per il ferrarese e riguarda dati di un minore), e il gioco può comunque allenare il parlato misurando **durata, pause, ritmo e riascolto**. Il dato che decide: su Commons ci sono **89 381** registrazioni inglesi, **9 179** italiane e **zero** ferraresi — la lingua di cui il progetto ha più bisogno è l'unica che non ha audio libero, e la risposta è produrlo chiedendo a chi lo parla, come si fa per la LIS con la categoria K. Cinque decisioni restano a Pietro (`parlato.md` §6).
 
