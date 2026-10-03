@@ -196,9 +196,15 @@
    "lat": 33.31528,
    "lon": 44.36611,
    "articolo": "Baghdad",
-   "fonte_coord": "wikipedia:en",
+   "fonte_coord": "wikipedia:it",
    "coord_stato": "verificata",
-   "perche": "la coordinata aveva la latitudine sbagliata di una cifra: 33.03 invece di 33.32, perche' l'articolo in italiano riporta 33°02' N. Il controllo dei pin (verifica_pin.py, controllo 4) l'ha trovata a 34 km dal centro che i file delle citta' archiviano. Corretta su en.wikipedia, che porta 33.31528 N 44.36611 E.",
+   "perche": "Correzione del 02/10/2026: La coordinata cadeva a 34 km dal centro che il file delle città archivia. Il numero aveva una cifra sbagliata nella latitudine: l'articolo in italiano riporta 33°02' N, cioè 33.03, e la cifra giusta è 33.31",
+   "correzione": {
+    "dall_articolo": "wikipedia:it (Baghdad), 33.03333 N 44.43333 E",
+    "correzione": "33.31528 N 44.36611 E",
+    "fonte": "en.wikipedia, articolo «Baghdad»",
+    "controllo": "verifica_pin.py controllo 2: il punto deve cadere dentro IRQ"
+   },
    "dettagli": [],
    "terreno": {
     "quota": 38.0,
@@ -1010,7 +1016,13 @@
    "articolo": "Karakorum (città)",
    "fonte_coord": "wikipedia:it",
    "coord_stato": "verificata",
-   "perche": "il nome aveva risolto sull'articolo «Karakorum», che e' la catena montuosa del Pakistan e della Cina, non la capitale di Gengis Khan. Il controllo dei pin lo conferma: la coordinata cade in CHN, e la citta' mongola e' a 47.1757 N 102.3338 E, nella provincia delv'Ovorkhangaj. Risolto con l'articolo «Karakorum (citta')», che e' quello giusto.",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente Correzione del 02/10/2026: Il nome risolveva sull'articolo «Karakorum», che è il valico del Karakoram, in Pakistan: la coordinata cadeva in Cina. La città di Gengis Khan è in Mongolia",
+   "correzione": {
+    "dall_articolo": "wikipedia:it (Karakorum), 35.88306 N 76.50889 E",
+    "correzione": "47.1757 N 102.3338 E",
+    "fonte": "wikipedia, articolo «Karakorum (città)», con il titolo risolto dichiarato",
+    "controllo": "verifica_pin.py controllo 2: il punto deve cadere dentro MNG"
+   },
    "dettagli": [],
    "terreno": {
     "quota": 1836.0,
@@ -1186,34 +1198,6 @@
     "espo": 129.7,
     "rel": 119.8,
     "scarto": 3.6,
-    "fonte": "terrarium/SRTM",
-    "stato": "misurata"
-   },
-   "controllo": "quota e pendenza misurate su SRTM"
-  },
-  {
-   "luogo": "Manchester",
-   "tipo": "citta",
-   "tappe": [
-    "3-28"
-   ],
-   "anni": [
-    3
-   ],
-   "pin": 1,
-   "lat": 53.48333,
-   "lon": -2.25,
-   "articolo": "Manchester",
-   "fonte_coord": "wikipedia:it",
-   "coord_stato": "verificata",
-   "perche": null,
-   "dettagli": [],
-   "terreno": {
-    "quota": 26.4,
-    "pend": 29.3,
-    "espo": 326.8,
-    "rel": 41.8,
-    "scarto": 11.5,
     "fonte": "terrarium/SRTM",
     "stato": "misurata"
    },
@@ -1461,6 +1445,30 @@
    "coord_stato": "non_e_un_luogo",
    "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
    "dettagli": []
+  },
+  {
+   "luogo": "Pataliputra",
+   "tipo": "citta_antica",
+   "tappe": [
+    "4-16"
+   ],
+   "anni": [
+    4
+   ],
+   "pin": 1,
+   "lat": 25.6125,
+   "lon": 85.12833,
+   "articolo": "Pataliputra",
+   "fonte_coord": "wikipedia:en",
+   "coord_stato": "verificata",
+   "perche": "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente",
+   "dettagli": [
+    {
+     "voce": "Pataliputra",
+     "attribuzione": "capitale dell'impero mauryana, sul Gange; il sito corrisponde all'odierna Patna",
+     "nota": "l'identificazione e' dichiarata, non data per scontata: il punto che il gioco usa e' il centro della citta' moderna"
+    }
+   ]
   },
   {
    "luogo": "Pella",
@@ -2025,6 +2033,33 @@
    "controllo": "quota e pendenza misurate su SRTM"
   },
   {
+   "luogo": "Torino",
+   "tipo": "citta",
+   "tappe": [
+    "3-28"
+   ],
+   "anni": [
+    3
+   ],
+   "pin": 1,
+   "lat": 45.07917,
+   "lon": 7.67611,
+   "articolo": "Torino",
+   "fonte_coord": "wikipedia:it",
+   "coord_stato": "verificata",
+   "perche": null,
+   "terreno": {
+    "quota": 785.0,
+    "pend": 5.3,
+    "espo": 0.0,
+    "rel": 65.0,
+    "scarto": 7.0,
+    "fonte": "terrarium/SRTM",
+    "stato": "misurata"
+   },
+   "controllo": "quota e pendenza misurate su SRTM"
+  },
+  {
    "luogo": "Toronto, 2012",
    "tipo": "situazione",
    "tappe": [
@@ -2041,30 +2076,6 @@
    "coord_stato": "non_e_un_luogo",
    "perche": "la casella non contiene un luogo ma una situazione: nel quinto anno la tappa e' un metodo, non un posto",
    "dettagli": []
-  },
-  {
-   "luogo": "Pataliputra",
-   "tipo": "citta_antica",
-   "tappe": [
-    "4-16"
-   ],
-   "anni": [
-    4
-   ],
-   "pin": 1,
-   "lat": null,
-   "lon": null,
-   "articolo": null,
-   "fonte_coord": null,
-   "coord_stato": "da_geocodificare_a_mano",
-   "perche": "la capitale mauryana, al posto di Tunisi e Il Cairo che era il luogo di Ibn Khaldun: la sostituzione del 02/10/2026 ha aggiornato il documento dell'anno 4 e non il registro",
-   "dettagli": [
-    {
-     "voce": "Pataliputra",
-     "attribuzione": "capitale dell'impero mauryana, sul Gange; il sito corrisponde all'odierna Patna",
-     "nota": "l'identificazione e' dichiarata, non data per scontata: il punto che il gioco usa e' il centro della citta' moderna"
-    }
-   ]
   },
   {
    "luogo": "Uppsala",

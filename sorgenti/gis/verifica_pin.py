@@ -147,12 +147,21 @@ ATTESI_GIA = {
     # storica e' in Giza. Il nome del file e' la risposta.
     "Il Cairo": ("EGY", ["Giza", "Cairo", "al Qahirah"]),
     "Karakorum": ("MNG", ["dell'Arhangaj", "Arhangay", "Ovorkhangai", "Ovörhangai"]),
+    # Il 03/10/2026, due luoghi hanno ottenuto una coordinata verificata e
+    # nessuno dei due aveva un Paese atteso: il controllo 7 chiede che ogni pin
+    # con coordinate lo dichiari, e aveva ragione — un pin verificato senza Paese
+    # atteso e' un pin che nessuno puo' confrontare con nessun altro.
+    # Pataliputra e' la citta' antica e il punto e' l'odierna Patna, nel Bihar:
+    # il file amministrativo risponde IND, e la risposta e' giusta perche' il
+    # nome antico e il nome moderno sono la stessa citta'.
+    "Pataliputra": ("IND", ["Bihar", "Patna"]),
     "Qufu": ("CHN", ["Shandong"]),
     # Tenochtitlan e' Citta del Messico: Natural Earth chiama cosi' il
     # District Federal, che e' la citta' autonoma di oggi. Il nome che porta
     # nel gioco e' quello spagnolo del XVI secolo, il file risponde in italiano.
     "Tenochtitlan": ("MEX", ["Citta del Messico", "Ciudad de Mexico"]),
     "Toledo": ("ESP", ["Toledo"]),
+    "Torino": ("ITA", ["Piemonte", "Torino"]),
     "Uppsala": ("SWE", ["Uppsala"]),
     # Uruk e' nel governatorato di al Muthanna, non in quello di Wasit: la
     # citta' di Uruk/Warka e' a 150 km dalla foce dell'Eufrate.

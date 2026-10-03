@@ -27,7 +27,23 @@ DOCUMENTI = {
 # si trovava con trenta nomi di persone al posto di trenta luoghi. E' stato
 # visto perche' nessuno di quei nomi ha coordinate, mentre tutti i luoghi le
 # hanno. La tabella delle colonne va riletta ogni volta che un documento cambia.
+# Il numero di colonna e' fragile, e il difetto del 03/10/2026 lo ha provato:
+# nell'anno 5 la tabella ha UNA COLONNA IN PIU' rispetto agli altri anni — la
+# `Stanza`, cioe' dove sta accadendo, che sta FRA il pin e la voce. Il numero
+# fisso ha preso la stanza come se fosse la voce, e in ventinove tappe su
+# trenta ha messo nel campo `voce` il filone del *Furioso` invece della persona.
+# Il sintomo e' che il nome della voce sembrava gia' un titolo: «la strada della
+# fuga di Rinaldo `F2` 1,32». Nessuno se n'era accorto perche' nessuno leggeva
+# 120 nomi di persona in un colpo solo.
+# Per questo la tabella delle colonne si legge per INTESTAZIONE, non per numero:
+# e' l'unico modo che regge quando un documento aggiunge una colonna.
 COLONNA_LUOGO = {1: 3, 2: 3, 3: 3, 4: 3, 5: 3}
+# La colonna della voce non e' sempre quella dopo il luogo, ed e' quello il punto.
+COLONNA_VOCE = {1: 4, 2: 4, 3: 4, 4: 4, 5: 5}
+# Le intestazioni che contano, con i loro possibili nomi: `Pin`, `Luogo (pin)`,
+# `Luogo` nell'anno 1; `Voce` e `Personaggi` per la persona che guida la tappa.
+INT_PINS = ("pin (dove siamo oggi)", "pin", "luogo (pin)", "luogo")
+INT_VOCI = ("voce", "personaggi")
 
 RIGA = re.compile(r"^\|\s*\*\*([1-5]-\d+)\*\*\s*\|")
 
@@ -49,28 +65,52 @@ def togli_codice(testo):
     return t.strip(" .;,")
 
 
+def intestazione(riga):
+    """La riga di intestazione dice DOVE sta il pin e DOVE sta la voce.
+
+    Non si conta la posizione: si cerca il nome della colonna. Il numero di
+    colonna si sbaglia appena un documento aggiunge una colonna — e nel quinto
+    anno la colonna della stanza c'e' stata messa proprio fra le due che
+    servivano, cosi' il numero indicava la stanza e non la voce. Un nome di
+    colonna, invece, resta giusto anche se a sinistra ne compare una nuova.
+
+    Ritorna `(indice_pin, indice_voce, nomi_trovati)`; gli indici sono `None`
+    quando la colonna non c'e' e l'estrazione di quell'anno salta.
+    """
+    nomi = [c.strip().strip("*").lower() for c in celle(riga)]
+    pin = voce = None
+    trovati = []
+    for i, n in enumerate(nomi):
+        if n in INT_PINS and pin is None:
+            pin, _ = i, trovati.append(n)
+        elif n in INT_VOCI and voce is None:
+            voce, _ = i, trovati.append(n)
+    return pin, voce, trovati
+
+
 def estrai(anno, percorso):
     out = []
     if not os.path.exists(percorso):
         return out
     dentro = False
+    pin = voce = None
     for riga in open(percorso, encoding="utf-8"):
         if riga.startswith("| Livello |") or riga.startswith("| Codice |"):
-            dentro = True
+            pin, voce, trovati = intestazione(riga)
+            dentro = pin is not None and voce is not None
             continue
         if dentro and riga.startswith("|---"):
             continue
         m = RIGA.match(riga)
         if dentro and m:
             c = celle(riga)
-            if len(c) <= max(COLONNA_LUOGO.values()):
+            if len(c) <= max(pin, voce):
                 continue
             codice = m.group(1)
             if not codice.startswith(str(anno) + "-"):
                 continue
-            out.append({"tappa": codice, "luogo": togli_codice(c[COLONNA_LUOGO[anno]]),
-                        "voce": togli_codice(c[COLONNA_LUOGO[anno] + 1])
-                        if len(c) > COLONNA_LUOGO[anno] + 1 else ""})
+            out.append({"tappa": codice, "luogo": togli_codice(c[pin]),
+                        "voce": togli_codice(c[voce]) if len(c) > voce else ""})
     return out
 
 

@@ -104,8 +104,31 @@ def main():
     # il premio non puo' promettere un catalogo che non esiste: la cardinalita' e' dichiarata
     if "un premio per livello" not in premi:
         problemi.append("I4: premi.md non dichiara la cardinalita' scelta")
-    if "circa 900" not in doc:
-        problemi.append("I4: l'inventario non dichiara la cifra dei premi")
+    # La cifra dei premi e' 1050 dal 03/10/2026 e non piu' «circa 900»: i livelli
+    # trasversali sono zero (`quadro-trasversale.md` §1.3) e i centocinquanta
+    # livelli informatici hanno un premio come gli altri. Il controllo pretende il
+    # numero esatto perche' un numero approssimato su un catalogo da scrivere e'
+    # un numero che si puo' sbagliare: «circa 900» nascondeva un sesto di lavoro.
+    if "1050" not in doc:
+        problemi.append("I4: l'inventario non dichiara la cifra esatta dei premi (1050)")
+    # La cifra approssimata puo' comparire solo dove il documento spiega che
+    # era sbagliata: il registro delle modifiche e la voce chiusa la nominano
+    # per dire che non vale piu'. Nelle righe che contano, no.
+    registro = doc[doc.index("## 5."):] if "## 5." in doc else ""
+    corpo = doc[:doc.index("## 5.")] if "## 5." in doc else doc
+    for riga in corpo.split("\n"):
+        if "circa 900" not in riga:
+            continue
+        if "1050" in riga or "erano **zero**" in riga:
+            continue
+        problemi.append("I4: «circa 900» compare nel corpo del documento, fuori dal "
+                        "punto che la spiega: %s" % riga[:60])
+    # nel registro delle modifiche la cifra approssimata puo' restare: e' la
+    # traccia di che cosa il documento diceva quando e' stato scritto, e una
+    # versione che si riscrive da sola perde il conto delle correzioni
+    if registro and "circa 900" not in registro:
+        problemi.append("I4: il registro delle modifiche non dice piu' da quale "
+                        "cifra si e' passati a 1050")
 
     print("\n== I5. nessun elemento promette un vantaggio vago ==")
     # la fascia e' l'unica riga in cui il gioco non da niente: deve essere dichiarata

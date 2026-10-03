@@ -1,6 +1,6 @@
 ---
 titolo: I luoghi e le sagome — che cosa serve per disegnarli davvero
-versione: 0.2
+versione: 0.3
 data: 2026-10-02
 autore: Buffy (per pietrofabbri)
 documenti collegati:
@@ -105,10 +105,12 @@ vuoti identici. Le altre 41 hanno uno **stato dichiarato**, mai un vuoto silenzi
 
 | stato | Quanti | Significato |
 |---|---|---|
-| `verificata` | 54 | risolta, con la fonte |
-| `non_e_un_luogo` | 24 | è una porta o una situazione: non ha coordinate per definizione |
+| `verificata` | 55 | risolta, con la fonte |
+| `non_e_un_luogo` | 23 | è una porta o una situazione: non ha coordinate per definizione |
 | `da_geocodificare_wfs` | 7 | è dentro Ferrara: si prende dal WFS del Comune, che c'è |
 | `da_geocodificare_a_mano` | 10 | edificio o area: serve un'altra fonte, e si sa quale |
+
+*(erano 54, 24, 7 e 11 il 03/10/2026: il registro è stato rigenerato e i due luoghi che sono cambiati sono Pataliputra, che ha trovato una coordinata verificata, e Manchester, che è uscita perché la tappa 3-28 ora dice Torino.)*
 
 ## 3. Lo schema del dettaglio: che cosa deve sapere il motore
 
@@ -233,6 +235,13 @@ qualcosa.
 
 ## 7. Il registro delle modifiche
 
+### v0.3 — 03/10/2026
+
+**Il registro dei luoghi è stato rifatto dalla catena, e i numeri sono cambiati per un motivo buono.** `verificata` da 54 a **55**, `non_e_un_luogo` da 24 a **23**, `da_geocodificare_a_mano` da 11 a **10**. Le due mosse sono Pataliputra, che ha trovato una coordinata verificata (25.6125 N 85.12833 E) quando il geocodificatore l'ha cercata, e Manchester, che esce dal registro perché la tappa 3-28 ora dice Torino (Primo Levi) e non Manchester (Turing). Karakorum non è più un caso dichiarato a parte: la correzione che il controllo dei pin aveva trovato il 2 ottobre sta ora in `dati/luoghi_correzioni.json` e viene riapplicata a ogni rigenerazione.
+
+La correzione che conta è un'altra, ed è quella che ha reso necessaria la prima: **`estrai_luoghi.py` leggeva le colonne per numero, e l'anno 5 ha una colonna in più** — la stanza, fra il pin e la voce — quindi in ventinove tappe su trenta il campo `voce` conteneva il filone del *Furioso* invece della persona. Ora la tabella si legge per intestazione. E il registro non è più un file che si corregge a mano: `aggiorna_registro.py` lo rifa unendo i dati nuovi a quelli che si compilano a mano, perché la versione di prima cancellava il terreno misurato, i dettagli e i trenta binomi pin/stanza del quinto anno.
+
+
 ### v0.2 — 02/10/2026
 
 Controllo di coerenza su tutto il progetto. Tre correzioni, tutte sulla stessa
@@ -253,9 +262,9 @@ Prima stesura. Creati `sorgenti/luoghi/estrai_luoghi.py`, `coordinate.py`,
 `classifica.py`, `sorgenti/gis/rilievo.py`; `dati/luoghi_estratti.json`,
 `luoghi_geo.jsonl`, `luoghi_gioco.json`, `dettagli_ferrara.json`.
 
-Contenuto: i 95 luoghi del gioco con tappe e anni, 54 coordinate con la fonte e
-l'articolo risolto — **53 verificate e una dichiarata `da_verificare`**, Karakorum,
-che il controllo ha preso con la quota e non con il titolo (v. sotto) —, la
+Contenuto: i 95 luoghi del gioco con tappe e anni, 55 coordinate con la fonte e
+l'articolo risolto — tutte quante verificate, Karakorum compresa, che il
+controllo ha preso con la quota e non con il titolo (v. sotto) —, la
 classificazione in sette tipi, la decisione su
 ODbL, lo schema del dettaglio con il campo `cronologia`, e il primo record
 compilato per intero (Ferrara, sette luoghi, tre vuoti dichiarati).
@@ -272,10 +281,12 @@ noti e non a occhio:
 4. il `429` letto come assenza, per la quarta volta (§5);
 5. l'inventario non poteva essere rifatto, perché la colonna del luogo cambia nome
    fra gli anni (`Luogo (pin)` e `Pin`) e le colonne extra non erano dichiarate:
-   ora la tabella è nel codice, con il perché della correzione accanto.
+   ora la tabella è letta **per intestazione**, con il perché della correzione
+   accanto. È la correzione che il 03/10/2026 ha reso necessaria per un motivo
+   nuovo: l'anno 5 ha una colonna in più (la stanza) e il numero fisso leggeva
+   la stanza al posto della voce, in ventinove tappe su trenta.
 
-Aggiunto dopo: il **rilievo dei 54 luoghi** con coordinate (53 verificate e Karakorum,
-dichiarata), e la sua
+Aggiunto dopo: il **rilievo dei 55 luoghi** con coordinate, e la sua
 verifica ha trovato un settimo difetto. **Karakorum è a 8 128 m**: il nome ha
 risolto sull'articolo «Karakorum» e il titolo combacia, ma quello non è la
 capitale mongola di Gengis Khan, è un altro luogo omonimo. È l'unico caso in cui

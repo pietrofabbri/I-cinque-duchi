@@ -1,0 +1,69 @@
+{
+ "versione": 1,
+ "data": "2026-10-03",
+ "nota": "Le correzioni che i controlli automatici hanno trovato nelle coordinate, e che il generatore DEVE rifare. Senza questo file il registro dei luoghi le perdeva: `classifica.py` rilegge `luoghi_geo.jsonl` e quel file porta ancora i valori sbagliati, perché la correzione era stata scritta a mano in `luoghi_gioco.json`. Il 3 ottobre 2026 due correzioni di coordinate vivevano solo in un JSON editato a mano e in nessun altro posto: chi rigenerava il registro le cancellava, e nessuno lo sapeva. Ogni voce porta il difetto, la correzione, la fonte e il controllo che l'ha trovata, perché una correzione senza fonte non è una correzione: è una seconda versione della stessa domanda.\n\nIl file contiene anche due **sostituzioni di tappa**, che non sono errori di coordinata ma scelte del documento: il 02/10/2026 l'anno 4 ha cambiato la voce della 4-16 da Ibn Khaldun ad Ashoka, e l'anno 3 la 3-28 da Alan Turing a Primo Levi. Non hanno niente da correggere: il registro le deve solo recepire, e le riceve perché le prende dai documenti. Vanno dichiarate qui perché il loro arrivo nel registro è la prova che la rigenerazione è avvenuta davvero: il 3 ottobre il registro le aveva scritte a mano, e senza questa voce non si saprebbe se erano arrivate dai documenti o dalla mano di qualcuno.",
+ "fonte_delle_correzioni": "sorgenti/gis/verifica_pin.py, controllo 2 (il pin deve cadere nel Paese dichiarato)",
+ "correzioni": [
+  {
+   "luogo": "Baghdad",
+   "campo": "lat, lon",
+   "dall_articolo": "wikipedia:it (Baghdad), 33.03333 N 44.43333 E",
+   "difetto": "La coordinata cadeva a 34 km dal centro che il file delle città archivia. Il numero aveva una cifra sbagliata nella latitudine: l'articolo in italiano riporta 33°02' N, cioè 33.03, e la cifra giusta è 33.31.",
+   "correzione": "33.31528 N 44.36611 E",
+   "fonte": "en.wikipedia, articolo «Baghdad»",
+   "controllo": "verifica_pin.py controllo 2: il punto deve cadere dentro IRQ",
+   "perche_non_e_nel_geo": "luoghi_geo.jsonl conserva la risoluzione automatica del 02/10/2026, sbagliata. Il file non si riscrive a mano: la correzione vive qui e `aggiorna_registro.py` la applica dopo averlo riletto.",
+   "lat": 33.31528,
+   "lon": 44.36611,
+   "data": "02/10/2026"
+  },
+  {
+   "luogo": "Karakorum",
+   "campo": "lat, lon, articolo",
+   "dall_articolo": "wikipedia:it (Karakorum), 35.88306 N 76.50889 E",
+   "difetto": "Il nome risolveva sull'articolo «Karakorum», che è il valico del Karakoram, in Pakistan: la coordinata cadeva in Cina. La città di Gengis Khan è in Mongolia.",
+   "correzione": "47.1757 N 102.3338 E",
+   "fonte": "wikipedia, articolo «Karakorum (città)», con il titolo risolto dichiarato",
+   "controllo": "verifica_pin.py controllo 2: il punto deve cadere dentro MNG",
+   "perche_non_e_nel_geo": "come Baghdad: la correzione sta qui e non nel file delle risoluzioni automatiche, che resta la fotografia di quello che il geocodificatore aveva trovato il 02/10/2026.",
+   "lat": 47.1757,
+   "lon": 102.3338,
+   "titolo_risolto": "Karakorum (città)",
+   "data": "02/10/2026"
+  }
+ ],
+ "sostituzioni": [
+  {
+   "tappa": "4-16",
+   "anno": 4,
+   "data": "02/10/2026",
+   "da": {
+    "voce": "Ibn Khaldun",
+    "luogo": "Tunisi e Il Cairo"
+   },
+   "a": {
+    "voce": "Ashoka",
+    "luogo": "Pataliputra"
+   },
+   "perche": "La sostituzione è del documento dell'anno 4 (`anno4-mondo.md` §0.4 e la tabella delle tappe): Ashoka con Pataliputra sostituiscono Ibn Khaldun con Tunisi e Il Cairo, e la casella dei facoltativi lo dichiara. Ibn Khaldun resta nella tappa come facoltativa forte.",
+   "ricevuto_il": "03/10/2026",
+   "come": "Il registro la recepisce dalla riga della tabella, non dalla mano: è la prima verifica che la catena estratti → coordinate → registro produca davvero il documento. Il 3 ottobre la riga era stata scritta a mano nel registro, e `classifica.py` se l'avesse riscritto avrebbe rimesso il valore vecchio."
+  },
+  {
+   "tappa": "3-28",
+   "anno": 3,
+   "data": "02/10/2026",
+   "da": {
+    "voce": "Alan Turing",
+    "luogo": "Manchester"
+   },
+   "a": {
+    "voce": "Primo Levi",
+    "luogo": "Torino"
+   },
+   "perche": "L'anno 3 aveva un vuoto nel Novecento e l'ha chiuso con una sostituzione sola (la scelta (d) del documento): la 3-28 passa da Turing a Primo Levi, con Turing che diventa la facoltativa forte che la casella prevedeva già.",
+   "ricevuto_il": "03/10/2026",
+   "come": "Come la 4-16: dalla riga della tabella. **Restava una divergenza dichiarata** fra registro e documento fino al 3 ottobre, perché il registro non era stato rigenerato dopo la sostituzione; la rigenerazione la chiude da sola e la dichiarazione diventa inutile."
+  }
+ ]
+}

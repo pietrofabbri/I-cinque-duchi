@@ -26,7 +26,40 @@ import re
 RADICE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ESTRATTI = os.path.join(RADICE, "dati", "luoghi_estratti.json")
 GEO = os.path.join(RADICE, "dati", "luoghi_geo.jsonl")
+CORREZIONI = os.path.join(RADICE, "dati", "luoghi_correzioni.json")
 USCITA = os.path.join(RADICE, "dati", "luoghi_gioco.json")
+
+
+def le_correzioni():
+    """Le correzioni di coordinate che i controlli hanno trovato.
+
+    Vivono in `dati/luoghi_correzioni.json` e non dentro `luoghi_geo.jsonl` di
+    proposito: quel file e' la fotografia di quello che il geocodificatore aveva
+    trovato, e riscriverlo a mano avrebbe cancellato la traccia dell'errore. Il
+    02/10/2026 due coordinate corrette vivevano solo in un JSON editato a mano
+    e in nessun altro posto, cosi' che rifare il registro le cancellava.
+    """
+    if not os.path.exists(CORREZIONI):
+        return {}
+    archivio = json.load(open(CORREZIONI, encoding="utf-8"))
+    return {c["luogo"]: c for c in archivio.get("correzioni", [])}
+
+
+def applica_correzione(g, c):
+    """Mette i numeri corretti dentro il record, e li prende come numeri.
+
+    Non dalla frase: un valore scritto dentro una stringa da smontare e' un
+    valore che un giorno non viene smontato e resta sbagliato in silenzio.
+    """
+    if not isinstance(c.get("lat"), (int, float)) or not isinstance(c.get("lon"), (int, float)):
+        return False
+    g["lat"], g["lon"] = c["lat"], c["lon"]
+    if c.get("titolo_risolto"):
+        g["titolo_risolto"] = c["titolo_risolto"]
+    elif not g.get("titolo_risolto"):
+        g["titolo_risolto"] = c["luogo"]
+    g["wiki"] = c.get("wiki", g.get("wiki", "it"))
+    return True
 
 # nomi che sono un percorso: due o piu' toponimi uniti da una congiunzione.
 # Si riconoscono dalla forma, non da una lista scritta a parte, cosi' un tappa
@@ -68,9 +101,38 @@ def che_tipo(nome):
         if AREA.search(secondo):
             return "area", "una zona urbana con un nome proprio: si disegna come un'area, non come un punto"
     if nome in ("Tebe", "Babilonia", "Elea (Velia)", "Uruk", "Agra", "Karakorum",
-                "Uppsala", "Hannover", "Bethesda"):
+                "Uppsala", "Hannover", "Bethesda", "Pataliputra"):
         return "citta_antica", "citta' antica, scomparsa o spostata: il rilievo moderno non dice niente"
     return "citta", None
+
+
+def stato_di(nome, tipo, geo, presente):
+    """Lo stato della coordinata, in un posto solo.
+
+    La funzione era dentro il `main` di questo file e una copia ne faceva
+    `aggiorna_registro.py`: due copie di una regola che assegna quattro stati
+    a novantacinque luoghi divergono appena una delle due viene toccata, ed e'
+    successo (le sette ferraresi finivano `non_e_un_luogo` da una parte e
+    `da_geocodificare_wfs` dall'altra). Ora c'e' una sola definizione e gli
+    altri script la importano.
+
+    `presente` dice se il nome e' passato dal geocodificatore. Un luogo che
+    non e' mai stata cercata non e' una richiesta fallita, e non si chiama
+    `da_rifare` — si chiama `da_geocodificare_a_mano`, perche' il lavoro da
+    fare e' un altro e si sa quale.
+    """
+    if geo.get("titolo_risolto"):
+        stato = "verificata"
+    elif tipo in ("porta", "situazione", "percorso"):
+        stato = "non_e_un_luogo"
+    elif geo.get("stato") == "senza_articolo" or not presente:
+        stato = "da_geocodificare_a_mano"
+    else:
+        stato = "da_rifare"
+    # dentro Ferrara la fonte non e' Wikipedia ma il WFS del Comune, ed esiste
+    if nome.startswith("Ferrara") and stato != "verificata":
+        stato = "da_geocodificare_wfs"
+    return stato
 
 
 if __name__ == "__main__":
@@ -84,6 +146,8 @@ if __name__ == "__main__":
         if d.get("stato") == "da_rifare":
             continue
         geo[d["luogo"]] = d
+    corretti = le_correzioni()
+    applicate = []
 
     # tappe per luogo
     tappe = {}
@@ -99,20 +163,22 @@ if __name__ == "__main__":
     for nome in sorted(tappe):
         tipo, nota = che_tipo(nome)
         conta[tipo] += 1
-        g = geo.get(nome, {})
-        if g.get("titolo_risolto"):
-            stato = "verificata"
-        elif tipo in ("porta", "situazione", "percorso"):
-            stato = "non_e_un_luogo"
-        elif g.get("stato") == "senza_articolo":
-            # verificato e non risolto: lo si dichiara, non lo si nasconde
-            stato = "da_geocodificare_a_mano"
-        else:
-            stato = "da_rifare"
-        if nome.startswith("Ferrara") and stato != "verificata":
-            stato = "da_geocodificare_wfs"
+        g = dict(geo.get(nome, {}))
+        presente = nome in geo
+        stato = stato_di(nome, tipo, g, presente)
+        # le correzioni che i controlli hanno trovato vengono applicate qui, e
+        # non nel file delle risoluzioni: quel file resta la fotografia di
+        # quello che il geocodificatore aveva trovato il 02/10/2026.
+        c = corretti.get(nome)
+        if c:
+            applicata = applica_correzione(g, c)
+            if applicata:
+                applicate.append(nome)
+                stato = "verificata"
+                nota = (nota + " " if nota else "") + (
+                    "Correzione del %s: %s" % (c["data"], c["difetto"].rstrip(".")))
         stati[stato] += 1
-        record.append({
+        r = {
             "luogo": nome,
             "tipo": tipo,
             "tappe": sorted(tappe[nome]),
@@ -125,12 +191,23 @@ if __name__ == "__main__":
             "coord_stato": stato,
             "perche": nota,
             "dettagli": [],      # si compila a mano, con la fonte: vedi il documento
-        })
+        }
+        if c:
+            r["correzione"] = {
+                "dall_articolo": c["dall_articolo"],
+                "correzione": c["correzione"],
+                "fonte": c["fonte"],
+                "controllo": c["controllo"],
+            }
+        record.append(r)
 
     with open(USCITA, "w", encoding="utf-8") as f:
         json.dump({"luoghi": record}, f, ensure_ascii=False, indent=1)
 
     con_coord = sum(1 for r in record if r["lat"] is not None)
+    if applicate:
+        print("\ncorrezioni applicate: %d (%s)"
+              % (len(applicate), ", ".join(applicate)))
     print("luoghi: %d" % len(record))
     print("\nper tipo:")
     for t, n in conta.most_common():

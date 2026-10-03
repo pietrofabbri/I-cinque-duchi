@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — la sequenza degli anni 2, 3 e 4: le trenta voci obbligatorie in fila, con i luoghi e le distanze
-versione: 0.1
+versione: 0.2
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro del 03/10/2026 («hai la sequenza dei livelli per i 4 anni, con relativi luoghi, quindi puoi mettere in sequenza i vari personaggi (almeno quelli non facoltativi)»), con le regole già prese sui percorsi, sui tipi di legame e sulle ipotesi di coordinata
@@ -27,9 +27,18 @@ Il 2 ottobre 2026 Pietro sostituì Ibn Khaldun con Ashoka alla 4-16 e Ibn Khaldu
 
 Le **ipotesi di coordinata** del 3 ottobre costruirono sopra quel posto sbagliato una strada Tunisino-Cairo, con la fonte che diceva «partenza Tunisi, arrivo Il Cairo» e la frase che il gioco avrebbe mostrato al ragazzo attribuita ad **Ashoka**. Il record era internamente coerente, aveva due punti, aveva il tratto, aveva la fonte: e i sei controlli R1-R6 gli avevano dato il via libera. **Un controllo che verifica la forma non verifica la premessa**: io ho controllato che la strada fosse ben costruita e non che la strada fosse quella giusta.
 
-Corretto in `dati/luoghi_gioco.json` e in `sorgenti/ipotesi_luoghi.py`: la 4-16 è ora **Pataliputra**, grado `argomentata`, punto sul centro dell'odierna Patna con **1500 metri di raggio dichiarati**, e la frase dice che la città antica era più grande e che il gioco non ne traccia il bordo. Il tratto Tunisino-Cairo sparisce con lei, e i nomi doppi con il tratto passano da otto a sette.
+La 4-16 è ora **Pataliputra** e la strada Tunisino-Cairo sparisce con lei: i nomi doppi con il tratto passano da otto a sette, e la distanza dell'anno 3 è cambiata di 1108 km perché la 3-28 è passata da Manchester a Torino. Il punto viene dalla tabella del documento, non dalla mano.
 
-**La causa, dichiarata per intero**: il generatore del registro sta solo sul ramo remoto e in questo checkout non c'è, quindi la correzione non si può fare rigenerando. Il dato è corretto a mano e il generatore, quando tornerà, riprodurrà la stessa cosa **se** leggerà il documento dell'anno 4 — che è già giusto.
+**La causa, e come è stata chiusa.** Il 3 ottobre la correzione era stata scritta **a mano** in `dati/luoghi_gioco.json`, perché il generatore del registro (`sorgenti/luoghi/classifica.py`, con `estrai_luoghi.py` e `coordinate.py`) riscrivendo il file avrebbe cancellato quattro cose che nessun comando rifa: il terreno misurato su SRTM, il campo `controllo`, i `dettagli` compilati a mano e il blocco `tappe` con i trenta binomi pin/stanza del quinto anno. Una correzione che non si può rigenerare è una correzione che nessuno può rifare: il 3 ottobre, infatti, il generatore **rifacendo il registro avrebbe rimesso il valore vecchio**, perché il file degli estratti era rimasto indietro rispetto ai documenti.
+
+Il 3 ottobre la catena è stata sistemata per bene, in quattro mosse, e ognuna ha un controllo suo (`sorgenti/verifica_catena_luoghi.py`, cinque):
+
+1. **`estrai_luoghi.py` legge le colonne per intestazione, non per numero.** Nell'anno 5 la tabella ha una colonna in più — la `Stanza`, fra il pin e la voce — e il numero fisso prendeva la stanza come se fosse la voce: in ventinove tappe su trenta il campo `voce` conteneva il filone del *Furioso* invece della persona. Il sintomo era che il nome sembrava già un titolo: «la strada della fuga di Rinaldo `F2` 1,32». Non se n'era accorto nessuno, perché nessuno leggeva centoventi nomi di persona in un colpo.
+2. **`aggiorna_registro.py` unisce invece di sovrascrivere**, e porta dietro i campi compilati a mano.
+3. **`dati/luoghi_correzioni.json` dichiara le correzioni che i controlli hanno trovato** — Baghdad e Karakorum — che prima vivevano solo nel JSON editato a mano e sparivano alla prima rigenerazione.
+4. **Il registro è stato rigenerato davvero**: la 4-16 prende Pataliputra dalla tabella, la 3-28 prende Torino, e **le divergenze fra registro e documento sono passate da una a zero**. La lista `DICHIARATE` di `sequenza_tappe.py` resta nel codice, vuota e dichiarata.
+
+La lezione che resta è quella che l'aveva fatto nascere: **un controllo che verifica la forma non verifica la premessa**, e un dato corretto a mano è un dato che nessuno può ricostruire.
 
 ## 2. Le tre sequenze, e che cosa dicono
 
@@ -73,7 +82,7 @@ Corretto in `dati/luoghi_gioco.json` e in `sorgenti/ipotesi_luoghi.py`: la 4-16 
 
 ### Anno 3 — l'Europa
 
-*cavallo, 45 km al giorno. Percorso in linea d'aria: **18990 km in 425 giorni**. Voci obbligatorie distinte: **30**. Facoltative dichiarate in tabella: **61**. Tappe senza punto: 3-28.*
+*cavallo, 45 km al giorno. Percorso in linea d'aria: **20098 km in 450 giorni**. Voci obbligatorie distinte: **30**. Facoltative dichiarate in tabella: **61**. Tappe senza punto: nessuna.*
 
 | # | Tappa | Luogo (pin) | Voce obbligatoria | Forza | Facoltative (2) | | km dalla precedente | giorni | km cumulati |
 |---|---|---|---|---|---|---|---|---|
@@ -104,13 +113,13 @@ Corretto in `dati/luoghi_gioco.json` e in `sorgenti/ipotesi_luoghi.py`: la 4-16 
 | 25 | **3-25** | Venezia | Aldo Manuzio (Q125, *aggiunta*) | medio | Francesco Griffo; i caratterai | 456 | 10 | 17122 |
 | 26 | **3-26** | Westminster | William Caxton (Q126, *aggiunta*) | forte | Caxton; i miniatori | 1137 | 25 | 18259 |
 | 27 | **3-27** | Parigi | Olympe de Gouges `Q127` | forte | Wollstonecraft; Robespierre | 343 | 8 | 18602 |
-| 28 | **3-28** | Torino | Primo Levi (Q128, *aggiunta*, 02/10/2026) | forte | Alan Turing  forte, era la voce obbligatoria); Ada Lovelace; i matematici di Cambridge |  |  | 18602 |
-| 29 | **3-29** | Roma, Curia | I tipografi e i privilegi (Q129, collettivo `C`) | medio | Manuzio; il Sant'Uffizio |  |  | 18602 |
-| 30 | **3-30** | Mantova | Isabella d'Este `Q130` | forte | Alfonso I; i musei | 388 | 9 | 18990 |
+| 28 | **3-28** | Torino | Primo Levi (Q128, *aggiunta*, 02/10/2026) | forte | Alan Turing  forte, era la voce obbligatoria); Ada Lovelace; i matematici di Cambridge | 582 | 13 | 19184 |
+| 29 | **3-29** | Roma, Curia | I tipografi e i privilegi (Q129, collettivo `C`) | medio | Manuzio; il Sant'Uffizio | 525 | 12 | 19710 |
+| 30 | **3-30** | Mantova | Isabella d'Este `Q130` | forte | Alfonso I; i musei | 388 | 9 | 20098 |
 
 ### Anno 4 — il mondo
 
-*barca, 60 km al giorno. Percorso in linea d'aria: **136519 km in 2273 giorni**. Voci obbligatorie distinte: **30**. Facoltative dichiarate in tabella: **63**. Tappe senza punto: nessuna.*
+*barca, 60 km al giorno. Percorso in linea d'aria: **136516 km in 2273 giorni**. Voci obbligatorie distinte: **30**. Facoltative dichiarate in tabella: **63**. Tappe senza punto: nessuna.*
 
 | # | Tappa | Luogo (pin) | Voce obbligatoria | Forza | Facoltative (2) | | km dalla precedente | giorni | km cumulati |
 |---|---|---|---|---|---|---|---|---|
@@ -129,21 +138,21 @@ Corretto in `dati/luoghi_gioco.json` e in `sorgenti/ipotesi_luoghi.py`: la 4-16 
 | 13 | **4-13** | Alessandria | Ipazia `Q213` | medio | I sacerdoti di Soknopaiou Nesos; le tre scritture | 8532 | 142 | 54412 |
 | 14 | **4-14** | Tenochtitlán | Moctezuma II `Q214` | medio | Tlacaelel; i calendari | 9808 | 163 | 64220 |
 | 15 | **4-15** | Chio e la Ionia | Omero `Q215` | forte | I rapsodi; Pisistrato | 11416 | 190 | 75636 |
-| 16 | **4-16** | Pataliputra | Ashoka (Q216, *sostituisce Ibn Khaldun dal 02/10/2026, v. §0.4*) | forte | Ibn Khaldun  forte, era la voce obbligatoria); Cesare; i monaci buddisti | 5655 | 94 | 81291 |
-| 17 | **4-17** | Bombay e Delhi | B. R. Ambedkar `Q217` | forte | Il tempio di Kalaram; il poeta | 853 | 14 | 82144 |
-| 18 | **4-18** | Costantinopoli | Solimano il Magnifico `Q218` | forte | I millet; Ibrahim, fratello del sultano | 4551 | 76 | 86696 |
-| 19 | **4-19** | Il Cairo | Ibn al-Haytham `Q219` | medio | Il Libro degli specchi; il muḥtasib | 1235 | 21 | 87931 |
-| 20 | **4-20** | Ferrara e il regno | I censori (Q220, collettivo `C`) | forte | Gli ufficiali del catasto; il censitore cinese | 2375 | 40 | 90306 |
-| 21 | **4-21** | Toledo | Isabella di Castiglia `Q221` | forte | I censitori; i funzionari dell'archivio | 1397 | 23 | 91703 |
-| 22 | **4-22** | Babilonia | Hammurabi `Q222` | forte | Il codice; la stele di Nippur | 4369 | 73 | 96072 |
-| 23 | **4-23** | Lisbona e Calicut | Vasco da Gama `Q223` | forte | I piloti di Malindi; Ahmad ibn Majid | 3981 | 66 | 100053 |
-| 24 | **4-24** | Nanchang e il mare | Zheng He `Q224` | forte | Ma Huan; i cantieri | 4584 | 76 | 104638 |
-| 25 | **4-25** | Annapolis e Baltimora | Frederick Douglass `Q225` | forte | Sojourner Truth; i censitori | 12347 | 206 | 116985 |
-| 26 | **4-26** | Spagna e Tenochtitlán | Hernán Cortés `Q226` | forte | Las Casas; i signori di Tlaxcala | 3087 | 51 | 120072 |
-| 27 | **4-27** | Scutari e Costantinopoli | Florence Nightingale `Q227` | forte | Gorgas; i soldati | 11426 | 190 | 131498 |
-| 28 | **4-28** | Motihari e Londra | George Orwell `Q228` | forte | Il lavoro alla BBC; la revisione spagnola | 2501 | 42 | 133998 |
-| 29 | **4-29** | Parigi e Varsavia | Marie Curie `Q229` | forte | Malala Yousafzai  forte dal 02/10/2026); il libro di Irène; l'Accademia | 1448 | 24 | 135447 |
-| 30 | **4-30** | Ferrara, archivio | Le persone che non hanno firmato (Q230, collettivo `C`) | forte | Le voci senza nome; Ercole II | 1072 | 18 | 136519 |
+| 16 | **4-16** | Pataliputra | Ashoka (Q216, *sostituisce Ibn Khaldun dal 02/10/2026, v. §0.4*) | forte | Ibn Khaldun  forte, era la voce obbligatoria); Cesare; i monaci buddisti | 5654 | 94 | 81289 |
+| 17 | **4-17** | Bombay e Delhi | B. R. Ambedkar `Q217` | forte | Il tempio di Kalaram; il poeta | 852 | 14 | 82141 |
+| 18 | **4-18** | Costantinopoli | Solimano il Magnifico `Q218` | forte | I millet; Ibrahim, fratello del sultano | 4551 | 76 | 86692 |
+| 19 | **4-19** | Il Cairo | Ibn al-Haytham `Q219` | medio | Il Libro degli specchi; il muḥtasib | 1235 | 21 | 87927 |
+| 20 | **4-20** | Ferrara e il regno | I censori (Q220, collettivo `C`) | forte | Gli ufficiali del catasto; il censitore cinese | 2375 | 40 | 90302 |
+| 21 | **4-21** | Toledo | Isabella di Castiglia `Q221` | forte | I censitori; i funzionari dell'archivio | 1397 | 23 | 91699 |
+| 22 | **4-22** | Babilonia | Hammurabi `Q222` | forte | Il codice; la stele di Nippur | 4369 | 73 | 96068 |
+| 23 | **4-23** | Lisbona e Calicut | Vasco da Gama `Q223` | forte | I piloti di Malindi; Ahmad ibn Majid | 3981 | 66 | 100050 |
+| 24 | **4-24** | Nanchang e il mare | Zheng He `Q224` | forte | Ma Huan; i cantieri | 4584 | 76 | 104634 |
+| 25 | **4-25** | Annapolis e Baltimora | Frederick Douglass `Q225` | forte | Sojourner Truth; i censitori | 12347 | 206 | 116981 |
+| 26 | **4-26** | Spagna e Tenochtitlán | Hernán Cortés `Q226` | forte | Las Casas; i signori di Tlaxcala | 3087 | 51 | 120068 |
+| 27 | **4-27** | Scutari e Costantinopoli | Florence Nightingale `Q227` | forte | Gorgas; i soldati | 11426 | 190 | 131494 |
+| 28 | **4-28** | Motihari e Londra | George Orwell `Q228` | forte | Il lavoro alla BBC; la revisione spagnola | 2501 | 42 | 133995 |
+| 29 | **4-29** | Parigi e Varsavia | Marie Curie `Q229` | forte | Malala Yousafzai  forte dal 02/10/2026); il libro di Irène; l'Accademia | 1448 | 24 | 135443 |
+| 30 | **4-30** | Ferrara, archivio | Le persone che non hanno firmato (Q230, collettivo `C`) | forte | Le voci senza nome; Ercole II | 1072 | 18 | 136516 |
 
 <!-- SEQUENZA:FINE -->
 
@@ -196,9 +205,10 @@ Le tabelle stanno fra i due marcatori `<!-- SEQUENZA:INIZIO -->` e `<!-- SEQUENZ
 ## 6. Cosa c'è da fare
 
 1. **Il numero due della colonna facoltative**, che nell'anno 2 non torna: o la tabella si completa, o il titolo della colonna smette di dire «(2)».
-2. **Il generatore del registro**, che sta solo sul ramo remoto: quando torna, va eseguito e i suoi risultati confrontati con questi, perché il confronto è l'unico modo di sapere se la correzione della 4-16 regge.
+2. ~~**Il generatore del registro**~~ **chiusa il 03/10/2026**: esiste, ed è stato eseguito davvero. Il confronto che mancava è quello che §1 racconta, e l'ha vinto. La catena ha quattro controlli suoi in `sorgenti/verifica_catena_luoghi.py`.
 3. **Le trenta voci in sequenza**: questa pagina mette i nomi in fila, ma non mette in fila gli **argomenti** che ogni voce porta con sé. È il capitolo che manca, ed è il capitolo che rende la sequenza un percorso e non un elenco.
 
 ## 7. Registro delle modifiche
 
+- **v0.2 (03/10/2026)**: **la divergenza dichiarata è chiusa, e chiusa come si deve: rigenerando.** Il registro dei luoghi è stato rifatto dalla catena `estrai_luoghi.py` → `coordinate.py` → `classifica.py`, e lungo la strada sono usciti quattro difetti veri. Il primo: **`estrai_luoghi.py` leggeva le colonne per numero**, e nell'anno 5 la colonna della stanza sta fra il pin e la voce — in ventinove tappe su trenta il campo `voce` aveva il filone del *Furioso* invece della persona. Ora la tabella si legge per **intestazione**. Il secondo: **le correzioni di Baghdad e Karakorum vivevano solo in un JSON editato a mano** e sparivano alla prima rigenerazione; ora stanno in `dati/luoghi_correzioni.json` e vengono riapplicate ogni volta. Il terzo: **`classifica.py` aveva due copie della regola che assegna lo stato della coordinata**, e le due copie erano già divergenti sulle sette ferraresi; ora c'è una definizione sola. Il quarto, che è la conseguenza: **`ambienti_livelli.json` era rimasto indietro** e la 4-16 aveva ancora il punto dall'ipotesi benché il registro avesse la coordinata. La correzione della 4-16 è così passata da **dato scritto a mano** a **dato che la catena produce**, che è la differenza fra una correzione e una riparazione. Le divergenze fra registro e documento sono **zero**, e `DICHIARATE` in `sequenza_tappe.py` resta vuota e dichiarata. Il percorso dell'anno 3 è passato da 18990 a 20098 km perché la 3-28 è diventata Torino.
 - **v0.1 (03/10/2026)**: prima stesione. Novanta tappe in sequenza, le trenta voci obbligatorie di ciascun anno in fila con i luoghi e le distanze, le facoltative tenute fuori e dichiarate. Il ritorno vero del lavoro è **un difetto di dati**: la 4-16 aveva nel registro il luogo di Ibn Khaldun dopo che il documento l'aveva cambiato in quello di Ashoka, e le ipotesi del giorno prima avevano costruito sopra quel posto sbagliato una strada interamente inventata che i sei controlli avevano approvato. La lezione è scritta in §1 e vale per tutto il progetto: **un controllo di forma non verifica una premessa**.

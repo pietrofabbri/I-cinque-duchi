@@ -9,7 +9,7 @@ dati: dati/furioso/citazioni.json (v4, trenta record: tappa, filone, canto, otta
 strumenti: sorgenti/furioso/scarica_wikisource.py, sorgenti/furioso/estrai_ottave.py, sorgenti/furioso/costruisci_citazioni.py, sorgenti/furioso/verifica_citazioni.py, sorgenti/furioso/provino_html.py, sorgenti/verifica_coerenza.py
 controllo: python3 sorgenti/furioso/verifica_citazioni.py (30 citazioni obbligatorie, 82 versi, 1 citazione facoltativa, 12 filoni dichiarati di cui 11 giocabili, 0 problemi) e --gutenberg (23 citazioni a riscontro, 3 differenze dichiarate); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
 prototipo: provino_furioso.html (una pagina, offline, generata)
-documenti collegati: videogioco-5-duchi-luoghi.md (v0.3, §4.5 con la regola dei due strati e il tipo `N` di non luogo), videogioco-5-duchi-anno5-mondo.md (v0.4, le trenta tappe 5-1…5-30 e la sezione sul giocatore dentro il *Furioso*), videogioco-5-duchi-luoghi-edifici.md (v0.2), AGENTS.md, FONTI-E-LICENZE.md
+documenti collegati: videogioco-5-duchi-luoghi.md (v0.3, §4.5 con la regola dei due strati e il tipo `N` di non luogo), videogioco-5-duchi-anno5-mondo.md (v0.4, le trenta tappe 5-1…5-30 e la sezione sul giocatore dentro il *Furioso*), videogioco-5-duchi-luoghi-edifici.md (v0.3), AGENTS.md, FONTI-E-LICENZE.md
 ---
 # I filoni dell'*Orlando furioso*
 

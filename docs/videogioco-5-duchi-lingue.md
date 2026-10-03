@@ -4,7 +4,7 @@ versione: 0.1
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte: indicazioni di Pietro del 02/10/2026
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-anno1-ferrara.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), AGENTS.md
 dati: dati/lingue/associazioni.json (v1), sorgenti/lingue/titoli_livelli.txt (900 record)
 ---
 

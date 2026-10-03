@@ -108,7 +108,7 @@
   "ambienti": 150,
   "attesi": 150,
   "mancanti": [],
-  "con_coordinate": 99,
+  "con_coordinate": 100,
   "senza_coordinate": [
    "1-27",
    "1-30",
@@ -137,7 +137,6 @@
    "4-9",
    "4-10",
    "4-15",
-   "4-16",
    "4-17",
    "4-20",
    "4-22",
@@ -163,7 +162,7 @@
    "5-30"
   ],
   "ipotesi_per_grado": {
-   "argomentata": 22,
+   "argomentata": 21,
    "documentata": 27,
    "immaginata": 2
   },
@@ -172,7 +171,7 @@
    "5-18",
    "5-22"
   ],
-  "con_sagome": 69,
+  "con_sagome": 68,
   "per_tipo": {
    "edificio": 32,
    "paesaggio": 7,
@@ -6283,17 +6282,17 @@
    "porta": null,
    "stanza": null,
    "stanza_dettaglio": null,
-   "luogo": "Manchester",
-   "lat": 53.48333,
-   "lon": -2.25,
+   "luogo": "Torino",
+   "lat": 45.07917,
+   "lon": 7.67611,
    "coord_stato": "verificata",
    "fonte_coord": "wikipedia:it",
    "terreno": {
-    "quota": 26.4,
-    "pend": 29.3,
-    "espo": 326.8,
-    "rel": 41.8,
-    "scarto": 11.5,
+    "quota": 785.0,
+    "pend": 5.3,
+    "espo": 0.0,
+    "rel": 65.0,
+    "scarto": 7.0,
     "fonte": "terrarium/SRTM",
     "stato": "misurata"
    },
@@ -6308,27 +6307,14 @@
     "griglia_da": "GRIGLIE di sorgenti/ambienti_livelli.py: scelta di progetto, non un dato della fonte",
     "edifici": {
      "fonte": "dati/edifici_footprint.json",
-     "n": 140,
-     "con_altezza": 3,
-     "da_piani": 81,
-     "senza_altezza": 56
+     "n": 0,
+     "con_altezza": 0,
+     "da_piani": 0,
+     "senza_altezza": 0
     },
     "fondo": null,
     "orientamento": null,
-    "nomi_edifici": [
-     "Affinity Living Riverside",
-     "Affinity Living Riverview",
-     "Alcock House",
-     "Aldine House",
-     "Audacious Church",
-     "BT : New Bailey",
-     "Barton Buildings & Barton Arcade",
-     "Baskerville House",
-     "Bradshaw House",
-     "Caxton House",
-     "Chapman House",
-     "Citysuites Manchester"
-    ],
+    "nomi_edifici": [],
     "stato": "da_costruire",
     "costruito_in": null,
     "paleta": [
@@ -6342,11 +6328,12 @@
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
    "vuoti": [
-    "orientamento_non_dichiarato"
+    "orientamento_non_dichiarato",
+    "senza_sagome_osm"
    ],
    "pin_da_disegnare": {
-    "lat": 53.48333,
-    "lon": -2.25,
+    "lat": 45.07917,
+    "lon": 7.67611,
     "grado": "verificata",
     "raggio_m": null,
     "fonte": "dati/luoghi_gioco.json"
@@ -7245,7 +7232,7 @@
    "lat": 33.31528,
    "lon": 44.36611,
    "coord_stato": "verificata",
-   "fonte_coord": "wikipedia:en",
+   "fonte_coord": "wikipedia:it",
    "terreno": {
     "quota": 38.0,
     "pend": 12.5,
@@ -7614,10 +7601,10 @@
    "stanza": null,
    "stanza_dettaglio": null,
    "luogo": "Pataliputra",
-   "lat": null,
-   "lon": null,
-   "coord_stato": "da_geocodificare_a_mano",
-   "fonte_coord": null,
+   "lat": 25.6125,
+   "lon": 85.12833,
+   "coord_stato": "verificata",
+   "fonte_coord": "wikipedia:en",
    "terreno": null,
    "ambiente": {
     "tipo": "citta_antica",
@@ -7650,25 +7637,16 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
-   "ipotesi": {
-    "grado": "argomentata",
-    "frase": "Ashoka governa da Pataliputra. Il punto e' la citta' di oggi, che sta dove stava allora: la citta' antica era piu' grande e il gioco non ne traccia il bordo.",
-    "fonte": "Pataliputra, capitale dell'impero mauryana: il sito corrisponde all'odierna Patna (25.5941 N 85.1376 E). Il punto e' il centro della citta' moderna e non il perimetro della citta' antica, che non e' una forma nota: percio' il grado e' argomentata e il raggio dichiarato e' 1500 metri. Il luogo che qui stava prima, Tunisi e Il Cairo, era quello di Ibn Khaldun, che il 02/10/2026 e' diventato facoltativa della stessa tappa: il documento dell'anno 4 era gia' stato aggiornato, il registro no",
-    "tratto": null,
-    "parte_non_luogo": null,
-    "file": "dati/ipotesi_luoghi.json"
-   },
    "vuoti": [
-    "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
    ],
    "pin_da_disegnare": {
-    "lat": 25.5941,
-    "lon": 85.1376,
-    "grado": "argomentata",
-    "raggio_m": 1500,
-    "fonte": "dati/ipotesi_luoghi.json"
+    "lat": 25.6125,
+    "lon": 85.12833,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
    }
   },
   {

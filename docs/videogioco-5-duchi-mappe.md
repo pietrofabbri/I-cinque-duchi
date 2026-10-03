@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.9
+versione: 1.0
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
@@ -273,7 +273,7 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 | nessun vertice fuori dal mondo, in tutti i 23 file | **conforme** |
 | **totale** | **61 su 61** |
 
-*(fatto il 02/10/2026)* Il controllo sui pin è in §8bis: **71 slot di pin hanno coordinate e sono stati verificati tutti**, e ne sono usciti **due difetti reali**, corretti.
+*(fatto il 02/10/2026)* Il controllo sui pin è in §8bis: **72 slot di pin hanno coordinate e sono stati verificati tutti**, e ne sono usciti **due difetti reali**, corretti.
 
 *(fatto il 03/10/2026)* Il primo anno ha **cinque controlli suoi** in §8ter: `sorgenti/gis/verifica_anno1.py`, **A1-A5**, tutti superati.
 
@@ -295,20 +295,22 @@ Il numero «90» dell'audit era **esatto**, ma non era il numero dei pin: è il 
 |---|---|---|---|
 | 2 | 30 | 14 | 21 |
 | 3 | 30 | 26 | 26 |
-| 4 | 30 | 13 | 30 |
+| 4 | 30 | **14** | 30 |
 | 5 | 30 | 18 | 27 |
-| **2-5** | **120** | **71** | **95** |
-| **2-4** (la B5) | 90 | 53 | 69 |
+| **2-5** | **120** | **72** | **95** |
+| **2-4** (la B5) | 90 | **54** | 69 |
 
-I 49 slot senza coordinate hanno tutti uno stato dichiarato: 24 `non_e_un_luogo` (porte e situazioni, che per definizione non sono un luogo), 14 `da_geocodificare_a_mano` e 11 `da_geocodificare_wfs`. **Nessuno è un buco silenzioso**, ed è quello che il controllo 7 verifica: ogni pin con coordinate ha un Paese atteso dichiarato nella tabella del verificatore.
+*(03/10/2026: erano 71 e 53. Il quarto anno ne ha guadagnato uno perché **Pataliputra** ha ottenuto una coordinata verificata quando il geocodificatore l'ha cercata, e l'anno 3 nessuno perché la **3-28** è diventata Torino, che aveva già coordinate dove Manchester aveva una sua. Il totale dei posti distinti non cambia: 95, e Pataliputra sostituisce Manchester.)*
+
+I 48 slot senza coordinate hanno tutti uno stato dichiarato: 23 `non_e_un_luogo` (porte e situazioni, che per definizione non sono un luogo), 14 `da_geocodificare_a_mano` e 11 `da_geocodificare_wfs`. **Nessuno è un buco silenzioso**, ed è quello che il controllo 7 verifica: ogni pin con coordinate ha un Paese atteso dichiarato nella tabella del verificatore.
 
 ### Gli otto controlli
 
 | # | Controllo | Soglia | Esito (anni 2-5) |
 |---|---|---|---|
 | 1 | nessun pin cade in mare | 3 km dalla terra | **1 su 1** (Costantinopoli, terra a 1,4 km) |
-| 2 | il pin cade nel Paese che il nome dichiara | — | **53 su 53** confrontabili |
-| 3 | il pin cade nell'unità amministrativa che il nome dichiara | — | **35 su 35** verificabili |
+| 2 | il pin cade nel Paese che il nome dichiara | — | **54 su 54** confrontabili |
+| 3 | il pin cade nell'unità amministrativa che il nome dichiara | — | **54 su 54** verificabili |
 | 4 | il pin è entro 30 km dal centro omonimo archiviato | 30 km | **19 su 19** |
 | 5 | nessuna coordinata duplicata fra due pin | — | **0** |
 | 6 | nessuna coordinata presa da un altro pin e scambiata | — | **0** |
@@ -347,7 +349,7 @@ Il pin di Costantinopoli (41.01224, 28.97602) **non cade in nessun Paese**, a ne
 ```bash
 python3 sorgenti/gis/verifica_pin.py            # anni 2, 3 e 4 (la B5)
 python3 sorgenti/gis/verifica_pin.py --anno 5   # il quinto anno
-python3 sorgenti/gis/verifica_pin.py --tutti     # tutti e cinque: 120 slot, 71 con coordinate
+python3 sorgenti/gis/verifica_pin.py --tutti     # tutti e cinque: 120 slot, 72 con coordinate
 
 python3 sorgenti/gis/verifica_anno1.py           # il primo anno: 30 tappe dentro le mura (A1-A5)
 ```
@@ -465,6 +467,8 @@ for proprieta, anelli in geometrie:
 - **v0.8 (03/10/2026)**: **le cime sono state convertite, e convertendole è saltato fuori un difetto che non era di geometria.** `dati/mappe/mondo_110_altitudine.json`, `europa_50_altitudine.json` e `penisola_10_altitudine.json` portano **15, 2 e 26 punti** di `geography_regions_elevation_points`, con il conto della fonte in `dati/altitudine_manifest.json` (19→15, 86→2, 711→26). Le due scoperte che i numeri non nascondono: la fonte è **mondiale in tutte e tre le scale** — il file chiamato «europa» elenca 86 cime da longitudine −167 a +160 e solo due in Europa — e **i tre file non sono annidati**, nessuna delle 15 cime mondiali cadendo nel riquadro della penisola: sono selezioni diverse della stessa fonte globale, e un motore che li trattasse come risoluzioni diverse dello stesso elenco sbaglierebbe invisibilmente. Dichiarato anche che il file **non è un modello del terreno** e che l'Everest è a 8848 m, il valore del 1954, che il gioco non corregge. Per leggerli è servita la funzione `punti()` in `sorgenti/gis/shapefile_lettore.py`, che copre `Point` e `MultiPoint`: la trappola del `MultiPoint` è che porta dentro i punti una struttura che somiglia a quella di un poligono, e leggerlo con il codice dei poligoni dà coordinate che sembrano giuste.
 
   **Il difetto vero è un altro, ed è il primo dei due chiusi in questo documento.** `dati/mappe/mondo_admin1_copertura.json` stava **dentro `dati/mappe/`**, dove vale la regola del solo formato a delta, e faceva crashare `mappe_lettore.leggi()` con un `IndexError: list index out of range`: un sintomo che dice una lista troppo corta e non dice che il problema è un file che non aveva niente a che fare li. Il file è stato spostato in `dati/`, il generatore corretto, **il lettore ora controlla la forma del file** e solleva un `ValueError` che nomina il percorso, e il controllo **C6** tiene l'invariante fermo. Il pacchetto passa da 21 a **23 file** e i controlli numerici da 57 a **61 su 61**. I **colori delle carte**, che erano scritti nel codice del disegnatore, sono ora in `dati/fonti_visive/colori_cartografici.json` (19 voci, `fonti-visive.md` §3.7) e `sorgenti/gis/verifica_mappe_disegno.py` li **legge** invece di scriverli: il suo difetto di prima era `fill="F6FAFC"` senza il cancelletto, cioè dodici pagine di verifica senza un colore. Due verificatori nuovi: `verifica_colori.py` (C1–C7, 18 file in tabella di copertura) e `verifica_altitudine.py` (D1–D7), entrambi a zero, entrambi provati anche sufficiendo difetti.
+
+- **v1.0 (03/10/2026)**: **i pin sono 72 e non 71, ed è il rigeneramento del registro a dirlo.** La catena dei luoghi (`estrai_luoghi.py` → `coordinate.py` → `classifica.py` → `aggiorna_registro.py`) è stata eseguita end to end per la prima volta, e due luoghi hanno cambiato stato: **Pataliputra** ha ottenuto una coordinata verificata (25.6125 N 85.12833 E, l'odierna Patna) quando il geocodificatore l'ha cercata, e **Manchester** è uscita dal registro perché la tappa 3-28 ora dice Torino. Il quarto anno passa da 13 a **14** slot con coordinate, il totale da 71 a **72**, e i due Paesi attesi che mancavano — IND per Pataliputra, ITA per Torino — sono dichiarati in `ATTESI_GIA`, perché il controllo 7 ha ragione: un pin verificato senza Paese atteso è un pin che nessuno può confrontare con nessun altro. Otto controlli, 8/8. Il dettaglio della catena è in `sequenza.md` §1 e le regole in `AGENTS.md`.
 
 - **v0.7 (03/10/2026)**: **la copertura amministrativa è chiusa, e con lei i tre file che chiudevano i buchi di grafica.** Il file amministrativo mondiale (`dati/mappe/mondo_admin1.json`, 50 unità di primo livello da Natural Earth 10m, pubblico dominio) copre **54 pin su 54**: è la risposta alla domanda che §8bis lasciava aperta sui diciannove pin non verificabili, che era un difetto di copertura e non dei pin. La selezione non è per nome ma punto-in-poligono sul pin, e la semplificazione scende da sola finché l'anello contiene ancora il proprio pin: **sette unità su 50** hanno avuto bisogno di una tolleranza più fine, ed è dichiarato quali. Nello stesso giorno sono entrati `dati/edifici_footprint.json` (5209 sagome su 54 luoghi) e `dati/ferrara_fondo.json` (14 tratti di mura, 4,20 km², 28 tappe su 28 dentro), e i tre file hanno il loro capitolo in `fonti-visive.md` (v0.2, §3.2, §3.5 e §3.6). §7, §9, §10 e §11 sono aggiornati di conseguenza: le sagome non sono più «da costruire» e il fondo cittadino dell'anno 1 non è più un buco.
 

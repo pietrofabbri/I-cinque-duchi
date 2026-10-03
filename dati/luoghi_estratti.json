@@ -344,8 +344,8 @@
   },
   {
    "tappa": "3-28",
-   "luogo": "Manchester",
-   "voce": "Alan Turing",
+   "luogo": "Torino",
+   "voce": "Primo Levi",
    "anno": 3
   },
   {
@@ -452,8 +452,8 @@
   },
   {
    "tappa": "4-16",
-   "luogo": "Tunisi e Il Cairo",
-   "voce": "Ibn Khaldun",
+   "luogo": "Pataliputra",
+   "voce": "Ashoka",
    "anno": 4
   },
   {
@@ -1031,12 +1031,6 @@
    ]
   },
   {
-   "luogo": "Manchester",
-   "tappe": [
-    "3-28"
-   ]
-  },
-  {
    "luogo": "Mantova",
    "tappe": [
     "3-30"
@@ -1096,6 +1090,12 @@
    "luogo": "Parigi e Varsavia",
    "tappe": [
     "4-29"
+   ]
+  },
+  {
+   "luogo": "Pataliputra",
+   "tappe": [
+    "4-16"
    ]
   },
   {
@@ -1251,15 +1251,15 @@
    ]
   },
   {
-   "luogo": "Toronto, 2012",
+   "luogo": "Torino",
    "tappe": [
-    "5-27"
+    "3-28"
    ]
   },
   {
-   "luogo": "Tunisi e Il Cairo",
+   "luogo": "Toronto, 2012",
    "tappe": [
-    "4-16"
+    "5-27"
    ]
   },
   {

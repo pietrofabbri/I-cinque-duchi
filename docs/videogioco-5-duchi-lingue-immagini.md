@@ -4,7 +4,7 @@ versione: 0.1
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 fonte: ricerca su Wikimedia Commons del 02/10/2026
-documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-esercizi.md (v0.1), AGENTS.md, FONTI-E-LICENZE.md
+documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-luoghi-edifici.md (v0.3), videogioco-5-duchi-esercizi.md (v0.1), AGENTS.md, FONTI-E-LICENZE.md
 dati: dati/lingue/associazioni.json (v1), dati/lingue/immagini_oggetti.json (v1, 180 voci, 1120 candidati)
 ---
 

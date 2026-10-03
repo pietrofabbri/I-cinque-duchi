@@ -93,3 +93,5 @@
 {"titolo_risolto": null, "stato": "senza_articolo", "luogo": "un documento del 2008"}
 {"titolo_risolto": null, "stato": "senza_articolo", "luogo": "un ufficio riservato, 1970"}
 {"titolo_risolto": null, "stato": "senza_articolo", "luogo": "una sala di riunione, 1983"}
+{"titolo_risolto": "Pataliputra", "lat": 25.6125, "lon": 85.12833, "prova_usata": "Pataliputra", "wiki": "en", "luogo": "Pataliputra"}
+{"titolo_risolto": "Torino", "lat": 45.07917, "lon": 7.67611, "prova_usata": "Torino", "wiki": "it", "luogo": "Torino"}

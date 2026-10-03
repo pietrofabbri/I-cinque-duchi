@@ -81,7 +81,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 **La sequenza delle tappe** (trasversale, vedi `sequenza.md`, del 03/10/2026)
 - **Le tabelle della sequenza non si scrivono a mano**: le genera `sorgenti/sequenza_tappe.py` leggendo le tabelle delle trenta tappe dei documenti d'anno. Se il generatore non le aggiorna, la tabella mente senza che nessuno se ne accorga.
-- **Una tappa ha un solo luogo, e le due fonti devono dirlo insieme**: il registro dei luoghi e il documento d'anno. Se non coincidono, la divergenza si scrive in `dati/sequenza_tappe.json` con la sua dichiarazione, e la verifica **S7** la segnala se manca. È nato dalla **4-16** (il registro portava ancora il luogo di Ibn Khaldun dopo che il documento era passato ad Ashoka) e dalla **3-28** (Torino nel documento, Manchester nel registro: **non decisa, dichiarata**).
+- **Una tappa ha un solo luogo, e le due fonti devono dirlo insieme**: il registro dei luoghi e il documento d'anno. Se non coincidono, la divergenza si scrive in `dati/sequenza_tappe.json` con la sua dichiarazione, e la verifica **S7** la segnala se manca. È nato dalla **4-16** (il registro portava ancora il luogo di Ibn Khaldun dopo che il documento era passato ad Ashoka) e dalla **3-28** (Torino nel documento, Manchester nel registro). **Entrambe sono chiuse dal 03/10/2026**: la divergenza fra registro e documento è **zero**, e `DICHIARATE` in `sequenza_tappe.py` è vuota e dichiarata.
 - **Le colonne si leggono per intestazione, non per numero**: il quarto anno ha due colonne in più della seconda e della terza, e un parser che conta le barre mette i nomi nelle colonne sbagliate senza accorgersene.
 - **Le facoltative stanno fuori dalla sequenza**: sono facoltative per definizione, e una sequenza che le include mente sul percorso che il giocatore fa.
 
@@ -205,6 +205,18 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - Il punteggio misura il **processo**.
 - Nessun account e nessun server. Consegna con un file su Google Classroom.
 - Nessuna sorveglianza con webcam o IA (GDPR, AI Act).
+
+**La catena dei luoghi** (trasversale, del 03/10/2026)
+- **Un dato di `dati/luoghi_gioco.json` non si corregge a mano.** Il registro è generato: `sorgenti/luoghi/estrai_luoghi.py` (dai documenti) → `coordinate.py` (da Wikipedia) → `classifica.py` (i tipi) → `aggiorna_registro.py` (l'unione). Un campo corretto a mano sparisce alla prima rigenerazione: è successo il 03/10/2026, e il generatore avrebbe rimesso indietro la correzione della 4-16.
+- **Una correzione che un controllo trova va in `dati/luoghi_correzioni.json`,** non dentro il file che l'ha rivelata. Il file delle risoluzioni automatiche resta la fotografia di quello che il geocodificatore aveva trovato, e le correzioni sopra vengono riapplicate a ogni generazione, con la fonte e il controllo che le ha trovate. Baghdad e Karakorum sono le prime due.
+- **Le tabelle dei documenti si leggono per intestazione, mai contando le barre.** Il quinto anno ha una colonna in più (la stanza, fra il pin e la voce) e il numero fisso leggeva la stanza al posto della voce: 29 tappe su 30 con il filone del *Furioso* al posto della persona.
+- **Una regola sta in un posto solo.** Lo stato della coordinata è deciso da `stato_di()` in `classifica.py`; due copie di quella regola erano già divergenti sulle sette ferraresi.
+- **I campi compilati a mano sopravvivono:** `terreno`, `controllo`, `dettagli` e il blocco `tappe` (i trenta binomi pin/stanza del quinto anno) li porta dietro `aggiorna_registro.py`, che **unisce** e non sovrascrive.
+- **Il controllo è `sorgenti/verifica_catena_luoghi.py`** (L1–L5): nessuna voce è il testo di una colonna sbagliata, ogni correzione dichiarata è nel registro, nessun luogo fantasma, i campi a mano ci sono, e ogni sostituzione dichiarata è arrivata **dai documenti**.
+
+**Prima di dichiarare una lacuna, cerca**
+- Una riga `da_costruire` è la cosa più economica che si possa scrivere, e quasi sempre nasconde un difetto. Il 03/10/2026 `osservazione e attenzione` era dichiarato in due documenti come «un dominio che il progetto non ha ancora», e il gioco ci lavorava in quattro posti che nessuno aveva messi insieme. **La domanda vera è «dove lo abbiamo costruito senza accorgercene?»**, e va posta prima di scrivere che non esiste.
+- **Una cosa che il gioco fa senza dirlo non è una lacuna: è una riga rimasta indietro.**
 
 ## 4. Convenzioni
 

@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — i premi: dieci categorie di oggetti, undisciplina ciascuna, e le quattro prove che un premio deve superare
-versione: 0.2
+versione: 0.3
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro del 03/10/2026 («per ogni livello, per ogni disciplina, tranne informatica, occorre stabilire dei premi... per il ferrarese potrebbero essere figurine di ferraresi illustri che non vengono citati nella storia, per la lingua italiana poeti e autori italiani, poi i premi potrebbero essere dipinti, sculture, opere architettoniche... pensa a cosa potrebbe essere associato come ricompensa al compimento di ciascun livello»), con le regole gia prese su etichette, oggetti di interazione, luoghi e licenze
@@ -53,9 +53,9 @@ Una tabella sola, undici righe. La colonna «da escludere» è la parte che vale
 | **Etica** | **I** — la Dichiarazione universale dei diritti umani; **J** — stemmi | **B** — dipinti allegorici | niente senza oggetto: un premio etico che non si può indicare con il dito non è un premio |
 | **Filosofia** | **A** — i filosofi; **B** — le allegorie (le lezioni di filosofia di Rembrandt, Goya, Magnasco) | **E** — prime edizioni | l'opera filosofica in astratto: non ha un'immagine, e si premia **il dipinto che la illustra** |
 | **Psicologia** | **A** — chi ha descritto il fenomeno (Freud, Kahneman, Tversky); **B** — l'immagine dell'esperimento | — | un esercizio di rilassamento: sarebbe un premio che il gioco stesso dovrebbe fare per primo |
-| **Osservazione e attenzione** | **D** — la pianta e la sua soglia; **B** — i dipinti che obbligano a guardare davvero | **F** — le iscrizioni, che si leggono a distanza | niente: il dominio **non esiste ancora** nel progetto, e la riga resta **da_costruire** |
+| **Osservazione e attenzione** | **D** — la pianta e la sua soglia, l'unica cosa che si guarda con attenzione | **B** — i dipinti che obbligano a guardare davvero | era **da_costruire** fino al 03/10/2026, quando è risultato che il dominio non mancava: il gioco ci lavorava già in quattro posti (`quadro-trasversale.md` §1.3). Niente che si possa guardare di fretta |
 
-L'ultima riga è la stessa lacuna che `pedagogia.md` §3 aveva trovata nelle sei categorie della sfida a mani nude: **`osservazione e attenzione` è un dominio che il progetto non ha ancora**. Qui ha almeno una categoria possibile, che è la pianta di una città vista dalla torre: ma resta **da costruire**, e le due righe vanno lette insieme.
+L'ultima riga era `da_costruire`, ed era un difetto: il dominio `osservazione e attenzione` **esiste già** in quattro posti del progetto (`quadro-trasversale.md` §1.3, che porta le prove). La riga è chiusa dal 03/10/2026 e il dominio ha il suo premio: la pianta di una città vista dalla torre, cioè la categoria `D`.
 
 ### 2.1 Il premio della lingua dei segni: perché non può essere una persona
 
@@ -85,7 +85,7 @@ Tre ragioni, e la terza è quella che tiene:
 | `calcolo mentale e stime` | **nessuno**, per la stessa ragione | dichiarato |
 | `linguistica e testo` | **E** e **F**: le due categorie che si leggono | possibile |
 | `Costituzione e cittadinanza` | **I**, lo stesso premio di Diritto | possibile |
-| `osservazione e attenzione` | **D** e **B**, e sono le uniche due righe che poggiano su un dominio che il progetto non ha ancora | da_costruire |
+| `osservazione e attenzione` | **D** — la pianta e la sua soglia | chiuso |
 
 Quattro dei sei domini **non possono avere un premio**. Non è un difetto: è la differenza fra un gioco che premia e un gioco che premia **qualcosa**. Nella tappa a mani nude un dominio senza premio si dichiara come tale, e la tappa vale per la prestazione, non per il premio.
 
@@ -111,9 +111,25 @@ La scelta è fra le tre di questa tabella, ed è la più pesante:
 
 | variante | quanti premi | esito |
 |---|---|---|
-| **un premio per livello** | **circa 900** | **scelta**: il livello ha la sua ricompensa, e la ricompensa ha un posto dove stare |
+| **un premio per livello** | **1050** (vedi §4.0) | **scelta**: il livello ha la sua ricompensa, e la ricompensa ha un posto dove stare |
 | un premio per voce | 180 | scartata: le stesse trenta voci attraversano cinque anni e non distinguono i livelli |
 | un premio per anno e disciplina | circa 50 | scartata: il ragazzo riceve quarantacinque cose in cinque anni |
+
+### 4.0 Il numero è esatto: 1050, non «circa 900»
+
+Il «circa» era una dichiarazione di buco, non una cifra: `quadro-trasversale.md` non dichiarava quanti livelli aggiungessero i suoi quattro ambiti, e senza quel dato le tre varianti di cardinalità non erano confrontabili. Il dato è **zero**, e la ragione è nel testo dello stesso quadro: il trasversale **non aggiunge materie** (§0) e «compare solo dove si collega in modo naturale alla tappa e non è mai contenuto valutato». Un aggancio dentro un livello non è un livello.
+
+Quindi il catalogo ha un numero solo:
+
+| | quanti |
+|---|---|
+| livelli informatici | 150 (`schema-livelli.md`, uno per tappa) |
+| livelli linguistici | 900 (sei lingue × trenta × cinque anni) |
+| livelli dei quattro ambiti trasversali | **0**: sono agganci, e `quadro-trasversale.md` §1.3 lo dichiara per il quinto (osservazione e attenzione) che non ha neanche un programma |
+| **totale dei livelli** | **1050** |
+| **premi, con la variante scelta** | **1050**, meno quelli di discipline che non hanno un oggetto proprio (§2.2) |
+
+Il numero dei premi è dunque **1050 e non 900**: la cifra che girava nel progetto contava i soli livelli linguistici e dimenticava i centocinquanta informatici, che hanno un premio anche loro. La correzione cambia la dimensione del catalogo di circa un sesto, ed è il motivo per cui il conto andava chiuso prima di scrivere `dati/premi.json`, che è **da produrre** e che senza questo numero sarebbe stato scritto corto di centocinquanta record.
 
 ### 4.1 La salvadanaio, e perché non è un'immagine
 
@@ -130,18 +146,20 @@ Ogni premio porta una scheda di **tre righe brevi**, nella lingua del gioco, e l
 | riga | che cosa contiene | esempio |
 |---|---|---|
 | **`chi`** | chi è, in una riga: nome, date, e perché è qui | «Ambedkar, 1891–1956, giurista: ha scritto la Costituzione dell'India» |
-| **`cosa`** | che cosa ha fatto, e **quale fatto**, non generico | «ha scritto il报告中 i diritti dei Dalit, che nel suo Paese erano legge» |
+| **`cosa`** | che cosa ha fatto, e **quale fatto**, non generico | «ha scritto il rapporto sui diritti dei Dalit, che nel suo Paese erano legge» |
 | **`riflessione`** | che cosa sarebbe diverso oggi, e perché è vero | «senza quel testo, la Costituzione indiana non avrebbe i diritti che ha» |
 
-**La terza riga non è unaformula, è una prova.** Il modello «se non ci fosse stato lui oggi non potremmo…» è la **forma**, e vale solo per i premi che sono persone. Per un oggetto — una pizza, un'epigrafe, un documento — la riflessione è della stessa sostanza e non della stessa frase: «senza questa lapide non sapremmo che quel nome esisteva». **Se la riflessione si può scrivere senza pensarci, il premio è decorativo** e non entra (`pedagogia.md` §1.2).
+**La terza riga non è una formula, è una prova.** Il modello «se non ci fosse stato lui oggi non potremmo…» è la **forma**, e vale solo per i premi che sono persone. Per un oggetto — una pizza, un'epigrafe, un documento — la riflessione è della stessa sostanza e non della stessa frase: «senza questa lapide non sapremmo che quel nome esisteva». **Se la riflessione si può scrivere senza pensarci, il premio è decorativo** e non entra (`pedagogia.md` §1.2).
 
 ## 5. Cosa c'è da fare
 
-1. **Il numero dei livelli trasversali**, che è il dato che rende confrontabili le tre varianti di §4.
-2. **La variante scelta**: per livello, per voce o per anno. È la decisione di Pietro e cambia il catalogo più di qualunque altra.
-3. **Il catalogo**, da generare in `dati/premi.json` dopo la decisione di §4, con i campi `premio`, `categoria`, `disciplina`, `etichetta`, `fonte`, `licenza`, `perche_prova_2`, e compilato solo dopo che le prove 1, 3 e 4 sono soddisfatte una per una.
-4. **La LIS**: finché `lingue.md` Q4 è aperta, la riga della tabella dei premi resta **dichiarata vuota** e non viene riempita con un'immagine presa per caso.
+1. ~~**Il numero dei livelli trasversali**~~ **chiusa il 03/10/2026**: sono **zero**, dichiarato in `quadro-trasversale.md` §1.3, e il conto dei livelli è **1050** (§4.0).
+2. ~~**La variante scelta**~~ **chiusa il 03/10/2026**: un premio per livello, Pietro.
+3. **Il catalogo `dati/premi.json`**, **da produrre**: i due blocchi di §5 sono chiusi, quindi il catalogo si può scrivere. Con i campi `premio`, `categoria`, `disciplina`, `etichetta`, `fonte`, `licenza`, `perche_prova_2`, e compilato solo dopo che le prove 1, 3 e 4 sono soddisfatte una per una. Sono **1050 record**, e il lavoro più grosso è la prova 3.
+4. ~~**La LIS**~~ **chiusa il 03/10/2026** (§2.1): il premio non è una persona ma la scheda che il giocatore produce, la categoria **K**. Quello che resta aperto non è il premio, è `lingue.md` Q4 — **la forma del segno nel quaderno**, che il gioco non può disegnare.
+5. ~~**Il quinto dominio**~~ **chiusa il 03/10/2026**: `pedagogia.md` §3 e `premi.md` §2.2 lo davano per assente e non lo era — esisteva in quattro posti (`quadro-trasversale.md` §1.3) e ha preso il suo premio, la categoria `D`.
 
 ## 6. Registro delle modifiche
 
 - **v0.1 (03/10/2026)**: prima stesione. Dieci categorie chiuse, undici discipline con la loro associazione e la colonna «da escludere», quattro prove di ammissione, tre varianti di cardinalità con i numeri accanto. Le tre cose che il documento dichiara e non risolve: **la cardinalità** (che è di Pietro), **il numero dei livelli trasversali** (che il progetto non ha) e **la LIS** (che non si scrive a tavolino). Una riga della tabella — `osservazione e attenzione` — è la stessa lacuna che `pedagogia.md` §3 aveva trovata nelle sei categorie della sfida a mani nude, e le due vanno chiuse insieme o non si chiudono.
+- **v0.3 (03/10/2026)**: **il numero dei premi è chiuso, ed era sbagliato di un sesto.** Aggiunto §4.0: i livelli dei quattro ambiti trasversali sono **zero** — il trasversale è un aggancio dentro i livelli, non un livello — quindi i livelli sono 150 informatici più 900 linguistici, cioè **1050**, e non i «circa 900» che il progetto portava da tre giorni. La cifra vecchia contava i soli livelli linguistici e dimenticava i centocinquanta informatici, che hanno un premio anche loro: è la ragione per cui il conto andava chiuso prima di scrivere `dati/premi.json`. Nello stesso giorno è chiusa la riga `osservazione e attenzione`: **non era un dominio da costruire, era un dominio che il progetto aveva già** in quattro posti (`quadro-trasversale.md` §1.3), e ha preso il suo premio — la categoria `D`, la pianta e la sua soglia. Le quattro cose da fare scendono a una: scrivere il catalogo.

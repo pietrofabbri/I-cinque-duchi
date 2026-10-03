@@ -1,12 +1,12 @@
 ---
 titolo: Videogioco "I cinque duchi" — l'inventario: che cosa si tocca a ogni livello, che cosa dà in cambio, e che cosa il giocatore si porta via
-versione: 0.1
+versione: 0.2
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro del 03/10/2026 («fammi un recap dei vari elementi del gioco con cui si può interagire in ogni livello e una volta risposti tutti i quiz, cosa danno in cambio, che l'utente deve salvarsi e può consultarsi?»), con le regole già prese su oggetti di interazione, test di ingresso, premi e file di consegna
 dati: dati/lingue/associazioni.json (v1, le 180 voci degli oggetti di interazione: trenta per lingua); dati/sequenza_tappe.json (v1, le novanta tappe degli anni 2-4 con la voce che si incontra); dati/ambienti_livelli.json (v1, i centocinquanta ambienti); dati/premi.json (da generare, dopo la cardinalità decisa: un premio per livello)
 controllo: python3 sorgenti/verifica_inventario.py (I1-I5: gli elementi interattivi sono un elenco chiuso, ognuno dichiara che cosa dà e se è facoltativo, i quattro registri personali sono dichiarati e leggibili dal gioco, nessun elemento dà un vantaggio che non esista nel testo del livello, e la mappa degli scambi è completa in ogni sua cella)
-documenti collegati: videogioco-5-duchi-gioco.md (v0.5, il ciclo della tappa), videogioco-5-duchi-meccaniche.md (v0.3, il file di consegna e i suoi tre ruoli), videogioco-5-duchi-lingue.md (v0.1, le sei lingue e i 900 livelli), videogioco-5-duchi-lingue-immagini.md (v0.1, le 180 voci), videogioco-5-duchi-ripassi.md (v0.1, i test di ingresso), videogioco-5-duchi-premi.md (v0.2, i premi e la salvadanaio), videogioco-5-duchi-sequenza.md (v0.1, le voci in fila), videogioco-5-duchi-pedagogia.md (v0.1), AGENTS.md
+documenti collegati: videogioco-5-duchi-gioco.md (v0.5, il ciclo della tappa), videogioco-5-duchi-meccaniche.md (v0.3, il file di consegna e i suoi tre ruoli), videogioco-5-duchi-lingue.md (v0.1, le sei lingue e i 900 livelli), videogioco-5-duchi-lingue-immagini.md (v0.1, le 180 voci), videogioco-5-duchi-ripassi.md (v0.1, i test di ingresso), videogioco-5-duchi-premi.md (v0.2, i premi e la salvadanaio), videogioco-5-duchi-sequenza.md (v0.1, le voci in fila), videogioco-5-duchi-pedagogia.md (v0.2), AGENTS.md
 ---
 
 # L'inventario
@@ -79,17 +79,18 @@ Il file contiene i quattro registri e i numeri del percorso. **Non** contiene: n
 | voci incontrate (l'elemento 1) | 30 | 150 |
 | oggetti di interazione (l'elemento 2) | 30 per lingua, sei lingue | 180 voci, apribili in ogni livello |
 | test di ingresso possibili | uno per oggetto toccato | fino a 180 |
-| **premi** (l'elemento 6) | **uno per livello**, meno l'informatica | **circa 900** |
+| **premi** (l'elemento 6) | **uno per livello**, meno l'informatica | **1050** (`premi.md` §4.0) |
 | registri personali | quattro | quattro |
 
-I **circa 900 premi** sono la cifra che rende questo documento pesante: sono la decisione di oggi (`premi.md` §4) e sono anche il motivo per cui la prova 3 dei premi — *non è già nella storia* — è la più difficile da soddisfare. Un premio per livello significa che **non si possono regalare gli stessi venti oggetti venti volte**, e il catalogo deve avere novanta fonti diverse.
+I **1050 premi** sono la cifra che rende questo documento pesante: sono la decisione di oggi (`premi.md` §4) e sono anche il motivo per cui la prova 3 dei premi — *non è già nella storia* — è la più difficile da soddisfare. Un premio per livello significa che **non si possono regalare gli stessi venti oggetti venti volte**, e il catalogo deve avere novanta fonti diverse.
 
 ## 5. Che cosa manca perché l'inventario sia completo
 
-1. **Il numero dei livelli trasversali**, che qui è scritto «circa 900» perché i quattro ambiti non hanno un numero di livelli dichiarato (`premi.md` §4). È il dato che chiude il conteggio.
+1. ~~**Il numero dei livelli trasversali**~~ **chiusa il 03/10/2026**: sono **zero** — il trasversale è un aggancio dentro i livelli, non un livello (`quadro-trasversale.md` §1.3) — e il conto è **1050**, non «circa 900»: la cifra vecchia contava i soli livelli linguistici e dimenticava i centocinquanta informatici.
 2. **La mappa degli scambi in ogni sua cella**: le sette righe della tabella di §2 dicono che cosa dà ogni elemento, ma non c'è ancora un controllo che verifichi che ogni elemento dia davvero quello che promette. Le righe che oggi sarebbero false sono quelle del premio, perché il catalogo non esiste.
 3. **Le fasce bianche nel ciclo della tappa**: sono dichiarate da `gioco.md`, ma non hanno una schermata né un posto nell'inventario delle schermate. Se sono la previsione del giocatore, sono il quinto elemento che dà qualcosa.
 
 ## 6. Registro delle modifiche
 
 - **v0.1 (03/10/2026)**: prima stesione, e nasce da una domanda che nessun documento aveva raccolto: **a che cosa gioco, che cosa ne ricavo, e che cosa mi porto via**. Sette elementi interattivi, ognuno con che cosa dà e se è facoltativo; la tabella degli scambi; i quattro registri personali e la regola che il gioco deve poter rileggerli; e le cifre, con i **circa 900 premi** che la decisione di oggi rende esatti e che la prova «non è già nella storia» rende difficili. La riga vuota è quella delle fasce: **è l'unico scambio in cui il gioco non dà niente**, ed è l'unico in cui il giocatore scrive.
+- **v0.2 (03/10/2026)**: **il numero dei premi è chiuso, ed era sbagliato.** I livelli sono **1050**, non «circa 900»: i quattro ambiti trasversali non aggiungono livelli (`quadro-trasversale.md` §1.3, che chiude anche la riga `osservazione e attenzione` che due documenti davano per assente) e la cifra precedente contava i soli livelli linguistici. Le due cose da fare scendono a una: scrivere il catalogo dei premi.

@@ -309,17 +309,14 @@ IPOTESI = [
                "non un punto (R5)",
          frase="«Chio e la Ionia»: Chio e' un'isola e si puo' puntare, la Ionia "
                "e' una regione e no. Il pin e' Chio, e la regione resta a parole."),
-    dict(tappa="4-16", luogo="Pataliputra", grado="argomentata",
-         punto=P["patna"], raggio=1500,
-         fonte="Pataliputra, capitale dell'impero mauryana: il sito corrisponde all'odierna "
-               "Patna (25.5941 N 85.1376 E). Il punto e' il centro della citta' moderna e non "
-               "il perimetro della citta' antica, che non e' una forma nota: percio' il grado e' "
-               "argomentata e il raggio dichiarato e' 1500 metri. Il luogo che qui stava prima, "
-               "Tunisi e Il Cairo, era quello di Ibn Khaldun, che il 02/10/2026 e' diventato "
-               "facoltativa della stessa tappa: il documento dell'anno 4 era gia' stato "
-               "aggiornato, il registro no",
-         frase="Ashoka governa da Pataliputra. Il punto e' la citta' di oggi, che sta dove "
-               "stava allora: la citta' antica era piu' grande e il gioco non ne traccia il bordo."),
+    # La 4-16 aveva un'ipotesi su Pataliputra il 03/10/2026, quando il registro
+    # non sapeva ancora niente di quella tappa: era il punto di Patna, argomentato
+    # con un raggio di 1500 metri perche' il perimetro della citta' antica non e'
+    # noto. Il 03/10/2026 stesso il geocodificatore ha risolto «Pataliputra»
+    # (25.6125 N 85.12833 E, la stessa citta' di oggi) e l'ipotesi e' stata togliuta:
+    # un'ipotesi che il registro puo' verificare non e' un'ipotesi, e' un
+    # duplicato con meno garanzie. Il testo del perimetro antico resta nella
+    # frase della scheda del luogo, che e' dove un lettore lo cerca.
 dict(tappa="4-17", luogo="Bombay e Delhi", grado="documentata",
          punto=P["delhi"], tratto=(P["mumbai"], P["delhi"]),
          fonte="Ambedkar: la citta' dove nasce e lavora. Il pin e' Delhi, e la "

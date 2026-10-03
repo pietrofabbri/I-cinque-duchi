@@ -5,7 +5,7 @@ data: 2026-10-01
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO II — LA PENISOLA ATTRAVERSO LE PERSONE / Ercole I entra nella storia d'Italia" e "ANNO II — LA PENISOLA: DALLA PREISTORIA ALL'ITALIA CONTEMPORANEA / Una terra, molti mondi"), 01/10/2026
 dati: videogioco-5-duchi-anno2-penisola.json e videogioco-5-duchi-anno2-personaggi.json (da generare, v0.1)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 2-1…2-30), videogioco-5-duchi-curricolo.md (v0.1, cornice narrativa e modello di livello), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 2-1…2-30), videogioco-5-duchi-curricolo.md (v0.1, cornice narrativa e modello di livello), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.2), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno II — La penisola attraverso le persone
 

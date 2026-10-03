@@ -9,14 +9,7 @@
  },
  "che_cosa_non_e": "non e' il percorso del duca di percorsi.md: quello segue i soli pin che avevano coordinate (9, 22 e 13), questo segue tutte e trenta le tappe. Le due cose si confrontano e non coincidono, e il conto della differenza e' in `verifica_sequenza.py`",
  "divergenze_nota": "le tappe per le quali il registro dei luoghi e il documento d'anno non dicono la stessa cosa. Una divergenza con `dichiarazione` e' una domanda dichiarata; una divergenza senza dichiarazione e' un difetto, ed e' quello che verifica_sequenza.py segnala",
- "divergenze": [
-  {
-   "tappa": "3-28",
-   "luogo_documento": "Torino",
-   "luogo_registro": "Manchester",
-   "dichiarazione": "Manchester nel registro, Torino nel documento. Il livello e' JavaScript e Manchester e' il luogo del calcolatore (il 3-28 e' il primo dei livelli del Novecento); Primo Levi, aggiunto il 02/10/2026, e' torinese. Il documento ha scelto la persona e il luogo della persona, il registro ha quello del livello. **La scelta e' di Pietro e non e' presa qui**: finche' non e' decisa, la tappa ha due luoghi e il dato li dichiara entrambi"
-  }
- ],
+ "divergenze": [],
  "anni": {
   "2": {
    "mezzo": "cavallo",
@@ -1591,13 +1584,17 @@
       "i matematici di Cambridge"
      ],
      "facoltativi_troncate": false,
-     "luogo_registro": "Manchester",
+     "luogo_registro": null,
      "punto_stato": "verificata",
-     "punto": null,
-     "km_dalla_precedente": null,
-     "giorni": null,
-     "km_cumulativi": 18602,
-     "giorni_cumulativi": 416
+     "punto": {
+      "lat": 45.07917,
+      "lon": 7.67611,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 582.5,
+     "giorni": 13,
+     "km_cumulativi": 19184,
+     "giorni_cumulativi": 429
     },
     {
      "ordine": 29,
@@ -1621,10 +1618,10 @@
       "lon": 12.4876,
       "fonte": "ipotesi_documentata"
      },
-     "km_dalla_precedente": null,
-     "giorni": null,
-     "km_cumulativi": 18602,
-     "giorni_cumulativi": 416
+     "km_dalla_precedente": 525.4,
+     "giorni": 12,
+     "km_cumulativi": 19710,
+     "giorni_cumulativi": 441
     },
     {
      "ordine": 30,
@@ -1650,18 +1647,16 @@
      },
      "km_dalla_precedente": 387.8,
      "giorni": 9,
-     "km_cumulativi": 18990,
-     "giorni_cumulativi": 425
+     "km_cumulativi": 20098,
+     "giorni_cumulativi": 450
     }
    ],
    "riepilogo": {
     "tappe": 30,
-    "con_punto": 29,
-    "senza_punto": [
-     "3-28"
-    ],
-    "km_totali": 18990,
-    "giorni_totali": 425,
+    "con_punto": 30,
+    "senza_punto": [],
+    "km_totali": 20098,
+    "giorni_totali": 450,
     "voci_obbligatorie": 30,
     "facoltative_dichiarate": 61
    }
@@ -2093,15 +2088,15 @@
      ],
      "facoltativi_troncate": false,
      "luogo_registro": null,
-     "punto_stato": "da_geocodificare_a_mano",
+     "punto_stato": "verificata",
      "punto": {
-      "lat": 25.5941,
-      "lon": 85.1376,
-      "fonte": "ipotesi_argomentata"
+      "lat": 25.6125,
+      "lon": 85.12833,
+      "fonte": "registro"
      },
-     "km_dalla_precedente": 5655.3,
+     "km_dalla_precedente": 5653.5,
      "giorni": 94,
-     "km_cumulativi": 81291,
+     "km_cumulativi": 81289,
      "giorni_cumulativi": 1353
     },
     {
@@ -2126,9 +2121,9 @@
       "lon": 77.209,
       "fonte": "ipotesi_documentata"
      },
-     "km_dalla_precedente": 853.4,
+     "km_dalla_precedente": 851.6,
      "giorni": 14,
-     "km_cumulativi": 82144,
+     "km_cumulativi": 82141,
      "giorni_cumulativi": 1367
     },
     {
@@ -2155,7 +2150,7 @@
      },
      "km_dalla_precedente": 4551.3,
      "giorni": 76,
-     "km_cumulativi": 86696,
+     "km_cumulativi": 86692,
      "giorni_cumulativi": 1443
     },
     {
@@ -2182,7 +2177,7 @@
      },
      "km_dalla_precedente": 1234.9,
      "giorni": 21,
-     "km_cumulativi": 87931,
+     "km_cumulativi": 87927,
      "giorni_cumulativi": 1464
     },
     {
@@ -2209,7 +2204,7 @@
      },
      "km_dalla_precedente": 2375.0,
      "giorni": 40,
-     "km_cumulativi": 90306,
+     "km_cumulativi": 90302,
      "giorni_cumulativi": 1504
     },
     {
@@ -2236,7 +2231,7 @@
      },
      "km_dalla_precedente": 1397.1,
      "giorni": 23,
-     "km_cumulativi": 91703,
+     "km_cumulativi": 91699,
      "giorni_cumulativi": 1527
     },
     {
@@ -2263,7 +2258,7 @@
      },
      "km_dalla_precedente": 4369.1,
      "giorni": 73,
-     "km_cumulativi": 96072,
+     "km_cumulativi": 96068,
      "giorni_cumulativi": 1600
     },
     {
@@ -2290,7 +2285,7 @@
      },
      "km_dalla_precedente": 3981.2,
      "giorni": 66,
-     "km_cumulativi": 100053,
+     "km_cumulativi": 100050,
      "giorni_cumulativi": 1666
     },
     {
@@ -2317,7 +2312,7 @@
      },
      "km_dalla_precedente": 4584.5,
      "giorni": 76,
-     "km_cumulativi": 104638,
+     "km_cumulativi": 104634,
      "giorni_cumulativi": 1742
     },
     {
@@ -2344,7 +2339,7 @@
      },
      "km_dalla_precedente": 12347.2,
      "giorni": 206,
-     "km_cumulativi": 116985,
+     "km_cumulativi": 116981,
      "giorni_cumulativi": 1948
     },
     {
@@ -2371,7 +2366,7 @@
      },
      "km_dalla_precedente": 3086.8,
      "giorni": 51,
-     "km_cumulativi": 120072,
+     "km_cumulativi": 120068,
      "giorni_cumulativi": 1999
     },
     {
@@ -2398,7 +2393,7 @@
      },
      "km_dalla_precedente": 11426.1,
      "giorni": 190,
-     "km_cumulativi": 131498,
+     "km_cumulativi": 131494,
      "giorni_cumulativi": 2189
     },
     {
@@ -2425,7 +2420,7 @@
      },
      "km_dalla_precedente": 2500.6,
      "giorni": 42,
-     "km_cumulativi": 133998,
+     "km_cumulativi": 133995,
      "giorni_cumulativi": 2231
     },
     {
@@ -2453,7 +2448,7 @@
      },
      "km_dalla_precedente": 1448.5,
      "giorni": 24,
-     "km_cumulativi": 135447,
+     "km_cumulativi": 135443,
      "giorni_cumulativi": 2255
     },
     {
@@ -2480,7 +2475,7 @@
      },
      "km_dalla_precedente": 1072.4,
      "giorni": 18,
-     "km_cumulativi": 136519,
+     "km_cumulativi": 136516,
      "giorni_cumulativi": 2273
     }
    ],
@@ -2488,7 +2483,7 @@
     "tappe": 30,
     "con_punto": 30,
     "senza_punto": [],
-    "km_totali": 136519,
+    "km_totali": 136516,
     "giorni_totali": 2273,
     "voci_obbligatorie": 30,
     "facoltative_dichiarate": 63

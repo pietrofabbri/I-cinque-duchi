@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — il modello pedagogico applicato al gioco: sei principi, quattro strati, e che cosa non entra
-versione: 0.1
+versione: 0.2
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: «Modello pedagogico generale — esiti», documento di sintesi prodotto nel percorso di lavoro di Pietro (IPSIA trattata in altra sede), con la richiesta del 03/10/2026: «il gioco deve, quando non viene denaturato per quello che è as is, osservare anche questi principi pedagogici»
@@ -102,9 +102,9 @@ E la regola dell'interruzione è la stessa che vale per i **test di ingresso** (
 | `informatica` | i 150 livelli: il nucleo dell'intero gioco |
 | `linguistica e testo` | i 900 livelli di `lingue.md` |
 | `Costituzione e cittadinanza` | `quadro-trasversale.md`: Costituzione, fondamenti e fonti, diritto UE, diritto internazionale |
-| `osservazione e attenzione` | **da_costruire** |
+| `osservazione e attenzione` | il nucleo `Q8.2` del livello 3-27 (attenzione, percezione, memoria); l'osservazione linguistica dei 900 livelli; le tappe 1-23, 1-29 e 5-11 |
 
-L'ultima riga è una scoperta, non una dimenticanza: **cinque domini su sei hanno già una casa nel progetto, il sesto non ce l'ha**. Il gioco non ha mai lavorato sull'attenzione e sull'osservazione come oggetto, e non le ha nascoste: semplicemente non sono mai state un capitolo. Se la tappa a mani nude le usa, quella riga va riempita; se non le usa, va cancellata dalla banca. Lasciarla com'è sarebbe il peggio delle due cose.
+L'ultima riga era una scoperta, e la scoperta **era sbagliata**: il documento scriveva che «cinque domini su sei hanno già una casa nel progetto, il sesto non ce l'ha», e il gioco in realtà ci lavorava già sull'osservazione e sull'attenzione in quattro posti che nessuno aveva messi insieme — il nucleo `Q8.2` del livello 3-27, l'osservazione linguistica dei novecento livelli, le tappe 1-23 e 1-29, la 5-11 con la frase sul campione. La riga era `da_costruire` perché il dominio non aveva un capitolo, non perché non esistesse: **una cosa che il gioco fa senza dirlo non è una lacuna, è una riga rimasta indietro.** Le prove sono in `quadro-trasversale.md` §1.3, e lì il dominio ha anche il suo premio (la categoria `D`, la pianta e la sua soglia).
 
 ## 4. I cinque segnali di tracciamento, e chi li produce
 
@@ -142,9 +142,10 @@ L'ultima riga contiene l'unica cosa che merita di passare dall'aula al gioco, e 
 
 1. **La voce `Modalità`** nello schema dei centocinquanta livelli (`schema-livelli.md` §1), con i tre valori e con la regola che la scelta segue l'obiettivo.
 2. **Il catalogo chiuso dei processi di pensiero** e la voce corrispondente nei livelli, cominciando dall'anno 1.
-3. **Il dominio `osservazione e attenzione`**: riempire la riga o toglierlo dalla banca.
+3. ~~**Il dominio `osservazione e attenzione`**~~ **chiusa il 03/10/2026**: la riga è riempita (`quadro-trasversale.md` §1.3), il dominio ha il suo premio e le quattro prove sono nel documento che le elenca.
 4. **Le dieci tappe a mani nude** nella tabella dei livelli, con la regola che due volte per anno non è un caso.
 
 ## 7. Registro delle modifiche
 
 - **v0.1 (03/10/2026)**: prima stesione. I sei principi del modello entrano tutti e sei nel gioco (§1); i quattro strati, di cui uno **fatto**, uno **da costruire** e due fatti (§2); la sfida a mani nude tradotta in **dieci tappe su centocinquanta**, due per anno, con la stessa regola di ripresa senza penalità dei test di ingresso (§3); i cinque segnali di tracciamento, **cinque su cinque del docente**, e la ragione per cui il gioco non deve costruirli (§4); l'elenco chiuso di ciò che non entra, con la ragione per ciascuna riga (§5). La regola che governa il documento è una sola e sta in testa: **una pratica entra nel gioco solo se conserva il principio e resta ciò che è**.
+- **v0.2 (03/10/2026)**: **la sesta riga della banca era un difetto, non una scoperta.** «Osservazione e attenzione» era dichiarato `da_costruire` con la frase che «il gioco non ha mai lavorato sull'attenzione e sull'osservazione come oggetto», e il gioco ci lavora in quattro posti che nessuno aveva messi insieme: il nucleo `Q8.2` del livello 3-27 (attenzione, percezione, memoria), l'osservazione linguistica di tutti i novecento livelli, le tappe 1-23 e 1-29, e la 5-11 con la frase sul campione. La scoperta vera è un'altra, ed è nella regola: **una cosa che il gioco fa senza dirlo non è una lacuna, è una riga rimasta indietro**. La riga è riempita, il dominio ha il suo premio (la categoria `D`) in `quadro-trasversale.md` §1.3, e il punto 3 delle cose da fare è chiuso.

@@ -18,14 +18,14 @@
   "R6": "nessuna ipotesi e' a meno di 50 m da un punto verificato senza dichiarare che e' lo stesso luogo"
  },
  "riepilogo": {
-  "tappe": 51,
+  "tappe": 50,
   "per_grado": {
-   "argomentata": 22,
+   "argomentata": 21,
    "documentata": 27,
    "immaginata": 2
   },
   "con_tratto": 7,
-  "coordinate_disponibili": 49,
+  "coordinate_disponibili": 48,
   "senza_punto_per_decisione": 2
  },
  "ipotesi": [
@@ -336,17 +336,6 @@
    "parte_non_luogo": "la Ionia",
    "fonte": "la citta' di Chio sull'isola omonima: la Ionia e' una regione e non un punto (R5)",
    "frase": "«Chio e la Ionia»: Chio e' un'isola e si puo' puntare, la Ionia e' una regione e no. Il pin e' Chio, e la regione resta a parole."
-  },
-  {
-   "tappa": "4-16",
-   "luogo": "Pataliputra",
-   "grado": "argomentata",
-   "lat": 25.5941,
-   "lon": 85.1376,
-   "raggio_m": 1500,
-   "parte_non_luogo": null,
-   "fonte": "Pataliputra, capitale dell'impero mauryana: il sito corrisponde all'odierna Patna (25.5941 N 85.1376 E). Il punto e' il centro della citta' moderna e non il perimetro della citta' antica, che non e' una forma nota: percio' il grado e' argomentata e il raggio dichiarato e' 1500 metri. Il luogo che qui stava prima, Tunisi e Il Cairo, era quello di Ibn Khaldun, che il 02/10/2026 e' diventato facoltativa della stessa tappa: il documento dell'anno 4 era gia' stato aggiornato, il registro no",
-   "frase": "Ashoka governa da Pataliputra. Il punto e' la citta' di oggi, che sta dove stava allora: la citta' antica era piu' grande e il gioco non ne traccia il bordo."
   },
   {
    "tappa": "4-17",

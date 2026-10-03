@@ -49,14 +49,13 @@ KM_GIORNO = {2: ("cavallo", 45), 3: ("cavallo", 45), 4: ("barca", 60)}
 # Le tappe per le quali il registro dei luoghi e il documento d'anno non dicono
 # la stessa cosa. Una che c'e' qui e' una domanda dichiarata; una che il
 # confronto trova e non c'e' qui e' un difetto, ed e' quello che si vuole.
-DICHIARATE = {
-    "3-28": "Manchester nel registro, Torino nel documento. Il livello e' JavaScript e "
-            "Manchester e' il luogo del calcolatore (il 3-28 e' il primo dei livelli del "
-            "Novecento); Primo Levi, aggiunto il 02/10/2026, e' torinese. Il documento ha "
-            "scelto la persona e il luogo della persona, il registro ha quello del livello. "
-            "**La scelta e' di Pietro e non e' presa qui**: finche' non e' decisa, la tappa "
-            "ha due luoghi e il dato li dichiara entrambi",
-}
+# Le divergenze fra registro e documento, dichiarate una per una. Era una sola, la
+# 3-28 (Manchester nel registro, Torino nel documento), e il 03/10/2026 e' stata
+# **chiusa dalla rigenerazione**: il registro ora prende il luogo dalla riga della
+# tabella, che dice Torino. La lista resta vuota e dichiarata perche' una lista
+# vuota non e' una lista assente: e' la promessa che chi trova una divergenza la
+# scrive qui invece di lasciarla due giorni in un file.
+DICHIARATE = {}
 RAGGIO = 6371.0
 
 

@@ -41,9 +41,21 @@ DOMINI = {
     "informatica": "i 150 livelli: il nucleo dell'intero gioco",
     "linguistica e testo": "i 900 livelli di `lingue.md`",
     "Costituzione e cittadinanza": "`quadro-trasversale.md`, i cinque anni e i cinque ambiti",
-    "osservazione e attenzione": "da_costruire",
+    # Il sesto dominio non e' stato inventato il 03/10/2026: esisteva in quattro
+    # posti che nessuno aveva messi insieme (il nucleo Q8.2 del livello 3-27,
+    # l'osservazione linguistica dei 900 livelli, le tappe 1-23, 1-29 e 5-11).
+    # Era dichiarato `da_costruire`, e la lista vuota qui sotto e' la prova che
+    # non e' piu' permesso: un dominio senza casa non entra, e un dominio che il
+    # gioco gia' pratica non puo' restare fuori.
+    "osservazione e attenzione": "`Q8.2` del livello 3-27 (attenzione, percezione, "
+                                 "memoria); l'osservazione linguistica dei 900 livelli "
+                                 "(`lingue.md` §4); le tappe 1-23, 1-29 e 5-11",
 }
-DA_COSTRUIRE = ("osservazione e attenzione",)
+# Nessun dominio e' senza casa. La lista resta dichiarata e vuota perche' una
+# lista vuota non e' la stessa cosa di una lista assente: e' la promessa che
+# nessuno ci mettera dentro niente senza riempire la casa, che e' il difetto che
+# il 03/10/2026 aveva lasciato passare una volta sola.
+DA_COSTRUIRE = ()
 
 # Le costruzioni che il progetto vieta. Lista stretta e dichiarata: non e' un
 # censimento delle cose sbagliate, e' il nucleo di quelle che si cercano.

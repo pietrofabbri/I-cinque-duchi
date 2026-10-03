@@ -32,7 +32,12 @@ DISCIPLINE = ("Italiano", "Ferrarese", "Latino", "Inglese", "Lingua dei segni",
               "Greco", "Diritto", "Etica", "Filosofia", "Psicologia",
               "Osservazione e attenzione")
 
-STATI = ("dichiarato", "possibile", "da_costruire")
+STATI = ("dichiarato", "possibile", "chiuso")
+# `da_costruire` e' sparito dalla lista il 03/10/2026: era la riga di
+# `osservazione e attenzione`, che il gioco gia' praticava in quattro posti e che
+# nessuno aveva cercato. Un dominio che il progetto non ha non si dichiara, si
+# cerca: quindi se `da_costruire` torna in una tabella dei premi, questo controllo
+# deve dire che il lavoro di cercarlo non e' stato fatto.
 
 DOMINI_SFIDA = ("logica", "calcolo mentale e stime", "informatica",
                 "linguistica e testo", "Costituzione e cittadinanza",
@@ -122,7 +127,8 @@ def main():
     lingue_nel_doc = set(re.findall(r"^\| \*\*([^*]+)\*\* \|", tab2, re.M))
     ambiti = set(re.findall(r"^\| \*\*(Diritto|Etica|Filosofia|Psicologia)\*\*", quadro, re.M))
     # tutte e undici sono discipline ammesse: `osservazione e attenzione` e'
-    # una riga dichiarata da costruire, non un abbinamento inventato
+    # chiusa il 03/10/2026 (`quadro-trasversale.md` §1.3), non un abbinamento
+    # inventato
     ammesse = set(DISCIPLINE)
     extra = lingue_nel_doc - ammesse
     print("   discipline citate: %d; ambiti in quadro-trasversale: %d" % (len(lingue_nel_doc), len(ambiti)))
