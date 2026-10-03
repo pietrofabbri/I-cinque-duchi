@@ -13,8 +13,20 @@
 
 ### Fondo geografico degli anni 2, 3 e 4
 
-- **Natural Earth**, scale 110m, 50m e 10m: **pubblico dominio**, nessuna attribuzione richiesta e nessun vincolo. È la fonte dei 19 file in `dati/mappe/` (mondo, Europa e penisola: paesi, terre emerse, coste, unità amministrative, città, fiumi, laghi, regioni fisiche). Scaricati ed estratti il 01/10/2026 con `sorgenti/gis/scarica_ne.py` e `sorgenti/gis/mappe_formato.py`. Formato e scelte della fonte in `docs/videogioco-5-duchi-mappe.md`.
-- **OpenStreetMap** — **ODbL, e la decisione è presa il 02/10/2026: entra nel progetto** (`mappe.md` §10 Q1, risolta). Va detto perché sembrava una scelta molto piu' pesante di quanto sia: l'obbligo di condividere con la stessa licenza scatta solo quando si distribuisce un **database derivato** da OSM, e un gioco che disegna geometrie su schermo distribuisce un'opera, non un database. Quindi **il codice, i documenti e la grafica originale restano del progetto**. I file che invece sono database derivati — le geometrie in `dati/mappe/` — viaggiano con ODbL e con la dichiarazione «© OpenStreetMap contributors» nei crediti del gioco. Non ancora scaricato: le interrogazioni del 01/10/2026 via Overpass API servivano solo a misurare quanto i dati siano disponibili, e quella misura ha detto che le sagome ci sono e le altezze no (`mappe.md` §5).
+- **Natural Earth**, scale 110m, 50m e 10m: **pubblico dominio**, nessuna attribuzione richiesta e nessun vincolo. È la fonte dei 21 file in `dati/mappe/`: i 19 del 01/10/2026 (mondo, Europa e penisola: paesi, terre emerse, coste, unità amministrative, città, fiumi, laghi, regioni fisiche) più i 2 del 03/10/2026, `mondo_admin1.json` (50 unità amministrative di primo livello del mondo) e `mondo_admin1_copertura.json` (il conto della copertura). Scaricati ed estratti con `sorgenti/gis/scarica_ne.py` e `sorgenti/gis/mappe_formato.py`; le unità mondiali con `sorgenti/gis/mondo_admin1.py`, che usa `sorgenti/gis/shapefile_lettore.py` perché **`pyshp` non è installato su questa macchina e il progetto non installa pacchetti**. Formato e scelte della fonte in `docs/videogioco-5-duchi-mappe.md`.
+- **OpenStreetMap** — **ODbL, e la decisione è presa il 02/10/2026: entra nel progetto** (`mappe.md` §10 Q1, risolta). Va detto perché sembrava una scelta molto piu' pesante di quanto sia: l'obbligo di condividere con la stessa licenza scatta solo quando si distribuisce un **database derivato** da OSM, e un gioco che disegna geometrie su schermo distribuisce un'opera, non un database. Quindi **il codice, i documenti e la grafica originale restano del progetto**. I file che invece sono database derivati viaggiano con ODbL e con la dichiarazione «© OpenStreetMap contributors» nei crediti del gioco.
+
+**Sono tre, e sono stati scaricati il 03/10/2026:**
+
+| File | Che cosa è | Licenza |
+|---|---|---|
+| `dati/edifici_footprint.json` | **5209 sagome di edifici su 54 luoghi**, con `forma`, `altezza_m` e `fonte_altezza` (`osm_height` / `osm_levels` / `assente`) | ODbL 1.0 |
+| `dati/ferrara_fondo.json` | **14 tratti delle mura di Ferrara**, anello ricostruito a 60 m di tolleranza, 8601 m di perimetro e 4,20 km² di area interna | ODbL 1.0 |
+| — | entrambi riportano nel campo `attribuzione` la dicitura `(c) OpenStreetMap contributors` | — |
+
+Entrambi si rigenerano con `sorgenti/gis/edifici_footprint.py` e `sorgenti/gis/ferrara_fondo.py`. Il vincolo resta quello dichiarato il 02/10: ODbL è copyleft, e se il gioco riusa queste sagome **l'attribuzione va tenuta anche nei materiali derivati**. Il file delle sagome lo scrive da sé nel campo `nota_licenza`.
+
+La misura del 01/10/2026 resta valida e va ricordata accanto ai file: **le sagome ci sono, le altezze no**. Dei 5209 edifici presi, 588 hanno l'altezza misurata, 1285 si ricavano dai piani, e **3336 non hanno niente** e diventano un volume neutro dichiarato (`mappe.md` §5).
 
 ### Rilievo del terreno
 

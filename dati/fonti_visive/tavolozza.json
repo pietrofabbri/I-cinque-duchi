@@ -1,0 +1,269 @@
+{
+ "versione": 1,
+ "data": "2026-10-03",
+ "principio": "nessun colore e' scelto a occhio: un colore entra solo se una fonte machine-readable lo dichiara, e la voce porta la fonte. Le due fonti sono Wikidata (P462 porta all'oggetto colore, P465 ne dichiara l'esadecimale) e l'infobox dell'artista del pigmento su Wikipedia. Le voci che non hanno pigmento sono marcate 'dichiarata' o 'stato' e non si fingono storiche",
+ "uso": "le immagini entrano con i colori della fonte e portano l'etichetta che le dice che cosa sono (fotografia, dipinto, incisione, miniatura, rilievo, stampa): la tavolozza dichiara i colori del gioco, non ricolora le fonti",
+ "voci": [
+  {
+   "chiave": "terra_gialla",
+   "ruolo": "sabbia, terra, muri di terra",
+   "hex": "CC7722",
+   "origine": "wikipedia_infobox",
+   "pigmento": "Yellow ochre",
+   "famiglia": "terre_oliva",
+   "catena": [
+    "Q3348755",
+    "infobox Yellow ochre"
+   ],
+   "wikidata": "Q3348755",
+   "pagina": "Yellow ochre"
+  },
+  {
+   "chiave": "terra_rossa",
+   "ruolo": "terreno ferrarese, mattoni",
+   "hex": "DD985C",
+   "origine": "wikidata_p465",
+   "pigmento": "Red ochre",
+   "famiglia": "terre_oliva",
+   "catena": [
+    "Q1054292",
+    "P462 Q3348759",
+    "P465"
+   ],
+   "wikidata": "Q1054292",
+   "pagina": "Red ochre"
+  },
+  {
+   "chiave": "verde_terra",
+   "ruolo": "paesaggio della pianura padana",
+   "hex": "DADD98",
+   "origine": "wikipedia_infobox",
+   "pigmento": "Green earth",
+   "famiglia": "terre_oliva",
+   "catena": [
+    "Q1552133",
+    "infobox Green earth"
+   ],
+   "wikidata": "Q1552133",
+   "pagina": "Green earth"
+  },
+  {
+   "chiave": "bruno",
+   "ruolo": "ombre, legno, terra profonda",
+   "hex": "635147",
+   "origine": "wikidata_p465",
+   "pigmento": "Umber",
+   "famiglia": "terre_oliva",
+   "catena": [
+    "Q901731",
+    "P465"
+   ],
+   "wikidata": "Q901731",
+   "pagina": "Umber",
+   "scarti": [
+    "Q47071 dichiara 964B00, un colore generico e non il pigmento: tiene 635147"
+   ]
+  },
+  {
+   "chiave": "bianco_calce",
+   "ruolo": "calce, muri, fondi delle miniature",
+   "hex": "F5F2E8",
+   "origine": "dichiarata",
+   "nota": "calce e carta, non pigmento: il bianco di piombo e' il pigmento storico, ma nessuna fonte machine-readable ne dichiara l'esadecimale (vedi pigmenti_senza_colore_macchina), e un bianco inventato sarebbe un colore a occhio. Qui il bianco e' la superficie su cui stanno gli altri, e si dichiara come tale",
+   "famiglia": null
+  },
+  {
+   "chiave": "azzurro_oltremare",
+   "ruolo": "cielo, acqua, ori preziosi",
+   "hex": "120A8F",
+   "origine": "wikidata_p465",
+   "pigmento": "Ultramarine",
+   "famiglia": "tinte_miniatura",
+   "catena": [
+    "Q219660",
+    "P462 Q17990717",
+    "P465"
+   ],
+   "wikidata": "Q219660",
+   "pagina": "Ultramarine"
+  },
+  {
+   "chiave": "blu",
+   "ruolo": "strati profondi, distanza",
+   "hex": "003399",
+   "origine": "wikidata_p465",
+   "pigmento": "Smalt",
+   "famiglia": "tinte_miniatura",
+   "catena": [
+    "Q898977",
+    "P465"
+   ],
+   "wikidata": "Q898977",
+   "pagina": "Smalt",
+   "scarti": [
+    "Q1088 dichiara 0000FF, un colore generico e non il pigmento: tiene 003399"
+   ]
+  },
+  {
+   "chiave": "azzurro",
+   "ruolo": "cielo lontano, ombre fredde",
+   "hex": "4C7FA8",
+   "origine": "dichiarata",
+   "nota": "azzurite dichiarata a occhio e non usata: il pigmento e' visitato in pigmenti_senza_colore_macchina, e l'artista ne da solo una descrizione in parole («azure-blue, dark to pale blue»), non un esadecimale. Il valore qui e' dichiarato e dichiarato come tale: se un domani vuole il colore dell'azzurite, va cercato un campione guardato a vista",
+   "famiglia": null
+  },
+  {
+   "chiave": "vermiglio",
+   "ruolo": "segnalazione, errore, allarme",
+   "hex": "FF4000",
+   "origine": "wikipedia_infobox",
+   "pigmento": "Cinnabar",
+   "famiglia": "tinte_miniatura",
+   "catena": [
+    "Q104614",
+    "infobox Vermilion"
+   ],
+   "wikidata": "Q104614",
+   "pagina": "Vermilion"
+  },
+  {
+   "chiave": "rosso_minio",
+   "ruolo": "mattoni, tetti, corpi d'armi",
+   "hex": "FF4203",
+   "origine": "wikidata_p465",
+   "pigmento": "Minium",
+   "famiglia": "terre_oliva",
+   "catena": [
+    "Q17141476",
+    "P465"
+   ],
+   "wikidata": "Q17141476",
+   "pagina": "Minium"
+  },
+  {
+   "chiave": "verde_rame",
+   "ruolo": "vegetazione, acqua ferma",
+   "hex": "43B3AE",
+   "origine": "wikipedia_infobox",
+   "pigmento": "Verdigris",
+   "famiglia": "tinte_miniatura",
+   "catena": [
+    "Q2351119",
+    "infobox Verdigris"
+   ],
+   "wikidata": "Q2351119",
+   "pagina": "Verdigris"
+  },
+  {
+   "chiave": "giallo",
+   "ruolo": "luce, sole, segnalazione buona",
+   "hex": "FADA5E",
+   "origine": "wikipedia_infobox",
+   "pigmento": "Naples yellow",
+   "famiglia": "tinte_miniatura",
+   "catena": [
+    "infobox Naples yellow"
+   ],
+   "pagina": "Naples yellow",
+   "nota": "il giallo di piombo-stagno, che e' il pigmento del Fitzwilliam, non ha esadecimale dichiarato da nessuna delle due fonti: questa voce usa il giallo di Napoli, che e' un altro pigmento, e lo dichiara"
+  },
+  {
+   "chiave": "oro",
+   "ruolo": "oro foglia: tesori, cornici, lettering",
+   "hex": "B08D3E",
+   "origine": "dichiarata",
+   "nota": "l'oro foglia non ha un colore unico: cambia con la luce. Il valore qui e' quello medio dichiarato dal progetto, non un campione",
+   "famiglia": null
+  },
+  {
+   "chiave": "sfondo",
+   "ruolo": "fondo della scena",
+   "hex": "EDE4D3",
+   "origine": "stato",
+   "nota": "carta, non pigmento: il fondo e' la carta, e la carta non e' un colore che si sceglie ma una superficie su cui gli altri stanno"
+  },
+  {
+   "chiave": "inchiostro",
+   "ruolo": "testo, etichette, numeri",
+   "hex": "2B2622",
+   "origine": "stato",
+   "nota": "nero di fumo, che e' un pigmento (carbone di legna), ma qui serve come testo e non come campione: un testo nero non e' un campione di nero"
+  },
+  {
+   "chiave": "ok",
+   "ruolo": "livello superato",
+   "hex": "4A7C59",
+   "origine": "stato",
+   "nota": "verde di stato, non storico: dichiarato come tale perche' il verde di Verdigris su schermo sembrerebbe una scelta estetica"
+  },
+  {
+   "chiave": "attenzione",
+   "ruolo": "avviso, verifica dovuta",
+   "hex": "B8862B",
+   "origine": "stato",
+   "nota": "giallo di stato, non storico"
+  },
+  {
+   "chiave": "errore",
+   "ruolo": "errore, difetto, dichiarazione richiesta",
+   "hex": "A6362A",
+   "origine": "stato",
+   "nota": "rosso di stato, non storico: e' vicino al vermiglio perche' l'occhio deve capire subito, e la vicinanza e' voluta"
+  }
+ ],
+ "senza_colore_dichiarato": [],
+ "pigmenti_senza_colore_macchina": [
+  {
+   "pigmento": "Lead white",
+   "wikidata": "Q116470614",
+   "prova": "l'artista dichiara 'white pigment' e nessun esadecimale; l'artista italiano non esiste, 'Basic lead carbonate' non ha il campo"
+  },
+  {
+   "pigmento": "Azurite",
+   "wikidata": "Q2875250",
+   "prova": "l'artista dichiara 'Azure-blue, dark to pale blue; pale blue in transmitted light': una descrizione, non un colore"
+  },
+  {
+   "pigmento": "Malachite",
+   "wikidata": "Q164411",
+   "prova": "nessun P462 e nessun P465; l'artista dichiara una scala di verdi in parole, e l'oggetto 'malachite green' e' un composto chimico, non un colore"
+  },
+  {
+   "pigmento": "Orpiment",
+   "wikidata": "Q419183",
+   "prova": "nessun P462 e nessun P465; l'artista dichiara 'Lemon-yellow to golden or brownish yellow'"
+  },
+  {
+   "pigmento": "Lead-tin yellow",
+   "wikidata": "Q883704",
+   "prova": "nessun P462 e nessun P465 su nessuno dei tre oggetti (il pigmento e i tipi I e II); l'artista non dichiara il campo"
+  }
+ ],
+ "altre_dichiarazioni": [
+  {
+   "voce": "vermiglio",
+   "fonte": "wikidata_p465",
+   "oggetto": "Q737438",
+   "hex": "E34234",
+   "nota": "l'oggetto colore 'vermilion' dichiara E34234, l'artista sul pigmento dichiara FF4000. Due fonti, due esadecimali, e nessuna delle due e' sbagliata: e' lo stesso colore a due precisioni diverse. Il file tiene FF4000 e dichiara la differenza"
+  }
+ ],
+ "famiglie_raccolte": [
+  "terre_oliva",
+  "tinte_miniatura"
+ ],
+ "famiglie_senza_voce": {
+  "tessili": "i drappi avrebbero la malachite, che non ha esadecimale dichiarato: il verde dei tessili e' quello della terra verde, dichiarato",
+  "affreschi": "gli affreschi avrebbero l'azzurite e l'orpimento, che non hanno esadecimale dichiarato: l'azzurro e' dichiarato a occhio e l'oro copre il giallo"
+ },
+ "campioni_cercati": "dati/fonti_visive/tavolozza_candidati.json",
+ "campioni_guardati": 0,
+ "nota_campioni": "nessun campione e' stato guardato a vista: la ricerca su Commons ha restituito immagini il cui titolo non promette il colore (il difetto e' dichiarato in fonti-visive.md 5). I colori qui vengono da fonti machine-readable, non dai campioni: se un domani vuole i colori dai campioni, va fatto riconoscendo le immagini a vista",
+ "difetti_dichiarati": [
+  "i cinque pigmenti di pigmenti_senza_colore_macchina non hanno esadecimale da nessuna delle due fonti: le voci che servivano sono state ricostruite su altri pigmenti, e il file non inventa",
+  "lo smalt e l'umbra dichiarano un colore diverso dal loro oggetto colore (003399 contro 0000FF, 635147 contro 964B00): tiene il colore del pigmento, e la differenza e' negli scarti della voce",
+  "il vermiglio ha due dichiarazioni in due fonti diverse: e' in altre_dichiarazioni",
+  "due famiglie di campionari ('tessili' e 'affreschi') non hanno una voce propria: e' in famiglie_senza_voce",
+  "l'azzurro e' l'unico colore dichiarato a occhio fra i colori di pigmento, e la voce dice perche'"
+ ]
+}

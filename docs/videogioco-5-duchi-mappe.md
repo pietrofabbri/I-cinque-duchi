@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.6
-data: 2026-10-02
+versione: 0.7
+data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
-dati: dati/mappe/*.json (19 file, prodotti il 01/10/2026 da Natural Earth con `sorgenti/gis/mappe_formato.py`)
-documenti collegati: videogioco-5-duchi-motore-e-grafica.md (v0.1, la pipeline che questi dati alimentano), videogioco-5-duchi-luoghi.md (v0.3, la regola che decide *quali* luoghi servono), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), FONTI-E-LICENZE.md, AGENTS.md
+dati: dati/mappe/*.json (21 file: i 19 del 01/10/2026 da Natural Earth con `sorgenti/gis/mappe_formato.py`, piu `mondo_admin1.json` e `mondo_admin1_copertura.json` del 03/10/2026), dati/edifici_footprint.json (v1, 5209 sagome su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura)
+documenti collegati: videogioco-5-duchi-motore-e-grafica.md (v0.1, la pipeline che questi dati alimentano), videogioco-5-duchi-luoghi.md (v0.3, la regola che decide *quali* luoghi servono), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.2), FONTI-E-LICENZE.md, AGENTS.md
 ---
 
 # Le mappe
@@ -26,10 +26,11 @@ Sono due problemi diversi, con due fonti diverse, e la parte 2 ha una brutta not
 | | |
 |---|---|
 | **Scaricate** | 42 livelli shapefile di **Natural Earth**, in tre scale (110m, 50m, 10m) |
-| **Prodotti** | 19 file di mappe in formato proprio, in `dati/mappe/`, per un totale di **1,4 MB** |
+| **Prodotti** | **21 file di mappe** in formato proprio in `dati/mappe/` (i 19 del 01/10 più `mondo_admin1.json` e `mondo_admin1_copertura.json` del 03/10), per un totale di **1,4 MB** |
 | **Verifiche** | **57 controlli automatici sulle mappe, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`), più **8 controlli sui pin degli anni dal secondo in poi, tutti superati** (`sorgenti/gis/verifica_pin.py`, §8bis: 71 slot con coordinate su 120) |
 | **Licenza** | Natural Earth è **pubblico dominio**: nessun vincolo, nessuna attribuzione richiesta |
-| **Non è stato possibile** | il fondo delle tappe di dettaglio: vedi §5, e la ragione è tecnica, non di volontà |
+| **Prodotto il 03/10** | **le sagome degli edifici** (5209 su 54 luoghi) e **il fondo cittadino dell'anno 1** (14 tratti di mura): le due cose che §5 dichiarava mancanti ognuna per un motivo diverso |
+| **Non è stato possibile** | l'altezza degli edifici come dato unico e affidabile: vedi §5, e la ragione è tecnica, non di volontà |
 
 *(aggiunta — perché la verifica non è un accessorio)* Una mappa che sembra giusta guardandola può avere un anello capovolto, un punto spostato di mezzo grado o un isola ridotta a un segno, e in tutti e tre i casi il disegno resta **ben formato**. Perciò ogni file è passato per controlli numerici: le estremità dell'Italia, i sedici capoluoghi dentro la propria provincia, sette città europee dentro il proprio Paese, sei città fuori dall'Europa che non ci devono essere, e nessun vertice fuori dal mondo. I controlli hanno **trovato cinque difetti reali**, che sono descritti in §6 e che nessuno avrebbe visto a occhio.
 
@@ -94,6 +95,21 @@ Questi cinque file sono la base della colonna stratigrafica degli anni 4 e 5 (`S
 | `penisola_10_regioni_fisiche` | Alpi, Appennini, Valli Padane, tavolati, coste | 44 kB |
 
 La scala 10m è la più fine delle tre: la quantizzazione è di **mezzo metro**, che per una mappa disegnata in stile Pokémon è più che sufficiente a far riconoscere la forma della Costiera Amalfitana o il delta del Po.
+
+### 2.4 Il mondo, tutte le unità (scala 10m, del 03/10/2026)
+
+Il 03/10/2026 sono entrati in `dati/mappe/` due file che chiudono il buco di copertura che §8bis dichiarava: **le unità amministrative di primo livello del mondo intero**. La fonte è Natural Earth 10m `admin_1_states_provinces`, **pubblico dominio** come tutto il resto del pacchetto.
+
+| File | Contenuto | Dimensione |
+|---|---|---|
+| `mondo_admin1` | **50 unità** di primo livello, col codice del Paese | 24 kB |
+| `mondo_admin1_copertura` | il conto della copertura e le tolleranze di riserva usate | 3 kB |
+
+**Non sono le 4596 unità della fonte: sono 50**, e non è una scelta di comodità. Il gioco ha 54 pin che devono cadere in una unità verificabile, e si tiene **l'unità che contiene il proprio pin**, non quella che il nome del pin nomina: è punto-in-poligono sul pin, ed ogni unità scelta porta annotato il pin che l'ha fatta scegliere. Il riquadro di 0,75 gradi che circonda ciascun punto serve solo a far risparmiare spazio ai bordi del file.
+
+**La semplificazione non è fissa, ed è il dettaglio che rende il file onesto.** Ogni anello viene semplificato finché contiene ancora il proprio pin, con tolleranze di riserva dichiarate: il default è 0,05 gradi, cioè circa 5 km, e **sette unità su 50** hanno avuto bisogno di scendere a 0,02 o 0,01 — New York, Buenos Aires, Istanbul, Venezia, Taranto, Westminster, Siena. Un file che semplifica tutto uguale sembra pulito, ed è quello che fa cadere fuori i pin.
+
+Il conto che il file porta scritto è **54 pin coperti su 54**, ed è la risposta definitiva alla domanda che §8bis lasciava aperta.
 
 ---
 
@@ -210,13 +226,15 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 |---|---|---|---|
 | Fondo del mondo, Europa, penisola | Natural Earth 110/50/10m | **fatto e archiviato** | pubblico dominio |
 | Altezze degli edifici a Ferrara | WFS del Comune | già nel progetto | CC BY 4.0 |
-| Sagome degli edifici ovunque | OSM Overpass | **da costruire**, interfaccia verificata | **ODbL: va deciso** |
+| Sagome degli edifici ovunque | OSM Overpass | **fatto il 03/10/2026**: 5209 sagome su 54 luoghi | **ODbL** |
 | Altezze degli edifici fuori Ferrara | nessuna fonte unica | **irrisolto**: 24% a Milano, 3% a Roma | — |
 | Altezza sul mare, rilievo | Natural Earth `elevation_points` | scaricato, non ancora convertito | pubblico dominio |
 | Linee elettriche, ferrovie | OSM Overpass | da costruire | ODbL |
+| Fondo cittadino dell'anno 1 | OSM Overpass, `barrier=city_wall` | **fatto il 03/10/2026**: 14 tratti, 4,20 km² | **ODbL** |
+| Ambienti dei 150 livelli | i tre file sopra piu i documenti | **fatto il 03/10/2026**: 150 su 150 | — |
 | Idrografia minore per l'anno 2 | OSM o idrografia regionale | da valutare | — |
 
-*(aggiunta — la decisione che va presa presto)* **ODbL è una scelta di Pietro, non mia.** Prima di scaricare dati da OpenStreetMap va deciso se il progetto accetta l'obbligo di attribuzione e la condivisione della stessa licenza per i database derivati. La raccomandazione è di **usare Natural Earth per tutto ciò che è possibile** e riservare OSM ai soli edifici, dichiarandone la provenienza edificio per edificio.
+*(aggiunta — la decisione che andava presa presto, poi presa il 02/10/2026: vedi §10 Q1)* **ODbL è una scelta di Pietro, non mia.** Prima di scaricare dati da OpenStreetMap va deciso se il progetto accetta l'obbligo di attribuzione e la condivisione della stessa licenza per i database derivati. La raccomandazione è di **usare Natural Earth per tutto ciò che è possibile** e riservare OSM ai soli edifici, dichiarandone la provenienza edificio per edificio.
 
 ---
 
@@ -296,7 +314,7 @@ Il pin di Costantinopoli (41.01224, 28.97602) **non cade in nessun Paese**, a ne
 
 ### Che cosa questo controllo non copre
 
-- **19 pin** non sono verificabili sull'unità amministrativa: Agra, Buenos Aires, Bajkonur, Cambridge, Chicago, Il Cairo, Los Alamos, Los Angeles, New York, Princeton, Seattle e gli altri sono fuori dall'Europa, dove il file amministrativo non arriva; Costantinopoli, Uruk e Westminster sono in Paesi che il file europeo contiene solo in parte. Non è un difetto dei pin: è **copertura mancante**, e il numero è dichiarato.
+- ~~**19 pin** non sono verificabili sull'unità amministrativa.~~ **Chiuso il 03/10/2026.** Era un difetto di copertura, non dei pin: Agra, Buenos Aires, Bajkonur, Cambridge, Chicago, New York, Princeton, Seattle e gli altri sono fuori dall'Europa, dove il file amministrativo europeo non arriva; Costantinopoli, Uruk e Westminster sono in Paesi che il file europeo contiene solo in parte. Il file amministrativo **mondiale** di §2.4 li copre tutti: **54 pin su 54**.
 - **Solo 19 pin su 54** hanno un confronto con il centro archiviato: i file delle città hanno 212 e 186 punti, che sono capitali e non un gazetteer. Per gli altri 35 la verifica è fatta sui poligoni, che è più debole ma non assente.
 - L'**anno 1 non è coperto**: i suoi pin sono dentro Ferrara e prendono il confine dal WFS del Comune (`luoghi-edifici.md`), non dalle mappe. Il §11 punto 4 lo dice già.
 - Il punto-in-poligono lavora su geometrie semplificate: **non prova che il pin sia sulla strada o dentro il muro**, prova che è nella giusta unità amministrativa.
@@ -322,6 +340,10 @@ python3 sorgenti/gis/mappe_formato.py     # produce i 19 file in dati/mappe/
 python3 sorgenti/gis/verifica_mappe_numeriche.py   # 57 controlli sulle mappe
 python3 sorgenti/gis/verifica_pin.py               # 8 controlli sui pin degli anni 2, 3 e 4
 python3 sorgenti/gis/verifica_pin.py --tutti       # gli stessi 8 controlli, tutti e cinque gli anni
+python3 sorgenti/gis/mondo_admin1.py              # il file amministrativo del mondo
+python3 sorgenti/gis/edifici_footprint.py         # le sagome degli edifici (Overpass)
+python3 sorgenti/gis/ferrara_fondo.py             # il fondo cittadino dell'anno 1
+python3 sorgenti/verifica_ambienti.py             # i 150 ambienti, sei controlli
 ```
 
 Il lettore si usa così:
@@ -346,21 +368,26 @@ for proprieta, anelli in geometrie:
 2. **Il vincolo di 20 000 abitanti per mostrare una città** (§4.2) è giusto? È una proposta, non una decisione, e cambia molto la quantità di nomi sulla mappa.
 3. **Le trenta zone percorribili** si fanno tutte, o solo dove il luogo è davvero lo spazio del gioco (§5.2)? La seconda ipotesi fa risparmiare mesi e il progetto funziona già così nell'anno 1.
 4. **Il file `europa_50_regioni_amministrative` è grosso** (450 kB, 1 687 geometrie). Va tenuto intero, o ridotto alle unità di primo livello, visto che molte tappe dell'anno 3 sono in capitali di Stato e non serve il dettaglio dei distretti?
-5. ~~**I pin degli anni 2, 3 e 4**~~ **Risolto il 02/10/2026: verificati tutti.** Sono 90 slot di pin, di cui 53 con coordinate, e i 53 sono passati per otto controlli (`verifica_pin.py`, §8bis). Ne sono usciti **due difetti reali** — Baghdad 34 km fuori, Karakorum in Cina invece che in Mongolia — entrambi corretti e annotati nel file di luoghi, e un caso che non è un difetto (Costantinopoli, nel Corno d'Oro, a 1,4 km dalla terra). La domanda che resta, e che è più piccola: **i diciannove pin non verificabili sull'unità amministrativa** (§8bis, che ora copre tutti e cinque gli anni) meritano il file amministrativo mondiale, o il controllo sui poligoni basta?
+5. ~~**I pin degli anni 2, 3 e 4**~~ **Risolto il 02/10/2026: verificati tutti.** Sono 90 slot di pin, di cui 53 con coordinate, e i 53 sono passati per otto controlli (`verifica_pin.py`, §8bis). Ne sono usciti **due difetti reali** — Baghdad 34 km fuori, Karakorum in Cina invece che in Mongolia — entrambi corretti e annotati nel file di luoghi, e un caso che non è un difetto (Costantinopoli, nel Corno d'Oro, a 1,4 km dalla terra). ~~La domanda che restava~~ **Risolta il 03/10/2026: il file amministrativo mondiale esiste** (`dati/mappe/mondo_admin1.json`, §2.4), e **i 54 pin che hanno coordinate sono tutti coperti**. Non tutti i 120 slot, che è un'altra cosa: 54 pin distinti su 95 luoghi, e 41 luoghi non hanno coordinate perché non sono luoghi.
 
 ---
 
 ## 11. Cosa c'è da fare
 
 1. ~~**Decidere ODbL**~~ **fatto il 02/10/2026**: entra, e i sagomi si prendono da OSM dichiarandone la provenienza edificio per edificio (`luoghi-edifici.md` §1)
-2. ~~**Verificare i 90 pin**~~ **fatto il 02/10/2026**: 8 controlli in `sorgenti/gis/verifica_pin.py`, 53 pin con coordinate verificati, 2 difetti corretti (§8bis). Il quinto anno è passato dagli stessi controlli lo stesso giorno, senza difetti; rimane da fare solo la parte che il file amministrativo non copre
+2. ~~**Verificare i 90 pin**~~ **fatto il 02/10/2026**: 8 controlli in `sorgenti/gis/verifica_pin.py`, 53 pin con coordinate verificati, 2 difetti corretti (§8bis). Il quinto anno è passato dagli stessi controlli lo stesso giorno, senza difetti. La parte che il file amministrativo non copriva è chiusa dal 03/10/2026
 3. **Convertire l'altitudine** (`geography_regions_elevation_points`): serve al quinto anno, dove la colonna degli strati è il tempo e la montagna è un dato
 4. **Costruire `dati/mappe/anno1_pin.json`**: i pin dell'anno 1 verificati con lo stesso metodo, così il metodo è provato su dati già noti
-5. **Decidere il formato degli edifici**: se si sceglie OSM, definire `dati/mappe/edifici.json` con i campi `forma`, `altezza`, `fonte_altezza` (`lidar`/`osm`/`stimata`), `livelli` — la regola di §5.1 scritta nei dati, non solo nel documento
+5. ~~**Decidere il formato degli edifici**~~ **fatto il 03/10/2026**: `dati/edifici_footprint.json` con i campi `forma`, `altezza_m` e `fonte_altezza` (`osm_height`/`osm_levels`/`assente`), che è la regola di §5.1 scritta nei dati e non solo nel documento
+6. **Costruire il file amministrativo mondiale**: `dati/mappe/mondo_admin1.json`, 50 unità, 54 pin coperti su 54 (§2.4)
+7. ~~**Costruire il fondo cittadino dell'anno 1**~~ **fatto il 03/10/2026**: `dati/ferrara_fondo.json`, 14 tratti di mura OSM, 4,20 km² (§3.5 di `fonti-visive.md`)
+8. **Costruire gli ambienti dei 150 livelli**: `dati/ambienti_livelli.json`, 150 su 150 (§3.6 di `fonti-visive.md`)
 
 ---
 
 ## 12. Registro modifiche
+
+- **v0.7 (03/10/2026)**: **la copertura amministrativa è chiusa, e con lei i tre file che chiudevano i buchi di grafica.** Il file amministrativo mondiale (`dati/mappe/mondo_admin1.json`, 50 unità di primo livello da Natural Earth 10m, pubblico dominio) copre **54 pin su 54**: è la risposta alla domanda che §8bis lasciava aperta sui diciannove pin non verificabili, che era un difetto di copertura e non dei pin. La selezione non è per nome ma punto-in-poligono sul pin, e la semplificazione scende da sola finché l'anello contiene ancora il proprio pin: **sette unità su 50** hanno avuto bisogno di una tolleranza più fine, ed è dichiarato quali. Nello stesso giorno sono entrati `dati/edifici_footprint.json` (5209 sagome su 54 luoghi) e `dati/ferrara_fondo.json` (14 tratti di mura, 4,20 km², 28 tappe su 28 dentro), e i tre file hanno il loro capitolo in `fonti-visive.md` (v0.2, §3.2, §3.5 e §3.6). §7, §9, §10 e §11 sono aggiornati di conseguenza: le sagome non sono più «da costruire» e il fondo cittadino dell'anno 1 non è più un buco.
 
 - **v0.1 (01/10/2026)**: prima stesione. Fondo geografico per gli anni 2, 3 e 4:
   - **19 file di mappe** in `dati/mappe/`, estratti da Natural Earth (pubblico dominio) in tre scale: 110m per il mondo, 50m per l'Europa, 10m per la penisola, per 1,4 MB complessivi;

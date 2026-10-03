@@ -84,7 +84,15 @@ SCALE = [("penisola_10_paesi.json", 10),
 # dell'unita' non si puo' fare con i file archiviati, e il file lo dice: e'
 # una copertura mancante, non un difetto del pin.
 UNITA = {"10m": "penisola_10_regioni.json",
-         "50m": "europa_50_regioni_amministrative.json"}
+         "50m": "europa_50_regioni_amministrative.json",
+         # Il file mondiale viene per ultimo di proposito: e' quello che copre
+         # tutto, ma contiene solo le 50 unita' che contengono un pin del
+         # gioco (`mondo_admin1.py`). Se lo si mettesse per primo, un pin
+         # italiano che per errore non sta nella sua provincia passerebbe nel
+         # file mondiale, che ha la provincia dello stesso nome solo se quel
+         # pin e' fra i suoi. L'ordine va dal piu' fine al piu' grezzo, che e'
+         # l'ordine giusto anche per la fiducia.
+         "mondo": "mondo_admin1.json"}
 
 # Che cosa il documento dichiara, per il nome del luogo. `paese` e' il Paese
 # che il nome significa; `unita` e' la provincia o regione che il nome
@@ -130,38 +138,51 @@ ATTESI_GIA = {
     "Ravenna": ("ITA", ["Ravenna"]),
     "Westminster": ("GBR", ["Westminster"]),
     # anno 4
-    "Agra": ("IND", None),
+    "Agra": ("IND", ["Uttar Pradesh"]),
     "Baghdad": ("IRQ", ["Babil", "Baghdad"]),
     "Costantinopoli": ("TUR", ["Istanbul"]),
     "Hannover": ("DEU", ["Bassa Sassonia"]),
-    "Il Cairo": ("EGY", None),
-    "Karakorum": ("MNG", None),
-    "Qufu": ("CHN", None),
-    "Tenochtitlan": ("MEX", None),
+    # Il Cairo e' in Giza, non nel Cairo: la governatorato che si chiama
+    # Cairo e' quello metropolitan, che sta dalla parte del Nilo, e la citta'
+    # storica e' in Giza. Il nome del file e' la risposta.
+    "Il Cairo": ("EGY", ["Giza", "Cairo", "al Qahirah"]),
+    "Karakorum": ("MNG", ["dell'Arhangaj", "Arhangay", "Ovorkhangai", "Ovörhangai"]),
+    "Qufu": ("CHN", ["Shandong"]),
+    # Tenochtitlan e' Citta del Messico: Natural Earth chiama cosi' il
+    # District Federal, che e' la citta' autonoma di oggi. Il nome che porta
+    # nel gioco e' quello spagnolo del XVI secolo, il file risponde in italiano.
+    "Tenochtitlan": ("MEX", ["Citta del Messico", "Ciudad de Mexico"]),
     "Toledo": ("ESP", ["Toledo"]),
     "Uppsala": ("SWE", ["Uppsala"]),
-    "Uruk": ("IRQ", ["Wasit"]),
-    "Xianyang": ("CHN", None),
+    # Uruk e' nel governatorato di al Muthanna, non in quello di Wasit: la
+    # citta' di Uruk/Warka e' a 150 km dalla foce dell'Eufrate.
+    "Uruk": ("IRQ", ["al Muthanna", "Wasit"]),
+    "Xianyang": ("CHN", ["Shaanxi"]),
     # anno 5. Il quinto anno e' il primo con pin fuori dall'Europa e dagli
     # Stati Uniti, e percio' e' anche il primo in cui il confronto con il
     # centro archiviato non e' possibile quasi mai: i file delle citta'
     # hanno 398 punti e sono quasi tutti capitali europee.
-    "Bajkonur": ("KAZ", None),
-    "Buenos Aires": ("ARG", None),
-    "Cambridge": ("GBR", None),
-    "Chicago": ("USA", None),
+    "Bajkonur": ("KAZ", ["Bayqonyr", "Qyzylorda"]),
+    "Buenos Aires": ("ARG", ["Buenos Aires", "Ciudad de Buenos Aires"]),
+    "Cambridge": ("GBR", ["Cambridgeshire"]),
+    "Chicago": ("USA", ["Illinois"]),
     "Ferrara": ("ITA", ["Ferrara"]),
     "Ginevra": ("CHE", ["Canton Ginevra"]),
-    "Londra": ("GBR", None),
-    "Los Alamos": ("USA", None),
-    "Los Angeles": ("USA", None),
-    "New York": ("USA", None),
-    "Princeton": ("USA", None),
+    # Il file chiama Westminster il borough, e Westminster e' il nome che il
+    # gioco dà al pin: il controllo su questo pin e' quindi tautologico, e
+    # vale la pena dirlo. Non lo e' per gli altri due, Cambridge e Londra:
+    # per Londra il gioco dice «Londra» e il file dice «Westminster», e lo
+    # stesso vale per la tappa che si chiama Westminster.
+    "Londra": ("GBR", ["Westminster", "Greater London"]),
+    "Los Alamos": ("USA", ["Nuovo Messico", "New Mexico"]),
+    "Los Angeles": ("USA", ["California"]),
+    "New York": ("USA", ["New York"]),
+    "Princeton": ("USA", ["New Jersey"]),
     # Rotterdam e' nel Brabante Olandese del Sud, non nella provincia che il
     # file chiama «Zelanda» (che e' Friesland): l'attesa iniziale di questo
     # file sbagliava, e il secondo errore di questo genere dopo Castel del Monte.
 "Rotterdam": ("NLD", ["Olanda Meridionale"]),
-    "Seattle": ("USA", None),
+    "Seattle": ("USA", ["Washington"]),
     "Stoccolma": ("SWE", ["Stoccolma"]),
     "Vienna": ("AUT", ["Vienna"]),
 }
@@ -224,8 +245,17 @@ def cerca_paese(lon, lat, paesi):
 
 
 def cerca_unita(lon, lat, unita):
-    """Le unita' amministrative che contengono il punto, per scala."""
+    """Le unita' amministrative che contengono il punto, per scala.
+
+    L'ordine dei file e' l'ordine della fiducia: il piu' fine vince. Il file
+    mondiale tiene solo le unita' che contengono un pin del gioco, quindi e'
+    l'ultimo da chiedere e non il primo: se arrivasse prima, un pin che per
+    errore non sta nella sua provincia non verrebbe notato, perché il file
+    mondiale ha un pezzo di provincia che si somiglia.
+    """
     for scala, nome in UNITA.items():
+        if nome not in unita:
+            continue
         trovate = [normalizza(p.get("name_it") or p.get("name"))
                    for p, anelli in unita[nome] if dentro(anelli, lon, lat)]
         if trovate:

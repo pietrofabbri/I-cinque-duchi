@@ -1,22 +1,22 @@
 ---
 titolo: Videogioco "I cinque duchi" — le fonti visive: che cosa il gioco non ha ancora una veste, e dove si prende
-versione: 0.1
-data: 2026-10-02
+versione: 0.2
+data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
-fonte: ricerca su Wikimedia Commons del 02/10/2026, e verifica dei fondi già in dati/mappe/
-documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.1), videogioco-5-duchi-mappe.md (v0.6), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-audit.md (v0.4), AGENTS.md
-dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto)
+fonte: ricerca su Wikimedia Commons del 02/10/2026; tavolozza da Wikidata e Wikipedia del 03/10/2026; sagome e mura da OpenStreetMap via Overpass API del 03/10/2026; verifica dei fondi già in dati/mappe/
+documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.2), videogioco-5-duchi-mappe.md (v0.7), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-audit.md (v0.5), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
+dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto), dati/fonti_visive/tavolozza.json (v1, 18 voci), dati/edifici_footprint.json (v1, 5209 edifici su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura), dati/ambienti_livelli.json (v1, 150 ambienti)
 ---
 
 # Le fonti visive
 
 ## 0. Che cosa chiede questo documento
 
-Il gioco ha delle immagini per i **personaggi** (213 schede, 169 ritratti autentici) e per gli **oggetti linguistici** (180 voci, 1120 candidati). Ha i **fondi geografici** (19 file Natural Earth). Non ha altre cose, e non le aveva mai contate.
+Il gioco ha delle immagini per i **personaggi** (213 schede, 169 ritratti autentici) e per gli **oggetti linguistici** (180 voci, 1120 candidati). Ha i **fondi geografici** (19 file Natural Earth). Il 2 ottobre non aveva altro, e non le aveva mai contate.
 
-Questo documento fa tre cose: **fa l'inventario** di che cosa ha e che cosa non ha una veste grafica; **cerca le fonti** per ciò che manca, con una ricerca vera su Wikimedia Commons; e **giudica l'accuratezza** di quelle fonti su tre cose che il progetto chiama *proporzioni, colori, forme*, perché un'immagine «giusta» che viene stirata o scurita mente quanto un'immagine sbagliata.
+Questo documento fa quattro cose: **fa l'inventario** di che cosa ha e che cosa non ha una veste grafica; **cerca le fonti** per ciò che manca, con una ricerca vera su Wikimedia Commons; **costruisce** le quattro derivazioni che erano solo un buco dichiarato — la tavolozza, le sagome degli edifici, il fondo di Ferrara e gli ambienti dei centocinquanta livelli; e **giudica l'accuratezza** di tutto questo su tre cose che il progetto chiama *proporzioni, colori, forme*, perché un'immagine «giusta» che viene stirata o scurita mente quanto un'immagine sbagliata.
 
-**Che cosa non è questo documento.** Non sceglie le fonti: i **125 candidati** che contiene sono proposte, e nessuna è stata guardata a vista. Il file `dati/fonti_visive/attestazione.json` è pronto e vuoto, con tutti i campi dichiarati.
+**Che cosa non è questo documento.** Non sceglie le fonti dei **125 candidati**: sono proposte, e nessuna è stata guardata a vista. Il file `dati/fonti_visive/attestazione.json` è pronto e vuoto, con tutti i campi dichiarati. E non disegna niente: i quattro file che ha prodotto sono **dati**, non grafica, e ognuno dichiara la propria fonte e i propri vuoti.
 
 ---
 
@@ -27,14 +27,18 @@ Questo documento fa tre cose: **fa l'inventario** di che cosa ha e che cosa non 
 | **Ritratti dei personaggi** | fatto, 169 su 213 | Commons, con attestazione | `sorgenti/art/out/` (169 PNG a 48×54) |
 | **Immagini degli oggetti linguistici** | proposte, 1120 candidati | Commons | `dati/lingue/immagini_oggetti.json` |
 | **Fondi geografici** | fatto, 19 file | **Natural Earth**, pubblico dominio | `dati/mappe/` (1,4 MB) |
+| **Unità amministrative del mondo** | fatto, 50 unità | **Natural Earth 10m**, pubblico dominio | `dati/mappe/mondo_admin1.json` |
 | **Terreno e rilievo** | fatto per 95 luoghi | **Terrarium/SRTM** | `dati/luoghi_gioco.json`, campo `terreno` |
+| **Tavolozza dei colori** | **fatto il 03/10/2026**, 18 voci | Wikidata e Wikipedia | `dati/fonti_visive/tavolozza.json` |
+| **Sagome degli edifici** | **fatto il 03/10/2026**, 5209 edifici su 54 luoghi | OpenStreetMap, **ODbL** | `dati/edifici_footprint.json` |
+| **Fondo di Ferrara** (anno 1) | **fatto il 03/10/2026**, 14 tratti di mura | OpenStreetMap, **ODbL** | `dati/ferrara_fondo.json` |
+| **Ambienti dei 150 livelli** | **fatto il 03/10/2026**, 150 su 150 | i documenti del progetto più i tre file sopra | `dati/ambienti_livelli.json` |
 | **Medi di trasporto** | **non c'è** | — | — |
-| **Sagome degli edifici** | **non c'è** (si sa solo da dove verrà) | OpenStreetMap, ODbL | — |
-| **Mappa di Ferrara** (anno 1) | **non c'è** (solo le mura) | da costruire | `dati/dettagli_ferrara.json` ha i dettagli, non il disegno |
 | **Epigrafi e iscrizioni** | **non c'è** | — | — |
-| **Tavolozza dei colori** | **non c'è** | — | — |
 
-**Cinque buchi, e sono cinque problemi diversi.** I mezzi di trasporto servono al percorso del duca appena calcolato; le sagome degli edifici servono a disegnare le città; la mappa di Ferrara serve all'anno 1, che è l'anno in cui la copertura è gratuita e quindi non la si può trascurare; le epigrafi servono al latino; la tavolozza serve a **tutto** il resto, ed è la più urgente perché senza tavolozza ogni immagine entra con i colori propri e il gioco diventa un muro di colori non concordi.
+**Cinque buchi il 2 ottobre, due il 3.** Erano cinque, ed erano cinque problemi diversi. Quattro sono chiusi: la **tavolozza**, le **sagome degli edifici**, il **fondo di Ferrara** e gli **ambienti dei centocinquanta livelli**. Restano due, ed è giusto che restino: i **mezzi di trasporto** servono al percorso del duca e sono un problema di *immagini*, non di geometrie; le **epigrafi** servono al latino e sono un problema di *testo*, non di grafica. Nessuna delle due era un buco che si potesse chiudere con uno script, e sono dichiarate in §7.
+
+**L'ordine in cui sono stati chiusi è quello giusto, ed è dichiarato perché l'ordine è una decisione.** Prima la tavolozza, che è più piccola e serve a tutto il resto; poi le sagome, che sono il buco più grosso; poi il fondo di Ferrara, che dipende dalle sagome; e infine gli ambienti, che non sono una fonte nuova ma l'assemblaggio dei tre precedenti sui centocinquanta livelli. Il quarto non era un quarto buco: era la domanda «e quindi, che cosa si disegna a ogni tappa?», e senza risponderla i primi tre restano tre tavole isolate.
 
 ---
 
@@ -50,19 +54,19 @@ Il conto reale, verificato sui file:
 | **Europa 50m** | 7 file | 652 kB | terre, paesi, regioni, regioni amministrative (1 687 geometrie), 186 città, fiumi, laghi |
 | **Penisola 10m** | 7 file | 701 kB | coste, paesi, regioni, regioni fisiche, 622 unità, 212 città, fiumi, laghi |
 
-**I tre limiti che il documento delle mappe dichiara già, e che qui tornano.**
+**I tre limiti che il documento delle mappe dichiara già, e che qui tornano — due risolti, uno ancora vero.**
 
-1. **Le sagome degli edifici non esistono come dato.** Vengono da OpenStreetMap, che è autorizzato dal 02/10/2026 e viaggia con ODbL. Ogni edificio dovrà dichiarare da dove viene la sagoma e da dove l'altezza (`lidar`, `osm`, `stimata`).
-2. **Le altezze non esistono come dato**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Il progetto risponde con il **terreno** — quota, pendenza, esposizione, rilievo locale misurati su SRTM, con errore medio di 12,6 m su 14 punti noti.
-3. **Non c'è un file della città di Ferrara.** C'è `dettagli_ferrara.json`, che è la scheda dei dettagli, non il disegno. L'anno 1 ha bisogno di un fondo cittadino che nessuno dei 19 file contiene.
+1. ~~**Le sagome degli edifici non esistono come dato.**~~ **Risolto il 03/10/2026**: `dati/edifici_footprint.json`, 5209 sagome su 54 luoghi, ognuna con `forma`, `altezza_m` e `fonte_altezza` (`osm_height`, `osm_levels`, `assente`). Vengono da OpenStreetMap, autorizzata il 02/10/2026, e viaggiano con **ODbL**. §3.2.
+2. **Le altezze non esistono come dato**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Il progetto risponde con il **terreno** — quota, pendenza, esposizione, rilievo locale misurati su SRTM, con errore medio di 12,6 m su 14 punti noti. Sui 5209 edifici effettivamente presi, l'altezza c'è in 588 casi (`osm_height`) e si ricava dai piani in altri 1285 (`osm_levels`): **3336 non hanno niente** e diventano un volume neutro dichiarato. §3.2.
+3. ~~**Non c'è un file della città di Ferrara.**~~ **Risolto il 03/10/2026**: `dati/ferrara_fondo.json` ha il perimetro delle mura ricostuito da 14 tratti OSM, 8601 m di perimetro e 4,20 km² di area interna, con tutte le 28 tappe dell'anno 1 che ci cadono dentro. §3.5.
 
 **Il formato a delta ha una conseguenza visiva che va detta.** La quantizzazione conserva la forma ma perde la continuità della costa: a 110m il mondo è un'approssimazione onesta, ma un giocatore che guarda l'Italia e un che guarda la Spagna vedono coste con la stessa spessore di errore. La regola che ne segue è che **la scala dichiarata va sulla mappa**, così il giocatore sa che cosa sta guardando: 110m per il mondo è una mappa da navigazione, non una carta topografica.
 
 ---
 
-## 3. Le fonti cercate per i cinque buchi
+## 3. Le fonti cercate, e i quattro file costruiti
 
-La ricerca (`sorgenti/fonti_visive_cerca.py`) ha esaminato **27 voci** in cinque categorie, con termini scelti uno per uno e non tradotti alla cieca. Ha prodotto **125 candidati con licenza libera**.
+La ricerca (`sorgenti/fonti_visive_cerca.py`) ha esaminato **27 voci** in cinque categorie, con termini scelti uno per uno e non tradotti alla cieca. Ha prodotto **125 candidati con licenza libera**. Quattro delle cinque categorie hanno poi prodotto un **file di dati** (sagome §3.2, colore §3.4, mura di Ferrara §3.5, ambienti §3.6); le altre due no, e il perché è dichiarato.
 
 | Categoria | Voci | Candidati | Voci senza immagine |
 |---|---|---|---|
@@ -93,21 +97,110 @@ La ricerca (`sorgenti/fonti_visive_cerca.py`) ha esaminato **27 voci** in cinque
 
 La Cappella dei Magi e la galera del Provveditore sono fonti che il progetto può usare bene: sono italiane, sono d'epoca, e hanno un autore e una data.
 
-### 3.2 Le sagome degli edifici: la fonte è decisa, il file non esiste
+### 3.2 Le sagome degli edifici: costruite il 03/10/2026
 
-La fonte è **OpenStreetMap**, autorizzata il 02/10, con ODbL e l'attribuzione «© OpenStreetMap contributors». La ricerca ha trovato36 fotografie di edifici italiani — il Duomo di Ferrara, il Castello Estense, Palazzo Schifanoia, San Stefano — ma quelle sono **foto, non sagome**: servono al documentario, non al disegno.
+La fonte è **OpenStreetMap**, autorizzata il 02/10, con ODbL e l'attribuzione «© OpenStreetMap contributors». La ricerca del 02/10 aveva trovato 36 fotografie di edifici italiani — il Duomo di Ferrara, il Castello Estense, Palazzo Schifanoia, San Stefano — ma quelle sono **foto, non sagome**: servono al documentario, non al disegno. La sagoma che il motore disegna è un'altra cosa, ed è **un estratto dei building di OSM per i 54 luoghi che hanno coordinate**, in formato delta come le mappe.
 
-**La sagoma che il motore disegna non esiste in nessun file.** Va costruita: un estratto dei building di OSM per i 95 luoghi, in formato delta come le mappe, con `forma`, `altezza` e `fonte_altezza`. È un lavoro, ed è il più grande dei cinque buchi.
+`dati/edifici_footprint.json` è di **1,6 MB** e contiene **5209 edifici su 54 luoghi**, tutti i 54 con almeno un edificio (`luoghi_senza_edifici` è vuoto).
+
+| | |
+|---|---|
+| Luoghi interrogati | **54**, tutti con coordinate |
+| Edifici tenuti | **5209** |
+| Edifici scartati | **6470**, e ogni scarto ha un motivo dichiarato: 3372 oltre il tetto del luogo, 3072 anonimi e piccoli, 13 ad anello troppo corto, 13 semplificati troppo |
+| Altezza misurata (`osm_height`) | **588** |
+| Altezza dai piani (`osm_levels` × 3,2 m/piano) | **1285** |
+| Senza altezza: **volume neutro dichiarato** | **3336** |
+
+**Le quattro regole, tutte dichiarate nel file, perché un buco travestito da geometria è il peggiore dei difetti.**
+
+1. **Raggio 250 m attorno al pin.** È una scelta, non un limite della fonte: dichiarata come `raggio_m`.
+2. **Cosa è «significativo»**: ha un nome, ha un wikidata, ha un'altezza o dei piani, è di una categoria che il gioco sa nomincare, è patrimonio, oppure ha più di 120 m² di area. Un capannone senza nome e senza misure non viene disegnato come se fosse un palazzo.
+3. **Tetto di 140 edifici per luogo.** Oltre, il file tiene i più grandi e dichiara il tetto: altrimenti il centro di Londra mangia il file per un solo tappa.
+4. **Altezza assente non si stima.** L'edificio esce con `altezza_m: null` e `fonte_altezza: "assente"`, e il motore ne fa un **volume neutro**. È la stessa regola di §4.3 e la stessa dei 41 luoghi che non hanno coordinate perché non sono luoghi: *un volume che non sa niente si dichiara, non si indovina*.
+
+**I due difetti che sono costati di più, entrambi dichiarati nel codice.**
+
+- **L'interrogazione a Overpass va spezzata.** Con aree concatenate sulla stessa riga l'API risponde `HTTP 400: ';' expected - '(' found`; separate da `;` e su righe nuove funziona. Con aree raggruppate a 6 alla volta c'è stato un `504`: `overpass_spezzato()` dimezza il gruppo e riprova, fino a tre volte, e la scala finale (`GRUPPO=3`) ha fatto passare tutti i 54 luoghi.
+- **La prima versione del file aveva il conto sbagliato in un modo invisibile.** Interrogare 54 luoghi in un colpo solo è più semplice e non finisce: alla prima interruzione si perde tutto. Da qui il flag `--riprendi`, che legge il file già scritto e salta i luoghi che ci sono.
 
 ### 3.3 Le epigrafi: fonti, non immagini
 
 Le tre voci (lapide, lastra, iscrizione) hanno diciotto candidati, e sono la categoria più semplice: un'epigrafe **è** la sua immagine. Serve però la regola che vale per i testi autentici delle lingue antiche (`lingue.md` §7 Q3): l'epigrafe entra con la sua **trascrizione e la sua traduzione**, non come foto muta.
 
-### 3.4 Il colore: la categoria più urgente e meno considerata
+### 3.4 Il colore: la tavolozza, costruita il 03/10/2026
 
-Quattro voci, ventiquattro candidati, e nessuna tavolozza. Il gioco adesso ha **tre sistemi di immagini che non concordano fra loro**: i 213 ritratti, i 1120 candidati degli oggetti, e i fondi geografici. Senza una tavolozza, ogni immagine porta i suoi colori e la scena diventa un muro.
+Quattro voci, ventiquattro candidati, e nessuna tavolozza. Il gioco aveva **tre sistemi di immagini che non concordavano fra loro**: i 213 ritratti, i 1120 candidati degli oggetti, e i fondi geografici. Senza una tavolozza, ogni immagine porta i suoi colori e la scena diventa un muro.
 
 Le quattro voci cercano appunto i **campionari**: le terre d'oliva del paesaggio ferrarese, le tinte dei manoscritti miniati, i motivi dei tessili, i colori degli affreschi. Una tavolozza non si sceglie a occhio: si costruisce da una fonte e si dichiara.
+
+`dati/fonti_visive/tavolozza.json` è **18 voci** e nasce da una scelta di principio, che è quella delle tre regole già prese su etichette e proporzioni: **non si ricolora tutto a una tavolozza unica, si dichiara il colore di ogni fonte**. Le 18 voci si dividono in tre gruppi, e il file dichiara quale dei tre sia:
+
+| Provenienza | Voci | Che cosa è |
+|---|---|---|
+| `wikidata_p465` | **5** | l'esadecimale dichiarato da Wikidata per un pigmento storico |
+| `wikipedia_infobox` | **5** | il campo «color» dell'infobox di un artista, cioè il colore che *quell'artista* usava |
+| dichiarata a mano | **3** | terre, bianco calce e fondo di scena: non hanno un codice in nessuna fonte, e il gioco dichiara che sono una scelta |
+| stato del gioco | **5** | verde rame, giallo, oro, inchiostro, e i tre colori di stato (ok, attenzione, errore): non sono pigmenti, sono **la grammatica del gioco** |
+
+**I tre difetti che la costruzione ha trovato, e che sono la parte instructive del lavoro.**
+
+1. **Il colore di un pigmento non si cerca per nome.** La ricerca su Wikidata per «vermilion» restituisce una **città della provincia di Alberta**; «red ochre» restituisce un **premio televisivo**; «minium» restituisce **un'alga**. I pigmenti hanno nomi che il motore di ricerca non distingue dagli omonimi. La correzione è che gli **identificatori Wikidata sono espliciti** nella fonte: `tavolozza_campioni.py` non cerca, dichiara.
+2. **`P462` non è l'esadecimale: è un link a un oggetto «colore».** Il percorso giusto è a due tappe: pigmento → `P462` → oggetto colore → `P465` → esadecimale. E il valore di `P462` è un **dizionario** (`{"entity-type": "item", ...}`), non una stringa: senza controllarne il tipo finisce nel file come colore, e un dizionario non è un colore.
+3. **Cinque pigmenti su quindici non hanno esadecimale da nessuna parte**: il bianco di piombo, l'azzurrite, la malachite, l'orpimento e il giallo di piombo e stagno. Non si è tirata fuori una terna di cifre plausibili: sono in `pigmenti_senza_colore_macchina` con la prova, e le voci ricostruite su altri pigmenti.
+
+**Le due dichiarazioni che rendono il file onesto.** `senza_colore_dichiarato` è **vuoto**: nessuna voce ha un colore inventato. E `campioni_guardati` è **zero**, come i 125 candidati: i campionari non sono stati aperti, e il file non finge di averli guardati.
+
+`dati/fonti_visive/tavolozza_candidati.json` porta, accanto alle 18 voci, le **altre dichiarazioni** trovate (per esempio il vermiglio è `E34234` su Wikidata e `FF4000` sull'infobox: due fonti che dicono cose diverse, entrambe vere, e la scelta va motivata) e le **famiglie di colori senza voce** (i tessili e gli affreschi): dichiarare che manca una voce è diverso dal non averci pensato.
+
+`sorgenti/verifica_tavolozza.py` è il controllo: sei verifiche (A1–A6), con `--offline` per quando la rete non c'è. Eseguito **in rete il 03/10/2026**: 10 fonti ricontrollate, **0 problemi**.
+
+### 3.5 Il fondo di Ferrara: costruito il 03/10/2026
+
+`dati/ferrara_fondo.json` è il fondo cittadino dell'anno 1, e nasce da una domanda che sembrava di disegno e si è rivelata di misura: **che cosa è «dentro le mura»?**
+
+La fonte sono i **14 tratti** che OpenStreetMap ha per `barrier=city_wall` intorno a Ferrara (ODbL, `(c) OpenStreetMap contributors`). OSM non ha l'anello delle mura: ha tratti, con dei vuoti. Il vuoto più grosco è di **1037 m** fra gli ultimi due estremi, e nessuna fonte lo disegna.
+
+**La scelta non è stata fatta a occhio, e questo è il punto.** I tratti sono stati uniti a catena entro una tolleranza, e la tolleranza è stata scelta così: **si tiene la più piccola in cui tutte le tappe del primo anno cadono dentro**. La scala completa è nel file, e i cinque passi sono tutti dichiarati:
+
+| Tolleranza | Vertici | Area interna | Tappe fuori |
+|---|---|---|---|
+| 5 m | 93 | 0,13 km² | 27 su 28 |
+| 15 m | 51 | 0,24 km² | 28 su 28 |
+| 25 m | 51 | 0,74 km² | 26 su 28 |
+| 40 m | 51 | 1,44 km² | 19 su 28 |
+| **60 m** | **54** | **4,20 km²** | **0** |
+
+Il risultato: perimetro **8601 m**, area interna **4,20 km²** contro i 4,8 km² storici, e **28 tappe su 28 dentro**, zero sul bordo, zero fuori. Le due tappe che non hanno coordinate (1-27 e 1-30) sono dichiarate fuori dal controllo: non si possono verificare, e il file non finge che siano dentro.
+
+**Una fonte è stata rifiutata, ed è la più interessante.** OSM ha una relation che si chiama `3875619 «Centro storico»`, sembra fatta apposta e copre 1,34 km². Ma **13 tappe su 28 stanno fuori**, fra cui Piazza Ariostea, Palazzo dei Diamanti e Porta degli Angeli: un perimetro che esclude la piazza dei Diamanti non è il perimetro delle mura, per quanto sia chiamato centro storico. Il nome giusto è la fonte sbagliata, ed è registrata in `fonti_rifiutate` con la prova.
+
+**Un difetto che la scala delle tolleranze ha nascosto, e che va dichiarato.** La prima versione del controllo di «dentro» lavorava in gradi con un raggio di 0,5 — cioè **55 km**: ogni tappa risultava «sul bordo», e la scala delle tolleranze non discriminava niente. Il calcolo di distanza su sferoide è stato corretto, e la tabella qui sopra è quella vera.
+
+Il file dichiara anche i suoi tre limiti: nessun tratto porta `start_date`, quindi **il file non sa quando ogni tratto di mura è stato costruito e non lo deduce**; le mura di origine e quelle dell'Addizione Erculea non sono distinguibili, e il quinto anno lavora sulla stessa area; e la zona percorribile è l'interno delle mura più un margine di 60 m oltre la linea, oltre il quale c'è la nebbia.
+
+### 3.6 Gli ambienti dei centocinquanta livelli: costruiti il 03/10/2026
+
+Il quarto file non è una fonte nuova: è la risposta alla domanda che i primi tre lasciavano senza risposta. **`dati/ambienti_livelli.json` è un ambiente per ognuno dei 150 livelli, 150 su 150**, nell'ordine 1-1, 1-2, … 5-30, ed è costruito sul modello dell'unica zona già esistita: la piazza della Cattedrale di `videogioco-5-duchi-tappa-1-01.md` §3.
+
+Un ambiente porta: il livello, l'argomento, la voce (il personaggio), il luogo, le coordinate, il **tipo** di ambiente con la sua griglia, le sagome che ci sono, il fondo (solo per l'anno 1), la paletta, l'orientamento e — se non si sa — i suoi **vuoti dichiarati**.
+
+**Come sono costruiti, e perché da tre fonti diverse.** L'anno 1 prende le coordinate da `anno1-mappa.md` §3, che le ha già verificate sui numeri civici del Comune; gli anni 2-5 prendono il luogo da `dati/luoghi_gioco.json`, campo `tappe`, che collega livello e luogo **per relazione esplicita e non per confronto di nomi**: confrontare nomi è la tecnica che ha fatto cadere Karakorum sulla catena montuosa, e qui non si rifà.
+
+| | |
+|---|---|
+| Ambienti | **150** su 150 attesi, nessuno mancante |
+| Con coordinate | **99** |
+| Con sagome OSM | **69** |
+| Già costruiti (quelli che il motore ha disegnato) | **1**, la tappa 1-1 |
+
+I **nove tipi** di ambiente e quante volte compare ciascuno: `citta` 65, `edificio` 32, `citta_antica` 11, `percorso` 11, `situazione` 11, `paesaggio` 7, `porta` 5, `area` 5, `piazza` 3.
+
+**Il tipo non è indovinato in silenzio.** Ogni ambiente dichiara in `tipo_da` da dove viene il suo tipo: dal campo `tipo` del registro dei luoghi quando c'è, e da una **parola chiave** quando non c'è (`cattedrale` → edificio, `piazza` → piazza). Le griglie — colonne, righe, metri per tessera, nove tabelle diverse — sono una **scelta di progetto, non un dato di una fonte**, e stanno tutte nel file perché il motore le legga e nessuno le riscriva nel codice.
+
+**I vuoti sono tutti dichiarati, uno per uno**, e sono la parte più utile del file: `orientamento_non_dichiarato` **150** (solo la 1-1 ha un orientamento, gli altri 149 no, e dichiararlo vuol dire che il motore non deve sceglierlo da solo), `senza_sagome_osm` 81, `coordinate_non_e_un_luogo` 24, `coordinate_da_geocodificare_a_mano` 14, `coordinate_da_geocodificare_wfs` 11, `sole_sagome_senza_altezza` 13, `senza_coordinate` 2.
+
+`sorgenti/verifica_ambienti.py` è il controllo: sei verifiche (B1–B6), **tutte superate il 03/10/2026**.
 
 ---
 
@@ -134,7 +227,9 @@ Le quattro voci cercano appunto i **campionari**: le terre d'oliva del paesaggio
 
 **La regola che il progetto si dà, e che è quella dei ritratti**: ogni immagine porta un'**etichetta** che dice che cosa è (`fotografia`, `dipinto`, `incisione`, `miniatura`, `rilievo`, `stampa`). Un'incisione non è una fotografia e non viene trattata come una fotografia.
 
-**La regola nuova, che riguarda la tavolozza.** Se le fonti hanno colori che non concordano, il gioco deve scegliere: o usa i colori della fonte e dichiara che sono quelli, oppure applica una **tavolozza unica** e dichiara che l'immagine è ricolorata. La seconda è più bella e meno fedele; la prima è più fedele e meno bella. **La scelta va dichiarata in un posto solo** — un file `dati/fonti_visive/tavolozza.json`, **da produrre**, che oggi non esiste — perché due persone che colorano lo stesso dipinto in due modi diversi producono due giochi.
+**La regola nuova, che riguarda la tavolozza.** Se le fonti hanno colori che non concordano, il gioco deve scegliere: o usa i colori della fonte e dichiara che sono quelli, oppure applica una **tavolozza unica** e dichiara che l'immagine è ricolorata. La seconda è più bella e meno fedele; la prima è più fedele e meno bella.
+
+**La scelta è la prima, ed è dichiarata in un posto solo**: `dati/fonti_visive/tavolozza.json`. È la stessa scelta che il progetto aveva già fatto tre volte — per i ritratti, per le etichette, per le proporzioni — e che resta la coerente: **ogni fonte porta i suoi colori e li dichiara**, e il gioco non ricolora il dipinto di Cavallini per farlo quadrare con la miniatura. Un posto solo perché due persone che colorano lo stesso dipinto in due modi diversi producono due giochi.
 
 ### 4.3 Forme
 
@@ -143,11 +238,13 @@ La forma è il contorno, e per il gioco è la cosa più difficile, perché **la 
 | Elemento | Che cosa serve | Fonte | Stato |
 |---|---|---|---|
 | Costa, fiumi, confini | geometrie | Natural Earth | fatto |
+| Unità amministrative del mondo | geometrie del primo livello | Natural Earth 10m | fatto, 50 unità |
 | Rilievo del terreno | quota e pendenza | SRTM / Terrarium | fatto per 95 luoghi |
-| **Sagoma di un edificio** | **geometria della facciata** | **OSM building** | **non fatto** |
+| **Sagoma di un edificio** | **geometria della facciata** | **OSM building** | **fatto: 5209 su 54 luoghi** |
+| **Perimetro delle mura di Ferrara** | **poligono di chiusura** | **OSM `city_wall`** | **fatto: 14 tratti, 4,20 km²** |
 | **Ortofoto aerea** | non serve: il gioco è 3/4 disegnato | — | — |
 
-**La regola sulla forma, che è quella del progetto sui luoghi**: una forma che non è verificata **non si disegna**. Se di un edificio non si sa la pianta, si disegna un volume neutro e la scheda dice che è un volume neutro — che è la regola dei 41 luoghi che non hanno coordinate perché non sono luoghi (`luoghi-edifici.md` §1).
+**La regola sulla forma, che è quella del progetto sui luoghi**: una forma che non è verificata **non si disegna**. Se di un edificio non si sa la pianta, si disegna un volume neutro e la scheda dice che è un volume neutro — che è la regola dei 41 luoghi che non hanno coordinate perché non sono luoghi (`luoghi-edifici.md` §1) e che ora vale anche per i **3336 edifici su 5209** che escono da OSM senza altezza.
 
 ---
 ## 5. Il difetto della ricerca, che è il più istruttivo del lavoro
@@ -184,21 +281,32 @@ Ma c'è una seconda possibilità, e va decisa: il progetto ha già deciso che **
 
 ## 7. Le questioni aperte
 
-**Q1 — La tavolozza va prodotta o no? (bloccante per tutto il resto)**
+**Q1 — ~~La tavolozza va prodotta o no?~~ CHIUSA il 03/10/2026**
 
-Il gioco ha tre sistemi cromatici che non concordano. Finché la tavolozza non c'è — `dati/fonti_visive/tavolozza.json` è **da produrre** — ogni immagine entra con i suoi colori e il risultato non è un gioco, è un mosaico. La domanda ha due metà: **si ricolora tutto a una tavolozza unica** (più bello, meno fedele) **oppure si dichiara ogni fonte con i suoi colori** (più fedele, meno bello)? La seconda è quella che il progetzo ha già scelto tre volte — per i ritratti, per le etichette, per le proporzioni — ed è la coerente.
+Il gioco aveva tre sistemi cromatici che non concordano, e finché la tavolozza non c'era
+ogni immagine entrava con i suoi colori: il risultato non era un gioco, era un mosaico. La
+domanda aveva due metà: **si ricolora tutto a una tavolozza unica** (più bello, meno
+fedele) **oppure si dichiara ogni fonte con i suoi colori** (più fedele, meno bello)?
+**La seconda**, che è quella che il progetto aveva già scelto tre volte: per i ritratti,
+per le etichette, per le proporzioni.
 
-**Q2 — Le sagome degli edifici si costruiscono adesso? (bloccante per gli anni 2-5)**
+La tavolozza è `dati/fonti_visive/tavolozza.json`, **18 voci**, costruita da fonti e non a occhio: §3.4 e §4.2. La verifica `sorgenti/verifica_tavolozza.py` (sei controlli, A1–A6) è stata eseguita **in rete** il 03/10/2026: dieci fonti ricontrollate, **0 problemi**.
 
-È il buco più grande: OSM è autorizzata da tre giorni e il file non esiste. Serve un'estrazione dei building per i 95 luoghi, in formato delta, con `forma`, `altezza`, `fonte_altezza`. Finché non c'è, le città si disegnano con i volumi neutri che il progetto già prevede per i luoghi senza forma.
+**Q2 — ~~Le sagome degli edifici si costruiscono adesso?~~ CHIUSA il 03/10/2026**
 
-**Q3 — Il fondo di Ferrara si costruisce?**
+Era il buco più grande, ed era bloccante per gli anni 2-5. Il file c'è: `dati/edifici_footprint.json`, **5209 edifici su 54 luoghi**, in formato delta, con `forma`, `altezza_m` e `fonte_altezza` — §3.2.
 
-L'anno 1 è l'anno in cui la copertura è gratuita e la mappa è piccola, e non ha un file. `dettagli_ferrara.json` ha i dettagli dei luoghi ma non la geometria. Natural Earth ha i centri abitati ma non la forma della città: **serve il perimetro ufficiale delle mura** (che `motore-e-grafica.md` dice di usare) e le sagome degli edifici, che sono Q2.
+**La metà della domanda che riguardava i 95 luoghi è stata corretta, e il motivo va scritto**: non sono 95. Sono **54**, i luoghi che hanno coordinate. Gli altri 41 non sono luoghi (porte di gioco, percorsi fra due città, situazioni) e non hanno niente da sagomare; costruire sagome per loro avrebbe significato inventare il posto in cui si disegna un non luogo. E i 3336 edifici senza altezza diventano un **volume neutro dichiarato**, non una stima.
+
+**Q3 — ~~Il fondo di Ferrara si costruisce?~~ CHIUSA il 03/10/2026**
+
+L'anno 1 è l'anno in cui la copertura è gratuita e la mappa è piccola, e non aveva un file. Il perimetro delle mura è in `dati/ferrara_fondo.json`: 14 tratti OSM, 8601 m di perimetro, 4,20 km² di area interna, con la tolleranza di 60 m scelta perché è la più piccola in cui **tutte e 28 le tappe** ci cadono dentro — §3.5.
+
+**Il perimetro che `motore-e-grafica.md` dice di usare non è un file che si poteva scaricare**, ed è il fatto più utile di questa chiusura: nessuna fonte pubblica ha il perimetro ufficiale delle mura di Ferrara. Quello che c'è è un anello di tratti con dei vuoti, e il vuoto più grosso — **1037 m** — resta senza disegno ed è dichiarato nel file.
 
 **Q4 — I colori dei fondi geografici.**
 
-I 19 file Natural Earth hanno proprietà e categorie, ma non colori: il colore lo decide il motore. La domanda è se i colori siano **dichiarati in un file** — così ogni tappa sa che cosa sta mostrando — o se restino nel codice, dove nessuno li legge.
+I 19 file Natural Earth hanno proprietà e categorie, ma non colori: il colore lo decide il motore. La domanda è se i colori siano **dichiarati in un file** — così ogni tappa sa che cosa sta mostrando — o se restino nel codice, dove nessuno li legge. **La tavolozza appena costruita copre metà della domanda**: i colori di stato e di scena ci sono già (`ok`, `attenzione`, `errore`, `sfondo`, `inchiostro`), ma i colori per **categoria cartografica** — terra, mare, confine, città — restano nel codice.
 
 **Q5 — Chi guarda i 125 candidati?**
 
@@ -210,13 +318,18 @@ Come per gli oggetti linguistici: nessuno è stato guardato a vista, e il file d
 
 | | |
 |---|---|
-| Categorie senza veste grafica | **cinque**: mezzo, sagome, mappa di Ferrara, epigrafi, tavolozza |
+| Categorie senza veste grafica | il 02/10 erano **cinque**: mezzo, sagome, mappa di Ferrara, epigrafi, tavolozza. Il 03/10 sono **due**: mezzo ed epigrafi |
 | Candidati cercati su Commons | **125**, in 27 voci |
 | Voci senza immagine | **due**: l'incendio e la carestia |
 | Candidati scelti a vista | **zero**, e dichiarato |
 | Fondi geografici già pronti | **19 file**, 1,4 MB, Natural Earth, pubblico dominio |
-| Lavoro più grande che manca | **le sagome degli edifici** (OSM autorizzata, file mai costruito) |
-| Lavoro più urgente che manca | **la tavolozza** (senza, i tre sistemi di immagini non concordano) |
+| Tavolozza | **fatto**: 18 voci, 10 da fonti automatiche, 3 dichiarate, 5 di stato |
+| Sagome degli edifici | **fatto**: 5209 edifici su 54 luoghi, **3336 senza altezza** e a volume neutro |
+| Fondo di Ferrara | **fatto**: 14 tratti, 8601 m di perimetro, 4,20 km², 28 tappe su 28 dentro |
+| Ambienti dei livelli | **fatti**: 150 su 150, di cui 99 con coordinate e 69 con sagome |
+| Quanti ambienti il motore ha disegnato | **uno**, la tappa 1-1 |
+| Lavoro più grande che resta | i **125 candidati** da guardare a vista, e i **cinquantuno** ambienti senza coordinate |
+| Lavoro più grande che manca *fra i dati* | nessuno: i quattro file ci sono e sono verificati |
 
 ---
 
@@ -224,4 +337,6 @@ Come per gli oggetti linguistici: nessuno è stato guardato a vista, e il file d
 
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|
+| 03/10/2026 | 0.2 | **Quattro dei cinque buchi sono chiusi, e sono chiusi con quattro file di dati.** **La tavolozza** (`dati/fonti_visive/tavolozza.json`, 18 voci: 5 da Wikidata, 5 dall'infobox di un artista, 3 dichiarate, 5 di stato), costruita da fonti e non a occhio, con tre difetti dichiarati: **un pigmento non si cerca per nome** («vermilion» è una città canadese), **`P462` non è l'esadecimale** ma un link a un oggetto colore — e il suo valore è un dizionario, non una stringa — e **cinque pigmenti su quindici non hanno codice da nessuna parte**, nessuno dei quali è stato riempito con una cifra plausibile. **Le sagome degli edifici** (`dati/edifici_footprint.json`, 1,6 MB, **5209 edifici su 54 luoghi**, 588 con altezza misurata, 1285 ricavata dai piani, **3336 a volume neutro dichiarato**), con le quattro regole dichiarate e i due difetti dell'interrogazione a Overpass. **Il fondo di Ferrara** (`dati/ferrara_fondo.json`, 14 tratti, 8601 m, **4,20 km²**, 28 tappe su 28 dentro) con la tolleranza di 60 m scelta **non a occhio ma come più piccola in cui tutte le tappe cadono dentro**, la scala completa dei cinque passi nel file, e **una fonte rifiutata e dichiarata**: la relation OSM «Centro storico», che lascia fuori Piazza Ariostea e Palazzo dei Diamanti. **Gli ambienti dei centocinquanta livelli** (`dati/ambienti_livelli.json`, **150 su 150**, nove tipi, nove griglie dichiarate come scelta di progetto, tutti i vuoti dichiarati uno per uno), costruiti sul modello della tappa 1-1 e per relazione esplicita fra livello e luogo, non per confronto di nomi. Sei controlli nuovi, due verificatori: `verifica_tavolozza.py` (A1–A6, eseguito **in rete**, 0 problemi) e `verifica_ambienti.py` (B1–B6, 0 problemi). Le Q1, Q2 e Q3 sono chiuse; restano Q4 e Q5. |
+| 02/10/2026 | 0.1 | Prima stesura. Inventario delle fonti visive: il gioco ha i ritratti (213), i fondi geografici (19 file Natural Earth, 1,4 MB) e i 1120 candidati degli oggetti linguistici; **non ha** i mezzi di trasporto, le sagome degli edifici, il fondo di Ferrara, le epigrafi e la tavolozza. Ricerca su Commons di 27 voci in cinque categorie: **125 candidati**, due vuoti dichiarati (incendio, carestia). Le tre regole sull'accuratezza — proporzioni, colori, forme — con il caso serio della proiezione delle carte, che non dichiarata mente sulle distanze. I tre difetti della ricerca, con la pipa che è diventata un rospo e la Cappella dei Magi che è un corteo, e la correzione pratica: **le parole ambigue si cercano con due parole**. Cinque questioni aperte. |
 | 02/10/2026 | 0.1 | Prima stesura. Inventario delle fonti visive: il gioco ha i ritratti (213), i fondi geografici (19 file Natural Earth, 1,4 MB) e i 1120 candidati degli oggetti linguistici; **non ha** i mezzi di trasporto, le sagome degli edifici, il fondo di Ferrara, le epigrafi e la tavolozza. Ricerca su Commons di 27 voci in cinque categorie: **125 candidati**, due vuoti dichiarati (incendio, carestia). Le tre regole sull'accuratezza — proporzioni, colori, forme — con il caso serio della proiezione delle carte, che non dichiarata mente sulle distanze. I tre difetti della ricerca, con la pipa che è diventata un rospo e la Cappella dei Magi che è un corteo, e la correzione pratica: **le parole ambigue si cercano con due parole**. Cinque questioni aperte. |
