@@ -71,6 +71,12 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 - **Nessuna stanza ha un disegno proprio** (`furioso.md` §4.12): la stanza del filone prende il **pin reale e verificato** del personaggio e ne cambia solo l'etichetta. Non illustrare le stanze e non disegnare una carta per esse.
 
+**I premi** (trasversale, vedi `premi.md`, del 03/10/2026)
+- **Un premio è un oggetto vero che il ragazzo guarda e che gli dice che cosa sa adesso**: non una medaglia, non un punto, non una promessa. Le **dieci categorie** sono un elenco **chiuso**: unaundicesima non si aggiunge quando manca un premio, si usa una delle dieci o si dichiara il vuoto.
+- **Quattro prove, e tutte e quattro**: esiste e si può vedere (licenza libera, etichetta, autore, data); **insegna il livello** (senza questa è una decorazione); **non è già nella storia** (il premio è la scoperta, non il ripasso); **non è un duplicato** (due premi uguali sono uno solo).
+- **Non entra mai un'opera generata**, per la stessa ragione che non entrano le immagini degli oggetti (`lingue-immagini.md` §1): un premio inventato insegna che esistono opere che non esistono.
+- **L'informatica non ha premi**, per decisione di Pietro: i premi sono per le altre discipline. E **la lingua dei segni non ha categoria**: è l'eccezione dichiarata (`premi.md` §2.1), e la riga resta vuota finché `lingue.md` Q4 è aperta.
+
 **Modello pedagogico** (trasversale, vedi `pedagogia.md` e `ripassi.md`, del 03/10/2026)
 - **Regola d'ingresso**: una pratica entra nel gioco **solo se conserva il principio e resta ciò che è**. Il modello è stato scritto per una classe; gli strumenti d'aula (contatore meccanico, scatola per exit ticket, minuto da 50, protocollo di silenzio, feedback a dita e post-it, formazioni del banco) **non entrano**, e la ragione di ognuna è in `pedagogia.md` §5.
 - **Trasparenza radicale**: nessuna pratica che il giocatore non possa spiegare. Un meccanismo di gratificazione non entra senza che il giocatore ne legga la funzione accanto a quello che fa. Il progetto ha già la regola nella sua forma più forte: **un vuoto si dichiara, non si riempie** (i tre gradi di `ipotesi_luoghi.json`, le nove etichette delle immagini, i tipi di legame dei luoghi).
