@@ -4,7 +4,7 @@ versione: 0.4
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: ricerca su Wikimedia Commons del 02/10/2026; tavolozza da Wikidata e Wikipedia del 03/10/2026; sagome e mura da OpenStreetMap via Overpass API del 03/10/2026; cime e quote da Natural Earth `geography_regions_elevation_points` del 03/10/2026; verifica dei fondi già in dati/mappe/
-documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-mappe.md (v1.1), videogioco-5-duchi-luoghi-edifici.md (v0.3), videogioco-5-duchi-audit.md (v0.11), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-mappe.md (v1.1), videogioco-5-duchi-luoghi-edifici.md (v0.3), videogioco-5-duchi-audit.md (v0.12), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
 dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto), dati/fonti_visive/tavolozza.json (v1, 18 voci), dati/edifici_footprint.json (v1, 5209 edifici su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura), dati/ambienti_livelli.json (v1, 150 ambienti), dati/fonti_visive/colori_cartografici.json (v1, 19 voci), dati/altitudine_manifest.json (v1, tre file di cime: 15, 2 e 26 punti)
 ---
 

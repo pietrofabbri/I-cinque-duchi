@@ -1,7 +1,7 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno V, il mondo contemporaneo: il cantiere dell'Addizione Erculea e la carta della stima
-versione: 0.5
-data: 2026-10-02
+versione: 0.6
+data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (le nove persone viventi erano sei: tre nomi senza stato); v0.3 (rimandi di versione); v0.4 (le sedici decisioni di Pietro del 02/10/2026: il giocatore è dentro il *Furioso* e la tabella delle tappe ha la colonna della stanza e del filone, i codici `Q` sono confermati, `F11` entra come facoltativa, e i buchi geografici degli anni 2-4 diventano facoltative continentali)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO V — IL MONDO CONTEMPORANEO, primo percorso" e "ANNO V — IL MONDO CONTEMPORANEO, secondo percorso"), 01/10/2026
@@ -189,7 +189,7 @@ La domanda a schermo intero, che è la conclusione del quinto anno, è quella de
 
 **Colonna «Confronto».** Il tema del secondo percorso su cui quella tappa si appoggia (§0.1).
 
-**Colonna «Voce».** `personaggio` = nome proprio. `collettivo` = voce senza nome proprio, con attendibilità `C`. In questo anno sono **2 su 30**, ed è una novità: la prima è **una macchina** (una tappa la cui protagonista non è una persona), la seconda sono **gli ingegneri delle reti**. Entrambe servono alla stessa cosa: togliere la centralità dell'individuo, che è la lezione del materiale.
+**Colonna «Voce».** `personaggio` = nome proprio. `collettivo` = voce senza nome proprio, con attendibilità `C`. In questo anno sono **3 su 30**, ed è una novità: **una macchina** (una tappa la cui protagonista non è una persona), **gli ingegneri delle reti**, e **le mani che hanno approssimato √2** alla 5-6. Il numero era **2** e la frase era sbagliata: la tabella ne porta tre, tutte e tre marcate `collettivo C`, e il conto l'aveva perso perché contava le voci che aveva in testa invece di quelle che aveva scritto (03/10/2026). Entrambe servono alla stessa cosa: togliere la centralità dell'individuo, che è la lezione del materiale.
 
 **Colonna «Stato».** `def` = persona defunta, `in formazione` = persona vivente, scheda con `stato: in formazione`, **solo emblema e nessuna affermazione di correttezza** (decisione di Pietro, 01/10/2026: §0.3 d).
 
@@ -553,7 +553,7 @@ Le funzioni del materiale sono diverse da quelle dell'anno 4 (lì erano testimon
 | **Chi ha prodotto il numero** | il giocatore impara il suo metodo e ne ripete la logica | Fermi (5-1), von Neumann (5-5), Newton (5-3), Dijkstra (5-21) |
 | **Chi ha prodotto il metodo senza produrre il numero** | il caso più importante dell'anno: la persona che ha costruito lo strumento ma non ha fatto il calcolo | Katherine Johnson non è nel percorso; **Perlman** (5-16) scrive il protocollo, **Cerf** (5-17) scrive lo standard, **Davies** (5-19) batte il nome, **Berners-Lee** (5-23) propone il nome |
 | **Chi ha mostrato che il numero non basta** | il caso in cui il metodo funziona e la comprensione manca | LeCun (5-15), Buolamwini (5-26), Gebru (5-28) |
-| **Il collettivo** | la voce senza nome, con attendibilità `C` | **La macchina** (5-13) e **Gli ingegneri delle reti** (5-18): due tappe su trenta senza nome proprio |
+| **Il collettivo** | la voce senza nome, con attendibilità `C` | **La macchina** (5-13), **Gli ingegneri delle reti** (5-18) e **Le mani che hanno approssimato √2** (5-6): tre tappe su trenta senza nome proprio |
 | **Il committente** | colui per cui il progetto esiste, e che non ne vedrà la fine | Alfonso II (5-20), che è anche l'unico personaggio del gioco che **non attraversa** i cinque anni |
 
 *(aggiunta — la quarta funzione è la più nuova e la più importante)* La seconda funzione risolve un problema che il gioco porta dal primo anno e non aveva mai affrontato: **l'informatica è fatta di persone che non compaiono nei libri di storia**. Nell'anno 5 questa cosa è diventata visibile perché i protocolli informatici hanno una data di pubblicazione e un nome, e quello che hanno non è una persona. Il gioco lo dice: «il protocollo di instradamento ha un nome. Chi gli ha dato il nome?».
@@ -868,6 +868,10 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
 ---
 
 ## 15. Registro modifiche
+
+- **v0.6 (03/10/2026)**: **le voci collettive erano tre, non due, e la frase le contava a memoria.** Il §5 dichiarava «**2 su 30**», e la tabella ne porta **tre**: la macchina (5-13), gli ingegneri delle reti (5-18) e **le mani che hanno approssimato √2** (5-6) — tutte e tre marcate `collettivo C` nella propria casella della voce. Il numero è corretto in due posti (§5 e la scheda di §11) e la terza voce è declaration nominata, perché un conteggio che non elenca è un conteggio che si rifà a memoria.
+  - Il difetto è stato trovato da `sorgenti/estrai_incontri.py`, che legge le tabelle degli anni per **intestazione** e confronta il conto con la frase dei documenti: il controllo è **C5** in `sorgenti/verifica_incontri.py`, ed è l'unico dei cinque che confronta un dato con **una frase scritta a mano** in quattro documenti diversi. Provato con difetto iniettato (riportando il numero a 2) e morde;
+  - nasce da qui `docs/videogioco-5-duchi-itinerari.md`, che mette in una riga per tappa le tre cose che erano in tre documenti separati: il luogo (qui), la voce e i facoltativi (qui) e il mezzo (`percorsi.md` §1). Le sue tabelle sono **generate**, non scritte: 150 righe scritte a mano avrebbero finito con una cifra che il dato non conferma, ed è esattamente il difetto di questa versione.
 
 - **v0.5 (03/10/2026)**: due punti chiusi e un numero che era semplicemente **sbagliato**. Il punto 10bis — la resa grafica delle stanze, che dichiarava «quindici stanze su trenta senza coordinate» e lo chiamava «il primo ostacolo alla giocabilità» — è chiuso: nessuna stanza ha un disegno proprio, e le trenta stanze del quinto anno sono **28 con un punto e 2 senza**. Le due sono 5-18 e 5-22, dichiarate. La regola è in `furioso.md` §4.12 e i tre gradi delle 51 ipotesi in `luoghi.md` §4.8.
 

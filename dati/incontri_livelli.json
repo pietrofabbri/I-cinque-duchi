@@ -1,0 +1,4748 @@
+{
+  "versione": 1,
+  "data": "2026-10-03",
+  "scopo": "gli incontri dei centocinquanta livelli: chi e' la voce obbligatoria, chi sono i facoltativi, dove, e con quale mezzo",
+  "come_si_estrae": "colonne per intestazione dalle tabelle delle tappe degli anni 1-5, mai per numero: il quinto anno ha una colonna in piu' (la stanza) e l'anno 1 ne ha un'altra (l'aggancio)",
+  "avvertenza_mezzo": "il mezzo e' quello dichiarato per anno in percorsi.md §1, e per il quinto anno NON e' dichiarato: ci sono ventidue mezzi e la scelta e' del motore, che ha le distanze",
+  "avvertenza_voce": "una voce senza codice puo' essere collettiva (una macchina, gli ingegneri delle reti) e allora non ha scheda: il campo `codice` vale null e va detto",
+  "mezzo_dichiarato": {
+    "1": "a_piedi",
+    "2": "cavallo",
+    "3": "cavallo",
+    "4": "nave",
+    "5": null
+  },
+  "tappe": 150,
+  "per_anno": {
+    "1": {
+      "tappe": 30,
+      "facoltativi": 25,
+      "voci_nominali": 0,
+      "facoltative_nominali": 0
+    },
+    "2": {
+      "tappe": 30,
+      "facoltativi": 59,
+      "voci_nominali": 25,
+      "facoltative_nominali": 10
+    },
+    "3": {
+      "tappe": 30,
+      "facoltativi": 61,
+      "voci_nominali": 23,
+      "facoltative_nominali": 7
+    },
+    "4": {
+      "tappe": 30,
+      "facoltativi": 63,
+      "voci_nominali": 26,
+      "facoltative_nominali": 24
+    },
+    "5": {
+      "tappe": 30,
+      "facoltativi": 61,
+      "voci_nominali": 15,
+      "facoltative_nominali": 23
+    }
+  },
+  "saltate": 0,
+  "incontri": [
+    {
+      "livello": "1-1",
+      "anno": 1,
+      "argomento": "Cattedrale di San Giorgio (Piazza della Cattedrale)",
+      "luogo": "Cattedrale di San Giorgio (Piazza della Cattedrale)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "San Maurelio",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "San Giorgio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-2",
+      "anno": 1,
+      "argomento": "Loggia dei Merciai (Piazza Trento e Trieste, fianco sud della Cattedrale)",
+      "luogo": "Loggia dei Merciai (Piazza Trento e Trieste, fianco sud della Cattedrale)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Mercanti, artigiani e cittadini",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Gli Adelardi",
+          "codice": null,
+          "nota": "famiglia",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-3",
+      "anno": 1,
+      "argomento": "Piazza Trento e Trieste e Palazzo della Ragione (Piazza Trento e Trieste)",
+      "luogo": "Piazza Trento e Trieste e Palazzo della Ragione (Piazza Trento e Trieste)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Salinguerra Torelli",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Matilde di Canossa",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-4",
+      "anno": 1,
+      "argomento": "Museo della Cattedrale (ex San Romano) (Via San Romano 1)",
+      "luogo": "Museo della Cattedrale (ex San Romano) (Via San Romano 1)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Guido Monaco (Guido d'Arezzo) a Pomposa",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-5",
+      "anno": 1,
+      "argomento": "Vicolo del Chiozzino (dal volto in via Ripagrande a via Piangipane)",
+      "luogo": "Vicolo del Chiozzino (dal volto in via Ripagrande a via Piangipane)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Bartolomeo Chiozzi, il \"Mago Chiozzino\"",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-6",
+      "anno": 1,
+      "argomento": "MEIS (Via Piangipane 81)",
+      "luogo": "MEIS (Via Piangipane 81)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "La comunità ebraica ferrarese",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-7",
+      "anno": 1,
+      "argomento": "Palazzo Municipale e Volto del Cavallo (Piazza del Municipio 2)",
+      "luogo": "Palazzo Municipale e Volto del Cavallo (Piazza del Municipio 2)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Obizzo II d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Leonello d'Este, Leon Battista Alberti",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-8",
+      "anno": 1,
+      "argomento": "Castello Estense (Largo Castello 1)",
+      "luogo": "Castello Estense (Largo Castello 1)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Alfonso I d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Nicolò II d'Este, Dosso Dossi",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-9",
+      "anno": 1,
+      "argomento": "Teatro Comunale (Corso Martiri della Libertà 5)",
+      "luogo": "Teatro Comunale (Corso Martiri della Libertà 5)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Antonio Foschini",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Napoleone e l'età francese",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-10",
+      "anno": 1,
+      "argomento": "Palazzo Paradiso (Biblioteca Ariostea) (Via delle Scienze 17)",
+      "luogo": "Palazzo Paradiso (Biblioteca Ariostea) (Via delle Scienze 17)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Guarino Veronese",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alberto V d'Este, Niccolò Copernico",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-11",
+      "anno": 1,
+      "argomento": "Palazzo Renata di Francia (Via Savonarola 9)",
+      "luogo": "Palazzo Renata di Francia (Via Savonarola 9)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ercole II d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Renata di Francia",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-12",
+      "anno": 1,
+      "argomento": "Casa Romei (Via Savonarola 30)",
+      "luogo": "Casa Romei (Via Savonarola 30)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giovanni Romei",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tito Vespasiano Strozzi",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-13",
+      "anno": 1,
+      "argomento": "Monastero del Corpus Domini (Via Campofranco 1)",
+      "luogo": "Monastero del Corpus Domini (Via Campofranco 1)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Lucrezia Borgia",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ludovico Bonaccioli",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-14",
+      "anno": 1,
+      "argomento": "Monastero di Sant'Antonio in Polesine (Via del Gambone 15)",
+      "luogo": "Monastero di Sant'Antonio in Polesine (Via del Gambone 15)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Beata Beatrice II d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Le monache di Sant'Antonio in Polesine",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-15",
+      "anno": 1,
+      "argomento": "Palazzo Schifanoia (Via Scandiana 23)",
+      "luogo": "Palazzo Schifanoia (Via Scandiana 23)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Francesco del Cossa",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ercole de' Roberti, Borso d'Este",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-16",
+      "anno": 1,
+      "argomento": "Palazzo Bonacossi (Via Cisterna del Follo 5)",
+      "luogo": "Palazzo Bonacossi (Via Cisterna del Follo 5)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Pellegrino Prisciani",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Taddeo Crivelli e i miniatori della Bibbia di Borso",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-17",
+      "anno": 1,
+      "argomento": "Palazzina Marfisa d'Este (Corso Giovecca 170)",
+      "luogo": "Palazzina Marfisa d'Este (Corso Giovecca 170)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Marfisa d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-18",
+      "anno": 1,
+      "argomento": "Antico Ospedale di Sant'Anna (cella del Tasso) (Corso della Giovecca 203)",
+      "luogo": "Antico Ospedale di Sant'Anna (cella del Tasso) (Corso della Giovecca 203)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Alfonso II d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Torquato Tasso",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-19",
+      "anno": 1,
+      "argomento": "Piazza Ariostea e colonna (Piazza Ariostea)",
+      "luogo": "Piazza Ariostea e colonna (Piazza Ariostea)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Napoleone e l'età francese",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-20",
+      "anno": 1,
+      "argomento": "Palazzo Massari (Museo Boldini) (Corso Porta Mare 9)",
+      "luogo": "Palazzo Massari (Museo Boldini) (Corso Porta Mare 9)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giovanni Boldini",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Filippo de Pisis",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-21",
+      "anno": 1,
+      "argomento": "Palazzo dei Diamanti (Pinacoteca) (Corso Ercole I d'Este 21)",
+      "luogo": "Palazzo dei Diamanti (Pinacoteca) (Corso Ercole I d'Este 21)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Biagio Rossetti",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Cosmè Tura",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-22",
+      "anno": 1,
+      "argomento": "Quadrivio degli Angeli (Palazzo Prosperi-Sacrati) (incrocio Corso Ercole I d'Este / Corso Porta Mare / Corso Biagio Rossetti)",
+      "luogo": "Quadrivio degli Angeli (Palazzo Prosperi-Sacrati) (incrocio Corso Ercole I d'Este / Corso Porta Mare / Corso Biagio Rossetti)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ercole I d'Este",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Josquin des Prez",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-23",
+      "anno": 1,
+      "argomento": "Palazzo Turchi di Bagno e Orto Botanico (Corso Ercole I d'Este 32)",
+      "luogo": "Palazzo Turchi di Bagno e Orto Botanico (Corso Ercole I d'Este 32)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Antonio Musa Brasavola",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Gabriele Falloppio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-24",
+      "anno": 1,
+      "argomento": "Museo del Risorgimento e della Resistenza (Corso Ercole I d'Este 19)",
+      "luogo": "Museo del Risorgimento e della Resistenza (Corso Ercole I d'Este 19)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Tancredi Mosti Trotti Estense",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "I Bersaglieri del Po",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-25",
+      "anno": 1,
+      "argomento": "Casa di Ludovico Ariosto (Via Ariosto 67)",
+      "luogo": "Casa di Ludovico Ariosto (Via Ariosto 67)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ludovico Ariosto",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Matteo Maria Boiardo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-26",
+      "anno": 1,
+      "argomento": "Porta degli Angeli e mura nord (fine di Corso Ercole I d'Este)",
+      "luogo": "Porta degli Angeli e mura nord (fine di Corso Ercole I d'Este)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giulio Natta",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Paolo Mazza",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-27",
+      "anno": 1,
+      "argomento": "Certosa: chiostro, monumento a Teodoro Bonati (Certosa (punto interno, senza civico))",
+      "luogo": "Certosa: chiostro, monumento a Teodoro Bonati (Certosa (punto interno, senza civico))",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Teodoro Bonati",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il territorio del Po",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-28",
+      "anno": 1,
+      "argomento": "Cimitero ebraico (Via delle Vigne 20)",
+      "luogo": "Cimitero ebraico (Via delle Vigne 20)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giorgio Bassani",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "La comunità ebraica ferrarese",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-29",
+      "anno": 1,
+      "argomento": "Certosa: cimitero monumentale (Piazza della Certosa)",
+      "luogo": "Certosa: cimitero monumentale (Piazza della Certosa)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Michelangelo Antonioni",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Florestano Vancini, Riccardo Bacchelli",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "1-30",
+      "anno": 1,
+      "argomento": "Certosa: chiesa di San Cristoforo (Piazza della Certosa)",
+      "luogo": "Certosa: chiesa di San Cristoforo (Piazza della Certosa)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "La città (P93)",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Brondi (P87)",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "a_piedi",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-1",
+      "anno": 2,
+      "argomento": "Pensiero computazionale: scomporre un problema",
+      "luogo": "Bolzano, Museo archeologico altoatesino",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ötzi",
+        "codice": "Q01",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "La Dama di Verrucchio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i popoli della penisola",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-2",
+      "anno": 2,
+      "argomento": "Che cos'è un algoritmo",
+      "luogo": "Crotone",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Pitagora",
+        "codice": "Q11",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Archita",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Al-Khwārizmī",
+          "codice": null,
+          "nota": "approfondimento 2-2",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-3",
+      "anno": 2,
+      "argomento": "Diagrammi di flusso",
+      "luogo": "Roma, area del Campidoglio",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Romolo",
+        "codice": "Q05",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tarquinio il Superbo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Lucrezia",
+          "codice": null,
+          "nota": "della tradizione",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-4",
+      "anno": 2,
+      "argomento": "Pseudocodice",
+      "luogo": "Squillace, monastero di Vivarium",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Cassiodoro",
+        "codice": "Q34",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I copisti",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-5",
+      "anno": 2,
+      "argomento": "Variabili, tipi, assegnazione",
+      "luogo": "Roma",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Appio Claudio Cieco",
+        "codice": "Q19",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Camillo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Cincinnato",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-6",
+      "anno": 2,
+      "argomento": "Espressioni e operatori logici",
+      "luogo": "Elea (Velia)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Parmenide",
+        "codice": "Q12",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Zenone di Elea",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i fisici di Crotone",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-7",
+      "anno": 2,
+      "argomento": "Sequenza, selezione, iterazione",
+      "luogo": "Roma, Tuscolo",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Cincinnato",
+        "codice": "Q17",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Camillo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Catone il Censore",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-8",
+      "anno": 2,
+      "argomento": "Tipologie di linguaggi: livelli, compilati e interpretati, storia",
+      "luogo": "Milano",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Leonardo da Vinci",
+        "codice": "Q63",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Isabella d'Este",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        },
+        {
+          "nome": "Leonello d'Este",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-9",
+      "anno": 2,
+      "argomento": "Il primo linguaggio: input, output, sintassi",
+      "luogo": "Roma, Curia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Cicerone",
+        "codice": "Q21",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Cornelia",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "gli ambasciatori",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-10",
+      "anno": 2,
+      "argomento": "Prova di corte: tracing di programmi",
+      "luogo": "Roma, villa dei Gracchi",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Cornelia, madre dei Gracchi",
+        "codice": "Q27",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tiberio Gracco",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Gaio Gracco",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-11",
+      "anno": 2,
+      "argomento": "Selezione: if, elif, else",
+      "luogo": "Elea (Velia)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Zenone di Elea",
+        "codice": "Q13",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Parmenide",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Appio Claudio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-12",
+      "anno": 2,
+      "argomento": "Iterazione: while, contatori, accumulatori",
+      "luogo": "Porta `PT-CAR` (Ferrara)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Annibale",
+        "codice": "Q22",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Scipione l'Africano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Catone il Censore",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-13",
+      "anno": 2,
+      "argomento": "Iterazione: for e range",
+      "luogo": "Roma",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Catone il Censore",
+        "codice": "Q26",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tiberio Gracco",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Scipione l'Africano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-14",
+      "anno": 2,
+      "argomento": "Cicli annidati",
+      "luogo": "Firenze",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Dante Alighieri",
+        "codice": "Q47",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Petrarca",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Boccaccio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-15",
+      "anno": 2,
+      "argomento": "Algoritmi classici: massimo, minimo, somma, media",
+      "luogo": "Palermo",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Federico II di Svevia",
+        "codice": "Q44",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Costanza d'Altavilla",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Manfredi",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-16",
+      "anno": 2,
+      "argomento": "Algoritmo di Euclide e numeri primi",
+      "luogo": "Taranto",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Archita di Taranto",
+        "codice": "Q14",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Pitagora",
+          "codice": null,
+          "nota": "ricomparsa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Euclide",
+          "codice": null,
+          "nota": "porta",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-17",
+      "anno": 2,
+      "argomento": "Funzioni: definizione, parametri, valore di ritorno",
+      "luogo": "Roma",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Tiberio Gracco",
+        "codice": "Q28",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Cesare",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Catone Uticense",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-18",
+      "anno": 2,
+      "argomento": "Visibilità e scomposizione in funzioni",
+      "luogo": "Roma",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giulio Cesare",
+        "codice": "Q20",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Cicerone",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Cleopatra",
+          "codice": null,
+          "nota": "porta",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-19",
+      "anno": 2,
+      "argomento": "Test e debugging",
+      "luogo": "Chiusi",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Lars Porsenna",
+        "codice": "Q10",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Teodolinda",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i coloni",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-20",
+      "anno": 2,
+      "argomento": "Prova di corte: problemi con funzioni",
+      "luogo": "Roma",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Augusto",
+        "codice": "Q29",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ottaviano giovane",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Agrippa",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-21",
+      "anno": 2,
+      "argomento": "Liste e array",
+      "luogo": "Porta `PT-AQU` (Ferrara)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Carlo Magno",
+        "codice": "Q37",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Matilde di Canossa",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        },
+        {
+          "nome": "le città del Nord",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-22",
+      "anno": 2,
+      "argomento": "Ricerca lineare",
+      "luogo": "Venezia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Marco Polo",
+        "codice": "Q46",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Francesco Sforza",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i mercanti",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-23",
+      "anno": 2,
+      "argomento": "Stringhe e testo",
+      "luogo": "Roma, Curia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "I copisti e gli amanuensi",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il tipografo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Lucrezia",
+          "codice": null,
+          "nota": "della tradizione",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-24",
+      "anno": 2,
+      "argomento": "Cifrari di Cesare e di Vigenère ★",
+      "luogo": "Firenze",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Leon Battista Alberti",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Enigma",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i cifrari di Stato",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-25",
+      "anno": 2,
+      "argomento": "Grafica con la tartaruga",
+      "luogo": "Ferrara, zona dell'Addizione Erculea",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Biagio Rossetti",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "catalogo_anno1"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ercole I",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i muratori",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-26",
+      "anno": 2,
+      "argomento": "Il caso: dadi, frequenze, probabilità simulate ★",
+      "luogo": "Ferrara, corte",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Lucrezia Borgia",
+        "codice": "Q41",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Isabella d'Este",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        },
+        {
+          "nome": "Tasso",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-27",
+      "anno": 2,
+      "argomento": "Foglio elettronico avanzato: SE, CERCA, tabelle pivot",
+      "luogo": "Porta `PT-CON` (Ferrara)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giustiniano",
+        "codice": "Q35",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alboino",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Teodolinda",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-28",
+      "anno": 2,
+      "argomento": "Come è fatta Internet: indirizzi, DNS, pacchetti",
+      "luogo": "Ferrara, corte",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "I corrieri e i messaggeri",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Cristoforo Colombo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Amerigo Vespucci",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-29",
+      "anno": 2,
+      "argomento": "Collaborare in rete: cloud, posta, privacy, diritto d'autore",
+      "luogo": "Porta `PT-COL` (Ferrara)",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Amerigo Vespucci",
+        "codice": "Q45",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Colombo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i copisti",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "2-30",
+      "anno": 2,
+      "argomento": "Prova finale dell'anno: generare una pianta rispettando vincoli",
+      "luogo": "Ferrara, corte",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Il consiglio di corte: i progettisti, i muratori, i proprietari, i contadini",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ercole I",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "le donne della corte",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-1",
+      "anno": 3,
+      "argomento": "Interi con segno e complemento a 2",
+      "luogo": "Alessandria",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Eratostene",
+        "codice": "Q101",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Archimede",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i matematici di Alessandria",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-2",
+      "anno": 3,
+      "argomento": "Virgola mobile (IEEE 754) ed errori",
+      "luogo": "Frombork",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Copernico",
+        "codice": "Q102",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Keplero",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Tycho Brahe",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-3",
+      "anno": 3,
+      "argomento": "Array e matrici",
+      "luogo": "Roma",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Augusto",
+        "codice": "Q103",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Traiano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Adriano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-4",
+      "anno": 3,
+      "argomento": "Ordinamento: selection sort e bubble sort",
+      "luogo": "Atene",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Solone",
+        "codice": "Q104",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Pericle",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Socrate",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-5",
+      "anno": 3,
+      "argomento": "Ordinamento: insertion sort",
+      "luogo": "Atene",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Pericle",
+        "codice": "Q105",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Solone",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Tucidide",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-6",
+      "anno": 3,
+      "argomento": "Ricerca binaria; logaritmi ★",
+      "luogo": "Atene",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Platone",
+        "codice": "Q106",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Aristotele",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Socrate",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-7",
+      "anno": 3,
+      "argomento": "Contare i passi: complessità",
+      "luogo": "Ravenna",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Belisario",
+        "codice": "Q107",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Giustiniano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Teodorico",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-8",
+      "anno": 3,
+      "argomento": "Ricorsione",
+      "luogo": "Castel del Monte",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Federico II",
+        "codice": "Q108",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Manfredi",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Costanza d'Altavilla",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-9",
+      "anno": 3,
+      "argomento": "Divide et impera: merge sort ★",
+      "luogo": "Pella",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Alessandro Magno",
+        "codice": "Q109",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tolemeo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Pericle",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-10",
+      "anno": 3,
+      "argomento": "Prova di corte: ordinare e contare i passi",
+      "luogo": "Ferrara, fonderia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Alfonso I d'Este",
+        "codice": "Q110",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tiziano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ercole II",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-11",
+      "anno": 3,
+      "argomento": "Stringhe avanzate e ricerca di schemi; automi ★",
+      "luogo": "Ferrara, corte",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ludovico Ariosto",
+        "codice": "Q111",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Boiardo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Tasso",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-12",
+      "anno": 3,
+      "argomento": "File e CSV",
+      "luogo": "Aquisgrana",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Alcuino",
+        "codice": "Q112",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Carlo Magno",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Eginardo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-13",
+      "anno": 3,
+      "argomento": "Metodologie: top-down e modularità",
+      "luogo": "Milano",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Leonardo da Vinci",
+        "codice": "Q113",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alberti",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Bramante",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-14",
+      "anno": 3,
+      "argomento": "Documentazione, stile, controllo di versione (Git) ★",
+      "luogo": "Firenze",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Niccolò Machiavelli",
+        "codice": "Q114",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Guicciardini",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Cesare",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-15",
+      "anno": 3,
+      "argomento": "Formati di immagine: bitmap e vettoriale",
+      "luogo": "Ferrara, Camerino d'alabastro",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Dosso Dossi",
+        "codice": "Q115",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Bellini",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Tiziano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-16",
+      "anno": 3,
+      "argomento": "Compressione senza perdita",
+      "luogo": "Magonza",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Johannes Gutenberg",
+        "codice": "Q116",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Fust",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Schöffer",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-17",
+      "anno": 3,
+      "argomento": "Audio digitale: campionamento e quantizzazione",
+      "luogo": "Ferrara, cappella",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Josquin",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alfonso I",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il coro della corte",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-18",
+      "anno": 3,
+      "argomento": "Compressione con perdita",
+      "luogo": "Alcalá de Henares",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Miguel de Cervantes",
+        "codice": "Q118",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Shakespeare",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Lope de Vega",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-19",
+      "anno": 3,
+      "argomento": "Linguaggi di markup: il concetto, Markdown",
+      "luogo": "Basilea",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Erasmo da Rotterdam",
+        "codice": "Q119",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Lutero",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Calvino",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-20",
+      "anno": 3,
+      "argomento": "Prova di corte: il Camerino restaurato",
+      "luogo": "Ferrara, Camerino",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giovanni Bellini",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tiziano",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Antonio Lombardo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-21",
+      "anno": 3,
+      "argomento": "Font e tipografia digitale",
+      "luogo": "Aquisgrana",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Carlo Magno",
+        "codice": "Q121",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alcuino",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Manuzio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-22",
+      "anno": 3,
+      "argomento": "XML: elementi, attributi, buona formazione",
+      "luogo": "Certaldo",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Giovanni Boccaccio",
+        "codice": "Q122",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Petrarca",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Franco Sacchetti",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-23",
+      "anno": 3,
+      "argomento": "HTML: struttura e semantica",
+      "luogo": "Parigi",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Tommaso d'Aquino",
+        "codice": "Q123",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alberto Magno",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Giovanni di San Vincenzo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-24",
+      "anno": 3,
+      "argomento": "SVG: la grafica vettoriale come testo",
+      "luogo": "Norimberga",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Albrecht Dürer",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Leonardo",
+          "codice": null,
+          "nota": "ritorno",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Raffaello",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-25",
+      "anno": 3,
+      "argomento": "CSS: selettori, box model, colori",
+      "luogo": "Venezia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Aldo Manuzio",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Francesco Griffo",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i caratterai",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-26",
+      "anno": 3,
+      "argomento": "Impaginazione e design responsive",
+      "luogo": "Westminster",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "William Caxton",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Caxton",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i miniatori",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-27",
+      "anno": 3,
+      "argomento": "Progettazione web: usabilità e accessibilità",
+      "luogo": "Parigi",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Olympe de Gouges",
+        "codice": "Q127",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Wollstonecraft",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Robespierre",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-28",
+      "anno": 3,
+      "argomento": "JavaScript di base: la pagina che reagisce",
+      "luogo": "Torino",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Primo Levi",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alan Turing",
+          "codice": null,
+          "nota": "facoltativa forte, era la voce obbligatoria",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ada Lovelace",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i matematici di Cambridge",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-29",
+      "anno": 3,
+      "argomento": "Pubblicare un sito; licenze e diritto d'autore",
+      "luogo": "Roma, Curia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "I tipografi e i privilegi",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Manuzio",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il Sant'Uffizio",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "3-30",
+      "anno": 3,
+      "argomento": "Prova finale: il sito della corte",
+      "luogo": "Mantova",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Isabella d'Este",
+        "codice": "Q130",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alfonso I",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i musei",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "cavallo",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-1",
+      "anno": 4,
+      "argomento": "Astrazione: dal problema al modello",
+      "luogo": "Uruk",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Gilgamesh",
+        "codice": "Q201",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "L'Eneuma Elish",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il re assiro",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-2",
+      "anno": 4,
+      "argomento": "Pile e code",
+      "luogo": "Il Cairo e le carovane",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ibn Battuta",
+        "codice": "Q202",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ibn Jubayr",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i portatori d'acqua",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-3",
+      "anno": 4,
+      "argomento": "Classi e oggetti",
+      "luogo": "Xianyang",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Qin Shi Huang",
+        "codice": "Q203",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il figlio di Shi Huangdi",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "gli scribi",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-4",
+      "anno": 4,
+      "argomento": "Attributi, metodi, costruttori",
+      "luogo": "Tebe",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Hatshepsut",
+        "codice": "Q204",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Nefertari",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i sacerdoti di Amun",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-5",
+      "anno": 4,
+      "argomento": "Incapsulamento",
+      "luogo": "Agra",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Akbar",
+        "codice": "Q205",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Abul Fazl",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "le città nuove",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-6",
+      "anno": 4,
+      "argomento": "Ereditarietà",
+      "luogo": "Karakorum",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Gengis Khan",
+        "codice": "Q206",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I quattro khanati",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i cronachi cinesi",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-7",
+      "anno": 4,
+      "argomento": "Polimorfismo e interfacce",
+      "luogo": "Hannover",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Leibniz",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Newton",
+          "codice": null,
+          "nota": "ritorno, v. §6.4",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Hooke",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-8",
+      "anno": 4,
+      "argomento": "Diagramma UML delle classi",
+      "luogo": "Uppsala",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Carl Linneo",
+        "codice": "Q208",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I lini",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "le critiche alla classificazione",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-9",
+      "anno": 4,
+      "argomento": "Liste collegate e riferimenti",
+      "luogo": "Il Cairo `A`, con Timbuctù `S`",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Mansa Musa",
+        "codice": "Q209",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I mercanti di Songhai",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ibn Battuta",
+          "codice": null,
+          "nota": "ritorno, facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-10",
+      "anno": 4,
+      "argomento": "Prova di corte: modellare un sistema a oggetti",
+      "luogo": "Ferrara, corte",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ercole II d'Este",
+        "codice": "Q210",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I magazzinieri",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Lucrezia Borgia",
+          "codice": null,
+          "nota": "ritorno",
+          "tipo": "personaggio",
+          "prova": "catalogo_anno1",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-11",
+      "anno": 4,
+      "argomento": "Implementare un linguaggio",
+      "luogo": "Baghdad",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Al-Khwarizmi",
+        "codice": "Q211",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tim Berners-Lee",
+          "codice": null,
+          "nota": "facoltativa forte dal 02/10/2026",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Robert of Chester",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il libro dell'algebra",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-12",
+      "anno": 4,
+      "argomento": "Analisi lessicale: i token",
+      "luogo": "Qufu",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Confucio",
+        "codice": "Q212",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il dizionario di Mengxi",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i calligrafi",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-13",
+      "anno": 4,
+      "argomento": "Grammatiche e sintassi (BNF)",
+      "luogo": "Alessandria",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ipazia",
+        "codice": "Q213",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I sacerdoti di Soknopaiou Nesos",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "le tre scritture",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-14",
+      "anno": 4,
+      "argomento": "Alberi sintattici e valutazione",
+      "luogo": "Tenochtitlán",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Moctezuma II",
+        "codice": "Q214",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Tlacaelel",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i calendari",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-15",
+      "anno": 4,
+      "argomento": "Un mini-interprete",
+      "luogo": "Chio e la Ionia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Omero",
+        "codice": "Q215",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I rapsodi",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Pisistrato",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-16",
+      "anno": 4,
+      "argomento": "Dato, informazione, archivio",
+      "luogo": "Pataliputra",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ashoka",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ibn Khaldun",
+          "codice": null,
+          "nota": "facoltativa forte, era la voce obbligatoria",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Cesare",
+          "codice": null,
+          "nota": "ritorno",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i monaci buddisti",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-17",
+      "anno": 4,
+      "argomento": "Modello E/R: entità, attributi, relazioni",
+      "luogo": "Bombay e Delhi",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "B. R. Ambedkar",
+        "codice": "Q217",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il tempio di Kalaram",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il poeta",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-18",
+      "anno": 4,
+      "argomento": "Cardinalità e vincoli",
+      "luogo": "Costantinopoli",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Solimano il Magnifico",
+        "codice": "Q218",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I millet",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ibrahim, fratello del sultano",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-19",
+      "anno": 4,
+      "argomento": "Modello relazionale: tabelle e chiavi",
+      "luogo": "Il Cairo",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Ibn al-Haytham",
+        "codice": "Q219",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il Libro degli specchi",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il muḥtasib",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-20",
+      "anno": 4,
+      "argomento": "Prova di corte: progettare uno schema E/R",
+      "luogo": "Ferrara e il regno",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "I censori",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Gli ufficiali del catasto",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il censitore cinese",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-21",
+      "anno": 4,
+      "argomento": "Dall'E/R allo schema relazionale",
+      "luogo": "Toledo",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Isabella di Castiglia",
+        "codice": "Q221",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I censitori",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i funzionari dell'archivio",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-22",
+      "anno": 4,
+      "argomento": "Normalizzazione (fino alla 3FN)",
+      "luogo": "Babilonia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Hammurabi",
+        "codice": "Q222",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il codice",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "la stele di Nippur",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-23",
+      "anno": 4,
+      "argomento": "Algebra relazionale: selezione, proiezione, join",
+      "luogo": "Lisbona e Calicut",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Vasco da Gama",
+        "codice": "Q223",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "I piloti di Malindi",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ahmad ibn Majid",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-24",
+      "anno": 4,
+      "argomento": "SQL: creare e modificare",
+      "luogo": "Nanchang e il mare",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Zheng He",
+        "codice": "Q224",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ma Huan",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i cantieri",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-25",
+      "anno": 4,
+      "argomento": "SQL: SELECT, WHERE, ORDER BY",
+      "luogo": "Annapolis e Baltimora",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Frederick Douglass",
+        "codice": "Q225",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Sojourner Truth",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i censitori",
+          "codice": null,
+          "nota": "ritorno",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-26",
+      "anno": 4,
+      "argomento": "SQL: JOIN",
+      "luogo": "Spagna e Tenochtitlán",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Hernán Cortés",
+        "codice": "Q226",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Las Casas",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i signori di Tlaxcala",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-27",
+      "anno": 4,
+      "argomento": "SQL: aggregazioni e GROUP BY",
+      "luogo": "Scutari e Costantinopoli",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Florence Nightingale",
+        "codice": "Q227",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Gorgas",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i soldati",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-28",
+      "anno": 4,
+      "argomento": "SQL da Python ★",
+      "luogo": "Motihari e Londra",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "George Orwell",
+        "codice": "Q228",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Il lavoro alla BBC",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "la revisione spagnola",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-29",
+      "anno": 4,
+      "argomento": "Privacy, GDPR, open data",
+      "luogo": "Parigi e Varsavia",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Marie Curie",
+        "codice": "Q229",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Malala Yousafzai",
+          "codice": null,
+          "nota": "facoltativa forte dal 02/10/2026",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il libro di Irène",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "l'Accademia",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "4-30",
+      "anno": 4,
+      "argomento": "Prova finale: database e applicazione a oggetti",
+      "luogo": "Ferrara, archivio",
+      "stanza": null,
+      "voce_obbligatoria": {
+        "nome": "Le persone che non hanno firmato",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Le voci senza nome",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ercole II",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": "nave",
+      "mezzo_stato": "dichiarato"
+    },
+    {
+      "livello": "5-1",
+      "anno": 5,
+      "argomento": "Errori numerici e approssimazione",
+      "luogo": "Chicago",
+      "stanza": "**la strada della fuga di Rinaldo** `F2` 1,32 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Enrico Fermi",
+        "codice": "Q301",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "il problema di Fermi",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "il fisico teorico",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-2",
+      "anno": 5,
+      "argomento": "Zeri di funzione: il metodo di bisezione",
+      "luogo": "Vienna",
+      "stanza": "**il bosco dove Orlando perde il senno** `F3` 23,124 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Karl Popper",
+        "codice": "Q302",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Thomas Kuhn",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Duhem e Quine",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-3",
+      "anno": 5,
+      "argomento": "Il metodo di Newton ★",
+      "luogo": "Londra",
+      "stanza": "**il bosco di Pontiero** `F9` 22,30 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Isaac Newton",
+        "codice": "Q303",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Eulero",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Ostrowski",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-4",
+      "anno": 5,
+      "argomento": "Aree sotto una curva: rettangoli e trapezi",
+      "luogo": "Bethesda",
+      "stanza": "**la Luna** `F9` 34,49 · `I`",
+      "voce_obbligatoria": {
+        "nome": "Vera Rubin",
+        "codice": "Q306",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Ford e Thonnard",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "de Sitter",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-5",
+      "anno": 5,
+      "argomento": "Stimare π con il metodo Monte Carlo",
+      "luogo": "Los Alamos",
+      "stanza": "**la foresta dove passa Ferraú** `F2` 1,77 · `A`",
+      "voce_obbligatoria": {
+        "nome": "John von Neumann",
+        "codice": "Q304",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Stanislaw Ulam",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Nicholas Metropolis",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-6",
+      "anno": 5,
+      "argomento": "Successioni e ricorrenze: approssimare √2",
+      "luogo": "Babilonia",
+      "stanza": "**la corte di Scozia** `F5` 5,23 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Le mani che hanno approssimato √2",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "il regolo babilonese",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "i matematici arabi",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-7",
+      "anno": 5,
+      "argomento": "Simulazione a tempo discreto: il moto (Eulero)",
+      "luogo": "Londra",
+      "stanza": "**il fossato di Sarza, sotto Parigi** `F1` 14,133 · `A`",
+      "voce_obbligatoria": {
+        "nome": "James Lovelock",
+        "codice": "Q307",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Margret Turner",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i modelli climatici",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-8",
+      "anno": 5,
+      "argomento": "Oscillatori e attrito",
+      "luogo": "Bajkonur",
+      "stanza": "**l'aria sopra la foresta** `F9` 23,16 · `N`",
+      "voce_obbligatoria": {
+        "nome": "Sergej Korolëv",
+        "codice": "Q308",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "il programma spaziale",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "Oktyabrskij",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-9",
+      "anno": 5,
+      "argomento": "Modelli di popolazione e di ecosistema: SIR",
+      "luogo": "Londra, Broad Street",
+      "stanza": "**la strada di Pontiero** `F5` 23,40 · `A`",
+      "voce_obbligatoria": {
+        "nome": "John Snow",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "William Farr",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "le statistiche cittadine",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-10",
+      "anno": 5,
+      "argomento": "Prova di corte: validare un modello e confrontarlo con le fonti",
+      "luogo": "Stoccolma",
+      "stanza": "**il paese degli incantatori** `F6` 8,1 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Hans Rosling",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Gapminder",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i revisori dei modelli",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-11",
+      "anno": 5,
+      "argomento": "Confrontare un modello con i dati: minimi quadrati",
+      "luogo": "Princeton",
+      "stanza": "**l'isola di Alcina** `F6` 6,35 · `I`",
+      "voce_obbligatoria": {
+        "nome": "Fei-Fei Li",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "chi ha etichettato ImageNet",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "Jia Deng",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-12",
+      "anno": 5,
+      "argomento": "Automi a stati finiti",
+      "luogo": "Buenos Aires",
+      "stanza": "**il petron di Merlino** `F10` 11,4 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Jorge Luis Borges",
+        "codice": "Q312",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "«Tlön, Uqbar, Orbis Tertius»",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "i bibliotecari",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-13",
+      "anno": 5,
+      "argomento": "La macchina di Turing",
+      "luogo": "Cambridge",
+      "stanza": "**la pagina** `F3` 1,2 · `S`",
+      "voce_obbligatoria": {
+        "nome": "La macchina",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Alan Turing",
+          "codice": null,
+          "nota": "ritorno dal 3-28",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Alonzo Church",
+          "codice": null,
+          "nota": "ritorno, 5-14",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-14",
+      "anno": 5,
+      "argomento": "Calcolabilità: il problema della fermata",
+      "luogo": "Princeton",
+      "stanza": "**il campo** `F12` 32,102 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Alonzo Church",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Turing",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "il lambda calculus",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-15",
+      "anno": 5,
+      "argomento": "Complessità: P e NP in modo intuitivo",
+      "luogo": "New York",
+      "stanza": "**il castello d'Atlante** `F4` 4,30 · `I`",
+      "voce_obbligatoria": {
+        "nome": "Yann LeCun",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Stephen Cook",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Leslie Valiant",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-16",
+      "anno": 5,
+      "argomento": "Reti: tipi, topologie, commutazione",
+      "luogo": "Seattle",
+      "stanza": "**il ponte d'Erifilla sulla riviera** `F5` 7,2 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Radia Perlman",
+        "codice": "Q316",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Bob Kahn",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i ponti",
+          "codice": null,
+          "nota": "collettivo, facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-17",
+      "anno": 5,
+      "argomento": "Modelli a strati: ISO/OSI e TCP/IP",
+      "luogo": "Los Angeles",
+      "stanza": "**i monti Rifei** `F4` 4,18 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Vint Cerf",
+        "codice": "Q317",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Bob Kahn",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Louis Pouzin",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-18",
+      "anno": 5,
+      "argomento": "Livello fisico e di collegamento: Ethernet, CRC",
+      "luogo": "una sala di riunione, 1983",
+      "stanza": "**il libro di Turpino** `F12` 24,44 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Gli ingegneri delle reti",
+        "codice": null,
+        "tipo": "collettivo",
+        "prova": "marcatura_nella_tabella"
+      },
+      "facoltativi": [
+        {
+          "nome": "Donald Davies",
+          "codice": null,
+          "nota": "facoltativa, è al 5-19",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Bob Kahn",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-19",
+      "anno": 5,
+      "argomento": "Indirizzi IP e subnetting",
+      "luogo": "Londra",
+      "stanza": "**Montalbano** `F4` 30,93 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Donald Davies",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Peter Kirstein",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "la Cambridge Ring",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-20",
+      "anno": 5,
+      "argomento": "Prova di corte: progettare la rete di un edificio",
+      "luogo": "Ferrara",
+      "stanza": "**Zibeltaro e l'Erculeo segno, cioè Ferrara** `F1` 16,37 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Alfonso II d'Este",
+        "codice": "Q320",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Aleotti",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "i geometri ducali",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-21",
+      "anno": 5,
+      "argomento": "Instradamento e grafi: Dijkstra",
+      "luogo": "Rotterdam",
+      "stanza": "**la selva** `F2` 1,64 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Edsger Dijkstra",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Bellman",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Floyd",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-22",
+      "anno": 5,
+      "argomento": "TCP, UDP e porte",
+      "luogo": "un documento del 2008",
+      "stanza": "**il campo davanti a Parigi** `F1` 1,9 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Satoshi Nakamoto",
+        "codice": "Q322",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Vitalik Buterin",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "chi ha perso",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "Ruggiero e la conversione `5-22F`**",
+          "codice": null,
+          "nota": "canto XXV, 89: la promessa che aspetta una condizione",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-23",
+      "anno": 5,
+      "argomento": "Servizi di rete: DNS, HTTP, posta",
+      "luogo": "Ginevra",
+      "stanza": "**il regno di Logistilla** `F7` 6,45 · `I`",
+      "voce_obbligatoria": {
+        "nome": "Tim Berners-Lee",
+        "codice": "Q323",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "il CERN nel 1990",
+          "codice": null,
+          "nota": null,
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        },
+        {
+          "nome": "i primi browser",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-24",
+      "anno": 5,
+      "argomento": "Sicurezza in rete: crittografia asimmetrica",
+      "luogo": "un ufficio riservato, 1970",
+      "stanza": "**la corte di Scozia** `F5` 5,18 · `A`",
+      "voce_obbligatoria": {
+        "nome": "James Ellis",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Diffie e Hellman",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Rivest, Shamir, Adleman",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-25",
+      "anno": 5,
+      "argomento": "Prestazioni: banda, latenza, throughput",
+      "luogo": "Murray Hill, 1948",
+      "stanza": "**la strada del messaggero** `F12` 30,80 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Claude Shannon",
+        "codice": "Q325",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Norbert Wiener",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "von Neumann",
+          "codice": null,
+          "nota": "ritorno, 5-5",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-26",
+      "anno": 5,
+      "argomento": "Intelligenza artificiale: imparare dai dati",
+      "luogo": "Boston, 2018",
+      "stanza": "**il duello di Ginevra** `F5` 5,36 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Joy Buolamwini",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Timnit Gebru",
+          "codice": null,
+          "nota": "facoltativa, è al 5-28",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "chi ha costruito i dataset",
+          "codice": null,
+          "nota": "collettivo",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-27",
+      "anno": 5,
+      "argomento": "Reti neurali in modo intuitivo ★",
+      "luogo": "Toronto, 2012",
+      "stanza": "**la tomba di Merlino, nelle selve di Pontiero** `F8` 7,38 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Geoffrey Hinton",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Yann LeCun",
+          "codice": null,
+          "nota": "ritorno, 5-15",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "Yoshua Bengio",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-28",
+      "anno": 5,
+      "argomento": "IA generativa: limiti, etica, AI Act ★",
+      "luogo": "Seattle, 2020",
+      "stanza": "**il luogo del pentimento** `F12` 30,2 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Timnit Gebru",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Margaret Mitchell",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "le schede dei dataset",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-29",
+      "anno": 5,
+      "argomento": "Informatica e metodo scientifico",
+      "luogo": "Londra, 2020",
+      "stanza": "**la corte di Scozia** `F1` 12,12 · `A`",
+      "voce_obbligatoria": {
+        "nome": "Demis Hassabis",
+        "codice": null,
+        "tipo": "personaggio",
+        "prova": "iniziale_maiuscola"
+      },
+      "facoltativi": [
+        {
+          "nome": "Bruno Latour",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "AlphaFold",
+          "codice": null,
+          "nota": "facoltativa",
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    },
+    {
+      "livello": "5-30",
+      "anno": 5,
+      "argomento": "Prova finale: un progetto di simulazione completo",
+      "luogo": "Ferrara, sala di progetto",
+      "stanza": "**la prima pagina** `F3` 1,1 · `S`",
+      "voce_obbligatoria": {
+        "nome": "Daniel Kahneman",
+        "codice": "Q330",
+        "tipo": "personaggio",
+        "prova": "codice"
+      },
+      "facoltativi": [
+        {
+          "nome": "Amos Tversky",
+          "codice": null,
+          "nota": null,
+          "tipo": "personaggio",
+          "prova": "iniziale_maiuscola",
+          "facoltativa": false
+        },
+        {
+          "nome": "chi scriverà nelle fasce bianche",
+          "codice": null,
+          "nota": "facoltative",
+          "tipo": "collettivo",
+          "prova": "iniziale_minuscola",
+          "facoltativa": true
+        }
+      ],
+      "mezzo": null,
+      "mezzo_stato": "non_dichiarato"
+    }
+  ]
+}
