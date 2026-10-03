@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — audit delle questioni aperte: la lista operativa
-versione: 0.6
+versione: 0.7
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: lettura di tutti i quindici documenti di progetto, verificata da sorgenti/lingue/conta_questioni.py
-documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.3), videogioco-5-duchi-fonti-visive.md (v0.3), videogioco-5-duchi-furioso.md (v0.5), videogioco-5-duchi-luoghi.md (v0.4), videogioco-5-duchi-mappe.md (v0.8), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.3), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-luoghi.md (v0.5), videogioco-5-duchi-mappe.md (v0.9), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
 ---
 
 # Audit delle questioni aperte: la lista
@@ -23,8 +23,8 @@ Il documento è verificato da `sorgenti/lingue/conta_questioni.py`, che confront
 |---|---|
 | Documenti con una sezione «Questioni aperte» | **15** |
 | Voci enumerate | **114** |
-| **Chiuse** | **28** |
-| **Aperte** | **86** |
+| **Chiuse** | **29** |
+| **Aperte** | **85** |
 | Di cui bloccanti | quattro |
 | Di cui importanti (cambiano il gioco) | quindici |
 | Di cui minori (si possono rimandare) | le altre |
@@ -33,7 +33,7 @@ Il documento è verificato da `sorgenti/lingue/conta_questioni.py`, che confront
 
 **Una voce non è sempre una domanda.** In `lingue.md` Q3 ci sono due sotto-voci dentro una sola domanda. Le **114 voci non sono 114 domande**.
 
-**Nessuna delle ventotto chiuse è bloccante**, e due delle quattro bloccanti rimaste non sono mai state domande: erano lavori, e sono stati fatti — i novanta pin il 02/10/2026 (§2bis), la tavolozza, le sagome, il fondo di Ferrara e i colori delle carte il 03/10/2026 (§3bis). Le decisioni prese hanno tolto lavoro, non lo hanno aggiunto.
+**Nessuna delle ventinove chiuse è bloccante**, e due delle quattro bloccanti rimaste non sono mai state domande: erano lavori, e sono stati fatti — i novanta pin il 02/10/2026 (§2bis), la tavolozza, le sagome, il fondo di Ferrara e i colori delle carte il 03/10/2026 (§3bis). Le decisioni prese hanno tolto lavoro, non lo hanno aggiunto.
 
 ---
 
@@ -46,6 +46,30 @@ Sono le uniche che fermano qualcosa, e sono le quattro che aspettano una **rispo
 ### B1 · I livelli linguistici e quelli informatici sono lo stesso livello o due?
 
 `lingue.md` §7 Q1 · **pro**: due sistemi paralleli nella stessa tappa dà 32 livelli per tappa ed è l'unica forma in cui i due percorsi si incontrano. **contro**: rende ogni tappa enorme, e le trenta tappe coprirebbero 150 informatici più 900 linguistici in un'ora di lezione; l'alternativa «lingue dentro l'informatica» cancella le 900 unità di gioco. **valutazione**: è la decisione con la conseguenza più grande e la meno reversibile; va presa con la stima delle schermate per tappa, che nessuno ha fatto. **responsabilità**: Pietro. **blocca**: i dati dei livelli, la scelta delle immagini, tutte le tappe linguistiche, i testi autentici, la progressione.
+
+#### B1 in parole semplici
+
+*(03/10/2026 — Pietro ha chiesto di capire la B1 «meglio, con parole più semplici». Questa è la spiegazione; quella sopra è la scheda operativa. Nessuna delle due chiude la domanda: la decisione è di Pietro.)*
+
+**Il gioco insegna due cose: l'informatica e le lingue.** Dell'informatica hai deciso **150 livelli**: cinque anni, trenta tappe all'anno. Delle lingue ne hai immaginati **900**: sei lingue, trenta livelli per lingua, cinque anni.
+
+Le due cose non possono stare nella stessa lista. La domanda è una sola, e si può fare in italiano di tutti i giorni:
+
+> **Quando il ragazzo è dentro la tappa 5-12, quante cose deve fare?**
+
+- **Oppure una.** Solo il livello di informatica. E i 900 livelli di lingue spariscono come unità di gioco: diventano contenuti che compaiono dentro alcuni livelli di informatica (l'inglese che serve a una tappa, il latino che serve a un'altra). Questo è «lingue dentro l'informatica».
+- **Oppure tante in fila.** Nella stessa tappa c'è il livello di informatica **e** un livello per ciascuna delle sei lingue: **32 livelli in una tappa sola**. È l'unica forma in cui i due percorsi si incontrano davvero, ed è anche quella che rende ogni tappa enorme: trenta tappe da un'ora di lezione dovrebbero contenere 150 livelli informatici più 900 linguistici, cioè **cinquantacinque livelli all'ora**. Non ci stanno.
+- **Oppure a tappe alterne.** Le trenta tappe di un anno sono metà linguistiche e metà informatiche. Allora le tappe raddoppiano (diventano 300 in tutto), oppure se ne copre solo una parte e il progetto si presenta come un gioco di 150 livelli che in realtà ne copre 75.
+
+**Che cosa è già costruito e che cosa è bloccato.** Le 150 tappe informatiche esistono già quasi tutte: mappa, pin, ambienti, mezzi, luoghi. Quelle non aspettano la B1. I **900 livelli linguistici**, invece, non esistono come dati, e non possono esistere finché la domanda non è risolta: non si sa in che stanza stanno, e senza quello non si possono scrivere i testi né scegliere le immagini. **È questa la differenza fra «blocca tutto» e «blocca metà» che l'audit dichiarava e che questa scheda non ripete.**
+
+**Perché non la decido io, e perché è la decisione giusta che ti spetta.** Le tre scelte danno giochi diversi, non giochi uguali con dettagli diversi, e la differenza la si vede dopo: nel motore, nel tempo di lezione, nel numero di schermate. La stima delle schermate per tappa — che è ciò che servirebbe per scegliere — dipende da un prototipo che non esiste ancora. Quindi la domanda giusta non è «quale delle tre è giusta», ma:
+
+> **quando entri in una tappa, vedi un compito solo o un compito per ciascuna lingua?**
+
+**Quello che si può fare intanto, e che è già stato fatto.** Nessuna delle trenta tappe di informatica aspetta questa risposta: i 150 ambienti, le coordinate, i mezzi e i luoghi sono costruiti senza di lei. È la stessa regola che vale per le altre tre bloccanti: **mentre si decide, si costruisce quello che si può costruire** (`percorsi.md` §1.2 dice perché i mezzi dell'anno 4 sono stati scelti senza aspettare nessuna decisione).
+
+---
 
 ### B2 · Le trenta voci di ogni oggetto sono confermate?
 
@@ -258,7 +282,7 @@ Le cinque bloccanti hanno una catena sola.
 
 **B2** (voci confermate) viene **prima** di **B4** (chi guarda le immagini): cercare le immagini prima di aver confermato le voci è lavoro da rifare. **B1** (livelli linguistici o informatici) decide quanti tipi di tappa esistono, e quindi decide se B4 ha senso come domanda.
 
-La catena è: **B1 → B2 → B4**. **B3** (la LIS) è indipendente e parte in parallelo, ed è la più lenta. **B5** (i novanta pin) non aspettava nessuna e **è stata fatta il 02/10/2026**: otto controlli, due difetti corretti (§2bis). Il 03/10/2026 è successa la stessa cosa quattro volte di fila con I2, I3, I4 e I19, e con dei file che non erano domande: **sei chiusure in due giorni, e cinque erano lavori** (§3bis).
+La catena è: **B1 → B2 → B4**. **B3** (la LIS) è indipendente e parte in parallelo, ed è la più lenta. **B5** (i novanta pin) non aspettava nessuna e **è stata fatta il 02/10/2026**: otto controlli, due difetti corretti (§2bis); **il primo anno, che non era coperto, ha cinque controlli suoi dal 03/10** (`mappe.md` §8ter, A1-A5). Il 03/10/2026 è successa la stessa cosa quattro volte di fila con I2, I3, I4 e I19, e con dei file che non erano domande: **sei chiusure in due giorni, e cinque erano lavori** (§3bis).
 
 E la regola che ne segue, che è quella che il lavoro ha reso vera:
 
@@ -270,6 +294,7 @@ E la regola che ne segue, che è quella che il lavoro ha reso vera:
 
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|
+| 03/10/2026 | 0.7 | **La B1 è spiegata in parole semplici, e due buchi che erano dichiarati aperti sono chiusi.** Pietro ha chiesto di capire la B1 «meglio, con parole più semplici»: sotto la scheda c'è ora **B1 in parole semplici**, che dice che cosa sono i 150 livelli informatici e i 900 linguistici, quale sarà la schermata che il ragazzo vede nella tappa 5-12 (**un compito solo, 32 compiti in fila, o tappe alterne**), che cosa è già costruito e che cosa è bloccato, e che la stima delle schermate — cioè la cosa che servirebbe per decidere — dipende da un prototipo che non esiste. **La domanda è di Pietro e resta aperta.** Intanto sono chiuse tre cose: la **Q6.2** (`furioso.md` §4.12: nessuna stanza ha un disegno proprio, quattro regole, tempo di Pietro **zero**), le **51 ipotesi di coordinata** (`luoghi.md` §4.8: 28 documentate, 21 argomentate con il raggio in metri, 2 immaginate e senza punto; regole **R1-R6** e controllo **B7**) e **l'anno 1**, che non era coperto da nessun controllo dei pin e ora ha cinque controlli suoi, **A1-A5** (`mappe.md` §8ter: **30 tappe su 30 dentro le mura**, e soprattutto **0 tratti fuori sui 29** percorsi fra tappe consecutive, che è l'unico controllo che solo una città dentro le mura può avere). Le 51 ipotesi hanno anche fatto nascere i **mezzi** dell'anno 4 e 5: 22 mezzi, con l'anno di attestazione di ciascuno e un controllo di anacronismo **per tappa** che ne ha trovato uno nella stessa impostazione (`percorsi.md` §1.2). Il conto passa a **29 chiuse** e **85 aperte**; le quattro bloccanti restano quattro e sono le stesse: nessuno dei lavori di oggi le toccava, perché sono lavori che si possono fare senza la risposta. |
 | 03/10/2026 | 0.6 | **Quattro importanti chiuse in un giorno, e la quarta ha portato con sé un difetto che le altre tre non avevano trovato.** I colori dei fondi geografici (I19, `fonti-visive.md` Q4) sono in `dati/fonti_visive/colori_cartografici.json`, **19 voci**, con la regola che una categoria con il riempimento ha anche il bordo e i due verificatori che la tengono ferma (`verifica_colori.py`, C1–C7). **Cercandoli è emerso che `dati/mappe/mondo_admin1_copertura.json` stava dentro `dati/mappe/`**, dove vale la regola del solo formato a delta, e faceva crashare il lettore delle mappe con un `IndexError` che non diceva niente: il file è stato spostato in `dati/` e il lettore ora solleva un `ValueError` che nomina il percorso. Nello stesso giorno sono entrati i **tre file delle cime** con la loro quota (`mappe.md` §2.5), e la scoperta che vale più dei tre file: la fonte è **mondiale in tutte e tre le scale** e i tre file **non sono annidati**, quindi un motore che li trattasse come risoluzioni diverse dello stesso elenco sbaglierebbe senza che nessun controllo lo vedesse. Chiusa anche la **Q6.1** del *Furioso*: `F11` è dichiarato filone **non assegnato** e la decisione è nei dati (`citazioni.json` v4), tenuta ferma dalla verifica **F16**. Il conto passa a **28 chiuse** e **86 aperte**, e le importanti da sedici a **quindici**. Le quattro bloccanti restano quattro e sono le stesse di prima: nessuno dei quattro lavori le toccava. |
 | 03/10/2026 | 0.5 | **Tre importanti chiuse in un giorno, e le tre erano lavori, non domande.** La tavolozza (`fonti-visive.md` Q1), le sagome degli edifici (Q2) e il fondo di Ferrara (Q3) sono prodotti il 03/10/2026: `tavolozza.json` con 18 voci, `edifici_footprint.json` con 5209 sagome su 54 luoghi, `ferrara_fondo.json` con 14 tratti di mura e 4,20 km². Nello stesso giorno è entrato `mondo_admin1.json`, il file amministrativo mondiale che chiude la copertura mancante di `mappe.md` §8bis, e `ambienti_livelli.json`, un ambiente per ciascuno dei 150 livelli. Il conto passa a **26 chiuse** e **88 aperte**, e le importanti da diciannove a **sedici**. La lezione che si vede nel conto è la stessa di B5: **nessuna delle tre aspettava una decisione**, e nessuna delle ventisei chiuse è bloccante. Le quattro bloccanti restano quattro e sono le stesse di prima: nessuno dei tre lavori le toccava. |
 | 02/10/2026 | 0.1 | Prima stesura. Le dodici sezioni «Questioni aperte» allora esistenti, **96 voci**, 22 chiuse e 74 aperte, cinque bloccanti, e la catena delle dipendenze. |

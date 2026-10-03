@@ -1,9 +1,9 @@
 ---
 titolo: Videogioco "I cinque duchi" — I filoni dell'Orlando furioso: i luoghi del quinto anno e le citazioni delle trenta tappe
-versione: 0.5
+versione: 0.6
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
-revisioni: v0.1 (testo e trenta citazioni); v0.2 (controllo di coerenza del 02/10/2026: tre citazioni erano nel filone sbagliato, due tappe confinanti citavano ottave adiacenti, e le cifre del riscontro sono state ricalcolate); v0.3 (seconda tornata dello stesso controllo: un legame `I` posto su un luogo che esiste, l'elenco degli inesistenti dichiarato nei dati, la tabella delle verifiche riordinata e due rimandi corretti); v0.4 (le sedici decisioni di Pietro del 02/10/2026 applicate: regola dei due strati ratificata, `F8` e `F9` fatte sul testo, il tipo `N` di non luogo, `F11` come tappa facoltativa, il giocatore dentro il *Furioso*, l'Africa riscritta, l'edizione spiegata in modo semplice); v0.5 (la Q6.1 chiusa: `F11` dichiarato filone **non assegnato**, cioè stanza aperta da un'altra, la decisione scritta nei dati e la verifica F16 che la tiene ferma)
+revisioni: v0.1 (testo e trenta citazioni); v0.2 (controllo di coerenza del 02/10/2026: tre citazioni erano nel filone sbagliato, due tappe confinanti citavano ottave adiacenti, e le cifre del riscontro sono state ricalcolate); v0.3 (seconda tornata dello stesso controllo: un legame `I` posto su un luogo che esiste, l'elenco degli inesistenti dichiarato nei dati, la tabella delle verifiche riordinata e due rimandi corretti); v0.4 (le sedici decisioni di Pietro del 02/10/2026 applicate: regola dei due strati ratificata, `F8` e `F9` fatte sul testo, il tipo `N` di non luogo, `F11` come tappa facoltativa, il giocatore dentro il *Furioso*, l'Africa riscritta, l'edizione spiegata in modo semplice); v0.5 (la Q6.1 chiusa: `F11` dichiarato filone **non assegnato**, cioè stanza aperta da un'altra, la decisione scritta nei dati e la verifica F16 che la tiene ferma); v0.6 (03/10/2026: la Q6.2 chiusa in §4.12, nessuna stanza ha un disegno proprio, quattro regole e il tempo di Pietro a zero)
 fonte del materiale: la richiesta di Pietro (02/10/2026) — «sulla base dell'Orlando furioso dobbiamo creare i vari luoghi, cercando di ricalcare il più possibile i filoni della vicenda; devono esserci, in ogni livello, delle brevi citazioni del poema con parafrasi interattiva, intuitiva, emozionale, breve che diano senso alla trama ariostesca del Furioso» — e il testo dell'Orlando furioso edizione 1928 (Biblioteca BEIC) trascritto su Wikisource
 dati: dati/furioso/citazioni.json (v4, trenta record: tappa, filone, canto, ottava, versi, parafrasi, moto, emozione, tema, luogo, legame, e l'elenco `luoghi_inesistenti`), dati/furioso/pagine_wikisource.jsonl (1 244 pagine del digitalizzato), dati/furioso/orlando_furioso_1928.txt (4 796 ottave indicizzate, testo normalizzato)
 strumenti: sorgenti/furioso/scarica_wikisource.py, sorgenti/furioso/estrai_ottave.py, sorgenti/furioso/costruisci_citazioni.py, sorgenti/furioso/verifica_citazioni.py, sorgenti/furioso/provino_html.py, sorgenti/verifica_coerenza.py
@@ -418,6 +418,49 @@ F11  Ruggiero e la conversione   assegnato: false   tappe: []   facoltative: [5-
 
 ---
 
+### 4.12 La Q6.2 chiusa: le stanze senza coordinate, e la regola che le disegna a tempo zero
+
+*(03/10/2026 — proposta di `sorgenti/ipotesi_luoghi.py`, `dati/ipotesi_luoghi.json`, verifica **B7**; la domanda era di Pietro: «casa proponi per risolvere a minimo impatto sul mio tempo? idealmente 0»)*
+
+La Q6.2 chiedeva come si disegna sulla carta del gioco una strada che non ha nome, una grotta, un campo, un non luogo e una Luna. La risposta che il progetto ha scelto è la più economica di tutte quante si potevano immaginare, e vale anche per le **venticinque** stanze `A` e `S` che hanno una coordinata: **nessuna stanza ha un disegno proprio.**
+
+> **Una stanza non si disegna: si dichiara. Il segno sulla carta è lo stesso per tutte, e cambia solo la sua etichetta.**
+
+#### Le quattro regole, che sono tutto il lavoro
+
+| # | Regola | Perché |
+|---|---|---|
+| **1** | La stanza ha il **pin reale e verificato** del personaggio, e su quel pin il gioco scrive il nome del filone. Il punto non serve a posto della stanza: serve a posto della persona | è la **regola dei due strati** (§2.2) già scritta, e le stanze non hanno coordinate perché *non ne hanno bisogno*: il punto sulla carta è quello del pin, che è verificato |
+| **2** | Un nome doppio («Bombay e Delhi») **non si riduce a un punto**: si tirano fuori i due punti e si disegna **il tratto**. Otto nomi del quarto anno hanno una strada vera | qui la mappa *guadagna* informazione rispetto a prima: una linea fra due città verificate è un dato, e il progetto si rifiutava di perderlo |
+| **3** | Un nome in cui una parte **non è un luogo** («Chio e la **Ionia**», «Ferrara e **il regno**», «Nanchang e **il mare**») **non ha strada**: la parte non geografica resta a parole, e il gioco lo dice | è la differenza fra una strada e una frase. Fingersi che siano la stessa cosa sarebbe la «stima sbagliata» che il progetto combatte ovunque |
+| **4** | Se **non c'è un luogo**, non si disegna niente e il gioco **lo dice al giocatore**. Due tappe su trenta | un vuoto dichiarato non è una mancanza: è una risposta. Il vuoto ha nome (`nessun_luogo_dichiarato`) ed è l'unico che il controllo accetta senza punto |
+
+#### Perché il tempo di Pietro è zero
+
+Il conto, riga per riga:
+
+- **non c'è nessuna illustrazione da fare.** Nessuna delle ventisei stanze ha un'immagine, e nessuna la chiederà: il testo del progetto vieta i testi inventati e la Q6.1 ha già dichiarato che le stanze sono dati (`citazioni.json`), non immagini;
+- **non c'è nessuna mappa da disegnare.** La stanza è un'etichetta sopra un pin che esiste già, e il tratto è una linea fra due punti che il motore sa già trasformare in pixel;
+- **c'è una riga di testo per ogni stanza, e la riga è già scritta.** Il campo `frase` di `dati/ipotesi_luoghi.json` contiene, per ciascuna delle 51 tappe, la frase che il gioco può mostrare al ragazzo — per esempio, per 5-9: *«John Snow non ha contato i morti: ha spostato la pompa»*;
+- **il resto è una verifica**, e le verifiche le scrive il progetto: `B7` in `verifica_ambienti.py` pretende che ogni ambiente dichiari che cosa deve disegnare e da quale dei due file lo prende, e accetta un punto mancante **solo** dove c'è la dichiarazione di grado `immaginata`.
+
+#### Che cosa è cambiato nei numeri
+
+| | prima | dopo |
+|---|---|---|
+| ambienti con un punto da disegnare | 99 su 150 | **148 su 150** |
+| ambienti con un punto *verificato* | 99 | 99 (il registro non si tocca) |
+| ambienti con un punto *ipotizzato* e dichiarato | 0 | 49 |
+| ambienti senza punto, **per decisione** | 0 (erano un buco) | 2 |
+
+Le due tappe senza punto sono **5-18** (una sala di riunione del 1983 di cui nessuno ha ricordato il nome) e **5-22** (un documento del 2008: un documento non si punta sulla carta). Non sono un buco: sono le due stanze in cui il gioco può dire al ragazzo che *quello non è un posto*, che è la lezione più onesta del quinto anno.
+
+#### Il principio che la Q6.2 ha fatto maturare
+
+La domanda era «come si disegna una cosa senza coordinate», e la risposta ha spostato la domanda: **non era un problema di disegno, era un problema di etichette.** Un ambiente non è un'immagine, è **una promessa con dentro quattro campi**: che cosa ci sta, di che tipo è, da che cosa viene il suo punto, e che cosa non si sa. Il file `dati/ambienti_livelli.json` le aveva già tutte; mancava solo il quarto campo, e il quarto campo era la coordinata, che era **l'unico dei quattro che non riguardava il disegno**.
+
+---
+
 ## 5. La parafrasi interattiva
 
 ---
@@ -499,7 +542,7 @@ Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene a
 **Q6 — le due nuove questioni, che sono le vere.**
 
 1. ~~**I tredici filoni che il gioco mostra e i dodici che il documento dichiara.**~~ **chiusa il 03/10/2026, in §4.11.** Il conto era sbagliato e la differenza non era quella che sembrava: le trenta tappe portano **undici** filoni, `F11` compare solo nella facoltativa `5-22F`, e il giocatore vede dodici nomi come il documento ne dichiara dodici. Il difetto vero era un altro, e stava nei dati: `F11` risultava `assegnato: true` con la sua unica tappa in `tappe`, cioè un filone giocabile che non si raggiunge. Ora è `assegnato: false` con la stanza in `facoltative`, e la verifica **F16** lo tiene fermo.
-2. **Le ventisei stanze che non hanno una coordinata e non ne hanno bisogno.** Le stanze sono già tutte dichiarate in `citazioni.json`; quel che manca è la loro **resa grafica**: come si disegna sulla carta del gioco una strada che non ha nome, una grotta, un campo, un non luogo e una Luna. È un problema di `motore-e-grafica.md` e di `mappe.md`, non di questo documento, e va affrontato prima che il primo livello sia giocabile.
+2. ~~**Le ventisei stanze che non hanno una coordinata e non ne hanno bisogno.**~~ **chiusa il 03/10/2026, in §4.12.** Non era un problema di disegno: era un problema di etichette. La regola è che **nessuna stanza ha un disegno proprio** — la stanza è un'etichetta sul pin verificato del personaggio, un nome doppio con due parti geografiche diventa un tratto (otto nomi del quarto anno), un nome con una parte che non è un luogo resta a parole, e dove non c'è un luogo non si disegna niente e il gioco lo dice. Le 51 tappe senza coordinate hanno tutte un'ipotesi con tre gradi dichiarati in `dati/ipotesi_luoghi.json`: **148 ambienti su 150 hanno un punto da disegnare**, e i due che non lo hanno è perché non c'è un posto. Il tempo richiesto a Pietro è **zero illustrazioni e zero mappe nuove**.
 
 ---
 
@@ -518,10 +561,9 @@ Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene a
 
 **Quello che resta, in ordine di utilità:**
 
-1. **la Q6.2**: il disegno delle stanze senza coordinate. È il primo ostacolo alla giocabilità e non riguarda questo documento.
-2. **`F10`**, quando ci sarà qualcuno che legga ad alta voce.
+1. **`F10`**, quando ci sarà qualcuno che legga ad alta voce.
 
-La Q6.1 è chiusa il 03/10/2026 e non è più qui: le cose fatte non restano nella lista, restano nel registro.
+La Q6.1 e la Q6.2 sono chiuse il 03/10/2026 e non sono più qui: le cose fatte non restano nella lista, restano nel registro (§4.11 e §4.12).
 4. **la scheda di `citazioni.json` per la tappa 5-20**: il luogo «Zibeltaro e l'Erculeo segno» non ha coordinate e non deve Averle, ma la scheda del giocatore deve dire *perché* — e il perché è che uno dei due nomi non è localizzato. Un luogo non localizzato dichiarato vale più di un luogo inventato.
 7. *(fatto — l'edizione è scelta e spiegata: §1.5)*
 8. *(fatto — «l'aria sopra la foresta» è il tipo `N`: §4.9)*
@@ -529,6 +571,12 @@ La Q6.1 è chiusa il 03/10/2026 e non è più qui: le cose fatte non restano nel
 ---
 
 ## 10. Registro modifiche
+
+- **v0.6 (03/10/2026)**: **la Q6.2 è chiusa, ed è chiusa nella forma più economica possibile: nessuna stanza ha un disegno proprio.** La domanda di Pietro — «come si disegna sulla carta del gioco una strada che non ha nome, una grotta, un campo, un non luogo e una Luna, a minimo impatto sul mio tempo?» — si è rivelata, riscritta, una domanda di **etichette** e non di disegno: un ambiente non è un'immagine, è una promessa con dentro quattro campi, e l'unico che mancava era la coordinata, che è anche l'unico dei quattro che non riguarda il disegno (§4.12).
+  - **quattro regole**: la stanza prende il pin reale e verificato del personaggio; un nome doppio non si riduce a un punto ma si tira fuori come **tratto** fra due punti veri (otto nomi del quarto anno); un nome in cui una parte non è un luogo non ha strada e la parte non geografica resta a parole (cinque casi); e se non c'è un luogo **non si disegna niente e il gioco lo dice**;
+  - **il tempo di Pietro è zero**: nessuna illustrazione, nessuna mappa nuova. L'unica cosa che resta da fare è leggere la riga `frase` di ciascuna delle 51 ipotesi, che è già scritta, e adattarla al tono del livello;
+  - **il conto**: da 99 ambienti con un punto a 150 a **148 su 150**, dei quali 49 con un punto ipotizzato e dichiarato. I due che restano senza sono **5-18** (una sala di riunione del 1983 di cui nessuno ha ricordato il nome) e **5-22** (un documento del 2008: un documento non si punta sulla carta), e sono le due sole ipotesi di grado `immaginata`;
+  - **i tre gradi dell'ipotesi** sono in `luoghi.md` §4.8 e vengono controllati dalle regole **R1-R6** di `sorgenti/ipotesi_luoghi.py` e dal controllo **B7** di `sorgenti/verifica_ambienti.py`.
 
 - **v0.5 (03/10/2026)**: **la Q6.1 è chiusa, e il difetto che le stava sotto era uno che nessuno dei due conti vedeva.** La domanda chiedeva perché il gioco mostrasse tredici filoni e il documento ne dichiarasse dodici: il conto era sbagliato, perché le trenta tappe obbligatorie portano **undici** filoni e `F11` compare solo nella facoltativa `5-22F`, quindi il giocatore vede dodici nomi come il documento ne dichiara dodici. Ma il campo `assegnato` di `citazioni.json` si calcolava su tutti i filoni usati, facoltative comprese: `F11` risultava `assegnato: true` con `tappe: ["5-22F"]`, cioè un filone giocabile la cui unica tappa non è fra le trenta. **La decisione** — quella che il documento consigliava — è ora nei dati: `assegnato` vuol dire giocabile, `F11` resta dichiarato e diventa `assegnato: false` con la stanza in un campo nuovo, `facoltative`. **La verifica F16** la tiene ferma su cinque cose, ed è stata provata sia contro il difetto di prima (tre problemi, tutti e tre giusti) sia su un file con difetti iniettati (nove problemi). Il generatore è stato modificato perché produca la stessa cosa: una decisione scritta solo in un documento che il programma non legge è una decisione che il prossimo che tocca il JSON non incontra. `citazioni.json` sale a v4; le trenta citazioni e la facoltativa sono identiche byte per byte, cambia solo il blocco `filoni`.
 

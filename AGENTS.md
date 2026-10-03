@@ -66,11 +66,25 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Un solo pin per tappa**, in tutti e cinque gli anni. Le associazioni multiple finiscono in `altri_luoghi`.
 - **I luoghi fantastici non hanno coordinate** (Paradiso terrestre, Luna, castello di Atlante, isola di Alcina, regno di Logistilla, valle del Senno): vanno disegnati a mano sulla carta del gioco, con un segno dedicato, e **il gioco dichiara che non sono reali**. È l'unica eccezione alla regola dei pin.
 - Un toponimo inesistente non entra nel catalogo finché non esiste come luogo reale.
+- **Una tappa che il registro non può verificare ha un'ipotesi, e l'ipotesi dichiara di che grado è** (`luoghi.md` §4.8, `dati/ipotesi_luoghi.json`): `documentata` (il punto è un indirizzo), `argomentata` (il luogo esiste ma *quella* è stata scelta dal progetto, e vale **N metri dichiarati**), `immaginata` (**non c'è un luogo**: nessuna coordinata, e il gioco lo dice al ragazzo). Ogni record porta la `fonte` da cui viene il punto e la `frase` che il gioco mostra. Le ipotesi stanno **accanto** al registro, non dentro: dentro, `verifica_pin.py` cercherebbe un Paese per un nome che è due luoghi («Bombay e Delhi»).
+- **Un nome doppio «A e B» è una strada**: A è la partenza, B è l'arrivo, **il pin è l'arrivo** e il tratto fra i due ha due punti reali. Una parte che **non è un luogo** («la Ionia», «il regno», «Spagna») non ha strato e resta a parole.
+
+- **Nessuna stanza ha un disegno proprio** (`furioso.md` §4.12): la stanza del filone prende il **pin reale e verificato** del personaggio e ne cambia solo l'etichetta. Non illustrare le stanze e non disegnare una carta per esse.
+
+**Modello pedagogico** (trasversale, vedi `pedagogia.md` e `ripassi.md`, del 03/10/2026)
+- **Regola d'ingresso**: una pratica entra nel gioco **solo se conserva il principio e resta ciò che è**. Il modello è stato scritto per una classe; gli strumenti d'aula (contatore meccanico, scatola per exit ticket, minuto da 50, protocollo di silenzio, feedback a dita e post-it, formazioni del banco) **non entrano**, e la ragione di ognuna è in `pedagogia.md` §5.
+- **Trasparenza radicale**: nessuna pratica che il giocatore non possa spiegare. Un meccanismo di gratificazione non entra senza che il giocatore ne legga la funzione accanto a quello che fa. Il progetto ha già la regola nella sua forma più forte: **un vuoto si dichiara, non si riempie** (i tre gradi di `ipotesi_luoghi.json`, le nove etichette delle immagini, i tipi di legame dei luoghi).
+- **Vantaggio tangibile, non promesso**: ogni esercizio lascia subito qualcosa di vero. È la ragione per cui i **test di ingresso** danno un elenco di dieci nomi con l'origine di ciascuno e non un punteggio (`ripassi.md` R4).
+- **Infrastruttura minima**: una pagina HTML unica, offline, senza account, senza server, senza installare niente. Nessuna dipendenza da piattaforme o servizi che possano cambiare.
+- **Formato individuale o comunitario**: ogni livello deve dichiarare come si gioca, e **la scelta segue l'obiettivo, non la preferenza**. Oggi non esiste nessun campo che lo dichiari: è una voce nuova (`Modalità`) ancora da scrivere (`pedagogia.md` §1.4).
+- **Nessuna impotenza appresa**: nessun livello in cui la macchina risolve e lo studente guarda. **Il gioco non usa l'IA per prodursi** — niente immagini generate, niente testi inventati — e nell'anno 5 l'IA è contenuto, non strumento.
+- **Contagio, non risentimento**: nessuna micro-regola del gioco serve a gestire il risentimento verso chi sbaglia, e nessun meccanismo permette a un comportamento di propagarsi agli altri. Nel gioco si traduce in una cosa sola: **nessun confronto pubblico** — nessuna classifica, nessun punteggio esposto, file di consegna personale. L'escalation a basso profilo e il silenzio senza reazione visibile restano protocolli di classe e il gioco non li sostituisce.
+- **La sfida a mani nude** è **una tappa ogni quindici livelli**, due volte per anno: `1-15`, `1-30`, `2-15`, `2-30`, `3-15`, `3-30`, `4-15`, `4-30`, `5-15`, `5-30`. Se si interrompe, **si riparte senza penalità aggiuntiva e senza reazione visibile**, come nei test di ingresso.
 
 **Mappe e dati geografici** (trasversale, vedi `mappe.md`)
 - **Il fondo geografico degli anni 2, 3 e 4 è in `dati/mappe/`**: **21 file**, 19 tolti da Natural Earth (pubblico dominio) in tre scale — 110m mondo, 50m Europa, 10m penisola — più `mondo_admin1.json` e `mondo_admin1_copertura.json`, le **unità amministrative di primo livello del mondo** (50 unità, che coprono **54 pin su 54**; costruite il 03/10/2026, la scelta è punto-in-poligono sul pin e la semplificazione scende da sola finché l'anello contiene ancora il proprio pin).
 - **I file di `dati/mappe/` NON sono JSON valido.** Sono in un formato a delta con quantizzazione, e si leggono **solo** con `sorgenti/gis/mappe_lettore.py`, che restituisce coordinate in gradi decimali. Non usare `json.load` su questi file.
-- **I pin degli anni dal secondo in poi sono verificati** (02/10/2026, `sorgenti/gis/verifica_pin.py`, otto controlli): il pin deve cadere nel Paese e nell'unità amministrativa che il documento dichiara. I 90 degli anni 2-4 sono **slot di pin**, uno per tappa; su tutti e cinque gli anni sono 120 slot e 71 con coordinate. **Prima di aggiungere o cambiare un pin, rilancia il verificatore** (`--anno N` per un anno, `--tutti` per tutti): ha trovato due coordinate sbagliate che erano dichiarate `verificata` (Baghdad, Karakorum), perché risolvevano il titolo e non il luogo. **L'anno 1 non è coperto**: i suoi pin prendono il confine dal WFS del Comune.
+- **I pin degli anni dal secondo in poi sono verificati** (02/10/2026, `sorgenti/gis/verifica_pin.py`, otto controlli): il pin deve cadere nel Paese e nell'unità amministrativa che il documento dichiara. I 90 degli anni 2-4 sono **slot di pin**, uno per tappa; su tutti e cinque gli anni sono 120 slot e 71 con coordinate. **Prima di aggiungere o cambiare un pin, rilancia il verificatore** (`--anno N` per un anno, `--tutti` per tutti): ha trovato due coordinate sbagliate che erano dichiarate `verificata` (Baghdad, Karakorum), perché risolvevano il titolo e non il luogo. **L'anno 1 ha cinque controlli suoi** dal 03/10/2026 (`sorgenti/gis/verifica_anno1.py`, **A1-A5**, `mappe.md` §8ter): per una città dentro le mure gli otto controlli qui sarebbero *falsi*, perché la domanda che conta è «è dentro o fuori dal muro?». Il perimetro viene da `dati/ferrara_fondo.json` (OSM `barrier=city_wall`), non da Natural Earth, che non ha il muro di Ferrara. **A4 è quello che vale**: nessun altro anno può averlo, perché fra due tappe si può passare fuori e rientrare. Rilancia `python3 sorgenti/gis/verifica_anno1.py` dopo aver toccato una coordinata dell'anno 1.
 - **Le altezze degli edifici non sono un dato disponibile**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Ogni edificio che ne usa una deve dichiarare la fonte (`lidar`, `osm`, `stimata`), come fanno i campi `attendibilita` e `manca` del registro dell'anno 4.
 - **OpenStreetMap è autorizzato dal 02/10/2026** (`mappe.md` §10 Q1, risolta): entra, i dati derivati viaggiano con ODbL e l'attribuzione «© OpenStreetMap contributors». **Non scaricare dati OSM per gli edifici senza dichiarare edificio per edificio da dove viene la sagoma e da dove viene l'altezza.**
 - Per rifare le mappe: `scarica_ne.py`, poi `mappe_formato.py`, poi **sempre** `verifica_mappe_numeriche.py`: dà 57 controlli e ne ha già trovati cinque difetti invisibili a occhio. E poi **sempre** `verifica_pin.py` per i pin degli anni dal secondo in poi: otto controlli, `--tutti` per tutti e cinque gli anni.
@@ -134,7 +148,7 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 **Percorsi del duca** (trasversale, vedi `percorsi.md`)
 - **L'ordine dei numeri di tappa non è un ordine di viaggio.** I pin sono sparsi su un continente, e l'ordine degli argomenti li fa attraversare avanti e indietro: nell'anno 3 il percorso delle tappe è **18 318 km e 539 giorni** a cavallo, il giro che copre tutti i luoghi è **9 308 km e 275 giorni**. Non correggere i numeri di tappa per far quadrare il viaggio: sono due ordini diversi, e la proposta è tenerli separati (`percorsi.md` §3).
-- **I mezzi di trasporto sono per anno, e non si cambiano senza dichiararlo**: a piedi nel primo, cavallo e galera nel secondo e nel terzo, nave/carovana/diligenza nel quarto, treno e aereo nel quinto. Le velocità sono **stime dichiarate** (`percorsi_mezzi.py`), non date storiche, e ogni distanza è **in linea d'aria**: il cammino reale è più lungo.
+- **I mezzi di trasporto sono per anno, e non si cambiano senza dichiararlo**: a piedi nel primo, cavallo e galera nel secondo e nel terzo, **nave, carovana e diligenza con anche treno, aereo, moto, sci, elicottero e monopattino** nel quarto, e **aereo e treno con i mezzi del *Furioso*** — ippogrifo, drago, sirena, carro di delfini, carro di serpenti — nel quinto. Ogni mezzo porta due campi nuovi: `tipo` (`storico` o `gioco`) e `dal`, l'anno in cui è attestato (la moto è del 1903, gli sci del 1900, l'elicottero del 1936, il monopattino del 2001). Le velocità sono **stime dichiarate** (`percorsi_mezzi.py`), non date storiche, e ogni distanza è **in linea d'aria**: il cammino reale è più lungo. **Un mezzo non si usa in una tappa in cui non era ancora inventato**, e non si «corregge» lo specchio retrovisore per farlo funzionare: il controllo `controlla_anacronismi()` lo dice per tappa, e quando lo ha detto ha trovato un difetto nella nostra stessa impostazione (`percorsi.md` §1.2).
 - **Nell'anno 4 il duca non viaggia**: all'archivio arriva un documento, e il mezzo che conta è quello di chi lo porta (`anno4-mondo.md` §3). Non disegnare il duca in viaggio nell'anno 4.
 - **Il ritorno è il momento degli incontri**: sulla strada del ritorno il duca non cerca niente e incontra, e lì si aprono le tappe facoltative con i personaggi nuovi (`percorsi.md` §4). Il ritorno non è un costo: è un dispositivo.
 - **I buchi geografici degli anni 2 e 3 sono continentali** (Sardegna, Inghilterra, Scozia, Portogallo, Balcani), non solo continentali: vanno trattati come facoltative (`luoghi.md` §4.7).
@@ -223,100 +237,4 @@ Italiano semplice: frasi brevi, niente gergo non spiegato, niente tono infantile
 ## 7. Da sapere
 
 - `sorgenti/gis/estrai.py` legge i dati che una sessione di Claude aveva ricevuto dal browser integrato. Il percorso è specifico di quella sessione. Per rifare l'estrazione, interroga direttamente il WFS del Comune come descritto in `motore-e-grafica.md` §1.
-- `sorgenti/civici.py` e `geo.py` richiedono lo shapefile dei numeri civici del Comune di Ferrara, che non è nel repository perché pesa circa 50 MB. Senza, il build usa `sorgenti/gis/vie_etichette.json`.- **Nessuna immagine si stira**, e per le carte la regola è più forte: **ogni carta porta la proiezione dichiarata**, come porta la scala, perché una proiezione non dichiarata mente sulle distanze senza che nessuno se ne accorga guardando.
-- **Una parola ambigua si cerca con due parole**: alla voce «pipa» (la pianta del Cinquecento) Commons restituisce il rospo del genere *Pipa*. I termini corretti sono nel campo `termini` di `dati/fonti_visive/fonti_visive.json`.
-- **Un vuoto si dichiara, non si riempie**: l'incendio e la carestia non hanno immagine d'epoca libera, e si rappresentano con la fonte testuale, come si è fatto per l'Africa del *Furioso*.
-- **La ricerca propone, una persona decide**, in ogni categoria: ritratti, oggetti, fonti visive. La decisione si registra nei rispettivi file `attestazione*.json`, che sono tutti vuoti.
-
-**Percorsi del duca** (trasversale, vedi `percorsi.md`)
-- **L'ordine dei numeri di tappa non è un ordine di viaggio.** I pin sono sparsi su un continente, e l'ordine degli argomenti li fa attraversare avanti e indietro: nell'anno 3 il percorso delle tappe è **18 318 km e 539 giorni** a cavallo, il giro che copre tutti i luoghi è **9 308 km e 275 giorni**. Non correggere i numeri di tappa per far quadrare il viaggio: sono due ordini diversi, e la proposta è tenerli separati (`percorsi.md` §3).
-- **I mezzi di trasporto sono per anno, e non si cambiano senza dichiararlo**: a piedi nel primo, cavallo e galera nel secondo e nel terzo, nave/carovana/diligenza nel quarto, treno e aereo nel quinto. Le velocità sono **stime dichiarate** (`percorsi_mezzi.py`), non date storiche, e ogni distanza è **in linea d'aria**: il cammino reale è più lungo.
-- **Nell'anno 4 il duca non viaggia**: all'archivio arriva un documento, e il mezzo che conta è quello di chi lo porta (`anno4-mondo.md` §3). Non disegnare il duca in viaggio nell'anno 4.
-- **Il ritorno è il momento degli incontri**: sulla strada del ritorno il duca non cerca niente e incontra, e lì si aprono le tappe facoltative con i personaggi nuovi (`percorsi.md` §4). Il ritorno non è un costo: è un dispositivo.
-- **I buchi geografici degli anni 2 e 3 sono continentali** (Sardegna, Inghilterra, Scozia, Portogallo, Balcani), non solo continentali: vanno trattati come facoltative (`luoghi.md` §4.7).
-
-**Questioni aperte** (trasversale, vedi `audit.md`)
-- **Tutte le questioni aperte stanno in `docs/videogioco-5-duchi-audit.md`.** Prima di aprire una discussione, guarda l'audit: è possibile che la domanda sia già chiusa in un altro documento, o che sia una delle quattro bloccanti e non si possa rispondere.
-- **Quattro bloccanti, e tre sono la stessa**: `lingue.md` Q1 (livelli linguistici o informatici), Q2 (le trenta voci confermate), Q4 (la LIS), e `lingue-immagini.md` Q1 (chi guarda le immagini). Le altre che un tempo erano in questa lista **erano lavori, non domande**, e sono fatte: i novanta pin il 02/10/2026 (`mappe.md` §8bis, `audit.md` §2bis), e il 03/10/2026 la tavolozza, le sagome degli edifici, il fondo di Ferrara, gli ambienti dei 150 livelli e il file amministrativo mondiale (`audit.md` §3bis).
-- **Dal 02/10/2026 c'è anche `percorsi.md` Q1**, che non è bloccante ma è la decisione di progetto più importante aperta: se il percorso del duca è l'ordine delle tappe o un giro a parte.
-- **L'ordine è B1 → B2 → B4**: finché non si decide se le tappe sono 30 o 150 non ha senso scegliere le immagini, e finché non sono confermate le voci non ha senso scegliere le immagini.
-- **Una domanda nuova va aggiunta all'audit**, non lasciata in un documento. Se è chiusa, si sposta nel registro del documento suo e non si cancella.
-- **`conta_questioni.py` confronta il proprio conto con i numeri dell'audit**: se i due non concordano, è l'audit che ha torto. Non correggere il numero a mano senza far girare lo script.
-
-**Immagini degli oggetti linguistici** (trasversale, vedi `lingue-immagini.md`, decisioni del 02/10/2026)
-- **Quattro categorie, non una**: `foto`, `dipinto`, `stampa`, `nessuna`. Un oggetto che non ha immagine libera va **dichiarato** (`nessuna`), non disegnato. Nel gioco **non entra un'immagine generata** per nessun oggetto, come per i volti.
-- **Le trenta voci ferraresi non hanno immagine** e non ne possono avere: sono campi di rilevazione. Non è una ricerca saltata, è una categoria dichiarata nei dati.
-- **La scheda dell'oggetto è 96×72 px** (i ritratti sono 48×54). **Le immagini non si strecano mai**: il ritaglio è ammesso solo se non toglie l'oggetto, e si dichiara sulla scheda.
-- **Sotto 160×120 l'immagine non entra**, perché nel gioco verrebbe ingrandita e il gioco non ingrandisce.
-- **Ogni immagine porta etichetta, autore, licenza, data e museo/inventario**: la data solo se c'è, e «non c'è» è una risposta ammessa.
-- **Una ricerca che restituisce un file non ha trovato l'oggetto.** La scelta la fa una persona e si registra in `dati/lingue/attestazione_oggetti.json` con etichetta e **motivo del giudizio**. Il lavoro di ieri ne ha prodotto la prova: alla voce «la correggia» il file migliore era un pittore che si chiama Correggio, alla voce «gli occhiali» una moschea di Istanbul, alla voce «la sete» un canale a Sète.
-- **Il controllo G7** segnala le voci in cui nessun candidato nomina l'oggetto: sono 67 su 146, e vanno guardate per prime. Non è un errore ed è per questo che non fa fallire `verifica_immagini_oggetti.py`.
-- **Il latino non si cerca su Commons**: le fonti sono i corpus epigrafici (EDCS, EDR) e le biblioteche digitali. 27 voci latine su 28 hanno solo proposte scoperte per caso.
-- **Prima di ridimensionare**, aspetta che le immagini siano scelte: ridurre prima significa buttare via il lavoro.
-
-**Esercizi e testo**
-- **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
-- **Meccanismi sempre diversi**: tante schermate, colori, forme.
-- **Poco testo nell'anno 1**, che cresce negli anni successivi (limiti in `esercizi.md` §3).
-- **Linguaggio**: trattare i ragazzi da adulti, con parole che capirebbe un bambino.
-
-**Quadro trasversale**
-- Diritto → Etica → Filosofia → Psicologia → Arti, con il percorso IO → ORDINE → ALTRO → MONDO → SENSO. Si usa **al massimo un aggancio per tappa**, mai valutato. L'informatica resta il centro.
-
-**Punteggio, privacy, integrità**
-- Il punteggio misura il **processo**.
-- Nessun account e nessun server. Consegna con un file su Google Classroom.
-- Nessuna sorveglianza con webcam o IA (GDPR, AI Act).
-
-## 4. Convenzioni
-
-**Documenti**
-- Ogni `.md` ha un'intestazione YAML (`titolo`, `versione`, `data`, `autore`, `documenti collegati`) e un **registro delle modifiche** in fondo.
-- A ogni modifica si aumenta la versione e si aggiunge una riga al registro.
-
-**Codici**
-- **Livelli**: `anno-numero`, per esempio `1-1`.
-- **Personaggi**: `P01…P94` (anno 1). Gli anni 2, 3, 4 e 5 usano la serie `Q`, che continua senza riaprire la numerazione: `Q01…Q92` (anno 2), `Q101…Q130` (anno 3), `Q201…Q230` (anno 4), `Q301…Q330` (anno 5). **Codici definitivi fino a nuova indicazione.**
-- **Luoghi**: `L01…L32`.
-- **Nodi della mappa dell'informatica**: `B1.1`, `E7.3`… (vedi `riferimenti/mappa-informatica/`).
-- **Attendibilità delle fonti**: D (documentato), I (interpretato), M (memoria), L (leggenda), F (figura letteraria), C (collettivo).
-
-**Coordinate**
-- WGS84. Coordinate locali in metri: `x = (lon − 11,62) · 111320 · cos(44,8375°)`, `y = (lat − 44,8375) · 110540`.
-- Ogni zona percorribile ha un proprio sistema ruotato (vedi `motore-e-grafica.md` §2).
-
-**Stile dei testi**
-Italiano semplice: frasi brevi, niente gergo non spiegato, niente tono infantile.
-
-## 5. Vincoli tecnici e di contenuto
-
-**Tecnica**
-- Il prototipo è **una sola pagina HTML**, offline, senza librerie esterne e senza richieste di rete a runtime.
-
-**Contenuti e immagini**
-- **Immagini** solo in pubblico dominio o con licenza libera, sempre attribuite in `FONTI-E-LICENZE.md`.
-- Niente volti inventati per le persone reali: si usa un emblema.
-- Per le persone viventi, solo emblemi.
-- **Fatti storici**: verificali prima di usarli. I dubbi vanno segnati nelle schede (`note_verifica`).
-
-**Dati**
-- **Dati geografici**: open data del Comune di Ferrara (CC BY 4.0), con attribuzione.
-- **Niente dati degli studenti** nel repository.
-
-**Persistenza**
-- Il progetto **non ha server e non ha account**: niente telemetria, niente salvataggio remoto, niente richieste di rete a runtime.
-- **Le previsioni che il giocatore scrive nelle fasce bianche sono dati personali**: restano nel file di consegna e non vanno mai pubblicate in un repository.
-
-## 6. Come lavorare
-
-1. Leggi i documenti pertinenti e verifica che la modifica rispetti il §3.
-2. Modifica il documento in `docs/`, poi i dati in `dati/` se servono, poi il codice in `sorgenti/`.
-3. Rigenera il prototipo con `python3 build_mappa_html.py` da `sorgenti/`. Se hai Playwright, esegui i test in `sorgenti/test/`.
-4. Aggiorna versione e registro modifiche dei documenti toccati e, se serve, la tabella del `README.md`.
-5. **Prima di dichiarare finito, passa `python3 sorgenti/verifica_coerenza.py`**: confronta le versioni fra intestazioni, tabella del README e rimandi incrociati, controlla che i file citati esistano (i file dichiarati «da produrre» sono un caso diverso e li riconosce), e riconcilia le cifre dichiarate con i dati. Se il checkout è parziale, aggiungi `--elenco` con l'elenco dei file del ramo remoto.
-6. Nel messaggio di commit, spiega **che cosa** è cambiato e **perché**.
-
-## 7. Da sapere
-
-- `sorgenti/gis/estrai.py` legge i dati che una sessione di Claude aveva ricevuto dal browser integrato. Il percorso è specifico di quella sessione. Per rifare l'estrazione, interroga direttamente il WFS del Comune come descritto in `motore-e-grafica.md` §1.
-- `sorgenti/civici.py` e `geo.py` richiedono lo shapefile dei numeri civici del Comune di Ferrara, che non è nel repository perché pesa circa 50 MB. Senza, il build usa `sorgenti/gis/vie_etichette.json`.
+- `sorgenti/civici.py` e `geo.py` richiedono lo shapefile dei numeri civici del Comune di Ferrara, che non è nel repository perché pesa circa 50 MB. Senza, il build usa `sorgenti/gis/vie_etichette.json`

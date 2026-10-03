@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — i percorsi del duca: mezzi di trasporto, copertura della mappa e ritorni
-versione: 0.3
+versione: 0.4
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: calcolo sulle coordinate di dati/luoghi_gioco.json
-documenti collegati: videogioco-5-duchi-luoghi.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-audit.md (v0.6), AGENTS.md
+documenti collegati: videogioco-5-duchi-luoghi.md (v0.5), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-audit.md (v0.7), AGENTS.md
 ---
 
 # I percorsi del duca
@@ -31,16 +31,64 @@ Questo documento risponde con dei numeri, non con delle opinioni. I numeri vengo
 
 Il mezzo di trasporto è la prima cosa da capire, perché **determina la velocità con cui la mappa si attraversa** e quindi il numero di tappe che ci stanno in un anno scolastico.
 
-| Mezzo | km al giorno | Persone per viaggio | Nota | Anno |
-|---|---|---|---|---|
-| A piedi | 25 | 1 | un uomo solo, con la bisaccia | **1** |
-| Cavallo | 45 | 2 | cavaliere e scudiero, bagagli in sella | **2, 3** |
-| Galera | 55 | 40 | galera veneziana, i passeggeri pagano | 2, 3 |
-| Nave | 130 | 300 | veliero latino, rotta dipendente dal vento | **4** |
-| Carovana | 30 | 60 | strada delle carovane, con le guide | 4 |
-| Diligenza | 45 | 8 | diligenza delle poste, cambio cavalli ogni 10-12 km | 4 |
-| Treno | 180 | 200 | convoglio ferroviario, orari fissi, biglietto | **5** |
-| Aereo | 900 | 300 | volo di linea, con l'attesa all'aeroporto | **5** |
+| Mezzo | km al giorno | Persone | Tipo | `dal` | Anno | Nota |
+|---|---|---|---|---|---|---|
+| A piedi | 25 | 1 | storico | −3000 | **1** | un uomo solo, con la bisaccia |
+| Cavallo | 45 | 2 | storico | −3000 | **2, 3** | cavaliere e scudiero, bagagli in sella |
+| Galera | 55 | 40 | storico | 1500 | 2, 3 | galera veneziana, i passeggeri pagano |
+| Pipa | 8 | 1 | storico | 1600 | 3 | la pianta che in Cinquecento faceva il giro d'Europa |
+| Nave | 130 | 300 | storico | −3000 | **4** | veliero latino, rotta dipendente dal vento |
+| Carovana | 30 | 60 | storico | −1000 | 4 | strada delle carovane, con le guide |
+| Diligenza | 45 | 8 | storico | 1650 | 4 | diligenza delle poste, cambio cavalli ogni 10-12 km |
+| Treno | 180 | 200 | storico | 1825 | 4, **5** | convoglio ferroviario, orari fissi, biglietto |
+| Aereo | 900 | 300 | storico | 1920 | 4, **5** | volo di linea, con l'attesa all'aeroporto |
+| Crociera | 200 | 2000 | storico | 1900 | 5 | nave passeggeri: l'attesa è il costo vero |
+| **Moto** | 250 | 2 | storico | **1903** | **4**, 5 | 500 km al giorno con due soste, e le soste sono il costo |
+| **Sci** | 40 | 2 | storico | **1900** | **4**, 5 | 30 km/h di media, e la salita si paga |
+| **Elicottero** | 320 | 4 | storico | **1936** | 4, 5 | la rotta più breve in assoluto, il costo più alto |
+| **Monopattino** | 30 | 1 | storico | **2001** | 4, 5 | 20 km/h: mezzo urbano, serve per l'ultimo tratto |
+
+**Le due colonne nuove, e perché non sono un vezzo.** `tipo` dice se il numero è una stima discussa (`storico`) o una convenzione dichiarata (`gioco`). `dal` è l'anno di attestazione del mezzo, ed è il dato che rende possibile il controllo degli anacronismi: **è la ragione per cui la colonna esiste.** Senza `dal`, un elicottero in una tappa del 1300 passerebbe inosservato.
+
+### 1.1 I mezzi che sono soltanto del testo
+
+Il quinto anno è anche l'anno dei mezzi che esistono solo nell'edizione del 1516, e sono cinque. Non sono un vezzo: sono **la regola dei due strati applicata alla velocità** (`luoghi.md` §4.5). Il pin è reale e va in treno; la stanza è del poema e si attraversa a cavallo di Astolfo.
+
+| Mezzo | km al giorno | Persone | Il verso, e donde viene |
+|---|---|---|---|
+| **Ippogrifo** | 500 | 1 | «una giumenta generò d'un grifo» — c. IV, 18 |
+| **Drago** | 400 | 2 | «sí duro intorno ha lo scaglioso drago» — c. XVIII, 12 |
+| **Sirena** | 200 | 1 | «la sirena che col suo dolce canto acheta il mare» — c. VI, 40 |
+| **Carro di delfini** | 250 | 2 | «che fatto al carro i suoi delfini porre» — c. XI, 44 |
+| **Carro di serpenti** | 250 | 2 | «sul carro che tiravan dui serpenti» — c. XII, 2 |
+
+**Il numero che hanno non è una velocità, e il gioco lo dice.** Sono convenzioni dichiarate, il campo `tipo` dice `gioco` perché nessuno le legga come un dato storico, e ogni versione della tabella porta la scritta. Il confronto che vale non è «quanto ci si arriva»: sui 79 494 km del quinto anno l'aereo fa 106 giorni, il treno 530, l'ippogrifo 191 — e la domanda che il gioco pone è **«che cosa è successo in mezzo?»**.
+
+### 1.2 Il riscontro fra il mezzo di allora e il mezzo di oggi
+
+*(03/10/2026 — `sorgenti/percorsi_mezzi.py`)*
+
+Aggiungere i mezzi nuovi ha reso insufficiente il controllo per anno, e il perché merita di essere scritto: **l'anno 4 non è un'epoca.** Va dalle tavolette di Uruk a Orwell, e in un anno solo ci sono tremilaseicento anni. Un controllo che dicesse «nell'anno 4 si può andare in elicottero» direbbe una cosa vera per la tappa 4-29 e falsa per la tappa 4-1.
+
+La prima stesura del controllo cercava quindi «un mezzo che non esisteva alla data della tappa in cui è usato», e **ne trovava uno solo: l'anno 5 è l'anno di Alfonso II (1597), e lì non esisteva né il treno né l'aereo.** Ma il mezzo di cui si parla non è il mezzo di Alfonso: è il mezzo con cui il materiale di Alfonso arriva *all'archivio*, e l'archivio è del presente. **Un anacronismo qui non è un errore: è la risposta.**
+
+Il controllo giusto è un confronto, e cerca un difetto solo: **il mezzo di oggi non può essere più lento di quello di allora.** Il risultato è anche la tabella più informativa del capitolo — la ripartizione dei mezzi che escono dalle trenta date di un anno:
+
+| Anno | Mezzi di allora nelle trenta tappe |
+|---|---|
+| **4** | nave 23, aereo 5, treno 1, moto 1 |
+| **5** | aereo 26, treno 1 |
+
+Il ventitré su trenta dell'anno 4 è la nave, e i cinque aerei sono le tappe degli anni Trenta: il file **calcola** il mezzo di ogni tappa dalla data, non lo dichiara a mano. Se si domanda un anno, il risultato cambia da solo.
+
+### 1.3 Le due colonne di mezzi, e perché sono due domande
+
+Il quarto anno ha **due** serie di mezzi, ed è la parte di questo capitolo che non si può comprimere:
+
+- **chi viaggia** — chi porta il documento, con i mezzi che esistevano alla data della tappa. Qui l'anacronismo è un difetto e il controllo lo segnala;
+- **con che cosa arriva il giocatore** — gli stessi luoghi, con i mezzi di oggi: moto, sci, elicottero, monopattino. Qui l'anacronismo non è un difetto ma **il contenuto della domanda**, perché la domanda del gioco è «che cosa è cambiato?». Per questo la seconda colonna sta **fuori** dal controllo degli anacronismi, ed è dichiarato che sta fuori.
+
+Il caso che rende la distinzione inevitabile è l'anno 4: **monopattino 2001 per raggiungere Tebe, e il giocatore ci va oggi in monopattino.** Le due cifre non si contraddicono, sono due domande diverse, e il gioco le mostra entrambe perché il ragazzo vede che dal 2001 a oggi un luogo è diventato vicino.
 
 **Perché questi e non altri.**
 
@@ -50,7 +98,9 @@ Il mezzo di trasporto è la prima cosa da capire, perché **determina la velocit
 
 **L'anno 4 non è un viaggio: è un arrivo.** L'unico luogo percorribile del quarto anno è **l'archivio della corte** (`anno4-mondo.md` §3). Il duca non va a Tenochtitlán: **a Tenochtitlán arriva un documento**. Il mezzo di trasporto dell'anno 4 è la **nave** (per il materiale che viene dall'Asia e dalle Americhe), la **carovana** (per quello che viene dall'Africa e dall'Oriente via terra) e la **diligenza** (per quello europeo). Il percorso che conta, in quell'anno, è la rotta di chi porta il documento, non quella di chi lo riceve.
 
-**L'anno 5 si fa in treno e in aereo.** Sono i mezzi del presente, e sono veloci abbastanza da coprire il mondo in un anno. Ma il tempo di attesa all'aeroporto è il costo vero, e per questo nel quinto anno il mezzo «treno» conta più dell'«aereo» anche se è quattro volte più lento: si arriva in città.
+**L'anno 5 si fa in treno e in aereo.** Sono i mezzi del presente, e sono veloci abbastanza da coprire il mondo in un anno. Ma il tempo di attesa all'aeroporto è il costo vero, e per questo nel quinto anno il mezzo «treno» conta più dell'«aereo» anche se è quattro volte più lento: si arriva in città. **E a questi si aggiungono i mezzi che sono soltanto del testo** (§1.1): cinque, con la fonte sul verso, e la stanza del *Furioso* si attraversa con quelli.
+
+**L'anno 4 ha due serie di mezzi, ed è il punto in cui la domanda si sdoppia** (§1.3). Chi porta il documento usa i mezzi dell'epoca della tappa — la nave per ventitré tappe su trenta, l'aereo per le cinque degli anni Trenta. Il giocatore ci arriva oggi con gli altri quattro. Il perché è didattico: **è l'unico anno in cui la stessa tabella può dire che nel 1300 per andare a Tebe ci si metteva un mese e oggi ci si mette un'ora.**
 
 ---
 
@@ -221,6 +271,7 @@ Se fra due tappe ci sono dodici giorni di strada, il gioco può (a) mostrarne un
 
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|
+| 03/10/2026 | 0.4 | **I mezzi diventano ventidue e il capitolo acquista tre sezioni.** Otto mezzi storici nuovi — treno e aereo passano anche all'anno 4, e arrivano crociera, **moto**, **sci**, **elicottero** e **monopattino**; e cinque mezzi **del testo** per il quinto anno, con il canto e l'ottava accanto: l'ippogrifo (c. IV, 18), il drago (c. XVIII, 12), la sirena (c. VI, 40), il carro di delfini (c. XI, 44) e il carro di serpenti (c. XII, 2). Ogni mezzo porta due campi nuovi, `tipo` (`storico` o `gioco`) e `dal` (l'anno di attestazione). **Il `dal` è la ragione della modifica**: senza di esso un elicottero in una tappa del 1300 passerebbe inosservato. Il controllo degli anacronismi è diventato **per tappa** (§1.2), perché l'anno 4 non è un'epoca, e il primo calcolo ha trovato un difetto vero nella propria impostazione: cercava un mezzo inesistente alla data della tappa e segnalava l'anno 5 di Alfonso II, dove non c'era né treno né aereo — ma il mezzo di cui si parla è quello **con cui il materiale arriva all'archivio**, che è del presente. Il controllo giusto confronta il mezzo di allora con quello di oggi e cerca un difetto solo: che quello di oggi non sia più lento. La ripartizione che ne esce è la tabella più informativa del capitolo (anno 4: nave 23, aereo 5, treno 1, moto 1) ed è **calcolata dalle date, non scritta a mano**. |
 | 03/10/2026 | 0.3 | Solo rimandi, come alla v0.2: `luoghi.md` sale a v0.4 (la verifica F16 dei filoni) e `audit.md` a v0.6 (I19 chiusa, il conto a 28 chiuse e 86 aperte). **Nessuna cifra di questo documento cambia**: i percorsi sono calcolati sulle coordinate di `dati/luoghi_gioco.json`, che non sono state toccate. |
 | 03/10/2026 | 0.2 | Solo rimandi: l'audit sale a v0.5 e `mappe.md` a v0.7 dopo le chiusure del 3 ottobre (tavolozza, sagome degli edifici, fondo di Ferrara, ambienti dei 150 livelli e file amministrativo mondiale). **Nessuna cifra di questo documento cambia**: i percorsi sono calcolati sulle coordinate di `dati/luoghi_gioco.json`, che il 3 ottobre non è stato toccato. |
 | 02/10/2026 | 0.1 | Prima stesura. Calcolati i percorsi del duca per gli anni 2, 3, 4 e 5 sulle coordinate di `dati/luoghi_gioco.json`: **tre varianti** (l'ordine delle tappe, il giro che copre tutto, il giro chiuso), i **mezzi di trasporto** dell'epoca con le velocità dichiarate, e il fatto che **l'ordine dei numeri di tappa raddoppia il viaggio** (−31% fino a −58%). Le tre ipotesi di percorso, il ritorno come momento degli incontri, la copertura della mappa anno per anno con i buchi, e la proposta di aprire le facoltative continentali sul ritorno. Sei questioni aperte, di cui la prima è una decisione di progetto e non un lavoro. |

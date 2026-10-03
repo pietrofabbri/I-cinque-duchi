@@ -1,13 +1,13 @@
 ---
 titolo: Videogioco "I cinque duchi" — La regola dei luoghi: i tipi di legame fra personaggio e luogo, catalogo per anno e mappa del quinto anno
-versione: 0.4
+versione: 0.5
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
-revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (controllo di coerenza del 02/10/2026: rimandi di versione, Q1 dichiarata risolta ma non ratificata, «l'aria sopra la foresta» dichiarata aperta); v0.3 (le sedici decisioni di Pietro del 02/10/2026: la regola dei due strati entra in §4.5, il tipo `C` nella scala ufficiale, il tipo `N` dei non luoghi in §4.3, V8 V9 V10 fatte, i buchi geografici affidati ai facoltativi, il tetto dei pin riscritto, e l'Africa riscritta sulla parola del testo)
+revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (controllo di coerenza del 02/10/2026: rimandi di versione, Q1 dichiarata risolta ma non ratificata, «l'aria sopra la foresta» dichiarata aperta); v0.3 (le sedici decisioni di Pietro del 02/10/2026: la regola dei due strati entra in §4.5, il tipo `C` nella scala ufficiale, il tipo `N` dei non luoghi in §4.3, V8 V9 V10 fatte, i buchi geografici affidati ai facoltativi, il tetto dei pin riscritto, e l'Africa riscritta sulla parola del testo); v0.4 (03/10/2026: la verifica F16 dei filoni dichiarati — F11 non assegnato — tenuta ferma anche nel generatore); v0.5 (03/10/2026: le 51 ipotesi di coordinata entrano in §4.8 con tre gradi dichiarati e le regole R1-R6, e il punto 5 di §9 — la resa grafica delle stanze — è chiuso)
 fonte del materiale: le liste di associazioni personaggio–luogo per gli anni 2, 3 e 4 e la revisione delle associazioni con i luoghi dell'Orlando furioso per il quinto anno, proposte da Pietro (01/10/2026), con i criteri di tre e quattro tipi di legame e l'elenco delle associazioni da eliminare
-dati: videogioco-5-duchi-luoghi.json (da generare, v0.1: un record per associazione, con anno, personaggio, luogo, tipo di legame, pin o porta, nota, attendibilità); dati/luoghi_gioco.json (95 luoghi e il blocco `tappe` con i trenta binomi pin/stanza del quinto anno, generato da sorgenti/furioso/costruisci_citazioni.py --luoghi)
-controllo: python3 sorgenti/furioso/verifica_citazioni.py (controlla anche i legami I/N, il blocco `tappe` e i filoni: verifiche F13, F14, F15, F16); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-furioso.md (v0.5), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
+dati: videogioco-5-duchi-luoghi.json (da generare, v0.1: un record per associazione, con anno, personaggio, luogo, tipo di legame, pin o porta, nota, attendibilità); dati/luoghi_gioco.json (95 luoghi e il blocco `tappe` con i trenta binomi pin/stanza del quinto anno, generato da sorgenti/furioso/costruisci_citazioni.py --luoghi); dati/ipotesi_luoghi.json (v1, 03/10/2026: le 51 ipotesi di coordinata delle tappe che il registro non può verificare, con tre gradi dichiarati — §4.8)
+controllo: python3 sorgenti/furioso/verifica_citazioni.py (controlla anche i legami I/N, il blocco `tappe` e i filoni: verifiche F13, F14, F15, F16); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi); python3 sorgenti/ipotesi_luoghi.py --verifica (le sei regole R1-R6 delle ipotesi di coordinata, §4.8); python3 sorgenti/verifica_ambienti.py (controllo B7: ogni ambiente dice che cosa disegna e da quale dei due file lo prende)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
 ---
 # La regola dei luoghi
 
@@ -370,6 +370,40 @@ Orlando (ha perso il senno), Astolfo (va a cercarlo), Kahneman e Tversky (errori
 *(proposta)* Questa costellazione è **l'ultima tappa del gioco** e l'unica in cui compaiono più di due voci insieme. Va costruita per prima, perché se non funziona il gioco non finisce.
 
 
+### 4.8 Le 51 tappe senza coordinate: tre gradi di ipotesi, e la regola che le disegna
+
+*(aggiunta il 03/10/2026, per decisione di Pietro: «fai delle ipotesi sensate, e magari citiamo le fonti nella storia per giustificarle; quando proprio è totale invenzione facciamo che è un qualcosa di immaginato».)*
+
+**Il buco, detto con le sue cifre.** Dei centonovanta ambienti del gioco, quarantuno non hanno una coordinata verificata e il registro dei luoghi non può darne una: sono una **porta di gioco**, un **tratto fra due città**, una **situazione** (le carovane, «il mare» di Zheng He, una sala di riunione). Aggiungendo i **dieci** nomi doppi dell'anno 4 — «Bombay e Delhi», «Spagna e Tenochtitlán», «Annapolis e Baltimora» — si arriva a **51 tappe** che il gioco deve ancora piazzare sulla carta. Fino al 2 ottobre erano un buco dichiarato; da oggi sono **51 ipotesi, ognuna con un grado dichiarato**.
+
+**La risposta non è un punto, è una dichiarazione di confidenza.** Il principio è quello che il progetto chiama la differenza fra «abbiamo verificato» e «crediamo che sia», applicato alla geografia: ogni ipotesi dichiara **di che grado è**, e il grado finisce nella storia del livello, cioè nel testo che il giocatore legge. Un giocatore che vede «documentata» sa che il punto è un indirizzo; un giocatore che vede «argomentata, vale 300 metri» sa che il punto è una scelta ragionata; un giocatore che vede «immaginata» sa che **non c'è un posto e il gioco non lo inventa**.
+
+| grado | che cosa significa | quante |
+|---|---|---|
+| **documentata** | il punto è un luogo che esiste e ha una posizione | **28** |
+| **argomentata** | il luogo esiste, ma *quale punto sia stato scelto* è una decisione del progetto; il raggio in metri è dichiarato | **21** |
+| **immaginata** | non c'è un luogo: il gioco non mette niente sulla carta e lo dice al giocatore | **2** |
+
+La distribuzione dice da sola dove il lavoro è stato facile e dove non lo è stato: l'anno 4 è **quattordici documentate su diciassette**, perché sono città vere; l'anno 1 è **due argomentate su due**, perché sono due edifici interni alla Certosa e non hanno un numero civico proprio; l'anno 5 è l'unico con le due **immaginate** (5-18, 5-22).
+
+**Perché un file accanto al registro e non dentro.** Le ipotesi stanno in `dati/ipotesi_luoghi.json` e **non** in `dati/luoghi_gioco.json`. Il motivo è tecnico ed è giusto: `verifica_pin.py` controlla il registro su otto regole geografiche, e una di loro cerca un Paese atteso per ogni nome. Se «Bombay e Delhi» avesse una coordinata nel registro, il verificatore cercherebbe un Paese per un nome che è **due** luoghi, e il controllo che vale per tutti si romperebbe per uno. Le ipotesi stanno dunque **accanto**, e ogni ambiente (`dati/ambienti_livelli.json`) porta un campo `ipotesi` che dice **dove leggerle** e un campo `pin_da_disegnare` che è il punto da mettere sulla carta. `verifica_ambienti.py` ha il controllo **B7**, che obbliga ogni ambiente a dire che cosa disegna e da quale dei due file lo prende.
+
+**La regola dei nomi doppi: due punti e un pin.** In un nome «A e B», A è la **partenza** e B è l'**arrivo**; il pin è l'arrivo, perché il pin è il luogo dove il gioco si ferma (§5.2), e il tratto fra i due è una linea vera con due punti reali. Otto nomi doppi hanno il campo `tratto`. Esempi: alla 4-17 «Bombay e Delhi» il pin è Delhi, dove Ambedkar lavora, e la linea parte da Bombay, dove è nato; alla 4-23 «Lisbona e Calicut» il pin è Calicut, e la rotta è quella di Vasco da Gama; alla 4-27 «Scutari e Costantinopoli» il pin è Costantinopoli, che è **già** il pin della 4-18 — ed è un **ritorno**, che la regola dei pin ammette e che qui viene dichiarato.
+
+**La parte che non è un luogo resta a parole.** Cinque nomi hanno il campo `parte_non_luogo`: «le carovane» (4-2), «la Ionia» (4-15), «il regno» (4-20), «il mare» (4-24, che nel testo di Zheng He è il fiume Gan e il lago Poyang), «Spagna» (4-26). In tutti e cinque il punto è la parte che **si può** puntare, e la parte che non si può resta nel testo della storia. È la stessa regola di §4.3 per i luoghi fantastici, applicata alle regioni e agli Stati: **una regione non è un punto, e il gioco non la trasforma in uno**.
+
+**Le porte di gioco hanno un'ancora, e la dichiarano.** Le sei porte del gioco (`PT-CAR`, `PT-AQU`, `PT-CON`, `PT-COL` e le altre) non sono luoghi: sono uscite da un nodo. Ogni porta ha un punto che è **la corte estense** da cui esce, cioè il Castello Estense già verificato alla 1-8, con raggio dichiarato **0**: non si sposta di un metro, perché l'ancora è esatta. Lo stesso vale per le tappe 2-26, 2-28, 2-30, 3-11 e per le 3-10 e 3-17 («una fonderia ducale a Ferrara non è stata localizzata», 500 metri dichiarati).
+
+**Le fonti sono citate, e sono citate dove si guarda.** Ogni record porta due campi: `fonte`, che dice **da dove viene il punto** («Südtiroler Archäologiemuseum, Piazza del Duomo 2, Bolzano»; «il fatto documentato del 1324 è al Cairo, Timbuctu' è il luogo simbolico»), e `frase`, che è **la riga che il gioco mostra al giocatore** e che dichiara il grado a parole. Una fonte che non si vede nel testo del livello è una fonte che il progetto non ha accettato: la `frase` è il punto in cui la fonte entra nel gioco.
+
+**I due casi in cui l'honestà costa di più.** La 1-27 e la 1-30 sono i due edifici della Certosa che il controllo **A5** ha rifiutato perché avevano lo stesso punto dell'ingresso della 1-29: non si può dichiarare la stessa coordinata per tre luoghi distinti, e la risposta non è stata zittirare il controllo, ma **spostare i due edifici di 110 e 130 metri** e dichiarare 150 metri di raggio. E ci sono due tappe in cui il progetto ha rinunciato: la 5-18, «una sala di riunione, 1983», e la 5-22, «un documento del 2008». Sono le due uniche **immaginate**, e non hanno un punto: il gioco non disegna niente e dice al giocatore che cosa non sa.
+
+**Le sei regole, e il fatto che mordano.** `sorgenti/ipotesi_luoghi.py --verifica` esegue sei controlli: **R1** un'ipotesi per ogni tappa senza coordinate e nessuna per le tappe che ne hanno una; **R2** ogni ipotesi dichiara grado e fonte, e `immaginata` non ha coordinate; **R3** ogni `argomentata` dichiara il raggio in metri; **R4** ogni nome doppio ha due punti e un pin, e il pin è il secondo nome; **R5** nessuna parte di un nome che non è un luogo diventa un punto; **R6** nessuna ipotesi è a meno di 50 metri da un punto verificato senza dichiarare che è lo stesso luogo. Le sei sono state **provate con difetti iniettati** — si è rotta una di esse alla volta e ognuna ha morso: un controllo che non si è mai visto fallire non è un controllo.
+
+**Il tempo di Pietro per tutto questo è zero.** Nessuna mappa da disegnare, nessuna illustrazione, nessun viaggio: i quarantanove punti sono numeri in un file, e gli unici due che non esistono sono dichiarati come non esistenti. La parte che resta a Pietro è la **storia** di ogni livello, e l'aiuto che il progetto le dà è la riga `frase`, già scritta: non va inventato il testo, va letto e adattato.
+
+---
+
 ## 5. Come si registra tutto questo nei dati
 
 ### 5.1 Lo schema
@@ -473,6 +507,8 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 | **V13** | Mansa Musa → Cairo come `A` | **✓ risolto (02/10/2026)**: il documento dell'Anno IV ha il pin su **Il Cairo** e **Timbuctù in `S`**, che è la formulazione corretta (Cairo `A`, il fatto documentato del 1324; Timbuctù `S`, la città del deserto che non è attestata come tappa) |
 | **V14** | I buchi geografici (Brasile, Indonesia, Corea, Nuova Zelanda, Canada, Artide, Ungheria, Romania, Scandinavia, Balcani, Puglia) | **✓ chiuso come domanda (02/10/2026)**: non sono né da colmare né da dichiarare vuoti, ma da **affidare ai facoltativi** (§4.7). Undici buchi, undici facoltative |
 
+| **V15** | Le 51 tappe senza coordinate | **✓ risolto (03/10/2026)**: sono **51 ipotesi con tre gradi dichiarati** — 28 documentate, 21 argomentate (tutte con il raggio in metri), 2 immaginate e senza punto — in `dati/ipotesi_luoghi.json`, accanto al registro e non dentro (§4.8). Sei controlli automatici, **R1-R6**, che sono stati provati con difetti iniettati; `verifica_ambienti.py` **B7** controlla che ogni ambiente dica che cosa disegna e da quale dei due file lo prende |
+
 ---
 
 ## 8. Questioni aperte
@@ -504,11 +540,21 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 2. **Le undici fonti delle facoltative continentali** (§4.7): tre situazioni senza persona e otto biografie. È un abbozzo di bibliografia, non una verifica.
 3. **Aggiornare `AGENTS.md`** con: i cinque tipi di legame, il tipo `N`, il vincolo del pin unico, la regola dei due strati, e l'eccezione dei luoghi fantastici (nessuna coordinata).
 4. **La costellazione finale del §4.6**: nove voci e una domanda. Va prototipata prima di tutto il resto, perché è la fine del gioco.
-5. **La resa grafica delle stanze**: un quarto dei luoghi delle stanze non ha coordinate e non può essere disegnato come gli altri (`furioso.md` §8, Q6.2).
+5. ~~**La resa grafica delle stanze**~~ **Chiusa il 03/10/2026**, e chiusa nella forma più economica: **nessuna stanza ha un disegno proprio**. La stanza prende il pin reale e verificato del personaggio, un nome doppio diventa un tratto fra due punti, la parte che non è un luogo resta a parole, e se non c'è un luogo non si disegna niente e il gioco lo dichiara (`furioso.md` §4.12). Le 51 ipotesi di §4.8 portano i punti mancanti e i tre gradi, e **148 ambienti su 150** hanno un punto da disegnare: i due che non lo hanno sono i due dichiarati `immaginata`.
 
 ---
 
 ## 10. Registro modifiche
+
+- **v0.5 (03/10/2026, seconda parte)**: il punto 5 di §9, «la resa grafica delle stanze», è chiuso: è la Q6.2 di `furioso.md`, chiusa lì in §4.12, e la risposta che ne è venuta fuori è che il problema non era il disegno ma l'etichetta.
+
+- **v0.5 (03/10/2026)**: una sezione nuova, **§4.8**, e la ragione è che il buco delle coordinate era l'ultima cosa del progetto che era ancora soltanto **dichiarata**. Pietro ha chiesto ipotesi sensate, con le fonti citate nella storia e la totale invenzione dichiarata come immaginato: la risposta sono tre gradi, non un punto solo.
+  - **28 documentate, 21 argomentate, 2 immaginate**: la coordinata esiste e ha un indirizzo; la coordinata esiste ma *quella* è stata scelta dal progetto e vale 300 metri; **non esiste un luogo** e il gioco non ne inventa uno. Il grado finisce nella riga che il giocatore legge (`frase` accanto a `fonte` in ogni record);
+  - **un file accanto al registro, non dentro**: se «Bombay e Delhi» avesse una coordinata in `dati/luoghi_gioco.json`, `verifica_pin.py` cercherebbe un Paese per un nome che è due luoghi, e un controllo che vale per tutti si romperebbe per uno. Le ipotesi stanno in `dati/ipotesi_luoghi.json` e `verifica_ambienti.py` ha il controllo **B7**;
+  - **la regola dei nomi doppi**: in «A e B» A è la partenza, B è l'arrivo, il pin è l'arrivo e il tratto fra i due è una linea con due punti reali. Otto nomi doppi hanno il tratto; tre pin sono **ritorni** (Costantinopoli, Tenochtitlán, e i luoghi già fermati altra volta) e sono dichiarati come tali;
+  - **la parte che non è un luogo resta a parole**: cinque record hanno `parte_non_luogo` (le carovane, la Ionia, il regno, «il mare» di Zheng He, la Spagna) e il punto è la parte che si può puntare. È la regola di §4.3 applicata alle regioni e agli Stati;
+  - **un controllo che morde**: A5 ha rifiutato che la 1-27 e la 1-30 avessero il punto dell'ingresso della 1-29. La risposta non è stata zittire il controllo ma **spostare i due edifici di 110 e 130 metri** e dichiarare 150 metri di raggio;
+  - **R1-R6 sono state provate con difetti iniettati**: una alla volta, e ognuna ha morso.
 
 - **v0.4 (03/10/2026)**: una sola aggiunta, e la sua ragione è che una verifica che esiste solo nella sua fonte non viene incontrata da nessuno. Il controllo `sorgenti/furioso/verifica_citazioni.py` ha una **F16** nuova — i filoni dichiarati, le loro tappe e il campo `assegnato` combaciano con le citazioni che li portano — e questa intestazione, che è il posto dove un documento dichiara di che cosa si occupa il proprio controllo, diceva ancora `F13, F14, F15`. La F16 è nata perché `F11` risultava `assegnato: true` con la sua unica tappa in una stanza facoltativa, cioè un filone giocabile che il gioco non permette di raggiungere: la storia è in `furioso.md` §4.11. Da qui la versione di `citazioni.json` è la **v4**, con un campo `facoltative` accanto a `tappe`.
 

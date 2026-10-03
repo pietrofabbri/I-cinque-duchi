@@ -28,6 +28,11 @@ dai documenti che il progetto ha gia' scritti e verificati.
   le sagome        da `edifici_footprint.json`, per i luoghi che ne hanno
   il fondo         da `ferrara_fondo.json`, solo per l'anno 1, che e' l'unico
                    anno che si gioca dentro Ferrara
+  l'ipotesi        da `ipotesi_luoghi.json`, per le tappe che il registro non
+                   puo' verificare: il registro porta i luoghi verificati e il
+                   file delle ipotesi porta gli altri due gradi. I due non si
+                   mescolano e il campo `ipotesi` dell'ambiente dice quale dei
+                   due sia
 
 **Il confronto dei nomi e' evitato apposta.** Il primo tentativo di questo file
 ha provato ad abbinare «Bolzano, Museo archeologico altoatesino» della tabella
@@ -60,6 +65,7 @@ DOCS = os.path.join(RADICE, "docs")
 LUOGHI = os.path.join(RADICE, "dati", "luoghi_gioco.json")
 FOOTPRINT = os.path.join(RADICE, "dati", "edifici_footprint.json")
 FONDO = os.path.join(RADICE, "dati", "ferrara_fondo.json")
+IPOTESI = os.path.join(RADICE, "dati", "ipotesi_luoghi.json")
 USCITA = os.path.join(RADICE, "dati", "ambienti_livelli.json")
 
 # Le cinque tabelle dei livelli. Il numero e' la posizione della sezione dentro il
@@ -233,6 +239,18 @@ def main():
             fondo = json.load(f)
     print("luoghi con sagome: %d" % len(sagome))
 
+    # Le ipotesi di coordinata: un record per tappa, e solo per le tappe che il
+    # registro non puo' verificare. Se il file non c'e' il progetto funziona lo
+    # stesso, e gli ambienti restano come erano: le ipotesi sono un aggiunta
+    # dichiarata, non un requisito, ed e' la differenza fra un file che ti
+    # blocca e uno che ti informa.
+    ipotesi = {}
+    if os.path.exists(IPOTESI):
+        with open(IPOTESI, encoding="utf-8") as f:
+            for r in json.load(f)["ipotesi"]:
+                ipotesi[r["tappa"]] = r
+    print("tappe con ipotesi di coordinata: %d" % len(ipotesi))
+
     ambienti, problemi = [], []
     for lid in sorted(livelli, key=lambda x: (int(x.split("-")[0]),
                                               int(x.split("-")[1]))):
@@ -304,7 +322,22 @@ def main():
         if amb["orientamento"] is None:
             vuoti.append("orientamento_non_dichiarato")
 
-        ambienti.append({
+        # La coordinata che il motore disegna non e' sempre quella del registro:
+        # quando c'e' un'ipotesi, il motore legge quella e il file dice di che
+        # grado e'. Il registro non si tocca: `lat` e `lon` restano quelli
+        # verificati (o null), e quello che disegna sta in `pin_da_disegnare`.
+        ip = ipotesi.get(lid)
+        disegna = None
+        if ip and ip["lat"] is not None:
+            disegna = {"lat": ip["lat"], "lon": ip["lon"],
+                       "grado": ip["grado"], "raggio_m": ip.get("raggio_m"),
+                       "fonte": "dati/ipotesi_luoghi.json"}
+        elif lat is not None:
+            disegna = {"lat": lat, "lon": lon, "grado": stato,
+                       "raggio_m": None,
+                       "fonte": "dati/luoghi_gioco.json"}
+
+        record = {
             "livello": lid, "anno": v["anno"], "numero": v["numero"],
             "argomento": v["argomento"], "voce": v["voce"],
             "forza": v["forza"], "strato": v["strato"], "porta": v["porta"],
@@ -313,14 +346,43 @@ def main():
             "luogo": nome, "lat": lat, "lon": lon,
             "coord_stato": stato, "fonte_coord": fonte,
             "terreno": (luogo or {}).get("terreno"),
-            "ambiente": amb, "vuoti": sorted(set(vuoti)),
-        })
+            "ambiente": amb,
+        }
+        if ip:
+            record["ipotesi"] = {
+                "grado": ip["grado"],
+                "frase": ip["frase"],
+                "fonte": ip["fonte"],
+                "tratto": ip.get("tratto"),
+                "parte_non_luogo": ip.get("parte_non_luogo"),
+                "file": "dati/ipotesi_luoghi.json",
+            }
+            if ip["grado"] == "immaginata":
+                # il vuoto non e' piu' «manca la coordinata»: e' «non c'e' un
+                # luogo, e il gioco lo dice». Sono due fatti diversi e il motore
+                # deve poter dire al giocatore il secondo.
+                vuoti.append("nessun_luogo_dichiarato")
+            if ip.get("tratto"):
+                amb["tratto"] = {"colonne": 34, "righe": 10,
+                                 "scala_m_per_tessera": 1.5}
+        # `vuoti` si chiude qui e non nel costruttore: il vuoto
+        # `nessun_luogo_dichiarato` nasce due righe sopra, e una lista chiusa
+        # dentro un letterale lo lascerebbe fuori senza dire niente.
+        record["vuoti"] = sorted(set(vuoti))
+        record["pin_da_disegnare"] = disegna
+        ambienti.append(record)
 
     # --- il conto, che e' la parte che serve
     attesi = ["%d-%d" % (a, n) for a in range(1, 6) for n in range(1, 31)]
     mancanti = [t for t in attesi if t not in livelli]
     con_coord = [a for a in ambienti if a["lat"] is not None]
     con_sagome = [a for a in ambienti if a["ambiente"]["edifici"]["n"] > 0]
+    per_grado = {}
+    for a in ambienti:
+        g = (a.get("ipotesi") or {}).get("grado")
+        if g:
+            per_grado[g] = per_grado.get(g, 0) + 1
+    disegnabili = [a for a in ambienti if a.get("pin_da_disegnare")]
     per_tipo = {}
     for a in ambienti:
         per_tipo[a["ambiente"]["tipo"]] = per_tipo.get(
@@ -329,7 +391,13 @@ def main():
     print("\nambienti: %d (attesi %d)" % (len(ambienti), len(attesi)))
     if mancanti:
         print("  LIVELLI MANCANTI: %s" % ", ".join(mancanti))
-    print("  con coordinate: %d su %d" % (len(con_coord), len(ambienti)))
+    print("  con coordinate verificate: %d su %d"
+          % (len(con_coord), len(ambienti)))
+    print("  con ipotesi di coordinata: %d (%s)"
+          % (sum(per_grado.values()),
+             ", ".join("%s %d" % kv for kv in sorted(per_grado.items()))))
+    print("  con un punto da disegnare, in tutto: %d su %d"
+          % (len(disegnabili), len(ambienti)))
     print("  con sagome OSM: %d" % len(con_sagome))
     print("  per tipo: %s" % ", ".join("%s %d" % kv for kv in
                                       sorted(per_tipo.items())))
@@ -374,12 +442,25 @@ def main():
             "con_coordinate": len(con_coord),
             "senza_coordinate": [a["livello"] for a in ambienti
                                  if a["lat"] is None],
+            "ipotesi_per_grado": per_grado,
+            "disegnabili": len(disegnabili),
+            "non_disegnabili_per_decisione": [a["livello"] for a in ambienti
+                                              if a.get("ipotesi")
+                                              and a["ipotesi"]["grado"]
+                                              == "immaginata"],
             "con_sagome": len(con_sagome),
             "per_tipo": per_tipo,
             "costruiti": [a["livello"] for a in ambienti
                           if a["ambiente"]["stato"] == "costruito"],
         },
         "vuoti_dichiarati": {
+            "ipotesi": "le 51 tappe che il registro non puo' verificare hanno "
+                       "un'ipotesi in dati/ipotesi_luoghi.json, con tre gradi "
+                       "dichiarati: `documentata`, `argomentata` (che porta il "
+                       "raggio in metri) e `immaginata` (che non ha punto e non "
+                       "ne ha bisogno). Il campo `ipotesi` di ogni ambiente e' "
+                       "la copia del record, e `pin_da_disegnare` e' la "
+                       "coordinata che il motore usa davvero",
             "orientamento": "ogni ambiente ha l'orientamento a null e il vuoto in "
                             "`vuoti`: la tappa 1-1 ha un orientamento dichiarato "
                             "(la facciata guarda verso chi gioca) e gli altri "

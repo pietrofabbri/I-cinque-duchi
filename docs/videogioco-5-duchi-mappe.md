@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — Le mappe: fondo geografico per gli anni 2, 3 e 4, e dove si prendono i dettagli delle tappe
-versione: 0.8
+versione: 0.9
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte del materiale: richiesta di Pietro dell'01/10/2026 («recupera e archivia tutte le mappe che possono essere utili a questo e i prossimi anni»), con l'indicazione di due usi distinti: le mappe generali per costruire un percorso sensato, e le mappe di dettaglio per rappresentare ogni livello nella forma più reale possibile
 dati: dati/mappe/*.json (23 file: i 19 del 01/10/2026 da Natural Earth con `sorgenti/gis/mappe_formato.py`, piu `mondo_admin1.json` e i tre `*_altitudine.json` del 03/10/2026), dati/mondo_admin1_copertura.json (v1, il conto della copertura: sta in `dati/` e non in `dati/mappe/`, perche' li' vale la regola del solo formato a delta), dati/edifici_footprint.json (v1, 5209 sagome su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura)
-documenti collegati: videogioco-5-duchi-motore-e-grafica.md (v0.1, la pipeline che questi dati alimentano), videogioco-5-duchi-luoghi.md (v0.3, la regola che decide *quali* luoghi servono), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.3), FONTI-E-LICENZE.md, AGENTS.md
+documenti collegati: videogioco-5-duchi-motore-e-grafica.md (v0.1, la pipeline che questi dati alimentano), videogioco-5-duchi-luoghi.md (v0.5, la regola che decide *quali* luoghi servono e i tre gradi di ipotesi di coordinata), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-fonti-visive.md (v0.3), FONTI-E-LICENZE.md, AGENTS.md
 ---
 
 # Le mappe
@@ -27,7 +27,7 @@ Sono due problemi diversi, con due fonti diverse, e la parte 2 ha una brutta not
 |---|---|
 | **Scaricate** | 42 livelli shapefile di **Natural Earth**, in tre scale (110m, 50m, 10m) |
 | **Prodotti** | **23 file di mappe** in formato proprio in `dati/mappe/` (i 19 del 01/10 più `mondo_admin1.json` e i tre `*_altitudine.json` del 03/10), per un totale di **1,6 MB** |
-| **Verifiche** | **61 controlli automatici sulle mappe, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`), più **8 controlli sui pin degli anni dal secondo in poi, tutti superati** (`sorgenti/gis/verifica_pin.py`, §8bis: 71 slot con coordinate su 120) |
+| **Verifiche** | **61 controlli automatici sulle mappe, tutti superati** (`sorgenti/gis/verifica_mappe_numeriche.py`), più **8 controlli sui pin degli anni dal secondo in poi, tutti superati** (`sorgenti/gis/verifica_pin.py`, §8bis: 71 slot con coordinate su 120), più **5 controlli sui trenta pin del primo anno, tutti superati** (`sorgenti/gis/verifica_anno1.py`, §8ter: 30 tappe dentro le mura) |
 | **Licenza** | Natural Earth è **pubblico dominio**: nessun vincolo, nessuna attribuzione richiesta |
 | **Prodotto il 03/10** | **le sagome degli edifici** (5209 su 54 luoghi), **il fondo cittadino dell'anno 1** (14 tratti di mura) e **le cime con la loro quota** (15 + 2 + 26 punti, §2.5): le tre cose che §5 e §7 dichiaravano mancanti ognuna per un motivo diverso. E i **colori delle carte**, che erano nel codice e non in un file (`fonti-visive.md` §3.7) |
 | **Non è stato possibile** | l'altezza degli edifici come dato unico e affidabile: vedi §5, e la ragione è tecnica, non di volontà |
@@ -275,13 +275,15 @@ Segnate qui perché sono state scambiate per difetti due volte, e perché un con
 
 *(fatto il 02/10/2026)* Il controllo sui pin è in §8bis: **71 slot di pin hanno coordinate e sono stati verificati tutti**, e ne sono usciti **due difetti reali**, corretti.
 
+*(fatto il 03/10/2026)* Il primo anno ha **cinque controlli suoi** in §8ter: `sorgenti/gis/verifica_anno1.py`, **A1-A5**, tutti superati.
+
 *(fatto il 03/10/2026)* Sul pacchetto delle mappe sono passati altri due verificatori, che non controllano la geometria ma le cose intorno. `sorgenti/verifica_colori.py` (**C1–C7**) controlla che nessun colore delle carte viva solo nel codice, che le voci dichiarate dicano la verità sulla tavolozza, che **in `dati/mappe/` ci sia solo il formato a delta** e che ogni file di mappa abbia i colori che lo riguardano: 18 file in tabella, **0 problemi**. `sorgenti/gis/verifica_altitudine.py` (**D1–D7**) controlla che le cime cadano nel riquadro dichiarato, che abbiano nome e quota intera, che il conto del manifest torni, che l'Everest sia 8848 e che ci sia una quota negativa: **0 problemi**.
 
 ---
 
 ## 8bis. I pin degli anni dal secondo in poi, verificati uno per uno
 
-*(fatto il 02/10/2026 — `sorgenti/gis/verifica_pin.py`, otto controlli, tutti superati)*
+*(fatto il 02/10/2026 — `sorgenti/gis/verifica_pin.py`, otto controlli, tutti superati; il primo anno è coperto da §8ter, dal 03/10/2026)*
 
 È il controllo che §8 dichiarava mancante, e che l'audit chiamava **B5**: non una domanda, un lavoro.
 
@@ -337,7 +339,7 @@ Il pin di Costantinopoli (41.01224, 28.97602) **non cade in nessun Paese**, a ne
 
 - ~~**19 pin** non sono verificabili sull'unità amministrativa.~~ **Chiuso il 03/10/2026.** Era un difetto di copertura, non dei pin: Agra, Buenos Aires, Bajkonur, Cambridge, Chicago, New York, Princeton, Seattle e gli altri sono fuori dall'Europa, dove il file amministrativo europeo non arriva; Costantinopoli, Uruk e Westminster sono in Paesi che il file europeo contiene solo in parte. Il file amministrativo **mondiale** di §2.4 li copre tutti: **54 pin su 54**.
 - **Solo 19 pin su 54** hanno un confronto con il centro archiviato: i file delle città hanno 212 e 186 punti, che sono capitali e non un gazetteer. Per gli altri 35 la verifica è fatta sui poligoni, che è più debole ma non assente.
-- L'**anno 1 non è coperto**: i suoi pin sono dentro Ferrara e prendono il confine dal WFS del Comune (`luoghi-edifici.md`), non dalle mappe. Il §11 punto 4 lo dice già.
+- ~~L'**anno 1 non è coperto**.~~ **Chiuso il 03/10/2026**: non dai controlli di qui, che per Ferrara sarebbero falsi, ma da cinque controlli suoi, **A1-A5** in `sorgenti/gis/verifica_anno1.py`, che sono in **§8ter**.
 - Il punto-in-poligono lavora su geometrie semplificate: **non prova che il pin sia sulla strada o dentro il muro**, prova che è nella giusta unità amministrativa.
 
 ### Come si esegue
@@ -346,9 +348,49 @@ Il pin di Costantinopoli (41.01224, 28.97602) **non cade in nessun Paese**, a ne
 python3 sorgenti/gis/verifica_pin.py            # anni 2, 3 e 4 (la B5)
 python3 sorgenti/gis/verifica_pin.py --anno 5   # il quinto anno
 python3 sorgenti/gis/verifica_pin.py --tutti     # tutti e cinque: 120 slot, 71 con coordinate
+
+python3 sorgenti/gis/verifica_anno1.py           # il primo anno: 30 tappe dentro le mura (A1-A5)
 ```
 
 Il file ha anche `rilievo_senza_pil.py`, che misura quota e pendenza sui tasselli Terrarium **senza Pillow** (il PNG si decodifica con `zlib`, quarantacinque righe): serve perché `rilievo.py` va pure lui su questa macchina e senza `PIL` si ferma al primo tassello. I due file danno **numeri identici** su sette città già archiviate, e serve a rimisurare un punto senza reinstallare nulla.
+
+---
+
+## 8ter. Il primo anno: i trenta pin dentro le mura, che è l'unico modo giusto di verificarli
+
+*(03/10/2026 — `sorgenti/gis/verifica_anno1.py`, cinque controlli **A1-A5**, 5 su 5 superati)*
+
+**La domanda di Pietro**: «l'anno 1 non è coperto dai controlli automatici dei pin, perché i suoi confini vengono dal WFS del Comune e non dalle mappe Natural Earth: è un male?».
+
+**La risposta breve è no, e la ragione è che i controlli di §8bis per il primo anno sarebbero stati sbagliati.** Quegli otto controlli rispondono a una domanda che ha senso per tutti gli altri anni — *«il pin cade nel Paese e nell'unità amministrativa che il nome dichiara?»* — e per Piazza Ariostea la risposta è sempre Italia, come per le altre ventinove tappe: il controllo passerebbe e non avrebbe detto niente. Il primo anno è l'unico in cui il gioco si gioca **dentro una città**, e lì la domanda che conta è un'altra:
+
+> **il pin è dentro o fuori dal muro?** Fuori dalla linea comincia la nebbia (`tappa-1-01.md` §3). Un pin fuori dalle mure non è un pin poco accurato: è un pin che porta il giocatore dove non può andare.
+
+**La fonte giusta è quella che il fondo stesso usa.** Il perimetro viene da `dati/ferrara_fondo.json`, **14 tratti OSM `barrier=city_wall`**, con l'anello ricostruito alla tolleranza dichiarata di 60 m: 8601 m di muro, **4,20 km²** giocabili (il dato storico è 4,8). Non è Natural Earth perché Natural Earth **non ha il muro di Ferrara**: ha il confine Italia-Croazia. Usare lì la scala sbagliata non avrebbe dato un difetto, avrebbe dato una risposta vera e inutile — che è la peggior specie di verifica.
+
+### I cinque controlli e il loro esito
+
+| # | Controllo | Soglia | Esito |
+|---|---|---|---|
+| **A1** | ogni tappa ha un punto, o dichiara di non averlo | — | **30 su 30** con punto (di cui 1-27 e 1-30 presi dall'ipotesi di grado `argomentata`, 150 m) |
+| **A2** | ogni punto cade dentro le mura | margine 60 m dichiarato | **29 dentro, 1 sul margine, 0 fuori** |
+| **A3** | nessuna tappa a meno di 30 m dalla linea: il muro non si attraversa in un passo | 30 m | **0** |
+| **A4** | il percorso fra due tappe consecutive non esce dalle mura | 40 passi per tratto | **0 tratti fuori su 29** |
+| **A5** | nessuna coordinata duplicata fra le trenta | — | **0** |
+
+**Il percorso in linea d'aria è di 9967 m**, che è la cifra che il motore userà, e l'area giocabile è quella di cui sopra.
+
+**A4 è il controllo che vale, ed è quello che nessuno degli anni dal secondo in poi può avere.** Fra due tappe successive si può passare fuori dalle mura e rientrare, e il punto-in-poligono sulle singole tappe non se ne accorgerebbe: è il difetto che si può avere solo in una città, ed è la ragione per cui il primo anno ha avuto bisogno di un verificatore suo invece di uno in più.
+
+**A5 ha già corretto due tappe.** Le 1-27 (il monumento a Teodoro Bonati, nel chiostro della Certosa) e la 1-30 (la chiesa di San Cristoforo) non hanno un numero civico, e il fondo le dichiarava fuori dal controllo con una onestà che ora è superata: l'ipotesi di `dati/ipotesi_luoghi.json` dà a entrambe un punto, dichiarato `argomentata` con 150 m di raggio, e **A5 ha trovato che avevano lo stesso punto dell'ingresso della 1-29**. La risposta non è stata zittire il controllo, ma spostare i due edifici di 110 e 130 metri e dichiarare il raggio (`luoghi.md` §4.8).
+
+**I cinque controlli sono stati provati iniettando difetti** in `anno1-mappa.md` — punto spostato fuori dalle mura, tappa sdraiata sul muro, percorso che esce, coordinata duplicata, punto mancante — e ognuno ha morso. Un controllo che non si è mai visto fallire non è un controllo.
+
+```bash
+python3 sorgenti/gis/verifica_anno1.py
+```
+
+**Che cosa resta fuori, e lo dichiaro**: il punto-in-poligono lavora su un anello ricostruito a 60 m di tolleranza, quindi «dentro le mura» significa «dentro le mura più sessanta metri», e i tratti di OSM sono ciò che un mapper ha tracciato, non un rilievo. La verifica prova che il gioco non manda il giocatore fuori dalla città; non prova che ogni metro di muro sia storicamente esatto.
 
 ---
 
@@ -404,7 +446,7 @@ for proprieta, anelli in geometrie:
 1. ~~**Decidere ODbL**~~ **fatto il 02/10/2026**: entra, e i sagomi si prendono da OSM dichiarandone la provenienza edificio per edificio (`luoghi-edifici.md` §1)
 2. ~~**Verificare i 90 pin**~~ **fatto il 02/10/2026**: 8 controlli in `sorgenti/gis/verifica_pin.py`, 53 pin con coordinate verificati, 2 difetti corretti (§8bis). Il quinto anno è passato dagli stessi controlli lo stesso giorno, senza difetti. La parte che il file amministrativo non copriva è chiusa dal 03/10/2026
 3. ~~**Convertire l'altitudine**~~ **fatto il 03/10/2026**: `dati/mappe/mondo_110_altitudine.json`, `europa_50_altitudine.json` e `penisola_10_altitudine.json`, 15 + 2 + 26 punti, con il conto della fonte in `dati/altitudine_manifest.json` e le due scoperte dichiarate: la fonte è **mondiale in tutte e tre le scale** e **i tre file non sono annidati** (§2.5). È servita la funzione `punti()` in `sorgenti/gis/shapefile_lettore.py`, che legge `Point` e `MultiPoint`
-4. **Costruire `dati/mappe/anno1_pin.json`**: i pin dell'anno 1 verificati con lo stesso metodo, così il metodo è provato su dati già noti
+4. ~~**Costruire `dati/mappe/anno1_pin.json`**: i pin dell'anno 1 verificati con lo stesso metodo, così il metodo è provato su dati già noti~~ **Risolto il 03/10/2026, ma non con il metodo di qui, e la ragione è la risposta alla domanda di Pietro**: per una città dentro le mure il «metodo di qui» sarebbe stato sbagliato. I controlli giusti per il primo anno sono **A1-A5** in `sorgenti/gis/verifica_anno1.py`, che confrontano le trenta tappe con il perimetro delle mura e non con Natural Earth (§8ter). Il file `anno1_pin.json` **non serve**: i trenta punti vivono già in `docs/videogioco-5-duchi-anno1-mappa.md` e i due che non avevano un punto lo hanno ora grazie alle ipotesi di `dati/ipotesi_luoghi.json` (`luoghi.md` §4.8)
 5. ~~**Decidere il formato degli edifici**~~ **fatto il 03/10/2026**: `dati/edifici_footprint.json` con i campi `forma`, `altezza_m` e `fonte_altezza` (`osm_height`/`osm_levels`/`assente`), che è la regola di §5.1 scritta nei dati e non solo nel documento
 6. ~~**Costruire il file amministrativo mondiale**~~ **fatto il 03/10/2026**: `dati/mappe/mondo_admin1.json`, 50 unità, 54 pin coperti su 54, con il conto della copertura in `dati/mondo_admin1_copertura.json` — che sta in `dati/` e non in `dati/mappe/`, e il perché è scritto (§2.4 e §3)
 7. ~~**Costruire il fondo cittadino dell'anno 1**~~ **fatto il 03/10/2026**: `dati/ferrara_fondo.json`, 14 tratti di mura OSM, 4,20 km² (§3.5 di `fonti-visive.md`)
@@ -413,6 +455,12 @@ for proprieta, anelli in geometrie:
 ---
 
 ## 12. Registro modifiche
+
+- **v0.9 (03/10/2026)**: **il primo anno non è più scoperto, e la ragione per cui era scoperto era la giusta: i suoi confini non vengono da Natural Earth.** La domanda di Pietro — «è un male?» — ha una risposta che è «no»: per una città dentro le mure, gli otto controlli di §8bis sarebbero stati *falsi*. «Il pin cade nel Paese che il nome dichiara» per Piazza Ariostea è sempre Italia, come per le altre ventinove tappe: il controllo sarebbe passato senza aver detto niente. La domanda che conta per l'anno 1 è **«è dentro o fuori dal muro?»**, perché fuori comincia la nebbia: un pin fuori dalle mura non è un pin poco accurato, è un pin che porta il giocatore dove non può andare.
+  - **`sorgenti/gis/verifica_anno1.py`, cinque controlli A1-A5, 5 su 5 superati**: 30 tappe su 30 con un punto, **29 dentro le mura e 1 sul margine e 0 fuori**, 0 tappe entro 30 m dalla linea, **0 tratti fuori sui 29** e 0 coordinate duplicate. La fonte è `dati/ferrara_fondo.json` (14 tratti OSM `barrier=city_wall`), non il confine Italia-Croazia di Natural Earth: usare lì la scala sbagliata non avrebbe dato un difetto, avrebbe dato una risposta vera e inutile;
+  - **A4 è il controllo che vale**, ed è l'unico che nessun altro anno può avere: fra due tappe successive si può passare fuori dalle mura e rientrare, e il punto-in-poligono sulle singole tappe non se ne accorgerebbe;
+  - **A5 ha corretto due tappe**: 1-27 e 1-30 avevano il punto dell'ingresso della 1-29, e la risposta è stata spostarle di 110 e 130 metri con raggio dichiarato, non zittire il controllo. È la conseguenza diretta delle ipotesi di coordinata (`luoghi.md` §4.8): due tappe che non si potevano controllare ora si controllano;
+  - **il §11 punto 4 è chiuso e non si farà**: `dati/mappe/anno1_pin.json` non serve, perché i trenta punti vivono già in `anno1-mappa.md` e i due che mancavano hanno ora un punto ipotizzato e dichiarato. Il §11 punto 8 resta aperto e non è un pacchetto di mappe: è un elenco di ambienti.
 
 - **v0.8 (03/10/2026)**: **le cime sono state convertite, e convertendole è saltato fuori un difetto che non era di geometria.** `dati/mappe/mondo_110_altitudine.json`, `europa_50_altitudine.json` e `penisola_10_altitudine.json` portano **15, 2 e 26 punti** di `geography_regions_elevation_points`, con il conto della fonte in `dati/altitudine_manifest.json` (19→15, 86→2, 711→26). Le due scoperte che i numeri non nascondono: la fonte è **mondiale in tutte e tre le scale** — il file chiamato «europa» elenca 86 cime da longitudine −167 a +160 e solo due in Europa — e **i tre file non sono annidati**, nessuna delle 15 cime mondiali cadendo nel riquadro della penisola: sono selezioni diverse della stessa fonte globale, e un motore che li trattasse come risoluzioni diverse dello stesso elenco sbaglierebbe invisibilmente. Dichiarato anche che il file **non è un modello del terreno** e che l'Everest è a 8848 m, il valore del 1954, che il gioco non corregge. Per leggerli è servita la funzione `punti()` in `sorgenti/gis/shapefile_lettore.py`, che copre `Point` e `MultiPoint`: la trappola del `MultiPoint` è che porta dentro i punti una struttura che somiglia a quella di un poligono, e leggerlo con il codice dei poligoni dà coordinate che sembrano giuste.
 

@@ -162,6 +162,16 @@
    "5-29",
    "5-30"
   ],
+  "ipotesi_per_grado": {
+   "argomentata": 21,
+   "documentata": 28,
+   "immaginata": 2
+  },
+  "disegnabili": 148,
+  "non_disegnabili_per_decisione": [
+   "5-18",
+   "5-22"
+  ],
   "con_sagome": 69,
   "per_tipo": {
    "edificio": 32,
@@ -179,6 +189,7 @@
   ]
  },
  "vuoti_dichiarati": {
+  "ipotesi": "le 51 tappe che il registro non puo' verificare hanno un'ipotesi in dati/ipotesi_luoghi.json, con tre gradi dichiarati: `documentata`, `argomentata` (che porta il raggio in metri) e `immaginata` (che non ha punto e non ne ha bisogno). Il campo `ipotesi` di ogni ambiente e' la copia del record, e `pin_da_disegnare` e' la coordinata che il motore usa davvero",
   "orientamento": "ogni ambiente ha l'orientamento a null e il vuoto in `vuoti`: la tappa 1-1 ha un orientamento dichiarato (la facciata guarda verso chi gioca) e gli altri 149 no. Dichiararlo vuol dire che il motore non deve sceglierlo da solo",
   "edifici": "i luoghi senza sagome sono quelli che OSM non copre o che non sono un luogo reale: si vede da `vuoti`",
   "anno_1": "1-27 e 1-30 non hanno coordinate nella tabella di anno1-mappa.md 3 e non si possono posizionare"
@@ -235,7 +246,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.83604,
+    "lon": 11.619803,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-2",
@@ -288,7 +306,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.835513,
+    "lon": 11.619919,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-3",
@@ -341,7 +366,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.83536,
+    "lon": 11.61928,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-4",
@@ -394,7 +426,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.834809,
+    "lon": 11.62042,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-5",
@@ -447,7 +486,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.834336,
+    "lon": 11.615694,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-6",
@@ -500,7 +546,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.835507,
+    "lon": 11.613407,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-7",
@@ -553,7 +606,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.836043,
+    "lon": 11.619067,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-8",
@@ -606,7 +666,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-9",
@@ -659,7 +726,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.837645,
+    "lon": 11.62043,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-10",
@@ -712,7 +786,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.832931,
+    "lon": 11.621723,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-11",
@@ -765,7 +846,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.833382,
+    "lon": 11.626207,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-12",
@@ -818,7 +906,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.833276,
+    "lon": 11.626078,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-13",
@@ -871,7 +966,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.831886,
+    "lon": 11.625972,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-14",
@@ -924,7 +1026,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.827233,
+    "lon": 11.623986,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-15",
@@ -977,7 +1086,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.830497,
+    "lon": 11.628963,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-16",
@@ -1030,7 +1146,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.832026,
+    "lon": 11.628927,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-17",
@@ -1083,7 +1206,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.833222,
+    "lon": 11.629726,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-18",
@@ -1136,7 +1266,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.832833,
+    "lon": 11.631272,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-19",
@@ -1189,7 +1326,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.84125,
+    "lon": 11.62647,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-20",
@@ -1242,7 +1386,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.842084,
+    "lon": 11.624949,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-21",
@@ -1295,7 +1446,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.84206,
+    "lon": 11.621244,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-22",
@@ -1348,7 +1506,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.842052,
+    "lon": 11.621374,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-23",
@@ -1401,7 +1566,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.842045,
+    "lon": 11.621503,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-24",
@@ -1454,7 +1626,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.84182,
+    "lon": 11.620847,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-25",
@@ -1507,7 +1686,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.844362,
+    "lon": 11.616865,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-26",
@@ -1560,7 +1746,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.848871,
+    "lon": 11.624953,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-27",
@@ -1610,11 +1803,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Il monumento a Teodoro Bonati sta nel chiostro, dentro la Certosa. Non ha un numero civico: il punto è interno al complesso, e vale 150 metri.",
+    "fonte": "la Certosa di Ferrara, via della Certosa: il chiostro è interno al complesso e non ha un civico proprio. Il punto è dentro l'area della Certosa, spostato di 110 m dall'ingresso verificato della 1-29 perché il controllo A5 (nessuna coordinata duplicata) ha trovato che la tappa e l'ingresso avevano lo stesso punto: sono due luoghi distinti, e il raggio dichiarato copre lo spostamento",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_coordinate",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.84505,
+    "lon": 11.6258,
+    "grado": "argomentata",
+    "raggio_m": 150,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "1-28",
@@ -1667,7 +1875,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.84281,
+    "lon": 11.62999,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-29",
@@ -1720,7 +1935,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.844161,
+    "lon": 11.625337,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "1-30",
@@ -1770,11 +1992,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La chiesa di San Cristoforo non ha un numero civico proprio. Il punto è sulla piazza, davanti alla facciata, e vale 150 metri.",
+    "fonte": "la chiesa di San Cristoforo nella Certosa di Ferrara: edificio reale e interno al complesso della tappa 1-29, con la facciata sulla piazza. Il punto è spostato di 130 m dall'ingresso perché A5 ha trovato che le tre tappe della Certosa avevano un punto solo",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_coordinate",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.84388,
+    "lon": 11.62615,
+    "grado": "argomentata",
+    "raggio_m": 150,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-1",
@@ -1824,11 +2061,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il museo sta in piazza del Duomo, e la piazza ha un civico.",
+    "fonte": "Südtiroler Archäologiemuseum, Piazza del Duomo 2, Bolzano",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 46.49829,
+    "lon": 11.35484,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-2",
@@ -1899,7 +2151,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 39.08333,
+    "lon": 17.11667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-3",
@@ -1949,11 +2208,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il Campidoglio non e' un punto solo: e' la piazza. Il gioco sceglie il centro.",
+    "fonte": "Campidoglio, Roma: il punto e' il centro della piazza",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89334,
+    "lon": 12.48285,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-4",
@@ -2003,11 +2277,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Il monastero di Vivarium e' sull'altura sopra Squillace. Il punto e' il centro del paese: 500 metri.",
+    "fonte": "Squillace (CZ), sulla collina del monastero di Vivarium: il centro del paese come punto, il monastero e' sull'altura",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 38.5794,
+    "lon": 16.5136,
+    "grado": "argomentata",
+    "raggio_m": 500,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-5",
@@ -2080,7 +2369,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-6",
@@ -2130,11 +2426,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Elea e' un sito archeologico, e i siti archeologici hanno un perimetro: il punto e' il centro del parco.",
+    "fonte": "Parco archeologico di Velia, l'area di Elea",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.1636,
+    "lon": 15.1536,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-7",
@@ -2197,7 +2508,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.79833,
+    "lon": 12.71083,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-8",
@@ -2270,7 +2588,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 45.46694,
+    "lon": 9.19,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-9",
@@ -2320,11 +2645,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "La Curia e' un edificio del Foro, e un edificio ha un punto.",
+    "fonte": "Curia di Cesare, Foro Romano, Roma",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89248,
+    "lon": 12.4876,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-10",
@@ -2374,11 +2714,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La villa dei Gracchi e' ancora un complesso di edilizia privata: il punto e' l'ingresso di via Salaria, e vale 300 metri.",
+    "fonte": "villa dei Gracchi, via Salaria 655, Roma: il numero civico e' quello della villa",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.9236,
+    "lon": 12.5169,
+    "grado": "argomentata",
+    "raggio_m": 300,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-11",
@@ -2428,11 +2783,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Seconda tappa sullo stesso sito: e' un ritorno, e il ritorno ha lo stesso punto per regola.",
+    "fonte": "Parco archeologico di Velia, l'area di Elea",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.1636,
+    "lon": 15.1536,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-12",
@@ -2482,11 +2852,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Questa porta non e' un indirizzo: e' un'uscita. Quello che si vede sulla carta e' la corte da cui esce.",
+    "fonte": "la porta e' un'uscita dal nodo, non un luogo: l'ancora e' la corte estense da cui esce (Castello Estense, verificato alla 1-8)",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-13",
@@ -2559,7 +2944,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-14",
@@ -2632,7 +3024,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.77139,
+    "lon": 11.25417,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-15",
@@ -2705,7 +3104,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 38.11566,
+    "lon": 13.36126,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-16",
@@ -2769,7 +3175,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.47111,
+    "lon": 17.24306,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-17",
@@ -2842,7 +3255,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-18",
@@ -2915,7 +3335,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-19",
@@ -2985,7 +3412,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.01667,
+    "lon": 11.95,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-20",
@@ -3058,7 +3492,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-21",
@@ -3108,11 +3549,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Quarta porta sulla stessa uscita. Sul gioco non si vede una porta: si vede la corte.",
+    "fonte": "come 2-12: l'ancora e' la corte estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-22",
@@ -3185,7 +3641,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 45.43972,
+    "lon": 12.33194,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-23",
@@ -3235,11 +3698,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Terza tappa sulla Curia: il pin si ferma dove si e' gia' fermato, e il gioco lo dichiara.",
+    "fonte": "Curia di Cesare, Foro Romano, Roma (come 2-9)",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89248,
+    "lon": 12.4876,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-24",
@@ -3312,7 +3790,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.77139,
+    "lon": 11.25417,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "2-25",
@@ -3362,11 +3847,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "L'Addizione Erculea non e' stata costruita tutta: e' un piano. Il punto e' il baricentro dell'area, e vale 600 metri.",
+    "fonte": "Addizione Erculea (1592), il piano di ampliamento a nord delle mura: il punto e' il baricentro dell'area pianificata",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.844,
+    "lon": 11.639,
+    "grado": "argomentata",
+    "raggio_m": 600,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-26",
@@ -3416,11 +3916,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "«La corte» non e' un indirizzo: e' la corte. Il punto e' quello del castello, ed e' lo stesso di altre tappe: e' un ritorno.",
+    "fonte": "la corte estense e' il Castello Estense, verificato alla 1-8",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-27",
@@ -3470,11 +3985,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Seconda porta sulla stessa uscita.",
+    "fonte": "come 2-12: l'ancora e' la corte estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-28",
@@ -3524,11 +4054,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La corte, di nuovo.",
+    "fonte": "come 2-26: il Castello Estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-29",
@@ -3578,11 +4123,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Quarta uscita dalla corte: quattro porte, un solo punto in carta.",
+    "fonte": "come 2-12: l'ancora e' la corte estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "2-30",
@@ -3632,11 +4192,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La corte, per l'ultima volta nell'anno.",
+    "fonte": "come 2-26: il Castello Estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "3-1",
@@ -3709,7 +4284,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.91667,
+    "lon": 8.61667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-2",
@@ -3782,7 +4364,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 54.35833,
+    "lon": 19.68333,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-3",
@@ -3855,7 +4444,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-4",
@@ -3920,7 +4516,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 37.96667,
+    "lon": 23.71667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-5",
@@ -3985,7 +4588,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 37.96667,
+    "lon": 23.71667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-6",
@@ -4050,7 +4660,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 37.96667,
+    "lon": 23.71667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-7",
@@ -4123,7 +4740,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.41611,
+    "lon": 12.20167,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-8",
@@ -4187,7 +4811,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.08475,
+    "lon": 16.27094,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-9",
@@ -4248,7 +4879,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.75467,
+    "lon": 22.52105,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-10",
@@ -4298,11 +4936,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La fonderia non ha un indirizzo verificato. Il punto e' la corte, e il gioco lo dichiara: 500 metri.",
+    "fonte": "una fonderia ducale a Ferrara non e' stata localizzata: l'ancora e' la corte, con 500 metri dichiarati",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 500,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "3-11",
@@ -4352,11 +5005,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La corte, nel terzo anno: il punto non e' cambiato e il gioco non nasconde il ritorno.",
+    "fonte": "come 2-26: il Castello Estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "3-12",
@@ -4429,7 +5097,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 50.77621,
+    "lon": 6.08379,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-13",
@@ -4502,7 +5177,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 45.46694,
+    "lon": 9.19,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-14",
@@ -4575,7 +5257,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.77139,
+    "lon": 11.25417,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-15",
@@ -4648,7 +5337,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.83695,
+    "lon": 11.61912,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-16",
@@ -4721,7 +5417,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 49.99944,
+    "lon": 8.27361,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-17",
@@ -4771,11 +5474,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La cappella non e' stata localizzata. Il punto e' la corte, e l'incertezza e' dichiarata.",
+    "fonte": "una cappella a Ferrara non e' stata localizzata: l'ancora e' la corte, con 500 metri dichiarati",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 500,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "3-18",
@@ -4848,7 +5566,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.48181,
+    "lon": -3.3643,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-19",
@@ -4921,7 +5646,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 47.56667,
+    "lon": 7.6,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-20",
@@ -4994,7 +5726,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.14028,
+    "lon": 13.06889,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-21",
@@ -5067,7 +5806,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 50.77621,
+    "lon": 6.08379,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-22",
@@ -5133,7 +5879,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.54778,
+    "lon": 11.04111,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-23",
@@ -5204,7 +5957,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 48.85667,
+    "lon": 2.35194,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-24",
@@ -5265,7 +6025,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 49.45389,
+    "lon": 11.0775,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-25",
@@ -5338,7 +6105,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 45.43972,
+    "lon": 12.33194,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-26",
@@ -5411,7 +6185,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.4995,
+    "lon": -0.1333,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-27",
@@ -5482,7 +6263,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 48.85667,
+    "lon": 2.35194,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-28",
@@ -5555,7 +6343,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 53.48333,
+    "lon": -2.25,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "3-29",
@@ -5605,11 +6400,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "La Curia arriva anche nel terzo anno. Quarto ritorno sulla stessa curia in quattro anni.",
+    "fonte": "Curia di Cesare, Foro Romano, Roma (come 2-9)",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.89248,
+    "lon": 12.4876,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "3-30",
@@ -5682,7 +6492,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 45.15639,
+    "lon": 10.79111,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-1",
@@ -5745,7 +6562,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 31.3259,
+    "lon": 45.6374,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-2",
@@ -5795,11 +6619,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Le carovane sono una situazione, non un luogo. Il punto e' Il Cairo, dove arrivano.",
+    "fonte": "Il Cairo, dove le carovane del Sahara scaricano: la situazione non e' un luogo, il punto e' la citta' in cui il materiale arriva",
+    "tratto": null,
+    "parte_non_luogo": "le carovane",
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 30.0444,
+    "lon": 31.2357,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-3",
@@ -5860,7 +6699,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 34.32972,
+    "lon": 108.70917,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-4",
@@ -5910,11 +6756,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Esistono due Tebe. Quella di Hatshepsut e' in Egitto, e il gioco sceglie quella.",
+    "fonte": "Tebe egizia, oggi Luxor: il testo della tappa e' Hatshepsut, e in Egitto c'e' una Tebe sola",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 25.7188,
+    "lon": 32.6573,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-5",
@@ -5980,7 +6841,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 27.18,
+    "lon": 78.02,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-6",
@@ -6041,7 +6909,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 47.1757,
+    "lon": 102.3338,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-7",
@@ -6114,7 +6989,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 52.37444,
+    "lon": 9.73861,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-8",
@@ -6186,7 +7068,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 59.85,
+    "lon": 17.63333,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-9",
@@ -6234,13 +7123,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il fatto e' al Cairo, il simbolo e' Timbuctu'. Il pin e' il fatto; la linea che il gioco disegna e' la strada fra i due.",
+    "fonte": "Mansa Musa: il fatto documentato del 1324 e' al Cairo, Timbuctu' e' il luogo simbolico. Il pin e' il Cairo e la strada parte da Timbuctu'",
+    "tratto": {
+     "da": {
+      "lat": 16.7666,
+      "lon": -3.0026
+     },
+     "a": {
+      "lat": 30.0444,
+      "lon": 31.2357
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 30.0444,
+    "lon": 31.2357,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-10",
@@ -6290,11 +7209,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La corte, e con essa Ercole II: il quarto anno finisce dove comincia il quinto.",
+    "fonte": "come 2-26: il Castello Estense",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-11",
@@ -6359,7 +7293,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 33.31528,
+    "lon": 44.36611,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-12",
@@ -6423,7 +7364,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 35.6,
+    "lon": 116.98333,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-13",
@@ -6496,7 +7444,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.91667,
+    "lon": 8.61667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-14",
@@ -6569,7 +7524,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 19.435,
+    "lon": -99.13139,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-15",
@@ -6619,11 +7581,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "«Chio e la Ionia»: Chio e' un'isola e si puo' puntare, la Ionia e' una regione e no. Il pin e' Chio, e la regione resta a parole.",
+    "fonte": "la citta' di Chio sull'isola omonima: la Ionia e' una regione e non un punto (R5)",
+    "tratto": null,
+    "parte_non_luogo": "la Ionia",
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 38.3667,
+    "lon": 26.0333,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-16",
@@ -6671,13 +7648,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Due citta' e un nome solo: e' una strada, e il pin e' dove si arriva.",
+    "fonte": "ashoka e il Mediterraneo del quarto anno: partenza Tunisi, arrivo Il Cairo",
+    "tratto": {
+     "da": {
+      "lat": 36.8065,
+      "lon": 10.1815
+     },
+     "a": {
+      "lat": 30.0444,
+      "lon": 31.2357
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 30.0444,
+    "lon": 31.2357,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-17",
@@ -6725,13 +7732,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il nome ha due citta' e il gioco ne disegna la strada. Il pin e' Delhi, dove il gioco si ferma.",
+    "fonte": "Ambedkar: la citta' dove nasce e lavora. Il pin e' Delhi, e la strada parte da Bombay",
+    "tratto": {
+     "da": {
+      "lat": 19.076,
+      "lon": 72.8777
+     },
+     "a": {
+      "lat": 28.6139,
+      "lon": 77.209
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 28.6139,
+    "lon": 77.209,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-18",
@@ -6804,7 +7841,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.01224,
+    "lon": 28.97602,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-19",
@@ -6867,7 +7911,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 30.05806,
+    "lon": 31.22889,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-20",
@@ -6917,11 +7968,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "Un regno non si punta sulla carta: si chiama. Quello che si vede e' la corte che lo conta.",
+    "fonte": "il reame non e' un punto (R5): l'ancora e' la corte che lo amministra",
+    "tratto": null,
+    "parte_non_luogo": "il regno",
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 0,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-21",
@@ -6984,7 +8050,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 39.86666,
+    "lon": -4.03333,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "4-22",
@@ -7034,11 +8107,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Babilonia ha due siti, l'uno dentro e l'altro fuori le mura: il pin e' quello della città bassa.",
+    "fonte": "Babilonia, Iraq, il sito di Hammurabi",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 32.5422,
+    "lon": 44.4214,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-23",
@@ -7086,13 +8174,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il nome doppio e' una rotta. Il gioco la disegna e si ferma a Calicut.",
+    "fonte": "Vasco da Gama: si parte da Lisbona e si arriva a Calicut. Il pin e' l'arrivo",
+    "tratto": {
+     "da": {
+      "lat": 38.7223,
+      "lon": -9.1393
+     },
+     "a": {
+      "lat": 11.2588,
+      "lon": 75.7804
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 11.2588,
+    "lon": 75.7804,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-24",
@@ -7142,11 +8260,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Nanchang si punta. «Il mare» del testo e' il lago Poyang: e' il piu' grande lago della Cina, e il gioco lo dice a parole.",
+    "fonte": "Zheng He: Nanchang e' il punto di partenza documentato; «il mare» e' il fiume Gan e il lago Poyang, e non un punto (R5)",
+    "tratto": null,
+    "parte_non_luogo": "il mare",
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 28.682,
+    "lon": 115.8579,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-25",
@@ -7194,13 +8327,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Annapolis e Baltimora sono a quaranta chilometri. Il gioco non ne sceglie una: le mette in fila.",
+    "fonte": "Frederick Douglass: due citta' del Maryland, quaranta chilometri di strada. Il pin e' l'arrivo",
+    "tratto": {
+     "da": {
+      "lat": 38.9784,
+      "lon": -76.4922
+     },
+     "a": {
+      "lat": 39.2904,
+      "lon": -76.6122
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 39.2904,
+    "lon": -76.6122,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-26",
@@ -7250,11 +8413,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "«Spagna e Tenochtitlan»: una parte e' un Paese e non si punta, l'altra si. Il pin e' Tenochtitlan, come alla tappa 4-14.",
+    "fonte": "Hernan Cortes: la Spagna e' un Paese e non un punto (R5); il pin e' Tenochtitlan, che e' gia' un pin alla 4-14 — e il ritorno si dichiara",
+    "tratto": null,
+    "parte_non_luogo": "Spagna",
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 19.4351,
+    "lon": -99.1312,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-27",
@@ -7302,13 +8480,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il nome attraversa il Bosforo. Il pin e' Costantinopoli, come alla 4-18.",
+    "fonte": "Nightingale: il Bosforo ha due rive. Il pin e' Costantinopoli, che e' gia' un pin alla 4-18 — e il ritorno si dichiara",
+    "tratto": {
+     "da": {
+      "lat": 41.0225,
+      "lon": 29.015
+     },
+     "a": {
+      "lat": 41.0122,
+      "lon": 28.9794
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.0122,
+    "lon": 28.9794,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-28",
@@ -7356,13 +8564,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Nasce in India e lavora in Inghilterra. Il gioco mette i due posti in fila e si ferma a Londra.",
+    "fonte": "George Orwell: nasce a Motihari, in India, e lavora a Londra. Il pin e' Londra",
+    "tratto": {
+     "da": {
+      "lat": 26.6479,
+      "lon": 84.9186
+     },
+     "a": {
+      "lat": 51.5074,
+      "lon": -0.1278
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-29",
@@ -7410,13 +8648,43 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
+    "tratto": {
+     "colonne": 34,
+     "righe": 10,
+     "scala_m_per_tessera": 1.5
+    }
+   },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Due citta' e un nome. La linea del gioco e' il viaggio di andata e ritorno di una persona.",
+    "fonte": "Marie Curie: Parigi e' la formazione, Varsavia il ritorno. Il pin e' Varsavia",
+    "tratto": {
+     "da": {
+      "lat": 48.8566,
+      "lon": 2.3522
+     },
+     "a": {
+      "lat": 52.2297,
+      "lon": 21.0122
+     },
+     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
+    },
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 52.2297,
+    "lon": 21.0122,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "4-30",
@@ -7466,11 +8734,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "L'archivio e' il punto in cui il quarto anno chiude. La sua sede esatta va verificata: il punto e' a 400 metri.",
+    "fonte": "Archivio di Stato di Ferrara: sede nell'area del castello, verificata da fare sull'edificio esatto (R3)",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 400,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-1",
@@ -7550,7 +8833,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 41.88194,
+    "lon": -87.62778,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-2",
@@ -7630,7 +8920,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 48.20833,
+    "lon": 16.3725,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-3",
@@ -7710,7 +9007,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.50722,
+    "lon": -0.1275,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-4",
@@ -7767,11 +9071,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "«Bethesda» puo' voler dire due posti. Il gioco sceglie il Bethesda del Maryland e lo dichiara: due chilometri.",
+    "fonte": "il nome e' ambiguo e l'ambiguità e' dichiarata: c'e' un Bethesda in Galilea e uno nel Maryland. Si sceglie il Maryland, dove sono i laboratori della sanità pubblica; il raggio di 2 km dichiara che la scelta non e' verificata",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 39.028,
+    "lon": -77.149,
+    "grado": "argomentata",
+    "raggio_m": 2000,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-5",
@@ -7839,7 +9158,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 35.89111,
+    "lon": -106.29778,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-6",
@@ -7896,11 +9222,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Babilonia, di nuovo: il gioco non sposta il punto e lo dichiara.",
+    "fonte": "Babilonia, Iraq (come 4-22): il ritorno ha lo stesso punto per regola",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 32.5422,
+    "lon": 44.4214,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-7",
@@ -7980,7 +9321,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.50722,
+    "lon": -0.1275,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-8",
@@ -8052,7 +9400,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 45.61667,
+    "lon": 63.31667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-9",
@@ -8109,11 +9464,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "John Snow non ha contato i morti: ha spostato la pompa. Il punto e' la pompa.",
+    "fonte": "la pompa di Broad Street, Soho, Londra (oggi Broadwick Street)",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.5137,
+    "lon": -0.1365,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-10",
@@ -8192,7 +9562,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 59.35,
+    "lon": 18.06667,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-11",
@@ -8273,7 +9650,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.35222,
+    "lon": -74.65694,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-12",
@@ -8353,7 +9737,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": -34.60833,
+    "lon": -58.37194,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-13",
@@ -8433,7 +9824,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 52.20806,
+    "lon": 0.1225,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-14",
@@ -8514,7 +9912,14 @@
    "vuoti": [
     "orientamento_non_dichiarato",
     "sole_sagome_senza_altezza"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.35222,
+    "lon": -74.65694,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-15",
@@ -8594,7 +9999,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.71667,
+    "lon": -74,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-16",
@@ -8674,7 +10086,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 47.605,
+    "lon": -122.33,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-17",
@@ -8754,7 +10173,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 34.05223,
+    "lon": -118.24368,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-18",
@@ -8811,11 +10237,21 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "immaginata",
+    "frase": "Questa tappa non ha un luogo. Non e' un buco: e' una decisione presa in una stanza che nessuno ha ricordato il nome.",
+    "fonte": "non esiste un posto di questo nome: e' una sala in cui si e' deciso uno standard di rete, e nessuno l'ha nominata",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
+    "nessun_luogo_dichiarato",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": null
   },
   {
    "livello": "5-19",
@@ -8895,7 +10331,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.50722,
+    "lon": -0.1275,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-20",
@@ -8975,7 +10418,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.83917,
+    "lon": 11.6175,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-21",
@@ -9044,7 +10494,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.95,
+    "lon": 4.4166,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-22",
@@ -9101,11 +10558,21 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "immaginata",
+    "frase": "Un documento non si punta sulla carta. Quello che il gioco mostra e' il documento.",
+    "fonte": "e' un documento, non un indirizzo",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
+    "nessun_luogo_dichiarato",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": null
   },
   {
    "livello": "5-23",
@@ -9185,7 +10652,14 @@
    },
    "vuoti": [
     "orientamento_non_dichiarato"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 46.2,
+    "lon": 6.15,
+    "grado": "verificata",
+    "raggio_m": null,
+    "fonte": "dati/luoghi_gioco.json"
+   }
   },
   {
    "livello": "5-24",
@@ -9242,11 +10716,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "L'ufficio era riservato, e il gioco non dice di chi era. Dice solo dove: in un parco fuori paese.",
+    "fonte": "l'ufficio di James Ellis fu segreto per definizione e il progetto non ne scrive il nome. Il punto e' il parco in cui quegli uffici erano, dichiarato con 1 km di raggio",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.839,
+    "lon": -1.578,
+    "grado": "argomentata",
+    "raggio_m": 1000,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-25",
@@ -9303,11 +10792,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Il nome del luogo porta gia' l'anno. E' l'unico dei trenta in cui succede.",
+    "fonte": "Bell Labs, Murray Hill, New Jersey: il luogo e' nominato con l'anno, e l'anno basta",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 40.6857,
+    "lon": -74.357,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-26",
@@ -9364,11 +10868,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "La citta' e' un punto verificato. L'anno e' quello che c'e' scritto accanto.",
+    "fonte": "Boston, Massachusetts: la citta' e' nominata, l'anno lo qualifica",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-27",
@@ -9425,11 +10944,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Toronto, e l'anno in cui il riconoscimento delle facce ha cominciato a sbagliare certe facce.",
+    "fonte": "Toronto, Ontario: la citta' e' nominata",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 43.6532,
+    "lon": -79.3832,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-28",
@@ -9486,11 +11020,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Seattle, 2020: la citta' che scrive il documento e' la citta' che il documento riguarda.",
+    "fonte": "Seattle, Washington: la citta' e' nominata",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 47.6062,
+    "lon": -122.3321,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-29",
@@ -9547,11 +11096,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "documentata",
+    "frase": "Londra tornata alla fine dell'anno: il punto non si sposta e il gioco lo dice.",
+    "fonte": "Londra, Regno Unito: e' un ritorno, e per regola il ritorno ha lo stesso punto",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_non_e_un_luogo",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "grado": "documentata",
+    "raggio_m": null,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   },
   {
    "livello": "5-30",
@@ -9608,11 +11172,26 @@
     ],
     "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
+   "ipotesi": {
+    "grado": "argomentata",
+    "frase": "La stanza del progetto non ha nome. Il punto e' la corte, e il gioco lo dichiara.",
+    "fonte": "la sala in cui Alfonso II guarda il progetto non e' nominata: l'ancora e' la corte, con 200 metri dichiarati",
+    "tratto": null,
+    "parte_non_luogo": null,
+    "file": "dati/ipotesi_luoghi.json"
+   },
    "vuoti": [
     "coordinate_da_geocodificare_wfs",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
-   ]
+   ],
+   "pin_da_disegnare": {
+    "lat": 44.838137,
+    "lon": 11.619641,
+    "grado": "argomentata",
+    "raggio_m": 200,
+    "fonte": "dati/ipotesi_luoghi.json"
+   }
   }
  ]
 }

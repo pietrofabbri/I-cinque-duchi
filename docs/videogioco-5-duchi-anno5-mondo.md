@@ -1,12 +1,12 @@
 ---
 titolo: Videogioco "I cinque duchi" — Anno V, il mondo contemporaneo: il cantiere dell'Addizione Erculea e la carta della stima
-versione: 0.4
+versione: 0.5
 data: 2026-10-02
 autore: Pietro Fabbri (con Claude)
 revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (le nove persone viventi erano sei: tre nomi senza stato); v0.3 (rimandi di versione); v0.4 (le sedici decisioni di Pietro del 02/10/2026: il giocatore è dentro il *Furioso* e la tabella delle tappe ha la colonna della stanza e del filone, i codici `Q` sono confermati, `F11` entra come facoltativa, e i buchi geografici degli anni 2-4 diventano facoltative continentali)
 fonte del materiale: due documenti di progettazione storico-pedagogica di Pietro ("ANNO V — IL MONDO CONTEMPORANEO, primo percorso" e "ANNO V — IL MONDO CONTEMPORANEO, secondo percorso"), 01/10/2026
 dati: videogioco-5-duchi-anno5-mondo.json e videogioco-5-duchi-anno5-personaggi.json e videogioco-5-duchi-anno5-stime.json (da generare, v0.1); dati/furioso/citazioni.json (v3, le trenta citazioni del *Furioso* e la facoltativa `5-22F`); dati/luoghi_gioco.json (blocco `tappe`: i trenta pin e le trenta stanze)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 5-1…5-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.5 elenco dei livelli dell'anno 5), videogioco-5-duchi-luoghi.md (v0.3, la regola dei luoghi e i due strati), videogioco-5-duchi-furioso.md (v0.4, i filoni e le citazioni che questo documento applica alle trenta tappe), videogioco-5-duchi-anno4-mondo.md (v0.5, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1, livelli 5-1…5-30), videogioco-5-duchi-curricolo.md (v0.1, §4 cornice narrativa e §5.5 elenco dei livelli dell'anno 5), videogioco-5-duchi-luoghi.md (v0.5, la regola dei luoghi e i due strati), videogioco-5-duchi-furioso.md (v0.6, i filoni e le citazioni che questo documento applica alle trenta tappe), videogioco-5-duchi-anno4-mondo.md (v0.5, da cui questo documento continua le convenzioni), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-esercizi.md (v0.1), videogioco-5-duchi-quadro-trasversale.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3)
 ---
 # Anno V — Il mondo contemporaneo
 
@@ -843,7 +843,7 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
 
 **Le due nuove, che sono quelle che rendono il capitolo giocabile.**
 
-10bis. **La resa grafica delle stanze.** Quindici stanze su trenta non hanno coordinate e non possono essere disegnate come un pin: strade senza nome, grotte, campi, la Luna, un castello, un regno, e «l'aria sopra la foresta», che non è nemmeno un luogo. È il primo ostacolo alla giocabilità e riguarda `motore-e-grafica.md` e `mappe.md`, non questo capitolo (`furioso.md` §8, Q6.2).
+10bis. ~~**La resa grafica delle stanze.**~~ **Chiusa il 03/10/2026**, e chiusa nella forma più economica possibile: **nessuna stanza ha un disegno proprio**. Le trenta stanze del quinto anno sono **28 con un punto da disegnare e 2 senza**, e le due sono **5-18** (una sala di riunione del 1983 di cui nessuno ha ricordato il nome) e **5-22** (un documento del 2008): non sono un buco, sono le due stanze in cui il gioco può dire al ragazzo che *quello non è un posto*. La regola è in `furioso.md` **§4.12**: la stanza prende il pin reale e verificato del personaggio, un nome doppio diventa un **tratto** fra due punti, la parte che non è un luogo resta a parole, e se non c'è un luogo non si disegna niente e lo si dichiara. Le 51 ipotesi di coordinata con i loro tre gradi sono in `luoghi.md` **§4.8** (`dati/ipotesi_luoghi.json`), controllate dalle regole **R1-R6** e dal controllo **B7**. Il tempo di Pietro è **zero**: nessuna illustrazione, nessuna mappa nuova.
 11. **Il posto di `F11` nel registro del gioco.** Il filone è dichiarato e ha una stanza facoltativa (`5-22F`), ma il giocatore ne vede tredici e il documento ne dichiara dodici. La proposta è che `F11` stia come **stanza aperta da una tappa** e non come filone per cui si viaggia, e che il gioco lo dica.
 
 ---
@@ -868,6 +868,8 @@ Il quinto anno è l'anno del **metodo**: apparentemente è il meno politico dei 
 ---
 
 ## 15. Registro modifiche
+
+- **v0.5 (03/10/2026)**: due punti chiusi e un numero che era semplicemente **sbagliato**. Il punto 10bis — la resa grafica delle stanze, che dichiarava «quindici stanze su trenta senza coordinate» e lo chiamava «il primo ostacolo alla giocabilità» — è chiuso: nessuna stanza ha un disegno proprio, e le trenta stanze del quinto anno sono **28 con un punto e 2 senza**. Le due sono 5-18 e 5-22, dichiarate. La regola è in `furioso.md` §4.12 e i tre gradi delle 51 ipotesi in `luoghi.md` §4.8.
 
 - **v0.4 (02/10/2026)**: le sedici decisioni di Pietro applicate. La modifica che conta è una: **la tabella delle trenta tappe ha una colonna in più, e non è una colonna decorativa**.
   - **la tabella ha la colonna «Stanza (dove sta accadendo)»** accanto al pin, con il luogo del filone, il codice del filone, il canto, l'ottava e il tipo di legame della stanza. Le trenta righe sono state riempite dai dati (`dati/furioso/citazioni.json`), non a mano: una tabella copiata a mano è una tabella che un giorno dirà una cosa diversa dal file;
