@@ -188,8 +188,8 @@
   ]
  },
  "vuoti_dichiarati": {
-  "ipotesi": "le 51 tappe che il registro non puo' verificare hanno un'ipotesi in dati/ipotesi_luoghi.json, con tre gradi dichiarati: `documentata`, `argomentata` (che porta il raggio in metri) e `immaginata` (che non ha punto e non ne ha bisogno). Il campo `ipotesi` di ogni ambiente e' la copia del record, e `pin_da_disegnare` e' la coordinata che il motore usa davvero",
-  "orientamento": "ogni ambiente ha l'orientamento a null e il vuoto in `vuoti`: la tappa 1-1 ha un orientamento dichiarato (la facciata guarda verso chi gioca) e gli altri 149 no. Dichiararlo vuol dire che il motore non deve sceglierlo da solo",
+  "ipotesi": "le 50 tappe che il registro non puo' verificare hanno un'ipotesi in dati/ipotesi_luoghi.json, con tre gradi dichiarati: `documentata`, `argomentata` (che porta il raggio in metri) e `immaginata` (che non ha punto e non ne ha bisogno). Il campo `ipotesi` di ogni ambiente e' la copia del record, e `pin_da_disegnare` e' la coordinata che il motore usa davvero",
+  "orientamento": "nessuno dei 150 ambienti ha l'orientamento dichiarato. Dichiararlo vuol dire che il motore non deve sceglierlo da solo",
   "edifici": "i luoghi senza sagome sono quelli che OSM non copre o che non sono un luogo reale: si vede da `vuoti`",
   "anno_1": "1-27 e 1-30 non hanno coordinate nella tabella di anno1-mappa.md 3 e non si possono posizionare"
  },

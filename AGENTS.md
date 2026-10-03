@@ -246,6 +246,31 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 **Stile dei testi**
 Italiano semplice: frasi brevi, niente gergo non spiegato, niente tono infantile.
 
+**Un numero scritto a mano invecchia, un numero calcolato no**
+Questa regola nasce da un difetto vero del 3 ottobre 2026: `fonti-visive.md` §3.6
+dichiarava 99 ambienti con coordinate mentre il file ne aveva 100, 69 sagme OSM
+contro 68, e dava alla tappa 1-1 un orientamento che non ha come nessuno dei
+centocinquanta. Le sette verifiche degli ambienti passavano tutte, perché confrontano
+**i dati fra loro** e nessuna confronta un dato con **le frasi che il documento scrive
+su quel dato**.
+
+Le tre regole che ne vengono:
+
+1. **Un numero in un documento viene dal conto, non dalla memoria.** Se cambia il
+   dato, il numero cambia da solo: in `ambienti_livelli.py` le frasi che il file
+   scrive su se stesso sono costruite sui valori calcolati, non scritte a mano.
+2. **Se un documento riporta numeri di un file, un controllo li confronta col file.**
+   È il caso di **B8** in `verifica_ambienti.py`, che legge la sezione e confronta
+   ogni numero con il conto; quando si aggiunge una sezione con numeri, si aggiunge
+   anche il confronto.
+3. **Lo stesso vale per i percorsi e per i conteggi dei controlli.** Una riga di
+   comandi che dichiara «57 controlli» quando sono 61, o che indica uno script con
+   una directory che non gli appartiene, è un difetto della stessa natura.
+
+La forma del difetto è quasi sempre la stessa: **una riga di metodo, non un
+lavoro**. Il file era giusto e la catena che lo produceva era giusta; a mentire era
+la prosa che lo raccontava.
+
 ## 5. Vincoli tecnici e di contenuto
 
 **Tecnica**

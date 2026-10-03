@@ -387,6 +387,18 @@ def main():
     for a in ambienti:
         per_tipo[a["ambiente"]["tipo"]] = per_tipo.get(
             a["ambiente"]["tipo"], 0) + 1
+    # le due frasi che il file scrive su se stesso
+    n_ipotesi = sum(per_grado.values())
+    con_orientamento = [a["livello"] for a in ambienti
+                        if a["ambiente"].get("orientamento") is not None]
+    if con_orientamento:
+        frasi_orientamento = ("gli ambienti con l'orientamento dichiarato sono %s "
+                              "e gli altri %d no"
+                              % (", ".join(con_orientamento),
+                                 len(ambienti) - len(con_orientamento)))
+    else:
+        frasi_orientamento = ("nessuno dei %d ambienti ha l'orientamento "
+                              "dichiarato" % len(ambienti))
 
     print("\nambienti: %d (attesi %d)" % (len(ambienti), len(attesi)))
     if mancanti:
@@ -454,18 +466,20 @@ def main():
                           if a["ambiente"]["stato"] == "costruito"],
         },
         "vuoti_dichiarati": {
-            "ipotesi": "le 51 tappe che il registro non puo' verificare hanno "
+            # I due numeri qui sotto sono **calcolati**, non scritti: il 03/10/2026
+            # la frase diceva «le 51 tappe» quando le ipotesi erano gia' 50 (la
+            # 4-16 aveva trovato la sua), e diceva che la 1-1 aveva un
+            # orientamento dichiarato quando non ne ha nessuno. Un numero in
+            # letteratura invecchia e nessuno lo rilegge: si calcola.
+            "ipotesi": "le %d tappe che il registro non puo' verificare hanno "
                        "un'ipotesi in dati/ipotesi_luoghi.json, con tre gradi "
                        "dichiarati: `documentata`, `argomentata` (che porta il "
                        "raggio in metri) e `immaginata` (che non ha punto e non "
                        "ne ha bisogno). Il campo `ipotesi` di ogni ambiente e' "
                        "la copia del record, e `pin_da_disegnare` e' la "
-                       "coordinata che il motore usa davvero",
-            "orientamento": "ogni ambiente ha l'orientamento a null e il vuoto in "
-                            "`vuoti`: la tappa 1-1 ha un orientamento dichiarato "
-                            "(la facciata guarda verso chi gioca) e gli altri "
-                            "149 no. Dichiararlo vuol dire che il motore non "
-                            "deve sceglierlo da solo",
+                       "coordinata che il motore usa davvero" % n_ipotesi,
+            "orientamento": "%s. Dichiararlo vuol dire che il motore non "
+                            "deve sceglierlo da solo" % frasi_orientamento,
             "edifici": "i luoghi senza sagome sono quelli che OSM non copre o "
                        "che non sono un luogo reale: si vede da `vuoti`",
             "anno_1": "1-27 e 1-30 non hanno coordinate nella tabella di "

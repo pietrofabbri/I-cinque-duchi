@@ -28,6 +28,16 @@ le coordinate e' un ambiente che mente, e un ambiente che ha i vuoti ma non li
 dichiara e' un ambiente che mente nel modo opposto. Per elencarli tutti e' una
 riga di logica, ma e' la riga che rende gli altri cinquecento utili.
 
+**B8 e' nato il 03/10/2026 da un difetto vero.** Gli altri sette confrontano il
+dato con gli altri dati, e nessuno confrontava il dato con **quello che i
+documenti scrivono**: `fonti-visive.md` §3.6 dichiarava 99 ambienti con
+coordinate, 69 con sagome OSM, `citta_antica` 11 e `percorso` 11, mentre il dato
+diceva 100, 68, 12 e 10. Tutte le verifiche passavano, perche' B1-B7 non
+guardano i numeri scritti nelle righe. B8 legge la sezione e confronta ogni
+numero con il conto: il documento non può piu' dire una cifra che il dato non
+conferma, ed e' l'unico modo perche' un documento resti vero quando il dato
+cambia sotto di lui.
+
 **B7 e' nato con le ipotesi di coordinata** (`dati/ipotesi_luoghi.json`, il 03/10/2026),
 e controlla una cosa che sembra ovvia e non lo e'. Il motore ha due fonti di
 coordinate, e scegliere sempre la prima produce un gioco con 99 ambienti su 150
@@ -41,6 +51,7 @@ Uso:  python3 sorgenti/verifica_ambienti.py
 """
 import json
 import os
+import re
 import sys
 
 RADICE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -71,6 +82,89 @@ if os.path.exists(IPOTESI):
 def ipotesi_coord(lid):
     """La coordinata che il file delle ipotesi dichiara per la tappa."""
     return _IPOTESI.get(lid)
+
+
+DOC = os.path.join(RADICE, "docs", "videogioco-5-duchi-fonti-visive.md")
+
+# I numeri di §3.6, e come si chiamano dentro il dato. La chiave e' la frase che
+# il documento usa, e `None` vuol dire «presente ma senza numero»: si controlla
+# solo che ci sia.
+QUOTE = [
+    ("Con coordinate", None, lambda a: sum(1 for x in a if x["lat"] is not None)),
+    ("Con sagome OSM", None,
+     lambda a: sum(1 for x in a if x["ambiente"]["edifici"]["n"])),
+    ("Già costruiti", None,
+     lambda a: sum(1 for x in a if x["ambiente"]["stato"] == "costruito")),
+]
+
+
+def _numero_dopo(testo, etichetta):
+    """Il numero che segue un'etichetta in una riga della tabella di §3.6.
+
+    La riga e' fatta cosi': `| Etichetta | **99** |`. Si prende il primo numero
+    che segue l'etichetta, e si restituisce `None` se non c'e': l'assenza e' un
+    difetto suo, e va detto, non aggirato.
+    """
+    for riga in testo.split("\n"):
+        if not riga.startswith("|") or etichetta not in riga:
+            continue
+        dopo = riga.split(etichetta, 1)[1]
+        m = re.search(r"(\d+)", dopo)
+        return int(m.group(1)) if m else None
+    return None
+
+
+def confronta_documento(ambiente):
+    """B8: nessun numero scritto in §3.6 puo' contraddire il dato."""
+    if not os.path.exists(DOC):
+        return ["B8  non trovo %s" % os.path.relpath(DOC, RADICE)]
+    testo = open(DOC, encoding="utf-8").read()
+    # la sezione da confrontare: da §3.6 fino alla successiva
+    inizio = testo.find("### 3.6")
+    fine = testo.find("### 3.7", inizio)
+    sezione = testo[inizio:fine if fine > inizio else len(testo)]
+
+    problemi = []
+    for etichetta, _, conto in QUOTE:
+        dichiarato = _numero_dopo(sezione, etichetta)
+        reale = conto(ambiente)
+        if dichiarato is None:
+            problemi.append("B8  la riga '%s' di §3.6 non ha un numero" % etichetta)
+        elif dichiarato != reale:
+            problemi.append("B8  §3.6 dichiara %d per '%s', il dato dice %d"
+                            % (dichiarato, etichetta, reale))
+
+    # i tipi: `citta_antica` 12 nella riga dei nove tipi
+    riga_tipi = ""
+    for riga in sezione.split("\n"):
+        if "`citta`" in riga:
+            riga_tipi = riga
+            break
+    if not riga_tipi:
+        problemi.append("B8  non trovo la riga dei nove tipi in §3.6")
+    else:
+        per_tipo = {}
+        for x in ambiente:
+            t_ = x["ambiente"]["tipo"]
+            per_tipo[t_] = per_tipo.get(t_, 0) + 1
+        for t_, n in sorted(per_tipo.items()):
+            m = re.search(r"`%s` (\d+)" % re.escape(t_), riga_tipi)
+            if not m:
+                problemi.append("B8  §3.6 non dichiara il tipo `%s`" % t_)
+            elif int(m.group(1)) != n:
+                problemi.append("B8  §3.6 dichiara `%s` %s, il dato dice %d"
+                                % (t_, m.group(1), n))
+
+    # i vuoti dichiarati: ogni vuoto del dato deve comparire con il suo numero
+    vuoti = {}
+    for x in ambiente:
+        for v in x["vuoti"]:
+            vuoti[v] = vuoti.get(v, 0) + 1
+    for v, n in sorted(vuoti.items()):
+        if not re.search(r"`%s`\s*\*?\*?%d" % (re.escape(v), n), sezione):
+            problemi.append("B8  §3.6 non dichiara `%s` con il conto %d "
+                            "(o lo dichiara con un altro numero)" % (v, n))
+    return problemi
 
 
 def main():
@@ -204,6 +298,9 @@ def main():
                 if (dis.get("lat"), dis.get("lon")) != ipotesi_coord(lid):
                     problemi.append("B7  %s: il punto non e' quello dell'ipotesi"
                                     % lid)
+
+    # B8: i numeri che il documento dichiara sono quelli del dato
+    problemi += confronta_documento(ambiente)
 
     # il riepilogo
     print("ambienti: %s" % os.path.relpath(AMBIENTI, RADICE))

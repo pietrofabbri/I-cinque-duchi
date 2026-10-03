@@ -1,12 +1,12 @@
 ---
 titolo: Videogioco "I cinque duchi" — La regola dei luoghi: i tipi di legame fra personaggio e luogo, catalogo per anno e mappa del quinto anno
-versione: 0.5
+versione: 0.6
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (controllo di coerenza del 02/10/2026: rimandi di versione, Q1 dichiarata risolta ma non ratificata, «l'aria sopra la foresta» dichiarata aperta); v0.3 (le sedici decisioni di Pietro del 02/10/2026: la regola dei due strati entra in §4.5, il tipo `C` nella scala ufficiale, il tipo `N` dei non luoghi in §4.3, V8 V9 V10 fatte, i buchi geografici affidati ai facoltativi, il tetto dei pin riscritto, e l'Africa riscritta sulla parola del testo); v0.4 (03/10/2026: la verifica F16 dei filoni dichiarati — F11 non assegnato — tenuta ferma anche nel generatore); v0.5 (03/10/2026: le 51 ipotesi di coordinata entrano in §4.8 (poi 50: la 4-16 ha trovato la sua) con tre gradi dichiarati e le regole R1-R6, e il punto 5 di §9 — la resa grafica delle stanze — è chiuso)
 fonte del materiale: le liste di associazioni personaggio–luogo per gli anni 2, 3 e 4 e la revisione delle associazioni con i luoghi dell'Orlando furioso per il quinto anno, proposte da Pietro (01/10/2026), con i criteri di tre e quattro tipi di legame e l'elenco delle associazioni da eliminare
 dati: videogioco-5-duchi-luoghi.json (da generare, v0.1: un record per associazione, con anno, personaggio, luogo, tipo di legame, pin o porta, nota, attendibilità); dati/luoghi_gioco.json (95 luoghi e il blocco `tappe` con i trenta binomi pin/stanza del quinto anno, generato da sorgenti/furioso/costruisci_citazioni.py --luoghi); dati/ipotesi_luoghi.json (v1, 03/10/2026: le 50 ipotesi di coordinata delle tappe che il registro non può verificare, con tre gradi dichiarati — §4.8)
-controllo: python3 sorgenti/furioso/verifica_citazioni.py (controlla anche i legami I/N, il blocco `tappe` e i filoni: verifiche F13, F14, F15, F16); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi); python3 sorgenti/ipotesi_luoghi.py --verifica (le sei regole R1-R6 delle ipotesi di coordinata, §4.8); python3 sorgenti/verifica_ambienti.py (controllo B7: ogni ambiente dice che cosa disegna e da quale dei due file lo prende)
+controllo: python3 sorgenti/furioso/verifica_citazioni.py (controlla anche i legami I/N, il blocco `tappe` e i filoni: verifiche F13, F14, F15, F16); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi); python3 sorgenti/ipotesi_luoghi.py --verifica (le sei regole R1-R6 delle ipotesi di coordinata, §4.8); python3 sorgenti/verifica_ambienti.py (controllo B7: ogni ambiente dice che cosa disegna e da quale dei due file lo prende; controllo B8: i numeri che `fonti-visive.md` §3.6 dichiara sono quelli del file)
 documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
 ---
 # La regola dei luoghi
@@ -545,6 +545,8 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 ---
 
 ## 10. Registro modifiche
+
+- **v0.6 (03/10/2026)**: due correzioni e una dichiarazione. Il blocco dei comandi del §9 cita il controllo **B8** di `verifica_ambienti.py`, nato oggi perché i numeri di `fonti-visive.md` §3.6 non erano più quelli del file; e la riga dei comandi accanto dichiarava **57 controlli** sulle mappe quando sono **61**, e indicava lo script con la directory `gis/` davanti, che non gli appartiene (sta nella radice di `sorgenti/`, accanto agli altri verificatori). Sono difetti piccoli e della stessa natura: **numeri e indirizzi scritti a mano che nessun controllore legge**, la lezione che §4.8 e B8 imparano insieme.
 
 - **v0.5 (03/10/2026, seconda parte)**: il punto 5 di §9, «la resa grafica delle stanze», è chiuso: è la Q6.2 di `furioso.md`, chiusa lì in §4.12, e la risposta che ne è venuta fuori è che il problema non era il disegno ma l'etichetta.
 

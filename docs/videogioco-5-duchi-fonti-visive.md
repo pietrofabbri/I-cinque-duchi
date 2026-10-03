@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — le fonti visive: che cosa il gioco non ha ancora una veste, e dove si prende
-versione: 0.3
+versione: 0.4
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: ricerca su Wikimedia Commons del 02/10/2026; tavolozza da Wikidata e Wikipedia del 03/10/2026; sagome e mura da OpenStreetMap via Overpass API del 03/10/2026; cime e quote da Natural Earth `geography_regions_elevation_points` del 03/10/2026; verifica dei fondi già in dati/mappe/
-documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-mappe.md (v1.0), videogioco-5-duchi-luoghi-edifici.md (v0.3), videogioco-5-duchi-audit.md (v0.9), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-mappe.md (v1.1), videogioco-5-duchi-luoghi-edifici.md (v0.3), videogioco-5-duchi-audit.md (v0.10), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
 dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto), dati/fonti_visive/tavolozza.json (v1, 18 voci), dati/edifici_footprint.json (v1, 5209 edifici su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura), dati/ambienti_livelli.json (v1, 150 ambienti), dati/fonti_visive/colori_cartografici.json (v1, 19 voci), dati/altitudine_manifest.json (v1, tre file di cime: 15, 2 e 26 punti)
 ---
 
@@ -198,17 +198,17 @@ Un ambiente porta: il livello, l'argomento, la voce (il personaggio), il luogo, 
 | | |
 |---|---|
 | Ambienti | **150** su 150 attesi, nessuno mancante |
-| Con coordinate | **99** |
-| Con sagome OSM | **69** |
+| Con coordinate | **100** |
+| Con sagome OSM | **68** |
 | Già costruiti (quelli che il motore ha disegnato) | **1**, la tappa 1-1 |
 
-I **nove tipi** di ambiente e quante volte compare ciascuno: `citta` 65, `edificio` 32, `citta_antica` 11, `percorso` 11, `situazione` 11, `paesaggio` 7, `porta` 5, `area` 5, `piazza` 3.
+I **nove tipi** di ambiente e quante volte compare ciascuno: `citta` 65, `edificio` 32, `citta_antica` 12, `percorso` 10, `situazione` 11, `paesaggio` 7, `porta` 5, `area` 5, `piazza` 3.
 
 **Il tipo non è indovinato in silenzio.** Ogni ambiente dichiara in `tipo_da` da dove viene il suo tipo: dal campo `tipo` del registro dei luoghi quando c'è, e da una **parola chiave** quando non c'è (`cattedrale` → edificio, `piazza` → piazza). Le griglie — colonne, righe, metri per tessera, nove tabelle diverse — sono una **scelta di progetto, non un dato di una fonte**, e stanno tutte nel file perché il motore le legga e nessuno le riscriva nel codice.
 
-**I vuoti sono tutti dichiarati, uno per uno**, e sono la parte più utile del file: `orientamento_non_dichiarato` **150** (solo la 1-1 ha un orientamento, gli altri 149 no, e dichiararlo vuol dire che il motore non deve sceglierlo da solo), `senza_sagome_osm` 81, `coordinate_non_e_un_luogo` 24, `coordinate_da_geocodificare_a_mano` 14, `coordinate_da_geocodificare_wfs` 11, `sole_sagome_senza_altezza` 13, `senza_coordinate` 2.
+**I vuoti sono tutti dichiarati, uno per uno**, e sono la parte più utile del file: `orientamento_non_dichiarato` **150** (**nessuno** dei centocinquanta ha un orientamento dichiarato, e dichiararlo vuol dire che il motore non deve sceglierlo da solo), `senza_sagome_osm` 82, `coordinate_non_e_un_luogo` 23, `coordinate_da_geocodificare_a_mano` 14, `coordinate_da_geocodificare_wfs` 11, `sole_sagome_senza_altezza` 13, `senza_coordinate` 2, `nessun_luogo_dichiarato` 2 (le due tappe la cui esistenza il progetto ha deciso di non chiedere: è una risposta, non una mancanza).
 
-`sorgenti/verifica_ambienti.py` è il controllo: sei verifiche (B1–B6), **tutte superate il 03/10/2026**.
+`sorgenti/verifica_ambienti.py` è il controllo: otto verifiche (B1–B8), **tutte superate il 03/10/2026**. **B7** è nato con le ipotesi di coordinata e chiede a ogni ambiente di dire da quale dei due file prende il punto da disegnare. **B8** è nato da un difetto vero di questa sezione: i numeri qui sopra erano stati scritti a mano e avevano smesso di corrispondere al file — 99 coordinate dichiarate contro 100 reali, 69 sagome contro 68, `citta_antica` 11 contro 12 — senza che nessuna verifica lo vedesse, perché tutte le altre confrontano i dati fra loro e non i dati con quello che il documento scrive. B8 confronta ogni numero di questa sezione con il conto e li ha fatti tornare; le due frasi che il file scrive su se stesso (il numero delle ipotesi, la presenza di orientamenti) ora sono **calcolate** in `ambienti_livelli.py` e non più scritte a mano, che è l’unico perché non invecchino di nuovo.
 
 ---
 
@@ -387,6 +387,11 @@ Come per gli oggetti linguistici: nessuno è stato guardato a vista, e il file d
 ---
 
 ## 9. Registro delle modifiche
+
+- **v0.4 (03/10/2026)**: **i numeri di §3.6 erano scritti a mano, e non erano più quelli del file.** Il controllo che sorveglia gli ambienti ne aveva sette, e tutti e sette confrontavano i dati fra loro: nessuno confrontava il dato con **le righe scritte qui**. Così la sezione dichiarava **99** ambienti con coordinate quando il file ne ha **100**, **69** con sagome OSM quando ne ha **68**, `citta_antica` **11** contro **12** e `percorso` **11** contro **10**, e i vuoti erano tre cifre sotto: `senza_sagome_osm` 81 contro 82, `coordinate_non_e_un_luogo` 24 contro 23, `nessun_luogo_dichiarato` non citato. La dichiarazione più falsa era un’altra: la sezione scriveva che «la 1-1 ha un orientamento e gli altri 149 no», mentre **nessuno** dei centocinquanta lo ha — la 1-1 compresa. Tutte le verifiche passavano, ed è la ragione per cui il difetto è rimasto due giorni in un documento che si dichiara costruito.
+  - **B8 è il controllo nuovo**, in `sorgenti/verifica_ambienti.py`: legge questa sezione e confronta ogni numero con il conto — le tre quote della tabella, i nove tipi e tutti i vuoti. Lo ha scritto il difetto: ne ha trovati sette in una volta sola;
+  - **le due frasi che il file scrive su se stesso non sono più scritte a mano.** In `sorgenti/ambienti_livelli.py` il numero delle ipotesi era «le 51 tappe» quando le ipotesi erano già **50** (la 4-16 aveva trovato la sua), e l’orientamento era dato per dichiarato sulla 1-1. Ora entrambe le frasi sono calcolate: la regola è che **un numero in letteratura invecchia e nessuno lo rilegge**, mentre un numero calcolato cambia da solo quando il dato cambia sotto;
+  - la lezione che resta è la stessa di `verifica_coerenza.py`: i controlli devono guardare **anche le frasi scritte**, non solo i file. Un dato che nessuno confronta con la sua descrizione è un dato che può dire due cose diverse nello stesso giorno.
 
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|

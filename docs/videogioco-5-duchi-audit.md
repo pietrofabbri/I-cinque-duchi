@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — audit delle questioni aperte: la lista operativa
-versione: 0.9
+versione: 0.10
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: lettura di tutti i quindici documenti di progetto, verificata da sorgenti/lingue/conta_questioni.py
-documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.3), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-luoghi.md (v0.5), videogioco-5-duchi-mappe.md (v1.0), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
+documenti collegati: videogioco-5-duchi-lingue.md (v0.1), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-fonti-visive.md (v0.4), videogioco-5-duchi-furioso.md (v0.6), videogioco-5-duchi-luoghi.md (v0.6), videogioco-5-duchi-mappe.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.5), videogioco-5-duchi-percorsi.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-curricolo.md (v0.1), videogioco-5-duchi-gioco.md (v0.5), videogioco-5-duchi-meccaniche.md (v0.3), AGENTS.md
 ---
 
 # Audit delle questioni aperte: la lista
@@ -226,6 +226,52 @@ versione. Provato, e morde.
 
 ---
 
+## 3quinquies. La lezione di oggi: un numero scritto a mano invecchia, un numero calcolato no
+
+*(03/10/2026 — Cercando le cose lasciate in sospeso)*
+
+Non è una voce dell'audit e non la conta: è una regola di metodo, e le due sono
+distinte per una ragione che questa sezione dimostra.
+
+Cercando che cosa fosse rimasto aperto, l'ho trovato in `mappe.md` §11 un punto
+che chiedeva gli ambienti dei centocinquanta livelli: **il file c'era, completo al
+150 su 150, da due giorni.** Una riga di «cosa c'è da fare» che non corrisponde
+a nessun lavoro mancante è una riga che mente, perché costringe a rileggerla e a
+chiedersi se il lavoro sia ancora da fare.
+
+Chiudendola sono tornato alla sezione che l'aveva prodotto, e **i suoi numeri non
+erano più quelli del file**: 99 ambienti con coordinate dichiarati contro 100 reali,
+69 sagome OSM contro 68, `citta_antica` 11 contro 12, `percorso` 11 contro 10, e
+tre cifre nei vuoti. La frase più falsa diceva che «la 1-1 ha un orientamento e gli
+altri 149 no», mentre **nessuno** dei centocinquanta lo ha.
+
+**Perché sette verifiche non lo avevano visto.** B1 confronta i livelli con lo
+schema, B3 e B4 confrontano l'ambiente con il registro dei luoghi, B5 i tipi e le
+griglie, B6 i vuoti. Sono tutti confronti **fra dati**: nessuno confronta un dato
+con **le frasi che il documento scrive su quel dato**. Eppure il documento è la
+cosa che legge una persona, e l'unica che può dirle che il gioco ha cento
+posizionamenti quando i dati ne hanno novantanove.
+
+Il controllo che mancava è **B8**, in `verifica_ambienti.py`: legge `fonti-visive.md`
+§3.6 e confronta ogni numero con il conto — le tre quote della tabella, i nove tipi
+e tutti i vuoti. L'ha scritto il difetto: ne ha trovati sette in una volta sola, e
+poi è stato provato con difetti iniettati su tre vie (una quota, un tipo, un vuoto)
+e ha morso tutte e tre.
+
+E la parte che dura di più: le due frasi che il **file di dati scrive su se stesso**
+in `ambienti_livelli.py` erano scritte a mano, e dicevano ancora «le 51 tappe» quando
+le ipotesi erano **50** — la 4-16 aveva trovato la sua coordinate il giorno prima.
+Ora sono calcolate. La regola è in `AGENTS.md`: **un numero in letteratura invecchia
+e nessuno lo rilegge; un numero calcolato cambia da solo quando il dato cambia
+sotto di lui.**
+
+Il punto più fastidioso, e utile: **è stata una riga di metodo, non un lavoro, a
+far trovare il difetto.** Nessuno dei duecento dati aveva un problema. Il problema
+era che un documento li raccontava male, e la catena di generazione era senza
+prendersi la briga di controllare la propria prosa.
+
+---
+
 ## 4. Le altre, in sintesi
 
 Le **restanti**: minori, o già decise nella sostanza e che aspettano solo l'esecuzione. Chi decide è Pietro quasi sempre, e dove è il progetto è perché non è una domanda ma un lavoro.
@@ -353,6 +399,7 @@ E la regola che ne segue, che è quella che il lavoro ha reso vera:
 ## 7. Registro delle modifiche
 
 | Data | Versione | Che cosa è cambiato |
+| 03/10/2026 | 0.10 | **Un punto di «cosa c'è da fare» era chiuso da due giorni, e insegnava una cosa che nessun controllo sapeva.** In `mappe.md` §11 il punto 8 chiedeva gli ambienti dei centocinquanta livelli: il file c'era, al 150 su 150. Chiudendolo sono tornato alla sezione che l'aveva prodotto e **i numeri scritti non erano più quelli del file**: 99 coordinate contro 100, 69 sagome contro 68, `citta_antica` 11 contro 12, `percorso` 11 contro 10, tre cifre nei vuoti, e la frase che dava alla 1-1 un orientamento che non ha come **nessuno** dei centocinquanta. Le sette verifiche degli ambienti passavano tutte, perché confrontano **i dati fra loro** e nessuna confronta un dato con **le frasi che il documento scrive su di esso**. Il controllo che mancava è **B8** (`verifica_ambienti.py`): legge `fonti-visive.md` §3.6 e confronta ogni numero con il conto, e ne ha trovati sette in una volta sola; è stato poi provato con difetti iniettati su tre vie e morde tutte. Le due frasi che il file scrive su se stesso sono ora **calcolate** in `ambienti_livelli.py`: dicevano «le 51 tappe» quando le ipotesi erano 50. Aggiunta **§3quinquies**. Il conto di §1 non cambia: **le voci sono ancora 114, 29 chiuse, 85 aperte e quattro bloccanti**, perché un difetto di prosa non è una voce. |
 | 03/10/2026 | 0.9 | **La parte orale è un documento, e il README aveva un difetto che nessun controllo vedeva.** Nasce `videogioco-5-duchi-parlato.md` (v0.2): la Web Speech API è esclusa perché manda l'audio ai server di Google, il riconoscimento on-device è dichiarato non fatto (non esiste per il ferrarese e riguarda dati di un minore), e il gioco può comunque allenare il parlato misurando **durata, pause, ritmo e riascolto**. Il dato che decide: su Commons ci sono **89 381** registrazioni inglesi, **9 179** italiane e **zero** ferraresi — la lingua di cui il progetto ha più bisogno è l'unica che non ha audio libero, e la risposta è produrlo chiedendo a chi lo parla, come si fa per la LIS con la categoria K. Cinque decisioni restano a Pietro (`parlato.md` §6).
 
 **Il difetto.** Mizando la tabella dei documenti del README, uno script ha scritto la versione nella cella del nome del file: **otto righe su trenta avevano perso il documento che descrivevano**, e la coerenza riportava **zero** perché una riga senza nome non nomina nessun documento e quindi non può contraddirlo. Ricostruite a mano, e il controllo che mancava è scritto: ogni riga numerata nomina un file che finisce in `.md` e finisce con una versione. Provato con un difetto iniettato, e morde.
