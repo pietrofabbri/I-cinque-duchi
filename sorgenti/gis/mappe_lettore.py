@@ -93,6 +93,17 @@ def leggi(path):
     """Ritorna (geometrie, punti); ogni geometria e' (props, [anello, ...])."""
     with open(path, encoding="utf-8") as f:
         t = f.read()
+    # DIFETTO CORRETTO: su un file che non e' in questo formato l'errore era un
+    # `IndexError: list index out of range` a due righe dal fondo, che non
+    # diceva niente. Succedeva perche' `mondo_admin1_copertura.json` stava in
+    # `dati/mappe/` accanto alle mappe, ed e' JSON valido: e' il conto della
+    # copertura, non una mappa. Ora il file e' fuori, e questa riga dice il
+    # resto: se domani qualcosa in quella cartella, il nome del file e' la
+    # prima informazione che serve.
+    if '"q":' not in t[:200] or '"f":[' not in t or '"p":[' not in t:
+        raise ValueError("%s non e' nel formato a delta: ha 'q', 'f' e 'p' all'inizio. "
+                         "Un JSON valido qui dentro e' quasi sempre un file che sta nella "
+                         "cartella sbagliata" % path)
     q = float(t.split('"q":', 1)[1].split(",", 1)[0])
 
     # le due sezioni sono array: `i_f` e `i_p` puntano alla loro apertura "[",

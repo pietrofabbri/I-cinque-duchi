@@ -26,7 +26,14 @@ import sys
 # Radice del progetto: due livelli sopra questa cartella.
 RADICE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import shapefile
+# `pyshp` serve SOLO a leggere gli shapefile, ed e' importato dentro `le()`
+# invece che qui in cima. Il motivo e' concreto: `shapefile_lettore.py` fa la
+# stessa cosa senza librerie, e se l'import fosse in cima, ogni file che riusa
+# anche solo una funzione di questo modulo (per esempio `mondo_admin1.py`, che
+# vuole `taglia` e `scrivi` e non ha pyshp) non potrebbe importare niente.
+# Inoltre pyshp non e' installato su questa macchina e il progetto non
+# installa pacchetti: senza questo, `mappe_formato.py` non gira qui, ma
+# `mondo_admin1.py` e `shapefile_lettore.py` girano lo stesso.
 
 # I shapefile scaricati e i file prodotti stanno in una cartella di lavoro
 # fuori dal repository: i dati geografici grezzi sono grandi e il progetto
@@ -39,6 +46,7 @@ TYPE = {0: "null", 1: "punto", 3: "linea", 5: "poligono", 8: "multipunto"}
 
 
 def le(shp):
+    import shapefile                      # vedi la nota in cima al file
     r = shapefile.Reader(os.path.join(NE, shp))
     campi = [f[0] for f in r.fields[1:]]
     for sr in r.iterShapeRecords():
