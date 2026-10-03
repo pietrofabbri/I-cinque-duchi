@@ -1,6 +1,6 @@
 ---
 titolo: Videogioco "I cinque duchi" — audit delle questioni aperte: la lista operativa
-versione: 0.8
+versione: 0.9
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: lettura di tutti i quindici documenti di progetto, verificata da sorgenti/lingue/conta_questioni.py
@@ -186,6 +186,46 @@ La sezione 3 era la più lunga del documento e le sue prime tre voci erano tre l
 ---
 
 
+## 3quater. La parte orale: un documento che risponde a una domanda, e un difetto nel README
+
+*(03/10/2026 — dopo la richiesta di Pietro su speaking e listening)*
+
+`videogioco-5-duchi-parlato.md` (v0.2) chiude il «si può fare» di ascolto e parlato, e
+la risposta è articolata in **cinque livelli** invece che in un sì. I quattro fatti che
+la costringono:
+
+1. **La Web Speech API è esclusa**: su Chrome manda l'audio ai server di Google e non
+   funziona offline. Un gioco senza server non può mandare la voce di un adolescente
+   fuori dal dispositivo.
+2. **Il materiale esiste per tre lingue e non per le altre**: su Wikimedia Commons, via
+   `cerca_audio_oggetti.py`, ci sono **89 381** registrazioni in inglese, **9 179** in
+   italiano, **79** in greco, **24** in latino e **zero** in ferrarese.
+3. **Il riconoscimento on-device esiste ma non per il ferrarese**, e su una voce di
+   minore è una decisione di privacy, non una scelta tecnica.
+4. **Il gioco può comunque allenare il parlato**, perché durata, pause, ritmo e
+   riascolto si misurano senza riconoscere niente.
+
+Il numero che conta è il secondo: **la lingua di cui il progetto ha più bisogno di
+ascolto è l'unica che non ha una registrazione libera al mondo**. La risposta non è
+cercarla, è **produrla**: il gioco chiede a chi parla la lingua e mette la registrazione
+nel quaderno del giocatore. È la stessa forma della categoria K per la LIS — **il
+gioco non sa fare una cosa, e non finge: mette dentro la cosa che non sa fare il
+giocatore**.
+
+Cinque decisioni sono di Pietro e restano aperte (`parlato.md` §6): il permesso del
+microfono, l'audio nel file di consegna, le opere intere, l'apertura del
+riconoscimento on-device, e chi raccoglie le registrazioni dei nonni ferraresi.
+
+**E un difetto vero, trovato per via.** Mizando la tabella dei documenti del README,
+uno script ha scritto la versione nella cella del nome del file: **otto righe su
+trenta avevano perso il documento che descrivevano**, e la coerenza diceva zero perché
+una riga senza nome non nomina nessun documento e quindi non può contraddirlo. Le righe
+sono state ricostruite e il controllo che mancava è stato scritto: ogni riga
+numerata della tabella deve nominare un file che finisce in `.md` e deve finire con una
+versione. Provato, e morde.
+
+---
+
 ## 4. Le altre, in sintesi
 
 Le **restanti**: minori, o già decise nella sostanza e che aspettano solo l'esecuzione. Chi decide è Pietro quasi sempre, e dove è il progetto è perché non è una domanda ma un lavoro.
@@ -313,6 +353,10 @@ E la regola che ne segue, che è quella che il lavoro ha reso vera:
 ## 7. Registro delle modifiche
 
 | Data | Versione | Che cosa è cambiato |
+| 03/10/2026 | 0.9 | **La parte orale è un documento, e il README aveva un difetto che nessun controllo vedeva.** Nasce `videogioco-5-duchi-parlato.md` (v0.2): la Web Speech API è esclusa perché manda l'audio ai server di Google, il riconoscimento on-device è dichiarato non fatto (non esiste per il ferrarese e riguarda dati di un minore), e il gioco può comunque allenare il parlato misurando **durata, pause, ritmo e riascolto**. Il dato che decide: su Commons ci sono **89 381** registrazioni inglesi, **9 179** italiane e **zero** ferraresi — la lingua di cui il progetto ha più bisogno è l'unica che non ha audio libero, e la risposta è produrlo chiedendo a chi lo parla, come si fa per la LIS con la categoria K. Cinque decisioni restano a Pietro (`parlato.md` §6).
+
+**Il difetto.** Mizando la tabella dei documenti del README, uno script ha scritto la versione nella cella del nome del file: **otto righe su trenta avevano perso il documento che descrivevano**, e la coerenza riportava **zero** perché una riga senza nome non nomina nessun documento e quindi non può contraddirlo. Ricostruite a mano, e il controllo che mancava è scritto: ogni riga numerata nomina un file che finisce in `.md` e finisce con una versione. Provato con un difetto iniettato, e morde.
+
 | 03/10/2026 | 0.8 | **Sei voci chiuse, e una di loro non era una domanda: era un difetto.** Aggiunta **§3ter**. Il **numero dei livelli trasversali** è chiuso — sono **zero**, perché il trasversale è un aggancio dentro i livelli e non un livello (`quadro-trasversale.md` §1.3) — e con esso il conto dei premi, che è **1050 e non i «circa 900»** che il progetto portava da tre giorni: la cifra vecchia contava i soli livelli linguistici e dimenticava i centocinquanta informatici. La **variante dei premi** e il **premio della LIS** erano già chiuse oggi e sono qui raccolte. La **`osservazione e attenzione`** era dichiarata `da_costruire` in due documenti con la frase che «il gioco non ha mai lavorato sull'attenzione come oggetto», ed è un difetto: il dominio esiste in quattro posti che nessuno aveva messi insieme (il nucleo `Q8.2` del livello 3-27, l'osservazione linguistica dei novecento livelli, le tappe 1-23 e 1-29, la 5-11). La lezione che vale è la regola: **una cosa che il gioco fa senza dirlo non è una lacuna, è una riga rimasta indietro**.
 
 La **3-28** è chiusa: era la divergenza dichiarata fra registro e documento (Manchester e Torino) e l'ha chiusa la rigenerazione, che ha portato le divergenze da una a zero. La **4-16** è chiusa *davvero*: era un dato corretto a mano che nessuno poteva rifare, e ora la catena `estrai_luoghi.py` → `coordinate.py` → `classifica.py` lo produce. Eseguendola sono usciti **tre difetti che nessun controllo vedeva**: l'estrattore leggeva le colonne per numero e nell'anno 5 leggeva la stanza al posto della voce (29 tappe su 30 con il filone del *Furioso* al posto della persona); le correzioni di Baghdad e Karakorum vivevano solo in un JSON editato a mano e sparivano alla prima rigenerazione (ora stanno in `dati/luoghi_correzioni.json`); e `classifica.py` aveva due copie divergenti della regola che assegna lo stato della coordinata. Il nuovo `sorgenti/verifica_catena_luoghi.py` ne ha cinque. Il conto di §1 non cambia: le sei voci di oggi non erano voci dell'audit.

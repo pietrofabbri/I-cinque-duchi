@@ -1,0 +1,59 @@
+{
+ "versione": 1,
+ "data": "2026-10-03",
+ "nota": "Il numero di registrazioni libere che si possono usare come ascolto per ciascuna lingua. Non e' un inventario di file scelti: e' la domanda «esiste materiale per questa lingua?», e la risposta decide se l'ascolto si compra, si cerca o si produce. Ogni numero porta la query che lo ha prodotto, perche' un numero senza la sua query non e' riproducibile.",
+ "query": "\"Lingua Libre\" haswbstatement:P407=<QID> filetype:audio",
+ "fonte": "Wikimedia Commons, API, ricerca nel namespace File (6)",
+ "nota_sul_risultato": "Un `fallito` non e' uno zero: la richiesta e' stata interrotta dalla rete o dal server e il numero resta ignoto. Il progetto lo chiama `da_rifare` e non lo chiude.",
+ "lingue": [
+  {
+   "lingua": "it",
+   "nome": "Italiano",
+   "wikidata": "Q652",
+   "registrazioni": 9179,
+   "esito": "contato",
+   "motivo_se_fallito": null
+  },
+  {
+   "lingua": "en",
+   "nome": "Inglese",
+   "wikidata": "Q1860",
+   "registrazioni": 89381,
+   "esito": "contato",
+   "motivo_se_fallito": null
+  },
+  {
+   "lingua": "fe",
+   "nome": "Ferrarese",
+   "wikidata": "Q33224",
+   "registrazioni": 0,
+   "esito": "contato",
+   "motivo_se_fallito": null
+  },
+  {
+   "lingua": "la",
+   "nome": "Latino",
+   "wikidata": "Q397",
+   "registrazioni": 24,
+   "esito": "contato",
+   "motivo_se_fallito": null
+  },
+  {
+   "lingua": "el",
+   "nome": "Greco",
+   "wikidata": "Q9129",
+   "registrazioni": 79,
+   "esito": "contato",
+   "motivo_se_fallito": null
+  },
+  {
+   "lingua": "si",
+   "nome": "Lingua dei segni italiana",
+   "wikidata": "Q12867462",
+   "registrazioni": 0,
+   "esito": "contato",
+   "motivo_se_fallito": null
+  }
+ ],
+ "verdetto_ferrarese": "nessuna registrazione libera esiste per il ferrarese: l'ascolto di questa lingua si produce, non si cerca"
+}

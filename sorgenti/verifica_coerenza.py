@@ -106,6 +106,29 @@ def controlla_versioni(ver):
             problemi.append("README: %s non è fra i documenti di docs/" % nome)
         elif reale != v:
             problemi.append("README: tabella dice %s v%s, il documento è v%s" % (nome, v, reale))
+    # (a2) ogni riga della tabella del README nomina un file che esiste.
+    # Il 03/10/2026 otto righe della tabella hanno perso il nome del file: uno
+    # script che aggiornava la versione ha scritto il numero nella cella sbagliata,
+    # e il controllo di versione non se n'era accorto perche' una riga senza nome
+    # non nomina nessun documento e quindi non puo' contraddirlo. La riga e' stata
+    # sistemata a mano; il controllo e' quello che mancava.
+    numerate = re.findall(r"^\| *(\d+) *\|([^\n]*)$", readme, re.M)
+    for numero, resto in numerate:
+        # `resto` e' tutto cio' che segue «| numero |», quindi la prima casella
+        # di questa lista e' il documento e l'ultima e' la versione
+        celle = [c.strip() for c in resto.split("|")]
+        if len(celle) < 3:
+            continue
+        if not celle[0].strip():
+            problemi.append("README: la riga %s della tabella non nomina nessun "
+                            "documento" % numero)
+            continue
+        if not re.search(r"\.md", celle[0]):
+            problemi.append("README: la riga %s ha nella casella del documento "
+                            "%r, che non e' un file" % (numero, celle[0][:30]))
+        if not re.match(r"^[\d.]+$", celle[-2]):
+            problemi.append("README: la riga %s non finisce con una versione (%r)"
+                            % (numero, celle[-2][:20]))
     # (b) i riferimenti incrociati dentro i documenti e nelle guide
     tutti = {n: open(os.path.join(DOCS, n), encoding="utf-8").read() for n in ver}
     percorso = dict(tutti)

@@ -214,6 +214,14 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **I campi compilati a mano sopravvivono:** `terreno`, `controllo`, `dettagli` e il blocco `tappe` (i trenta binomi pin/stanza del quinto anno) li porta dietro `aggiorna_registro.py`, che **unisce** e non sovrascrive.
 - **Il controllo è `sorgenti/verifica_catena_luoghi.py`** (L1–L5): nessuna voce è il testo di una colonna sbagliata, ogni correzione dichiarata è nel registro, nessun luogo fantasma, i campi a mano ci sono, e ogni sostituzione dichiarata è arrivata **dai documenti**.
 
+**La parte orale** (trasversale, vedi `parlato.md`, del 03/10/2026)
+- **La Web Speech API è esclusa**: su Chrome manda l'audio ai server di Google e non funziona offline. Un gioco senza server (`meccaniche.md` §1) non può mandare la voce di un adolescente fuori dal dispositivo, e non si simula un riconoscimento che non c'è.
+- **Si può allenare il parlato senza riconoscere la voce**: le misure che il motore prende sono **durata, pause, ritmo** (il modello suona a intervalli irregolari) e **riascolto**. Sono quattro numeri, non un modello, e bastano per il punteggio di processo.
+- **La lingua dei segni non è una lingua orale** (`lingue.md` Q4): il suo canale è il viso, e nessun numero di registrazioni la riguarda.
+- **Il ferrarese ha zero registrazioni libere** (`dati/lingue/audio_disponibili.json`, verificato il 03/10/2026) e non è un buco: l'ascolto di quella lingua **si produce**, chiedendo a chi la parla. Chi non ha nessuno che la parli non è penalizzato e il gioco lo dichiara.
+- **L'audio non entra nel file di consegna**: è dato personale di un minore. Nel `.txt` finisce la misura del parlato, non la voce.
+- **Il controllo è `sorgenti/verifica_parlato.py`** (A1–A4): i numeri del documento devono combaciare con il dato, e il livello del riconoscimento automatico deve restare dichiarato come non fatto — anche nel titolo.
+
 **Prima di dichiarare una lacuna, cerca**
 - Una riga `da_costruire` è la cosa più economica che si possa scrivere, e quasi sempre nasconde un difetto. Il 03/10/2026 `osservazione e attenzione` era dichiarato in due documenti come «un dominio che il progetto non ha ancora», e il gioco ci lavorava in quattro posti che nessuno aveva messi insieme. **La domanda vera è «dove lo abbiamo costruito senza accorgercene?»**, e va posta prima di scrivere che non esiste.
 - **Una cosa che il gioco fa senza dirlo non è una lacuna: è una riga rimasta indietro.**
