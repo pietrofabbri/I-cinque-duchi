@@ -431,12 +431,28 @@ def costruisci():
     mancanti = [t for t in attese if t not in [r["tappa"] for r in righe]]
     if mancanti:
         raise SystemExit("tappe senza citazione: %s" % ", ".join(mancanti))
-    usati = {r["filone"] for r in righe} | {r["filone"] for r in facoltative}
+    # `assegnato` vuol dire **giocabile**, cioè con almeno una tappa fra le
+    # trenta. Non vuol dire "compare da qualche parte".
+    #
+    # DIFETTO CORRETTO IN QUESTA VERSIONE, che era una decisione presa solo a
+    # parole. Il campo si calcolava su tutti i filoni usati, obbligatorie e
+    # facoltative insieme: `F11` risultava `assegnato: true` con la sua unica
+    # tappa in `tappe`, che era `5-22F`. Ma `5-22F` è una stanza che si apre
+    # dalla 5-22 e non è una delle trenta: il file diceva insomma che `F11` era
+    # un filone per cui si viaggia, e non lo è. Il giocatore che leggeva il
+    # registro vedeva un tredicesimo filone giocabile che non si raggiungeva
+    # mai. Ora `assegnato` si calcola sulle sole trenta e la stanza facoltativa
+    # sta in un campo suo, `facoltative`, che dice da dove si apre.
+    #
+    # È la decisione che `videogioco-5-duchi-furioso.md` §8 raccomandava, e la
+    # verifica F16 la tiene ferma: senza di essa il campo tornerebbe a dire
+    # quello che diceva.
+    assegnati = {r["filone"] for r in righe}
     return {
         "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno "
                      "e per le sue stanze facoltative",
-        "versione": 3,
-        "data": "2026-10-02",
+        "versione": 4,
+        "data": "2026-10-03",
         "fonte": {
             "opera": "Ludovico Ariosto, Orlando furioso",
             "edizione": "1928, Biblioteca BEIC (tre volumi), trascrizione di Wikisource (it)",
@@ -452,6 +468,10 @@ def costruisci():
         "regole": {
             "una_ottava_per_tappa": "sì: nessuna tappa riprende la stessa ottava di un'altra",
             "filone": "F1…F12, il racconto a cui la tappa appartiene",
+            "assegnato": "vero se e solo se il filone ha almeno una tappa fra le trenta, "
+                         "cioè se è giocabile. Un filone che compare solo in una stanza "
+                         "facoltativa è dichiarato ma non assegnato (è F11), e la sua stanza "
+                         "sta nel campo `facoltative`. Verificato dalla verifica F16",
             "legame": "B/A/S/I/C/N della regola dei luoghi; I solo per i luoghi che non "
                       "esistono e N solo per i non luoghi, nessuno dei due con coordinate",
             "facoltativa": "citazione che si apre da una tappa (codice 5-NNF) e non occupa "
@@ -468,8 +488,10 @@ def costruisci():
         "non_luoghi": NON_LUOGHI,
         "filoni": {
             codice: {"titolo": t, "canti": c,
-                     "assegnato": codice in usati,
-                     "tappe": [r["tappa"] for r in righe + facoltative if r["filone"] == codice]}
+                     "assegnato": codice in assegnati,
+                     "tappe": [r["tappa"] for r in righe if r["filone"] == codice],
+                     "facoltative": [r["tappa"] for r in facoltative
+                                     if r["filone"] == codice]}
             for codice, (t, c) in FILONI.items()
         },
         "citazioni": righe,
@@ -536,9 +558,12 @@ if __name__ == "__main__":
         with open(OUT, "w", encoding="utf-8") as f:
             json.dump(documento, f, ensure_ascii=False, indent=1)
         print("scritte %d citazioni in %s" % (len(documento["citazioni"]), OUT))
-        print("filoni usati: %d su %d"
-              % (len({r["filone"] for r in documento["citazioni"] + documento["facoltative"]}),
-                 len(FILONI)))
+        solo_facoltativa = sorted(c for c, f in documento["filoni"].items()
+                                   if not f["assegnato"] and f["facoltative"])
+        print("filoni giocabili: %d su %d dichiarati"
+              % (len({r["filone"] for r in documento["citazioni"]}), len(FILONI)))
+        print("filoni solo da stanza facoltativa: %s"
+              % (", ".join(solo_facoltativa) or "nessuno"))
         if "--luoghi" in sys.argv:
             scrive_tappe(documento)
         if "--stampa" in sys.argv:

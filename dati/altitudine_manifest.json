@@ -1,0 +1,53 @@
+{
+ "versione": 1,
+ "data": "2026-10-03",
+ "fonte": "Natural Earth geography_regions_elevation_points (pubblico dominio)",
+ "come_si_ottiene": "sorgenti/gis/scarica_ne.py -> sorgenti/gis/altitudine.py",
+ "come_si_legge": "sorgenti/gis/mappe_lettore.py, come ogni altra mappa",
+ "cosa_e": "le **cime** della fonte: un punto, un nome, una quota sul livello del mare. Non e' un modello del terreno e non da la quota di un luogo qualsiasi",
+ "la_scala_e_l_estensione": "`geography_regions_elevation_points` e' **mondiale in tutte e tre le scale**: la scala e' il dettaglio, non l'estensione. Il file da 50m elenca 86 cime su tutto il globo e solo due in Europa, e quello da 10m ne elenca 711 di cui 26 nel riquadro della penisola. Il riquadro e' quello di `mappe_formato.py`, e quello che ne esce e' il conto vero",
+ "i_tre_file_non_sono_annidati": "le cime del file da 110 m **non sono un sottoinsieme** di quelle del file da 50 m o da 10 m, e viceversa: sono selezioni diverse della stessa fonte globale a dettagli diversi. Nessuna delle 15 cime mondiali cade nel riquadro della penisola. Un gioco che trattasse i tre file come piu' e meno risoluzioni dello stesso elenco sbaglierebbe, e lo sbaglio sarebbe invisibile perche' i numeri sono tutti giusti",
+ "cosa_non_e": [
+  "non e' un modello del terreno: fra due cime c'e' solo il vuoto di questa fonte, e il gioco non puo' dedurre la quota di un luogo da queste cifre",
+  "non e' la quota di una citta' ne' di una tappa: sono cime, e il nome lo dice",
+  "la quota e' quella che la fonte scrive: **Everest 8848 m**, cioe' il valore del 1954, mentre dal 2020 la quota ufficiale e' 8848,86 m. Il file non la corregge e non la nasconde: e' il caso di scuola del quinto anno, dove ogni numero porta con se' l'errore e la data in cui e' stato misurato",
+  "`min_zoom` e' il livello di zoom oltre il quale la fonte considera la cima visibile: e' la regola di visualizzazione dichiarata dalla fonte, non una scelta del progetto"
+ ],
+ "campi": {
+  "name_it": "il nome italiano della fonte, con `name` come riserva: il gioco e' in italiano",
+  "elevation": "quota sul livello del mare in metri, intera",
+  "featurecla": "la classe della fonte (mountain, volcano, …)",
+  "scalerank": "importanza secondo la fonte: 1 e' il Everest",
+  "min_zoom": "livello di zoom oltre il quale la fonte mostra la cima",
+  "wikidataid": "l'identificatore Wikidata della cima, dalla fonte",
+  "comment": "la nota della fonte, per esempio «Worlds highest point»"
+ },
+ "file": [
+  {
+   "nome": "mondo_110_altitudine",
+   "scala": "110",
+   "descrizione": "le 15 cime principali del mondo: è il file della colonna degli strati (anni 4 e 5), e l'unico che copre il pianeta",
+   "punti_nella_fonte": 19,
+   "punti_nel_file": 15,
+   "scartati": 4
+  },
+  {
+   "nome": "europa_50_altitudine",
+   "scala": "50",
+   "descrizione": "le cime d'Europa che la fonte elenca alla scala 50m, e sono **due**: Elbrus e Monte Bianco. Non è che in Europa ci siano due cime: è che la fonte a questa scala ne elenca due in Europa e 84 altrove",
+   "punti_nella_fonte": 86,
+   "punti_nel_file": 2,
+   "scartati": 84
+  },
+  {
+   "nome": "penisola_10_altitudine",
+   "scala": "10",
+   "descrizione": "le 26 cime che la fonte elenca nel riquadro della penisola: le Alpi e l'Appennino, cioè anche cime che non sono italiane, perché il riquadro della penisola di `mappe_formato.py` comprende le Alpi. È lo stesso riquadro degli altri file della scala 10m e non un altro",
+   "punti_nella_fonte": 711,
+   "punti_nel_file": 26,
+   "scartati": 685
+  }
+ ],
+ "quota_massima_del_pacchetto_m": 8848,
+ "ordine": "i punti sono in file per quota decrescente: il primo di ogni file e' la cima piu' alta del suo riquadro, e non serve riordinarli"
+}

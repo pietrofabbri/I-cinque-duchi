@@ -1,11 +1,11 @@
 ---
 titolo: Videogioco "I cinque duchi" — le fonti visive: che cosa il gioco non ha ancora una veste, e dove si prende
-versione: 0.2
+versione: 0.3
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
-fonte: ricerca su Wikimedia Commons del 02/10/2026; tavolozza da Wikidata e Wikipedia del 03/10/2026; sagome e mura da OpenStreetMap via Overpass API del 03/10/2026; verifica dei fondi già in dati/mappe/
-documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.2), videogioco-5-duchi-mappe.md (v0.7), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-audit.md (v0.5), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
-dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto), dati/fonti_visive/tavolozza.json (v1, 18 voci), dati/edifici_footprint.json (v1, 5209 edifici su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura), dati/ambienti_livelli.json (v1, 150 ambienti)
+fonte: ricerca su Wikimedia Commons del 02/10/2026; tavolozza da Wikidata e Wikipedia del 03/10/2026; sagome e mura da OpenStreetMap via Overpass API del 03/10/2026; cime e quote da Natural Earth `geography_regions_elevation_points` del 03/10/2026; verifica dei fondi già in dati/mappe/
+documenti collegati: videogioco-5-duchi-ritratti.md (v0.2), videogioco-5-duchi-lingue-immagini.md (v0.1), videogioco-5-duchi-percorsi.md (v0.3), videogioco-5-duchi-mappe.md (v0.8), videogioco-5-duchi-luoghi-edifici.md (v0.2), videogioco-5-duchi-audit.md (v0.6), videogioco-5-duchi-tappa-1-01.md (v0.3), AGENTS.md
+dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fonti_visive/attestazione.json (v1, vuoto), dati/fonti_visive/tavolozza.json (v1, 18 voci), dati/edifici_footprint.json (v1, 5209 edifici su 54 luoghi), dati/ferrara_fondo.json (v1, 14 tratti di mura), dati/ambienti_livelli.json (v1, 150 ambienti), dati/fonti_visive/colori_cartografici.json (v1, 19 voci), dati/altitudine_manifest.json (v1, tre file di cime: 15, 2 e 26 punti)
 ---
 
 # Le fonti visive
@@ -14,9 +14,9 @@ dati: dati/fonti_visive/fonti_visive.json (v1, 27 voci, 125 candidati), dati/fon
 
 Il gioco ha delle immagini per i **personaggi** (213 schede, 169 ritratti autentici) e per gli **oggetti linguistici** (180 voci, 1120 candidati). Ha i **fondi geografici** (19 file Natural Earth). Il 2 ottobre non aveva altro, e non le aveva mai contate.
 
-Questo documento fa quattro cose: **fa l'inventario** di che cosa ha e che cosa non ha una veste grafica; **cerca le fonti** per ciò che manca, con una ricerca vera su Wikimedia Commons; **costruisce** le quattro derivazioni che erano solo un buco dichiarato — la tavolozza, le sagome degli edifici, il fondo di Ferrara e gli ambienti dei centocinquanta livelli; e **giudica l'accuratezza** di tutto questo su tre cose che il progetto chiama *proporzioni, colori, forme*, perché un'immagine «giusta» che viene stirata o scurita mente quanto un'immagine sbagliata.
+Questo documento fa quattro cose: **fa l'inventario** di che cosa ha e che cosa non ha una veste grafica; **cerca le fonti** per ciò che manca, con una ricerca vera su Wikimedia Commons; **costruisce** le sei derivazioni che erano solo un buco dichiarato — la tavolozza, i colori delle carte, le sagome degli edifici, il fondo di Ferrara, gli ambienti dei centocinquanta livelli e le cime con la loro quota; e **giudica l'accuratezza** di tutto questo su tre cose che il progetto chiama *proporzioni, colori, forme*, perché un'immagine «giusta» che viene stirata o scurita mente quanto un'immagine sbagliata.
 
-**Che cosa non è questo documento.** Non sceglie le fonti dei **125 candidati**: sono proposte, e nessuna è stata guardata a vista. Il file `dati/fonti_visive/attestazione.json` è pronto e vuoto, con tutti i campi dichiarati. E non disegna niente: i quattro file che ha prodotto sono **dati**, non grafica, e ognuno dichiara la propria fonte e i propri vuoti.
+**Che cosa non è questo documento.** Non sceglie le fonti dei **125 candidati**: sono proposte, e nessuna è stata guardata a vista. Il file `dati/fonti_visive/attestazione.json` è pronto e vuoto, con tutti i campi dichiarati. E non disegna niente: i sei file che ha prodotto sono **dati**, non grafica, e ognuno dichiara la propria fonte e i propri vuoti.
 
 ---
 
@@ -33,10 +33,14 @@ Questo documento fa quattro cose: **fa l'inventario** di che cosa ha e che cosa 
 | **Sagome degli edifici** | **fatto il 03/10/2026**, 5209 edifici su 54 luoghi | OpenStreetMap, **ODbL** | `dati/edifici_footprint.json` |
 | **Fondo di Ferrara** (anno 1) | **fatto il 03/10/2026**, 14 tratti di mura | OpenStreetMap, **ODbL** | `dati/ferrara_fondo.json` |
 | **Ambienti dei 150 livelli** | **fatto il 03/10/2026**, 150 su 150 | i documenti del progetto più i tre file sopra | `dati/ambienti_livelli.json` |
+| **Colori dei fondi geografici** | **fatto il 03/10/2026**, 19 voci | una scelta dichiarata, non un colore a occhio nel codice | `dati/fonti_visive/colori_cartografici.json` |
+| **Cime e quote** | **fatto il 03/10/2026**, 15 + 2 + 26 punti | **Natural Earth**, pubblico dominio | `dati/mappe/mondo_110_altitudine.json` e gli altri due |
 | **Medi di trasporto** | **non c'è** | — | — |
 | **Epigrafi e iscrizioni** | **non c'è** | — | — |
 
 **Cinque buchi il 2 ottobre, due il 3.** Erano cinque, ed erano cinque problemi diversi. Quattro sono chiusi: la **tavolozza**, le **sagome degli edifici**, il **fondo di Ferrara** e gli **ambienti dei centocinquanta livelli**. Restano due, ed è giusto che restino: i **mezzi di trasporto** servono al percorso del duca e sono un problema di *immagini*, non di geometrie; le **epigrafi** servono al latino e sono un problema di *testo*, non di grafica. Nessuna delle due era un buco che si potesse chiudere con uno script, e sono dichiarate in §7.
+
+**Un sesto buco è stato chiuso lo stesso giorno, e non era un buco di immagini mancanti: era un colore che c'era già e stava nel posto sbagliato.** I colori delle carte geografici stavano scritti nel codice del disegnatore, dove nessuno li leggeva (§3.7); mentre li si cercavano è saltato fuori che un file che non aveva niente a che fare stava dentro `dati/mappe/` e faceva crashare il lettore delle mappe (§7, Q4).
 
 **L'ordine in cui sono stati chiusi è quello giusto, ed è dichiarato perché l'ordine è una decisione.** Prima la tavolozza, che è più piccola e serve a tutto il resto; poi le sagome, che sono il buco più grosso; poi il fondo di Ferrara, che dipende dalle sagome; e infine gli ambienti, che non sono una fonte nuova ma l'assemblaggio dei tre precedenti sui centocinquanta livelli. Il quarto non era un quarto buco: era la domanda «e quindi, che cosa si disegna a ogni tappa?», e senza risponderla i primi tre restano tre tavole isolate.
 
@@ -58,15 +62,19 @@ Il conto reale, verificato sui file:
 
 1. ~~**Le sagome degli edifici non esistono come dato.**~~ **Risolto il 03/10/2026**: `dati/edifici_footprint.json`, 5209 sagome su 54 luoghi, ognuna con `forma`, `altezza_m` e `fonte_altezza` (`osm_height`, `osm_levels`, `assente`). Vengono da OpenStreetMap, autorizzata il 02/10/2026, e viaggiano con **ODbL**. §3.2.
 2. **Le altezze non esistono come dato**: misurate nel 24% dei casi a Milano e nel 3% a Roma. Il progetto risponde con il **terreno** — quota, pendenza, esposizione, rilievo locale misurati su SRTM, con errore medio di 12,6 m su 14 punti noti. Sui 5209 edifici effettivamente presi, l'altezza c'è in 588 casi (`osm_height`) e si ricava dai piani in altri 1285 (`osm_levels`): **3336 non hanno niente** e diventano un volume neutro dichiarato. §3.2.
-3. ~~**Non c'è un file della città di Ferrara.**~~ **Risolto il 03/10/2026**: `dati/ferrara_fondo.json` ha il perimetro delle mura ricostuito da 14 tratti OSM, 8601 m di perimetro e 4,20 km² di area interna, con tutte le 28 tappe dell'anno 1 che ci cadono dentro. §3.5.
+3. ~~**Non c'è un file della città di Ferrara.**~~ **Risolto il 03/10/2026**: `dati/ferrara_fondo.json` ha il perimetro delle mura ricostuito da 14 tratti OSM, 8601 m di perimetro e 4,20 km² di area interna, con tutte le 28 tappe 3. ~~**Non c'è un file della città di Ferrara.**~~ **Risolto il 03/10/2026**: `dati/ferrara_fondo.json` ha il perimetro delle mura ricostruito da 14 tratti OSM, 8601 m di perimetro e 4,20 km² di area interna, con tutte le 28 tappe dell'anno 1 che ci cadono dentro. §3.5.
+
+**Il punto 2 resta il punto aperto, ma il 03/10/2026 è stato costruito un file che va nella stessa direzione e va detto con le sue parole.** `dati/mappe/mondo_110_altitudine.json`, `europa_50_altitudine.json` e `penisola_10_altitudine.json` portano le **cime** di Natural Earth con la loro quota: 15, 2 e 26 punti. Sono cime, non luoghi di gioco, e il file lo dichiara: nessun motore può dedurre la quota di una tappa da un elenco di cime. Ma il punto 2 chiedeva se il gioco ha un dato di quota, e adesso l'ha per il primo volta — per il sottosuolo, non per i luoghi.
 
 **Il formato a delta ha una conseguenza visiva che va detta.** La quantizzazione conserva la forma ma perde la continuità della costa: a 110m il mondo è un'approssimazione onesta, ma un giocatore che guarda l'Italia e un che guarda la Spagna vedono coste con la stessa spessore di errore. La regola che ne segue è che **la scala dichiarata va sulla mappa**, così il giocatore sa che cosa sta guardando: 110m per il mondo è una mappa da navigazione, non una carta topografica.
 
 ---
 
-## 3. Le fonti cercate, e i quattro file costruiti
+## 3. Le fonti cercate, e i sei file costruiti
 
-La ricerca (`sorgenti/fonti_visive_cerca.py`) ha esaminato **27 voci** in cinque categorie, con termini scelti uno per uno e non tradotti alla cieca. Ha prodotto **125 candidati con licenza libera**. Quattro delle cinque categorie hanno poi prodotto un **file di dati** (sagome §3.2, colore §3.4, mura di Ferrara §3.5, ambienti §3.6); le altre due no, e il perché è dichiarato.
+La ricerca (`sorgenti/fonti_visive_cerca.py`) ha esaminato **27 voci** in cinque categorie, con termini scelti uno per uno e non tradotti alla cieca. Ha prodotto **125 candidati con licenza libera**. Le categorie che hanno prodotto un **file di dati** sono quelle degli edifici, dei colori e dei fondi (sagome §3.2, colore §3.4, mura di Ferrara §3.5, ambienti §3.6); quelle che non lo hanno prodotto sono i mezzi e le epigrafi, e il perché è dichiarato.
+
+A quei quattro file il 03/10/2026 se ne sono aggiunti **due che non vengono dalla ricerca su Commons** ma da un buco emerso documentando: i **colori delle carte** (§3.7) e le **cime con la loro quota** (§3.8). Sono sei, e sei è il numero che dice §8.
 
 | Categoria | Voci | Candidati | Voci senza immagine |
 |---|---|---|---|
@@ -204,6 +212,41 @@ I **nove tipi** di ambiente e quante volte compare ciascuno: `citta` 65, `edific
 
 ---
 
+### 3.7 I colori delle carte: costruiti il 03/10/2026
+
+I fondi di Natural Earth non hanno colori: sono geometrie, e il colore glielo decide il motore. La Q4 chiedeva se quei colori dovessero stare **in un file** o **nel codice**, e la risposta è stata un file: `dati/fonti_visive/colori_cartografici.json`, **19 voci**.
+
+**Un colore entra in questo file in due modi, e solo due**, ed è la stessa regola della tavolozza applicata un passo oltre:
+
+| Da dove | Voci | Che cosa dichiara la voce |
+|---|---|---|
+| dalla **tavolozza** | **3** (`lago`, `etichetta_mappa`, `fondo_gioco`) | la `chiave_tavolozza`, e il controllo ne confronta l'esadecimale **byte per byte** con `tavolozza.json` |
+| **dichiarata qui** | **16** | il `motivo` (che cosa è) e il `criterio` (perché proprio questo colore) |
+
+Non esiste un terzo modo, ed è il punto: **nessun colore entra perché stava già nel codice**, e nessuno entra per assomiglianza a un altro.
+
+**La regola che le carte hanno e le immagini non hanno.** Ogni categoria che ha un riempimento ha anche un bordo, e i due si dichiarano insieme: una categoria con il riempimento e senza il bordo è un file che non sa come si disegna, e una con il bordo e senza il riempimento è una linea senza forma.
+
+**Le tre categorie che non hanno un riempimento, e perché è una scelta.** Le **terre emerse** e le **regioni fisiche** si disegnano col solo bordo e lasciano trasparente il fondo della carta: riempirle nasconderebbe i Paesi che ci stanno sopra, e i deserti si distinguono dal Paese che li contiene non riempiendoli. Le **50 unità amministrative del mondo** non hanno un colore proprio e usano quelli di Stato, perché un'unità amministrativa è un Paese come un altro.
+
+**I due colori che il file dichiara ma nessuno disegna, e perché sono dichiarati lo stesso.** `fondo_gioco` è il fondo della scena e non della pagina di verifica: la carta del gioco ci sta sopra e i due bianchi sporchi devono essere lo stesso, ma nessuna delle dodici pagine di verifica lo disegna. Il **colore della nebbia** invece **non è dichiarabile** e sta in `non_dichiarati`: sta nel prototipo generato, che in questo checkout non c'è, e dichiararlo sarebbe dichiarare un colore che nessuno ha potuto misurare.
+
+**Il difetto vero che è saltato fuori cercandoli, e che non era di colori.** `dati/mappe/mondo_admin1_copertura.json` — il file che dichiara come le 50 unità amministrative sono state scelte fra le 4596 della fonte, con quale tolleranza e quali sette che hanno avuto bisogno di una riserva, e quali dei 54 pin ci cadono dentro — stava **dentro `dati/mappe/`**, dove vale la regola che ci stanno solo file nel formato a delta, perché `dati/mappe/` si legge solo con `mappe_lettore.py`. Un JSON valido in quella cartella faceva **crashare il lettore** con un `IndexError: list index out of range`, che è il peggiore dei sintomi: dice una lista troppo corta e non dice che il problema è un file che non aveva niente a che stare lì. Il file è stato spostato in `dati/` — dove è un dato e non una mappa — il lettore ora controlla la forma del file e solleva un `ValueError` che lo dice, e il controllo **C6** tiene la regola ferma.
+
+### 3.8 Le cime e le loro quote: costruite il 03/10/2026
+
+`dati/mappe/mondo_110_altitudine.json`, `europa_50_altitudine.json` e `penisola_10_altitudine.json` portano le **cime** di Natural Earth con la quota sul livello del mare. Sono **15, 2 e 26 punti**, in formato a delta come tutte le altre mappe, e `dati/altitudine_manifest.json` dichiara il conto della fonte accanto al conto del file: 19 punti in entrata e 15 nel file da 110 m, 86 e 2, 711 e 26.
+
+**La scoperta che vale più dei tre file, e che nessuno dei numeri nasconde.** La fonte si chiama `geography_regions_elevation_points` ed è **mondiale in tutte e tre le scale**: la scala è il dettaglio, non l'estensione. Il file da 50 m elenca 86 cime su tutto il globo e solo due in Europa, da longitudine −167 a +160; quello da 10 m ne elenca 711 di cui 26 nel riquadro della penisola. Il manifest lo dichiara in `la_scala_e_l_estensione`, perché un file chiamato «europa» che contiene il Kilimangiaro è un file che mente una volta sola, e quella volta basta.
+
+**E da qui segue la seconda scoperta, che è quella pericolosa: i tre file non sono annidati.** Nessuna delle 15 cime mondiali cade nel riquadro della penisola, e nessuna delle 26 cime della penisola è fra le 15 del mondo: sono **selezioni diverse della stessa fonte globale a dettagli diversi**, non tre risoluzioni dello stesso elenco. Un gioco che li trattasse come piu' e meno risoluzioni sbaglierebbe, e sbaglierebbe invisibilmente, perché tutti i numeri sono giusti.
+
+**Quello che il file non è, dichiarato perché è la parte che si legge.** Non è un modello del terreno: fra due cime c'è solo il vuoto di questa fonte, e nessun motore può dedurre la quota di una tappa da queste cifre. Non è la quota di una città, e il campo `name` lo dice per ogni punto. E la quota è **quella che la fonte scrive**: l'Everest è a **8848 m**, che è il valore del 1954, mentre dal 2020 la quota ufficiale è 8848,86 m. Il file non corregge e non nasconde — è il caso di scuola del quinto anno, dove ogni numero porta con sé l'errore e la data in cui è stato misurato.
+
+**Il lavoro tecnico che ha reso possibile tutto questo è una funzione.** `sorgenti/gis/shapefile_lettore.py` sapeva leggere **poligoni** (`parti()`) e non sapeva leggere un **punto**. La funzione nuova `punti()` legge le forme 1 (`Point`, con X e Y a offset 4) e 8 (`MultiPoint`, che ha un bounding box di 32 byte e il numero dei punti all'offset 36, coi punti che cominciano a 40): la trappola è che il MultiPoint ha *dentro* i punti una struttura che sembrava quella di un poligono, e leggerla con il codice dei poligoni dà coordinate che hanno l'aria di essere giuste.
+
+---
+
 ## 4. Accuratezza: proporzioni, colori, forme
 
 È la parte che il progetto chiama *solita accuratezza*, e le tre parole hanno tre significati tecnici.
@@ -230,6 +273,8 @@ I **nove tipi** di ambiente e quante volte compare ciascuno: `citta` 65, `edific
 **La regola nuova, che riguarda la tavolozza.** Se le fonti hanno colori che non concordano, il gioco deve scegliere: o usa i colori della fonte e dichiara che sono quelli, oppure applica una **tavolozza unica** e dichiara che l'immagine è ricolorata. La seconda è più bella e meno fedele; la prima è più fedele e meno bella.
 
 **La scelta è la prima, ed è dichiarata in un posto solo**: `dati/fonti_visive/tavolozza.json`. È la stessa scelta che il progetto aveva già fatto tre volte — per i ritratti, per le etichette, per le proporzioni — e che resta la coerente: **ogni fonte porta i suoi colori e li dichiara**, e il gioco non ricolora il dipinto di Cavallini per farlo quadrare con la miniatura. Un posto solo perché due persone che colorano lo stesso dipinto in due modi diversi producono due giochi.
+
+**La stessa regola, un passo oltre, per le carte geografici.** La scelta della tavolozza riguarda le immagini; i fondi di Natural Earth non hanno colori propri e il gioco deve dargliene. La domanda del 2 ottobre era se quei colori stessero **in un file** o **nel codice**, e la risposta è che dal 3 ottobre stanno in un file: `dati/fonti_visive/colori_cartografici.json`, 17 voci (§3.7). La regola è la stessa — ogni colore dice da dove viene — e in più ne vale una che le carte hanno e le immagini non hanno: **una categoria che ha un riempimento ha anche un bordo, e i due si dichiarano insieme**.
 
 ### 4.3 Forme
 
@@ -304,9 +349,15 @@ L'anno 1 è l'anno in cui la copertura è gratuita e la mappa è piccola, e non 
 
 **Il perimetro che `motore-e-grafica.md` dice di usare non è un file che si poteva scaricare**, ed è il fatto più utile di questa chiusura: nessuna fonte pubblica ha il perimetro ufficiale delle mura di Ferrara. Quello che c'è è un anello di tratti con dei vuoti, e il vuoto più grosso — **1037 m** — resta senza disegno ed è dichiarato nel file.
 
-**Q4 — I colori dei fondi geografici.**
+**Q4 — ~~I colori dei fondi geografici.~~ CHIUSA il 03/10/2026**
 
-I 19 file Natural Earth hanno proprietà e categorie, ma non colori: il colore lo decide il motore. La domanda è se i colori siano **dichiarati in un file** — così ogni tappa sa che cosa sta mostrando — o se restino nel codice, dove nessuno li legge. **La tavolozza appena costruita copre metà della domanda**: i colori di stato e di scena ci sono già (`ok`, `attenzione`, `errore`, `sfondo`, `inchiostro`), ma i colori per **categoria cartografica** — terra, mare, confine, città — restano nel codice.
+I 19 file Natural Earth hanno proprietà e categorie, ma non colori: il colore lo decideva il motore. La domanda era se quei colori dovessero essere **dichiarati in un file** — così ogni tappa sa che cosa sta mostrando — o restare nel codice, dove nessuno li legge. **La tavolozza copriva metà della domanda**: i colori di stato e di scena c'erano già (`ok`, `attenzione`, `errore`, `sfondo`, `inchiostro`), ma quelli per **categoria cartografica** — terra, mare, confine, città — stavano nel codice. Ora stanno in `dati/fonti_visive/colori_cartografici.json`, **19 voci**: 16 dichiarate con motivo e criterio, 3 prese dalla tavolozza con la chiave dichiarata e l'esadecimale confrontato byte per byte. §3.7.
+
+**Il punto interessante della chiusura è che cercando i colori è saltato fuori un difetto che non era di colori**, ed è la parte che resta da questa domanda: un file che non aveva niente a che fare stava nella cartella sbagliata e faceva crashare il lettore delle mappe. La storia è in §3.7.
+
+**I due controlli che tengono la cosa ferma.** `sorgenti/verifica_colori.py` fa **sette verifiche, C1–C7**: gli esadecimali sono ben formati e le chiavi univoche (C1); le tre voci prese dalla tavolozza **dicono il vero**, confronto byte per byte (C2); le 16 dichiarate portano motivo e criterio (C3); **nessun colore vive solo nel codice** (C4); ogni voce è usata o dichiarata fra le non disegnate (C5); `dati/mappe/` contiene **solo file a delta** (C6); e ogni file di mappa ha colori che lo riguardano, su una tabella di copertura di 18 file (C7). **0 problemi**, e la prova negativa c'è: cinque difetti iniettati danno cinque problemi segnalati.
+
+E `sorgenti/gis/verifica_mappe_disegno.py`, che **non scrive più i colori nel proprio codice ma li legge dal file**, ha reso dodici pagine di verifica. Il suo difetto di prima è instructive: scriveva `fill="F6FAFC"` invece di `fill="#F6FAFC"`, cioè dodici pagine bellissime e senza un colore, perché l'esadecimale senza il cancelletto in SVG non è un colore. È dichiarato nel suo docstring, perché un difetto che si corregge e si dimentica torna.
 
 **Q5 — Chi guarda i 125 candidati?**
 
@@ -327,9 +378,11 @@ Come per gli oggetti linguistici: nessuno è stato guardato a vista, e il file d
 | Sagome degli edifici | **fatto**: 5209 edifici su 54 luoghi, **3336 senza altezza** e a volume neutro |
 | Fondo di Ferrara | **fatto**: 14 tratti, 8601 m di perimetro, 4,20 km², 28 tappe su 28 dentro |
 | Ambienti dei livelli | **fatti**: 150 su 150, di cui 99 con coordinate e 69 con sagome |
+| Colori delle carte | **fatti**: 19 voci dichiarate, di cui 3 prese dalla tavolozza; nessun colore vive solo nel codice |
+| Cime e quote | **fatte**: 15 + 2 + 26 punti su tre scale, con la scoperta che la fonte è **mondiale in tutte e tre** e i tre file non sono annidati |
 | Quanti ambienti il motore ha disegnato | **uno**, la tappa 1-1 |
 | Lavoro più grande che resta | i **125 candidati** da guardare a vista, e i **cinquantuno** ambienti senza coordinate |
-| Lavoro più grande che manca *fra i dati* | nessuno: i quattro file ci sono e sono verificati |
+| Lavoro più grande che manca *fra i dati* | nessuno: i sei file ci sono e sono verificati |
 
 ---
 
@@ -337,6 +390,6 @@ Come per gli oggetti linguistici: nessuno è stato guardato a vista, e il file d
 
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|
+| 03/10/2026 | 0.3 | **La Q4 è chiusa, e cercando i colori delle carte è saltato fuori un difetto che non era di colori.** I colori per categoria cartografica stavano scritti nel codice del disegnatore: ora sono `dati/fonti_visive/colori_cartografici.json`, **19 voci**, 16 dichiarate con motivo e criterio e 3 prese dalla tavolozza con l'esadecimale confrontato byte per byte, con la regola che **una categoria con il riempimento ha anche il bordo** e le tre che il riempimento non ce l'hanno, dichiarate una per una (§3.7). **Il difetto vero**: `dati/mappe/mondo_admin1_copertura.json stava dentro `dati/mappe/`, dove vale la regola che ci stanno solo file a delta, e faceva crashare il lettore con un `IndexError` che non diceva niente; il file è stato spostato in `dati/`, il lettore ora controlla la forma del file e solleva un `ValueError` che la dice, e il controllo **C6** tiene la regola ferma. **Le cime con la quota** (`mondo_110_altitudine`, `europa_50_altitudine`, `penisola_10_altitudine`: 15, 2 e 26 punti, più `dati/altitudine_manifest.json`), con le due scoperte che i numeri non nascondono: la fonte è **mondiale in tutte e tre le scale** — il file da 50 m elenca 86 cime da longitudine −167 a +160 e solo due in Europa — e **i tre file non sono annidati**, perché sono selezioni diverse della stessa fonte globale (§3.8). Per costruirli è servita la funzione `punti()` in `sorgenti/gis/shapefile_lettore.py`, che legge `Point` e `MultiPoint`, e il difetto che porta con sé è che il `MultiPoint` ha dentro i punti una struttura che sembrava quella di un poligono. Due verificatori nuovi: `verifica_colori.py` (**C1–C7**, con cinque difetti iniettati che danno cinque problemi) e `verifica_altitudine.py` (**D1–D7**, con sei difetti che ne danno sette); `verifica_mappe_disegno.py` è stato riscritto perché **legga** i colori dal file invece di scriverli nel proprio codice, e il suo difetto di prima (`fill="F6FAFC"` senza il cancelletto: dodici pagine senza un colore) è dichiarato nel docstring. Delle cinque questioni resta **solo la Q5**. |
 | 03/10/2026 | 0.2 | **Quattro dei cinque buchi sono chiusi, e sono chiusi con quattro file di dati.** **La tavolozza** (`dati/fonti_visive/tavolozza.json`, 18 voci: 5 da Wikidata, 5 dall'infobox di un artista, 3 dichiarate, 5 di stato), costruita da fonti e non a occhio, con tre difetti dichiarati: **un pigmento non si cerca per nome** («vermilion» è una città canadese), **`P462` non è l'esadecimale** ma un link a un oggetto colore — e il suo valore è un dizionario, non una stringa — e **cinque pigmenti su quindici non hanno codice da nessuna parte**, nessuno dei quali è stato riempito con una cifra plausibile. **Le sagome degli edifici** (`dati/edifici_footprint.json`, 1,6 MB, **5209 edifici su 54 luoghi**, 588 con altezza misurata, 1285 ricavata dai piani, **3336 a volume neutro dichiarato**), con le quattro regole dichiarate e i due difetti dell'interrogazione a Overpass. **Il fondo di Ferrara** (`dati/ferrara_fondo.json`, 14 tratti, 8601 m, **4,20 km²**, 28 tappe su 28 dentro) con la tolleranza di 60 m scelta **non a occhio ma come più piccola in cui tutte le tappe cadono dentro**, la scala completa dei cinque passi nel file, e **una fonte rifiutata e dichiarata**: la relation OSM «Centro storico», che lascia fuori Piazza Ariostea e Palazzo dei Diamanti. **Gli ambienti dei centocinquanta livelli** (`dati/ambienti_livelli.json`, **150 su 150**, nove tipi, nove griglie dichiarate come scelta di progetto, tutti i vuoti dichiarati uno per uno), costruiti sul modello della tappa 1-1 e per relazione esplicita fra livello e luogo, non per confronto di nomi. Sei controlli nuovi, due verificatori: `verifica_tavolozza.py` (A1–A6, eseguito **in rete**, 0 problemi) e `verifica_ambienti.py` (B1–B6, 0 problemi). Le Q1, Q2 e Q3 sono chiuse; restano Q4 e Q5. |
-| 02/10/2026 | 0.1 | Prima stesura. Inventario delle fonti visive: il gioco ha i ritratti (213), i fondi geografici (19 file Natural Earth, 1,4 MB) e i 1120 candidati degli oggetti linguistici; **non ha** i mezzi di trasporto, le sagome degli edifici, il fondo di Ferrara, le epigrafi e la tavolozza. Ricerca su Commons di 27 voci in cinque categorie: **125 candidati**, due vuoti dichiarati (incendio, carestia). Le tre regole sull'accuratezza — proporzioni, colori, forme — con il caso serio della proiezione delle carte, che non dichiarata mente sulle distanze. I tre difetti della ricerca, con la pipa che è diventata un rospo e la Cappella dei Magi che è un corteo, e la correzione pratica: **le parole ambigue si cercano con due parole**. Cinque questioni aperte. |
 | 02/10/2026 | 0.1 | Prima stesura. Inventario delle fonti visive: il gioco ha i ritratti (213), i fondi geografici (19 file Natural Earth, 1,4 MB) e i 1120 candidati degli oggetti linguistici; **non ha** i mezzi di trasporto, le sagome degli edifici, il fondo di Ferrara, le epigrafi e la tavolozza. Ricerca su Commons di 27 voci in cinque categorie: **125 candidati**, due vuoti dichiarati (incendio, carestia). Le tre regole sull'accuratezza — proporzioni, colori, forme — con il caso serio della proiezione delle carte, che non dichiarata mente sulle distanze. I tre difetti della ricerca, con la pipa che è diventata un rospo e la Cappella dei Magi che è un corteo, e la correzione pratica: **le parole ambigue si cercano con due parole**. Cinque questioni aperte. |

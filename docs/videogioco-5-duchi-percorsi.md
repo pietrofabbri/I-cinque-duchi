@@ -1,10 +1,10 @@
 ---
 titolo: Videogioco "I cinque duchi" — i percorsi del duca: mezzi di trasporto, copertura della mappa e ritorni
-versione: 0.2
+versione: 0.3
 data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 fonte: calcolo sulle coordinate di dati/luoghi_gioco.json
-documenti collegati: videogioco-5-duchi-luoghi.md (v0.3), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-audit.md (v0.5), AGENTS.md
+documenti collegati: videogioco-5-duchi-luoghi.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-audit.md (v0.6), AGENTS.md
 ---
 
 # I percorsi del duca
@@ -221,5 +221,6 @@ Se fra due tappe ci sono dodici giorni di strada, il gioco può (a) mostrarne un
 
 | Data | Versione | Che cosa è cambiato |
 |---|---|---|
+| 03/10/2026 | 0.3 | Solo rimandi, come alla v0.2: `luoghi.md` sale a v0.4 (la verifica F16 dei filoni) e `audit.md` a v0.6 (I19 chiusa, il conto a 28 chiuse e 86 aperte). **Nessuna cifra di questo documento cambia**: i percorsi sono calcolati sulle coordinate di `dati/luoghi_gioco.json`, che non sono state toccate. |
 | 03/10/2026 | 0.2 | Solo rimandi: l'audit sale a v0.5 e `mappe.md` a v0.7 dopo le chiusure del 3 ottobre (tavolozza, sagome degli edifici, fondo di Ferrara, ambienti dei 150 livelli e file amministrativo mondiale). **Nessuna cifra di questo documento cambia**: i percorsi sono calcolati sulle coordinate di `dati/luoghi_gioco.json`, che il 3 ottobre non è stato toccato. |
 | 02/10/2026 | 0.1 | Prima stesura. Calcolati i percorsi del duca per gli anni 2, 3, 4 e 5 sulle coordinate di `dati/luoghi_gioco.json`: **tre varianti** (l'ordine delle tappe, il giro che copre tutto, il giro chiuso), i **mezzi di trasporto** dell'epoca con le velocità dichiarate, e il fatto che **l'ordine dei numeri di tappa raddoppia il viaggio** (−31% fino a −58%). Le tre ipotesi di percorso, il ritorno come momento degli incontri, la copertura della mappa anno per anno con i buchi, e la proposta di aprire le facoltative continentali sul ritorno. Sei questioni aperte, di cui la prima è una decisione di progetto e non un lavoro. |

@@ -1,13 +1,13 @@
 ---
 titolo: Videogioco "I cinque duchi" — I filoni dell'Orlando furioso: i luoghi del quinto anno e le citazioni delle trenta tappe
-versione: 0.4
-data: 2026-10-02
+versione: 0.5
+data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
-revisioni: v0.1 (testo e trenta citazioni); v0.2 (controllo di coerenza del 02/10/2026: tre citazioni erano nel filone sbagliato, due tappe confinanti citavano ottave adiacenti, e le cifre del riscontro sono state ricalcolate); v0.3 (seconda tornata dello stesso controllo: un legame `I` posto su un luogo che esiste, l'elenco degli inesistenti dichiarato nei dati, la tabella delle verifiche riordinata e due rimandi corretti); v0.4 (le sedici decisioni di Pietro del 02/10/2026 applicate: regola dei due strati ratificata, `F8` e `F9` fatte sul testo, il tipo `N` di non luogo, `F11` come tappa facoltativa, il giocatore dentro il *Furioso*, l'Africa riscritta, l'edizione spiegata in modo semplice)
+revisioni: v0.1 (testo e trenta citazioni); v0.2 (controllo di coerenza del 02/10/2026: tre citazioni erano nel filone sbagliato, due tappe confinanti citavano ottave adiacenti, e le cifre del riscontro sono state ricalcolate); v0.3 (seconda tornata dello stesso controllo: un legame `I` posto su un luogo che esiste, l'elenco degli inesistenti dichiarato nei dati, la tabella delle verifiche riordinata e due rimandi corretti); v0.4 (le sedici decisioni di Pietro del 02/10/2026 applicate: regola dei due strati ratificata, `F8` e `F9` fatte sul testo, il tipo `N` di non luogo, `F11` come tappa facoltativa, il giocatore dentro il *Furioso*, l'Africa riscritta, l'edizione spiegata in modo semplice); v0.5 (la Q6.1 chiusa: `F11` dichiarato filone **non assegnato**, cioè stanza aperta da un'altra, la decisione scritta nei dati e la verifica F16 che la tiene ferma)
 fonte del materiale: la richiesta di Pietro (02/10/2026) — «sulla base dell'Orlando furioso dobbiamo creare i vari luoghi, cercando di ricalcare il più possibile i filoni della vicenda; devono esserci, in ogni livello, delle brevi citazioni del poema con parafrasi interattiva, intuitiva, emozionale, breve che diano senso alla trama ariostesca del Furioso» — e il testo dell'Orlando furioso edizione 1928 (Biblioteca BEIC) trascritto su Wikisource
-dati: dati/furioso/citazioni.json (v2, trenta record: tappa, filone, canto, ottava, versi, parafrasi, moto, emozione, tema, luogo, legame, e l'elenco `luoghi_inesistenti`), dati/furioso/pagine_wikisource.jsonl (1 244 pagine del digitalizzato), dati/furioso/orlando_furioso_1928.txt (4 796 ottave indicizzate, testo normalizzato)
+dati: dati/furioso/citazioni.json (v4, trenta record: tappa, filone, canto, ottava, versi, parafrasi, moto, emozione, tema, luogo, legame, e l'elenco `luoghi_inesistenti`), dati/furioso/pagine_wikisource.jsonl (1 244 pagine del digitalizzato), dati/furioso/orlando_furioso_1928.txt (4 796 ottave indicizzate, testo normalizzato)
 strumenti: sorgenti/furioso/scarica_wikisource.py, sorgenti/furioso/estrai_ottave.py, sorgenti/furioso/costruisci_citazioni.py, sorgenti/furioso/verifica_citazioni.py, sorgenti/furioso/provino_html.py, sorgenti/verifica_coerenza.py
-controllo: python3 sorgenti/furioso/verifica_citazioni.py (30 citazioni obbligatorie, 82 versi, 1 citazione facoltativa, 0 problemi) e --gutenberg (23 citazioni a riscontro, 3 differenze dichiarate); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
+controllo: python3 sorgenti/furioso/verifica_citazioni.py (30 citazioni obbligatorie, 82 versi, 1 citazione facoltativa, 12 filoni dichiarati di cui 11 giocabili, 0 problemi) e --gutenberg (23 citazioni a riscontro, 3 differenze dichiarate); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
 prototipo: provino_furioso.html (una pagina, offline, generata)
 documenti collegati: videogioco-5-duchi-luoghi.md (v0.3, §4.5 con la regola dei due strati e il tipo `N` di non luogo), videogioco-5-duchi-anno5-mondo.md (v0.4, le trenta tappe 5-1…5-30 e la sezione sul giocatore dentro il *Furioso*), videogioco-5-duchi-luoghi-edifici.md (v0.2), AGENTS.md, FONTI-E-LICENZE.md
 ---
@@ -396,6 +396,28 @@ Il provino è **generato**, non scritto: `sorgenti/furioso/provino_html.py` lo r
 
 ---
 
+### 4.11 La Q6.1 chiusa: undici filoni giocabili e dodici dichiarati
+
+*(03/10/2026 — `citazioni.json` v4, verifica F16)*
+
+La domanda che chiude qui era precisa: il gioco mostra **tredici** filoni e il documento ne dichiara **dodici**, e la differenza era `F11`. La domanda era giusta ma il conto che la circondava era sbagliato, e la ragione per cui era sbagliato è la cosa più interessante di tutta la faccenda.
+
+**Il conto vero.** Le trenta tappe obbligatorie portano **undici** filoni: `F1`–`F10` e `F12`. `F11` compare solo nella stanza facoltativa `5-22F`. Quindi il giocatore vede dodici nomi di filone, non tredici, e il documento ne dichiara dodici: **la cifra tornava già**. Il tredicesimo era un residuo di quando `F11` non era ancora entrato come facoltativa.
+
+**Il difetto vero, che nessuno dei due conti vedeva.** Il campo `assegnato` nel JSON si calcolava su tutti i filoni usati, obbligatorie e facoltative insieme. `F11` risultava quindi `assegnato: true` con `tappe: ["5-22F"]`: il file diceva che `F11` è un filone giocabile, cioè per cui si viaggia, e la sua unica tappa non era una delle trenta. Chi leggeva il registro vedeva un filone che il gioco non permetteva di raggiungere.
+
+**La decisione, che è quella che il documento consigliava.** `assegnato` vuol dire **giocabile**, cioè *con almeno una delle trenta tappe*. `F11` resta **dichiarato** — non cancellato, perché la vicenda di Ruggiero esiste e il registro del gioco deve saperla nominare — ma `assegnato: false`, con la sua stanza in un campo nuovo, `facoltative`, che dice da dove si apre.
+
+```
+F11  Ruggiero e la conversione   assegnato: false   tappe: []   facoltative: [5-22F]
+```
+
+**Perché la decisione sta nei dati e non solo qui.** Una decisione scritta in un documento che il programma non legge è una decisione che il prossimo che tocca il JSON non incontra. Ora il generatore la calcola (§ `costruisci_citazioni.py`, il commento è sul campo `assegnato`) e la verifica **F16** la controlla su cinque cose: le `tappe` di un filone sono esattamente le citazioni obbligatorie che lo portano; le `facoltative` sono esattamente le stanze facoltative; `assegnato` è vero se e solo se `tappe` non è vuota; ogni filone usato è dichiarato; e il titolo e i canti che ogni citazione porta addosso sono quelli del filone dichiarato, perché sono due copie dello stesso fatto e due copie divergono.
+
+**Il controllo è stato provato contro il difetto**, perché un controllo che non è mai fallito non è un controllo: girato sul file di prima dichiara esattamente i tre problemi che la v4 aveva, e su un file con difetti iniettati ne dichiara nove.
+
+---
+
 ## 5. La parafrasi interattiva
 
 ---
@@ -416,7 +438,7 @@ Il provino è **generato**, non scritto: `sorgenti/furioso/provino_html.py` lo r
 | `luogo`, `legame` | testo, `B/A/S/I/C/N` | il luogo della stanza e il tipo di legame, secondo `videogioco-5-duchi-luoghi.md` §1.2 e §4.3 |
 | `fonte` | testo | l'edizione, sempre |
 
-Accanto ai record, nella stessa radice del JSON, ci sono quattro strutture che non sono tappe e che pure sono controllate: `filoni` (codice, titolo, canti, `assegnato`, `tappe`), `luoghi_inesistenti` (gli unici luoghi a cui il legame `I` può arrivare, ciascuno con il perché), `non_luoghi` (gli unici a cui può arrivare `N`) e `facoltative` (le citazioni delle stanze facoltative, con il codice `5-NN F` della tappa che le apre). Una tappa senza questi campi non viene dal generatore, e un generatore che li scrive a mano è un generatore che un giorno dirà una cosa diversa dal file.
+Accanto ai record, nella stessa radice del JSON, ci sono quattro strutture che non sono tappe e che pure sono controllate: `filoni` (codice, titolo, canti, `assegnato`, `tappe`, `facoltative` — gli ultimi tre campi sono i tre che la verifica **F16** confronta, §4.11), `luoghi_inesistenti` (gli unici luoghi a cui il legame `I` può arrivare, ciascuno con il perché), `non_luoghi` (gli unici a cui può arrivare `N`) e `facoltative` (le citazioni delle stanze facoltative, con il codice `5-NN F` della tappa che le apre). Una tappa senza questi campi non viene dal generatore, e un generatore che li scrive a mano è un generatore che un giorno dirà una cosa diversa dal file.
 
 ### 6.2 Che cosa va fatto anche in `dati/luoghi_gioco.json`
 
@@ -458,6 +480,7 @@ Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene a
 | **F13** | il legame `I` va solo a un luogo che non esiste, e quel luogo è dichiarato | **fatta**: prima del controllo 5-17 aveva `I` su un luogo reale (§4.7), ora zero |
 | **F14** | una stanza di tipo `I` o `N` non ha coordinate | **fatta** (controllata dallo script, su tutti e trenta i record `tappe` di `dati/luoghi_gioco.json`): prima della regola dei due strati la domanda non era nemmeno formulabile, perché la stanza non era un campo |
 | **F15** | `pin` e `stanza` sono dichiarati per tutte e trenta le tappe, e la stanza combacia con la citazione | **fatta**: trenta record, trenta pin (il gioco si ferma in trenta posti), trenta stanze, nessuna senza il suo filone, canto e ottava |
+| **F16** | i filoni dichiarati, le loro tappe e il campo `assegnato` combaciano con le citazioni che li portano | **fatta** (§4.11): 12 filoni dichiarati, 11 giocabili, `F11` solo da stanza facoltativa; prima del controllo `F11` risultava `assegnato: true` con `5-22F` fra le tappe; `citazioni.json` è salito a v4 e le citazioni sono identiche byte per byte |
 
 ---
 
@@ -475,7 +498,7 @@ Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene a
 
 **Q6 — le due nuove questioni, che sono le vere.**
 
-1. **I tredici filoni che il gioco mostra e i dodici che il documento dichiara.** Da quando `F11` è entrato come facoltativa, i filoni *usati* sono dodici e quelli *dichiarati* sono dodici: la cifra torna. Ma il giocatore ne vede **tredici**, perché la facoltativa ha un titolo suo. Va deciso se nel registro del gioco `F11` sta come **filone giocabile** o come **stanza aperta da un'altra**, e la seconda è la risposta che consiglio: un filone che si apre da una tappa non è un filone per cui si viaggia, e dirlo al ragazzo è più onesto.
+1. ~~**I tredici filoni che il gioco mostra e i dodici che il documento dichiara.**~~ **chiusa il 03/10/2026, in §4.11.** Il conto era sbagliato e la differenza non era quella che sembrava: le trenta tappe portano **undici** filoni, `F11` compare solo nella facoltativa `5-22F`, e il giocatore vede dodici nomi come il documento ne dichiara dodici. Il difetto vero era un altro, e stava nei dati: `F11` risultava `assegnato: true` con la sua unica tappa in `tappe`, cioè un filone giocabile che non si raggiunge. Ora è `assegnato: false` con la stanza in `facoltative`, e la verifica **F16** lo tiene fermo.
 2. **Le ventisei stanze che non hanno una coordinata e non ne hanno bisogno.** Le stanze sono già tutte dichiarate in `citazioni.json`; quel che manca è la loro **resa grafica**: come si disegna sulla carta del gioco una strada che non ha nome, una grotta, un campo, un non luogo e una Luna. È un problema di `motore-e-grafica.md` e di `mappe.md`, non di questo documento, e va affrontato prima che il primo livello sia giocabile.
 
 ---
@@ -496,8 +519,9 @@ Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene a
 **Quello che resta, in ordine di utilità:**
 
 1. **la Q6.2**: il disegno delle stanze senza coordinate. È il primo ostacolo alla giocabilità e non riguarda questo documento.
-2. **la Q6.1**: la fascia di `F11` nel registro del gioco.
-3. **`F10`**, quando ci sarà qualcuno che legga ad alta voce.
+2. **`F10`**, quando ci sarà qualcuno che legga ad alta voce.
+
+La Q6.1 è chiusa il 03/10/2026 e non è più qui: le cose fatte non restano nella lista, restano nel registro.
 4. **la scheda di `citazioni.json` per la tappa 5-20**: il luogo «Zibeltaro e l'Erculeo segno» non ha coordinate e non deve Averle, ma la scheda del giocatore deve dire *perché* — e il perché è che uno dei due nomi non è localizzato. Un luogo non localizzato dichiarato vale più di un luogo inventato.
 7. *(fatto — l'edizione è scelta e spiegata: §1.5)*
 8. *(fatto — «l'aria sopra la foresta» è il tipo `N`: §4.9)*
@@ -505,6 +529,8 @@ Il `pin` **non porta qui il tipo di legame `B/A/S/…`**: quel tipo appartiene a
 ---
 
 ## 10. Registro modifiche
+
+- **v0.5 (03/10/2026)**: **la Q6.1 è chiusa, e il difetto che le stava sotto era uno che nessuno dei due conti vedeva.** La domanda chiedeva perché il gioco mostrasse tredici filoni e il documento ne dichiarasse dodici: il conto era sbagliato, perché le trenta tappe obbligatorie portano **undici** filoni e `F11` compare solo nella facoltativa `5-22F`, quindi il giocatore vede dodici nomi come il documento ne dichiara dodici. Ma il campo `assegnato` di `citazioni.json` si calcolava su tutti i filoni usati, facoltative comprese: `F11` risultava `assegnato: true` con `tappe: ["5-22F"]`, cioè un filone giocabile la cui unica tappa non è fra le trenta. **La decisione** — quella che il documento consigliava — è ora nei dati: `assegnato` vuol dire giocabile, `F11` resta dichiarato e diventa `assegnato: false` con la stanza in un campo nuovo, `facoltative`. **La verifica F16** la tiene ferma su cinque cose, ed è stata provata sia contro il difetto di prima (tre problemi, tutti e tre giusti) sia su un file con difetti iniettati (nove problemi). Il generatore è stato modificato perché produca la stessa cosa: una decisione scritta solo in un documento che il programma non legge è una decisione che il prossimo che tocca il JSON non incontra. `citazioni.json` sale a v4; le trenta citazioni e la facoltativa sono identiche byte per byte, cambia solo il blocco `filoni`.
 
 - **v0.1 (02/10/2026)**: prima stesione. Risponde alla richiesta di Pietro del 02/10/2026 sui luoghi, sui filoni e sulle citazioni per livello, e scioglie la Q1 di `videogioco-5-duchi-luoghi.md`:
   - **il testo completo**, per la prima volta in questo progetto: 46 canti dell'edizione 1928 della Biblioteca BEIC, trascritti da Wikisource e scaricati pagina per pagina (1 244 pagine), con il perché delle quattro fonti scartate e il fatto tecnico che le aveva bloccate (`prop=extracts` restituisce zero caratteri perché il testo vive nella zona `Pagina:`);

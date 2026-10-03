@@ -34,6 +34,12 @@ controllo 2 sul Paese resta valido e il pin è dove deve essere.
 Uso:
     python3 sorgenti/gis/mondo_admin1.py                # scarica e produce
     python3 sorgenti/gis/mondo_admin1.py --prova        # conta e non scrive
+
+Produce due file in posti diversi, e non per caso: `dati/mappe/mondo_admin1.json`
+è una mappa e va nel formato a delta come tutte le altre; il conto della
+copertura va in `dati/mondo_admin1_copertura.json` ed è JSON ordinario. In
+`dati/mappe/` il formato è un invariante dichiarato in `mappe.md` e `AGENTS.md`,
+e un JSON valuto dentro quella cartella fa fallire il lettore.
 """
 import json
 import os
@@ -204,7 +210,14 @@ def main():
     # il file di copertura: cosa c'è dentro e cosa no, scritto nei dati e non
     # solo nel documento, perché il prossimo che ci mette dentro un pin non
     # deve scoprirlo leggendo un .md
-    with open(os.path.join(OUT, "mondo_admin1_copertura.json"), "w",
+    #
+    # Sta in `dati/` e NON in `dati/mappe/`, e la ragione è un invariante che
+    # questa cartella ha: `mappe.md` e `AGENTS.md` dicono che **tutti** i file
+    # di `dati/mappe/` sono nel formato a delta e si leggono solo con
+    # `mappe_lettore.py`. Questo è un JSON valido, e metterlo lì faceva saltare
+    # il lettore con un IndexError che non diceva niente. Tolto di mezzo, e il
+    # lettore ora controlla anche la forma del file e spiega l'errore.
+    with open(os.path.join(RADICE, "dati", "mondo_admin1_copertura.json"), "w",
               encoding="utf-8") as f:
         json.dump({
             "file": "mondo_admin1.json",
@@ -238,11 +251,6 @@ def main():
         }, f, ensure_ascii=False, indent=1)
     print("scritto mondo_admin1_copertura.json")
     return 0
-
-
-    """Tenuto per compattezza con una versione precedente: la copertura si
-    calcola sopra `servite`, che è già fatto."""
-    return True
 
 
 if __name__ == "__main__":

@@ -124,7 +124,106 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 - **Le sagome degli edifici esistono dal 03/10/2026**: `dati/edifici_footprint.json`, **5209 edifici su 54 luoghi**, in formato delta. Ogni edificio porta `forma`, `altezza_m` e `fonte_altezza` (`osm_height`, `osm_levels`, `assente`): **3336 su 5209 non hanno altezza e diventano un volume neutro dichiarato**, mai una stima. Il file si rigenera con `python3 sorgenti/gis/edifici_footprint.py` (con `--riprendi`, `--prova`, `--luogo`): senza `--riprendi` un'interruzione fa perdere tutto il lavoro.
 - **Il fondo cittadino dell'anno 1 esiste dal 03/10/2026**: `dati/ferrara_fondo.json`, 14 tratti di mura OSM, 4,20 km² interni, con la tolleranza di 60 m scelta **come la più piccola in cui tutte e 28 le tappe del primo anno cadono dentro**. Rigenera con `python3 sorgenti/gis/ferrara_fondo.py`. Il vuoto di **1037 m** fra gli ultimi due estremi è dichiarato nel file e nessuna fonte lo disegna.
 - **Esiste `dati/ambienti_livelli.json`: un ambiente per ognuno dei 150 livelli**, costruito sul modello della tappa 1-1 e con tutti i vuoti dichiarati (99 con coordinate, 69 con sagome, **uno solo disegnato**). Ogni ambiente dichiara in `tipo_da` da dove viene il suo tipo. Rigenera con `python3 sorgenti/ambienti_livelli.py` e verifica con `python3 sorgenti/verifica_ambienti.py` (sei controlli, B1–B6).
+- **I colori delle carte stanno in un file dal 03/10/2026**: `dati/fonti_visive/colori_cartografici.json`, **19 voci**. Un colore entra in due modi e solo due: preso dalla tavolozza, e allora porta la `chiave_tavolozza` confrontata byte per byte; oppure dichiarato lì, e allora porta `motivo` e `criterio`. **Nessun colore entra perché stava già nel codice.** In più vale una regola che le carte hanno e le immagini non hanno: **una categoria con il riempimento ha anche il bordo**, e i due si dichiarano insieme.
+- **`dati/mappe/` contiene SOLO file nel formato a delta.** Un file in un altro formato li dentro fa crashare `mappe_lettore.leggi()`: è successo il 03/10/2026 con `mondo_admin1_copertura.json`, che sta in `dati/` e non li. Il lettore ora controlla la forma del file e solleva un `ValueError` che lo dice.
+- **Le cime con la loro quota sono in `dati/mappe/*_altitudine.json`** (15, 2 e 26 punti; il conto della fonte in `dati/altitudine_manifest.json`). La fonte è **mondiale in tutte e tre le scale** — il file chiamato «europa» elenca 86 cime da longitudine -167 a +160 — e **i tre file non sono annidati**: sono selezioni diverse della stessa fonte globale a dettagli diversi, non tre risoluzioni dello stesso elenco. Non è un modello del terreno e la quota è quella della fonte: l'Everest è a **8848 m**, il valore del 1954.
 - **Nessuna immagine si stira**, e per le carte la regola è più forte: **ogni carta porta la proiezione dichiarata**, come porta la scala, perché una proiezione non dichiarata mente sulle distanze senza che nessuno se ne accorga guardando.
+- **Una parola ambigua si cerca con due parole**: alla voce «pipa» (la pianta del Cinquecento) Commons restituisce il rospo del genere *Pipa*. I termini corretti sono nel campo `termini` di `dati/fonti_visive/fonti_visive.json`.
+- **Un vuoto si dichiara, non si riempie**: l'incendio e la carestia non hanno immagine d'epoca libera, e si rappresentano con la fonte testuale, come si è fatto per l'Africa del *Furioso*.
+- **La ricerca propone, una persona decide**, in ogni categoria: ritratti, oggetti, fonti visive. La decisione si registra nei rispettivi file `attestazione*.json`, che sono tutti vuoti.
+
+**Percorsi del duca** (trasversale, vedi `percorsi.md`)
+- **L'ordine dei numeri di tappa non è un ordine di viaggio.** I pin sono sparsi su un continente, e l'ordine degli argomenti li fa attraversare avanti e indietro: nell'anno 3 il percorso delle tappe è **18 318 km e 539 giorni** a cavallo, il giro che copre tutti i luoghi è **9 308 km e 275 giorni**. Non correggere i numeri di tappa per far quadrare il viaggio: sono due ordini diversi, e la proposta è tenerli separati (`percorsi.md` §3).
+- **I mezzi di trasporto sono per anno, e non si cambiano senza dichiararlo**: a piedi nel primo, cavallo e galera nel secondo e nel terzo, nave/carovana/diligenza nel quarto, treno e aereo nel quinto. Le velocità sono **stime dichiarate** (`percorsi_mezzi.py`), non date storiche, e ogni distanza è **in linea d'aria**: il cammino reale è più lungo.
+- **Nell'anno 4 il duca non viaggia**: all'archivio arriva un documento, e il mezzo che conta è quello di chi lo porta (`anno4-mondo.md` §3). Non disegnare il duca in viaggio nell'anno 4.
+- **Il ritorno è il momento degli incontri**: sulla strada del ritorno il duca non cerca niente e incontra, e lì si aprono le tappe facoltative con i personaggi nuovi (`percorsi.md` §4). Il ritorno non è un costo: è un dispositivo.
+- **I buchi geografici degli anni 2 e 3 sono continentali** (Sardegna, Inghilterra, Scozia, Portogallo, Balcani), non solo continentali: vanno trattati come facoltative (`luoghi.md` §4.7).
+
+**Questioni aperte** (trasversale, vedi `audit.md`)
+- **Tutte le questioni aperte stanno in `docs/videogioco-5-duchi-audit.md`.** Prima di aprire una discussione, guarda l'audit: è possibile che la domanda sia già chiusa in un altro documento, o che sia una delle quattro bloccanti e non si possa rispondere.
+- **Quattro bloccanti, e tre sono la stessa**: `lingue.md` Q1 (livelli linguistici o informatici), Q2 (le trenta voci confermate), Q4 (la LIS), e `lingue-immagini.md` Q1 (chi guarda le immagini). Le altre che un tempo erano in questa lista **erano lavori, non domande**, e sono fatte: i novanta pin il 02/10/2026 (`mappe.md` §8bis, `audit.md` §2bis), e il 03/10/2026 la tavolozza, le sagome degli edifici, il fondo di Ferrara, gli ambienti dei 150 livelli e il file amministrativo mondiale (`audit.md` §3bis).
+- **Dal 02/10/2026 c'è anche `percorsi.md` Q1**, che non è bloccante ma è la decisione di progetto più importante aperta: se il percorso del duca è l'ordine delle tappe o un giro a parte.
+- **L'ordine è B1 → B2 → B4**: finché non si decide se le tappe sono 30 o 150 non ha senso scegliere le immagini, e finché non sono confermate le voci non ha senso scegliere le immagini.
+- **Una domanda nuova va aggiunta all'audit**, non lasciata in un documento. Se è chiusa, si sposta nel registro del documento suo e non si cancella.
+- **`conta_questioni.py` confronta il proprio conto con i numeri dell'audit**: se i due non concordano, è l'audit che ha torto. Non correggere il numero a mano senza far girare lo script.
+
+**Immagini degli oggetti linguistici** (trasversale, vedi `lingue-immagini.md`, decisioni del 02/10/2026)
+- **Quattro categorie, non una**: `foto`, `dipinto`, `stampa`, `nessuna`. Un oggetto che non ha immagine libera va **dichiarato** (`nessuna`), non disegnato. Nel gioco **non entra un'immagine generata** per nessun oggetto, come per i volti.
+- **Le trenta voci ferraresi non hanno immagine** e non ne possono avere: sono campi di rilevazione. Non è una ricerca saltata, è una categoria dichiarata nei dati.
+- **La scheda dell'oggetto è 96×72 px** (i ritratti sono 48×54). **Le immagini non si strecano mai**: il ritaglio è ammesso solo se non toglie l'oggetto, e si dichiara sulla scheda.
+- **Sotto 160×120 l'immagine non entra**, perché nel gioco verrebbe ingrandita e il gioco non ingrandisce.
+- **Ogni immagine porta etichetta, autore, licenza, data e museo/inventario**: la data solo se c'è, e «non c'è» è una risposta ammessa.
+- **Una ricerca che restituisce un file non ha trovato l'oggetto.** La scelta la fa una persona e si registra in `dati/lingue/attestazione_oggetti.json` con etichetta e **motivo del giudizio**. Il lavoro di ieri ne ha prodotto la prova: alla voce «la correggia» il file migliore era un pittore che si chiama Correggio, alla voce «gli occhiali» una moschea di Istanbul, alla voce «la sete» un canale a Sète.
+- **Il controllo G7** segnala le voci in cui nessun candidato nomina l'oggetto: sono 67 su 146, e vanno guardate per prime. Non è un errore ed è per questo che non fa fallire `verifica_immagini_oggetti.py`.
+- **Il latino non si cerca su Commons**: le fonti sono i corpus epigrafici (EDCS, EDR) e le biblioteche digitali. 27 voci latine su 28 hanno solo proposte scoperte per caso.
+- **Prima di ridimensionare**, aspetta che le immagini siano scelte: ridurre prima significa buttare via il lavoro.
+
+**Esercizi e testo**
+- **Pool per gradino**: per esempio 4 esercizi giusti su una pool di 20 equivalenti, estratti a caso.
+- **Meccanismi sempre diversi**: tante schermate, colori, forme.
+- **Poco testo nell'anno 1**, che cresce negli anni successivi (limiti in `esercizi.md` §3).
+- **Linguaggio**: trattare i ragazzi da adulti, con parole che capirebbe un bambino.
+
+**Quadro trasversale**
+- Diritto → Etica → Filosofia → Psicologia → Arti, con il percorso IO → ORDINE → ALTRO → MONDO → SENSO. Si usa **al massimo un aggancio per tappa**, mai valutato. L'informatica resta il centro.
+
+**Punteggio, privacy, integrità**
+- Il punteggio misura il **processo**.
+- Nessun account e nessun server. Consegna con un file su Google Classroom.
+- Nessuna sorveglianza con webcam o IA (GDPR, AI Act).
+
+## 4. Convenzioni
+
+**Documenti**
+- Ogni `.md` ha un'intestazione YAML (`titolo`, `versione`, `data`, `autore`, `documenti collegati`) e un **registro delle modifiche** in fondo.
+- A ogni modifica si aumenta la versione e si aggiunge una riga al registro.
+
+**Codici**
+- **Livelli**: `anno-numero`, per esempio `1-1`.
+- **Personaggi**: `P01…P94` (anno 1). Gli anni 2, 3, 4 e 5 usano la serie `Q`, che continua senza riaprire la numerazione: `Q01…Q92` (anno 2), `Q101…Q130` (anno 3), `Q201…Q230` (anno 4), `Q301…Q330` (anno 5). **Codici definitivi fino a nuova indicazione.**
+- **Luoghi**: `L01…L32`.
+- **Nodi della mappa dell'informatica**: `B1.1`, `E7.3`… (vedi `riferimenti/mappa-informatica/`).
+- **Attendibilità delle fonti**: D (documentato), I (interpretato), M (memoria), L (leggenda), F (figura letteraria), C (collettivo).
+
+**Coordinate**
+- WGS84. Coordinate locali in metri: `x = (lon − 11,62) · 111320 · cos(44,8375°)`, `y = (lat − 44,8375) · 110540`.
+- Ogni zona percorribile ha un proprio sistema ruotato (vedi `motore-e-grafica.md` §2).
+
+**Stile dei testi**
+Italiano semplice: frasi brevi, niente gergo non spiegato, niente tono infantile.
+
+## 5. Vincoli tecnici e di contenuto
+
+**Tecnica**
+- Il prototipo è **una sola pagina HTML**, offline, senza librerie esterne e senza richieste di rete a runtime.
+
+**Contenuti e immagini**
+- **Immagini** solo in pubblico dominio o con licenza libera, sempre attribuite in `FONTI-E-LICENZE.md`.
+- Niente volti inventati per le persone reali: si usa un emblema.
+- Per le persone viventi, solo emblemi.
+- **Fatti storici**: verificali prima di usarli. I dubbi vanno segnati nelle schede (`note_verifica`).
+
+**Dati**
+- **Dati geografici**: open data del Comune di Ferrara (CC BY 4.0), con attribuzione.
+- **Niente dati degli studenti** nel repository.
+
+**Persistenza**
+- Il progetto **non ha server e non ha account**: niente telemetria, niente salvataggio remoto, niente richieste di rete a runtime.
+- **Le previsioni che il giocatore scrive nelle fasce bianche sono dati personali**: restano nel file di consegna e non vanno mai pubblicate in un repository.
+
+## 6. Come lavorare
+
+1. Leggi i documenti pertinenti e verifica che la modifica rispetti il §3.
+2. Modifica il documento in `docs/`, poi i dati in `dati/` se servono, poi il codice in `sorgenti/`.
+3. Rigenera il prototipo con `python3 build_mappa_html.py` da `sorgenti/`. Se hai Playwright, esegui i test in `sorgenti/test/`.
+4. Aggiorna versione e registro modifiche dei documenti toccati e, se serve, la tabella del `README.md`.
+5. **Prima di dichiarare finito, passa `python3 sorgenti/verifica_coerenza.py`**: confronta le versioni fra intestazioni, tabella del README e rimandi incrociati, controlla che i file citati esistano (i file dichiarati «da produrre» sono un caso diverso e li riconosce), e riconcilia le cifre dichiarate con i dati. Se il checkout è parziale, aggiungi `--elenco` con l'elenco dei file del ramo remoto.
+6. Nel messaggio di commit, spiega **che cosa** è cambiato e **perché**.
+
+## 7. Da sapere
+
+- `sorgenti/gis/estrai.py` legge i dati che una sessione di Claude aveva ricevuto dal browser integrato. Il percorso è specifico di quella sessione. Per rifare l'estrazione, interroga direttamente il WFS del Comune come descritto in `motore-e-grafica.md` §1.
+- `sorgenti/civici.py` e `geo.py` richiedono lo shapefile dei numeri civici del Comune di Ferrara, che non è nel repository perché pesa circa 50 MB. Senza, il build usa `sorgenti/gis/vie_etichette.json`.- **Nessuna immagine si stira**, e per le carte la regola è più forte: **ogni carta porta la proiezione dichiarata**, come porta la scala, perché una proiezione non dichiarata mente sulle distanze senza che nessuno se ne accorga guardando.
 - **Una parola ambigua si cerca con due parole**: alla voce «pipa» (la pianta del Cinquecento) Commons restituisce il rospo del genere *Pipa*. I termini corretti sono nel campo `termini` di `dati/fonti_visive/fonti_visive.json`.
 - **Un vuoto si dichiara, non si riempie**: l'incendio e la carestia non hanno immagine d'epoca libera, e si rappresentano con la fonte testuale, come si è fatto per l'Africa del *Furioso*.
 - **La ricerca propone, una persona decide**, in ogni categoria: ritratti, oggetti, fonti visive. La decisione si registra nei rispettivi file `attestazione*.json`, che sono tutti vuoti.

@@ -1,13 +1,13 @@
 ---
 titolo: Videogioco "I cinque duchi" — La regola dei luoghi: i tipi di legame fra personaggio e luogo, catalogo per anno e mappa del quinto anno
-versione: 0.3
-data: 2026-10-02
+versione: 0.4
+data: 2026-10-03
 autore: Pietro Fabbri (con Claude)
 revisioni: v0.1 (prima stesione del 01/10/2026); v0.2 (controllo di coerenza del 02/10/2026: rimandi di versione, Q1 dichiarata risolta ma non ratificata, «l'aria sopra la foresta» dichiarata aperta); v0.3 (le sedici decisioni di Pietro del 02/10/2026: la regola dei due strati entra in §4.5, il tipo `C` nella scala ufficiale, il tipo `N` dei non luoghi in §4.3, V8 V9 V10 fatte, i buchi geografici affidati ai facoltativi, il tetto dei pin riscritto, e l'Africa riscritta sulla parola del testo)
 fonte del materiale: le liste di associazioni personaggio–luogo per gli anni 2, 3 e 4 e la revisione delle associazioni con i luoghi dell'Orlando furioso per il quinto anno, proposte da Pietro (01/10/2026), con i criteri di tre e quattro tipi di legame e l'elenco delle associazioni da eliminare
 dati: videogioco-5-duchi-luoghi.json (da generare, v0.1: un record per associazione, con anno, personaggio, luogo, tipo di legame, pin o porta, nota, attendibilità); dati/luoghi_gioco.json (95 luoghi e il blocco `tappe` con i trenta binomi pin/stanza del quinto anno, generato da sorgenti/furioso/costruisci_citazioni.py --luoghi)
-controllo: python3 sorgenti/furioso/verifica_citazioni.py (controlla anche i legami I/N e il blocco `tappe`: verifiche F13, F14, F15); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
-documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-furioso.md (v0.4), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
+controllo: python3 sorgenti/furioso/verifica_citazioni.py (controlla anche i legami I/N, il blocco `tappe` e i filoni: verifiche F13, F14, F15, F16); python3 sorgenti/verifica_coerenza.py (versioni, file citati, cifre dichiarate, tappe e personaggi)
+documenti collegati: videogioco-5-duchi-schema-livelli.md (v1.1), videogioco-5-duchi-anno5-mondo.md (v0.4), videogioco-5-duchi-anno4-mondo.md (v0.5), videogioco-5-duchi-anno3-europa.md (v0.4), videogioco-5-duchi-anno2-penisola.md (v0.2), videogioco-5-duchi-anno1-ferrara.md (v0.3), videogioco-5-duchi-anno1-mappa.md (v0.9), videogioco-5-duchi-furioso.md (v0.5), videogioco-5-duchi-motore-e-grafica.md (v0.1), AGENTS.md
 ---
 # La regola dei luoghi
 
@@ -481,7 +481,7 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 
 | # | questione | esito |
 |---|---|---|
-| 1 | La mappa è il *Furioso* o il *Furioso* è l'atlante? | **chiusa** — la regola dei due strati, ratificata (§4.5), con i dati in `dati/luoghi_gioco.json` e i controlli F14 e F15 |
+| 1 | La mappa è il *Furioso* o il *Furioso* è l'atlante? | **chiusa** — la regola dei due strati, ratificata (§4.5), con i dati in `dati/luoghi_gioco.json` e i controlli F14, F15 e F16 |
 | 2 | Il tipo `C` entra nella scala? | **chiusa** — entra (§1.5) |
 | 3 | Il tetto di 60-70 pin | **chiusa come «non era una domanda»** — i dati hanno al massimo 46 pin-tappe in un anno, e il tetto non avrebbe vincolato niente (§5.2) |
 | 4 | I buchi geografici | **chiusa** — diventano facoltative, una per buco, con la facoltativa continentale dichiarata (§4.7) |
@@ -509,6 +509,8 @@ Gerusalemme è l'unico luogo della lista che è **contemporaneamente sacro per t
 ---
 
 ## 10. Registro modifiche
+
+- **v0.4 (03/10/2026)**: una sola aggiunta, e la sua ragione è che una verifica che esiste solo nella sua fonte non viene incontrata da nessuno. Il controllo `sorgenti/furioso/verifica_citazioni.py` ha una **F16** nuova — i filoni dichiarati, le loro tappe e il campo `assegnato` combaciano con le citazioni che li portano — e questa intestazione, che è il posto dove un documento dichiara di che cosa si occupa il proprio controllo, diceva ancora `F13, F14, F15`. La F16 è nata perché `F11` risultava `assegnato: true` con la sua unica tappa in una stanza facoltativa, cioè un filone giocabile che il gioco non permette di raggiungere: la storia è in `furioso.md` §4.11. Da qui la versione di `citazioni.json` è la **v4**, con un campo `facoltative` accanto a `tappe`.
 
 - **v0.3 (02/10/2026)**: le sedici decisioni di Pietro applicate. Il capitolo 4 è stato riscritto quasi tutto; il capitolo 3 ha una correzione vera e le verifiche V8, V9, V10, V12, V13, V14 sono chiuse.
   - **la regola dei due strati entra in §4.5 come soluzione**, non più come proposta: il pin reale e verificato, la stanza del filone, e la spiegazione di che cosa sono i pin (che era la domanda di Pietro: il pin è il luogo dove il gioco si ferma, uno per tappa, e più tappe possono fermarsi nello stesso posto). Il blocco `tappe` di `dati/luoghi_gioco.json` porta i trenta binomi pin/stanza, con due verifiche automatiche nuove;

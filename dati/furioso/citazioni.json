@@ -1,7 +1,7 @@
 {
  "documento": "citazioni dell'Orlando furioso per le trenta tappe del quinto anno e per le sue stanze facoltative",
- "versione": 3,
- "data": "2026-10-02",
+ "versione": 4,
+ "data": "2026-10-03",
  "fonte": {
   "opera": "Ludovico Ariosto, Orlando furioso",
   "edizione": "1928, Biblioteca BEIC (tre volumi), trascrizione di Wikisource (it)",
@@ -15,6 +15,7 @@
  "regole": {
   "una_ottava_per_tappa": "sì: nessuna tappa riprende la stessa ottava di un'altra",
   "filone": "F1…F12, il racconto a cui la tappa appartiene",
+  "assegnato": "vero se e solo se il filone ha almeno una tappa fra le trenta, cioè se è giocabile. Un filone che compare solo in una stanza facoltativa è dichiarato ma non assegnato (è F11), e la sua stanza sta nel campo `facoltative`. Verificato dalla verifica F16",
   "legame": "B/A/S/I/C/N della regola dei luoghi; I solo per i luoghi che non esistono e N solo per i non luoghi, nessuno dei due con coordinate",
   "facoltativa": "citazione che si apre da una tappa (codice 5-NNF) e non occupa una delle trenta tappe: ogni facoltativa è una persona o un luogo con cui si interagisce, pensato per la parte informatica della tappa",
   "parafrasi": "due o tre frasi, in italiano di bocca: è ciò che il livello legge al ragazzo",
@@ -42,7 +43,8 @@
     "5-20",
     "5-22",
     "5-29"
-   ]
+   ],
+   "facoltative": []
   },
   "F2": {
    "titolo": "Angelica e la fuga",
@@ -52,7 +54,8 @@
     "5-1",
     "5-5",
     "5-21"
-   ]
+   ],
+   "facoltative": []
   },
   "F3": {
    "titolo": "Orlando e il ritorno di sé",
@@ -62,7 +65,8 @@
     "5-2",
     "5-13",
     "5-30"
-   ]
+   ],
+   "facoltative": []
   },
   "F4": {
    "titolo": "Atlante e il castello incantato",
@@ -72,7 +76,8 @@
     "5-15",
     "5-17",
     "5-19"
-   ]
+   ],
+   "facoltative": []
   },
   "F5": {
    "titolo": "La corte di Scozia: Ginevra, Ariodante, Pinabello",
@@ -84,7 +89,8 @@
     "5-16",
     "5-24",
     "5-26"
-   ]
+   ],
+   "facoltative": []
   },
   "F6": {
    "titolo": "Alcina e l'isola",
@@ -93,7 +99,8 @@
    "tappe": [
     "5-10",
     "5-11"
-   ]
+   ],
+   "facoltative": []
   },
   "F7": {
    "titolo": "Logistilla e l'anello",
@@ -101,7 +108,8 @@
    "assegnato": true,
    "tappe": [
     "5-23"
-   ]
+   ],
+   "facoltative": []
   },
   "F8": {
    "titolo": "Bradamante e Merlino",
@@ -109,7 +117,8 @@
    "assegnato": true,
    "tappe": [
     "5-27"
-   ]
+   ],
+   "facoltative": []
   },
   "F9": {
    "titolo": "Astolfo e il viaggio straordinario",
@@ -119,7 +128,8 @@
     "5-3",
     "5-4",
     "5-8"
-   ]
+   ],
+   "facoltative": []
   },
   "F10": {
    "titolo": "Malagigi e l'incantesimo",
@@ -127,13 +137,15 @@
    "assegnato": true,
    "tappe": [
     "5-12"
-   ]
+   ],
+   "facoltative": []
   },
   "F11": {
    "titolo": "Ruggiero e la conversione",
    "canti": "canti 13-16, 22-26, 41",
-   "assegnato": true,
-   "tappe": [
+   "assegnato": false,
+   "tappe": [],
+   "facoltative": [
     "5-22F"
    ]
   },
@@ -146,7 +158,8 @@
     "5-18",
     "5-25",
     "5-28"
-   ]
+   ],
+   "facoltative": []
   }
  },
  "citazioni": [

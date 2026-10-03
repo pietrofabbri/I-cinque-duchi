@@ -16,6 +16,9 @@ trascrizione dichiarato (sei o sedici versi invece di sette od otto);
 * che nessuna citazione cada su un'ottava il cui numero compare due volte
 nella trascrizione, perché lì il testo è ambiguo per costruzione;
 * che ogni citazione cada in un canto che il suo filone dichiara;
+* che i filoni dichiarati, le loro tappe e il campo `assegnato` combacino
+  con le citazioni che li portano (F16): un filone dichiarato giocabile che
+  non ha tappe obbligatorie è un filone che il giocatore non raggiunge mai;
 * che due tappe confinanti non citino ottave dello stesso canto a meno di tre;
 * che il legame `I` vada solo a un luogo dichiarato inesistente, e `N` solo a
   un non luogo dichiarato;
@@ -92,6 +95,87 @@ def verifica_filoni(documento):
             problemi.append("%s: il filone %s dichiara i canti %s e non contiene il canto %d, "
                             "che è quello citato" % (r["tappa"], r["filone"],
                                                      r["filone_canti"], r["canto"]))
+    return problemi
+
+
+def verifica_assegnazione(documento):
+    """F16: i filoni dichiarati, le loro tappe e il campo `assegnato` combaciano.
+
+    Il controllo che mancava, e la ragione per cui mancava è la stessa di tutti
+    gli altri difetti di questo progetto: il campo c'era e nessuno lo guardava.
+
+    `assegnato` vuol dire **giocabile**, cioè che il filone ha almeno una delle
+    trenta tappe. Fino alla v4 del JSON il campo si calcolava su tutti i filoni
+    usati, obbligatorie e facoltative insieme: `F11` risultava `assegnato: true`
+    con la sua unica tappa in `tappe`, che era `5-22F`. Ma `5-22F` è una stanza
+    che si apre dalla 5-22 e non è una delle trenta. Il file diceva che `F11`
+    era un filone per cui si viaggia, e non lo è — e il giocatore che leggeva il
+    registro vedeva un tredicesimo filone giocabile che non si raggiungeva mai.
+
+    Qui si controllano cinque cose, e sono cinque modi in cui il conto può
+    tornare sbagliato senza che nessuno se ne accorga:
+
+    1. le `tappe` di un filone sono esattamente le citazioni **obbligatorie** che
+       lo portano: una tappa in piu' o in meno fa pensare che il filone copra
+       una parte della vicenda che non copre;
+    2. le `facoltative` sono esattamente le stanze facoltative che lo portano:
+       `F11` deve dichiarare `5-22F` da qualche parte, altrimenti la domanda di
+       Q6.1 si riapre ogni volta che qualcuno cerca quel filone;
+    3. `assegnato` è vero se e solo se `tappe` non è vuota — è la definizione,
+       scritta una volta sola invece che due;
+    4. ogni filone di cui una citazione fa uso è dichiarato: un filone non
+       dichiarato non ha canti, e senza canti `verifica_filoni` lo salta in
+       silenzio invece di segnalarlo;
+    5. il titolo e i canti che ogni citazione porta addosso sono quelli del
+       filone dichiarato: sono due copie dello stesso fatto, e due copie
+       divergono.
+    """
+    problemi = []
+    dichiarati = documento.get("filoni", {})
+    obbligatorie = {}
+    facoltative = {}
+    for r in documento["citazioni"]:
+        obbligatorie.setdefault(r["filone"], []).append(r)
+    for r in documento.get("facoltative", []):
+        facoltative.setdefault(r["filone"], []).append(r)
+    for codice, records in sorted(obbligatorie.items()):
+        if codice not in dichiarati:
+            problemi.append("la tappa %s porta il filone %s, che non è dichiarato fra i "
+                            "filoni: senza dichiarazione non ha canti e i controlli la "
+                            "lasciano passare in silenzio" % (records[0]["tappa"], codice))
+    for codice, records in sorted(facoltative.items()):
+        if codice not in dichiarati:
+            problemi.append("la stanza facoltativa %s porta il filone %s, che non è "
+                            "dichiarato" % (records[0]["tappa"], codice))
+    for codice, f in sorted(dichiarati.items()):
+        attese = sorted(r["tappa"] for r in obbligatorie.get(codice, []))
+        attese_fac = sorted(r["tappa"] for r in facoltative.get(codice, []))
+        dichiarate = sorted(f.get("tappe", []))
+        dichiarate_fac = sorted(f.get("facoltative", []))
+        if dichiarate != attese:
+            problemi.append("%s dichiara le tappe %s e le citazioni obbligatorie che lo "
+                            "portano sono %s: il filone copre una parte della vicenda che "
+                            "non copre, o viceversa"
+                            % (codice, dichiarate or "nessuna", attese or "nessuna"))
+        if dichiarate_fac != attese_fac:
+            problemi.append("%s dichiara le facoltative %s e le stanze facoltative che lo "
+                            "portano sono %s"
+                            % (codice, dichiarate_fac or "nessuna", attese_fac or "nessuna"))
+        dovrebbe = bool(attese)
+        if bool(f.get("assegnato")) != dovrebbe:
+            problemi.append("%s dichiara assegnato = %r ma ha %d tappe obbligatorie: "
+                            "«assegnato» vuol dire giocabile, cioè con almeno una delle "
+                            "trenta" % (codice, f.get("assegnato"), len(attese)))
+        for records in obbligatorie.get(codice, []) + facoltative.get(codice, []):
+            if records.get("filone_titolo") != f.get("titolo"):
+                problemi.append("%s: la citazione porta il titolo %r e il filone %s si "
+                                "chiama %r: sono due copie dello stesso fatto"
+                                % (records["tappa"], records.get("filone_titolo"),
+                                   codice, f.get("titolo")))
+            if records.get("filone_canti") != f.get("canti"):
+                problemi.append("%s: la citazione porta i canti %r e il filone %s dichiara %r"
+                                % (records["tappa"], records.get("filone_canti"),
+                                   codice, f.get("canti")))
     return problemi
 
 
@@ -304,6 +388,7 @@ def verifica():
     if mancanti:
         problemi.append("tappe senza citazione: %s" % ", ".join(mancanti))
     problemi += verifica_filoni(documento)
+    problemi += verifica_assegnazione(documento)
     problemi += verifica_vicinanze(documento)
     problemi += verifica_legami(documento)
     problemi += verifica_facoltative(documento)
@@ -387,6 +472,13 @@ if __name__ == "__main__":
         print("citazioni: %d (+%d facoltative), versi riscontrati: %d, problemi: %d"
               % (len(documento["citazioni"]), len(documento.get("facoltative", [])),
                  controllate, len(problemi)))
+        filoni = documento.get("filoni", {})
+        giocabili = [c for c, f in filoni.items() if f.get("assegnato")]
+        solo_facoltativa = sorted(c for c, f in filoni.items()
+                                  if not f.get("assegnato") and f.get("facoltative"))
+        print("filoni: %d dichiarati, %d giocabili, %d solo da stanza facoltativa (%s)"
+              % (len(filoni), len(giocabili), len(solo_facoltativa),
+                 ", ".join(solo_facoltativa) or "nessuno"))
         for p in problemi:
             print("  " + p)
         if not problemi:

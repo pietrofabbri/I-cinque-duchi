@@ -8,11 +8,13 @@ perché il formato ESRI Shapefile è documentato e semplice.
 I tre pezzi che servono qui:
 
 - **.shp**: intestazione di 100 byte, poi un record per geometria. Il record
-  dice il tipo (5 = poligono) e poi quattro numeri: il bounding box e tre
-  interi che sono l'inizio e la fine dei pezzi di contenuto. I pezzi sono
-  liste di vertici, separate dalla bandierina 0, e ogni lista chiusa è un
-  **anello esterno**; un anello con verso opposto è un **buco**, e la
-  polygon-part list dice a quale anello esterno appartiene.
+  dice il tipo (1 = Point, 5 = poligono, 8 = MultiPoint) e poi quattro numeri:
+  il bounding box e tre interi che sono l'inizio e la fine dei pezzi di
+  contenuto. I pezzi sono liste di vertici, separate dalla bandierina 0, e ogni
+  lista chiusa è un **anello esterno**; un anello con verso opposto è un
+  **buco**, e la polygon-part list dice a quale anello esterno appartiene.
+  Per i punti la struttura è diversa e più semplice: dopo il tipo vengono
+  subito X e Y (`punti()`).
 - **.shx**: indice dei record, 8 byte ciascuno. Non serve per leggere in
   ordine, e quindi non si legge.
 - **.dbf**: tabella senza nome proprio, con record a lunghezza fissa. I nomi
@@ -159,6 +161,66 @@ def parti(percorso_shp, percorso_dbf=None):
         anelli = [a for a in anelli if len(a) >= 4]
         if anelli:
             risultati.append((props, anelli))
+    return risultati
+
+
+def punti(percorso_shp, percorso_dbf=None):
+    """Ogni punto come (proprieta, lon, lat): forme 1 (Point) e 8 (MultiPoint).
+
+    Aggiunto per `geography_regions_elevation_points`, che sono punte e non
+    poligoni: `parti()` su quei file solleva «solo i poligoni (5)», che e'
+    esattamente il messaggio giusto per un file sbagliato e il messaggio
+    sbagliato per un file giusto.
+
+    I due formati hanno intestazioni diverse, ed e' la trappola che questa
+    funzione evita:
+
+    - **Point (1)**: dopo il tipo vengono subito X e Y, due doppi da 8 byte.
+      Nessun bounding box, nessun contatore: 20 byte di contenuto.
+    - **MultiPoint (8)**: dopo il tipo c'e' il bounding box (4 doppi, 32 byte),
+      poi il numero di punti (un intero da 4 byte), poi i punti. 40 byte di
+      intestazione prima del primo punto.
+
+    Il pericolo e' il simmetrico di quello dei poligoni: se si legge X dal
+    posto sbagliato in un MultiPoint si legge il bounding box, cioe' un
+    numero grande, e il file si apre e restituisce punti a latitudine 90. Il
+    controllo che se ne accorge e' `verifica_altitudine.py`, che chiede che
+    ogni punto sia dentro il mondo.
+    """
+    with open(percorso_shp, "rb") as f:
+        raw = f.read()
+
+    campi, righe = ([], [])
+    if percorso_dbf and os.path.exists(percorso_dbf):
+        campi, righe = _legga_dbf(percorso_dbf)
+
+    offset, risultati = 100, []
+    while offset < len(raw):
+        numero, lung = struct.unpack(">ii", raw[offset:offset + 8])
+        corpo = raw[offset + 8:offset + 8 + lung * 2]
+        offset += 8 + lung * 2
+        if len(corpo) < 4:
+            continue
+        forma = struct.unpack("<i", corpo[0:4])[0]
+        if forma == 1:
+            if len(corpo) < 20:
+                continue
+            x, y = struct.unpack("<dd", corpo[4:20])
+            punti_riga = [(x, y)]
+        elif forma == 8:
+            # 4 del tipo, 32 del bounding box, 4 del numero di punti
+            if len(corpo) < 40:
+                continue
+            quanti = struct.unpack("<i", corpo[36:40])[0]
+            if quanti < 1 or quanti > 100000:
+                continue
+            punti_riga = [struct.unpack("<dd", corpo[40 + 16 * k:56 + 16 * k])
+                          for k in range(quanti)]
+        else:
+            continue
+        props = righe[numero - 1] if len(righe) >= numero else {}
+        for xy in punti_riga:
+            risultati.append((props, xy[0], xy[1]))
     return risultati
 
 

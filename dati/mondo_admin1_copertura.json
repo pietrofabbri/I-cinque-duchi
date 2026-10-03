@@ -1,0 +1,219 @@
+{
+ "file": "mondo_admin1.json",
+ "fonte": "Natural Earth 10m admin_1_states_provinces (pubblico dominio)",
+ "tolleranza_gradi": 0.05,
+ "tolleranze_di_riserva": [
+  0.05,
+  0.02,
+  0.01,
+  0.006,
+  0.002
+ ],
+ "unita_che_hanno_avuto_bisogno_di_riserva": [
+  {
+   "unita": "New York",
+   "tolleranza": 0.02
+  },
+  {
+   "unita": "Buenos Aires",
+   "tolleranza": 0.02
+  },
+  {
+   "unita": "Istanbul",
+   "tolleranza": 0.02
+  },
+  {
+   "unita": "Venezia",
+   "tolleranza": 0.01
+  },
+  {
+   "unita": "Taranto",
+   "tolleranza": 0.02
+  },
+  {
+   "unita": "Westminster",
+   "tolleranza": 0.01
+  },
+  {
+   "unita": "Siena",
+   "tolleranza": 0.02
+  }
+ ],
+ "quantizzazione": 2000,
+ "cuscinetto_gradi": 0.75,
+ "unita_nella_fonte": 4596,
+ "unita_nel_file": 50,
+ "unita_scartate": 4546,
+ "pin_coperti": 54,
+ "pin_totali": 54,
+ "pin_per_unita": {
+  "Norimberga": [
+   "DEU-1591"
+  ],
+  "Magonza": [
+   "DEU-1580"
+  ],
+  "Frombork": [
+   "POL-3139"
+  ],
+  "Hannover": [
+   "DEU-1576"
+  ],
+  "Aquisgrana": [
+   "DEU-1572"
+  ],
+  "Uruk": [
+   "IRQ-3223"
+  ],
+  "Pella": [
+   "GRC-2991"
+  ],
+  "Basilea": [
+   "CHE-3425"
+  ],
+  "Ginevra": [
+   "CHE-159"
+  ],
+  "Seattle": [
+   "USA-3519"
+  ],
+  "New York": [
+   "USA-3559"
+  ],
+  "Los Angeles": [
+   "USA-3521"
+  ],
+  "Los Alamos": [
+   "USA-3524"
+  ],
+  "Bajkonur": [
+   "KAB+00?"
+  ],
+  "Agra": [
+   "IND-3253"
+  ],
+  "Buenos Aires": [
+   "ARG-5493"
+  ],
+  "Princeton": [
+   "USA-3558"
+  ],
+  "Qufu": [
+   "CHN-1814"
+  ],
+  "Costantinopoli": [
+   "TUR-2265"
+  ],
+  "Uppsala": [
+   "SWE-195"
+  ],
+  "Stoccolma": [
+   "SWE-194"
+  ],
+  "Atene": [
+   "GRC-2884"
+  ],
+  "Venezia": [
+   "ITA-5461"
+  ],
+  "Ferrara": [
+   "ITA-5363"
+  ],
+  "Ferrara, Camerino d'alabastro": [
+   "ITA-5363"
+  ],
+  "Ravenna": [
+   "ITA-5364"
+  ],
+  "Ferrara, Camerino": [
+   "ITA-5429"
+  ],
+  "Castel del Monte": [
+   "ITA-5405"
+  ],
+  "Taranto": [
+   "ITA-5408"
+  ],
+  "Crotone": [
+   "ITA-5392"
+  ],
+  "Roma": [
+   "ITA-5422"
+  ],
+  "Roma, Tuscolo": [
+   "ITA-5422"
+  ],
+  "Rotterdam": [
+   "NLD-3485"
+  ],
+  "Palermo": [
+   "ITA-5410"
+  ],
+  "Toledo": [
+   "ESP-5848"
+  ],
+  "Il Cairo": [
+   "EGY-1544"
+  ],
+  "Xianyang": [
+   "CHN-1804"
+  ],
+  "Vienna": [
+   "AUT-2331"
+  ],
+  "Londra": [
+   "GBR-2080"
+  ],
+  "Westminster": [
+   "GBR-2080"
+  ],
+  "Cambridge": [
+   "GBR-2053"
+  ],
+  "Karakorum": [
+   "MNG-3316"
+  ],
+  "Tenochtitlán": [
+   "MEX-2727"
+  ],
+  "Baghdad": [
+   "IRQ-3063"
+  ],
+  "Chicago": [
+   "USA-3546"
+  ],
+  "Mantova": [
+   "ITA-5446"
+  ],
+  "Milano": [
+   "ITA-5450"
+  ],
+  "Chiusi": [
+   "ITA-5388"
+  ],
+  "Certaldo": [
+   "ITA-5386"
+  ],
+  "Firenze": [
+   "ITA-5386"
+  ],
+  "Alessandria": [
+   "ITA-5439"
+  ],
+  "Parigi": [
+   "FRA-5333"
+  ],
+  "Manchester": [
+   "GBR-5684"
+  ],
+  "Alcalá de Henares": [
+   "ESP-5833"
+  ]
+ },
+ "avvertenze": [
+  "la scelta dell'unita' e' punto-in-poligono sul pin, non un taglio per riquadro: il riquadro del file e' solo la dichiarazione di quanto il taglio puo' allargarsi",
+  "la semplificazione scende da sola finche' l'anello contiene ancora il proprio pin: 7 unita' su 50 hanno avuto bisogno di una tolleranza piu' fine",
+  "l'unita' e' quella che contiene il pin, non il nome del pin: Bajkonur cade dentro 'Bayqonyr', che e' il cosmodromo, e Karakorum dentro 'dell'Arhangaj', che e' la traduzione italiana dell'Ovorkhangai. Sono due nomi, non due coordinate",
+  "niente altezza e nessun dettaglio urbano: questo file serve solo al controllo 'il pin e' nella giusta unita' amministrativa'"
+ ]
+}
