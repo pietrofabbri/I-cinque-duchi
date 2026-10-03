@@ -1,0 +1,2498 @@
+{
+ "versione": "v1",
+ "data": "2026-10-03",
+ "scopo": "la sequenza delle trenta tappe degli anni 2, 3 e 4: in che ordine il duca incontra le trenta voci obbligatorie, e dove. Le facoltative sono tenute fuori dalla sequenza e stanno nella colonna apposita di ogni tappa",
+ "da_chei_dati": {
+  "tappe": "la tabella delle trenta tappe di ciascun documento d'anno, legguta per intestazione e non per numero di colonna, perche' il quarto anno ha due colonne in piu' (la porta e il confronto)",
+  "coordinate": "dati/luoghi_gioco.json prima, dati/ipotesi_luoghi.json poi: il campo `fonte` di ogni punto dice da quale dei due viene",
+  "velocita": "sorgenti/percorsi_calcola.py, gli stessi km al giorno che il documento dei percorsi dichiara: due numeri per la stessa strada sarebbero due bugie"
+ },
+ "che_cosa_non_e": "non e' il percorso del duca di percorsi.md: quello segue i soli pin che avevano coordinate (9, 22 e 13), questo segue tutte e trenta le tappe. Le due cose si confrontano e non coincidono, e il conto della differenza e' in `verifica_sequenza.py`",
+ "divergenze_nota": "le tappe per le quali il registro dei luoghi e il documento d'anno non dicono la stessa cosa. Una divergenza con `dichiarazione` e' una domanda dichiarata; una divergenza senza dichiarazione e' un difetto, ed e' quello che verifica_sequenza.py segnala",
+ "divergenze": [
+  {
+   "tappa": "3-28",
+   "luogo_documento": "Torino",
+   "luogo_registro": "Manchester",
+   "dichiarazione": "Manchester nel registro, Torino nel documento. Il livello e' JavaScript e Manchester e' il luogo del calcolatore (il 3-28 e' il primo dei livelli del Novecento); Primo Levi, aggiunto il 02/10/2026, e' torinese. Il documento ha scelto la persona e il luogo della persona, il registro ha quello del livello. **La scelta e' di Pietro e non e' presa qui**: finche' non e' decisa, la tappa ha due luoghi e il dato li dichiara entrambi"
+  }
+ ],
+ "anni": {
+  "2": {
+   "mezzo": "cavallo",
+   "km_al_giorno": 45,
+   "tappe": [
+    {
+     "ordine": 1,
+     "tappa": "2-1",
+     "argomento": "Pensiero computazionale: scomporre un problema",
+     "strato": "S00",
+     "luogo": "Bolzano, Museo archeologico altoatesino",
+     "voce": "Ötzi",
+     "voce_id": "Q01",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "La Dama di Verrucchio",
+      "i popoli della penisola"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 46.49829,
+      "lon": 11.35484,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": null,
+     "giorni": null,
+     "km_cumulativi": 0,
+     "giorni_cumulativi": 0
+    },
+    {
+     "ordine": 2,
+     "tappa": "2-2",
+     "argomento": "Che cos'è un algoritmo",
+     "strato": "S02",
+     "luogo": "Crotone",
+     "voce": "Pitagora",
+     "voce_id": "Q11",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Archita",
+      "Al-Khwārizmī"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 39.08333,
+      "lon": 17.11667,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 948.5,
+     "giorni": 21,
+     "km_cumulativi": 948,
+     "giorni_cumulativi": 21
+    },
+    {
+     "ordine": 3,
+     "tappa": "2-3",
+     "argomento": "Diagrammi di flusso",
+     "strato": "S03",
+     "luogo": "Roma, area del Campidoglio",
+     "voce": "Romolo",
+     "voce_id": "Q05",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Tarquinio il Superbo",
+      "Lucrezia"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 41.89334,
+      "lon": 12.48285,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 501.1,
+     "giorni": 11,
+     "km_cumulativi": 1450,
+     "giorni_cumulativi": 32
+    },
+    {
+     "ordine": 4,
+     "tappa": "2-4",
+     "argomento": "Pseudocodice",
+     "strato": "S06",
+     "luogo": "Squillace, monastero di Vivarium",
+     "voce": "Cassiodoro",
+     "voce_id": "Q34",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "I copisti"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 38.5794,
+      "lon": 16.5136,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 502.7,
+     "giorni": 11,
+     "km_cumulativi": 1952,
+     "giorni_cumulativi": 43
+    },
+    {
+     "ordine": 5,
+     "tappa": "2-5",
+     "argomento": "Variabili, tipi, assegnazione",
+     "strato": "S03",
+     "luogo": "Roma",
+     "voce": "Appio Claudio Cieco",
+     "voce_id": "Q19",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Camillo",
+      "Cincinnato"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.89306,
+      "lon": 12.48278,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 502.7,
+     "giorni": 11,
+     "km_cumulativi": 2455,
+     "giorni_cumulativi": 54
+    },
+    {
+     "ordine": 6,
+     "tappa": "2-6",
+     "argomento": "Espressioni e operatori logici",
+     "strato": "S02",
+     "luogo": "Elea (Velia)",
+     "voce": "Parmenide",
+     "voce_id": "Q12",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Zenone di Elea",
+      "i fisici di Crotone"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 40.1636,
+      "lon": 15.1536,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 295.2,
+     "giorni": 7,
+     "km_cumulativi": 2750,
+     "giorni_cumulativi": 61
+    },
+    {
+     "ordine": 7,
+     "tappa": "2-7",
+     "argomento": "Sequenza, selezione, iterazione",
+     "strato": "S03",
+     "luogo": "Roma, Tuscolo",
+     "voce": "Cincinnato",
+     "voce_id": "Q17",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Camillo",
+      "Catone il Censore"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.79833,
+      "lon": 12.71083,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 274.0,
+     "giorni": 6,
+     "km_cumulativi": 3024,
+     "giorni_cumulativi": 67
+    },
+    {
+     "ordine": 8,
+     "tappa": "2-8",
+     "argomento": "Tipologie di linguaggi: livelli, compilati e interpretati, storia",
+     "strato": "S10",
+     "luogo": "Milano",
+     "voce": "Leonardo da Vinci",
+     "voce_id": "Q63",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Isabella d'Este",
+      "Leonello d'Este"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 45.46694,
+      "lon": 9.19,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 496.6,
+     "giorni": 11,
+     "km_cumulativi": 3521,
+     "giorni_cumulativi": 78
+    },
+    {
+     "ordine": 9,
+     "tappa": "2-9",
+     "argomento": "Il primo linguaggio: input, output, sintassi",
+     "strato": "S03",
+     "luogo": "Roma, Curia",
+     "voce": "Cicerone",
+     "voce_id": "Q21",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Cornelia",
+      "gli ambasciatori"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 41.89248,
+      "lon": 12.4876,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 477.7,
+     "giorni": 11,
+     "km_cumulativi": 3998,
+     "giorni_cumulativi": 89
+    },
+    {
+     "ordine": 10,
+     "tappa": "2-10",
+     "argomento": "Prova di corte: tracing di programmi",
+     "strato": "S03",
+     "luogo": "Roma, villa dei Gracchi",
+     "voce": "Cornelia, madre dei Gracchi",
+     "voce_id": "Q27",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Tiberio Gracco",
+      "Gaio Gracco"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 41.9236,
+      "lon": 12.5169,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 4.2,
+     "giorni": 1,
+     "km_cumulativi": 4003,
+     "giorni_cumulativi": 90
+    },
+    {
+     "ordine": 11,
+     "tappa": "2-11",
+     "argomento": "Selezione: if, elif, else",
+     "strato": "S02",
+     "luogo": "Elea (Velia)",
+     "voce": "Zenone di Elea",
+     "voce_id": "Q13",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Parmenide",
+      "Appio Claudio"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 40.1636,
+      "lon": 15.1536,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 295.3,
+     "giorni": 7,
+     "km_cumulativi": 4298,
+     "giorni_cumulativi": 97
+    },
+    {
+     "ordine": 12,
+     "tappa": "2-12",
+     "argomento": "Iterazione: while, contatori, accumulatori",
+     "strato": "S03",
+     "luogo": "Porta `PT-CAR` (Ferrara)",
+     "voce": "Annibale",
+     "voce_id": "Q22",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Scipione l'Africano",
+      "Catone il Censore"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 594.9,
+     "giorni": 13,
+     "km_cumulativi": 4893,
+     "giorni_cumulativi": 110
+    },
+    {
+     "ordine": 13,
+     "tappa": "2-13",
+     "argomento": "Iterazione: for e range",
+     "strato": "S03",
+     "luogo": "Roma",
+     "voce": "Catone il Censore",
+     "voce_id": "Q26",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Tiberio Gracco",
+      "Scipione l'Africano"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.89306,
+      "lon": 12.48278,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 334.8,
+     "giorni": 7,
+     "km_cumulativi": 5228,
+     "giorni_cumulativi": 117
+    },
+    {
+     "ordine": 14,
+     "tappa": "2-14",
+     "argomento": "Cicli annidati",
+     "strato": "S08",
+     "luogo": "Firenze",
+     "voce": "Dante Alighieri",
+     "voce_id": "Q47",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Petrarca",
+      "Boccaccio"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 43.77139,
+      "lon": 11.25417,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 231.6,
+     "giorni": 5,
+     "km_cumulativi": 5459,
+     "giorni_cumulativi": 122
+    },
+    {
+     "ordine": 15,
+     "tappa": "2-15",
+     "argomento": "Algoritmi classici: massimo, minimo, somma, media",
+     "strato": "S08",
+     "luogo": "Palermo",
+     "voce": "Federico II di Svevia",
+     "voce_id": "Q44",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Costanza d'Altavilla",
+      "Manfredi"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 38.11566,
+      "lon": 13.36126,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 653.3,
+     "giorni": 15,
+     "km_cumulativi": 6113,
+     "giorni_cumulativi": 137
+    },
+    {
+     "ordine": 16,
+     "tappa": "2-16",
+     "argomento": "Algoritmo di Euclide e numeri primi",
+     "strato": "S02",
+     "luogo": "Taranto",
+     "voce": "Archita di Taranto",
+     "voce_id": "Q14",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Pitagora",
+      "Euclide"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 40.47111,
+      "lon": 17.24306,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 424.4,
+     "giorni": 9,
+     "km_cumulativi": 6537,
+     "giorni_cumulativi": 146
+    },
+    {
+     "ordine": 17,
+     "tappa": "2-17",
+     "argomento": "Funzioni: definizione, parametri, valore di ritorno",
+     "strato": "S03",
+     "luogo": "Roma",
+     "voce": "Tiberio Gracco",
+     "voce_id": "Q28",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Cesare",
+      "Catone Uticense"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.89306,
+      "lon": 12.48278,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 428.5,
+     "giorni": 10,
+     "km_cumulativi": 6965,
+     "giorni_cumulativi": 156
+    },
+    {
+     "ordine": 18,
+     "tappa": "2-18",
+     "argomento": "Visibilità e scomposizione in funzioni",
+     "strato": "S04",
+     "luogo": "Roma",
+     "voce": "Giulio Cesare",
+     "voce_id": "Q20",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Cicerone",
+      "Cleopatra"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.89306,
+      "lon": 12.48278,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 6965,
+     "giorni_cumulativi": 157
+    },
+    {
+     "ordine": 19,
+     "tappa": "2-19",
+     "argomento": "Test e debugging",
+     "strato": "S01",
+     "luogo": "Chiusi",
+     "voce": "Lars Porsenna",
+     "voce_id": "Q10",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Teodolinda",
+      "i coloni"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 43.01667,
+      "lon": 11.95,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 132.4,
+     "giorni": 3,
+     "km_cumulativi": 7098,
+     "giorni_cumulativi": 160
+    },
+    {
+     "ordine": 20,
+     "tappa": "2-20",
+     "argomento": "Prova di corte: problemi con funzioni",
+     "strato": "S04",
+     "luogo": "Roma",
+     "voce": "Augusto",
+     "voce_id": "Q29",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Ottaviano giovane",
+      "Agrippa"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.89306,
+      "lon": 12.48278,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 132.4,
+     "giorni": 3,
+     "km_cumulativi": 7230,
+     "giorni_cumulativi": 163
+    },
+    {
+     "ordine": 21,
+     "tappa": "2-21",
+     "argomento": "Liste e array",
+     "strato": "S07",
+     "luogo": "Porta `PT-AQU` (Ferrara)",
+     "voce": "Carlo Magno",
+     "voce_id": "Q37",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Matilde di Canossa",
+      "le città del Nord"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 334.8,
+     "giorni": 7,
+     "km_cumulativi": 7565,
+     "giorni_cumulativi": 170
+    },
+    {
+     "ordine": 22,
+     "tappa": "2-22",
+     "argomento": "Ricerca lineare",
+     "strato": "S09",
+     "luogo": "Venezia",
+     "voce": "Marco Polo",
+     "voce_id": "Q46",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Francesco Sforza",
+      "i mercanti"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 45.43972,
+      "lon": 12.33194,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 87.2,
+     "giorni": 2,
+     "km_cumulativi": 7652,
+     "giorni_cumulativi": 172
+    },
+    {
+     "ordine": 23,
+     "tappa": "2-23",
+     "argomento": "Stringhe e testo",
+     "strato": "S03",
+     "luogo": "Roma, Curia",
+     "voce": "I copisti e gli amanuensi (Q91, collettivo `C`)",
+     "voce_id": null,
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Il tipografo",
+      "Lucrezia"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 41.89248,
+      "lon": 12.4876,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 394.6,
+     "giorni": 9,
+     "km_cumulativi": 8047,
+     "giorni_cumulativi": 181
+    },
+    {
+     "ordine": 24,
+     "tappa": "2-24",
+     "argomento": "Cifrari di Cesare e di Vigenère ★",
+     "strato": "S09",
+     "luogo": "Firenze",
+     "voce": "Leon Battista Alberti (Q62, *aggiunta*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Enigma",
+      "i cifrari di Stato"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 43.77139,
+      "lon": 11.25417,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 231.9,
+     "giorni": 5,
+     "km_cumulativi": 8279,
+     "giorni_cumulativi": 186
+    },
+    {
+     "ordine": 25,
+     "tappa": "2-25",
+     "argomento": "Grafica con la tartaruga",
+     "strato": "S10",
+     "luogo": "Ferrara, zona dell'Addizione Erculea",
+     "voce": "Biagio Rossetti (Q64, *aggiunta*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Ercole I",
+      "i muratori"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.844,
+      "lon": 11.639,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 123.1,
+     "giorni": 3,
+     "km_cumulativi": 8402,
+     "giorni_cumulativi": 189
+    },
+    {
+     "ordine": 26,
+     "tappa": "2-26",
+     "argomento": "Il caso: dadi, frequenze, probabilità simulate ★",
+     "strato": "S10",
+     "luogo": "Ferrara, corte",
+     "voce": "Lucrezia Borgia",
+     "voce_id": "Q41",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Isabella d'Este",
+      "Tasso"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 1.7,
+     "giorni": 1,
+     "km_cumulativi": 8404,
+     "giorni_cumulativi": 190
+    },
+    {
+     "ordine": 27,
+     "tappa": "2-27",
+     "argomento": "Foglio elettronico avanzato: SE, CERCA, tabelle pivot",
+     "strato": "S06",
+     "luogo": "Porta `PT-CON` (Ferrara)",
+     "voce": "Giustiniano",
+     "voce_id": "Q35",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Alboino",
+      "Teodolinda"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 8404,
+     "giorni_cumulativi": 191
+    },
+    {
+     "ordine": 28,
+     "tappa": "2-28",
+     "argomento": "Come è fatta Internet: indirizzi, DNS, pacchetti",
+     "strato": "S10",
+     "luogo": "Ferrara, corte",
+     "voce": "I corrieri e i messaggeri (Q90, collettivo `C`)",
+     "voce_id": null,
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Cristoforo Colombo",
+      "Amerigo Vespucci"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 8404,
+     "giorni_cumulativi": 192
+    },
+    {
+     "ordine": 29,
+     "tappa": "2-29",
+     "argomento": "Collaborare in rete: cloud, posta, privacy, diritto d'autore",
+     "strato": "S10",
+     "luogo": "Porta `PT-COL` (Ferrara)",
+     "voce": "Amerigo Vespucci",
+     "voce_id": "Q45",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Colombo",
+      "i copisti"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 8404,
+     "giorni_cumulativi": 193
+    },
+    {
+     "ordine": 30,
+     "tappa": "2-30",
+     "argomento": "Prova finale dell'anno: generare una pianta rispettando vincoli",
+     "strato": "S10",
+     "luogo": "Ferrara, corte",
+     "voce": "Il consiglio di corte: i progettisti, i muratori, i proprietari, i contadini (Q92, collettivo `C`)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Ercole I",
+      "le donne della corte"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 8404,
+     "giorni_cumulativi": 194
+    }
+   ],
+   "riepilogo": {
+    "tappe": 30,
+    "con_punto": 30,
+    "senza_punto": [],
+    "km_totali": 8404,
+    "giorni_totali": 194,
+    "voci_obbligatorie": 30,
+    "facoltative_dichiarate": 59
+   }
+  },
+  "3": {
+   "mezzo": "cavallo",
+   "km_al_giorno": 45,
+   "tappe": [
+    {
+     "ordine": 1,
+     "tappa": "3-1",
+     "argomento": "Interi con segno e complemento a 2",
+     "strato": "S32",
+     "luogo": "Alessandria",
+     "voce": "Eratostene",
+     "voce_id": "Q101",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Archimede",
+      "i matematici di Alessandria"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 44.91667,
+      "lon": 8.61667,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": null,
+     "giorni": null,
+     "km_cumulativi": 0,
+     "giorni_cumulativi": 0
+    },
+    {
+     "ordine": 2,
+     "tappa": "3-2",
+     "argomento": "Virgola mobile (IEEE 754) ed errori",
+     "strato": "S38",
+     "luogo": "Frombork",
+     "voce": "Copernico",
+     "voce_id": "Q102",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Keplero",
+      "Tycho Brahe"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 54.35833,
+      "lon": 19.68333,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1314.8,
+     "giorni": 29,
+     "km_cumulativi": 1315,
+     "giorni_cumulativi": 29
+    },
+    {
+     "ordine": 3,
+     "tappa": "3-3",
+     "argomento": "Array e matrici",
+     "strato": "S33",
+     "luogo": "Roma",
+     "voce": "Augusto",
+     "voce_id": "Q103",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Traiano",
+      "Adriano"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.89306,
+      "lon": 12.48278,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1483.7,
+     "giorni": 33,
+     "km_cumulativi": 2798,
+     "giorni_cumulativi": 62
+    },
+    {
+     "ordine": 4,
+     "tappa": "3-4",
+     "argomento": "Ordinamento: selection sort e bubble sort",
+     "strato": "S31",
+     "luogo": "Atene",
+     "voce": "Solone",
+     "voce_id": "Q104",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Pericle",
+      "Socrate"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 37.96667,
+      "lon": 23.71667,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1051.6,
+     "giorni": 23,
+     "km_cumulativi": 3850,
+     "giorni_cumulativi": 85
+    },
+    {
+     "ordine": 5,
+     "tappa": "3-5",
+     "argomento": "Ordinamento: insertion sort",
+     "strato": "S31",
+     "luogo": "Atene",
+     "voce": "Pericle",
+     "voce_id": "Q105",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Solone",
+      "Tucidide"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 37.96667,
+      "lon": 23.71667,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 3850,
+     "giorni_cumulativi": 86
+    },
+    {
+     "ordine": 6,
+     "tappa": "3-6",
+     "argomento": "Ricerca binaria; logaritmi ★",
+     "strato": "S31",
+     "luogo": "Atene",
+     "voce": "Platone",
+     "voce_id": "Q106",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Aristotele",
+      "Socrate"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 37.96667,
+      "lon": 23.71667,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 3850,
+     "giorni_cumulativi": 87
+    },
+    {
+     "ordine": 7,
+     "tappa": "3-7",
+     "argomento": "Contare i passi: complessità",
+     "strato": "S34",
+     "luogo": "Ravenna",
+     "voce": "Belisario",
+     "voce_id": "Q107",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Giustiniano",
+      "Teodorico"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 44.41611,
+      "lon": 12.20167,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1199.2,
+     "giorni": 27,
+     "km_cumulativi": 5049,
+     "giorni_cumulativi": 114
+    },
+    {
+     "ordine": 8,
+     "tappa": "3-8",
+     "argomento": "Ricorsione",
+     "strato": "S36",
+     "luogo": "Castel del Monte",
+     "voce": "Federico II",
+     "voce_id": "Q108",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Manfredi",
+      "Costanza d'Altavilla"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.08475,
+      "lon": 16.27094,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 497.5,
+     "giorni": 11,
+     "km_cumulativi": 5547,
+     "giorni_cumulativi": 125
+    },
+    {
+     "ordine": 9,
+     "tappa": "3-9",
+     "argomento": "Divide et impera: merge sort ★",
+     "strato": "S32",
+     "luogo": "Pella",
+     "voce": "Alessandro Magno",
+     "voce_id": "Q109",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Tolemeo",
+      "Pericle"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 40.75467,
+      "lon": 22.52105,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 526.3,
+     "giorni": 12,
+     "km_cumulativi": 6073,
+     "giorni_cumulativi": 137
+    },
+    {
+     "ordine": 10,
+     "tappa": "3-10",
+     "argomento": "Prova di corte: ordinare e contare i passi",
+     "strato": "S39",
+     "luogo": "Ferrara, fonderia",
+     "voce": "Alfonso I d'Este",
+     "voce_id": "Q110",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Tiziano",
+      "Ercole II"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 997.5,
+     "giorni": 22,
+     "km_cumulativi": 7071,
+     "giorni_cumulativi": 159
+    },
+    {
+     "ordine": 11,
+     "tappa": "3-11",
+     "argomento": "Stringhe avanzate e ricerca di schemi; automi ★",
+     "strato": "S39",
+     "luogo": "Ferrara, corte",
+     "voce": "Ludovico Ariosto",
+     "voce_id": "Q111",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Boiardo",
+      "Tasso"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 0.0,
+     "giorni": 1,
+     "km_cumulativi": 7071,
+     "giorni_cumulativi": 160
+    },
+    {
+     "ordine": 12,
+     "tappa": "3-12",
+     "argomento": "File e CSV",
+     "strato": "S35",
+     "luogo": "Aquisgrana",
+     "voce": "Alcuino",
+     "voce_id": "Q112",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Carlo Magno",
+      "Eginardo"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 50.77621,
+      "lon": 6.08379,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 778.5,
+     "giorni": 17,
+     "km_cumulativi": 7849,
+     "giorni_cumulativi": 177
+    },
+    {
+     "ordine": 13,
+     "tappa": "3-13",
+     "argomento": "Metodologie: top-down e modularità",
+     "strato": "S38",
+     "luogo": "Milano",
+     "voce": "Leonardo da Vinci",
+     "voce_id": "Q113",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Alberti",
+      "Bramante"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 45.46694,
+      "lon": 9.19,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 633.6,
+     "giorni": 14,
+     "km_cumulativi": 8483,
+     "giorni_cumulativi": 191
+    },
+    {
+     "ordine": 14,
+     "tappa": "3-14",
+     "argomento": "Documentazione, stile, controllo di versione (Git) ★",
+     "strato": "S38",
+     "luogo": "Firenze",
+     "voce": "Niccolò Machiavelli",
+     "voce_id": "Q114",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Guicciardini",
+      "Cesare"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 43.77139,
+      "lon": 11.25417,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 249.5,
+     "giorni": 6,
+     "km_cumulativi": 8732,
+     "giorni_cumulativi": 197
+    },
+    {
+     "ordine": 15,
+     "tappa": "3-15",
+     "argomento": "Formati di immagine: bitmap e vettoriale",
+     "strato": "S39",
+     "luogo": "Ferrara, Camerino d'alabastro",
+     "voce": "Dosso Dossi",
+     "voce_id": "Q115",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Bellini",
+      "Tiziano"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 44.83695,
+      "lon": 11.61912,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 122.0,
+     "giorni": 3,
+     "km_cumulativi": 8854,
+     "giorni_cumulativi": 200
+    },
+    {
+     "ordine": 16,
+     "tappa": "3-16",
+     "argomento": "Compressione senza perdita",
+     "strato": "S38",
+     "luogo": "Magonza",
+     "voce": "Johannes Gutenberg",
+     "voce_id": "Q116",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Fust",
+      "Schöffer"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 49.99944,
+      "lon": 8.27361,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 626.6,
+     "giorni": 14,
+     "km_cumulativi": 9481,
+     "giorni_cumulativi": 214
+    },
+    {
+     "ordine": 17,
+     "tappa": "3-17",
+     "argomento": "Audio digitale: campionamento e quantizzazione",
+     "strato": "S39",
+     "luogo": "Ferrara, cappella",
+     "voce": "Josquin (Q117, *aggiunta*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Alfonso I",
+      "il coro della corte"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 626.5,
+     "giorni": 14,
+     "km_cumulativi": 10107,
+     "giorni_cumulativi": 228
+    },
+    {
+     "ordine": 18,
+     "tappa": "3-18",
+     "argomento": "Compressione con perdita",
+     "strato": "S41",
+     "luogo": "Alcalá de Henares",
+     "voce": "Miguel de Cervantes",
+     "voce_id": "Q118",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Shakespeare",
+      "Lope de Vega"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 40.48181,
+      "lon": -3.3643,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1315.1,
+     "giorni": 29,
+     "km_cumulativi": 11422,
+     "giorni_cumulativi": 257
+    },
+    {
+     "ordine": 19,
+     "tappa": "3-19",
+     "argomento": "Linguaggi di markup: il concetto, Markdown",
+     "strato": "S40",
+     "luogo": "Basilea",
+     "voce": "Erasmo da Rotterdam",
+     "voce_id": "Q119",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Lutero",
+      "Calvino"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 47.56667,
+      "lon": 7.6,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1176.6,
+     "giorni": 26,
+     "km_cumulativi": 12599,
+     "giorni_cumulativi": 283
+    },
+    {
+     "ordine": 20,
+     "tappa": "3-20",
+     "argomento": "Prova di corte: il Camerino restaurato",
+     "strato": "S39",
+     "luogo": "Ferrara, Camerino",
+     "voce": "Giovanni Bellini (Q120, *aggiunta*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Tiziano",
+      "Antonio Lombardo"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 43.14028,
+      "lon": 13.06889,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 651.5,
+     "giorni": 14,
+     "km_cumulativi": 13251,
+     "giorni_cumulativi": 297
+    },
+    {
+     "ordine": 21,
+     "tappa": "3-21",
+     "argomento": "Font e tipografia digitale",
+     "strato": "S35",
+     "luogo": "Aquisgrana",
+     "voce": "Carlo Magno",
+     "voce_id": "Q121",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Alcuino",
+      "Manuzio"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 50.77621,
+      "lon": 6.08379,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1000.0,
+     "giorni": 22,
+     "km_cumulativi": 14251,
+     "giorni_cumulativi": 319
+    },
+    {
+     "ordine": 22,
+     "tappa": "3-22",
+     "argomento": "XML: elementi, attributi, buona formazione",
+     "strato": "S37",
+     "luogo": "Certaldo",
+     "voce": "Giovanni Boccaccio",
+     "voce_id": "Q122",
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Petrarca",
+      "Franco Sacchetti"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 43.54778,
+      "lon": 11.04111,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 886.4,
+     "giorni": 20,
+     "km_cumulativi": 15137,
+     "giorni_cumulativi": 339
+    },
+    {
+     "ordine": 23,
+     "tappa": "3-23",
+     "argomento": "HTML: struttura e semantica",
+     "strato": "S37",
+     "luogo": "Parigi",
+     "voce": "Tommaso d'Aquino",
+     "voce_id": "Q123",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Alberto Magno",
+      "Giovanni di San Vincenzo"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 48.85667,
+      "lon": 2.35194,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 891.0,
+     "giorni": 20,
+     "km_cumulativi": 16028,
+     "giorni_cumulativi": 359
+    },
+    {
+     "ordine": 24,
+     "tappa": "3-24",
+     "argomento": "SVG: la grafica vettoriale come testo",
+     "strato": "S38",
+     "luogo": "Norimberga",
+     "voce": "Albrecht Dürer (Q124, *aggiunta*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Leonardo",
+      "Raffaello"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 49.45389,
+      "lon": 11.0775,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 637.6,
+     "giorni": 14,
+     "km_cumulativi": 16666,
+     "giorni_cumulativi": 373
+    },
+    {
+     "ordine": 25,
+     "tappa": "3-25",
+     "argomento": "CSS: selettori, box model, colori",
+     "strato": "S38",
+     "luogo": "Venezia",
+     "voce": "Aldo Manuzio (Q125, *aggiunta*)",
+     "voce_id": null,
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Francesco Griffo",
+      "i caratterai"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 45.43972,
+      "lon": 12.33194,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 456.2,
+     "giorni": 10,
+     "km_cumulativi": 17122,
+     "giorni_cumulativi": 383
+    },
+    {
+     "ordine": 26,
+     "tappa": "3-26",
+     "argomento": "Impaginazione e design responsive",
+     "strato": "S39",
+     "luogo": "Westminster",
+     "voce": "William Caxton (Q126, *aggiunta*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Caxton",
+      "i miniatori"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 51.4995,
+      "lon": -0.1333,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1137.1,
+     "giorni": 25,
+     "km_cumulativi": 18259,
+     "giorni_cumulativi": 408
+    },
+    {
+     "ordine": 27,
+     "tappa": "3-27",
+     "argomento": "Progettazione web: usabilità e accessibilità",
+     "strato": "S42",
+     "luogo": "Parigi",
+     "voce": "Olympe de Gouges",
+     "voce_id": "Q127",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Wollstonecraft",
+      "Robespierre"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 48.85667,
+      "lon": 2.35194,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 343.0,
+     "giorni": 8,
+     "km_cumulativi": 18602,
+     "giorni_cumulativi": 416
+    },
+    {
+     "ordine": 28,
+     "tappa": "3-28",
+     "argomento": "JavaScript di base: la pagina che reagisce",
+     "strato": "S43",
+     "luogo": "Torino",
+     "voce": "Primo Levi (Q128, *aggiunta*, 02/10/2026)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Alan Turing  forte, era la voce obbligatoria)",
+      "Ada Lovelace",
+      "i matematici di Cambridge"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": "Manchester",
+     "punto_stato": "verificata",
+     "punto": null,
+     "km_dalla_precedente": null,
+     "giorni": null,
+     "km_cumulativi": 18602,
+     "giorni_cumulativi": 416
+    },
+    {
+     "ordine": 29,
+     "tappa": "3-29",
+     "argomento": "Pubblicare un sito; licenze e diritto d'autore",
+     "strato": "S38",
+     "luogo": "Roma, Curia",
+     "voce": "I tipografi e i privilegi (Q129, collettivo `C`)",
+     "voce_id": null,
+     "forza": "medio",
+     "porta": null,
+     "facoltativi": [
+      "Manuzio",
+      "il Sant'Uffizio"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 41.89248,
+      "lon": 12.4876,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": null,
+     "giorni": null,
+     "km_cumulativi": 18602,
+     "giorni_cumulativi": 416
+    },
+    {
+     "ordine": 30,
+     "tappa": "3-30",
+     "argomento": "Prova finale: il sito della corte",
+     "strato": "S39",
+     "luogo": "Mantova",
+     "voce": "Isabella d'Este",
+     "voce_id": "Q130",
+     "forza": "forte",
+     "porta": null,
+     "facoltativi": [
+      "Alfonso I",
+      "i musei"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 45.15639,
+      "lon": 10.79111,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 387.8,
+     "giorni": 9,
+     "km_cumulativi": 18990,
+     "giorni_cumulativi": 425
+    }
+   ],
+   "riepilogo": {
+    "tappe": 30,
+    "con_punto": 29,
+    "senza_punto": [
+     "3-28"
+    ],
+    "km_totali": 18990,
+    "giorni_totali": 425,
+    "voci_obbligatorie": 30,
+    "facoltative_dichiarate": 61
+   }
+  },
+  "4": {
+   "mezzo": "barca",
+   "km_al_giorno": 60,
+   "tappe": [
+    {
+     "ordine": 1,
+     "tappa": "4-1",
+     "argomento": "Astrazione: dal problema al modello",
+     "strato": "S61",
+     "luogo": "Uruk",
+     "voce": "Gilgamesh",
+     "voce_id": "Q201",
+     "forza": "forte",
+     "porta": "PT-SCR",
+     "facoltativi": [
+      "L'Eneuma Elish",
+      "il re assiro"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 31.3259,
+      "lon": 45.6374,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": null,
+     "giorni": null,
+     "km_cumulativi": 0,
+     "giorni_cumulativi": 0
+    },
+    {
+     "ordine": 2,
+     "tappa": "4-2",
+     "argomento": "Pile e code",
+     "strato": "S67",
+     "luogo": "Il Cairo e le carovane",
+     "voce": "Ibn Battuta",
+     "voce_id": "Q202",
+     "forza": "forte",
+     "porta": "PT-MAR",
+     "facoltativi": [
+      "Ibn Jubayr",
+      "i portatori d'acqua"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 1383.5,
+     "giorni": 23,
+     "km_cumulativi": 1384,
+     "giorni_cumulativi": 23
+    },
+    {
+     "ordine": 3,
+     "tappa": "4-3",
+     "argomento": "Classi e oggetti",
+     "strato": "S63",
+     "luogo": "Xianyang",
+     "voce": "Qin Shi Huang",
+     "voce_id": "Q203",
+     "forza": "forte",
+     "porta": "PT-REG",
+     "facoltativi": [
+      "Il figlio di Shi Huangdi",
+      "gli scribi"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 34.32972,
+      "lon": 108.70917,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 7123.4,
+     "giorni": 119,
+     "km_cumulativi": 8507,
+     "giorni_cumulativi": 142
+    },
+    {
+     "ordine": 4,
+     "tappa": "4-4",
+     "argomento": "Attributi, metodi, costruttori",
+     "strato": "S62",
+     "luogo": "Tebe",
+     "voce": "Hatshepsut",
+     "voce_id": "Q204",
+     "forza": "forte",
+     "porta": "PT-REG",
+     "facoltativi": [
+      "Nefertari",
+      "i sacerdoti di Amun"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 25.7188,
+      "lon": 32.6573,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 7217.5,
+     "giorni": 120,
+     "km_cumulativi": 15724,
+     "giorni_cumulativi": 262
+    },
+    {
+     "ordine": 5,
+     "tappa": "4-5",
+     "argomento": "Incapsulamento",
+     "strato": "S73",
+     "luogo": "Agra",
+     "voce": "Akbar",
+     "voce_id": "Q205",
+     "forza": "medio",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "Abul Fazl",
+      "le città nuove"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 27.18,
+      "lon": 78.02,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 4494.3,
+     "giorni": 75,
+     "km_cumulativi": 20219,
+     "giorni_cumulativi": 337
+    },
+    {
+     "ordine": 6,
+     "tappa": "4-6",
+     "argomento": "Ereditarietà",
+     "strato": "S68",
+     "luogo": "Karakorum",
+     "voce": "Gengis Khan",
+     "voce_id": "Q206",
+     "forza": "forte",
+     "porta": "PT-ORR",
+     "facoltativi": [
+      "I quattro khanati",
+      "i cronachi cinesi"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 47.1757,
+      "lon": 102.3338,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 3070.6,
+     "giorni": 51,
+     "km_cumulativi": 23289,
+     "giorni_cumulativi": 388
+    },
+    {
+     "ordine": 7,
+     "tappa": "4-7",
+     "argomento": "Polimorfismo e interfacce",
+     "strato": "S73",
+     "luogo": "Hannover",
+     "voce": "Leibniz (Q207, *aggiunta*)",
+     "voce_id": null,
+     "forza": "medio",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "Newton",
+      "Hooke"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 52.37444,
+      "lon": 9.73861,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 6204.5,
+     "giorni": 103,
+     "km_cumulativi": 29494,
+     "giorni_cumulativi": 491
+    },
+    {
+     "ordine": 8,
+     "tappa": "4-8",
+     "argomento": "Diagramma UML delle classi",
+     "strato": "S73",
+     "luogo": "Uppsala",
+     "voce": "Carl Linneo",
+     "voce_id": "Q208",
+     "forza": "forte",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "I lini",
+      "le critiche alla classificazione"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 59.85,
+      "lon": 17.63333,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 963.2,
+     "giorni": 16,
+     "km_cumulativi": 30457,
+     "giorni_cumulativi": 507
+    },
+    {
+     "ordine": 9,
+     "tappa": "4-9",
+     "argomento": "Liste collegate e riferimenti",
+     "strato": "S69",
+     "luogo": "Il Cairo `A`, con Timbuctù `S`",
+     "voce": "Mansa Musa",
+     "voce_id": "Q209",
+     "forza": "forte",
+     "porta": "PT-MAR",
+     "facoltativi": [
+      "I mercanti di Songhai",
+      "Ibn Battuta"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 3467.3,
+     "giorni": 58,
+     "km_cumulativi": 33924,
+     "giorni_cumulativi": 565
+    },
+    {
+     "ordine": 10,
+     "tappa": "4-10",
+     "argomento": "Prova di corte: modellare un sistema a oggetti",
+     "strato": "S72",
+     "luogo": "Ferrara, corte",
+     "voce": "Ercole II d'Este",
+     "voce_id": "Q210",
+     "forza": "forte",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "I magazzinieri",
+      "Lucrezia Borgia"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 2376.6,
+     "giorni": 40,
+     "km_cumulativi": 36301,
+     "giorni_cumulativi": 605
+    },
+    {
+     "ordine": 11,
+     "tappa": "4-11",
+     "argomento": "Implementare un linguaggio",
+     "strato": "S67",
+     "luogo": "Baghdad",
+     "voce": "Al-Khwarizmi",
+     "voce_id": "Q211",
+     "forza": "forte",
+     "porta": "PT-SCR",
+     "facoltativi": [
+      "Tim Berners-Lee  forte dal 02/10/2026)",
+      "Robert of Chester",
+      "il libro dell'algebra"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 33.31528,
+      "lon": 44.36611,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 3076.3,
+     "giorni": 51,
+     "km_cumulativi": 39377,
+     "giorni_cumulativi": 656
+    },
+    {
+     "ordine": 12,
+     "tappa": "4-12",
+     "argomento": "Analisi lessicale: i token",
+     "strato": "S63",
+     "luogo": "Qufu",
+     "voce": "Confucio",
+     "voce_id": "Q212",
+     "forza": "forte",
+     "porta": "PT-SCR",
+     "facoltativi": [
+      "Il dizionario di Mengxi",
+      "i calligrafi"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 35.6,
+      "lon": 116.98333,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 6503.2,
+     "giorni": 108,
+     "km_cumulativi": 45880,
+     "giorni_cumulativi": 764
+    },
+    {
+     "ordine": 13,
+     "tappa": "4-13",
+     "argomento": "Grammatiche e sintassi (BNF)",
+     "strato": "S65",
+     "luogo": "Alessandria",
+     "voce": "Ipazia",
+     "voce_id": "Q213",
+     "forza": "medio",
+     "porta": "PT-ORR",
+     "facoltativi": [
+      "I sacerdoti di Soknopaiou Nesos",
+      "le tre scritture"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 44.91667,
+      "lon": 8.61667,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 8531.6,
+     "giorni": 142,
+     "km_cumulativi": 54412,
+     "giorni_cumulativi": 906
+    },
+    {
+     "ordine": 14,
+     "tappa": "4-14",
+     "argomento": "Alberi sintattici e valutazione",
+     "strato": "S71",
+     "luogo": "Tenochtitlán",
+     "voce": "Moctezuma II",
+     "voce_id": "Q214",
+     "forza": "medio",
+     "porta": "PT-REG",
+     "facoltativi": [
+      "Tlacaelel",
+      "i calendari"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 19.435,
+      "lon": -99.13139,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 9807.6,
+     "giorni": 163,
+     "km_cumulativi": 64220,
+     "giorni_cumulativi": 1069
+    },
+    {
+     "ordine": 15,
+     "tappa": "4-15",
+     "argomento": "Un mini-interprete",
+     "strato": "S64",
+     "luogo": "Chio e la Ionia",
+     "voce": "Omero",
+     "voce_id": "Q215",
+     "forza": "forte",
+     "porta": "PT-ORR",
+     "facoltativi": [
+      "I rapsodi",
+      "Pisistrato"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 38.3667,
+      "lon": 26.0333,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 11416.2,
+     "giorni": 190,
+     "km_cumulativi": 75636,
+     "giorni_cumulativi": 1259
+    },
+    {
+     "ordine": 16,
+     "tappa": "4-16",
+     "argomento": "Dato, informazione, archivio",
+     "strato": "S66",
+     "luogo": "Pataliputra",
+     "voce": "Ashoka (Q216, *sostituisce Ibn Khaldun dal 02/10/2026, v. §0.4*)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": "PT-SCR",
+     "facoltativi": [
+      "Ibn Khaldun  forte, era la voce obbligatoria)",
+      "Cesare",
+      "i monaci buddisti"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 25.5941,
+      "lon": 85.1376,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 5655.3,
+     "giorni": 94,
+     "km_cumulativi": 81291,
+     "giorni_cumulativi": 1353
+    },
+    {
+     "ordine": 17,
+     "tappa": "4-17",
+     "argomento": "Modello E/R: entità, attributi, relazioni",
+     "strato": "S74",
+     "luogo": "Bombay e Delhi",
+     "voce": "B. R. Ambedkar",
+     "voce_id": "Q217",
+     "forza": "forte",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "Il tempio di Kalaram",
+      "il poeta"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 28.6139,
+      "lon": 77.209,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 853.4,
+     "giorni": 14,
+     "km_cumulativi": 82144,
+     "giorni_cumulativi": 1367
+    },
+    {
+     "ordine": 18,
+     "tappa": "4-18",
+     "argomento": "Cardinalità e vincoli",
+     "strato": "S72",
+     "luogo": "Costantinopoli",
+     "voce": "Solimano il Magnifico",
+     "voce_id": "Q218",
+     "forza": "forte",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "I millet",
+      "Ibrahim, fratello del sultano"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 41.01224,
+      "lon": 28.97602,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 4551.3,
+     "giorni": 76,
+     "km_cumulativi": 86696,
+     "giorni_cumulativi": 1443
+    },
+    {
+     "ordine": 19,
+     "tappa": "4-19",
+     "argomento": "Modello relazionale: tabelle e chiavi",
+     "strato": "S67",
+     "luogo": "Il Cairo",
+     "voce": "Ibn al-Haytham",
+     "voce_id": "Q219",
+     "forza": "medio",
+     "porta": "PT-LAB",
+     "facoltativi": [
+      "Il Libro degli specchi",
+      "il muḥtasib"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 30.05806,
+      "lon": 31.22889,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1234.9,
+     "giorni": 21,
+     "km_cumulativi": 87931,
+     "giorni_cumulativi": 1464
+    },
+    {
+     "ordine": 20,
+     "tappa": "4-20",
+     "argomento": "Prova di corte: progettare uno schema E/R",
+     "strato": "S74",
+     "luogo": "Ferrara e il regno",
+     "voce": "I censori (Q220, collettivo `C`)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": "PT-REG",
+     "facoltativi": [
+      "Gli ufficiali del catasto",
+      "il censitore cinese"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 2375.0,
+     "giorni": 40,
+     "km_cumulativi": 90306,
+     "giorni_cumulativi": 1504
+    },
+    {
+     "ordine": 21,
+     "tappa": "4-21",
+     "argomento": "Dall'E/R allo schema relazionale",
+     "strato": "S71",
+     "luogo": "Toledo",
+     "voce": "Isabella di Castiglia",
+     "voce_id": "Q221",
+     "forza": "forte",
+     "porta": "PT-CRR",
+     "facoltativi": [
+      "I censitori",
+      "i funzionari dell'archivio"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "verificata",
+     "punto": {
+      "lat": 39.86666,
+      "lon": -4.03333,
+      "fonte": "registro"
+     },
+     "km_dalla_precedente": 1397.1,
+     "giorni": 23,
+     "km_cumulativi": 91703,
+     "giorni_cumulativi": 1527
+    },
+    {
+     "ordine": 22,
+     "tappa": "4-22",
+     "argomento": "Normalizzazione (fino alla 3FN)",
+     "strato": "S61",
+     "luogo": "Babilonia",
+     "voce": "Hammurabi",
+     "voce_id": "Q222",
+     "forza": "forte",
+     "porta": "PT-SCR",
+     "facoltativi": [
+      "Il codice",
+      "la stele di Nippur"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_a_mano",
+     "punto": {
+      "lat": 32.5422,
+      "lon": 44.4214,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 4369.1,
+     "giorni": 73,
+     "km_cumulativi": 96072,
+     "giorni_cumulativi": 1600
+    },
+    {
+     "ordine": 23,
+     "tappa": "4-23",
+     "argomento": "Algebra relazionale: selezione, proiezione, join",
+     "strato": "S71",
+     "luogo": "Lisbona e Calicut",
+     "voce": "Vasco da Gama",
+     "voce_id": "Q223",
+     "forza": "forte",
+     "porta": "PT-MAR",
+     "facoltativi": [
+      "I piloti di Malindi",
+      "Ahmad ibn Majid"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 11.2588,
+      "lon": 75.7804,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 3981.2,
+     "giorni": 66,
+     "km_cumulativi": 100053,
+     "giorni_cumulativi": 1666
+    },
+    {
+     "ordine": 24,
+     "tappa": "4-24",
+     "argomento": "SQL: creare e modificare",
+     "strato": "S70",
+     "luogo": "Nanchang e il mare",
+     "voce": "Zheng He",
+     "voce_id": "Q224",
+     "forza": "forte",
+     "porta": "PT-MAR",
+     "facoltativi": [
+      "Ma Huan",
+      "i cantieri"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 28.682,
+      "lon": 115.8579,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 4584.5,
+     "giorni": 76,
+     "km_cumulativi": 104638,
+     "giorni_cumulativi": 1742
+    },
+    {
+     "ordine": 25,
+     "tappa": "4-25",
+     "argomento": "SQL: SELECT, WHERE, ORDER BY",
+     "strato": "S74",
+     "luogo": "Annapolis e Baltimora",
+     "voce": "Frederick Douglass",
+     "voce_id": "Q225",
+     "forza": "forte",
+     "porta": "PT-REG",
+     "facoltativi": [
+      "Sojourner Truth",
+      "i censitori"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 39.2904,
+      "lon": -76.6122,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 12347.2,
+     "giorni": 206,
+     "km_cumulativi": 116985,
+     "giorni_cumulativi": 1948
+    },
+    {
+     "ordine": 26,
+     "tappa": "4-26",
+     "argomento": "SQL: JOIN",
+     "strato": "S71",
+     "luogo": "Spagna e Tenochtitlán",
+     "voce": "Hernán Cortés",
+     "voce_id": "Q226",
+     "forza": "forte",
+     "porta": "PT-ORR",
+     "facoltativi": [
+      "Las Casas",
+      "i signori di Tlaxcala"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 19.4351,
+      "lon": -99.1312,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 3086.8,
+     "giorni": 51,
+     "km_cumulativi": 120072,
+     "giorni_cumulativi": 1999
+    },
+    {
+     "ordine": 27,
+     "tappa": "4-27",
+     "argomento": "SQL: aggregazioni e GROUP BY",
+     "strato": "S74",
+     "luogo": "Scutari e Costantinopoli",
+     "voce": "Florence Nightingale",
+     "voce_id": "Q227",
+     "forza": "forte",
+     "porta": "PT-LAB",
+     "facoltativi": [
+      "Gorgas",
+      "i soldati"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 41.0122,
+      "lon": 28.9794,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 11426.1,
+     "giorni": 190,
+     "km_cumulativi": 131498,
+     "giorni_cumulativi": 2189
+    },
+    {
+     "ordine": 28,
+     "tappa": "4-28",
+     "argomento": "SQL da Python ★",
+     "strato": "S75",
+     "luogo": "Motihari e Londra",
+     "voce": "George Orwell",
+     "voce_id": "Q228",
+     "forza": "forte",
+     "porta": "PT-SCR",
+     "facoltativi": [
+      "Il lavoro alla BBC",
+      "la revisione spagnola"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 2500.6,
+     "giorni": 42,
+     "km_cumulativi": 133998,
+     "giorni_cumulativi": 2231
+    },
+    {
+     "ordine": 29,
+     "tappa": "4-29",
+     "argomento": "Privacy, GDPR, open data",
+     "strato": "S74",
+     "luogo": "Parigi e Varsavia",
+     "voce": "Marie Curie",
+     "voce_id": "Q229",
+     "forza": "forte",
+     "porta": "PT-LAB",
+     "facoltativi": [
+      "Malala Yousafzai  forte dal 02/10/2026)",
+      "il libro di Irène",
+      "l'Accademia"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "non_e_un_luogo",
+     "punto": {
+      "lat": 52.2297,
+      "lon": 21.0122,
+      "fonte": "ipotesi_documentata"
+     },
+     "km_dalla_precedente": 1448.5,
+     "giorni": 24,
+     "km_cumulativi": 135447,
+     "giorni_cumulativi": 2255
+    },
+    {
+     "ordine": 30,
+     "tappa": "4-30",
+     "argomento": "Prova finale: database e applicazione a oggetti",
+     "strato": "S75",
+     "luogo": "Ferrara, archivio",
+     "voce": "Le persone che non hanno firmato (Q230, collettivo `C`)",
+     "voce_id": null,
+     "forza": "forte",
+     "porta": "PT-VOC",
+     "facoltativi": [
+      "Le voci senza nome",
+      "Ercole II"
+     ],
+     "facoltativi_troncate": false,
+     "luogo_registro": null,
+     "punto_stato": "da_geocodificare_wfs",
+     "punto": {
+      "lat": 44.838137,
+      "lon": 11.619641,
+      "fonte": "ipotesi_argomentata"
+     },
+     "km_dalla_precedente": 1072.4,
+     "giorni": 18,
+     "km_cumulativi": 136519,
+     "giorni_cumulativi": 2273
+    }
+   ],
+   "riepilogo": {
+    "tappe": 30,
+    "con_punto": 30,
+    "senza_punto": [],
+    "km_totali": 136519,
+    "giorni_totali": 2273,
+    "voci_obbligatorie": 30,
+    "facoltative_dichiarate": 63
+   }
+  }
+ }
+}

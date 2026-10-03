@@ -163,8 +163,8 @@
    "5-30"
   ],
   "ipotesi_per_grado": {
-   "argomentata": 21,
-   "documentata": 28,
+   "argomentata": 22,
+   "documentata": 27,
    "immaginata": 2
   },
   "disegnabili": 148,
@@ -180,9 +180,9 @@
    "porta": 5,
    "area": 5,
    "citta": 65,
-   "citta_antica": 11,
+   "citta_antica": 12,
    "situazione": 11,
-   "percorso": 11
+   "percorso": 10
   },
   "costruiti": [
    "1-1"
@@ -7613,18 +7613,18 @@
    "porta": "PT-SCR",
    "stanza": null,
    "stanza_dettaglio": null,
-   "luogo": "Tunisi e Il Cairo",
+   "luogo": "Pataliputra",
    "lat": null,
    "lon": null,
-   "coord_stato": "non_e_un_luogo",
+   "coord_stato": "da_geocodificare_a_mano",
    "fonte_coord": null,
    "terreno": null,
    "ambiente": {
-    "tipo": "percorso",
+    "tipo": "citta_antica",
     "tipo_da": "luoghi_gioco.tipo",
     "griglia": {
-     "colonne": 34,
-     "righe": 10,
+     "colonne": 30,
+     "righe": 22,
      "scala_m_per_tessera": 1.5
     },
     "griglia_da": "GRIGLIE di sorgenti/ambienti_livelli.py: scelta di progetto, non un dato della fonte",
@@ -7648,41 +7648,26 @@
      "azzurro_oltremare",
      "oro"
     ],
-    "paleta_fonte": "dati/fonti_visive/tavolozza.json",
-    "tratto": {
-     "colonne": 34,
-     "righe": 10,
-     "scala_m_per_tessera": 1.5
-    }
+    "paleta_fonte": "dati/fonti_visive/tavolozza.json"
    },
    "ipotesi": {
-    "grado": "documentata",
-    "frase": "Due citta' e un nome solo: e' una strada, e il pin e' dove si arriva.",
-    "fonte": "ashoka e il Mediterraneo del quarto anno: partenza Tunisi, arrivo Il Cairo",
-    "tratto": {
-     "da": {
-      "lat": 36.8065,
-      "lon": 10.1815
-     },
-     "a": {
-      "lat": 30.0444,
-      "lon": 31.2357
-     },
-     "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
-    },
+    "grado": "argomentata",
+    "frase": "Ashoka governa da Pataliputra. Il punto e' la citta' di oggi, che sta dove stava allora: la citta' antica era piu' grande e il gioco non ne traccia il bordo.",
+    "fonte": "Pataliputra, capitale dell'impero mauryana: il sito corrisponde all'odierna Patna (25.5941 N 85.1376 E). Il punto e' il centro della citta' moderna e non il perimetro della citta' antica, che non e' una forma nota: percio' il grado e' argomentata e il raggio dichiarato e' 1500 metri. Il luogo che qui stava prima, Tunisi e Il Cairo, era quello di Ibn Khaldun, che il 02/10/2026 e' diventato facoltativa della stessa tappa: il documento dell'anno 4 era gia' stato aggiornato, il registro no",
+    "tratto": null,
     "parte_non_luogo": null,
     "file": "dati/ipotesi_luoghi.json"
    },
    "vuoti": [
-    "coordinate_non_e_un_luogo",
+    "coordinate_da_geocodificare_a_mano",
     "orientamento_non_dichiarato",
     "senza_sagome_osm"
    ],
    "pin_da_disegnare": {
-    "lat": 30.0444,
-    "lon": 31.2357,
-    "grado": "documentata",
-    "raggio_m": null,
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "grado": "argomentata",
+    "raggio_m": 1500,
     "fonte": "dati/ipotesi_luoghi.json"
    }
   },

@@ -2043,8 +2043,8 @@
    "dettagli": []
   },
   {
-   "luogo": "Tunisi e Il Cairo",
-   "tipo": "percorso",
+   "luogo": "Pataliputra",
+   "tipo": "citta_antica",
    "tappe": [
     "4-16"
    ],
@@ -2056,9 +2056,15 @@
    "lon": null,
    "articolo": null,
    "fonte_coord": null,
-   "coord_stato": "non_e_un_luogo",
-   "perche": "due o piu' luoghi nella stessa casella: e' una strada, non un punto",
-   "dettagli": []
+   "coord_stato": "da_geocodificare_a_mano",
+   "perche": "la capitale mauryana, al posto di Tunisi e Il Cairo che era il luogo di Ibn Khaldun: la sostituzione del 02/10/2026 ha aggiornato il documento dell'anno 4 e non il registro",
+   "dettagli": [
+    {
+     "voce": "Pataliputra",
+     "attribuzione": "capitale dell'impero mauryana, sul Gange; il sito corrisponde all'odierna Patna",
+     "nota": "l'identificazione e' dichiarata, non data per scontata: il punto che il gioco usa e' il centro della citta' moderna"
+    }
+   ]
   },
   {
    "luogo": "Uppsala",

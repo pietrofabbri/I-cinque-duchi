@@ -105,6 +105,7 @@ GRADI = {
 # riga, perché la stessa cifra in due posti è il difetto che questo progetto ha
 # già insegnato a cercare (Karakorum due volte, Baghdad per la cifra).
 P = {
+    "patna": (25.5941, 85.1376),             # Pataliputra = l'odierna Patna, 4-16
     "castello": (44.838137, 11.619641),      # Castello Estense, 1-8
     "addizione": (44.8440, 11.6390),         # area dell'Addizione Erculea
     "certosa": (44.844161, 11.625337),       # 1-29, ingresso della Certosa
@@ -308,13 +309,18 @@ IPOTESI = [
                "non un punto (R5)",
          frase="«Chio e la Ionia»: Chio e' un'isola e si puo' puntare, la Ionia "
                "e' una regione e no. Il pin e' Chio, e la regione resta a parole."),
-    dict(tappa="4-16", luogo="Tunisi e Il Cairo", grado="documentata",
-         punto=P["cairo"], tratto=(P["tunisi"], P["cairo"]),
-         fonte="ashoka e il Mediterraneo del quarto anno: partenza Tunisi, "
-               "arrivo Il Cairo",
-         frase="Due citta' e un nome solo: e' una strada, e il pin e' dove si "
-               "arriva."),
-    dict(tappa="4-17", luogo="Bombay e Delhi", grado="documentata",
+    dict(tappa="4-16", luogo="Pataliputra", grado="argomentata",
+         punto=P["patna"], raggio=1500,
+         fonte="Pataliputra, capitale dell'impero mauryana: il sito corrisponde all'odierna "
+               "Patna (25.5941 N 85.1376 E). Il punto e' il centro della citta' moderna e non "
+               "il perimetro della citta' antica, che non e' una forma nota: percio' il grado e' "
+               "argomentata e il raggio dichiarato e' 1500 metri. Il luogo che qui stava prima, "
+               "Tunisi e Il Cairo, era quello di Ibn Khaldun, che il 02/10/2026 e' diventato "
+               "facoltativa della stessa tappa: il documento dell'anno 4 era gia' stato "
+               "aggiornato, il registro no",
+         frase="Ashoka governa da Pataliputra. Il punto e' la citta' di oggi, che sta dove "
+               "stava allora: la citta' antica era piu' grande e il gioco non ne traccia il bordo."),
+dict(tappa="4-17", luogo="Bombay e Delhi", grado="documentata",
          punto=P["delhi"], tratto=(P["mumbai"], P["delhi"]),
          fonte="Ambedkar: la citta' dove nasce e lavora. Il pin e' Delhi, e la "
                "strada parte da Bombay",

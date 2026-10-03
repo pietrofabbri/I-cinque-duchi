@@ -71,6 +71,12 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 - **Nessuna stanza ha un disegno proprio** (`furioso.md` §4.12): la stanza del filone prende il **pin reale e verificato** del personaggio e ne cambia solo l'etichetta. Non illustrare le stanze e non disegnare una carta per esse.
 
+**La sequenza delle tappe** (trasversale, vedi `sequenza.md`, del 03/10/2026)
+- **Le tabelle della sequenza non si scrivono a mano**: le genera `sorgenti/sequenza_tappe.py` leggendo le tabelle delle trenta tappe dei documenti d'anno. Se il generatore non le aggiorna, la tabella mente senza che nessuno se ne accorga.
+- **Una tappa ha un solo luogo, e le due fonti devono dirlo insieme**: il registro dei luoghi e il documento d'anno. Se non coincidono, la divergenza si scrive in `dati/sequenza_tappe.json` con la sua dichiarazione, e la verifica **S7** la segnala se manca. È nato dalla **4-16** (il registro portava ancora il luogo di Ibn Khaldun dopo che il documento era passato ad Ashoka) e dalla **3-28** (Torino nel documento, Manchester nel registro: **non decisa, dichiarata**).
+- **Le colonne si leggono per intestazione, non per numero**: il quarto anno ha due colonne in più della seconda e della terza, e un parser che conta le barre mette i nomi nelle colonne sbagliate senza accorgersene.
+- **Le facoltative stanno fuori dalla sequenza**: sono facoltative per definizione, e una sequenza che le include mente sul percorso che il giocatore fa.
+
 **I premi** (trasversale, vedi `premi.md`, del 03/10/2026)
 - **Un premio è un oggetto vero che il ragazzo guarda e che gli dice che cosa sa adesso**: non una medaglia, non un punto, non una promessa. Le **dieci categorie** sono un elenco **chiuso**: unaundicesima non si aggiunge quando manca un premio, si usa una delle dieci o si dichiara il vuoto.
 - **Quattro prove, e tutte e quattro**: esiste e si può vedere (licenza libera, etichetta, autore, data); **insegna il livello** (senza questa è una decorazione); **non è già nella storia** (il premio è la scoperta, non il ripasso); **non è un duplicato** (due premi uguali sono uno solo).

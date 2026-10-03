@@ -20,11 +20,11 @@
  "riepilogo": {
   "tappe": 51,
   "per_grado": {
-   "argomentata": 21,
-   "documentata": 28,
+   "argomentata": 22,
+   "documentata": 27,
    "immaginata": 2
   },
-  "con_tratto": 8,
+  "con_tratto": 7,
   "coordinate_disponibili": 49,
   "senza_punto_per_decisione": 2
  },
@@ -339,25 +339,14 @@
   },
   {
    "tappa": "4-16",
-   "luogo": "Tunisi e Il Cairo",
-   "grado": "documentata",
-   "lat": 30.0444,
-   "lon": 31.2357,
-   "raggio_m": null,
+   "luogo": "Pataliputra",
+   "grado": "argomentata",
+   "lat": 25.5941,
+   "lon": 85.1376,
+   "raggio_m": 1500,
    "parte_non_luogo": null,
-   "fonte": "ashoka e il Mediterraneo del quarto anno: partenza Tunisi, arrivo Il Cairo",
-   "frase": "Due citta' e un nome solo: e' una strada, e il pin e' dove si arriva.",
-   "tratto": {
-    "da": {
-     "lat": 36.8065,
-     "lon": 10.1815
-    },
-    "a": {
-     "lat": 30.0444,
-     "lon": 31.2357
-    },
-    "regola": "nel nome «A e B» A e' la partenza e B e' l'arrivo; il pin e' l'arrivo e la linea e' il tratto fra i due"
-   }
+   "fonte": "Pataliputra, capitale dell'impero mauryana: il sito corrisponde all'odierna Patna (25.5941 N 85.1376 E). Il punto e' il centro della citta' moderna e non il perimetro della citta' antica, che non e' una forma nota: percio' il grado e' argomentata e il raggio dichiarato e' 1500 metri. Il luogo che qui stava prima, Tunisi e Il Cairo, era quello di Ibn Khaldun, che il 02/10/2026 e' diventato facoltativa della stessa tappa: il documento dell'anno 4 era gia' stato aggiornato, il registro no",
+   "frase": "Ashoka governa da Pataliputra. Il punto e' la citta' di oggi, che sta dove stava allora: la citta' antica era piu' grande e il gioco non ne traccia il bordo."
   },
   {
    "tappa": "4-17",
