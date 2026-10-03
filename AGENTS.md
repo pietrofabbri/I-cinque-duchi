@@ -71,6 +71,14 @@ Questo file serve a chiunque riprenda il lavoro senza il contesto delle conversa
 
 - **Nessuna stanza ha un disegno proprio** (`furioso.md` §4.12): la stanza del filone prende il **pin reale e verificato** del personaggio e ne cambia solo l'etichetta. Non illustrare le stanze e non disegnare una carta per esse.
 
+**L'inventario** (trasversale, vedi `inventario.md`, del 03/10/2026)
+- **Gli elementi con cui si gioca sono un elenco chiuso di sette**: la voce, l'oggetto di interazione, il pin e la strada, il test di ingresso, il richiamo all'origine, il premio, la fascia. Ognuno dichiara **che cosa dà in cambio** e **se è facoltativo**: se un nuovo elemento non ha le due cose, non entra.
+- **Cinque su sette sono facoltativi**, e non è generosità: sono i cinci che il progetto può rendere opzionali senza che il livello perda il nucleo.
+- **Un premio per livello, e va nella salvadanaio**: la salvadanaio contiene i premi, **non le loro immagini**, e i quattro registri personali devono essere **rileggibili dal gioco** (un registro che il gioco non sa rileggere si perde alla prima reinstallazione).
+- **Ogni premio porta tre righe** — `chi`, `cosa`, `riflessione` — e la terza è una **prova, non una formula**: «se non ci fosse stato lui oggi non potremmo…» è la forma, e vale solo per i premi che sono persone. Se la riflessione si può scrivere senza pensarci, il premio è decorativo e non entra.
+- **La lingua dei segni ha una categoria tutta sua, la K**: la scheda che il giocatore ha prodotto. Non esistono centocinquanta figure sorde storiche documentabili, e comunque **il gioco non sa disegnare la propria lingua dei segni**: è il più grande limite che ha, ed è dichiarato.
+- **Nessun elemento promette un vantaggio futuro**: l'unica riga in cui il gioco non dà niente è quella della fascia, ed è l'unica in cui il giocatore scrive.
+
 **La sequenza delle tappe** (trasversale, vedi `sequenza.md`, del 03/10/2026)
 - **Le tabelle della sequenza non si scrivono a mano**: le genera `sorgenti/sequenza_tappe.py` leggendo le tabelle delle trenta tappe dei documenti d'anno. Se il generatore non le aggiorna, la tabella mente senza che nessuno se ne accorga.
 - **Una tappa ha un solo luogo, e le due fonti devono dirlo insieme**: il registro dei luoghi e il documento d'anno. Se non coincidono, la divergenza si scrive in `dati/sequenza_tappe.json` con la sua dichiarazione, e la verifica **S7** la segnala se manca. È nato dalla **4-16** (il registro portava ancora il luogo di Ibn Khaldun dopo che il documento era passato ad Ashoka) e dalla **3-28** (Torino nel documento, Manchester nel registro: **non decisa, dichiarata**).

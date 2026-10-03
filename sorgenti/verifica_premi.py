@@ -25,7 +25,7 @@ DOC = os.path.join(RADICE, "docs", "videogioco-5-duchi-premi.md")
 LINGUE = os.path.join(RADICE, "docs", "videogioco-5-duchi-lingue.md")
 QUADRO = os.path.join(RADICE, "docs", "videogioco-5-duchi-quadro-trasversale.md")
 
-CATEGORIE = list("ABCDEFGHIJ")
+CATEGORIE = list("ABCDEFGHIJK")
 
 # Le discipline del gioco, dove l'informatica e' esclusa per decisione di Pietro.
 DISCIPLINE = ("Italiano", "Ferrarese", "Latino", "Inglese", "Lingua dei segni",
@@ -63,8 +63,8 @@ def main():
     quadro = leggi(QUADRO)
     problemi = []
 
-    print("== P1. le dieci categorie sono A..J, senza buchi ==")
-    tabelle = re.findall(r"^\| \*\*([A-J])\*\* \| ([^|]+) \|", doc, re.M)
+    print("== P1. le undici categorie sono A..K, senza buchi ==")
+    tabelle = re.findall(r"^\| \*\*([A-K])\*\* \| ([^|]+) \|", doc, re.M)
     trovate = [c for c, _ in tabelle]
     print("   categorie trovate: %s" % ", ".join(trovate))
     if trovate != CATEGORIE:
@@ -83,7 +83,7 @@ def main():
     # dichiarazione di eccezione puo' stare in una qualunque delle tre, e in
     # questa tabella sta nella quarta, percio' si cerca nella riga intera
     primarie = {nome.strip(): (r[0], " ".join(r)) for nome, *r in righe}
-    eccezioni = ("Lingua dei segni", "Osservazione e attenzione")
+    eccezioni = ("Osservazione e attenzione",)
     for d in DISCIPLINE:
         if d not in primarie:
             problemi.append("P2: la disciplina «%s» non ha riga" % d)
@@ -92,7 +92,7 @@ def main():
             # devono dirlo anche nella riga, altrimenti l'eccezione e' invisibile
             if not re.search(r"nessuna delle dieci|da[_ ]costruire|non esiste ancora", primarie[d][1]):
                 problemi.append("P2: «%s» e' eccezione ma la sua riga non lo dice" % d)
-        elif not re.search(r"\*\*[A-J]\*\*", primarie[d][0]):
+        elif not re.search(r"\*\*[A-K]\*\*", primarie[d][0]):
             problemi.append("P2: «%s» non ha una categoria primaria dichiarata" % d)
     print("   discipline con riga: %d su %d (eccezioni dichiarate: %s)"
           % (len(primarie), len(DISCIPLINE), ", ".join(eccezioni)))
@@ -109,7 +109,7 @@ def main():
         prem, stato = premia[dominio]
         vuoto = "nessuno" in prem or "nessuna" in prem
         print("   %-30s %s (%s)" % (dominio, "senza premio" if vuoto else "con premio", stato))
-        if not vuoto and not re.search(r"\*\*[A-J]\*\*", prem):
+        if not vuoto and not re.search(r"\*\*[A-K]\*\*", prem):
             problemi.append("P3: `%s` ha un premio ma nessuna categoria" % dominio)
         if stato not in STATI:
             problemi.append("P3: `%s` ha lo stato «%s», che non e' fra %s"
@@ -152,7 +152,7 @@ def main():
             print("   difetto: " + p)
         print("\nproblemi: %d" % len(problemi))
         return 1
-    print("   nessun difetto: le dieci categorie sono chiuse, le discipline hanno un premio, i sei domini sono dichiarati")
+    print("   nessun difetto: le undici categorie sono chiuse, le discipline hanno un premio, i sei domini sono dichiarati")
     print("\n==== controlli superati: 5/5 ====")
     return 0
 
